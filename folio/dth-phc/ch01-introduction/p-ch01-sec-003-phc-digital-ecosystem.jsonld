@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch01-sec-003-phc-digital-ecosystem",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch01-sec-003-phc-digital-ecosystem",
+  "kind": "prose",
+  "title": "Primary health care digital ecosystem and workflow-based optimization",
+  "uses": [
+    "papers/dth-phc/blocks/rec-who-2019-digital-tracking-decision-support"
+  ],
+  "text": "p-ch01-sec-003-phc-digital-ecosystem.md",
+  "meta": {
+    "title": "Primary health care digital ecosystem and workflow-based optimization",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-003-introduction",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-003-introduction.md",
+      "pdfPages": [
+        15,
+        16,
+        17
+      ],
+      "method": "l1-section-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/primary-health-care",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-health-ecosystem",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-process",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/workflow",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/care-pathway",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/longitudinal-tracking",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-information-exchange"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "id": "id-808925f4d2075d7b95e0651ebae00fcf",
+        "name": "Point-of-service application"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+        "id": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+        "name": "Electronic health record system"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+        "name": "Decision support system"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+        "id": "id-3acafd57e8cc5d4198ffcb29d39c1184",
+        "name": "Community-based information system"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+        "id": "id-9a31cf86a4685fb0ae0c460d973e2031",
+        "name": "Personal health record"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+        "id": "id-f180ad44b2e94e2a9ee8523ffc900264",
+        "name": "Shared Health Record"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
+        "id": "id-74b83b6a6d8e53a99573467ad6f7ae41",
+        "name": "Longitudinal tracking"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+        "id": "id-3fd92d497ca040c8a436f355c0b68770",
+        "name": "Analytics & Reporting Platform"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
+        "id": "id-cefde7ed0dcd47d3bb214657ac3e5725",
+        "name": "SHR"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+        "id": "id-4c98f10e0a244315acddaf5257c7822e",
+        "name": "CDS"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-3ad41900b17d47f78129e16d32ed2f38.jsonld",
+        "id": "id-3ad41900b17d47f78129e16d32ed2f38",
+        "name": "Components"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+          "name": "Electronic health record system"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "name": "Decision support system"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+          "name": "Community-based information system"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+          "name": "Personal health record"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+          "name": "Shared Health Record"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
+          "name": "Longitudinal tracking"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "name": "Analytics & Reporting Platform"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
+          "name": "SHR"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "name": "CDS"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-3ad41900b17d47f78129e16d32ed2f38.jsonld",
+          "name": "Components"
+        }
+      ]
+    }
+  },
+  "provenance": "authored"
+}

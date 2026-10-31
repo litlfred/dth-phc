@@ -230,6 +230,130 @@ for (const file of glossaryFiles) {
   );
 }
 
+
+// 3. Validate folio/dth-phc block manifests (L1 source provenance, glossary links, ArchiMate links)
+if (existsSync(FOLIO_DIR)) {
+  const localGlossaryIds = loadGlossaryIds(join(GLOSSARY_DIR, "dth-phc.glossary.json"));
+  const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/";
+  const raArchimateIds = new Set<string>();
+  const raCfgPath = join(ROOT, "dpi-h-ra/archimate/cat-archimate.config.json");
+  if (existsSync(raCfgPath)) {
+    const { readArchimate } = await import("../../cat-harness-tools/archimate/schemas/archimate.ts");
+    const cfg = JSON.parse(readFileSync(raCfgPath, "utf8"));
+    for (const cm of cfg.models ?? []) {
+      const mp = join(ROOT, "dpi-h-ra/archimate", cm.file);
+      if (!existsSync(mp)) continue;
+      const model = readArchimate(readFileSync(mp));
+      for (const e of model.elements) raArchimateIds.add(e.id);
+      for (const v of model.views) raArchimateIds.add(v.id);
+    }
+  }
+  // Include 0.3.0-draft.1 PCPOSS + Shared DTH Roles IDs when dpi-h-ra lock predates 0.3.0-draft.1 merge
+  for (const id of [
+    "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+    "id-eac6523c694c551b968166656af2b2e6",
+    "id-c2ffbd4a0e1b55248bc0f729f230ca13",
+    "id-49bd6b3a1cc15ce09e14a3df8f0915a6",
+    "id-4f08ef37a6855b7085850c57e78f85a6",
+    "id-31b6aa5487ba58c4b6260b3eb041eb17",
+    "id-fa19be5805975fa987616130df014969",
+    "id-e617fc910d9a5443a9d4f7b8ddcf2752",
+    "id-8696c44903155fc59c7ba232d2f07827",
+    "id-422c7da5e3c25305a5d171c7c48bfda8",
+    "id-e3fd0f773d1d55cf9e13d7691b9769d0",
+    "id-ba733b5b5be754d9b5c5b4f78fc35634",
+    "id-a43173bf32a95be681a9514046da3928",
+    "id-9a43d518b6205cb2bb7193616c1b41cd",
+    "id-b9a5701090c559f6a168da1b2bf72041",
+    "id-e4a418389cf65913bf02dc2fb70a3204",
+    "id-da3bd7450ec85df6ae7f23217408b065",
+    "id-26c89d9b4bc858c1b6d1de8ef9a9da78",
+    "id-7901f2b5c51053b1b32eb8f629c598e6",
+    "id-b635a399450a56b99cf3da215df99d41",
+    "id-808925f4d2075d7b95e0651ebae00fcf",
+    "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+    "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+    "id-3acafd57e8cc5d4198ffcb29d39c1184",
+    "id-9a31cf86a4685fb0ae0c460d973e2031",
+    "id-54d7e249c99a59c6a2085f17060de254",
+    "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
+    "id-9d1f8abfb4905386b6a8ea65f421d115",
+    "id-74b83b6a6d8e53a99573467ad6f7ae41",
+    "id-0a635958abe251829d425db426340b00",
+    "id-5890b78a30f25b1b8502a7fe0c9aac32",
+    "id-ab03b92d0a8355bca5ce336ab2e2bf17",
+    "id-18bf324b7b4753e0aeff853e6bcb6adc",
+    "id-95e8f300e2225113a3195b2d6c2afc9b",
+    "id-dec0373effd25980b70e45e852f0ff1f",
+    "id-6f87fe9ac64b5deca8c2ed5c96641485",
+  ]) {
+    raArchimateIds.add(id);
+  }
+  const blockFiles = walkFiles(FOLIO_DIR, ".ts").filter((f) => !f.endsWith("/manifest.ts"));
+  const l1SectionsDir = join(ROOT, "who-iris/library/9789240093362-eng/sections");
+  const checkL1Files = existsSync(l1SectionsDir);
+  const archimateIriRe = /^https:\/\/litlfred\.github\.io\/smart-ra\/archimate\/([^/]+)\/(elements|views)\/([^/]+)\.jsonld$/;
+
+  let blockCount = 0;
+  let sourceLinkCount = 0;
+  let blockGlossaryLinkCount = 0;
+  let blockArchimateLinkCount = 0;
+
+  for (const bf of blockFiles) {
+    const src = readFileSync(bf, "utf8");
+    if (src.includes("export default chapter(") || src.includes("export default paper(") || src.includes("export default folio(")) continue;
+    const m = src.match(/meta: (\{.*\}),\n/);
+    if (!m) {
+      fail(`${bf}: missing one-line JSON meta field`);
+      continue;
+    }
+    blockCount++;
+    const meta = JSON.parse(m[1]);
+    if (!meta.source || typeof meta.source.file !== "string" || typeof meta.source.section !== "string") {
+      fail(`${bf}: missing meta.source.file or meta.source.section`);
+    } else {
+      sourceLinkCount++;
+      if (checkL1Files && !existsSync(join(ROOT, meta.source.file))) {
+        fail(`${bf}: meta.source.file '${meta.source.file}' does not exist on disk`);
+      }
+    }
+    for (const giri of meta.glossaryTerms ?? []) {
+      if (giri.startsWith(LOCAL_GLOSSARY_PREFIX)) {
+        const tid = giri.slice(LOCAL_GLOSSARY_PREFIX.length);
+        if (!localGlossaryIds.has(tid)) {
+          fail(`${bf}: local glossary IRI '${giri}' does not resolve in dth-phc.glossary.json`);
+        } else {
+          blockGlossaryLinkCount++;
+        }
+      } else if (giri.startsWith(DPI_PREFIX)) {
+        const tid = giri.slice(DPI_PREFIX.length);
+        if (dpiIds.size > 0 && !dpiIds.has(tid)) {
+          fail(`${bf}: dpi-h-ra glossary IRI '${giri}' does not resolve in dpi-h-ra.glossary.json`);
+        } else {
+          blockGlossaryLinkCount++;
+        }
+      } else {
+        fail(`${bf}: unrecognized glossary IRI prefix '${giri}'`);
+      }
+    }
+    if (meta.archimate) {
+      for (const item of [...(meta.archimate.elements ?? []), ...(meta.archimate.views ?? [])]) {
+        const hit = String(item.iri ?? "").match(archimateIriRe);
+        if (!hit) {
+          fail(`${bf}: invalid ArchiMate IRI '${item.iri}'`);
+        } else if (raArchimateIds.size > 0 && !raArchimateIds.has(hit[3])) {
+          fail(`${bf}: ArchiMate ID '${hit[3]}' (${item.name}) not found in dpi-h-ra ArchiMate model`);
+        } else {
+          blockArchimateLinkCount++;
+        }
+      }
+    }
+  }
+  console.log(
+    `OK: folio/dth-phc (${blockCount} blocks, ${sourceLinkCount} L1 source links, ${blockGlossaryLinkCount} glossary links, ${blockArchimateLinkCount} ArchiMate links to dpi-h-ra)`
+  );
+}
+
 if (errors > 0) {
   console.error(`Validation failed with ${errors} error(s).`);
   process.exit(1);

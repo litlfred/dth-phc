@@ -1,0 +1,10 @@
+| Component | Details |
+| --- | --- |
+| **Who should be involved?** | • Software engineers and solutions architects should lead this work.<br>• Business analysts and designers should provide meaningful and constant feedback to the engineering team to ensure proper translation of the system requirements into implementation.<br>• Health informaticians should be involved to provide expert guidance as needed to ensure the system is able to operate using standards such as Fast Healthcare Interoperability Resources (FHIR).<br>• The targeted health worker occupational groups and end-users should provide feedback as different versions of the person-centred point of service system (PCPOSS) are created. |
+| **Inputs** | • Scope for PCPOSSᵃ<br>• Project team governance structureᵃ<br>• Budget, timeline, and risk and mitigations planᵃ<br>• Digital adaptation kitsᵇ<br>Requirements documentation that includes:<br>• User personasᶜ<br>• Use casesᶜ<br>• User storiesᶜ<br>• As-is and to-be business processesᶜ<br>• Data dictionaryᶜ<br>• Data model inclusive of semantic classifications and terminology standards and syntactic interoperability standards<br>• Documented decision logic algorithmsᶜ<br>• Documented health service scheduleᶜ<br>• Prioritized functional and non-functional requirementsᶜ |
+| **Tools** | • Design software tools for prototype creation<br>• Design tools for depicting system architecture<br>• Concept dictionary or terminology service<br>• Coding environment (depending on software)<br>As these tools will vary greatly from solution to solution, it will be up to the technology partner to determine which tools work best for them. It will also be critical for the wider team to determine the best tools for collaboration. |
+| **Outputs** | • Selected software and software vendor<br>• System architecture<br>• User interface design<br>• Product documentation<br>• Beta version of the PCPOSS |
+
+ᵃ Guidance on generating these inputs can be found in the *Digital implementation investment guide (DIIG): integrating digital interventions into health programmes* (22)
+ᵇ If available for the scoped health domain
+ᶜ Chapter 1

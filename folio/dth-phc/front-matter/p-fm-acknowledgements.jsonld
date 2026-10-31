@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-fm-acknowledgements",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:fm-acknowledgements",
+  "kind": "prose",
+  "title": "Acknowledgements",
+  "text": "p-fm-acknowledgements.md",
+  "meta": {
+    "title": "Acknowledgements",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-000-acknowledgements",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
+      "pdfPages": [
+        6,
+        7
+      ],
+      "method": "l1-front-matter"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/special-programme-of-research-in-human-reproduction",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/primary-health-care"
+    ],
+    "sourceOnly": "contributor and funder acknowledgements: cited L1 front matter"
+  },
+  "provenance": "authored"
+}

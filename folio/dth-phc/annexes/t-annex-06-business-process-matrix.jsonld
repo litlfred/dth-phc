@@ -1,0 +1,104 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/tbl-annex-06",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:annex-06",
+  "kind": "table",
+  "title": "Annex 6. Business process matrix guide",
+  "text": "t-annex-06-business-process-matrix.md",
+  "meta": {
+    "title": "Annex 6. Business process matrix guide",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-039-business-process-matrix-guide",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-039-business-process-matrix-guide.md",
+      "pdfPages": [
+        84
+      ],
+      "method": "l1-template-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-process",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-objective",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/workflow",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/trigger-event",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/input",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/output"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+        "id": "id-b1a348e9848f50e19a46bf2226dc2f08",
+        "name": "Business analyst"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+        "id": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+        "name": "SMART Guidelines L2 (DAK)"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "id": "id-eac6523c694c551b968166656af2b2e6",
+        "name": "Shared DTH Roles and Actors"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "name": "Business analyst"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+          "name": "SMART Guidelines L2 (DAK)"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    },
+    "templateFor": {
+      "chapterStep": "3.3 Map business processes and workflows",
+      "producesDakKind": "business-process",
+      "smartBaseClass": "smart-base:BusinessProcess",
+      "smartBaseStructureDefinition": "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
+      "columns": [
+        "Business process number",
+        "Process name",
+        "Objectives",
+        "Key personas",
+        "Trigger event",
+        "Inputs",
+        "Process / activities",
+        "Outputs"
+      ]
+    }
+  },
+  "provenance": "authored"
+}

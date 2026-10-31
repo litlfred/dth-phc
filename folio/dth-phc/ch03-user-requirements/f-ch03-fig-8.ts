@@ -1,0 +1,11 @@
+import { figure } from "../../schema/builders";
+
+export default figure({
+  label: "fig:8",
+  title: "Fig. 8. Example prompts and questions for starting broad and narrowing down",
+  file: "media/vfig-p032.png",
+  caption: "Fig. 8. Example prompts and questions for starting broad and narrowing down",
+  page: 32,
+  uses: ["prose:ch03-sec-012-interviews-and-workshops"],
+  meta: {"title": "Fig. 8. Example prompts and questions for starting broad and narrowing down", "source": {"library": "9789240093362-eng", "section": "sec-012-31-follow-key-requirement-gathering-methods", "file": "who-iris/library/9789240093362-eng/sections/sec-012-31-follow-key-requirement-gathering-methods.md", "pdfPages": [32], "method": "l1-vector-figure"}, "glossaryTerms": ["https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/end-user", "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/pain-point", "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/requirements"], "archimateElements": [{"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld", "id": "id-b003f851903c557fa2b020e234e850e0", "name": "User researcher"}, {"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld", "id": "id-b1a348e9848f50e19a46bf2226dc2f08", "name": "Business analyst"}], "archimateViews": [{"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld", "id": "id-eac6523c694c551b968166656af2b2e6", "name": "Shared DTH Roles and Actors"}], "archimate": {"model": "smart-ra 0.3.0-draft.1", "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)", "elements": [{"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld", "name": "User researcher"}, {"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld", "name": "Business analyst"}], "views": [{"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld", "name": "Shared DTH Roles and Actors"}]}, "sourceOnly": "adapted from Tran 2018 (ref. 35): cited L1 figure per dth-phc#1 §3b"},
+});
