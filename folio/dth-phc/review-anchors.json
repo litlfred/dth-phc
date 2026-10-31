@@ -627,7 +627,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "e6f744c413b9",
+   "hash": "9f404ae77071",
    "excerpt": "Business analyst A core member of the PCPOSS implementing team (section 2.2) who translates health service delivery needs, clinical guidelines and operational w",
    "method": "folio-snapshot"
   },
@@ -639,7 +639,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "8d9ced36da3d",
+   "hash": "481e23ae8767",
    "excerpt": "Health informatician A core member of the PCPOSS implementing team (section 2.2) responsible for health data dictionaries, terminology bindings, indicator mappi",
    "method": "folio-snapshot"
   },
@@ -651,7 +651,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "c814413840db",
+   "hash": "fbb4ede5e290",
    "excerpt": "Software engineer A core member of the PCPOSS implementing team or technology partner (section 2.2) who builds, configures, integrates and tests the PCPOSS soft",
    "method": "folio-snapshot"
   },
@@ -663,7 +663,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "c5b1f69318b7",
+   "hash": "1b2ed27e7b5d",
    "excerpt": "Solutions architect A core member of the PCPOSS implementing team (section 2.2) who designs the end-to-end technical architecture and enterprise integration of ",
    "method": "folio-snapshot"
   },
@@ -675,8 +675,8 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "e3a5ee408532",
-   "excerpt": "Designer A core member of the PCPOSS implementing team (section 2.2) responsible for human-centred interface design and prototyping: - Role definition (section ",
+   "hash": "261a6a52a4fc",
+   "excerpt": "Designer A core member of the PCPOSS implementing team (section 2.2) responsible for human-centred interface design and prototyping: - Role summary (agent draft",
    "method": "folio-snapshot"
   },
   {
@@ -687,8 +687,8 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "359542f1b408",
-   "excerpt": "User researcher A core member of the PCPOSS implementing team (section 2.2) who studies end-users in their real clinical and community environments: - Role defi",
+   "hash": "f405e71c4014",
+   "excerpt": "User researcher A core member of the PCPOSS implementing team (section 2.2) who studies end-users in their real clinical and community environments: - Role summ",
    "method": "folio-snapshot"
   },
   {
@@ -783,7 +783,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "515a7903e4e3",
+   "hash": "0b313d387e00",
    "excerpt": "Health service user (patient / client) Any person receiving or seeking primary health care services, as well as their family members or caregivers, and the dire",
    "method": "folio-snapshot"
   },

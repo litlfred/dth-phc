@@ -2,7 +2,7 @@
 
 A core member of the PCPOSS implementing team (section 2.2) who studies end-users in their real clinical and community environments:
 
-- **Role definition (section 2.2):** *"Someone who studies how health workers and other users actually work, through interviews and observations, to make sure the system fits their real-world context."*
+- **Role summary (agent draft, not handbook text; for review):** Someone who studies how health workers and other users actually work, through interviews and observations, to make sure the system fits their real-world context. The handbook does not define this role.
 - **Phase 1 — Understanding user requirements (Chapter 3, `sec-011`, `sec-013`):** Conducts contextual observations (Annex 2) and end-user interviews (Annex 3) in primary health care facilities to build grounded user personas (3.2, Annex 4).
 - **Phase 2 — Design and adaptation (Chapter 4, `sec-020`, `sec-022`):** Facilitates end-user usability testing on wireframes, mock-ups and clickable prototypes (4.3).
 
