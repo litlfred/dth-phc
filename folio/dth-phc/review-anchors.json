@@ -1,0 +1,1891 @@
+{
+ "$schema": "folio-review-anchors/v1",
+ "document": "dth-phc",
+ "library": "9789240093362-eng",
+ "sourceLabel": "the WHO IRIS L1 entry it was seeded from",
+ "source": {
+  "docx": {
+   "file": "who-iris/library/9789240093362-eng/structure.json",
+   "sha256": "bc85ab8ad3cd6d250a0bba2b86773607016f7ad679027900dd67541f239622e1"
+  },
+  "pdf": {
+   "file": "",
+   "sha256": "",
+   "pages": 0
+  }
+ },
+ "note": "Generated from the working document by folio-assistant-core/scripts/review-anchors-from-folio.ts (no frozen review version yet).",
+ "chapters": [
+  {
+   "dir": "front-matter",
+   "title": "Front matter, acknowledgements, abbreviations and glossary",
+   "label": "chap:front-matter"
+  },
+  {
+   "dir": "ch01-introduction",
+   "title": "Chapter 1. Introduction",
+   "number": 1,
+   "label": "chap:ch01-introduction"
+  },
+  {
+   "dir": "ch02-how-to-use",
+   "title": "Chapter 2. How to use this handbook",
+   "number": 2,
+   "label": "chap:ch02-how-to-use"
+  },
+  {
+   "dir": "ch03-user-requirements",
+   "title": "Chapter 3. Understand user requirements",
+   "number": 3,
+   "label": "chap:ch03-user-requirements"
+  },
+  {
+   "dir": "ch04-design-and-adaptation",
+   "title": "Chapter 4. Undertake design and adaptation",
+   "number": 4,
+   "label": "chap:ch04-design-and-adaptation"
+  },
+  {
+   "dir": "ch05-training-testing-rollout",
+   "title": "Chapter 5. Conduct training, testing and roll-out",
+   "number": 5,
+   "label": "chap:ch05-training-testing-rollout"
+  },
+  {
+   "dir": "ch06-scale-up",
+   "title": "Chapter 6. Scale up the system",
+   "number": 6,
+   "label": "chap:ch06-scale-up"
+  },
+  {
+   "dir": "references",
+   "title": "References",
+   "label": "chap:references"
+  },
+  {
+   "dir": "annexes",
+   "title": "Annexes",
+   "label": "chap:annexes"
+  }
+ ],
+ "sections": [
+  {
+   "label": "sec:fm-metadata",
+   "title": "Publication metadata and contents",
+   "chapter": "front-matter"
+  },
+  {
+   "label": "sec:fm-acknowledgements",
+   "title": "Acknowledgements",
+   "chapter": "front-matter"
+  },
+  {
+   "label": "sec:fm-abbreviations",
+   "title": "Abbreviations",
+   "chapter": "front-matter"
+  },
+  {
+   "label": "sec:fm-glossary",
+   "title": "Glossary",
+   "chapter": "front-matter"
+  },
+  {
+   "label": "sec:1-0",
+   "title": "Introduction and WHO Digital Guideline Recommendation 8",
+   "chapter": "ch01-introduction"
+  },
+  {
+   "label": "sec:1-1",
+   "number": "1.1",
+   "title": "1.1 Person-centred point of service systems",
+   "chapter": "ch01-introduction"
+  },
+  {
+   "label": "sec:1-2",
+   "number": "1.2",
+   "title": "1.2 SMART Guidelines",
+   "chapter": "ch01-introduction"
+  },
+  {
+   "label": "sec:1-3",
+   "number": "1.3",
+   "title": "1.3 How this handbook was developed",
+   "chapter": "ch01-introduction"
+  },
+  {
+   "label": "sec:2-1",
+   "number": "2.1",
+   "title": "2.1 Targeted scenarios of digital readiness",
+   "chapter": "ch02-how-to-use"
+  },
+  {
+   "label": "sec:2-2",
+   "number": "2.2",
+   "title": "2.2 Targeted users",
+   "chapter": "ch02-how-to-use"
+  },
+  {
+   "label": "sec:2-3",
+   "number": "2.3",
+   "title": "2.3 Before using this resource",
+   "chapter": "ch02-how-to-use"
+  },
+  {
+   "label": "sec:2-4",
+   "number": "2.4",
+   "title": "2.4 The stepwise approaches to digitizing",
+   "chapter": "ch02-how-to-use"
+  },
+  {
+   "label": "sec:2-5",
+   "number": "2.5",
+   "title": "2.5 Choices for software and digital applications",
+   "chapter": "ch02-how-to-use"
+  },
+  {
+   "label": "sec:ch03-lead",
+   "title": "Chapter overview and phase panel",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-1",
+   "number": "3.1",
+   "title": "3.1 Follow key requirement-gathering methods",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-2",
+   "number": "3.2",
+   "title": "3.2 Get to know the users",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-3",
+   "number": "3.3",
+   "title": "3.3 Map business processes and workflows",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-4",
+   "number": "3.4",
+   "title": "3.4 Streamline data collection and indicator reporting",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-5",
+   "number": "3.5",
+   "title": "3.5 Create a data dictionary",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-6",
+   "number": "3.6",
+   "title": "3.6 Determine decision-support logic",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-7",
+   "number": "3.7",
+   "title": "3.7 Map health service schedules",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:3-8",
+   "number": "3.8",
+   "title": "3.8 Gather and prioritize requirements",
+   "chapter": "ch03-user-requirements"
+  },
+  {
+   "label": "sec:ch04-lead",
+   "title": "Chapter overview and phase panel",
+   "chapter": "ch04-design-and-adaptation"
+  },
+  {
+   "label": "sec:4-1",
+   "number": "4.1",
+   "title": "4.1 Finalize software and vendor selection",
+   "chapter": "ch04-design-and-adaptation"
+  },
+  {
+   "label": "sec:4-2",
+   "number": "4.2",
+   "title": "4.2 Validate functional requirements",
+   "chapter": "ch04-design-and-adaptation"
+  },
+  {
+   "label": "sec:4-3",
+   "number": "4.3",
+   "title": "4.3 Develop and test prototype design",
+   "chapter": "ch04-design-and-adaptation"
+  },
+  {
+   "label": "sec:4-4",
+   "number": "4.4",
+   "title": "4.4 Design system architecture",
+   "chapter": "ch04-design-and-adaptation"
+  },
+  {
+   "label": "sec:4-5",
+   "number": "4.5",
+   "title": "4.5 Build and quality assurance",
+   "chapter": "ch04-design-and-adaptation"
+  },
+  {
+   "label": "sec:ch05-lead",
+   "title": "Chapter overview and phase panel",
+   "chapter": "ch05-training-testing-rollout"
+  },
+  {
+   "label": "sec:5-1",
+   "number": "5.1",
+   "title": "5.1 Develop and conduct training",
+   "chapter": "ch05-training-testing-rollout"
+  },
+  {
+   "label": "sec:5-2",
+   "number": "5.2",
+   "title": "5.2 Test user acceptance and deployment readiness",
+   "chapter": "ch05-training-testing-rollout"
+  },
+  {
+   "label": "sec:5-3",
+   "number": "5.3",
+   "title": "5.3 Deploy the system",
+   "chapter": "ch05-training-testing-rollout"
+  },
+  {
+   "label": "sec:5-4",
+   "number": "5.4",
+   "title": "5.4 Manage feedback and system maintenance",
+   "chapter": "ch05-training-testing-rollout"
+  },
+  {
+   "label": "sec:ch06-lead",
+   "title": "Chapter overview and phase panel",
+   "chapter": "ch06-scale-up"
+  },
+  {
+   "label": "sec:6-1",
+   "number": "6.1",
+   "title": "6.1 Determine readiness for scaling up",
+   "chapter": "ch06-scale-up"
+  },
+  {
+   "label": "sec:6-2",
+   "number": "6.2",
+   "title": "6.2 Plan for phase-out of legacy system(s)",
+   "chapter": "ch06-scale-up"
+  },
+  {
+   "label": "sec:6-3",
+   "number": "6.3",
+   "title": "6.3 Monitor and evaluate progress on objectives",
+   "chapter": "ch06-scale-up"
+  },
+  {
+   "label": "sec:6-4",
+   "number": "6.4",
+   "title": "6.4 Phase-out of legacy system(s)",
+   "chapter": "ch06-scale-up"
+  },
+  {
+   "label": "sec:6-5",
+   "number": "6.5",
+   "title": "6.5 Adopt change management practices",
+   "chapter": "ch06-scale-up"
+  },
+  {
+   "label": "sec:references-main",
+   "title": "References",
+   "chapter": "references"
+  },
+  {
+   "label": "sec:annex-01",
+   "title": "Annex 1. Principles for digital development",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-02",
+   "title": "Annex 2. Worksheet for semi-structured interviews",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-03",
+   "title": "Annex 3. Observations worksheet",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-04",
+   "title": "Annex 4. User persona worksheet",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-05",
+   "title": "Annex 5. User stories worksheet",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-06",
+   "title": "Annex 6. Business process matrix guide",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-07",
+   "title": "Annex 7. Form inventory guide",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-08",
+   "title": "Annex 8. Form data mapping guide",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-09",
+   "title": "Annex 9. Aggregate indicator mapping guide",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-10",
+   "title": "Annex 10. Decision-support logic and scheduling matrix guide",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-11",
+   "title": "Annex 11. Template for a decision-support table",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-12",
+   "title": "Annex 12. Scheduling logic table guide",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-13",
+   "title": "Annex 13. Prioritization of requirements guide",
+   "chapter": "annexes"
+  },
+  {
+   "label": "sec:annex-14",
+   "title": "Annex 14. HL7 FHIR standard components",
+   "chapter": "annexes"
+  }
+ ],
+ "blocks": [
+  {
+   "label": "prose:fm-publication-metadata",
+   "kind": "prose",
+   "chapter": "front-matter",
+   "root": "p-fm-publication-metadata",
+   "sections": [
+    "sec:fm-metadata"
+   ],
+   "hash": "0d9d87c8cd41",
+   "excerpt": "Digital transformation handbook for primary health care Optimizing person-centred point of service systems Digital transformation handbook for primary health ca",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:fm-acknowledgements",
+   "kind": "prose",
+   "chapter": "front-matter",
+   "root": "p-fm-acknowledgements",
+   "sections": [
+    "sec:fm-acknowledgements"
+   ],
+   "hash": "63124131fadb",
+   "excerpt": "The World Health Organization (WHO) is grateful for the contributions made by many individuals and organizations in the development of this handbook. This handb",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:abbreviations",
+   "kind": "table",
+   "chapter": "front-matter",
+   "root": "t-fm-abbreviations",
+   "sections": [
+    "sec:fm-abbreviations"
+   ],
+   "caption": "Abbreviations",
+   "hash": "5563c5eb1aad",
+   "excerpt": "Abbreviation Definition --- --- ANC antenatal care API application programming interface BPMN Business Process Model and Notation CRDM Collaborative Requirement",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:glossary",
+   "kind": "table",
+   "chapter": "front-matter",
+   "root": "t-fm-glossary",
+   "sections": [
+    "sec:fm-glossary"
+   ],
+   "caption": "Glossary (59 defined terms and 24 glossary references)",
+   "hash": "0c5b5172e1f3",
+   "excerpt": "Term Definition --- --- Algorithm A specification of how a computer shall solve a problem, perform a calculation and execute a task. Annotation In a decision ta",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch01-sec-003-introduction",
+   "kind": "prose",
+   "chapter": "ch01-introduction",
+   "root": "p-ch01-sec-003-introduction",
+   "sections": [
+    "sec:1-0"
+   ],
+   "hash": "f91f8201e6fe",
+   "excerpt": "CHAPTER 1 Introduction In many countries, individual-level paper-based systems – paper registers (including immunization registries), health service user charts",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:fig-1",
+   "kind": "table",
+   "chapter": "ch01-introduction",
+   "root": "t-ch01-fig-1",
+   "sections": [
+    "sec:1-0"
+   ],
+   "caption": "Fig. 1. From paper to digital: a transformational journey (comparison of Paper, Digitization, Digitalization and Digital transformation)",
+   "hash": "b63a671e6c72",
+   "excerpt": "Fig. 1 From paper to digital: a transformational journey Dimension Paper Digitization Digitalization Digital transformation --- --- --- --- --- Definition The p",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:1",
+   "kind": "figure",
+   "chapter": "ch01-introduction",
+   "root": "f-ch01-fig-1",
+   "sections": [
+    "sec:1-0"
+   ],
+   "caption": "Fig. 1. From paper to digital: a transformational journey",
+   "hash": "afb8536e939e",
+   "excerpt": "Limited data use with little to no interoperability standards adopted Greater data use with greater adoption of interoperability standards Process Optimization ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "rec:who-2019-digital-tracking-decision-support",
+   "kind": "recommendation",
+   "chapter": "ch01-introduction",
+   "root": "rec-who-2019-digital-tracking-decision-support",
+   "sections": [
+    "sec:1-0"
+   ],
+   "hash": "c595ce2f4361",
+   "excerpt": "Recommendation 8 (WHO 2019 Guideline on Digital Interventions for Health System Strengthening): WHO recommends digital tracking of clients’ health status and se",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:2",
+   "kind": "figure",
+   "chapter": "ch01-introduction",
+   "root": "f-ch01-fig-2",
+   "sections": [
+    "sec:1-0"
+   ],
+   "caption": "Fig. 2. The 2019 WHO guideline: recommendations on digital interventions for health system strengthening",
+   "hash": "f2e942d05c78",
+   "excerpt": "Fig. 2 The 2019 WHO guideline: recommendations on digital interventions for health system strengthening Expected Contribution to universal health coverage (UHC)",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch01-sec-003-phc-digital-ecosystem",
+   "kind": "prose",
+   "chapter": "ch01-introduction",
+   "root": "p-ch01-sec-003-phc-digital-ecosystem",
+   "sections": [
+    "sec:1-0"
+   ],
+   "hash": "a634d261fa8a",
+   "excerpt": "Digital technologies of all kinds have become essential resources in primary health care (PHC) and their uptake is growing, with the past decade seeing rapid in",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:3",
+   "kind": "figure",
+   "chapter": "ch01-introduction",
+   "root": "f-ch01-fig-3",
+   "sections": [
+    "sec:1-0"
+   ],
+   "caption": "Fig. 3. Delivering an integrated ecosystem of information systems and digital health solutions supports the PHC approach",
+   "hash": "8bc471578b6b",
+   "excerpt": "Fig. 3 Delivering an integrated ecosystem of information systems and digital health solutions supports the PHC approach Notes: The different information systems",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch01-sec-003-clerical-burden",
+   "kind": "prose",
+   "chapter": "ch01-introduction",
+   "root": "p-ch01-sec-003-clerical-burden",
+   "sections": [
+    "sec:1-0"
+   ],
+   "hash": "99eca020c8a3",
+   "excerpt": "Paper-based systems place a large clerical burden on the health system and health workers, such as duplicative data entry for reuse outside the immediate clinic",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch01-sec-004-pcposs",
+   "kind": "prose",
+   "chapter": "ch01-introduction",
+   "root": "p-ch01-sec-004-pcposs",
+   "sections": [
+    "sec:1-1"
+   ],
+   "hash": "d13472e2be43",
+   "excerpt": "A person-centered point of service system (PCPOSS), digital in nature, facilitates the provision and delivery of health services to individuals (i.e. persons, c",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:4",
+   "kind": "figure",
+   "chapter": "ch01-introduction",
+   "root": "f-ch01-fig-4",
+   "sections": [
+    "sec:1-1"
+   ],
+   "caption": "Fig. 4. The added value of “collect once, use for many purposes” principle",
+   "hash": "b00dab7cf7a1",
+   "excerpt": "Fig. 4 The added value of “collect once, use for many purposes” principle SDGs: Sustainable Development Goals. Primary data use Secondary data use Source: Adapt",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch01-sec-005-smart-guidelines",
+   "kind": "prose",
+   "chapter": "ch01-introduction",
+   "root": "p-ch01-sec-005-smart-guidelines",
+   "sections": [
+    "sec:1-2"
+   ],
+   "hash": "9f14e29422db",
+   "excerpt": "SMART Guidelines are Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable recommended digital capabilities, health and data content. SM",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:5",
+   "kind": "figure",
+   "chapter": "ch01-introduction",
+   "root": "f-ch01-fig-5",
+   "sections": [
+    "sec:1-2"
+   ],
+   "caption": "Fig. 5. WHO SMART Guidelines approach",
+   "hash": "1c21bdb8fcc3",
+   "excerpt": "Fig. 5 WHO SMART Guidelines approach L1 Narrative Guideline and data recommendations: L2 Operational Semi-structured documentation of operational and functional",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch01-sec-006-how-developed",
+   "kind": "prose",
+   "chapter": "ch01-introduction",
+   "root": "p-ch01-sec-006-how-developed",
+   "sections": [
+    "sec:1-3"
+   ],
+   "hash": "47c6af6ddac5",
+   "excerpt": "This practical guide was developed from the experiences and feedback of a variety of experts and digital health practitioners. Experiences, insights, templates ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch02-sec-007-readiness-scenarios",
+   "kind": "prose",
+   "chapter": "ch02-how-to-use",
+   "root": "p-ch02-sec-007-readiness-scenarios",
+   "sections": [
+    "sec:2-1"
+   ],
+   "hash": "9ddc7ff69fe5",
+   "excerpt": "CHAPTER 2 How to use this handbook This chapter outlines how this handbook can be leveraged by key stakeholders and provides references to key resources for cre",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "dt:starting-scenario",
+   "kind": "decision-table",
+   "chapter": "ch02-how-to-use",
+   "root": "dt-starting-scenario",
+   "sections": [
+    "sec:2-1"
+   ],
+   "hash": "09084c7d934b",
+   "excerpt": "Starting-scenario classification decision table (section 2.1) Formal DMN 1.5 decision table ( Decision StartingScenario , hitPolicy=\"FIRST\" ) derived from secti",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch02-sec-008-targeted-users",
+   "kind": "prose",
+   "chapter": "ch02-how-to-use",
+   "root": "p-ch02-sec-008-targeted-users",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "5f8c756ab3b9",
+   "excerpt": "This handbook is aimed at individuals and teams seeking to gather and optimize the content and functional requirements for either adapting a PCPOSS or developin",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:business-analyst",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-business-analyst",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "65d7344f73b8",
+   "excerpt": "Business analyst A core member of the PCPOSS implementing team (section 2.2) who translates health service delivery needs, clinical guidelines and operational w",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:health-informatician",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-health-informatician",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "73db18db0bed",
+   "excerpt": "Health informatician A core member of the PCPOSS implementing team (section 2.2) responsible for health data dictionaries, terminology bindings, indicator mappi",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:software-engineer",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-software-engineer",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "635c620f39ec",
+   "excerpt": "Software engineer A core member of the PCPOSS implementing team or technology partner (section 2.2) who builds, configures, integrates and tests the PCPOSS soft",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:solutions-architect",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-solutions-architect",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "c44a44a3e684",
+   "excerpt": "Solutions architect A core member of the PCPOSS implementing team (section 2.2) who designs the end-to-end technical architecture and enterprise integration of ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:designer",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-designer",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "24a3c693981c",
+   "excerpt": "Designer A core member of the PCPOSS implementing team (section 2.2) responsible for human-centred interface design and prototyping: - Role definition (section ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:user-researcher",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-user-researcher",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "1fdb29456182",
+   "excerpt": "User researcher A core member of the PCPOSS implementing team (section 2.2) who studies end-users in their real clinical and community environments: - Role defi",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:technology-partner",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-technology-partner",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "339a1f84ebf7",
+   "excerpt": "Technology partner (vendor) An external or internal software development organization contracted or designated to configure, build, deploy and maintain the PCPO",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:implementing-team",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-implementing-team",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "4dca9047ebaf",
+   "excerpt": "Implementing team The multidisciplinary team formed in section 2.2 ( sec-008 ) that coordinates and executes all four phases of the PCPOSS implementation lifecy",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:monitoring-and-evaluation-specialist",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-monitoring-and-evaluation-specialist",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "8c997f8da194",
+   "excerpt": "Monitoring and evaluation (M&E) specialist A specialist Named in the Phase 1 ( sec-011 ) and Phase 4 ( sec-029 ) \"Who should be involved\" panels who defines agg",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:public-health-authority",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-public-health-authority",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "d2073399ea50",
+   "excerpt": "Public health authority / Ministry of Health (MoH) The primary target audience and governing authority of the handbook (section 1.3, sec-006 ; Phase 1–4 panels)",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:health-worker",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-health-worker",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "c2e80cf517fc",
+   "excerpt": "Health worker (clinician, nurse, midwife, community health worker) The primary point-of-service end-user of a PCPOSS (section 1.1, sec-004 ; Phase 1–4 panels): ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:clerk",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-clerk",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "d15d73edcefb",
+   "excerpt": "Clerk (facility registration and records staff) Health facility registration, reception and medical records staff who check in clients, verify identity in the c",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:supervisor",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-supervisor",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "0590125126ad",
+   "excerpt": "Supervisor / health facility manager Health facility in-charges, clinical supervisors and district PHC supervisors who oversee service delivery, data quality, s",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:health-service-user",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-health-service-user",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "9c54505702f6",
+   "excerpt": "Health service user (patient / client) Any person receiving or seeking primary health care services, as well as their family members or caregivers, and the dire",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:system-ehr",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-system-ehr",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "bd24b6577361",
+   "excerpt": "Electronic health record (EHR) system One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a longitudinal ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:system-dss",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-system-dss",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "f2254d677329",
+   "excerpt": "Decision-support system (DSS) One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — the clinical and operat",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:system-cbis",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-system-cbis",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "90c351138da5",
+   "excerpt": "Community-based information system (CBIS) One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a mobile or",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:system-phr",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-system-phr",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "c2e5f0eb155d",
+   "excerpt": "Personal health record (PHR) system One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a client-facing d",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "pers:donors-and-development-partners",
+   "kind": "persona",
+   "chapter": "ch02-how-to-use",
+   "root": "pers-donors-and-development-partners",
+   "sections": [
+    "sec:2-2"
+   ],
+   "hash": "e8d17ae9dd81",
+   "excerpt": "Donors, development partners and implementing partners International and domestic funding agencies, multilateral organizations, technical assistance partners an",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch02-sec-009-prerequisites",
+   "kind": "prose",
+   "chapter": "ch02-how-to-use",
+   "root": "p-ch02-sec-009-prerequisites",
+   "sections": [
+    "sec:2-3"
+   ],
+   "hash": "e9f6d182d123",
+   "excerpt": "The key assumption for users of this resource is that a comprehensive high-level needs assessment and strategic planning has already been conducted and conclude",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:6",
+   "kind": "figure",
+   "chapter": "ch02-how-to-use",
+   "root": "f-ch02-fig-6",
+   "sections": [
+    "sec:2-3"
+   ],
+   "caption": "Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources",
+   "hash": "68c25c9b7f3b",
+   "excerpt": "Fig. 6 Planning and implementing a digital health enterprise: phases, steps and resources ICT: information and communications technology; ITU: International Tel",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:fig-06-diig-reproduces",
+   "kind": "prose",
+   "chapter": "ch02-how-to-use",
+   "root": "p-fig-06-diig-reproduces",
+   "sections": [
+    "sec:2-3"
+   ],
+   "hash": "041fb1a6d5fa",
+   "excerpt": "Fig. 6. Digital health guidelines and tools by DIIG phase (reproduces DIIG Fig. 1.1.1) Section 2.3 ( sec-009 , PDF page 21, Fig. 6, Digital health guidelines an",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch02-sec-010-stepwise-approach",
+   "kind": "prose",
+   "chapter": "ch02-how-to-use",
+   "root": "p-ch02-sec-010-stepwise-approach",
+   "sections": [
+    "sec:2-4"
+   ],
+   "hash": "beb702d0607d",
+   "excerpt": "Adhering to the Principles for Digital Development (see Annex 1), this handbook is organized in a stepwise manner that begins with the assumption of a limited o",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:7",
+   "kind": "figure",
+   "chapter": "ch02-how-to-use",
+   "root": "f-ch02-fig-7",
+   "sections": [
+    "sec:2-4"
+   ],
+   "caption": "Fig. 7. Steps in this handbook to optimize a person-centred point of service system (PCPOSS)",
+   "hash": "ab5994316518",
+   "excerpt": "Fig. 7 Iterative and agile approach Minimum viable product (MVP) VERSION 1 VERSION 2 Determine that a PCPOSS is an appropriate health intervention Build and tes",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "bp:pcposs-implementation-lifecycle",
+   "kind": "business-process",
+   "chapter": "ch02-how-to-use",
+   "root": "bp-pcposs-implementation-lifecycle",
+   "sections": [
+    "sec:2-4"
+   ],
+   "hash": "84874356c08c",
+   "excerpt": "PCPOSS four-phase implementation lifecycle and agile iteration loop Formal BPMN 2.0 model of the handbook's top-level four-step approach (section 2.4, Fig. 7, s",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch02-sec-011-software-choices",
+   "kind": "prose",
+   "chapter": "ch02-how-to-use",
+   "root": "p-ch02-sec-011-software-choices",
+   "sections": [
+    "sec:2-5"
+   ],
+   "hash": "7c587e7c05bf",
+   "excerpt": "Implementation teams using this handbook are not expected to use any specific software applications during the requirements-gathering and detailed design proces",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-overview",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-overview",
+   "sections": [
+    "sec:ch03-lead"
+   ],
+   "hash": "3cb5a427ed81",
+   "excerpt": "CHAPTER 3 Understand user requirements The adoption of a person-centred point of service system (PCPOSS) requires a solid understanding of what data health work",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:ch03-phase-panel",
+   "kind": "table",
+   "chapter": "ch03-user-requirements",
+   "root": "t-ch03-phase-panel",
+   "sections": [
+    "sec:ch03-lead"
+   ],
+   "caption": "Chapter 3 phase panel: Who should be involved, Inputs, Tools and Outputs for understanding user requirements",
+   "hash": "527649ddc50d",
+   "excerpt": "Component Details --- --- Who should be involved? • Targeted health worker occupational groups (e.g. physicians, nurses, midwives and community health workers),",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "bp:understand-user-requirements",
+   "kind": "business-process",
+   "chapter": "ch03-user-requirements",
+   "root": "bp-understand-user-requirements",
+   "sections": [
+    "sec:ch03-lead"
+   ],
+   "hash": "5bfa335bf9f7",
+   "excerpt": "Phase 1: Understanding user requirements (Chapter 3) Formal BPMN 2.0 model of Chapter 3 (sections 3.1 to 3.8, sec-011 – sec-019 ), in which each step produces a",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-012-methods",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-012-methods",
+   "sections": [
+    "sec:3-1"
+   ],
+   "hash": "f24e5de62afb",
+   "excerpt": "A combination of methods can be used to corroborate information and better guide the process outlined in this chapter for assessing needs and gathering requirem",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-012-interviews-and-workshops",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-012-interviews-and-workshops",
+   "sections": [
+    "sec:3-1"
+   ],
+   "hash": "09355e574871",
+   "excerpt": "3.1.3 Semi-structured and follow-up interviews Interviews with health workers, their supervisors and other selected key informants are crucial, as they can help",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:8",
+   "kind": "figure",
+   "chapter": "ch03-user-requirements",
+   "root": "f-ch03-fig-8",
+   "sections": [
+    "sec:3-1"
+   ],
+   "caption": "Fig. 8. Example prompts and questions for starting broad and narrowing down",
+   "hash": "69859f4ed598",
+   "excerpt": "Fig. 8 Example prompts and questions for starting broad and narrowing down BROAD (Start here) Intent & Introductions “Tell me about your background… “Tell me ab",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-013-personas",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-013-personas",
+   "sections": [
+    "sec:3-2"
+   ],
+   "hash": "bf670fa26a44",
+   "excerpt": "Following the first principle of digital development (design with the user), user-centred design starts with getting to know the people you are designing for th",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-013-use-cases-and-stories",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-013-use-cases-and-stories",
+   "sections": [
+    "sec:3-2"
+   ],
+   "hash": "f866f648e7c8",
+   "excerpt": "3.2.2 Gather use cases Use cases are an important way to understand, in an illustrative manner, how the PCPOSS will be used by the various user personas identif",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-014-workflows",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-014-workflows",
+   "sections": [
+    "sec:3-3"
+   ],
+   "hash": "e6388f9fb0f9",
+   "excerpt": "Business processes are sets of related activities and tasks performed to achieve a specific objective (6–9). In health care, business processes include, among m",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:1",
+   "kind": "table",
+   "chapter": "ch03-user-requirements",
+   "root": "t-ch03-table-1",
+   "sections": [
+    "sec:3-3"
+   ],
+   "caption": "Table 1. Key Business Process Model and Notation (BPMN) symbols",
+   "hash": "21b4c57fe8cf",
+   "excerpt": "Table 1. Key Business Process Model and Notation (BPMN) symbols Symbol Symbol name Description --- --- --- Pool (Lane 1, Lane 2, Lane 3) Pool A pool consists of",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:9",
+   "kind": "figure",
+   "chapter": "ch03-user-requirements",
+   "root": "f-ch03-fig-9",
+   "sections": [
+    "sec:3-3"
+   ],
+   "caption": "Fig. 9. Example business process matrix from family planning DAK",
+   "hash": "b56b3b60036f",
+   "excerpt": "Fig. 9 Example business process matrix from family planning DAK Process name Process ID Personas Objectives Task set --- --- --- --- --- --- — Title ID used to ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:10",
+   "kind": "figure",
+   "chapter": "ch03-user-requirements",
+   "root": "f-ch03-fig-10",
+   "sections": [
+    "sec:3-3"
+   ],
+   "caption": "Fig. 10. Workflow A: Registration business process",
+   "hash": "983b5e93fadd",
+   "excerpt": "Source: WHO Digital adaptation kit for antenatal care, 2021 (ref. 29).",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:11",
+   "kind": "figure",
+   "chapter": "ch03-user-requirements",
+   "root": "f-ch03-fig-11",
+   "sections": [
+    "sec:3-3"
+   ],
+   "caption": "Fig. 11. Notes and annotations for Workflow A: Registration business process",
+   "hash": "0737f7219526",
+   "excerpt": "Fig. 10 Workflow A: Registration business process Fig. 11 Notes and annotations for Workflow A: Registration business process l Health facility Client Health wo",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:fig-10-11-anc-registration-reproduces",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-fig-10-11-anc-registration-reproduces",
+   "sections": [
+    "sec:3-3"
+   ],
+   "hash": "8a054971ea8e",
+   "excerpt": "Figs. 10 and 11. Workflow A: ANC Registration business process and annotations (reproduces WHO ANC DAK) Section 3.3.2 ( sec-014 , PDF pages 33–34, Figs. 10 and ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-015-streamline-data-and-indicators",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-015-streamline-data-and-indicators",
+   "sections": [
+    "sec:3-4"
+   ],
+   "hash": "801dd91cfc1b",
+   "excerpt": "Streamlining data collection is a long and tedious task, but it is the crux of translating paper register systems into a PCPOSS. The following are the five key ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:fig-12",
+   "kind": "table",
+   "chapter": "ch03-user-requirements",
+   "root": "t-ch03-fig-12",
+   "sections": [
+    "sec:3-4"
+   ],
+   "caption": "Fig. 12. Is each and every data element collected truly needed? (Decision criteria for keeping or removing a data element)",
+   "hash": "19c51e8fb9fc",
+   "excerpt": "Fig. 12 Is each and every data element collected truly needed? Question Explanation Action to be taken --- --- --- 1. Is the data element duplicated? Duplicates",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:12",
+   "kind": "figure",
+   "chapter": "ch03-user-requirements",
+   "root": "f-ch03-fig-12",
+   "sections": [
+    "sec:3-4"
+   ],
+   "caption": "Fig. 12. Is each and every data element collected truly needed?",
+   "hash": "c80287c24be1",
+   "excerpt": "Source: WHO, Digital transformation handbook for primary health care, 2024, PDF pages 41–42.",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "dt:keep-data-element",
+   "kind": "decision-table",
+   "chapter": "ch03-user-requirements",
+   "root": "dt-keep-data-element",
+   "sections": [
+    "sec:3-4"
+   ],
+   "hash": "0e0e26f7d056",
+   "excerpt": "Data-element minimization decision table (section 3.4.4, Fig. 12) Formal DMN 1.5 decision table ( Decision KeepDataElement , hitPolicy=\"FIRST\" ) encoding the Fi",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-016-data-dictionary",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-016-data-dictionary",
+   "sections": [
+    "sec:3-5"
+   ],
+   "hash": "a17e63bc280f",
+   "excerpt": "The final step in streamlining data collection and indicator reporting is to create a data dictionary, which (in this context) is a repository of all the data e",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-017-decision-support-logic",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-017-decision-support-logic",
+   "sections": [
+    "sec:3-6"
+   ],
+   "hash": "b19f7e98645d",
+   "excerpt": "Digital systems can go beyond simple data collection and aggregation by introducing additional layers of sophistication that are generally unavailable on paper.",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:13",
+   "kind": "figure",
+   "chapter": "ch03-user-requirements",
+   "root": "f-ch03-fig-13",
+   "sections": [
+    "sec:3-6"
+   ],
+   "caption": "Fig. 13. Example decision-support logic matrix from DAK for HIV",
+   "hash": "a6c36ca37524",
+   "excerpt": "Fig. 13 Example decision-support logic matrix from DAK for HIV Activity ID & activity name Decision table ID Decision table description Reference/source --- ---",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:fig-13-hiv-decision-matrix-reproduces",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-fig-13-hiv-decision-matrix-reproduces",
+   "sections": [
+    "sec:3-6"
+   ],
+   "hash": "6f0c6565f9d7",
+   "excerpt": "Fig. 13. Illustrative HIV decision-support logic matrix (reproduces WHO HIV DAK) Section 3.6.1 ( sec-017 , PDF pages 43–44, Fig. 13) reproduces an illustrative ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:14",
+   "kind": "figure",
+   "chapter": "ch03-user-requirements",
+   "root": "f-ch03-fig-14",
+   "sections": [
+    "sec:3-6"
+   ],
+   "caption": "Fig. 14. Decision-support logic for a clinical care pathway in the form of a decision tree",
+   "hash": "96d45bed5811",
+   "excerpt": "Fig. 14 Decision-support logic for a clinical care pathway in the form of a decision tree Decision-support tables Within each of the boxes depicted in the decis",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:fig-14-anc-hiv-decision-tree-reproduces",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-fig-14-anc-hiv-decision-tree-reproduces",
+   "sections": [
+    "sec:3-6"
+   ],
+   "hash": "8348f6f2f63e",
+   "excerpt": "Fig. 14. Illustrative ANC HIV-testing decision tree (reproduces WHO ANC DAK) Section 3.6.1 ( sec-017 , PDF page 45, Fig. 14) reproduces an illustrative clinical",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-018-schedules",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-018-schedules",
+   "sections": [
+    "sec:3-7"
+   ],
+   "hash": "c720f5076cfa",
+   "excerpt": "Service schedules give health workers an overview of upcoming, due or overdue services, and aim to ensure timeliness of service delivery and continuity of care.",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-019-requirements",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-019-requirements",
+   "sections": [
+    "sec:3-8"
+   ],
+   "hash": "e0aa154d4809",
+   "excerpt": "The requirements for a PCPOSS are the functional and non-functional criteria that it must meet to ensure end-users are satisfied and the system performs as inte",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "dt:requirement-priority",
+   "kind": "decision-table",
+   "chapter": "ch03-user-requirements",
+   "root": "dt-requirement-priority",
+   "sections": [
+    "sec:3-8"
+   ],
+   "hash": "51772581aa3f",
+   "excerpt": "Requirement prioritization decision table (section 3.8 and Annex 13) Formal DMN 1.5 decision table ( Decision RequirementPriority , hitPolicy=\"FIRST\" ) encoding",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-overview",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-overview",
+   "sections": [
+    "sec:ch04-lead"
+   ],
+   "hash": "b6a0817a00dd",
+   "excerpt": "CHAPTER 4 Undertake design and adaptation The steps of undertaking detailed design and adaptation should be led primarily by a technology partner. This section ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:ch04-phase-panel",
+   "kind": "table",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "t-ch04-phase-panel",
+   "sections": [
+    "sec:ch04-lead"
+   ],
+   "caption": "Chapter 4 phase panel: Who should be involved, Inputs, Tools and Outputs for design and adaptation",
+   "hash": "72c0be865526",
+   "excerpt": "Component Details --- --- Who should be involved? • Software engineers and solutions architects should lead this work.<br • Business analysts and designers shou",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "bp:design-and-adaptation",
+   "kind": "business-process",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "bp-design-and-adaptation",
+   "sections": [
+    "sec:ch04-lead"
+   ],
+   "hash": "1fa9c419901f",
+   "excerpt": "Phase 2: Design and adaptation (Chapter 4) Formal BPMN 2.0 model of Chapter 4 (sections 4.1 to 4.5, sec-020 – sec-024 ), covering software and vendor selection,",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-020-vendor-selection",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-020-vendor-selection",
+   "sections": [
+    "sec:4-1"
+   ],
+   "hash": "af124199cf0c",
+   "excerpt": "After the requirements are defined and prioritized, the implementation team must first select and finalize a software and software vendor that can successfully ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-021-validate-requirements",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-021-validate-requirements",
+   "sections": [
+    "sec:4-2"
+   ],
+   "hash": "8c351076edaa",
+   "excerpt": "As the steps outlined in Chapter 1 to understand users and the needs for a system to digitize primary health care have shown, creating a PCPOSS is a highly iter",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-022-prototyping",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-022-prototyping",
+   "sections": [
+    "sec:4-3"
+   ],
+   "hash": "d1bfa2ff9bd0",
+   "excerpt": "Creating mock-ups of a user interface (UI) and prototyping of the product helps to evaluate the layout, flow and usability of the intended digital application p",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "fig:15",
+   "kind": "figure",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "f-ch04-fig-15",
+   "sections": [
+    "sec:4-3"
+   ],
+   "caption": "Fig. 15. Levels of insight gained from different prototypes",
+   "hash": "5c15c399393a",
+   "excerpt": "Fig. 15 Levels of insight gained from different prototypes Validation Refinement Deployment • Do users need this? • Would this digital record solve most of thei",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-023-architecture-overview",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-023-architecture-overview",
+   "sections": [
+    "sec:4-4"
+   ],
+   "hash": "b4a40a0a4018",
+   "excerpt": "A system architecture is a conceptual model that depicts how the PCPOSS will be structured and how it functions and includes all the software and hardware compo",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-023-architecture-domains",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-023-architecture-domains",
+   "sections": [
+    "sec:4-4"
+   ],
+   "hash": "ae192ae5b981",
+   "excerpt": "4.4.1 Types of architecture Architecture sets the foundation and blueprint of the solution that describes how different processes, data, systems and technology ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:2",
+   "kind": "table",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "t-ch04-table-2",
+   "sections": [
+    "sec:4-4"
+   ],
+   "caption": "Table 2. Types of architecture domains",
+   "hash": "14bd3641c3b9",
+   "excerpt": "Table 2. Types of architecture domains Domain Definition --- --- Business architecture Defines the digital health solution strategy, governance, organization an",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-023-interoperability",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-023-interoperability",
+   "sections": [
+    "sec:4-4"
+   ],
+   "hash": "7f5db35547b0",
+   "excerpt": "4.4.2 Types of interoperability in health Interoperability is the ability of different applications to access, exchange, integrate and use data in a coordinated",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:3",
+   "kind": "table",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "t-ch04-table-3",
+   "sections": [
+    "sec:4-4"
+   ],
+   "caption": "Table 3. Types of interoperability in health",
+   "hash": "d870e176226b",
+   "excerpt": "Table 3. Types of interoperability in health Domain Definition --- --- Syntactic interoperability Also referred to as structural interoperability, refers to the",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-023-standards",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-023-standards",
+   "sections": [
+    "sec:4-4"
+   ],
+   "hash": "c03e7df63ed2",
+   "excerpt": "4.4.3 Types of standards Digital health standards, including architectural standards, interoperability standards and policy standards, are key to how different ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:4",
+   "kind": "table",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "t-ch04-table-4",
+   "sections": [
+    "sec:4-4"
+   ],
+   "caption": "Table 4. Types of standards",
+   "hash": "18aa56f8387b",
+   "excerpt": "Table 4. Types of standards Type of interoperability supported Standard category Standard description Common examples --- --- --- --- Semantic Terminology and C",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch04-sec-024-build-and-qa",
+   "kind": "prose",
+   "chapter": "ch04-design-and-adaptation",
+   "root": "p-ch04-sec-024-build-and-qa",
+   "sections": [
+    "sec:4-5"
+   ],
+   "hash": "a15cd31b18b4",
+   "excerpt": "During this step, the technology partner will take the time to build the PCPOSS. They will need to spend time coding and ensuring that their code results in the",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch05-overview",
+   "kind": "prose",
+   "chapter": "ch05-training-testing-rollout",
+   "root": "p-ch05-overview",
+   "sections": [
+    "sec:ch05-lead"
+   ],
+   "hash": "a2c8f646c4c7",
+   "excerpt": "CHAPTER 5 Conduct training, testing and roll-out After the beta version is built, there are some crucial steps that need to be taken before the system is deploy",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:ch05-phase-panel",
+   "kind": "table",
+   "chapter": "ch05-training-testing-rollout",
+   "root": "t-ch05-phase-panel",
+   "sections": [
+    "sec:ch05-lead"
+   ],
+   "caption": "Chapter 5 phase panel: Who should be involved, Inputs, Tools and Outputs for training, testing and roll-out",
+   "hash": "cf61cef8995c",
+   "excerpt": "Component Details --- --- Who should be involved? • Implementing teams should be responsible for training and interfacing with the targeted end-users.<br • Soft",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "bp:training-testing-and-roll-out",
+   "kind": "business-process",
+   "chapter": "ch05-training-testing-rollout",
+   "root": "bp-training-testing-and-roll-out",
+   "sections": [
+    "sec:ch05-lead"
+   ],
+   "hash": "eb2c8224da7d",
+   "excerpt": "Phase 3: Training, testing and roll-out (Chapter 5) Formal BPMN 2.0 model of Chapter 5 (sections 5.1 to 5.4, sec-025 – sec-028 ), covering pre-roll-out governan",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch05-sec-025-training",
+   "kind": "prose",
+   "chapter": "ch05-training-testing-rollout",
+   "root": "p-ch05-sec-025-training",
+   "sections": [
+    "sec:5-1"
+   ],
+   "hash": "b8d1ca8bb151",
+   "excerpt": "Three categories of training will be needed: (i) training on use of the PCPOSS; (ii) training on maintenance of the PCPOSS; and (iii) training related to any po",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch05-sec-026-uat",
+   "kind": "prose",
+   "chapter": "ch05-training-testing-rollout",
+   "root": "p-ch05-sec-026-uat",
+   "sections": [
+    "sec:5-2"
+   ],
+   "hash": "50016ad4b453",
+   "excerpt": "With a beta version of the PCPOSS available, a series of user acceptance tests needs to take place prior to deployment. User acceptance testing (UAT) should be ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch05-sec-027-deploy",
+   "kind": "prose",
+   "chapter": "ch05-training-testing-rollout",
+   "root": "p-ch05-sec-027-deploy",
+   "sections": [
+    "sec:5-3"
+   ],
+   "hash": "1d0433c3bd54",
+   "excerpt": "Deployment of the system often requires strong strategic thinking by the technology partner, as poorly deployed systems can make or break an entire project. Onc",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch05-sec-028-maintenance",
+   "kind": "prose",
+   "chapter": "ch05-training-testing-rollout",
+   "root": "p-ch05-sec-028-maintenance",
+   "sections": [
+    "sec:5-4"
+   ],
+   "hash": "667abcdbf74c",
+   "excerpt": "Feedback management, training, software updates and hardware maintenance will all be needed continually during the roll-out. The implementation team should have",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch06-overview",
+   "kind": "prose",
+   "chapter": "ch06-scale-up",
+   "root": "p-ch06-overview",
+   "sections": [
+    "sec:ch06-lead"
+   ],
+   "hash": "a1bcf2142d47",
+   "excerpt": "CHAPTER 6 Prepare for scale-up To replace a paper system completely, or to replace multiple, disconnected legacy digital systems, successful implementation of a",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:ch06-phase-panel",
+   "kind": "table",
+   "chapter": "ch06-scale-up",
+   "root": "t-ch06-phase-panel",
+   "sections": [
+    "sec:ch06-lead"
+   ],
+   "caption": "Chapter 6 phase panel: Who should be involved, Inputs, Tools and Outputs for scaling up the system",
+   "hash": "dcac13f51bee",
+   "excerpt": "Component Details --- --- Who should be involved? • The leading public health authority, such as a ministry of health, should be leading this phase to ensure sc",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "bp:scale-up",
+   "kind": "business-process",
+   "chapter": "ch06-scale-up",
+   "root": "bp-scale-up",
+   "sections": [
+    "sec:ch06-lead"
+   ],
+   "hash": "7b7d43ca2b10",
+   "excerpt": "Phase 4: Scale-up (Chapter 6) Formal BPMN 2.0 model of Chapter 6 (sections 6.1 to 6.5, sec-029 – sec-033 ), governing readiness assessment, SMART objectives and",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch06-sec-029-readiness-to-scale",
+   "kind": "prose",
+   "chapter": "ch06-scale-up",
+   "root": "p-ch06-sec-029-readiness-to-scale",
+   "sections": [
+    "sec:6-1"
+   ],
+   "hash": "3e79b79177e9",
+   "excerpt": "Before scaling up and phasing out paper and legacy systems, it is important to determine both that the PCPOSS is ready to be scaled up and that the existing hea",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "dt:ready-to-scale-up",
+   "kind": "decision-table",
+   "chapter": "ch06-scale-up",
+   "root": "dt-ready-to-scale-up",
+   "sections": [
+    "sec:6-1"
+   ],
+   "hash": "f1f035cfe0b0",
+   "excerpt": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5) Formal DMN 1.5 decision table ( Decision ReadyToScaleUp , hitPolicy=\"FIRST\" ) encoding the rea",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch06-sec-030-plan-legacy-phaseout",
+   "kind": "prose",
+   "chapter": "ch06-scale-up",
+   "root": "p-ch06-sec-030-plan-legacy-phaseout",
+   "sections": [
+    "sec:6-2"
+   ],
+   "hash": "8ac52ef5b408",
+   "excerpt": "When moving from scale-up to integration and sustainability (see Monitoring and evaluating digital health interventions [99]), answer the following question: Wh",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:5",
+   "kind": "table",
+   "chapter": "ch06-scale-up",
+   "root": "t-ch06-table-5",
+   "sections": [
+    "sec:6-2"
+   ],
+   "caption": "Table 5. Key indicators of whether a digital system meets its objectives",
+   "hash": "0a0a64269c54",
+   "excerpt": "Table 5. Key indicators of whether a digital system meets its objectives Questions for assessment Metric area Indicator --- --- --- Does the person-centred poin",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch06-sec-031-monitoring",
+   "kind": "prose",
+   "chapter": "ch06-scale-up",
+   "root": "p-ch06-sec-031-monitoring",
+   "sections": [
+    "sec:6-3"
+   ],
+   "hash": "df8ba73fdf8d",
+   "excerpt": "With clear objectives and indicators to measure progress towards them, it is crucial that the PCPOSS has a clear and robust monitoring and evaluation plan and m",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch06-sec-032-execute-legacy-phaseout",
+   "kind": "prose",
+   "chapter": "ch06-scale-up",
+   "root": "p-ch06-sec-032-execute-legacy-phaseout",
+   "sections": [
+    "sec:6-4"
+   ],
+   "hash": "afc43d0c0041",
+   "excerpt": "Strategically, it is advised to not wait until the entire country is ready to phase out paper systems and/or legacy systems and instead phase out those systems ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch06-sec-033-change-management",
+   "kind": "prose",
+   "chapter": "ch06-scale-up",
+   "root": "p-ch06-sec-033-change-management",
+   "sections": [
+    "sec:6-5"
+   ],
+   "hash": "650a3da44027",
+   "excerpt": "As the PCPOSS is adopted and increasingly integrated into routine use, the phasing out of paper systems entirely will require behaviour change, not just at the ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:references-main",
+   "kind": "prose",
+   "chapter": "references",
+   "root": "p-references-main",
+   "sections": [
+    "sec:references-main"
+   ],
+   "hash": "e8be7800ddaf",
+   "excerpt": "1. Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact. Geneva: World Health Organization; 2022 (https://",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:annex-01-principles",
+   "kind": "prose",
+   "chapter": "annexes",
+   "root": "p-annex-01-principles",
+   "sections": [
+    "sec:annex-01"
+   ],
+   "hash": "b032c4668f06",
+   "excerpt": "ANNEX 1. Principles for digital development Principle Description --- --- Understand the existing ecosystem Trust starts with a thorough understanding of the dy",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-02",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-02-interview-worksheet",
+   "sections": [
+    "sec:annex-02"
+   ],
+   "caption": "Annex 2. Worksheet for semi-structured interviews",
+   "hash": "39802719da01",
+   "excerpt": "ANNEX 2. Worksheet for semi-structured interviews This example interview guide is intended to provide guidance on what key information the team should be collec",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-03",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-03-observations-worksheet",
+   "sections": [
+    "sec:annex-03"
+   ],
+   "caption": "Annex 3. Observations worksheet",
+   "hash": "78ecc2968a0e",
+   "excerpt": "ANNEX 3. Observations worksheet The work environment To be completed once per facility. Field Notes / Questions --- --- Facility name General description of ser",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-04",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-04-user-persona-worksheet",
+   "sections": [
+    "sec:annex-04"
+   ],
+   "caption": "Annex 4. User persona worksheet",
+   "hash": "e1dea12a164d",
+   "excerpt": "ANNEX 4. User persona worksheet A user persona worksheet that summarizes each and every type of end-user (e.g. community health worker, district health officer,",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-05",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-05-user-stories-worksheet",
+   "sections": [
+    "sec:annex-05"
+   ],
+   "caption": "Annex 5. User stories worksheet",
+   "hash": "28389b885d01",
+   "excerpt": "ANNEX 5. User stories worksheet User stories help to illustrate the end-users’ views of how they want to use the PCPOSS, which can eventually be translated into",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-06",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-06-business-process-matrix",
+   "sections": [
+    "sec:annex-06"
+   ],
+   "caption": "Annex 6. Business process matrix guide",
+   "hash": "5be4a9dde3e5",
+   "excerpt": "ANNEX 6. Business process matrix guide The business process matrix provides an overview of all the key processes that are involved. This overview serves as an i",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-07",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-07-form-inventory-guide",
+   "sections": [
+    "sec:annex-07"
+   ],
+   "caption": "Annex 7. Form inventory guide",
+   "hash": "4699e2b47bda",
+   "excerpt": "ANNEX 7. Form inventory guide The following explains the information needed for each paper or digital form, which should be logged in separate rows in a table. ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-08",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-08-form-data-mapping-guide",
+   "sections": [
+    "sec:annex-08"
+   ],
+   "caption": "Annex 8. Form data mapping guide (Data dictionary template)",
+   "hash": "1af92673373f",
+   "excerpt": "ANNEX 8. Form data mapping guide The following guide helps organize and map which data elements are collected from each paper form currently used. A spreadsheet",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-09",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-09-indicator-mapping-guide",
+   "sections": [
+    "sec:annex-09"
+   ],
+   "caption": "Annex 9. Aggregate indicator mapping guide",
+   "hash": "66d457d7db3b",
+   "excerpt": "ANNEX 9. Aggregate indicator mapping guide A spreadsheet should be created to document the indicators that can be calculated from the individual level data that",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-10",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-10-decision-and-scheduling-matrix",
+   "sections": [
+    "sec:annex-10"
+   ],
+   "caption": "Annex 10. Decision-support logic and scheduling matrix guide",
+   "hash": "ded6352aa1b9",
+   "excerpt": "ANNEX 10. Decision-support logic and scheduling matrix guide This table should provide an overview and inventory of all the decision-support logic that will be ",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-11",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-11-decision-support-table-template",
+   "sections": [
+    "sec:annex-11"
+   ],
+   "caption": "Annex 11. Template for a decision-support table (DMN shape)",
+   "hash": "acf34cae1afe",
+   "excerpt": "ANNEX 11. Template for a decision-support table The decision-support table template provides a structured way of parsing out the logic into clear “if/then” stat",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "dt:annex-11-decision-support-table-template",
+   "kind": "decision-table",
+   "chapter": "annexes",
+   "root": "dt-annex-11-decision-support-table-template",
+   "sections": [
+    "sec:annex-11"
+   ],
+   "hash": "73b3396bd264",
+   "excerpt": "Annex 11: Decision-support table template and DMN 1.5 column mapping Formal mapping of the handbook's Annex 11 Decision-support table template ( sec-043 , secti",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-12",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-12-scheduling-logic-guide",
+   "sections": [
+    "sec:annex-12"
+   ],
+   "caption": "Annex 12. Scheduling logic table guide",
+   "hash": "5d1157b30857",
+   "excerpt": "ANNEX 12. Scheduling logic table guide This illustrative guide can be used to inform how to document health service schedules. The example of the hepatitis B bi",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "sched:annex-12-scheduling-logic-template",
+   "kind": "scheduling-logic",
+   "chapter": "annexes",
+   "root": "sched-annex-12-scheduling-logic-template",
+   "sections": [
+    "sec:annex-12"
+   ],
+   "hash": "d0c6d0df7918",
+   "excerpt": "Annex 12: Scheduling-logic template mapping to smart-base:SchedulingLogic Formal mapping of the handbook's Annex 12 Scheduling-logic template ( sec-044 , sectio",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:annex-12-hepb-schedule-reproduces",
+   "kind": "prose",
+   "chapter": "annexes",
+   "root": "p-annex-12-hepb-schedule-reproduces",
+   "sections": [
+    "sec:annex-12"
+   ],
+   "hash": "203917169134",
+   "excerpt": "Annex 12 worked example: Hepatitis B birth-dose vaccination schedule (reproduces WHO Immunization DAK) Annex 12 ( sec-044 , PDF page 99, and section 3.7 sec-018",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:annex-13",
+   "kind": "table",
+   "chapter": "annexes",
+   "root": "t-annex-13-prioritization-guide",
+   "sections": [
+    "sec:annex-13"
+   ],
+   "caption": "Annex 13. Prioritization of requirements guide",
+   "hash": "8e8061b6e30f",
+   "excerpt": "ANNEX 13. Prioritization of requirements guide With a long list of functional and non-functional requirements, but a constrained set of resources (budget and ti",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:annex-14-fhir-components",
+   "kind": "prose",
+   "chapter": "annexes",
+   "root": "p-annex-14-fhir-components",
+   "sections": [
+    "sec:annex-14"
+   ],
+   "hash": "5806a089d160",
+   "excerpt": "ANNEX 14. HL7 FHIR standard components Resources A “FHIR Resource” is a modular component that serves as the basic data exchange format in the HL7 FHIR standard",
+   "method": "folio-snapshot"
+  }
+ ]
+}

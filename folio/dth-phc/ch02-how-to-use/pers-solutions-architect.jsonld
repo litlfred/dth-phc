@@ -97,7 +97,7 @@
     "roleId": "PHC-R-04",
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/solutions-architect",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/user-persona"
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona"
     ]
   },
   "provenance": "authored"

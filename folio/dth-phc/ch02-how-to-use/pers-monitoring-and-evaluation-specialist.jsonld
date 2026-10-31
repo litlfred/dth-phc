@@ -104,7 +104,7 @@
     "roleId": "PHC-R-09",
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/monitoring-and-evaluation-specialist",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/user-persona"
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona"
     ]
   },
   "provenance": "authored"

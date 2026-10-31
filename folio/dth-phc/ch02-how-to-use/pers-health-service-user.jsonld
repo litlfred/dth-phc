@@ -111,7 +111,7 @@
     "roleId": "PHC-R-14",
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-service-users",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/user-persona"
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona"
     ]
   },
   "provenance": "authored"

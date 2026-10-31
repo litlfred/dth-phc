@@ -250,7 +250,7 @@ for (const file of glossaryFiles) {
 if (existsSync(FOLIO_DIR)) {
   const localGlossaryIds = loadGlossaryIds(join(GLOSSARY_DIR, "dth-phc.glossary.json"));
   const raArchimatePath = join(ROOT, "dpi-h-ra/archimate/cat-archimate.config.json");
-  const raArchimateIds = new Set<string>();
+  const raArchimateByModel = new Map<string, Set<string>>();
   if (existsSync(raArchimatePath)) {
     const { readArchimate } = await import("../../cat-harness-tools/archimate/schemas/archimate.ts");
     const cfg = JSON.parse(readFileSync(raArchimatePath, "utf8"));
@@ -258,8 +258,10 @@ if (existsSync(FOLIO_DIR)) {
       const p = join(ROOT, "dpi-h-ra/archimate", cm.file);
       if (!existsSync(p)) continue;
       const model = readArchimate(readFileSync(p));
-      for (const e of model.elements) raArchimateIds.add(e.id);
-      for (const v of model.views) raArchimateIds.add(v.id);
+      const ids = new Set<string>();
+      for (const e of model.elements) ids.add(e.id);
+      for (const v of model.views) ids.add(v.id);
+      raArchimateByModel.set(cm.id, ids);
     }
   }
 
@@ -332,7 +334,7 @@ if (existsSync(FOLIO_DIR)) {
         const hit = String(item.iri ?? "").match(archimateIriRe);
         if (!hit) {
           fail(`${bf}: invalid ArchiMate IRI '${item.iri}'`);
-        } else if (raArchimateIds.size > 0 && !raArchimateIds.has(hit[3])) {
+        } else if (raArchimateByModel.has(hit[1]) && !raArchimateByModel.get(hit[1])!.has(hit[3])) {
           fail(`${bf}: ArchiMate ID '${hit[3]}' (${item.name}) not found in dpi-h-ra ArchiMate model`);
         } else {
           blockArchimateLinkCount++;
