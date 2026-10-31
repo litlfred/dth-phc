@@ -2,9 +2,23 @@
   "$schema": "folio-glossary/v1",
   "id": "dth-phc",
   "title": "Glossary of the Digital Transformation Handbook for Primary Health Care",
-  "description": "SKOS concept scheme of terms and abbreviations defined in the WHO Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems (2024, ISBN 978-92-4-009336-2), cross-linked to the WHO/ITU DPI-H Reference Architecture (smart-ra: dpi-h-ra and full-stac schemes) and the WHO SMART Guidelines DAK vocabulary (smart-base).",
+  "description": "SKOS concept scheme of terms and abbreviations defined in the WHO Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems (2024, ISBN 978-92-4-009336-2), cross-linked to the WHO/ITU DPI-H Reference Architecture (smart-ra: dpi-h-ra and full-stac schemes) and the WHO SMART Guidelines DAK vocabulary (smart-base). Acronyms (owner, 2026-10-31): every acronym the handbook uses in its abbreviations table and chapters is a term here with the acronym as notation and a source pointing to its L1 section (litlfred/folio-assistant-core#412).",
   "source": "dth-phc.json#who-iris/library/9789240093362-eng",
   "terms": [
+    {
+      "id": "acquired-immunodeficiency-syndrome",
+      "prefLabel": "Acquired immunodeficiency syndrome",
+      "altLabel": [
+        "AIDS"
+      ],
+      "notation": "AIDS",
+      "scopeNote": "Used in the handbook text; expansion supplied for review. A candidate: no definition has been written.",
+      "related": [
+        "human-immunodeficiency-virus"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-003-introduction.md",
+      "status": "candidate"
+    },
     {
       "id": "algorithm",
       "prefLabel": "Algorithm",
@@ -58,6 +72,17 @@
       "status": "candidate"
     },
     {
+      "id": "application-programming-interface",
+      "prefLabel": "Application programming interface",
+      "altLabel": [
+        "API"
+      ],
+      "notation": "API",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
       "id": "architecture",
       "prefLabel": "Architecture",
       "definition": "The fundamental structure of a digital system or ecosystem, encompassing its components, their relationships, and the principles and guidelines governing their design and evolution.",
@@ -100,6 +125,17 @@
       "status": "candidate"
     },
     {
+      "id": "artificial-intelligence",
+      "prefLabel": "Artificial intelligence",
+      "altLabel": [
+        "AI"
+      ],
+      "notation": "AI",
+      "scopeNote": "Used in Figure 3 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-003-introduction.md",
+      "status": "candidate"
+    },
+    {
       "id": "as-is",
       "prefLabel": "As-Is",
       "altLabel": [
@@ -116,6 +152,17 @@
         "pain-point"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "asia-ehealth-information-network",
+      "prefLabel": "Asia eHealth Information Network",
+      "altLabel": [
+        "AeHIN"
+      ],
+      "notation": "AeHIN",
+      "scopeNote": "Expanded in the text (section 4.4), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "status": "candidate"
     },
     {
@@ -136,6 +183,17 @@
         "deploy"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "body-mass-index",
+      "prefLabel": "Body mass index",
+      "altLabel": [
+        "BMI"
+      ],
+      "notation": "BMI",
+      "scopeNote": "Expanded in Annex 8 (Form data mapping guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-041-form-data-mapping-guide.md",
       "status": "candidate"
     },
     {
@@ -184,7 +242,7 @@
       "altLabel": [
         "Business objective"
       ],
-      "definition": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, \u201ccompleted health service user registration\u201d, or \u201chealth service user referral sent\u201d (1).",
+      "definition": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, “completed health service user registration”, or “health service user referral sent” (1).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "business-process",
@@ -203,7 +261,7 @@
       "altLabel": [
         "Business process"
       ],
-      "definition": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include \u201chealth service user registration\u201d and \u201creferrals\u201d, for example (see section 3.3).",
+      "definition": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "business-objective",
@@ -216,6 +274,45 @@
         "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "business-process-management",
+      "prefLabel": "Business process management",
+      "altLabel": [
+        "BPM"
+      ],
+      "notation": "BPM",
+      "scopeNote": "Used in the handbook glossary and references; expansion supplied for review. A candidate: no definition has been written.",
+      "related": [
+        "business-process"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "status": "candidate"
+    },
+    {
+      "id": "business-process-model-and-notation",
+      "prefLabel": "Business Process Model and Notation",
+      "altLabel": [
+        "BPMN"
+      ],
+      "notation": "BPMN",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "business-process"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "c-reactive-protein",
+      "prefLabel": "C-reactive protein",
+      "altLabel": [
+        "CRP"
+      ],
+      "notation": "CRP",
+      "scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
       "status": "candidate"
     },
     {
@@ -241,7 +338,7 @@
       "altLabel": [
         "Care pathway"
       ],
-      "definition": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n\u2022 an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users\u2019 expectations and their characteristics;\n\u2022 the facilitation of the communication among the team members and with health service users and families;\n\u2022 the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n\u2022 the documentation, monitoring and evaluation of variances and outcomes;\n\u2022 the identification of the appropriate resources.",
+      "definition": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n• an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users’ expectations and their characteristics;\n• the facilitation of the communication among the team members and with health service users and families;\n• the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n• the documentation, monitoring and evaluation of variances and outcomes;\n• the identification of the appropriate resources.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "clinical-protocol",
@@ -254,6 +351,17 @@
         "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "chest-x-ray",
+      "prefLabel": "Chest X-ray",
+      "altLabel": [
+        "CXR"
+      ],
+      "notation": "CXR",
+      "scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
       "status": "candidate"
     },
     {
@@ -280,7 +388,7 @@
         "Registration clerk",
         "Records clerk"
       ],
-      "definition": "Health facility registration, reception and medical records staff who register clients, verify client identity and maintain facility registers (sections 3.1, 3.3.2 Figs. 10\u201311, 5.1, 6.4).",
+      "definition": "Health facility registration, reception and medical records staff who register clients, verify client identity and maintain facility registers (sections 3.1, 3.3.2 Figs. 10–11, 5.1, 6.4).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012.json",
       "broader": [
         "end-user",
@@ -295,7 +403,7 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Facility registration/records end-user role in section 3.1 and Figs. 10\u201311 (Workflow A: ANC Registration).",
+      "scopeNote": "Facility registration/records end-user role in section 3.1 and Figs. 10–11 (Workflow A: ANC Registration).",
       "status": "candidate"
     },
     {
@@ -358,7 +466,8 @@
       "id": "community-based-information-system",
       "prefLabel": "Community-Based Information System",
       "altLabel": [
-        "Community-based information system"
+        "Community-based information system",
+        "CBIS"
       ],
       "definition": "Applications that facilitate data collection and use at the community level. These applications are utilized by community-based workers who provide health promotion and disease prevention activities (6).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
@@ -371,6 +480,33 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate",
+      "notation": "CBIS"
+    },
+    {
+      "id": "community-health-worker",
+      "prefLabel": "Community health worker",
+      "altLabel": [
+        "CHW",
+        "CHWs"
+      ],
+      "notation": "CHW",
+      "scopeNote": "Used in section 3.7 and Annex 12; expansion supplied for review. A candidate: no definition has been written.",
+      "broader": [
+        "health-worker"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-018-37-map-health-service-schedules.md",
+      "status": "candidate"
+    },
+    {
+      "id": "coronavirus-disease-2019",
+      "prefLabel": "Coronavirus disease 2019",
+      "altLabel": [
+        "COVID-19"
+      ],
+      "notation": "COVID-19",
+      "scopeNote": "Used in section 3.8 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-019-38-gather-and-prioritize-requirements.md",
       "status": "candidate"
     },
     {
@@ -435,6 +571,21 @@
       "status": "candidate"
     },
     {
+      "id": "decision-model-and-notation",
+      "prefLabel": "Decision Model and Notation",
+      "altLabel": [
+        "DMN"
+      ],
+      "notation": "DMN",
+      "scopeNote": "Expanded in the text, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "decision-support-table",
+        "decision-support-logic"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "status": "candidate"
+    },
+    {
       "id": "decision-support-logic",
       "prefLabel": "Decision Support Logic",
       "altLabel": [
@@ -462,9 +613,11 @@
       "altLabel": [
         "Decision support system",
         "Clinical Decision Support System",
-        "CDSS"
+        "CDSS",
+        "DSS",
+        "CDS"
       ],
-      "definition": "A digital job aid that combines an individual\u2019s health information with the health worker\u2019s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8).",
+      "definition": "A digital job aid that combines an individual’s health information with the health worker’s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "decision-support-logic",
@@ -480,14 +633,16 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
-      "status": "candidate"
+      "status": "candidate",
+      "notation": "DSS"
     },
     {
       "id": "decision-support-table",
       "prefLabel": "Decision-Support Table",
       "altLabel": [
         "Decision-support table",
-        "Decision Table"
+        "Decision Table",
+        "DT"
       ],
       "definition": "A structured way to depict a discrete decision that will need to be embedded into the PCPOSS. There can be multiple decision-support tables (9).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
@@ -507,7 +662,8 @@
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
-      "status": "candidate"
+      "status": "candidate",
+      "notation": "DT"
     },
     {
       "id": "deploy",
@@ -555,7 +711,7 @@
       "altLabel": [
         "Development, Security and Operations"
       ],
-      "definition": "Short for \u201cdevelopment, security and operations\u201d. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues.",
+      "definition": "Short for “development, security and operations”. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "build",
@@ -597,7 +753,7 @@
         "Digital Adaptation Kit",
         "Digital adaptation kits (DAKs)"
       ],
-      "definition": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO\u2019s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the \u201cSMART Guidelines\u201d framework (10).",
+      "definition": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO’s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the “SMART Guidelines” framework (10).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "broader": [
         "smart-guidelines"
@@ -642,6 +798,17 @@
       "status": "candidate"
     },
     {
+      "id": "digital-health-atlas",
+      "prefLabel": "Digital Health Atlas",
+      "altLabel": [
+        "DHA"
+      ],
+      "notation": "DHA",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
       "id": "digital-health-ecosystem",
       "prefLabel": "Digital Health Ecosystem",
       "definition": "The interconnected network of digital health applications, shared infrastructure services, standards, governance policies, and stakeholders operating within a health system.",
@@ -682,6 +849,28 @@
         "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-imaging-and-communications-in-medicine",
+      "prefLabel": "Digital Imaging and Communications in Medicine",
+      "altLabel": [
+        "DICOM"
+      ],
+      "notation": "DICOM",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-implementation-investment-guide",
+      "prefLabel": "Digital Implementation Investment Guide",
+      "altLabel": [
+        "DIIG"
+      ],
+      "notation": "DIIG",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
     },
     {
@@ -735,6 +924,20 @@
       "status": "candidate"
     },
     {
+      "id": "district-health-information-software-2",
+      "prefLabel": "District Health Information Software 2",
+      "altLabel": [
+        "DHIS2"
+      ],
+      "notation": "DHIS2",
+      "scopeNote": "Used in the handbook text; expansion supplied for review. A candidate: no definition has been written.",
+      "related": [
+        "health-management-information-system"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-011-25-choices-for-software-and-digital-applications.md",
+      "status": "candidate"
+    },
+    {
       "id": "donors-and-development-partners",
       "prefLabel": "Donors and Development Partners",
       "altLabel": [
@@ -784,7 +987,7 @@
         "Electronic health record system",
         "Electronic Medical Record System"
       ],
-      "definition": "A secure, online system that holds health service user health records, which include information about people\u2019s health and clinical care. This system is managed by health workers. Also referred to as an \u201celectronic medical record system\u201d (6).",
+      "definition": "A secure, online system that holds health service user health records, which include information about people’s health and clinical care. This system is managed by health workers. Also referred to as an “electronic medical record system” (6).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "person-centred-point-of-service-system",
@@ -852,7 +1055,8 @@
       "id": "enterprise-architecture",
       "prefLabel": "Enterprise Architecture",
       "altLabel": [
-        "Enterprise architecture"
+        "Enterprise architecture",
+        "EA"
       ],
       "definition": "A blueprint of business processes, data, systems and technologies used to help planners, software developers and managers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system (11).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
@@ -864,6 +1068,18 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate",
+      "notation": "EA"
+    },
+    {
+      "id": "family-planning",
+      "prefLabel": "Family planning",
+      "altLabel": [
+        "FP"
+      ],
+      "notation": "FP",
+      "scopeNote": "Expanded in Annex 6 (Business process matrix guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-039-business-process-matrix-guide.md",
       "status": "candidate"
     },
     {
@@ -897,7 +1113,7 @@
       "altLabel": [
         "Feature"
       ],
-      "definition": "The characteristics of a system that include look and feel as well as what the system can do (e.g. \u201creporting\u201d can be a feature of a PCPOSS).",
+      "definition": "The characteristics of a system that include look and feel as well as what the system can do (e.g. “reporting” can be a feature of a PCPOSS).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "functions",
@@ -914,7 +1130,7 @@
     {
       "id": "flag",
       "prefLabel": "Flag",
-      "definition": "In a PCPOSS, a \u201cflag\u201d consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default).",
+      "definition": "In a PCPOSS, a “flag” consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "pop-up-message",
@@ -923,6 +1139,28 @@
         "decision-support-table"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "foreign-commonwealth-and-development-office",
+      "prefLabel": "Foreign, Commonwealth and Development Office",
+      "altLabel": [
+        "FCDO"
+      ],
+      "notation": "FCDO",
+      "scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
+      "status": "candidate"
+    },
+    {
+      "id": "full-standards-and-architecture-catalogue",
+      "prefLabel": "Full Standards and Architecture Catalogue",
+      "altLabel": [
+        "full-STAC"
+      ],
+      "notation": "full-STAC",
+      "scopeNote": "Named in section 4.4 and references (ITU/WHO Full STAC). A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "status": "candidate"
     },
     {
@@ -953,7 +1191,7 @@
       "altLabel": [
         "Function"
       ],
-      "definition": "Functions in a system are how features are implemented (e.g. \u201ccalculating aggregate data\u201d and \u201cdisplaying feedback in the form of diagrams\u201d are functions of the \u201creporting\u201d feature of a PCPOSS).",
+      "definition": "Functions in a system are how features are implemented (e.g. “calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "features",
@@ -985,6 +1223,17 @@
         "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "gs1",
+      "prefLabel": "GS1",
+      "altLabel": [
+        "GS1"
+      ],
+      "notation": "GS1",
+      "scopeNote": "Named in Table 4 (section 4.4 interoperability standards). A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "status": "candidate"
     },
     {
@@ -1037,6 +1286,17 @@
       "status": "candidate"
     },
     {
+      "id": "health-insurance-portability-and-accountability-act",
+      "prefLabel": "Health Insurance Portability and Accountability Act",
+      "altLabel": [
+        "HIPAA"
+      ],
+      "notation": "HIPAA",
+      "scopeNote": "Expanded in the references, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
+      "status": "candidate"
+    },
+    {
       "id": "health-interventions-and-recommendations",
       "prefLabel": "Health Interventions and Recommendations",
       "definition": "L2 Digital Adaptation Kit (DAK) component summarizing the normative WHO clinical and public health interventions and recommendations that the digital system is designed to operationalize.",
@@ -1051,6 +1311,20 @@
         "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-level-seven",
+      "prefLabel": "Health Level Seven",
+      "altLabel": [
+        "HL7"
+      ],
+      "notation": "HL7",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "fast-healthcare-interoperability-resources"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
     },
     {
@@ -1102,9 +1376,9 @@
     },
     {
       "id": "health-service-users-health-records",
-      "prefLabel": "Health Service User\u2019s Health Records",
+      "prefLabel": "Health Service User’s Health Records",
       "altLabel": [
-        "Health service user\u2019s health records",
+        "Health service user’s health records",
         "Health Service User's Health Records"
       ],
       "definition": "The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker. The record may be retained by the health-care facility or by the health service user.",
@@ -1147,7 +1421,52 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Primary PCPOSS end-user occupational group across Chapters 1\u20136; maps to Health Workers stakeholder in smart-ra and dth-hrh.",
+      "scopeNote": "Primary PCPOSS end-user occupational group across Chapters 1–6; maps to Health Workers stakeholder in smart-ra and dth-hrh.",
+      "status": "candidate"
+    },
+    {
+      "id": "hepatitis-b-virus",
+      "prefLabel": "Hepatitis B virus",
+      "altLabel": [
+        "HBV"
+      ],
+      "notation": "HBV",
+      "scopeNote": "Expanded in Annex 12 (Scheduling logic table guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-044-scheduling-logic-table-guide.md",
+      "status": "candidate"
+    },
+    {
+      "id": "human-immunodeficiency-virus",
+      "prefLabel": "Human immunodeficiency virus",
+      "altLabel": [
+        "HIV",
+        "HIV-1"
+      ],
+      "notation": "HIV",
+      "scopeNote": "Used throughout the handbook's clinical examples and annexes without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "status": "candidate"
+    },
+    {
+      "id": "identification-for-development",
+      "prefLabel": "Identification for Development",
+      "altLabel": [
+        "ID4D"
+      ],
+      "notation": "ID4D",
+      "scopeNote": "Named in section 2.3 (World Bank ID4D); expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-009-23-before-using-this-resource.md",
+      "status": "candidate"
+    },
+    {
+      "id": "identity-identification",
+      "prefLabel": "Identity/identification",
+      "altLabel": [
+        "ID"
+      ],
+      "notation": "ID",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
     },
     {
@@ -1210,9 +1529,20 @@
       "status": "candidate"
     },
     {
+      "id": "information-technology",
+      "prefLabel": "Information technology",
+      "altLabel": [
+        "IT"
+      ],
+      "notation": "IT",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
       "id": "input",
       "prefLabel": "Input",
-      "definition": "The input entry in a decision-support table is a \u201ccondition\u201d for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met \u2013 leading to the subsequent output or action.",
+      "definition": "The input entry in a decision-support table is a “condition” for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met – leading to the subsequent output or action.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "output",
@@ -1223,6 +1553,39 @@
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "institute-of-electrical-and-electronics-engineers",
+      "prefLabel": "Institute of Electrical and Electronics Engineers",
+      "altLabel": [
+        "IEEE"
+      ],
+      "notation": "IEEE",
+      "scopeNote": "Used in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
+      "status": "candidate"
+    },
+    {
+      "id": "integrating-the-healthcare-enterprise",
+      "prefLabel": "Integrating the Healthcare Enterprise",
+      "altLabel": [
+        "IHE"
+      ],
+      "notation": "IHE",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "interactive-research-and-development",
+      "prefLabel": "Interactive Research and Development",
+      "altLabel": [
+        "IRD"
+      ],
+      "notation": "IRD",
+      "scopeNote": "Named in the acknowledgements; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
       "status": "candidate"
     },
     {
@@ -1252,6 +1615,83 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "international-classification-of-diseases-11",
+      "prefLabel": "International Classification of Diseases, 11th Revision",
+      "altLabel": [
+        "ICD-11"
+      ],
+      "notation": "ICD-11",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "broader": [
+        "international-classification-of-diseases"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "international-classification-of-functioning-disability-and-health",
+      "prefLabel": "International Classification of Functioning, Disability and Health",
+      "altLabel": [
+        "ICF"
+      ],
+      "notation": "ICF",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "classifications"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "international-classification-of-health-interventions",
+      "prefLabel": "International Classification of Health Interventions",
+      "altLabel": [
+        "ICHI"
+      ],
+      "notation": "ICHI",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "classifications"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "international-electrotechnical-commission",
+      "prefLabel": "International Electrotechnical Commission",
+      "altLabel": [
+        "IEC"
+      ],
+      "notation": "IEC",
+      "scopeNote": "Used in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
+      "status": "candidate"
+    },
+    {
+      "id": "international-organization-for-standardization",
+      "prefLabel": "International Organization for Standardization",
+      "altLabel": [
+        "ISO"
+      ],
+      "notation": "ISO",
+      "scopeNote": "Used in the handbook references and standards tables; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
+      "status": "candidate"
+    },
+    {
+      "id": "international-telecommunications-union",
+      "prefLabel": "International Telecommunications Union",
+      "altLabel": [
+        "ITU",
+        "ITU-T",
+        "ITU-D"
+      ],
+      "notation": "ITU",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
     },
     {
@@ -1293,6 +1733,39 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "javascript-object-notation",
+      "prefLabel": "JavaScript Object Notation",
+      "altLabel": [
+        "JSON"
+      ],
+      "notation": "JSON",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "joint-united-nations-programme-on-hiv-aids",
+      "prefLabel": "Joint United Nations Programme on HIV/AIDS",
+      "altLabel": [
+        "UNAIDS"
+      ],
+      "notation": "UNAIDS",
+      "scopeNote": "Expanded in the text (section 2.3), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-009-23-before-using-this-resource.md",
+      "status": "candidate"
+    },
+    {
+      "id": "lateral-flow-urine-lipoarabinomannan-assay",
+      "prefLabel": "Lateral flow urine lipoarabinomannan assay",
+      "altLabel": [
+        "LF-LAM"
+      ],
+      "notation": "LF-LAM",
+      "scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
       "status": "candidate"
     },
     {
@@ -1345,7 +1818,7 @@
         "Longitudinal tracking [of a health service user]",
         "Longitudinal tracking"
       ],
-      "definition": "Ongoing and systematic collection and analysis of data related to a health service user\u2019s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user\u2019s health status, treatment and outcomes over multiple encounters or visits with health workers.",
+      "definition": "Ongoing and systematic collection and analysis of data related to a health service user’s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user’s health status, treatment and outcomes over multiple encounters or visits with health workers.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "register",
@@ -1414,6 +1887,21 @@
       "status": "candidate"
     },
     {
+      "id": "ministry-of-health",
+      "prefLabel": "Ministry of Health",
+      "altLabel": [
+        "MoH",
+        "MOH"
+      ],
+      "notation": "MoH",
+      "scopeNote": "Expanded in section 2.2, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "broader": [
+        "public-health-authority"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008-22-targeted-users.md",
+      "status": "candidate"
+    },
+    {
       "id": "mock-up",
       "prefLabel": "Mock-Up",
       "altLabel": [
@@ -1431,6 +1919,31 @@
       "status": "candidate"
     },
     {
+      "id": "molecular-who-recommended-rapid-diagnostic-test",
+      "prefLabel": "Molecular WHO-recommended rapid diagnostic test",
+      "altLabel": [
+        "mWRD"
+      ],
+      "notation": "mWRD",
+      "scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "status": "candidate"
+    },
+    {
+      "id": "monitoring-and-evaluation",
+      "prefLabel": "Monitoring and evaluation",
+      "altLabel": [
+        "M&E"
+      ],
+      "notation": "M&E",
+      "scopeNote": "Expanded in section 6.3 and persona descriptions, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "monitoring-and-evaluation-specialist"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-031-63-monitor-and-evaluate-progress-on-objectives.md",
+      "status": "candidate"
+    },
+    {
       "id": "monitoring-and-evaluation-specialist",
       "prefLabel": "Monitoring and Evaluation Specialist",
       "altLabel": [
@@ -1438,7 +1951,7 @@
         "M&E Specialist",
         "M&E"
       ],
-      "definition": "Specialist responsible for mapping aggregate health indicators to point-of-service data elements (section 3.4.3) and assessing scale-up readiness and SMART objective benchmarks (sections 6.1\u20136.3).",
+      "definition": "Specialist responsible for mapping aggregate health indicators to point-of-service data elements (section 3.4.3) and assessing scale-up readiness and SMART objective benchmarks (sections 6.1–6.3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-011.json",
       "broader": [
         "user-persona"
@@ -1460,7 +1973,8 @@
       "prefLabel": "Non-Functional Requirements",
       "altLabel": [
         "Non-functional requirements",
-        "Non-Functional Requirement"
+        "Non-Functional Requirement",
+        "NFR"
       ],
       "definition": "General attributes and features of the digital system to ensure usability and overcome technical and physical constraints. Examples of non-functional requirements include ability to work offline, multiple language settings, and password protection (see section 3.8).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
@@ -1473,6 +1987,40 @@
         "https://litlfred.github.io/smart-base/v0/ns#NonFunctionalRequirement"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate",
+      "notation": "NFR"
+    },
+    {
+      "id": "object-management-group",
+      "prefLabel": "Object Management Group",
+      "altLabel": [
+        "OMG"
+      ],
+      "notation": "OMG",
+      "scopeNote": "Used in the handbook text and annexes (BPMN/DMN standards body); expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "status": "candidate"
+    },
+    {
+      "id": "open-health-information-exchange",
+      "prefLabel": "Open Health Information Exchange",
+      "altLabel": [
+        "OpenHIE"
+      ],
+      "notation": "OpenHIE",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "open-smart-register-platform",
+      "prefLabel": "Open Smart Register Platform",
+      "altLabel": [
+        "OpenSRP"
+      ],
+      "notation": "OpenSRP",
+      "scopeNote": "Named in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
       "status": "candidate"
     },
     {
@@ -1493,6 +2041,20 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "open-source-initiative",
+      "prefLabel": "Open Source Initiative",
+      "altLabel": [
+        "OSI"
+      ],
+      "notation": "OSI",
+      "scopeNote": "Expanded in the glossary footnotes, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "open-source"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "status": "candidate"
     },
     {
@@ -1549,6 +2111,17 @@
       "status": "candidate"
     },
     {
+      "id": "pan-american-health-organization",
+      "prefLabel": "Pan American Health Organization",
+      "altLabel": [
+        "PAHO"
+      ],
+      "notation": "PAHO",
+      "scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
+      "status": "candidate"
+    },
+    {
       "id": "person-centred",
       "prefLabel": "Person-Centred",
       "altLabel": [
@@ -1577,7 +2150,7 @@
         "Person-Centred Point of Service Systems (PCPOSS)",
         "Person-centred point of service system (PCPOSS)"
       ],
-      "definition": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals\u2019 health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3).",
+      "definition": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals’ health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "person-centred",
@@ -1647,7 +2220,7 @@
         "Toast Message",
         "Toast Notification"
       ],
-      "definition": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a \u201ctoast message\u201d or \u201ctoast notification\u201d.",
+      "definition": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a “toast message” or “toast notification”.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "flag",
@@ -1656,6 +2229,49 @@
         "decision-support-system"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "post-exposure-prophylaxis",
+      "prefLabel": "Post-exposure prophylaxis",
+      "altLabel": [
+        "PEP"
+      ],
+      "notation": "PEP",
+      "scopeNote": "Used in Figure 13 (HIV decision-support example) without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "related": [
+        "human-immunodeficiency-virus"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "status": "candidate"
+    },
+    {
+      "id": "pre-exposure-prophylaxis",
+      "prefLabel": "Pre-exposure prophylaxis",
+      "altLabel": [
+        "PrEP"
+      ],
+      "notation": "PrEP",
+      "scopeNote": "Used in Figure 13 (HIV decision-support example) without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "related": [
+        "human-immunodeficiency-virus"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "status": "candidate"
+    },
+    {
+      "id": "prevention-of-mother-to-child-transmission",
+      "prefLabel": "Prevention of mother-to-child transmission",
+      "altLabel": [
+        "PMTCT"
+      ],
+      "notation": "PMTCT",
+      "scopeNote": "Used in Figure 14 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "related": [
+        "human-immunodeficiency-virus",
+        "antenatal-care"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-018-37-map-health-service-schedules.md",
       "status": "candidate"
     },
     {
@@ -1718,7 +2334,66 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Primary target audience and governing authority in sections 1.3 and Phase 1\u20134 panels; maps to Ministry of Health stakeholder in smart-ra.",
+      "scopeNote": "Primary target audience and governing authority in sections 1.3 and Phase 1–4 panels; maps to Ministry of Health stakeholder in smart-ra.",
+      "status": "candidate"
+    },
+    {
+      "id": "public-health-informatics-institute",
+      "prefLabel": "Public Health Informatics Institute",
+      "altLabel": [
+        "PHII"
+      ],
+      "notation": "PHII",
+      "scopeNote": "Expanded in the text (section 1.3 and section 3.1, CRDM originator), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "collaborative-requirements-development-methodology"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-006-13-how-this-handbook-was-developed.md",
+      "status": "candidate"
+    },
+    {
+      "id": "quality-assurance",
+      "prefLabel": "Quality assurance",
+      "altLabel": [
+        "QA"
+      ],
+      "notation": "QA",
+      "scopeNote": "Expanded in the section 4.5 title and text ('Build and quality assurance'), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-024-45-build-and-quality-assurance.md",
+      "status": "candidate"
+    },
+    {
+      "id": "quick-response-code",
+      "prefLabel": "Quick response code",
+      "altLabel": [
+        "QR"
+      ],
+      "notation": "QR",
+      "scopeNote": "Used in section 2.3 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-009-23-before-using-this-resource.md",
+      "status": "candidate"
+    },
+    {
+      "id": "rapid-assessment-and-management",
+      "prefLabel": "Rapid assessment and management",
+      "altLabel": [
+        "RAM"
+      ],
+      "notation": "RAM",
+      "scopeNote": "Expanded in Figure 11 (ANC workflow diagram), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-014-33-map-business-processes-and-workflows.md",
+      "status": "candidate"
+    },
+    {
+      "id": "reference-model-of-open-distributed-processing",
+      "prefLabel": "Reference Model of Open Distributed Processing",
+      "altLabel": [
+        "RM-ODP",
+        "ODP"
+      ],
+      "notation": "RM-ODP",
+      "scopeNote": "Used in the section 4.4 references; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
       "status": "candidate"
     },
     {
@@ -1771,6 +2446,17 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/registry"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Rule register-is-not-registry: Registry refers to a governed, authoritative centralized information system (HIE master index of facilities, health service users, products, or health workforce) and matches dpi-h-ra/registry, distinct from a clinical cohort Register.",
+      "status": "candidate"
+    },
+    {
+      "id": "request-for-comments",
+      "prefLabel": "Request for comments",
+      "altLabel": [
+        "RFC"
+      ],
+      "notation": "RFC",
+      "scopeNote": "Used in the handbook text without an inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-follow-key-requirement-gathering-methods.md",
       "status": "candidate"
     },
     {
@@ -1831,6 +2517,29 @@
       "status": "candidate"
     },
     {
+      "id": "sexually-transmitted-infection",
+      "prefLabel": "Sexually transmitted infection",
+      "altLabel": [
+        "STI",
+        "STIs"
+      ],
+      "notation": "STI",
+      "scopeNote": "Used in Figure 14 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-018-37-map-health-service-schedules.md",
+      "status": "candidate"
+    },
+    {
+      "id": "short-message-service",
+      "prefLabel": "Short message service",
+      "altLabel": [
+        "SMS"
+      ],
+      "notation": "SMS",
+      "scopeNote": "Used in the handbook text without an inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-018-37-map-health-service-schedules.md",
+      "status": "candidate"
+    },
+    {
       "id": "smart-guidelines",
       "prefLabel": "SMART Guidelines",
       "definition": "Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations. They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity. SMART Guidelines serve as a starting point and as foundational specifications to advance the development of robust person-centred digital systems. These specifications are software-agnostic, context-agnostic, and are applicable to all levels of digital maturity (10,23).",
@@ -1844,17 +2553,24 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
-      "status": "candidate"
+      "status": "candidate",
+      "notation": "SMART",
+      "altLabel": [
+        "SMART",
+        "Standards-based, machine-readable, adaptive, requirements-based and testable"
+      ]
     },
     {
       "id": "snomed-ct",
-      "prefLabel": "Systematized Nomenclature of Medicine \u2013 Clinical Terms (SNOMED-CT)",
+      "prefLabel": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)",
       "notation": "SNOMED-CT",
       "altLabel": [
         "SNOMED-CT",
-        "SNOMED CT"
+        "SNOMED CT",
+        "SNOMED",
+        "CT"
       ],
-      "definition": "Systematized Nomenclature of Medicine \u2013 Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
+      "definition": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "interoperability-standards",
@@ -1869,6 +2585,25 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "snomed-gps",
+      "prefLabel": "Systematized Nomenclature of Medicine-Global Patient Set",
+      "altLabel": [
+        "SNOMED-GPS",
+        "SNOMED GPS",
+        "GPS"
+      ],
+      "notation": "SNOMED-GPS",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "broader": [
+        "snomed-ct"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-gps"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
     },
     {
@@ -1904,7 +2639,7 @@
       "altLabel": [
         "Software platform"
       ],
-      "definition": "A software platform is a type of software in which multiple software \u201cproducts\u201d can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner.",
+      "definition": "A software platform is a type of software in which multiple software “products” can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "reference-software",
@@ -1962,6 +2697,18 @@
       "status": "candidate"
     },
     {
+      "id": "standard-operating-procedure",
+      "prefLabel": "Standard operating procedure",
+      "altLabel": [
+        "SOP",
+        "SOPs"
+      ],
+      "notation": "SOP",
+      "scopeNote": "Used in the handbook text without an inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-follow-key-requirement-gathering-methods.md",
+      "status": "candidate"
+    },
+    {
       "id": "supervisor",
       "prefLabel": "Supervisor",
       "altLabel": [
@@ -1985,6 +2732,18 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
       ],
       "scopeNote": "Facility management and supervisory end-user role across Chapters 1, 3, 5 and 6.",
+      "status": "candidate"
+    },
+    {
+      "id": "sustainable-development-goals",
+      "prefLabel": "Sustainable Development Goals",
+      "altLabel": [
+        "SDG",
+        "SDGs"
+      ],
+      "notation": "SDG",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
     },
     {
@@ -2094,6 +2853,20 @@
       "status": "candidate"
     },
     {
+      "id": "the-open-group-architecture-framework",
+      "prefLabel": "The Open Group Architecture Framework",
+      "altLabel": [
+        "TOGAF"
+      ],
+      "notation": "TOGAF",
+      "scopeNote": "Expanded in the text (section 4.4), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "enterprise-architecture"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "status": "candidate"
+    },
+    {
       "id": "to-be",
       "prefLabel": "To-Be",
       "altLabel": [
@@ -2129,6 +2902,75 @@
         "https://litlfred.github.io/smart-base/v0/ns#SchedulingLogic"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "tuberculosis",
+      "prefLabel": "Tuberculosis",
+      "altLabel": [
+        "TB"
+      ],
+      "notation": "TB",
+      "scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "status": "candidate"
+    },
+    {
+      "id": "unicef",
+      "prefLabel": "United Nations Children's Fund",
+      "altLabel": [
+        "UNICEF"
+      ],
+      "notation": "UNICEF",
+      "scopeNote": "Named in the acknowledgements and text; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
+      "status": "candidate"
+    },
+    {
+      "id": "unified-code-for-units-of-measure",
+      "prefLabel": "Unified Code for Units of Measure",
+      "altLabel": [
+        "UCUM"
+      ],
+      "notation": "UCUM",
+      "scopeNote": "Expanded in Annex 8 (Form data mapping guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-041-form-data-mapping-guide.md",
+      "status": "candidate"
+    },
+    {
+      "id": "unified-modeling-language",
+      "prefLabel": "Unified Modeling Language",
+      "altLabel": [
+        "UML"
+      ],
+      "notation": "UML",
+      "scopeNote": "Expanded in the references, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
+      "status": "candidate"
+    },
+    {
+      "id": "united-nations-population-fund",
+      "prefLabel": "United Nations Population Fund",
+      "altLabel": [
+        "UNFPA"
+      ],
+      "notation": "UNFPA",
+      "scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
+      "status": "candidate"
+    },
+    {
+      "id": "universal-health-coverage",
+      "prefLabel": "Universal health coverage",
+      "altLabel": [
+        "UHC"
+      ],
+      "notation": "UHC",
+      "scopeNote": "Expanded in Figure 2 (Chapter 1), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "primary-health-care"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-003-introduction.md",
       "status": "candidate"
     },
     {
@@ -2174,6 +3016,31 @@
         "https://litlfred.github.io/smart-base/v0/ns#TestScenario"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "user-experience",
+      "prefLabel": "User experience",
+      "altLabel": [
+        "UX"
+      ],
+      "notation": "UX",
+      "scopeNote": "Expanded in section 4.3, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "designer"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-022-43-develop-and-test-prototype-design.md",
+      "status": "candidate"
+    },
+    {
+      "id": "user-interface",
+      "prefLabel": "User interface",
+      "altLabel": [
+        "UI"
+      ],
+      "notation": "UI",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
     },
     {
@@ -2248,7 +3115,7 @@
       "altLabel": [
         "User story"
       ],
-      "definition": "Captures a long list of features from an end-user\u2019s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
+      "definition": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "end-user",
@@ -2264,6 +3131,46 @@
         "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "web-accessibility-initiative",
+      "prefLabel": "Web Accessibility Initiative",
+      "altLabel": [
+        "WAI"
+      ],
+      "notation": "WAI",
+      "scopeNote": "Expanded in the references, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
+      "status": "candidate"
+    },
+    {
+      "id": "who-family-of-international-classifications",
+      "prefLabel": "WHO Family of International Classifications and Terminologies",
+      "altLabel": [
+        "WHO-FIC",
+        "FIC"
+      ],
+      "notation": "WHO-FIC",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "related": [
+        "classifications",
+        "international-classification-of-diseases",
+        "international-classification-of-functioning-disability-and-health",
+        "international-classification-of-health-interventions"
+      ],
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "who-four-symptom-screen",
+      "prefLabel": "WHO four-symptom screen",
+      "altLabel": [
+        "W4SS"
+      ],
+      "notation": "W4SS",
+      "scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
       "status": "candidate"
     },
     {
@@ -2299,6 +3206,28 @@
         "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "world-health-organization",
+      "prefLabel": "World Health Organization",
+      "altLabel": [
+        "WHO"
+      ],
+      "notation": "WHO",
+      "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "status": "candidate"
+    },
+    {
+      "id": "world-wide-web-consortium",
+      "prefLabel": "World Wide Web Consortium",
+      "altLabel": [
+        "W3C"
+      ],
+      "notation": "W3C",
+      "scopeNote": "Named in Table 4 (section 4.4); expansion supplied for review. A candidate: no definition has been written.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "status": "candidate"
     }
   ],
