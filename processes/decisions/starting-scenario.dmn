@@ -41,11 +41,18 @@
       </rule>
 
       <rule id="Rule_PartlyDigitized_UpdateCarePathways">
-        <description>Section 2.1: a PCPOSS is in place and being updated to better integrate additional care pathways or health domains.</description>
-        <inputEntry id="IE_Update_1"><text>-</text></inputEntry>
-        <inputEntry id="IE_Update_2"><text>-</text></inputEntry>
+        <description>Section 2.1: a PCPOSS is in place and being updated to better integrate additional care pathways or health domains. Inputs are explicit so that a missing answer falls to Rule_Unknown.</description>
+        <inputEntry id="IE_Update_1"><text>true</text></inputEntry>
+        <inputEntry id="IE_Update_2"><text>true</text></inputEntry>
         <outputEntry id="OE_Update_1"><text>"partly digitized"</text></outputEntry>
         <outputEntry id="OE_Update_2"><text>"3.1 Follow key requirement-gathering methods (update existing PCPOSS to integrate care pathways; skip 3.4.1-3.4.2 where data list is already established)"</text></outputEntry>
+      </rule>
+      <rule id="Rule_Unknown">
+        <description>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</description>
+        <inputEntry id="IE_StartingScenarioUnknown_1"><text>-</text></inputEntry>
+        <inputEntry id="IE_StartingScenarioUnknown_2"><text>-</text></inputEntry>
+        <outputEntry id="OE_StartingScenarioUnknown_1"><text>"unknown"</text></outputEntry>
+        <outputEntry id="OE_StartingScenarioUnknown_2"><text>"Answer every input question before this decision is made."</text></outputEntry>
       </rule>
     </decisionTable>
   </decision>

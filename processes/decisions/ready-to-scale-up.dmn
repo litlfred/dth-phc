@@ -59,12 +59,20 @@
       </rule>
 
       <rule id="Rule_ObjectivesNotMet">
-        <description>Section 6.2: Country-defined SMART objectives and benchmarks across functionality, user adoption, efficiency, quality and outcomes (Table 5) have not yet been met.</description>
-        <inputEntry id="IE_NotO_1"><text>-</text></inputEntry>
-        <inputEntry id="IE_NotO_2"><text>-</text></inputEntry>
-        <inputEntry id="IE_NotO_3"><text>-</text></inputEntry>
+        <description>Section 6.2: Country-defined SMART objectives and benchmarks across functionality, user adoption, efficiency, quality and outcomes (Table 5) have not yet been met. Inputs are explicit so that a missing answer falls to Rule_Unknown.</description>
+        <inputEntry id="IE_NotO_1"><text>true</text></inputEntry>
+        <inputEntry id="IE_NotO_2"><text>true</text></inputEntry>
+        <inputEntry id="IE_NotO_3"><text>false</text></inputEntry>
         <outputEntry id="OE_NotO_1"><text>"not"</text></outputEntry>
         <outputEntry id="OE_NotO_2"><text>"Do not proceed: continue monitoring and addressing bottlenecks until country-defined SMART objectives are met (6.2, 6.3)"</text></outputEntry>
+      </rule>
+      <rule id="Rule_Unknown">
+        <description>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</description>
+        <inputEntry id="IE_ReadyToScaleUpUnknown_1"><text>-</text></inputEntry>
+        <inputEntry id="IE_ReadyToScaleUpUnknown_2"><text>-</text></inputEntry>
+        <inputEntry id="IE_ReadyToScaleUpUnknown_3"><text>-</text></inputEntry>
+        <outputEntry id="OE_ReadyToScaleUpUnknown_1"><text>"unknown"</text></outputEntry>
+        <outputEntry id="OE_ReadyToScaleUpUnknown_2"><text>"Answer every input question before this decision is made."</text></outputEntry>
       </rule>
     </decisionTable>
   </decision>

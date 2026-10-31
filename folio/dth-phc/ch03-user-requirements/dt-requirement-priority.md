@@ -8,3 +8,15 @@ As established in `litlfred/dth-phc#1` §3f:
 - **`"High"` (`MVP`, `SHALL`):** Essential for core clinical safety, regulatory compliance or MVP operation; without it the PCPOSS cannot be safely deployed (`Must have`).
 - **`"Medium"` (`Version 1`, `SHOULD`):** Important for workflow efficiency, reporting completeness or user experience, but has a viable temporary workaround for MVP (`Should have`).
 - **`"Low"` (`Version 2`, `MAY`):** Desirable enhancement (`Nice to have`) scheduled for future iterations once MVP and Version 1 are stable.
+
+## Decision structure
+
+Written from the DMN file next to this page.
+
+- **Inputs:**
+  - `neededForCompleteSystem` (`boolean`): Needed for a complete system?
+  - `stronglyAdvisedForUptakeAndUsability` (`boolean`): Strongly advised for uptake and usability?
+- **Outputs:**
+  - `priority` (`"High"` | `"Medium"` | `"Low"` | `"unknown"`): Priority
+  - `category`: Requirement category (Annex 13)
+- **Rules:** 4, hit policy `FIRST`. The last rule returns `"unknown"` when any input has not been answered.

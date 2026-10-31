@@ -18,3 +18,15 @@ Formal mapping of the handbook's **Annex 11 Decision-support table template** (`
 | **Action** | Recommended clinical prompt, alert, referral or order presented by the DSS | Secondary `<output name="action">` column |
 | **Annotations** | Supporting clinical notes, counselling messages or explanations | `<rule><description>...</description></rule>` or `<annotationEntry>` |
 | **Reference / Source** | Citation to the WHO clinical guideline recommendation | `meta.source` / provenance citation on the decision table |
+
+## Decision structure
+
+Written from the DMN file next to this page.
+
+- **Inputs:**
+  - `rulesMutuallyExclusive` (`boolean`): All rules are mutually exclusive (no overlap)
+  - `multipleOutputsInOrder` (`boolean`): Overlapping rules return multiple outputs in priority order
+- **Outputs:**
+  - `hitPolicyCode` (`"U"` | `"R"` | `"F"` | `"unknown"`): Annex 11 Hit Policy code
+  - `dmnHitPolicy`: DMN 1.5 HitPolicy attribute
+- **Rules:** 4, hit policy `FIRST`. The last rule returns `"unknown"` when any input has not been answered.

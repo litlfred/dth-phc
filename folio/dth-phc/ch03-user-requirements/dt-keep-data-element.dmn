@@ -75,14 +75,13 @@
         <outputEntry id="OE_Keep_1"><text>"keep"</text></outputEntry>
         <outputEntry id="OE_Keep_2"><text>"Keep data element in consolidated data dictionary (3.4.5, 3.5)"</text></outputEntry>
       </rule>
-
-      <rule id="Rule_Default_Remove">
-        <description>Catch-all under data minimization (3.4.4): any data element whose necessity for care delivery or indicator reporting is not established is removed.</description>
-        <inputEntry id="IE_Def_1"><text>-</text></inputEntry>
-        <inputEntry id="IE_Def_2"><text>-</text></inputEntry>
-        <inputEntry id="IE_Def_3"><text>-</text></inputEntry>
-        <outputEntry id="OE_Def_1"><text>"remove"</text></outputEntry>
-        <outputEntry id="OE_Def_2"><text>"Remove data element not established as needed for service delivery or accountability (3.4.4)"</text></outputEntry>
+      <rule id="Rule_Unknown">
+        <description>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</description>
+        <inputEntry id="IE_KeepDataElementUnknown_1"><text>-</text></inputEntry>
+        <inputEntry id="IE_KeepDataElementUnknown_2"><text>-</text></inputEntry>
+        <inputEntry id="IE_KeepDataElementUnknown_3"><text>-</text></inputEntry>
+        <outputEntry id="OE_KeepDataElementUnknown_1"><text>"unknown"</text></outputEntry>
+        <outputEntry id="OE_KeepDataElementUnknown_2"><text>"Answer every input question before this decision is made."</text></outputEntry>
       </rule>
     </decisionTable>
   </decision>

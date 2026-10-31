@@ -4,9 +4,12 @@ Formal DMN 1.5 decision table (`Decision_StartingScenario`, `hitPolicy="FIRST"`)
 
 ## Decision structure
 
+Written from the DMN file next to this page.
+
 - **Inputs:**
-  - `anyPcpossInPlace` (`boolean`): Any PCPOSS already in place at the primary health care facility.
-  - `comprehensiveAndInteroperable` (`boolean`): Whether existing point-of-service systems are already comprehensive and interoperable.
+  - `anyPcpossInPlace` (`boolean`): Any PCPOSS in place?
+  - `comprehensiveAndInteroperable` (`boolean`): Comprehensive and interoperable?
 - **Outputs:**
-  - `startingScenario` (`"paper only"` | `"partly digitized"`): Determines whether the implementing team executes the paper-only preparation track (`Task_2_1a_PaperOnlyPreparation`) or the partly-digitized system audit and migration track (`Task_2_1b_PartlyDigitizedAudit`).
-  - `entryPreparationTrack` (`"paper-only-baseline-and-literacy"` | `"partly-digitized-system-audit-and-migration"`).
+  - `scenario` (`"paper only"` | `"partly digitized"` | `"unknown"`): Starting scenario
+  - `entryStep`: Entry step
+- **Rules:** 4, hit policy `FIRST`. The last rule returns `"unknown"` when any input has not been answered.

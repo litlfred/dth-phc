@@ -603,7 +603,7 @@
    "sections": [
     "sec:2-1"
    ],
-   "hash": "09084c7d934b",
+   "hash": "2b71e7894356",
    "excerpt": "Starting-scenario classification decision table (section 2.1) Formal DMN 1.5 decision table ( Decision StartingScenario , hitPolicy=\"FIRST\" ) derived from secti",
    "method": "folio-snapshot"
   },
@@ -1153,7 +1153,7 @@
    "sections": [
     "sec:3-4"
    ],
-   "hash": "0e0e26f7d056",
+   "hash": "ff780b78330a",
    "excerpt": "Data-element minimization decision table (section 3.4.4, Fig. 12) Formal DMN 1.5 decision table ( Decision KeepDataElement , hitPolicy=\"FIRST\" ) encoding the Fi",
    "method": "folio-snapshot"
   },
@@ -1263,7 +1263,7 @@
    "sections": [
     "sec:3-8"
    ],
-   "hash": "51772581aa3f",
+   "hash": "002d66de5ca8",
    "excerpt": "Requirement prioritization decision table (section 3.8 and Annex 13) Formal DMN 1.5 decision table ( Decision RequirementPriority , hitPolicy=\"FIRST\" ) encoding",
    "method": "folio-snapshot"
   },
@@ -1594,7 +1594,7 @@
    "sections": [
     "sec:6-1"
    ],
-   "hash": "f1f035cfe0b0",
+   "hash": "b62288135ec9",
    "excerpt": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5) Formal DMN 1.5 decision table ( Decision ReadyToScaleUp , hitPolicy=\"FIRST\" ) encoding the rea",
    "method": "folio-snapshot"
   },
@@ -1821,7 +1821,7 @@
    "sections": [
     "sec:annex-11"
    ],
-   "hash": "73b3396bd264",
+   "hash": "3a9703871678",
    "excerpt": "Annex 11: Decision-support table template and DMN 1.5 column mapping Formal mapping of the handbook's Annex 11 Decision-support table template ( sec-043 , secti",
    "method": "folio-snapshot"
   },
