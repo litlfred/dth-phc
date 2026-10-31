@@ -11,5 +11,5 @@ A core member of the PCPOSS implementing team (section 2.2) who designs the end-
 1. **BPMN lanes performed:**
    - [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](../../../processes/design-and-adaptation.bpmn) (*Solutions Architect & Health Informatician*)
    - [`scale-up.bpmn#Lane-Ch6-ME`](../../../processes/scale-up.bpmn) (*M&E Specialist & Solutions Architect*)
-2. **`smart-ra` ArchiMate mapping:** Shared `archimate:BusinessRole` **Enterprise / solutions architect** (across `dth-phc`, `dth-sc`, `dth-hrh`, `smart-ra`) linked to `Interoperability Component` (`id-80856538cbd44167a37b276e38c994c3`) and `Interoperability Layer` view (`id-8c5dd12b8d4e425184f6003d0513d569`).
+2. **Concepts:** [Solutions Architect](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/solutions-architect), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:solutions-architect`.

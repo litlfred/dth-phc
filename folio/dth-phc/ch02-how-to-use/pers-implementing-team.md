@@ -13,5 +13,5 @@ The multidisciplinary team formed in section 2.2 (`sec-008`) that coordinates an
    - [`design-and-adaptation.bpmn#Lane-Ch4-BA`](../../../processes/design-and-adaptation.bpmn) (*Implementing Team*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Impl`](../../../processes/training-testing-and-roll-out.bpmn) (*Implementing Team & Trainers*)
    - [`scale-up.bpmn#Lane-Ch6-Impl`](../../../processes/scale-up.bpmn) (*Implementing Team*)
-2. **`smart-ra` ArchiMate mapping:** Composite `archimate:BusinessRole` **PCPOSS implementing team** comprising the six section 2.2 core roles under `Ministry of Health` (`id-1c5c0bc9234e4282b654dbc71b9da706`).
+2. **Concepts:** [Implementing Team](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/implementing-team), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:implementing-team`.

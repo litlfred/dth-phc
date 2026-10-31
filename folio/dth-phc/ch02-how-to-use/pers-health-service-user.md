@@ -11,5 +11,5 @@ Any person receiving or seeking primary health care services, as well as their f
    - [`understand-user-requirements.bpmn#Lane-Ch3-Users`](../../../processes/understand-user-requirements.bpmn) (*Health Workers, Clerks, Supervisors & Service Users*)
    - [`design-and-adaptation.bpmn#Lane-Ch4-Users`](../../../processes/design-and-adaptation.bpmn) (*Health Workers & Health Service Users*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Users`](../../../processes/training-testing-and-roll-out.bpmn) (*Health Workers, Clerks & Supervisors*)
-2. **`smart-ra` ArchiMate mapping:** Existing `archimate:Stakeholder` **Patients** (`id-a2320dbc07e6450b94f3f0f3e03bb877` in `WHOBaseFile.archimate`); `smart-base` generic persona `ClientOrPatient`.
+2. **Concepts:** [Health Service Users](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-service-users), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:health-service-user` (aligned with `dpi-h-ra:patient`).

@@ -12,5 +12,5 @@ A core member of the PCPOSS implementing team or technology partner (section 2.2
    - [`design-and-adaptation.bpmn#Lane-Ch4-Engineer`](../../../processes/design-and-adaptation.bpmn) (*Software Engineer & Technology Partner*)
    - [`pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Tech`](../../../processes/pcposs-implementation-lifecycle.bpmn) (*Technology Partner & Software Engineer*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Engineer`](../../../processes/training-testing-and-roll-out.bpmn) (*Technology Partner & Software Engineer*)
-2. **`smart-ra` ArchiMate mapping:** Shared `archimate:BusinessRole` **Software developer / engineer** associated with `Vendor EHR Product` (`id-3bd1011d76c843fa860255f00a6aa68f`) and the `Testing` (`id-0e97a3f6a8f545f5bd90e123c11a2545`) and `Conformance` (`id-b44f768c54ea493c8b33499e5d2e2d33`) views.
+2. **Concepts:** [Software Engineer](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/software-engineer), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:software-engineer`.

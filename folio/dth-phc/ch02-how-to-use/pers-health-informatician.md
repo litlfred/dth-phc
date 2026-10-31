@@ -11,5 +11,5 @@ A core member of the PCPOSS implementing team (section 2.2) responsible for heal
 1. **BPMN lanes performed:**
    - [`understand-user-requirements.bpmn#Lane-Ch3-HI`](../../../processes/understand-user-requirements.bpmn) (*Health Informatician & M&E Specialist*)
    - [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](../../../processes/design-and-adaptation.bpmn) (*Solutions Architect & Health Informatician*)
-2. **`smart-ra` ArchiMate mapping:** Shared `archimate:BusinessRole` **Health informatician** associated with `Terminology Service` (`id-3f41de2b51c24041b08243bf72b140d1`) and `Logical Information Model Registry` (`id-c0d39bf67fe64f54b07fbeb9bf37d404`) on the `Interoperability Layer` (`id-8c5dd12b8d4e425184f6003d0513d569`) and `SHR` (`id-cefde7ed0dcd47d3bb214657ac3e5725`) views.
+2. **Concepts:** [Health Informatician](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-informatician), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:health-informatician`.

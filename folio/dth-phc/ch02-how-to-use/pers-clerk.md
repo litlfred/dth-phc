@@ -10,5 +10,5 @@ Health facility registration, reception and medical records staff who check in c
    - [`understand-user-requirements.bpmn#Lane-Ch3-Users`](../../../processes/understand-user-requirements.bpmn) (*Health Workers, Clerks, Supervisors & Service Users*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Users`](../../../processes/training-testing-and-roll-out.bpmn) (*Health Workers, Clerks & Supervisors*)
    - [`scale-up.bpmn#Lane-Ch6-Users`](../../../processes/scale-up.bpmn) (*Health Workers & Clerks*)
-2. **`smart-ra` ArchiMate mapping:** Sub-role of existing `archimate:Stakeholder` **Health Workers** (`id-8d3dd8b68d504c2a9fe8cf414b16c127`) and **Health Care Institutions** (`id-515be0d38c564767bc2b1ee5fcb0adb6`).
+2. **Concepts:** [Clerk](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/clerk)
 3. **Glossary term:** `dth-phc:clerk`.

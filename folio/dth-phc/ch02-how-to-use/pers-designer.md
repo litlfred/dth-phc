@@ -9,5 +9,5 @@ A core member of the PCPOSS implementing team (section 2.2) responsible for huma
 
 1. **BPMN lanes performed:**
    - [`design-and-adaptation.bpmn#Lane-Ch4-Designer`](../../../processes/design-and-adaptation.bpmn) (*Business Analyst, Designer & User Researcher*)
-2. **`smart-ra` ArchiMate mapping:** `archimate:BusinessRole` **User-experience designer** associated with `Vendor EHR Product` (`id-3bd1011d76c843fa860255f00a6aa68f`) and PCPOSS point-of-service user interfaces.
+2. **Concepts:** [Designer](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/designer), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:designer`.

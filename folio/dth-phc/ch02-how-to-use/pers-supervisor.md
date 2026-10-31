@@ -10,5 +10,5 @@ Health facility in-charges, clinical supervisors and district PHC supervisors wh
    - [`understand-user-requirements.bpmn#Lane-Ch3-Users`](../../../processes/understand-user-requirements.bpmn) (*Health Workers, Clerks, Supervisors & Service Users*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Users`](../../../processes/training-testing-and-roll-out.bpmn) (*Health Workers, Clerks & Supervisors*)
    - [`scale-up.bpmn#Lane-Ch6-Users`](../../../processes/scale-up.bpmn) (*Health Facility Manager & Supervisor*)
-2. **`smart-ra` ArchiMate mapping:** Existing `archimate:Stakeholder` **Health Care Institutions** (`id-515be0d38c564767bc2b1ee5fcb0adb6`); `smart-base` generic persona `HealthSystemManager`.
+2. **Concepts:** [Supervisor](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/supervisor)
 3. **Glossary term:** `dth-phc:supervisor`.

@@ -9,5 +9,5 @@ International and domestic funding agencies, multilateral organizations, technic
 1. **BPMN lanes performed:**
    - [`pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-PHA`](../../../processes/pcposs-implementation-lifecycle.bpmn) (*Public Health Authority / MoH*, in alignment with Donors & Development Partners)
    - [`scale-up.bpmn#Lane-Ch6-PHA`](../../../processes/scale-up.bpmn) (*Public Health Authority / MoH*)
-2. **`smart-ra` ArchiMate mapping:** Shared `archimate:Stakeholder` **Donors and development partners** across all four WHO Digital Transformation Handbooks (`dth-phc`, `dth-sc`, `dth-pc`, `dth-hrh`).
+2. **Concepts:** [Donors and Development Partners](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/donors-and-development-partners)
 3. **Glossary term:** `dth-phc:implementing-partner`.

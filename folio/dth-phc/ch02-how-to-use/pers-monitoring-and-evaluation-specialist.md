@@ -11,5 +11,5 @@ A specialist Named in the Phase 1 (`sec-011`) and Phase 4 (`sec-029`) "Who shoul
    - [`pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Impl`](../../../processes/pcposs-implementation-lifecycle.bpmn) (*Monitoring & Evaluation Specialist*)
    - [`understand-user-requirements.bpmn#Lane-Ch3-HI`](../../../processes/understand-user-requirements.bpmn) (*Health Informatician & M&E Specialist*)
    - [`scale-up.bpmn#Lane-Ch6-ME`](../../../processes/scale-up.bpmn) (*M&E Specialist & Solutions Architect*)
-2. **`smart-ra` ArchiMate mapping:** Shared `archimate:BusinessRole` **M&E specialist** associated with `Analytics & Reporting Platform` (`id-3fd92d497ca040c8a436f355c0b68770`).
+2. **Concepts:** [Monitoring and Evaluation Specialist](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/monitoring-and-evaluation-specialist), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:monitoring-and-evaluation`.

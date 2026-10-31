@@ -8,5 +8,5 @@ One of the four core application types that make up a PCPOSS (section 1.1, `sec-
 
 1. **BPMN lanes & resources:**
    - Declared as `<bpmn:resource id="pers-system-cbis">` in [`pcposs-implementation-lifecycle.bpmn`](../../../processes/pcposs-implementation-lifecycle.bpmn) and integrated in [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](../../../processes/design-and-adaptation.bpmn).
-2. **`smart-ra` ArchiMate mapping:** `archimate:ApplicationComponent` **Community-based information system (CBIS)** on the `smart-ra` PCPOSS view, interoperating with `SHR Repository` (`id-0e6d89398fff4f20994a31b4de58e7d7`) via `Interoperability Component` (`id-80856538cbd44167a37b276e38c994c3`).
+2. **Concepts:** [Community-Based Information System](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/community-based-information-system), [Point-of-service applications](https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications)
 3. **Glossary term:** `dth-phc:community-based-information-system`.

@@ -10,5 +10,5 @@ An external or internal software development organization contracted or designat
    - [`pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Tech`](../../../processes/pcposs-implementation-lifecycle.bpmn) (*Technology Partner & Software Engineer*)
    - [`design-and-adaptation.bpmn#Lane-Ch4-Engineer`](../../../processes/design-and-adaptation.bpmn) (*Software Engineer & Technology Partner*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Engineer`](../../../processes/training-testing-and-roll-out.bpmn) (*Technology Partner & Software Engineer*)
-2. **`smart-ra` ArchiMate mapping:** Shared `archimate:Stakeholder` / `archimate:BusinessRole` **Technology partner / vendor** associated with `Vendor EHR Product` (`id-3bd1011d76c843fa860255f00a6aa68f`).
+2. **Concepts:** [Technology Partner](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/technology-partner), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:technology-partner`.

@@ -8,5 +8,5 @@ One of the four core application types that make up a PCPOSS (section 1.1, `sec-
 
 1. **BPMN lanes & resources:**
    - Declared as `<bpmn:resource id="pers-system-dss">` in [`pcposs-implementation-lifecycle.bpmn`](../../../processes/pcposs-implementation-lifecycle.bpmn) and linked to Step 3.6 (`Task_3_6_DecisionSupport`) and Step 3.7 (`Task_3_7_SchedulingLogic`) in [`understand-user-requirements.bpmn#Lane-Ch3-BA`](../../../processes/understand-user-requirements.bpmn) and Step 4.4 (`Task_4_4_ArchitectureAndStandards`) in [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](../../../processes/design-and-adaptation.bpmn).
-2. **`smart-ra` ArchiMate mapping:** Existing `archimate:ApplicationComponent` **Decision Support Engine** (`id-539b04ae45f147258d8253ae5cb87402`) on the `CDS` view (`id-4c98f10e0a244315acddaf5257c7822e`).
+2. **Concepts:** [Decision Support System](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-system), [Point-of-service applications](https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications)
 3. **Glossary term:** `dth-phc:decision-support-system` (links to `dpi-h-ra:clinical-decision-support-systems`).
