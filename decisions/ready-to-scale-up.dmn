@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Ready to scale up and phase out legacy systems — Sections 6.1 and 6.2
+  Scale-up readiness and legacy system phase-out — Sections 6.1 and 6.2
   L1 sources:
     - who-iris/library/9789240093362-eng/sections/sec-029-61-determine-readiness-for-scaling-up.md (prose-sec-029, pages 66-68)
     - who-iris/library/9789240093362-eng/sections/sec-030-62-plan-for-phase-out-of-legacy-systems.md (prose-sec-030, pages 68-70)
@@ -14,9 +14,9 @@
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
              id="Definitions_ReadyToScaleUp"
-             name="Ready to scale up and phase out legacy systems (6.1, 6.2)"
+             name="Scale-up readiness and legacy system phase-out (6.1, 6.2)"
              namespace="https://litlfred.github.io/dth-phc/decisions">
-  <decision id="Decision_ReadyToScaleUp" name="Ready to scale up and phase out? (6.1, 6.2)">
+  <decision id="Decision_ReadyToScaleUp" name="Scale-up readiness and legacy system phase-out (6.1, 6.2)">
     <description>Determine whether to proceed with scaling up the PCPOSS and staged phase-out of paper/legacy systems based on PCPOSS readiness (6.1), health-system readiness (6.1), and achievement of country-defined SMART objectives (6.2, Table 5). No thresholds are invented.</description>
     <decisionTable id="Table_ReadyToScaleUp" hitPolicy="FIRST">
       <input id="In_PcpossReady" label="PCPOSS ready?">

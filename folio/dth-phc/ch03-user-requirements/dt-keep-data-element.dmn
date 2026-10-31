@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Keep a data element decision table — Section 3.4.4, Fig. 12
+  Data element retention decision table — Section 3.4.4, Fig. 12
   ("Is each and every data element collected truly needed?")
   L1 source: who-iris/library/9789240093362-eng/sections/sec-015-34-streamline-data-collection-and-indicator-repo.md
   L1 block:  who-iris/library/9789240093362-eng/blocks/prose-sec-015.jsonld (pages 39-42)
@@ -14,9 +14,9 @@
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
              id="Definitions_KeepDataElement"
-             name="Keep or remove a data element (3.4.4, Fig. 12)"
+             name="Data element retention (3.4.4, Fig. 12)"
              namespace="https://litlfred.github.io/dth-phc/decisions">
-  <decision id="Decision_KeepDataElement" name="Keep a data element? (3.4.4, Fig. 12)">
+  <decision id="Decision_KeepDataElement" name="Data element retention (3.4.4, Fig. 12)">
     <description>Apply the data-minimization and streamlining rules of Section 3.4.4 and Fig. 12 (prose-sec-015, page 41) to decide whether a data element is kept in or removed from the consolidated data dictionary.</description>
     <decisionTable id="Table_KeepDataElement" hitPolicy="FIRST">
       <input id="In_Duplicated" label="duplicated?">

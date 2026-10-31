@@ -758,7 +758,7 @@ def build_ch03(folio_dir: Path):
             elements=["business-analyst", "health-informatician", "patient-level-data"],
             views=["pcposs"],
             dmnCandidate={
-                "table": "Keep a data element",
+                "table": "Data element retention",
                 "section": "3.4.4, Fig. 12",
                 "inputs": ["duplicated?", "needed for service delivery or accountability?", "orphaned?"],
                 "output": "keep, consolidate, link to workflow, or remove",
@@ -2502,7 +2502,7 @@ def build_ch06(folio_dir: Path):
             elements=["public-health-authority", "implementing-team", "me-specialist", "pos-app"],
             views=["pcposs", "shared-roles"],
             dmnCandidate={
-                "table": "Ready to scale up and phase out",
+                "table": "Scale-up readiness and legacy system phase-out",
                 "section": "6.1, 6.2",
                 "inputs": ["PCPOSS ready?", "health system ready?", "objectives met?"],
                 "output": "proceed with scale-up / legacy phase-out or continue stabilization",

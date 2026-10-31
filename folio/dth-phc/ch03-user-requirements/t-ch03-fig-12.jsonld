@@ -84,7 +84,7 @@
       ]
     },
     "dmnCandidate": {
-      "table": "Keep a data element",
+      "table": "Data element retention",
       "section": "3.4.4, Fig. 12",
       "inputs": [
         "duplicated?",
