@@ -263,119 +263,117 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 2.1 (prose-sec-00
   <bpmndi:BPMNDiagram id="BPMNDiagram_Process_PcpossImplementationLifecycle">
     <bpmndi:BPMNPlane id="BPMNPlane_Process_PcpossImplementationLifecycle" bpmnElement="Collaboration_Process_PcpossImplementationLifecycle">
       <bpmndi:BPMNShape id="Shape_Participant_Process_PcpossImplementationLifecycle" bpmnElement="Participant_Process_PcpossImplementationLifecycle" isHorizontal="true">
-        <dc:Bounds x="160" y="80" width="2620" height="850"/>
+        <dc:Bounds x="160" y="80" width="2620" height="1326" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-PHA" bpmnElement="Lane-Lifecycle-PHA" isHorizontal="true">
-        <dc:Bounds x="190" y="80" width="2590" height="170"/>
+        <dc:Bounds x="190" y="80" width="2590" height="170" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-BA" bpmnElement="Lane-Lifecycle-BA" isHorizontal="true">
-        <dc:Bounds x="190" y="250" width="2590" height="170"/>
+        <dc:Bounds x="190" y="250" width="2590" height="304" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-Tech" bpmnElement="Lane-Lifecycle-Tech" isHorizontal="true">
-        <dc:Bounds x="190" y="420" width="2590" height="170"/>
+        <dc:Bounds x="190" y="554" width="2590" height="345" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-Impl" bpmnElement="Lane-Lifecycle-Impl" isHorizontal="true">
-        <dc:Bounds x="190" y="590" width="2590" height="170"/>
+        <dc:Bounds x="190" y="899" width="2590" height="170" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-Users" bpmnElement="Lane-Lifecycle-Users" isHorizontal="true">
-        <dc:Bounds x="190" y="760" width="2590" height="170"/>
+        <dc:Bounds x="190" y="1069" width="2590" height="337" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Start_Lifecycle" bpmnElement="Start_Lifecycle">
-        <dc:Bounds x="332" y="147" width="36" height="36"/>
+        <dc:Bounds x="332" y="147" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Task_AssessReadinessScenario" bpmnElement="Task_AssessReadinessScenario">
-        <dc:Bounds x="495" y="293" width="150" height="84"/>
+        <dc:Bounds x="495" y="360" width="150" height="84" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_GW_StartingScenario" bpmnElement="GW_StartingScenario" isMarkerVisible="true">
-        <dc:Bounds x="765" y="310" width="50" height="50"/>
+        <dc:Bounds x="765" y="377" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Call_Phase1_Requirements" bpmnElement="Call_Phase1_Requirements">
-        <dc:Bounds x="935" y="293" width="150" height="84"/>
+        <dc:Bounds x="920" y="360" width="180" height="84" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Call_Phase2_Design" bpmnElement="Call_Phase2_Design">
-        <dc:Bounds x="1155" y="463" width="150" height="84"/>
+        <dc:Bounds x="1140" y="684.5" width="180" height="84" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_GW_MvpSpecsMet" bpmnElement="GW_MvpSpecsMet" isMarkerVisible="true">
-        <dc:Bounds x="1425" y="480" width="50" height="50"/>
+        <dc:Bounds x="1425" y="701.5" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Call_Phase3_RollOut" bpmnElement="Call_Phase3_RollOut">
-        <dc:Bounds x="1595" y="633" width="150" height="84"/>
+        <dc:Bounds x="1595" y="942" width="150" height="84" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Task_GatherUserFeedback" bpmnElement="Task_GatherUserFeedback">
-        <dc:Bounds x="1815" y="803" width="150" height="84"/>
+        <dc:Bounds x="1815" y="1195.5" width="150" height="84" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_GW_NextIterationOrScale" bpmnElement="GW_NextIterationOrScale" isMarkerVisible="true">
-        <dc:Bounds x="2085" y="650" width="50" height="50"/>
+        <dc:Bounds x="2085" y="959" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_Call_Phase4_ScaleUp" bpmnElement="Call_Phase4_ScaleUp">
-        <dc:Bounds x="2255" y="123" width="150" height="84"/>
+        <dc:Bounds x="2255" y="123" width="150" height="84" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Shape_End_Lifecycle" bpmnElement="End_Lifecycle">
-        <dc:Bounds x="2532" y="147" width="36" height="36"/>
+        <dc:Bounds x="2532" y="147" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_1" bpmnElement="Flow_LC_1">
-        <di:waypoint x="368" y="165"/>
-        <di:waypoint x="431" y="165"/>
-        <di:waypoint x="431" y="335"/>
-        <di:waypoint x="495" y="335"/>
+        <di:waypoint x="368" y="165" />
+        <di:waypoint x="431.5" y="165" />
+        <di:waypoint x="431.5" y="402" />
+        <di:waypoint x="495" y="402" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_2" bpmnElement="Flow_LC_2">
-        <di:waypoint x="645" y="335"/>
-        <di:waypoint x="765" y="335"/>
+        <di:waypoint x="645" y="402" />
+        <di:waypoint x="765" y="402" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_3a" bpmnElement="Flow_LC_3a">
-        <di:waypoint x="815" y="335"/>
-        <di:waypoint x="935" y="335"/>
+        <di:waypoint x="815" y="402" />
+        <di:waypoint x="920" y="402" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_3b" bpmnElement="Flow_LC_3b">
-        <di:waypoint x="815" y="335"/>
-        <di:waypoint x="935" y="335"/>
+        <di:waypoint x="815" y="402" />
+        <di:waypoint x="920" y="402" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_4" bpmnElement="Flow_LC_4">
-        <di:waypoint x="1085" y="335"/>
-        <di:waypoint x="1120" y="335"/>
-        <di:waypoint x="1120" y="505"/>
-        <di:waypoint x="1155" y="505"/>
+        <di:waypoint x="1100" y="402" />
+        <di:waypoint x="1120" y="402" />
+        <di:waypoint x="1120" y="726.5" />
+        <di:waypoint x="1140" y="726.5" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_5" bpmnElement="Flow_LC_5">
-        <di:waypoint x="1305" y="505"/>
-        <di:waypoint x="1425" y="505"/>
+        <di:waypoint x="1320" y="726.5" />
+        <di:waypoint x="1425" y="726.5" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_6_Loop" bpmnElement="Flow_LC_6_Loop">
-        <di:waypoint x="1450" y="530"/>
-        <di:waypoint x="1450" y="572"/>
-        <di:waypoint x="1230" y="572"/>
-        <di:waypoint x="1230" y="547"/>
+        <di:waypoint x="1425" y="726.5" />
+        <di:waypoint x="1320" y="726.5" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_6_Pass" bpmnElement="Flow_LC_6_Pass">
-        <di:waypoint x="1475" y="505"/>
-        <di:waypoint x="1535" y="505"/>
-        <di:waypoint x="1535" y="675"/>
-        <di:waypoint x="1595" y="675"/>
+        <di:waypoint x="1475" y="726.5" />
+        <di:waypoint x="1535" y="726.5" />
+        <di:waypoint x="1535" y="984" />
+        <di:waypoint x="1595" y="984" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_7" bpmnElement="Flow_LC_7">
-        <di:waypoint x="1745" y="675"/>
-        <di:waypoint x="1780" y="675"/>
-        <di:waypoint x="1780" y="845"/>
-        <di:waypoint x="1815" y="845"/>
+        <di:waypoint x="1745" y="984" />
+        <di:waypoint x="1780" y="984" />
+        <di:waypoint x="1780" y="1237.5" />
+        <di:waypoint x="1815" y="1237.5" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_8" bpmnElement="Flow_LC_8">
-        <di:waypoint x="1965" y="845"/>
-        <di:waypoint x="2025" y="845"/>
-        <di:waypoint x="2025" y="675"/>
-        <di:waypoint x="2085" y="675"/>
+        <di:waypoint x="1965" y="1237.5" />
+        <di:waypoint x="2025" y="1237.5" />
+        <di:waypoint x="2025" y="984" />
+        <di:waypoint x="2085" y="984" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_9_Iterate" bpmnElement="Flow_LC_9_Iterate">
-        <di:waypoint x="2110" y="700"/>
-        <di:waypoint x="2110" y="736"/>
-        <di:waypoint x="1010" y="736"/>
-        <di:waypoint x="1010" y="377"/>
+        <di:waypoint x="2085" y="984" />
+        <di:waypoint x="1592.5" y="984" />
+        <di:waypoint x="1592.5" y="402" />
+        <di:waypoint x="1100" y="402" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_9_Scale" bpmnElement="Flow_LC_9_Scale">
-        <di:waypoint x="2135" y="675"/>
-        <di:waypoint x="2195" y="675"/>
-        <di:waypoint x="2195" y="165"/>
-        <di:waypoint x="2255" y="165"/>
+        <di:waypoint x="2135" y="984" />
+        <di:waypoint x="2195" y="984" />
+        <di:waypoint x="2195" y="165" />
+        <di:waypoint x="2255" y="165" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_LC_10" bpmnElement="Flow_LC_10">
         <di:waypoint x="2405" y="165"/>
