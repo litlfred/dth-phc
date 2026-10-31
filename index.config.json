@@ -120,7 +120,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "1602a1be5ac16b95fa70b487f142d47d210e652b",
+          "ref": "093e95b3711201ca6756257fd967f453880cf31d",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -136,8 +136,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-31",
-              "ref": "1602a1be5ac16b95fa70b487f142d47d210e652b",
-              "evidence": "litlfred, 2026-10-31: card 'A. Merge when green' for core#328 (thread Review sheet Apps Script), merge and repin window to ~09:00Z; re-pin folio-assistant-core to core#328 (1602a1b): review-sheet Code.gs, readable Config, relative sheet-sync URLs"
+              "ref": "093e95b3711201ca6756257fd967f453880cf31d",
+              "evidence": "folio-assistant-core moved to main 093e95b, past #412 (6cd0644, glossary organizations + acronym check) and #405 (093e95b, DIIG phases & SMART approach charts). Merge-and-repin window (coordinator, 2026-10-31). Prior: litlfred, 2026-10-31: card 'A. Merge when green' for core#328 (thread Review sheet Apps Script), merge and repin window to ~09:00Z; re-pin folio-assistant-core to core#328 (1602a1b): review-sheet Code.gs, readable Config, relative sheet-sync URLs"
             }
           }
         }
