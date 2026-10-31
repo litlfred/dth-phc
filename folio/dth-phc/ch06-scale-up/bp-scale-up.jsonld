@@ -1,0 +1,60 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/bp-scale-up",
+  "@type": [
+    "smart-base:BusinessProcess"
+  ],
+  "label": "bp:scale-up",
+  "kind": "business-process",
+  "title": "Phase 4: Scale-up (Chapter 6)",
+  "text": "bp-scale-up.md",
+  "companions": {
+    "bpmn": "bp-scale-up.bpmn"
+  },
+  "uses": [
+    "papers/dth-phc/blocks/dt-ready-to-scale-up",
+    "papers/dth-phc/blocks/pers-public-health-authority",
+    "papers/dth-phc/blocks/pers-monitoring-and-evaluation-specialist",
+    "papers/dth-phc/blocks/pers-solutions-architect",
+    "papers/dth-phc/blocks/pers-implementing-team",
+    "papers/dth-phc/blocks/pers-supervisor",
+    "papers/dth-phc/blocks/pers-health-worker",
+    "papers/dth-phc/blocks/pers-clerk",
+    "papers/dth-phc/blocks/pers-donors-and-development-partners"
+  ],
+  "meta": {
+    "title": "Phase 4: Scale-up (Chapter 6)",
+    "processId": "Process_ScaleUp",
+    "canonicalBpmn": "processes/scale-up.bpmn",
+    "canonicalSvg": "processes/scale-up.svg",
+    "checklist": "processes/scale-up.checklist.md",
+    "bpmnSpec": "omg-2013-bpmn-2-0-2",
+    "sdlcMapping": "arxiv-2404.04834v4",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-029",
+        "sec-030",
+        "sec-031",
+        "sec-032",
+        "sec-033"
+      ],
+      "pdfPages": [
+        71,
+        72,
+        74,
+        75,
+        77,
+        79
+      ],
+      "method": "p4b-bpmn-formalization"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,67 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-monitoring-and-evaluation-specialist",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:monitoring-and-evaluation-specialist",
+  "kind": "persona",
+  "title": "Monitoring and evaluation (M&E) specialist",
+  "text": "pers-monitoring-and-evaluation-specialist.md",
+  "uses": [
+    "papers/dth-phc/blocks/bp-understand-user-requirements",
+    "papers/dth-phc/blocks/bp-scale-up",
+    "papers/dth-phc/blocks/dt-ready-to-scale-up"
+  ],
+  "meta": {
+    "title": "Monitoring and evaluation (M&E) specialist",
+    "personaType": "person",
+    "bpmnRoleId": "monitoring-and-evaluation-specialist",
+    "bpmnLanes": [
+      "processes/pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Impl",
+      "processes/understand-user-requirements.bpmn#Lane-Ch3-HI",
+      "processes/scale-up.bpmn#Lane-Ch6-ME"
+    ],
+    "archimate": {
+      "repository": "litlfred/smart-ra",
+      "elementType": "archimate:BusinessRole",
+      "elementName": "M&E specialist",
+      "elementStatus": "proposed-shared-role",
+      "relatedComponentIds": [
+        "id-3fd92d497ca040c8a436f355c0b68770"
+      ],
+      "sharedAcross": [
+        "dth-phc",
+        "dth-sc",
+        "dth-hrh"
+      ]
+    },
+    "glossaryTerm": "dth-phc:monitoring-and-evaluation-specialist",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-011",
+        "sec-015",
+        "sec-029",
+        "sec-030",
+        "sec-031"
+      ],
+      "pdfPages": [
+        25,
+        35,
+        71,
+        74,
+        75
+      ],
+      "method": "p4b-persona-formalization"
+    },
+    "smartBaseGenericPersona": "DataManagerOrRoutineHealthInformationSystemStaff"
+  },
+  "provenance": "authored"
+}

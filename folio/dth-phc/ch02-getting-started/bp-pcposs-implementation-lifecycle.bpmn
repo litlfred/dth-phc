@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  xmlns:bootstrap.processes="https://litlfred.github.io/bootstrap/v0/processes/ns#"
+                  xmlns:cat-harness.processes="https://litlfred.github.io/cat-harness/v0/processes/ns#"
+                  id="Definitions_Process_PcpossImplementationLifecycle"
+                  targetNamespace="https://litlfred.github.io/dth-phc/workflows"
+                  exporter="folio-assistant" exporterVersion="1">
+  <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
+  <bpmn:resource id="public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="business-analyst" name="Business analyst"/>
+  <bpmn:resource id="technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="implementing-team" name="Implementing team"/>
+  <bpmn:resource id="health-worker" name="Health worker"/>
+  <bpmn:resource id="health-informatician" name="Health informatician"/>
+  <bpmn:resource id="software-engineer" name="Software engineer"/>
+  <bpmn:resource id="solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="designer" name="Designer"/>
+  <bpmn:resource id="user-researcher" name="User researcher"/>
+  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:collaboration id="Collaboration_Process_PcpossImplementationLifecycle">
+    <bpmn:participant id="Participant_Process_PcpossImplementationLifecycle" name="WHO DTH for Primary Health Care — PCPOSS implementation lifecycle (2.4, Fig. 7)" processRef="Process_PcpossImplementationLifecycle"/>
+  </bpmn:collaboration>
+  <bpmn:process id="Process_PcpossImplementationLifecycle" name="PCPOSS implementation lifecycle (2.4, Fig. 7)" isExecutable="false">
+    <bpmn:documentation>End-to-end iterative lifecycle for transitioning primary health care point-of-service systems from paper or siloed legacy tools to an enterprise-grade, interoperable PCPOSS across the four handbook phases and the agile release loop of Fig. 7 (MVP, Version 1, Version 2).
+
+L1 source anchors: who-iris/library/9789240093362-eng sections 2.1 (prose-sec-007), 2.2 (prose-sec-008), 2.3 (prose-sec-009, Fig. 6 reproducing DIIG Fig. 1.1.1), 2.4 (prose-sec-010, Fig. 7), and the four chapter opener panels in 3.1 (prose-sec-012), 4.1 (prose-sec-020), 5.1 (prose-sec-025), and 6.1 (prose-sec-029). Mapped to smart-base&#x27;s DIIG investment path BPMN (smart-base/methodologies/processes/diig-investment-path.bpmn, Phase 5: Determining health content requirements) and compared with cat-harness crdm-deliver.bpmn for the MVP build-and-test loop.</bpmn:documentation>
+    <bpmn:extensionElements>
+      <cat-harness.processes:policy enforcement="advisory"/>
+    </bpmn:extensionElements>
+    <bpmn:laneSet id="LaneSet_Process_PcpossImplementationLifecycle">
+      <bpmn:lane id="Lane-Lifecycle-PHA" name="Public health authority (ministry of health)" partitionElementRef="public-health-authority">
+        <bpmn:documentation>Persona block pers:public-health-authority (papers/dth-phc/blocks/pers-public-health-authority). Confirms strategic need from DIIG Phases 1-4, governs scope and policies across all four phases, and leads Phase 4 scale-up and legacy phase-out (sections 2.2, 2.3, 3.1, 5.1, 6.1).</bpmn:documentation>
+        <bpmn:flowNodeRef>Start_Lifecycle</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Call_Phase4_ScaleUp</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Lifecycle</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Lifecycle-BA" name="Business analyst, health informatician &amp; user researcher" partitionElementRef="business-analyst">
+        <bpmn:documentation>Persona blocks pers:business-analyst, pers:health-informatician and pers:user-researcher. Assesses the digital readiness starting scenario (2.1) and leads Phase 1 (Understand user requirements, Chapter 3) to produce the nine DAK requirements artefacts that feed Phase 2.</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_AssessReadinessScenario</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_StartingScenario</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Call_Phase1_Requirements</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Lifecycle-Tech" name="Technology partner (solutions architect, software engineer, designer)" partitionElementRef="technology-partner">
+        <bpmn:documentation>Persona blocks pers:technology-partner, pers:solutions-architect, pers:software-engineer and pers:designer. Leads Phase 2 (Undertake design and adaptation, Chapter 4) — build and test across MVP, Version 1 and Version 2 — and technical deployment in Phase 3.</bpmn:documentation>
+        <bpmn:flowNodeRef>Call_Phase2_Design</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_MvpSpecsMet</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Lifecycle-Impl" name="Implementing team &amp; M&amp;E specialist" partitionElementRef="implementing-team">
+        <bpmn:documentation>Persona blocks pers:implementing-team and pers:monitoring-and-evaluation-specialist. Leads Phase 3 training, user acceptance testing, deployment coordination and feedback management (Chapter 5), and supports Phase 4 readiness assessment and monitoring (Chapter 6).</bpmn:documentation>
+        <bpmn:flowNodeRef>Call_Phase3_RollOut</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_NextIterationOrScale</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Lifecycle-Users" name="Health worker occupational groups &amp; health service users" partitionElementRef="health-worker">
+        <bpmn:documentation>Persona blocks pers:health-worker and pers:health-service-user. Participate throughout requirements gathering, prototype testing, user acceptance testing, routine clinical use and continuous feedback across MVP, Version 1 and Version 2 (Fig. 7).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_GatherUserFeedback</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_Lifecycle" name="PCPOSS selected as health intervention (2.3, Fig. 7)">
+      <bpmn:documentation>Section 2.3 (prose-sec-009) and Fig. 7 (prose-sec-010): High-level needs assessment and strategic planning (DIIG Phases 1-4, smart-base/methodologies/processes/diig-investment-path.bpmn) have concluded that implementing a PCPOSS is appropriate.</bpmn:documentation>
+      <bpmn:outgoing>Flow_LC_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_AssessReadinessScenario" name="Assess digital readiness starting scenario (2.1)">
+      <bpmn:documentation>Section 2.1 (prose-sec-007, pages 22-23): Determine whether the health system is starting from a paper-only system or starting with some parts already digitized (disparate/siloed PCPOSSs or parallel paper records).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_LC_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_StartingScenario" name="Starting scenario (2.1)?">
+      <bpmn:documentation>Computed from decisions/starting-scenario.dmn#Decision_StartingScenario (Section 2.1, prose-sec-007): routes &#x27;paper only&#x27; or &#x27;partly digitized&#x27; into Phase 1 requirements gathering.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <cat-harness.processes:decision ref="decisions/starting-scenario.dmn#Decision_StartingScenario"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_LC_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_3a</bpmn:outgoing>
+      <bpmn:outgoing>Flow_LC_3b</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:callActivity id="Call_Phase1_Requirements" name="Phase 1: Understand and prioritize user requirements (Ch 3)" calledElement="Process_UnderstandUserRequirements">
+      <bpmn:documentation>Section 2.4 Step 1 and Chapter 3 (prose-sec-010, prose-sec-012..019): Understand users, map workflows, streamline forms and indicators, define data dictionary, decision logic, schedules and prioritized requirements. Outputs feed Phase 2 inputs.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Call_Phase1_Requirements_IO">
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_1" name="National health strategy, digital health strategy, health policies, and PCPOSS scope"/>
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_2" name="Health information system, privacy, security and data use policies"/>
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_3" name="Digital health architecture blueprint and interoperability requirements"/>
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_4" name="Infrastructure readiness assessment and unique identifier method"/>
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_5" name="List of anticipated outcomes against which to measure success"/>
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_6" name="WHO and national guidelines, SOPs, data and indicator definitions"/>
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_7" name="Existing paper records and register forms"/>
+        <bpmn:dataInput id="Call_Phase1_Requirements_In_8" name="End-user and key stakeholder interviews and insights"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_1" name="User personas"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_2" name="Use cases"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_3" name="User stories"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_4" name="As-is and to-be business processes"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_5" name="Data dictionary and data model"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_6" name="Documented health service schedule"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_7" name="Documented decision logic algorithms"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_8" name="List of indicators and calculation method"/>
+        <bpmn:dataOutput id="Call_Phase1_Requirements_Out_9" name="Prioritized functional and non-functional requirements"/>
+        <bpmn:inputSet id="Call_Phase1_Requirements_InputSet">
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_2</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_3</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_4</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_5</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_6</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_7</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase1_Requirements_In_8</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Call_Phase1_Requirements_OutputSet">
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_1</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_2</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_3</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_4</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_5</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_6</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_7</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_8</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase1_Requirements_Out_9</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_LC_3a</bpmn:incoming>
+      <bpmn:incoming>Flow_LC_3b</bpmn:incoming>
+      <bpmn:incoming>Flow_LC_9_Iterate</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_4</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity id="Call_Phase2_Design" name="Phase 2: Undertake design and adaptation — build and test (Ch 4)" calledElement="Process_DesignAndAdaptation">
+      <bpmn:documentation>Section 2.4 Step 2, Fig. 7 (&#x27;Design / Adapt design&#x27; and &#x27;Build and test&#x27;) and Chapter 4 (prose-sec-020..024): Consumes Phase 1&#x27;s requirements documentation to select software/vendor, validate functional requirements, iterate wireframe/mock-up/prototype designs, design architecture and build/test the beta or release candidate.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Call_Phase2_Design_IO">
+        <bpmn:dataInput id="Call_Phase2_Design_In_1" name="Scope for PCPOSS, governance structure, budget, timeline and risk plan"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_2" name="Digital adaptation kits (if available for the scoped health domain)"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_3" name="User personas"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_4" name="Use cases"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_5" name="User stories"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_6" name="As-is and to-be business processes"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_7" name="Data dictionary and data model inclusive of semantic and syntactic standards"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_8" name="Documented decision logic algorithms"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_9" name="Documented health service schedule"/>
+        <bpmn:dataInput id="Call_Phase2_Design_In_10" name="Prioritized functional and non-functional requirements"/>
+        <bpmn:dataOutput id="Call_Phase2_Design_Out_1" name="Selected software and software vendor"/>
+        <bpmn:dataOutput id="Call_Phase2_Design_Out_2" name="System architecture"/>
+        <bpmn:dataOutput id="Call_Phase2_Design_Out_3" name="User interface design"/>
+        <bpmn:dataOutput id="Call_Phase2_Design_Out_4" name="Product documentation"/>
+        <bpmn:dataOutput id="Call_Phase2_Design_Out_5" name="Beta version of the PCPOSS"/>
+        <bpmn:inputSet id="Call_Phase2_Design_InputSet">
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_2</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_3</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_4</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_5</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_6</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_7</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_8</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_9</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Call_Phase2_Design_In_10</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Call_Phase2_Design_OutputSet">
+          <bpmn:dataOutputRefs>Call_Phase2_Design_Out_1</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase2_Design_Out_2</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase2_Design_Out_3</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase2_Design_Out_4</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase2_Design_Out_5</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_LC_4</bpmn:incoming>
+      <bpmn:incoming>Flow_LC_6_Loop</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_5</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:exclusiveGateway id="GW_MvpSpecsMet" name="Meets MVP / release specs to deploy (Fig. 7)?">
+      <bpmn:documentation>Fig. 7 (prose-sec-010, page 26): &#x27;Repeat previous loop until meeting MVP specs to deploy&#x27; (compared with cat-harness crdm-deliver.bpmn). If specs are not yet met, iterate design, build and test; once met, proceed to Phase 3 training, testing and roll-out.</bpmn:documentation>
+      <bpmn:incoming>Flow_LC_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_6_Loop</bpmn:outgoing>
+      <bpmn:outgoing>Flow_LC_6_Pass</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:callActivity id="Call_Phase3_RollOut" name="Phase 3: Conduct training, testing and roll-out (Ch 5)" calledElement="Process_TrainingTestingAndRollOut">
+      <bpmn:documentation>Section 2.4 Step 3, Fig. 7 (&#x27;Train users&#x27; and &#x27;Deploy and roll out&#x27;) and Chapter 5 (prose-sec-025..028): Consumes Phase 2&#x27;s Beta version of the PCPOSS to train users and maintenance partners, run UAT with test cases and test data, and deploy the live PCPOSS.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="test-plan-execution"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Call_Phase3_RollOut_IO">
+        <bpmn:dataInput id="Call_Phase3_RollOut_In_1" name="Beta version of the person-centred point of service system (PCPOSS)"/>
+        <bpmn:dataOutput id="Call_Phase3_RollOut_Out_1" name="Training materials"/>
+        <bpmn:dataOutput id="Call_Phase3_RollOut_Out_2" name="A deployed and rolled-out PCPOSS (live version of PCPOSS being used)"/>
+        <bpmn:inputSet id="Call_Phase3_RollOut_InputSet">
+          <bpmn:dataInputRefs>Call_Phase3_RollOut_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Call_Phase3_RollOut_OutputSet">
+          <bpmn:dataOutputRefs>Call_Phase3_RollOut_Out_1</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase3_RollOut_Out_2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_LC_6_Pass</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_7</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:task id="Task_GatherUserFeedback" name="Gather and manage user feedback in routine use (Fig. 7, 5.4)">
+      <bpmn:documentation>Fig. 7 (prose-sec-010, page 26) and Section 5.4 (prose-sec-028, page 65): End-users and implementing teams gather and manage user feedback from the deployed MVP / Version 1 / Version 2 release to drive iterative continuous improvement.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="content-feedback"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_LC_7</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_NextIterationOrScale" name="Agile iteration stage (Fig. 7)?">
+      <bpmn:documentation>Fig. 7 (prose-sec-010, page 26): After deploying MVP or Version 1 and gathering user feedback, either iterate through Version 1 / Version 2 (&#x27;Understand and prioritize user requirements -&gt; Adapt design -&gt; Build and test -&gt; Train users -&gt; Deploy, roll out, and scale&#x27;) or proceed to Phase 4 scale-up and legacy phase-out.</bpmn:documentation>
+      <bpmn:incoming>Flow_LC_8</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_9_Iterate</bpmn:outgoing>
+      <bpmn:outgoing>Flow_LC_9_Scale</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:callActivity id="Call_Phase4_ScaleUp" name="Phase 4: Prepare for scaling up and legacy phase-out (Ch 6)" calledElement="Process_ScaleUp">
+      <bpmn:documentation>Section 2.4 Step 4, Fig. 7 (&#x27;Deploy, roll out, and scale&#x27;) and Chapter 6 (prose-sec-029..033): Consumes Phase 3&#x27;s live PCPOSS to assess scale-up readiness, set and monitor SMART objectives, phase out paper/legacy systems in stages while retaining paper backup, and embed change management.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="methodology-adoption"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Call_Phase4_ScaleUp_IO">
+        <bpmn:dataInput id="Call_Phase4_ScaleUp_In_1" name="Live version of your PCPOSS being used"/>
+        <bpmn:dataOutput id="Call_Phase4_ScaleUp_Out_1" name="Set of objectives and benchmarks the PCPOSS will need to meet before phasing out paper and/or legacy systems"/>
+        <bpmn:dataOutput id="Call_Phase4_ScaleUp_Out_2" name="Strategic plan for phasing out paper and/or legacy systems"/>
+        <bpmn:inputSet id="Call_Phase4_ScaleUp_InputSet">
+          <bpmn:dataInputRefs>Call_Phase4_ScaleUp_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Call_Phase4_ScaleUp_OutputSet">
+          <bpmn:dataOutputRefs>Call_Phase4_ScaleUp_Out_1</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Call_Phase4_ScaleUp_Out_2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_LC_9_Scale</bpmn:incoming>
+      <bpmn:outgoing>Flow_LC_10</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:endEvent id="End_Lifecycle" name="PCPOSS scaled up with continuous improvement (Fig. 7)">
+      <bpmn:documentation>Fig. 7 and Chapter 6: PCPOSS is scaled sustainably within the national digital health enterprise architecture with ongoing monitoring and iterations for continuous improvement.</bpmn:documentation>
+      <bpmn:incoming>Flow_LC_10</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_LC_1" sourceRef="Start_Lifecycle" targetRef="Task_AssessReadinessScenario"/>
+    <bpmn:sequenceFlow id="Flow_LC_2" sourceRef="Task_AssessReadinessScenario" targetRef="GW_StartingScenario"/>
+    <bpmn:sequenceFlow id="Flow_LC_3a" sourceRef="GW_StartingScenario" targetRef="Call_Phase1_Requirements" name="paper only"/>
+    <bpmn:sequenceFlow id="Flow_LC_3b" sourceRef="GW_StartingScenario" targetRef="Call_Phase1_Requirements" name="partly digitized"/>
+    <bpmn:sequenceFlow id="Flow_LC_4" sourceRef="Call_Phase1_Requirements" targetRef="Call_Phase2_Design"/>
+    <bpmn:sequenceFlow id="Flow_LC_5" sourceRef="Call_Phase2_Design" targetRef="GW_MvpSpecsMet"/>
+    <bpmn:sequenceFlow id="Flow_LC_6_Loop" sourceRef="GW_MvpSpecsMet" targetRef="Call_Phase2_Design" name="repeat build and test"/>
+    <bpmn:sequenceFlow id="Flow_LC_6_Pass" sourceRef="GW_MvpSpecsMet" targetRef="Call_Phase3_RollOut" name="ready to train and deploy"/>
+    <bpmn:sequenceFlow id="Flow_LC_7" sourceRef="Call_Phase3_RollOut" targetRef="Task_GatherUserFeedback"/>
+    <bpmn:sequenceFlow id="Flow_LC_8" sourceRef="Task_GatherUserFeedback" targetRef="GW_NextIterationOrScale"/>
+    <bpmn:sequenceFlow id="Flow_LC_9_Iterate" sourceRef="GW_NextIterationOrScale" targetRef="Call_Phase1_Requirements" name="iterate Version 1 / Version 2"/>
+    <bpmn:sequenceFlow id="Flow_LC_9_Scale" sourceRef="GW_NextIterationOrScale" targetRef="Call_Phase4_ScaleUp" name="prepare for scale-up"/>
+    <bpmn:sequenceFlow id="Flow_LC_10" sourceRef="Call_Phase4_ScaleUp" targetRef="End_Lifecycle"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Process_PcpossImplementationLifecycle">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_PcpossImplementationLifecycle" bpmnElement="Collaboration_Process_PcpossImplementationLifecycle">
+      <bpmndi:BPMNShape id="Shape_Participant_Process_PcpossImplementationLifecycle" bpmnElement="Participant_Process_PcpossImplementationLifecycle" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="2620" height="850"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-PHA" bpmnElement="Lane-Lifecycle-PHA" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="2590" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-BA" bpmnElement="Lane-Lifecycle-BA" isHorizontal="true">
+        <dc:Bounds x="190" y="250" width="2590" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-Tech" bpmnElement="Lane-Lifecycle-Tech" isHorizontal="true">
+        <dc:Bounds x="190" y="420" width="2590" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-Impl" bpmnElement="Lane-Lifecycle-Impl" isHorizontal="true">
+        <dc:Bounds x="190" y="590" width="2590" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Lifecycle-Users" bpmnElement="Lane-Lifecycle-Users" isHorizontal="true">
+        <dc:Bounds x="190" y="760" width="2590" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Start_Lifecycle" bpmnElement="Start_Lifecycle">
+        <dc:Bounds x="332" y="147" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_AssessReadinessScenario" bpmnElement="Task_AssessReadinessScenario">
+        <dc:Bounds x="495" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_StartingScenario" bpmnElement="GW_StartingScenario" isMarkerVisible="true">
+        <dc:Bounds x="765" y="310" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Call_Phase1_Requirements" bpmnElement="Call_Phase1_Requirements">
+        <dc:Bounds x="935" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Call_Phase2_Design" bpmnElement="Call_Phase2_Design">
+        <dc:Bounds x="1155" y="463" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_MvpSpecsMet" bpmnElement="GW_MvpSpecsMet" isMarkerVisible="true">
+        <dc:Bounds x="1425" y="480" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Call_Phase3_RollOut" bpmnElement="Call_Phase3_RollOut">
+        <dc:Bounds x="1595" y="633" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_GatherUserFeedback" bpmnElement="Task_GatherUserFeedback">
+        <dc:Bounds x="1815" y="803" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_NextIterationOrScale" bpmnElement="GW_NextIterationOrScale" isMarkerVisible="true">
+        <dc:Bounds x="2085" y="650" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Call_Phase4_ScaleUp" bpmnElement="Call_Phase4_ScaleUp">
+        <dc:Bounds x="2255" y="123" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_End_Lifecycle" bpmnElement="End_Lifecycle">
+        <dc:Bounds x="2532" y="147" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_1" bpmnElement="Flow_LC_1">
+        <di:waypoint x="368" y="165"/>
+        <di:waypoint x="431" y="165"/>
+        <di:waypoint x="431" y="335"/>
+        <di:waypoint x="495" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_2" bpmnElement="Flow_LC_2">
+        <di:waypoint x="645" y="335"/>
+        <di:waypoint x="765" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_3a" bpmnElement="Flow_LC_3a">
+        <di:waypoint x="815" y="335"/>
+        <di:waypoint x="935" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_3b" bpmnElement="Flow_LC_3b">
+        <di:waypoint x="815" y="335"/>
+        <di:waypoint x="935" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_4" bpmnElement="Flow_LC_4">
+        <di:waypoint x="1085" y="335"/>
+        <di:waypoint x="1120" y="335"/>
+        <di:waypoint x="1120" y="505"/>
+        <di:waypoint x="1155" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_5" bpmnElement="Flow_LC_5">
+        <di:waypoint x="1305" y="505"/>
+        <di:waypoint x="1425" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_6_Loop" bpmnElement="Flow_LC_6_Loop">
+        <di:waypoint x="1450" y="530"/>
+        <di:waypoint x="1450" y="572"/>
+        <di:waypoint x="1230" y="572"/>
+        <di:waypoint x="1230" y="547"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_6_Pass" bpmnElement="Flow_LC_6_Pass">
+        <di:waypoint x="1475" y="505"/>
+        <di:waypoint x="1535" y="505"/>
+        <di:waypoint x="1535" y="675"/>
+        <di:waypoint x="1595" y="675"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_7" bpmnElement="Flow_LC_7">
+        <di:waypoint x="1745" y="675"/>
+        <di:waypoint x="1780" y="675"/>
+        <di:waypoint x="1780" y="845"/>
+        <di:waypoint x="1815" y="845"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_8" bpmnElement="Flow_LC_8">
+        <di:waypoint x="1965" y="845"/>
+        <di:waypoint x="2025" y="845"/>
+        <di:waypoint x="2025" y="675"/>
+        <di:waypoint x="2085" y="675"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_9_Iterate" bpmnElement="Flow_LC_9_Iterate">
+        <di:waypoint x="2110" y="700"/>
+        <di:waypoint x="2110" y="736"/>
+        <di:waypoint x="1010" y="736"/>
+        <di:waypoint x="1010" y="377"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_9_Scale" bpmnElement="Flow_LC_9_Scale">
+        <di:waypoint x="2135" y="675"/>
+        <di:waypoint x="2195" y="675"/>
+        <di:waypoint x="2195" y="165"/>
+        <di:waypoint x="2255" y="165"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_LC_10" bpmnElement="Flow_LC_10">
+        <di:waypoint x="2405" y="165"/>
+        <di:waypoint x="2532" y="165"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

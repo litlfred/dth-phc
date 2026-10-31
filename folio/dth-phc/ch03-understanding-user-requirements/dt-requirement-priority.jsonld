@@ -1,0 +1,45 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/dt-requirement-priority",
+  "@type": [
+    "smart-base:DecisionTable"
+  ],
+  "label": "dt:requirement-priority",
+  "kind": "decision-table",
+  "title": "Requirement prioritization decision table (section 3.8 and Annex 13)",
+  "text": "dt-requirement-priority.md",
+  "companions": {
+    "dmn": "dt-requirement-priority.dmn"
+  },
+  "uses": [
+    "papers/dth-phc/blocks/pers-business-analyst",
+    "papers/dth-phc/blocks/pers-implementing-team",
+    "papers/dth-phc/blocks/pers-public-health-authority"
+  ],
+  "meta": {
+    "title": "Requirement prioritization decision table (section 3.8 and Annex 13)",
+    "decisionId": "Decision_RequirementPriority",
+    "canonicalDmn": "processes/decisions/requirement-priority.dmn",
+    "dmnSpec": "omg-2024-dmn-1-5",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-019",
+        "sec-045"
+      ],
+      "pdfPages": [
+        47,
+        48,
+        100
+      ],
+      "method": "p4b-dmn-formalization"
+    }
+  },
+  "provenance": "authored"
+}

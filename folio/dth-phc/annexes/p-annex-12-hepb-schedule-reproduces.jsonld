@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/p-annex-12-hepb-schedule-reproduces",
+  "@type": [
+    "Block"
+  ],
+  "label": "prose:annex-12-hepb-schedule-reproduces",
+  "kind": "prose",
+  "title": "Annex 12 worked example: Hepatitis B birth-dose vaccination schedule (reproduces WHO Immunization DAK)",
+  "text": "p-annex-12-hepb-schedule-reproduces.md",
+  "uses": [
+    "papers/dth-phc/blocks/pers-system-dss"
+  ],
+  "meta": {
+    "title": "Annex 12 worked example: Hepatitis B birth-dose vaccination schedule (reproduces WHO Immunization DAK)",
+    "reproduces": {
+      "kind": "reproduces",
+      "upstreamDocument": "WHO Digital Adaptation Kit for Immunizations (Immunization DAK / smart-immunizations)",
+      "upstreamComponent": "Component 7 \u2014 Scheduling logic: Hepatitis B birth-dose vaccination schedule (`IMMZ.S.HepB`)",
+      "templateUsed": "sched:annex-12-scheduling-logic-template"
+    },
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-018",
+        "sec-044"
+      ],
+      "pdfPages": [
+        46,
+        99
+      ],
+      "method": "p4b-reproduces-link"
+    }
+  },
+  "provenance": "authored"
+}

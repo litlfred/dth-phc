@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/p-fig-14-anc-hiv-decision-tree-reproduces",
+  "@type": [
+    "Block"
+  ],
+  "label": "prose:fig-14-anc-hiv-decision-tree-reproduces",
+  "kind": "prose",
+  "title": "Fig. 14. Illustrative ANC HIV-testing decision tree (reproduces WHO ANC DAK)",
+  "text": "p-fig-14-anc-hiv-decision-tree-reproduces.md",
+  "uses": [
+    "papers/dth-phc/blocks/dt-annex-11-decision-support-table-template",
+    "papers/dth-phc/blocks/pers-system-dss"
+  ],
+  "meta": {
+    "title": "Fig. 14. Illustrative ANC HIV-testing decision tree (reproduces WHO ANC DAK)",
+    "reproduces": {
+      "kind": "reproduces",
+      "upstreamDocument": "WHO Digital Adaptation Kit for Antenatal Care (ANC DAK, 2021, ISBN 9789240020306)",
+      "upstreamComponent": "Component 6 \u2014 Decision-support logic: ANC HIV testing decision tree (`ANC.DT.08`)",
+      "templateUsed": "dt:annex-11-decision-support-table-template"
+    },
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-017"
+      ],
+      "pdfPages": [
+        45
+      ],
+      "method": "p4b-reproduces-link"
+    }
+  },
+  "provenance": "authored"
+}

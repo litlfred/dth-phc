@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/dt-keep-data-element",
+  "@type": [
+    "smart-base:DecisionTable"
+  ],
+  "label": "dt:keep-data-element",
+  "kind": "decision-table",
+  "title": "Data-element minimization decision table (section 3.4.4, Fig. 12)",
+  "text": "dt-keep-data-element.md",
+  "companions": {
+    "dmn": "dt-keep-data-element.dmn"
+  },
+  "uses": [
+    "papers/dth-phc/blocks/pers-health-informatician",
+    "papers/dth-phc/blocks/pers-monitoring-and-evaluation-specialist"
+  ],
+  "meta": {
+    "title": "Data-element minimization decision table (section 3.4.4, Fig. 12)",
+    "decisionId": "Decision_KeepDataElement",
+    "canonicalDmn": "processes/decisions/keep-data-element.dmn",
+    "dmnSpec": "omg-2024-dmn-1-5",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-015"
+      ],
+      "pdfPages": [
+        38,
+        39
+      ],
+      "method": "p4b-dmn-formalization"
+    }
+  },
+  "provenance": "authored"
+}

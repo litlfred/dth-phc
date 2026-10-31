@@ -28,6 +28,14 @@
       }
     },
     {
+      "id": "processes",
+      "path": "processes/",
+      "graphTypologies": [
+        "processes"
+      ],
+      "description": "The five executable BPMN 2.0 workflows (lifecycle, Ch. 3 requirements, Ch. 4 design & adaptation, Ch. 5 training/testing/roll-out, Ch. 6 scale-up), their rendered SVGs and checklists, and the four DMN 1.5 decision tables in processes/decisions/."
+    },
+    {
       "id": "glossary",
       "path": "glossary/",
       "graphTypologies": [
@@ -65,7 +73,7 @@
         "branch": "cat/dth-phc/beans",
         "keyedBy": "tip"
       },
-      "description": "This instance's work plan — one Markdown file per bean, managed with the `beans` CLI (`.beans.yml`)."
+      "description": "This instance's work plan \u2014 one Markdown file per bean, managed with the `beans` CLI (`.beans.yml`)."
     },
     {
       "id": "todos",
