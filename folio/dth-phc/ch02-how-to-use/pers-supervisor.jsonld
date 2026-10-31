@@ -20,7 +20,7 @@
   "meta": {
     "title": "Supervisor / health facility manager",
     "personaType": "person",
-    "bpmnRoleId": "supervisor",
+    "bpmnRoleId": "pers:supervisor",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

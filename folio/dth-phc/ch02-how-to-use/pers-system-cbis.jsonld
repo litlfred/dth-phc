@@ -20,7 +20,7 @@
   "meta": {
     "title": "Community-based information system (CBIS)",
     "personaType": "system",
-    "bpmnRoleId": "system-cbis",
+    "bpmnRoleId": "pers:system-cbis",
     "bpmnLanes": [
       {
         "process": "bp:design-and-adaptation",

@@ -20,7 +20,7 @@
   "meta": {
     "title": "Business analyst",
     "personaType": "person",
-    "bpmnRoleId": "business-analyst",
+    "bpmnRoleId": "pers:business-analyst",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

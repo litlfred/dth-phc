@@ -20,7 +20,7 @@
   "meta": {
     "title": "Implementing team",
     "personaType": "organisation",
-    "bpmnRoleId": "implementing-team",
+    "bpmnRoleId": "pers:implementing-team",
     "bpmnLanes": [
       {
         "process": "bp:pcposs-implementation-lifecycle",

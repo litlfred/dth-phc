@@ -14,7 +14,7 @@ End-to-end iterative lifecycle for transitioning primary health care point-of-se
 
 ### 1. Assess digital readiness starting scenario (2.1) (`Task_AssessReadinessScenario`)
 
-- Who: the `Business analyst, health informatician & user researcher` lane (role `business-analyst`).
+- Who: the `Business analyst, health informatician & user researcher` lane (role `pers:business-analyst`).
 - Skill: `l2-dak-authoring`.
 - What: Section 2.1 (prose-sec-007, pages 22-23): Determine whether the health system is starting from a paper-only system or starting with some parts already digitized (disparate/siloed PCPOSSs or parallel paper records).
 - Record it: `workflow_complete` with `node: "Task_AssessReadinessScenario"`.
@@ -29,7 +29,7 @@ End-to-end iterative lifecycle for transitioning primary health care point-of-se
 
 ### 2. Phase 1: Understand and prioritize user requirements (Ch 3) (`Call_Phase1_Requirements`)
 
-- Who: the `Business analyst, health informatician & user researcher` lane (role `business-analyst`).
+- Who: the `Business analyst, health informatician & user researcher` lane (role `pers:business-analyst`).
 - Skill: `l2-dak-authoring`.
 - What: Section 2.4 Step 1 and Chapter 3 (prose-sec-010, prose-sec-012..019): Understand users, map workflows, streamline forms and indicators, define data dictionary, decision logic, schedules and prioritized requirements.
 - A subprocess (`Process_UnderstandUserRequirements`): `workflow_next` reports its own steps; complete those — this call activity itself is not completable.
@@ -37,7 +37,7 @@ End-to-end iterative lifecycle for transitioning primary health care point-of-se
 
 ### 3. Phase 2: Undertake design and adaptation — build and test (Ch 4) (`Call_Phase2_Design`)
 
-- Who: the `Technology partner (solutions architect, software engineer, designer)` lane (role `technology-partner`).
+- Who: the `Technology partner (solutions architect, software engineer, designer)` lane (role `pers:technology-partner`).
 - Skill: `l2-dak-authoring`.
 - What: Section 2.4 Step 2, Fig.
 - A subprocess (`Process_DesignAndAdaptation`): `workflow_next` reports its own steps; complete those — this call activity itself is not completable.
@@ -52,7 +52,7 @@ End-to-end iterative lifecycle for transitioning primary health care point-of-se
 
 ### 4. Phase 3: Conduct training, testing and roll-out (Ch 5) (`Call_Phase3_RollOut`)
 
-- Who: the `Implementing team & M&E specialist` lane (role `implementing-team`).
+- Who: the `Implementing team & M&E specialist` lane (role `pers:implementing-team`).
 - Skill: `test-plan-execution`.
 - What: Section 2.4 Step 3, Fig.
 - A subprocess (`Process_TrainingTestingAndRollOut`): `workflow_next` reports its own steps; complete those — this call activity itself is not completable.
@@ -60,7 +60,7 @@ End-to-end iterative lifecycle for transitioning primary health care point-of-se
 
 ### 5. Gather and manage user feedback in routine use (Fig. 7, 5.4) (`Task_GatherUserFeedback`)
 
-- Who: the `Health worker occupational groups & health service users` lane (role `health-worker`).
+- Who: the `Health worker occupational groups & health service users` lane (role `pers:health-worker`).
 - Skill: `content-feedback`.
 - What: Fig.
 - Record it: `workflow_complete` with `node: "Task_GatherUserFeedback"`.
@@ -75,7 +75,7 @@ End-to-end iterative lifecycle for transitioning primary health care point-of-se
 
 ### 6. Phase 4: Prepare for scaling up and legacy phase-out (Ch 6) (`Call_Phase4_ScaleUp`)
 
-- Who: the `Public health authority (ministry of health)` lane (role `public-health-authority`).
+- Who: the `Public health authority (ministry of health)` lane (role `pers:public-health-authority`).
 - Skill: `methodology-adoption`.
 - What: Section 2.4 Step 4, Fig.
 - A subprocess (`Process_ScaleUp`): `workflow_next` reports its own steps; complete those — this call activity itself is not completable.

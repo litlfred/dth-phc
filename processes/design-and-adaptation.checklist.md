@@ -14,7 +14,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 1. 4.1 Finalize software & vendor selection (bespoke, COTS or reference software) (`Task_4_1_SelectSoftwareVendor`)
 
-- Who: the `Business analyst & implementing team` lane (role `business-analyst`).
+- Who: the `Business analyst & implementing team` lane (role `pers:business-analyst`).
 - Skill: `l2-dependency-choice`.
 - What: Section 4.1 (prose-sec-020, pages 50-53, Table 2): Conduct landscape analysis and scorecard evaluation across bespoke software, commercial/open-source COTS, digital public goods and SMART Guidelines L4 reference software.
 - Record it: `workflow_complete` with `node: "Task_4_1_SelectSoftwareVendor"`.
@@ -22,7 +22,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 2. 4.2 Validate functional requirements in stakeholder workshops & design test use cases (4.3.2) (`Task_4_2_ValidateRequirements`)
 
-- Who: the `Business analyst & implementing team` lane (role `business-analyst`).
+- Who: the `Business analyst & implementing team` lane (role `pers:business-analyst`).
 - Skill: `content-review`.
 - What: Section 4.2 (prose-sec-021, page 53) and Section 4.3.2 Step 1 (prose-sec-022, page 55): Validate and confirm functional requirements with key stakeholders before build, and design testing use cases from Section 3.2 use cases and user stories.
 - Record it: `workflow_complete` with `node: "Task_4_2_ValidateRequirements"`.
@@ -30,7 +30,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 3. 4.3.1 Draw low-fidelity sketches and wireframes (`Task_4_3_Wireframe`)
 
-- Who: the `Designer` lane (role `designer`).
+- Who: the `Designer` lane (role `pers:designer`).
 - Skill: `wireframe-design-review`.
 - What: Section 4.3.1 and Fig.
 - Record it: `workflow_complete` with `node: "Task_4_3_Wireframe"`.
@@ -38,7 +38,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 4. 4.3.2 Test wireframe structure & data-entry flow with end-users (`Task_4_3_TestWireframe`)
 
-- Who: the `Targeted health worker occupational groups & end-users` lane (role `health-worker`).
+- Who: the `Targeted health worker occupational groups & end-users` lane (role `pers:health-worker`).
 - Skill: `wireframe-design-review`.
 - What: Section 4.3.1-4.3.2 and Fig.
 - Record it: `workflow_complete` with `node: "Task_4_3_TestWireframe"`.
@@ -53,7 +53,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 5. 4.3.1 Create moderate-fidelity visual mock-ups (`Task_4_3_Mockup`)
 
-- Who: the `Designer` lane (role `designer`).
+- Who: the `Designer` lane (role `pers:designer`).
 - Skill: `wireframe-design-review`.
 - What: Section 4.3.1 and Fig.
 - Record it: `workflow_complete` with `node: "Task_4_3_Mockup"`.
@@ -61,7 +61,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 6. 4.3.2 Test mock-ups (look, feel & language) with end-users (`Task_4_3_TestMockup`)
 
-- Who: the `Targeted health worker occupational groups & end-users` lane (role `health-worker`).
+- Who: the `Targeted health worker occupational groups & end-users` lane (role `pers:health-worker`).
 - Skill: `wireframe-design-review`.
 - What: Section 4.3.2 (prose-sec-022, pages 55-56): Test multiple mock-up options with end-users and document structured feedback (things liked, confusing features, improvements).
 - Record it: `workflow_complete` with `node: "Task_4_3_TestMockup"`.
@@ -76,7 +76,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 7. 4.3.1 Build higher-fidelity clickable prototype (`Task_4_3_Prototype`)
 
-- Who: the `Designer` lane (role `designer`).
+- Who: the `Designer` lane (role `pers:designer`).
 - Skill: `wireframe-design-review`.
 - What: Section 4.3.1 and Fig.
 - Record it: `workflow_complete` with `node: "Task_4_3_Prototype"`.
@@ -84,7 +84,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 8. 4.3.2 Validate clickable prototype via end-user role play (`Task_4_3_TestPrototype`)
 
-- Who: the `Targeted health worker occupational groups & end-users` lane (role `health-worker`).
+- Who: the `Targeted health worker occupational groups & end-users` lane (role `pers:health-worker`).
 - Skill: `wireframe-design-review`.
 - What: Section 4.3.2 (prose-sec-022, pages 55-56): End-users experiment with the clickable prototype ('Show, don't tell') in role-play scenarios; feedback is documented and vetted by stakeholders to prevent scope creep.
 - Record it: `workflow_complete` with `node: "Task_4_3_TestPrototype"`.
@@ -99,7 +99,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 9. 4.4 Design system architecture & interoperability standards (FHIR, HIE) (`Task_4_4_Architecture`)
 
-- Who: the `Solutions architect & health informatician` lane (role `solutions-architect`).
+- Who: the `Solutions architect & health informatician` lane (role `pers:solutions-architect`).
 - Skill: `archimate-models`.
 - What: Section 4.4 (prose-sec-023, pages 56-60, Table 3, Figs.
 - Record it: `workflow_complete` with `node: "Task_4_4_Architecture"`.
@@ -107,7 +107,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 10. 4.5 Establish test plan, build beta PCPOSS & product documentation (`Task_4_5_BuildAndDocument`)
 
-- Who: the `Software engineer / technology partner` lane (role `software-engineer`).
+- Who: the `Software engineer / technology partner` lane (role `pers:software-engineer`).
 - Skill: `l4-application-build`.
 - What: Section 4.5 (prose-sec-024, pages 60-61): Establish comprehensive test plan once requirements are finalized, build or adapt the PCPOSS beta version in sprints, and author product documentation.
 - Record it: `workflow_complete` with `node: "Task_4_5_BuildAndDocument"`.
@@ -115,7 +115,7 @@ Select the software and vendor, validate functional requirements with stakeholde
 
 ### 11. 4.5 Execute installation, stress, security, UI, integration, QA & accessibility tests (`Task_4_5_RunQaTests`)
 
-- Who: the `Software engineer / technology partner` lane (role `software-engineer`).
+- Who: the `Software engineer / technology partner` lane (role `pers:software-engineer`).
 - Skill: `content-test`.
 - What: Section 4.5 (prose-sec-024, page 61): Technology partner runs installation testing, stress testing, security testing, graphic UI testing, integration testing, quality assurance testing and accessibility testing.
 - Record it: `workflow_complete` with `node: "Task_4_5_RunQaTests"`.

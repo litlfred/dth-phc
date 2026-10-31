@@ -20,7 +20,7 @@
   "meta": {
     "title": "Health informatician",
     "personaType": "person",
-    "bpmnRoleId": "health-informatician",
+    "bpmnRoleId": "pers:health-informatician",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

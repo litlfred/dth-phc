@@ -20,7 +20,7 @@
   "meta": {
     "title": "Personal health record (PHR) system",
     "personaType": "system",
-    "bpmnRoleId": "system-phr",
+    "bpmnRoleId": "pers:system-phr",
     "bpmnLanes": [
       {
         "process": "bp:design-and-adaptation",

@@ -9,25 +9,25 @@
                   targetNamespace="https://litlfred.github.io/dth-phc/workflows"
                   exporter="folio-assistant" exporterVersion="1">
   <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
-  <bpmn:resource id="public-health-authority" name="Public health authority"/>
-  <bpmn:resource id="business-analyst" name="Business analyst"/>
-  <bpmn:resource id="technology-partner" name="Technology partner (vendor)"/>
-  <bpmn:resource id="implementing-team" name="Implementing team"/>
-  <bpmn:resource id="health-worker" name="Health worker"/>
-  <bpmn:resource id="health-informatician" name="Health informatician"/>
-  <bpmn:resource id="software-engineer" name="Software engineer"/>
-  <bpmn:resource id="solutions-architect" name="Solutions architect"/>
-  <bpmn:resource id="designer" name="Designer"/>
-  <bpmn:resource id="user-researcher" name="User researcher"/>
-  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
-  <bpmn:resource id="clerk" name="Clerk (facility registration and records staff)"/>
-  <bpmn:resource id="supervisor" name="Supervisor / health facility manager"/>
-  <bpmn:resource id="health-service-user" name="Health service user (patient / client)"/>
-  <bpmn:resource id="system-ehr" name="Electronic health record (EHR) system"/>
-  <bpmn:resource id="system-dss" name="Decision-support system (DSS)"/>
-  <bpmn:resource id="system-cbis" name="Community-based information system (CBIS)"/>
-  <bpmn:resource id="system-phr" name="Personal health record (PHR) system"/>
-  <bpmn:resource id="donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:resource id="pers:public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="pers:business-analyst" name="Business analyst"/>
+  <bpmn:resource id="pers:technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="pers:implementing-team" name="Implementing team"/>
+  <bpmn:resource id="pers:health-worker" name="Health worker"/>
+  <bpmn:resource id="pers:health-informatician" name="Health informatician"/>
+  <bpmn:resource id="pers:software-engineer" name="Software engineer"/>
+  <bpmn:resource id="pers:solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="pers:designer" name="Designer"/>
+  <bpmn:resource id="pers:user-researcher" name="User researcher"/>
+  <bpmn:resource id="pers:monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="pers:clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="pers:supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="pers:health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="pers:system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="pers:system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="pers:system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="pers:system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="pers:donors-and-development-partners" name="Donors, development partners and implementing partners"/>
   <bpmn:collaboration id="Collaboration_Process_ScaleUp">
     <bpmn:participant id="Participant_Process_ScaleUp" name="WHO DTH for Primary Health Care — Chapter 6: Prepare for scale-up (6.1-6.5)" processRef="Process_ScaleUp"/>
   </bpmn:collaboration>
@@ -39,29 +39,42 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 6.1 (prose-sec-02
       <cat-harness.processes:policy enforcement="advisory"/>
     </bpmn:extensionElements>
     <bpmn:laneSet id="LaneSet_Process_ScaleUp">
-      <bpmn:lane id="Lane-Ch6-PHA" name="Public health authority (ministry of health)" partitionElementRef="public-health-authority">
+      <bpmn:lane id="Lane-Ch6-PHA" name="Public health authority (ministry of health)" partitionElementRef="pers:public-health-authority">
         <bpmn:documentation>Persona block pers:public-health-authority. Leads scale-up governance, sets SMART objectives and legal recognition policies for digital health records (6.2), directs staged region-by-region legacy phase-out with paper backup SOPs (6.4), and champions change management across leadership levels (6.5).</bpmn:documentation>
         <bpmn:flowNodeRef>Start_Ch6</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_6_2_DefineObjectives</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_6_4_StagedPhaseOut</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>End_Ch6</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch6-PHA">
+          <bpmn:lane id="Lane-Ch6-PHA-donors-and-development-partners" name="Donors, development partners and implementing partners" partitionElementRef="pers:donors-and-development-partners"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch6-Impl" name="Implementing team" partitionElementRef="implementing-team">
+      <bpmn:lane id="Lane-Ch6-Impl" name="Implementing team" partitionElementRef="pers:implementing-team">
         <bpmn:documentation>Persona block pers:implementing-team. Assists the public health authority throughout scale-up, conducts MAPS toolkit self-assessment and Digital Health Atlas registration (6.1), and supports change management and data-use training (6.5).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_6_1_AssessReadiness</bpmn:flowNodeRef>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch6-ME" name="Monitoring and evaluation specialist" partitionElementRef="monitoring-and-evaluation-specialist">
+      <bpmn:lane id="Lane-Ch6-ME" name="Monitoring and evaluation specialist" partitionElementRef="pers:monitoring-and-evaluation-specialist">
         <bpmn:documentation>Persona block pers:monitoring-and-evaluation-specialist. Defines and tracks indicators across connectivity, power, support, maintenance, functionality, user adoption, efficiency, quality, costs and health outcomes (6.2 Table 5, 6.3) to determine whether the PCPOSS meets the benchmarks for legacy phase-out.</bpmn:documentation>
         <bpmn:flowNodeRef>Task_6_3_MonitorObjectives</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>GW_ReadyToScaleUp</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch6-ME">
+          <bpmn:lane id="Lane-Ch6-ME-solutions-architect" name="Solutions architect" partitionElementRef="pers:solutions-architect"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch6-Tech" name="Technology partner" partitionElementRef="technology-partner">
+      <bpmn:lane id="Lane-Ch6-Tech" name="Technology partner" partitionElementRef="pers:technology-partner">
         <bpmn:documentation>Persona block pers:technology-partner. Maintains, scales and updates the PCPOSS as user numbers, health facilities and functionality expand during scale-up (Ch 6 opener panel, 6.1).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_6_1_RemediateGaps</bpmn:flowNodeRef>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch6-Users" name="End-users (health workers, supervisors &amp; programme managers)" partitionElementRef="health-worker">
+      <bpmn:lane id="Lane-Ch6-Users" name="End-users (health workers, supervisors &amp; programme managers)" partitionElementRef="pers:health-worker">
         <bpmn:documentation>Persona blocks pers:health-worker and pers:supervisor. Adopt the scaled PCPOSS, provide ongoing feedback, maintain paper backup readiness for downtime/crises (6.4), and cultivate a culture of electronic data use for clinical care and programme management (6.5).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_6_5_ChangeManagement</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch6-Users">
+          <bpmn:lane id="Lane-Ch6-Users-clerk" name="Clerk (facility registration and records staff)" partitionElementRef="pers:clerk"/>
+          <bpmn:lane id="Lane-Ch6-Users-supervisor" name="Supervisor / health facility manager" partitionElementRef="pers:supervisor"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:startEvent id="Start_Ch6" name="Live version of PCPOSS in use (Ch 6 input)">
@@ -232,14 +245,13 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 6.1 (prose-sec-02
       <bpmndi:BPMNEdge id="Edge_Flow_Ch6_5_Not" bpmnElement="Flow_Ch6_5_Not">
         <di:waypoint x="1255" y="833" />
         <di:waypoint x="1307.5" y="833" />
-        <di:waypoint x="1307.5" y="1003" />
-        <di:waypoint x="1360" y="1003" />
+        <di:waypoint x="1307.5" y="985" />
+        <di:waypoint x="1360" y="985" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch6_5_Loop" bpmnElement="Flow_Ch6_5_Loop">
-        <di:waypoint x="1360" y="1003" />
-        <di:waypoint x="1222.5" y="1003" />
-        <di:waypoint x="1222.5" y="833" />
-        <di:waypoint x="1085" y="833" />
+        <di:waypoint x="1360" y="1025" />
+        <di:waypoint x="1010" y="1025" />
+        <di:waypoint x="1010" y="875" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch6_5_Proceed" bpmnElement="Flow_Ch6_5_Proceed">
         <di:waypoint x="1255" y="833" />

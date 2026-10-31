@@ -20,7 +20,7 @@
   "meta": {
     "title": "Donors, development partners and implementing partners",
     "personaType": "organisation",
-    "bpmnRoleId": "donors-and-development-partners",
+    "bpmnRoleId": "pers:donors-and-development-partners",
     "bpmnLanes": [
       {
         "process": "bp:pcposs-implementation-lifecycle",

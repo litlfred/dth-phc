@@ -20,7 +20,7 @@
   "meta": {
     "title": "Electronic health record (EHR) system",
     "personaType": "system",
-    "bpmnRoleId": "system-ehr",
+    "bpmnRoleId": "pers:system-ehr",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

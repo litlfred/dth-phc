@@ -20,7 +20,7 @@
   "meta": {
     "title": "Health service user (patient / client)",
     "personaType": "person",
-    "bpmnRoleId": "health-service-user",
+    "bpmnRoleId": "pers:health-service-user",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

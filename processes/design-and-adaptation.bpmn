@@ -9,25 +9,25 @@
                   targetNamespace="https://litlfred.github.io/dth-phc/workflows"
                   exporter="folio-assistant" exporterVersion="1">
   <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
-  <bpmn:resource id="public-health-authority" name="Public health authority"/>
-  <bpmn:resource id="business-analyst" name="Business analyst"/>
-  <bpmn:resource id="technology-partner" name="Technology partner (vendor)"/>
-  <bpmn:resource id="implementing-team" name="Implementing team"/>
-  <bpmn:resource id="health-worker" name="Health worker"/>
-  <bpmn:resource id="health-informatician" name="Health informatician"/>
-  <bpmn:resource id="software-engineer" name="Software engineer"/>
-  <bpmn:resource id="solutions-architect" name="Solutions architect"/>
-  <bpmn:resource id="designer" name="Designer"/>
-  <bpmn:resource id="user-researcher" name="User researcher"/>
-  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
-  <bpmn:resource id="clerk" name="Clerk (facility registration and records staff)"/>
-  <bpmn:resource id="supervisor" name="Supervisor / health facility manager"/>
-  <bpmn:resource id="health-service-user" name="Health service user (patient / client)"/>
-  <bpmn:resource id="system-ehr" name="Electronic health record (EHR) system"/>
-  <bpmn:resource id="system-dss" name="Decision-support system (DSS)"/>
-  <bpmn:resource id="system-cbis" name="Community-based information system (CBIS)"/>
-  <bpmn:resource id="system-phr" name="Personal health record (PHR) system"/>
-  <bpmn:resource id="donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:resource id="pers:public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="pers:business-analyst" name="Business analyst"/>
+  <bpmn:resource id="pers:technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="pers:implementing-team" name="Implementing team"/>
+  <bpmn:resource id="pers:health-worker" name="Health worker"/>
+  <bpmn:resource id="pers:health-informatician" name="Health informatician"/>
+  <bpmn:resource id="pers:software-engineer" name="Software engineer"/>
+  <bpmn:resource id="pers:solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="pers:designer" name="Designer"/>
+  <bpmn:resource id="pers:user-researcher" name="User researcher"/>
+  <bpmn:resource id="pers:monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="pers:clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="pers:supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="pers:health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="pers:system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="pers:system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="pers:system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="pers:system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="pers:donors-and-development-partners" name="Donors, development partners and implementing partners"/>
   <bpmn:collaboration id="Collaboration_Process_DesignAndAdaptation">
     <bpmn:participant id="Participant_Process_DesignAndAdaptation" name="WHO DTH for Primary Health Care — Chapter 4: Undertake design and adaptation (4.1-4.5)" processRef="Process_DesignAndAdaptation"/>
   </bpmn:collaboration>
@@ -39,37 +39,62 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 4.1 (prose-sec-02
       <cat-harness.processes:policy enforcement="advisory"/>
     </bpmn:extensionElements>
     <bpmn:laneSet id="LaneSet_Process_DesignAndAdaptation">
-      <bpmn:lane id="Lane-Ch4-BA" name="Business analyst &amp; implementing team" partitionElementRef="business-analyst">
+      <bpmn:lane id="Lane-Ch4-BA" name="Business analyst &amp; implementing team" partitionElementRef="pers:business-analyst">
         <bpmn:documentation>Persona blocks pers:business-analyst and pers:implementing-team. Conducts landscape analysis and software/vendor selection (4.1), facilitates stakeholder workshops to validate functional requirements (4.2), designs testing use cases (4.3.2), and vets prototype feedback against scope.</bpmn:documentation>
         <bpmn:flowNodeRef>Start_Ch4</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_4_1_SelectSoftwareVendor</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_4_2_ValidateRequirements</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>GW_PrototypeOk</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-BA">
+          <bpmn:lane id="Lane-Ch4-BA-implementing-team" name="Implementing team" partitionElementRef="pers:implementing-team"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch4-Designer" name="Designer" partitionElementRef="designer">
+      <bpmn:lane id="Lane-Ch4-Designer" name="Designer" partitionElementRef="pers:designer">
         <bpmn:documentation>Persona block pers:designer. Creates progressive user-interface artefacts across the 4.3 prototype loop (Fig. 15): low-fidelity sketches and wireframes, moderate-fidelity visual mock-ups, and higher-fidelity clickable prototypes, incorporating vetted user feedback at each level.</bpmn:documentation>
         <bpmn:flowNodeRef>Task_4_3_Wireframe</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>GW_WireframeOk</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_4_3_Mockup</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>GW_MockupOk</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_4_3_Prototype</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Designer">
+          <bpmn:lane id="Lane-Ch4-Designer-business-analyst" name="Business analyst" partitionElementRef="pers:business-analyst"/>
+          <bpmn:lane id="Lane-Ch4-Designer-user-researcher" name="User researcher" partitionElementRef="pers:user-researcher"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch4-Users" name="Targeted health worker occupational groups &amp; end-users" partitionElementRef="health-worker">
+      <bpmn:lane id="Lane-Ch4-Users" name="Targeted health worker occupational groups &amp; end-users" partitionElementRef="pers:health-worker">
         <bpmn:documentation>Persona blocks pers:health-worker and pers:health-service-user. Validate functional requirements (4.2) and test wireframes, mock-ups and clickable prototypes through role play, one-to-one interviews and focus groups (4.3.2).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_4_3_TestWireframe</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_4_3_TestMockup</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_4_3_TestPrototype</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Users">
+          <bpmn:lane id="Lane-Ch4-Users-health-service-user" name="Health service user (patient / client)" partitionElementRef="pers:health-service-user"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch4-Architect" name="Solutions architect &amp; health informatician" partitionElementRef="solutions-architect">
+      <bpmn:lane id="Lane-Ch4-Architect" name="Solutions architect &amp; health informatician" partitionElementRef="pers:solutions-architect">
         <bpmn:documentation>Persona blocks pers:solutions-architect and pers:health-informatician. Designs the system architecture across business, data, application and technology viewpoints (4.4.1) and specifies syntactic, semantic and foundational interoperability standards including HL7 FHIR (4.4.2-4.4.3, Annex 14).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_4_4_Architecture</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Architect">
+          <bpmn:lane id="Lane-Ch4-Architect-health-informatician" name="Health informatician" partitionElementRef="pers:health-informatician"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-cbis" name="Community-based information system (CBIS)" partitionElementRef="pers:system-cbis"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-dss" name="Decision-support system (DSS)" partitionElementRef="pers:system-dss"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-ehr" name="Electronic health record (EHR) system" partitionElementRef="pers:system-ehr"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-phr" name="Personal health record (PHR) system" partitionElementRef="pers:system-phr"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch4-Engineer" name="Software engineer / technology partner" partitionElementRef="software-engineer">
+      <bpmn:lane id="Lane-Ch4-Engineer" name="Software engineer / technology partner" partitionElementRef="pers:software-engineer">
         <bpmn:documentation>Persona blocks pers:software-engineer and pers:technology-partner. Leads technical build, product documentation and the seven-part quality assurance test suite (installation, stress, security, graphic UI, integration, QA and accessibility testing, 4.5).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_4_5_BuildAndDocument</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_4_5_RunQaTests</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>GW_QaPassed</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>End_Ch4</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Engineer">
+          <bpmn:lane id="Lane-Ch4-Engineer-technology-partner" name="Technology partner (vendor)" partitionElementRef="pers:technology-partner"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:startEvent id="Start_Ch4" name="Ch 3 requirements documentation &amp; DAKs received">
@@ -431,8 +456,10 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 4.1 (prose-sec-02
         <di:waypoint x="3625" y="1008" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch4_16_Loop" bpmnElement="Flow_Ch4_16_Loop">
-        <di:waypoint x="3625" y="1008" />
-        <di:waypoint x="3300" y="1008" />
+        <di:waypoint x="3650" y="1033" />
+        <di:waypoint x="3650" y="1078" />
+        <di:waypoint x="3210" y="1078" />
+        <di:waypoint x="3210" y="1050" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch4_16_Pass" bpmnElement="Flow_Ch4_16_Pass">
         <di:waypoint x="3675" y="1008" />

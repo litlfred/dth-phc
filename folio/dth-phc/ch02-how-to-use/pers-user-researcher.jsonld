@@ -20,7 +20,7 @@
   "meta": {
     "title": "User researcher",
     "personaType": "person",
-    "bpmnRoleId": "user-researcher",
+    "bpmnRoleId": "pers:user-researcher",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

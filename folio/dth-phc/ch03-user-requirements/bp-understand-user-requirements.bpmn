@@ -9,25 +9,25 @@
                   targetNamespace="https://litlfred.github.io/dth-phc/workflows"
                   exporter="folio-assistant" exporterVersion="1">
   <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
-  <bpmn:resource id="public-health-authority" name="Public health authority"/>
-  <bpmn:resource id="business-analyst" name="Business analyst"/>
-  <bpmn:resource id="technology-partner" name="Technology partner (vendor)"/>
-  <bpmn:resource id="implementing-team" name="Implementing team"/>
-  <bpmn:resource id="health-worker" name="Health worker"/>
-  <bpmn:resource id="health-informatician" name="Health informatician"/>
-  <bpmn:resource id="software-engineer" name="Software engineer"/>
-  <bpmn:resource id="solutions-architect" name="Solutions architect"/>
-  <bpmn:resource id="designer" name="Designer"/>
-  <bpmn:resource id="user-researcher" name="User researcher"/>
-  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
-  <bpmn:resource id="clerk" name="Clerk (facility registration and records staff)"/>
-  <bpmn:resource id="supervisor" name="Supervisor / health facility manager"/>
-  <bpmn:resource id="health-service-user" name="Health service user (patient / client)"/>
-  <bpmn:resource id="system-ehr" name="Electronic health record (EHR) system"/>
-  <bpmn:resource id="system-dss" name="Decision-support system (DSS)"/>
-  <bpmn:resource id="system-cbis" name="Community-based information system (CBIS)"/>
-  <bpmn:resource id="system-phr" name="Personal health record (PHR) system"/>
-  <bpmn:resource id="donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:resource id="pers:public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="pers:business-analyst" name="Business analyst"/>
+  <bpmn:resource id="pers:technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="pers:implementing-team" name="Implementing team"/>
+  <bpmn:resource id="pers:health-worker" name="Health worker"/>
+  <bpmn:resource id="pers:health-informatician" name="Health informatician"/>
+  <bpmn:resource id="pers:software-engineer" name="Software engineer"/>
+  <bpmn:resource id="pers:solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="pers:designer" name="Designer"/>
+  <bpmn:resource id="pers:user-researcher" name="User researcher"/>
+  <bpmn:resource id="pers:monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="pers:clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="pers:supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="pers:health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="pers:system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="pers:system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="pers:system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="pers:system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="pers:donors-and-development-partners" name="Donors, development partners and implementing partners"/>
   <bpmn:collaboration id="Collaboration_Process_UnderstandUserRequirements">
     <bpmn:participant id="Participant_Process_UnderstandUserRequirements" name="WHO DTH for Primary Health Care — Chapter 3: Understand user requirements (3.1-3.8)" processRef="Process_UnderstandUserRequirements"/>
   </bpmn:collaboration>
@@ -43,13 +43,13 @@ Comparison with smart-base l2-dak-authoring.bpmn and cat-harness crdm-requiremen
       <cat-harness.processes:policy enforcement="advisory"/>
     </bpmn:extensionElements>
     <bpmn:laneSet id="LaneSet_Process_UnderstandUserRequirements">
-      <bpmn:lane id="Lane-Ch3-PHA" name="Public health authority" partitionElementRef="public-health-authority">
+      <bpmn:lane id="Lane-Ch3-PHA" name="Public health authority" partitionElementRef="pers:public-health-authority">
         <bpmn:documentation>Persona block pers:public-health-authority. Provides national guidelines, strategies, policies and official form lists, resolves discrepancies on facility registers (3.4.1), and approves the prioritized requirements package (3.1 panel, 3.8).</bpmn:documentation>
         <bpmn:flowNodeRef>Start_Ch3</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_3_8_ConfirmPackage</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>End_Ch3</bpmn:flowNodeRef>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch3-BA" name="Business analyst &amp; user researcher" partitionElementRef="business-analyst">
+      <bpmn:lane id="Lane-Ch3-BA" name="Business analyst &amp; user researcher" partitionElementRef="pers:business-analyst">
         <bpmn:documentation>Persona blocks pers:business-analyst and pers:user-researcher. Leads desk reviews, observations, interviews and workshops (3.1), authors personas, use cases and user stories (3.2), maps as-is and to-be BPMN workflows (3.3), inventories forms and indicators (3.4), documents decision logic (3.6) and schedules (3.7), and prioritizes requirements (3.8).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_3_1_Methods</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_3_2_1_Personas</bpmn:flowNodeRef>
@@ -60,20 +60,37 @@ Comparison with smart-base l2-dak-authoring.bpmn and cat-harness crdm-requiremen
         <bpmn:flowNodeRef>Task_3_7_Schedules</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>GW_RequirementPriority</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_3_8_PriorityHigh</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch3-BA">
+          <bpmn:lane id="Lane-Ch3-BA-implementing-team" name="Implementing team" partitionElementRef="pers:implementing-team"/>
+          <bpmn:lane id="Lane-Ch3-BA-system-dss" name="Decision-support system (DSS)" partitionElementRef="pers:system-dss"/>
+          <bpmn:lane id="Lane-Ch3-BA-user-researcher" name="User researcher" partitionElementRef="pers:user-researcher"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch3-HI" name="Health informatician" partitionElementRef="health-informatician">
+      <bpmn:lane id="Lane-Ch3-HI" name="Health informatician" partitionElementRef="pers:health-informatician">
         <bpmn:documentation>Persona block pers:health-informatician. Leads data-element streamlining (3.4.4-3.4.5), creates the consolidated data dictionary (3.5.1), and maps data elements to standardized terminologies and FHIR/ICD/LOINC/SNOMED classifications (3.5.2).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_3_4_4_EvaluateDataElement</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>GW_KeepDataElement</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_3_4_4_RemoveElement</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_3_5_DataDictionary</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_3_8_PriorityMedium</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch3-HI">
+          <bpmn:lane id="Lane-Ch3-HI-monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&E) specialist" partitionElementRef="pers:monitoring-and-evaluation-specialist"/>
+          <bpmn:lane id="Lane-Ch3-HI-system-ehr" name="Electronic health record (EHR) system" partitionElementRef="pers:system-ehr"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch3-Users" name="Targeted health worker occupational groups &amp; health service users" partitionElementRef="health-worker">
+      <bpmn:lane id="Lane-Ch3-Users" name="Targeted health worker occupational groups &amp; health service users" partitionElementRef="pers:health-worker">
         <bpmn:documentation>Persona blocks pers:health-worker, pers:clerk, pers:supervisor and pers:health-service-user. Guide requirements through observations, semi-structured interviews and participatory requirements-gathering workshops (3.1-3.8).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_3_1_Participate</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch3-Users">
+          <bpmn:lane id="Lane-Ch3-Users-clerk" name="Clerk (facility registration and records staff)" partitionElementRef="pers:clerk"/>
+          <bpmn:lane id="Lane-Ch3-Users-health-service-user" name="Health service user (patient / client)" partitionElementRef="pers:health-service-user"/>
+          <bpmn:lane id="Lane-Ch3-Users-supervisor" name="Supervisor / health facility manager" partitionElementRef="pers:supervisor"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch3-SE" name="Software engineer" partitionElementRef="software-engineer">
+      <bpmn:lane id="Lane-Ch3-SE" name="Software engineer" partitionElementRef="pers:software-engineer">
         <bpmn:documentation>Persona block pers:software-engineer. Engaged during requirements gathering so the engineering team understands the context, constraints and feasibility of the solution they will build (Ch 3 opener panel, 3.8).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_3_8_GatherRequirements</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_3_8_PriorityLow</bpmn:flowNodeRef>
@@ -501,8 +518,10 @@ Comparison with smart-base l2-dak-authoring.bpmn and cat-harness crdm-requiremen
         <di:waypoint x="2255" y="335"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch3_9_Keep" bpmnElement="Flow_Ch3_9_Keep">
-        <di:waypoint x="2135" y="335" />
-        <di:waypoint x="2460" y="335" />
+        <di:waypoint x="2110" y="310" />
+        <di:waypoint x="2110" y="268" />
+        <di:waypoint x="2550" y="268" />
+        <di:waypoint x="2550" y="280" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch3_10" bpmnElement="Flow_Ch3_10">
         <di:waypoint x="2405" y="335" />
@@ -552,15 +571,15 @@ Comparison with smart-base l2-dak-authoring.bpmn and cat-harness crdm-requiremen
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch3_16_Med" bpmnElement="Flow_Ch3_16_Med">
         <di:waypoint x="3725" y="335" />
-        <di:waypoint x="3752.5" y="335" />
-        <di:waypoint x="3752.5" y="165" />
-        <di:waypoint x="3780" y="165" />
+        <di:waypoint x="3750" y="335" />
+        <di:waypoint x="3750" y="145" />
+        <di:waypoint x="3780" y="145" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch3_16_Low" bpmnElement="Flow_Ch3_16_Low">
         <di:waypoint x="3725" y="675" />
-        <di:waypoint x="3752.5" y="675" />
-        <di:waypoint x="3752.5" y="165" />
-        <di:waypoint x="3780" y="165" />
+        <di:waypoint x="3770" y="675" />
+        <di:waypoint x="3770" y="185" />
+        <di:waypoint x="3780" y="185" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch3_17" bpmnElement="Flow_Ch3_17">
         <di:waypoint x="3960" y="165" />

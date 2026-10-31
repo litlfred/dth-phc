@@ -14,7 +14,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 1. 5.0 Implement cybersecurity, privacy, e-signature, data-use & ID policies (`Task_5_0_Policies`)
 
-- Who: the `Public health authority` lane (role `public-health-authority`).
+- Who: the `Public health authority` lane (role `pers:public-health-authority`).
 - Skill: `methodology-adoption`.
 - What: Chapter 5 opener panel (prose-sec-025, page 62): Public health authority implements policies surrounding cybersecurity, privacy, confidentiality, acceptability of electronic signatures, data use, identification management and content management.
 - Record it: `workflow_complete` with `node: "Task_5_0_Policies"`.
@@ -22,7 +22,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 2. 5.1.1 Develop tailored curriculum & conduct training of trainers and end-users (`Task_5_1_1_TrainUsers`)
 
-- Who: the `Implementing team` lane (role `implementing-team`).
+- Who: the `Implementing team` lane (role `pers:implementing-team`).
 - Skill: `methodology-adoption`.
 - What: Section 5.1.1 (prose-sec-025, pages 62-63): Develop culturally and linguistically tailored competency-based training materials, test curriculum at small scale, train trainers for first-line support, and train health workers (including device familiarization).
 - Record it: `workflow_complete` with `node: "Task_5_1_1_TrainUsers"`.
@@ -30,7 +30,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 3. 5.1.2 Train local technology partner(s) on system maintenance & troubleshooting (`Task_5_1_2_TrainMaintenance`)
 
-- Who: the `Software engineer / technology partner` lane (role `software-engineer`).
+- Who: the `Software engineer / technology partner` lane (role `pers:software-engineer`).
 - Skill: `methodology-adoption`.
 - What: Section 5.1.2 (prose-sec-025, pages 63-64): Train local technology partner(s) on in-depth system architecture, troubleshooting and customization so they can maintain the PCPOSS without external intervention.
 - Record it: `workflow_complete` with `node: "Task_5_1_2_TrainMaintenance"`.
@@ -38,7 +38,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 4. 5.2.1 Create UAT test cases & curate realistic and edge-case test data (`Task_5_2_1_CurateTestCases`)
 
-- Who: the `Implementing team` lane (role `implementing-team`).
+- Who: the `Implementing team` lane (role `pers:implementing-team`).
 - Skill: `test-data-curation`.
 - What: Section 5.2.1 (prose-sec-026, pages 64-65): Create test cases from Section 3.2.2 and Section 4.3.2 use cases with expected outcomes, and curate test data reflecting real-time settings plus edge cases (aligned with DAK `test-scenario` and cat-harness `test-data-curation`).
 - Record it: `workflow_complete` with `node: "Task_5_2_1_CurateTestCases"`.
@@ -46,7 +46,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 5. 5.2 Execute user acceptance testing (UAT) in existing workflows (`Task_5_2_RunUat`)
 
-- Who: the `Targeted health workers & UAT end-users` lane (role `health-worker`).
+- Who: the `Targeted health workers & UAT end-users` lane (role `pers:health-worker`).
 - Skill: `test-plan-execution`.
 - What: Section 5.2 (prose-sec-026, page 64): Trained UAT testers (including end-users and trusted advisers) use the beta PCPOSS in existing workflows and report bugs, design flaws, usability roadblocks and direct feedback to engineers.
 - Record it: `workflow_complete` with `node: "Task_5_2_RunUat"`.
@@ -61,7 +61,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 6. 5.2 & 5.4 Address feedback, fix bugs & update PCPOSS release (`Task_5_2_UpdatePcposs`)
 
-- Who: the `Software engineer / technology partner` lane (role `software-engineer`).
+- Who: the `Software engineer / technology partner` lane (role `pers:software-engineer`).
 - Skill: `l4-application-build`.
 - What: Chapter 5 opener panel and Sections 5.2, 5.4 (prose-sec-025, prose-sec-026, prose-sec-028): Software engineers take direct end-user and UAT feedback and update the PCPOSS accordingly.
 - Record it: `workflow_complete` with `node: "Task_5_2_UpdatePcposs"`.
@@ -69,7 +69,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 7. 5.3 Install site infrastructure/hardware, migrate data, configure & deploy to production (`Task_5_3_DeploySystem`)
 
-- Who: the `Software engineer / technology partner` lane (role `software-engineer`).
+- Who: the `Software engineer / technology partner` lane (role `pers:software-engineer`).
 - Skill: `methodology-adoption`.
 - What: Section 5.3 (prose-sec-027, page 65): Install site infrastructure, deliver hardware, install PCPOSS software, migrate legacy data, load configuration data, set up facility and health-worker accounts, test site hardware, schedule non-disruptive deployment and deploy to production.
 - Record it: `workflow_complete` with `node: "Task_5_3_DeploySystem"`.
@@ -77,7 +77,7 @@ Prepare policies and training curricula, conduct competency-based end-user train
 
 ### 8. 5.4 Operate feedback SOP, hardware/software maintenance & impact M&E (`Task_5_4_FeedbackAndMaintenance`)
 
-- Who: the `Implementing team` lane (role `implementing-team`).
+- Who: the `Implementing team` lane (role `pers:implementing-team`).
 - Skill: `content-feedback`.
 - What: Section 5.4 (prose-sec-028, page 65): Operate the central feedback mechanism and SOP, provide continuous training and hardware/software maintenance, and monitor efficiency gains, cost savings and health outcomes to inform scale-up.
 - Record it: `workflow_complete` with `node: "Task_5_4_FeedbackAndMaintenance"`.

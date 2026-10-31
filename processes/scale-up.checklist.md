@@ -14,7 +14,7 @@ Assess readiness of the PCPOSS and health system to scale up, define and monitor
 
 ### 1. 6.1 Assess PCPOSS & health-system readiness (MAPS toolkit, DHA, infrastructure) (`Task_6_1_AssessReadiness`)
 
-- Who: the `Implementing team` lane (role `implementing-team`).
+- Who: the `Implementing team` lane (role `pers:implementing-team`).
 - Skill: `methodology-adoption`.
 - What: Section 6.1 (prose-sec-029, pages 66-68): Use the WHO MAPS toolkit to assess PCPOSS and health-system readiness for scale-up, register the project in the WHO Digital Health Atlas, and verify foundational elements (power, connectivity, political support).
 - Record it: `workflow_complete` with `node: "Task_6_1_AssessReadiness"`.
@@ -22,7 +22,7 @@ Assess readiness of the PCPOSS and health system to scale up, define and monitor
 
 ### 2. 6.2 Set SMART objectives, phase-out benchmarks (Table 5) & legal recognition policies (`Task_6_2_DefineObjectives`)
 
-- Who: the `Public health authority (ministry of health)` lane (role `public-health-authority`).
+- Who: the `Public health authority (ministry of health)` lane (role `pers:public-health-authority`).
 - Skill: `methodology-adoption`.
 - What: Section 6.2 and Table 5 (prose-sec-030, pages 68-70): Establish country-defined SMART objectives and benchmarks for legacy phase-out, enact policies legally recognizing digital health records, and define downtime/offline backup paper SOPs.
 - Record it: `workflow_complete` with `node: "Task_6_2_DefineObjectives"`.
@@ -30,7 +30,7 @@ Assess readiness of the PCPOSS and health system to scale up, define and monitor
 
 ### 3. 6.3 Monitor and evaluate progress against objectives (Table 5 metrics) (`Task_6_3_MonitorObjectives`)
 
-- Who: the `Monitoring and evaluation specialist` lane (role `monitoring-and-evaluation-specialist`).
+- Who: the `Monitoring and evaluation specialist` lane (role `pers:monitoring-and-evaluation-specialist`).
 - Skill: `methodology-adoption`.
 - What: Sections 6.2-6.3 (prose-sec-030, prose-sec-031, pages 68-71): M&E specialists monitor system functionality, data migration, user adoption, efficiency, care quality, costs and health outcomes, leveraging direct in-system indicators where possible.
 - Record it: `workflow_complete` with `node: "Task_6_3_MonitorObjectives"`.
@@ -45,7 +45,7 @@ Assess readiness of the PCPOSS and health system to scale up, define and monitor
 
 ### 4. 6.1-6.2 Remediate PCPOSS, infrastructure or adoption gaps before phase-out (`Task_6_1_RemediateGaps`)
 
-- Who: the `Technology partner` lane (role `technology-partner`).
+- Who: the `Technology partner` lane (role `pers:technology-partner`).
 - Skill: `methodology-adoption`.
 - What: Sections 6.1-6.2 (prose-sec-029, prose-sec-030): Technology partners and implementing teams address technical, infrastructure or adoption gaps while maintaining the PCPOSS until readiness benchmarks are met.
 - Record it: `workflow_complete` with `node: "Task_6_1_RemediateGaps"`.
@@ -53,7 +53,7 @@ Assess readiness of the PCPOSS and health system to scale up, define and monitor
 
 ### 5. 6.4 Execute staged region-by-region legacy phase-out while retaining paper backup (`Task_6_4_StagedPhaseOut`)
 
-- Who: the `Public health authority (ministry of health)` lane (role `public-health-authority`).
+- Who: the `Public health authority (ministry of health)` lane (role `pers:public-health-authority`).
 - Skill: `methodology-adoption`.
 - What: Section 6.4 (prose-sec-032, page 71): Phase out paper and/or legacy systems in a staged, province-by-province manner as each region meets readiness criteria, while keeping a backup paper mechanism for blackouts, cybersecurity incidents or crises.
 - Record it: `workflow_complete` with `node: "Task_6_4_StagedPhaseOut"`.
@@ -61,7 +61,7 @@ Assess readiness of the PCPOSS and health system to scale up, define and monitor
 
 ### 6. 6.5 Adopt change management practices & cultivate electronic data-use culture (`Task_6_5_ChangeManagement`)
 
-- Who: the `End-users (health workers, supervisors & programme managers)` lane (role `health-worker`).
+- Who: the `End-users (health workers, supervisors & programme managers)` lane (role `pers:health-worker`).
 - Skill: `methodology-adoption`.
 - What: Section 6.5 (prose-sec-033, pages 71-72): Embed change management at all health-system levels and cultivate a culture of electronic data use across health workers, supervisors and programme managers (linking toward SMART Guidelines L5 dynamic guidelines).
 - Record it: `workflow_complete` with `node: "Task_6_5_ChangeManagement"`.

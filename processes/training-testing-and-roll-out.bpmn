@@ -9,25 +9,25 @@
                   targetNamespace="https://litlfred.github.io/dth-phc/workflows"
                   exporter="folio-assistant" exporterVersion="1">
   <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
-  <bpmn:resource id="public-health-authority" name="Public health authority"/>
-  <bpmn:resource id="business-analyst" name="Business analyst"/>
-  <bpmn:resource id="technology-partner" name="Technology partner (vendor)"/>
-  <bpmn:resource id="implementing-team" name="Implementing team"/>
-  <bpmn:resource id="health-worker" name="Health worker"/>
-  <bpmn:resource id="health-informatician" name="Health informatician"/>
-  <bpmn:resource id="software-engineer" name="Software engineer"/>
-  <bpmn:resource id="solutions-architect" name="Solutions architect"/>
-  <bpmn:resource id="designer" name="Designer"/>
-  <bpmn:resource id="user-researcher" name="User researcher"/>
-  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
-  <bpmn:resource id="clerk" name="Clerk (facility registration and records staff)"/>
-  <bpmn:resource id="supervisor" name="Supervisor / health facility manager"/>
-  <bpmn:resource id="health-service-user" name="Health service user (patient / client)"/>
-  <bpmn:resource id="system-ehr" name="Electronic health record (EHR) system"/>
-  <bpmn:resource id="system-dss" name="Decision-support system (DSS)"/>
-  <bpmn:resource id="system-cbis" name="Community-based information system (CBIS)"/>
-  <bpmn:resource id="system-phr" name="Personal health record (PHR) system"/>
-  <bpmn:resource id="donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:resource id="pers:public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="pers:business-analyst" name="Business analyst"/>
+  <bpmn:resource id="pers:technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="pers:implementing-team" name="Implementing team"/>
+  <bpmn:resource id="pers:health-worker" name="Health worker"/>
+  <bpmn:resource id="pers:health-informatician" name="Health informatician"/>
+  <bpmn:resource id="pers:software-engineer" name="Software engineer"/>
+  <bpmn:resource id="pers:solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="pers:designer" name="Designer"/>
+  <bpmn:resource id="pers:user-researcher" name="User researcher"/>
+  <bpmn:resource id="pers:monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="pers:clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="pers:supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="pers:health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="pers:system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="pers:system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="pers:system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="pers:system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="pers:donors-and-development-partners" name="Donors, development partners and implementing partners"/>
   <bpmn:collaboration id="Collaboration_Process_TrainingTestingAndRollOut">
     <bpmn:participant id="Participant_Process_TrainingTestingAndRollOut" name="WHO DTH for Primary Health Care — Chapter 5: Conduct training, testing and roll-out (5.1-5.4)" processRef="Process_TrainingTestingAndRollOut"/>
   </bpmn:collaboration>
@@ -39,12 +39,12 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 5.1 (prose-sec-02
       <cat-harness.processes:policy enforcement="advisory"/>
     </bpmn:extensionElements>
     <bpmn:laneSet id="LaneSet_Process_TrainingTestingAndRollOut">
-      <bpmn:lane id="Lane-Ch5-PHA" name="Public health authority" partitionElementRef="public-health-authority">
+      <bpmn:lane id="Lane-Ch5-PHA" name="Public health authority" partitionElementRef="pers:public-health-authority">
         <bpmn:documentation>Persona block pers:public-health-authority. Implements policies on cybersecurity, privacy, confidentiality, electronic signatures, data use, ID management and content management, and provides political and change-management support for local adoption (Ch 5 opener panel).</bpmn:documentation>
         <bpmn:flowNodeRef>Start_Ch5</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_5_0_Policies</bpmn:flowNodeRef>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch5-Impl" name="Implementing team" partitionElementRef="implementing-team">
+      <bpmn:lane id="Lane-Ch5-Impl" name="Implementing team" partitionElementRef="pers:implementing-team">
         <bpmn:documentation>Persona block pers:implementing-team. Develops tailored training materials, conducts training of trainers and health-worker training (5.1.1), designs UAT test cases and curates realistic/edge-case test data (5.2.1), coordinates UAT (5.2), and operates the feedback management SOP and post-deployment monitoring (5.4).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_5_1_1_TrainUsers</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_5_2_1_CurateTestCases</bpmn:flowNodeRef>
@@ -53,15 +53,25 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 5.1 (prose-sec-02
         <bpmn:flowNodeRef>GW_MaintenanceUpdate</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>End_Ch5</bpmn:flowNodeRef>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch5-Engineer" name="Software engineer / technology partner" partitionElementRef="software-engineer">
+      <bpmn:lane id="Lane-Ch5-Engineer" name="Software engineer / technology partner" partitionElementRef="pers:software-engineer">
         <bpmn:documentation>Persona blocks pers:software-engineer and pers:technology-partner. Trains local technology partners on system maintenance (5.1.2), resolves UAT bugs and usability roadblocks (5.2), leads production deployment across infrastructure, hardware, data migration and configuration (5.3), and delivers software updates during roll-out (5.4).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_5_1_2_TrainMaintenance</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_5_2_UpdatePcposs</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_5_3_DeploySystem</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch5-Engineer">
+          <bpmn:lane id="Lane-Ch5-Engineer-technology-partner" name="Technology partner (vendor)" partitionElementRef="pers:technology-partner"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
-      <bpmn:lane id="Lane-Ch5-Users" name="Targeted health workers &amp; UAT end-users" partitionElementRef="health-worker">
+      <bpmn:lane id="Lane-Ch5-Users" name="Targeted health workers &amp; UAT end-users" partitionElementRef="pers:health-worker">
         <bpmn:documentation>Persona blocks pers:health-worker and pers:health-service-user. Participate in competency-based training (5.1.1), execute UAT in existing workflows to report bugs and usability roadblocks (5.2), use the deployed PCPOSS in routine care (5.3), and submit ongoing feedback (5.4).</bpmn:documentation>
         <bpmn:flowNodeRef>Task_5_2_RunUat</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch5-Users">
+          <bpmn:lane id="Lane-Ch5-Users-clerk" name="Clerk (facility registration and records staff)" partitionElementRef="pers:clerk"/>
+          <bpmn:lane id="Lane-Ch5-Users-health-service-user" name="Health service user (patient / client)" partitionElementRef="pers:health-service-user"/>
+          <bpmn:lane id="Lane-Ch5-Users-supervisor" name="Supervisor / health facility manager" partitionElementRef="pers:supervisor"/>
+        </bpmn:childLaneSet>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:startEvent id="Start_Ch5" name="Beta version of PCPOSS available (Ch 5 input)">
@@ -268,10 +278,10 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 5.1 (prose-sec-02
         <di:waypoint x="1375" y="675" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch5_6" bpmnElement="Flow_Ch5_6">
-        <di:waypoint x="1525" y="675"/>
-        <di:waypoint x="1585" y="675"/>
-        <di:waypoint x="1585" y="335"/>
-        <di:waypoint x="1645" y="335"/>
+        <di:waypoint x="1525" y="660" />
+        <di:waypoint x="1585" y="660" />
+        <di:waypoint x="1585" y="335" />
+        <di:waypoint x="1645" y="335" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch5_7_Fix" bpmnElement="Flow_Ch5_7_Fix">
         <di:waypoint x="1695" y="335"/>
@@ -280,16 +290,15 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 5.1 (prose-sec-02
         <di:waypoint x="1815" y="505"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch5_7_ReUat" bpmnElement="Flow_Ch5_7_ReUat">
-        <di:waypoint x="1890" y="547"/>
-        <di:waypoint x="1890" y="566"/>
-        <di:waypoint x="1450" y="566"/>
-        <di:waypoint x="1450" y="717"/>
+        <di:waypoint x="1850" y="547" />
+        <di:waypoint x="1850" y="690" />
+        <di:waypoint x="1525" y="690" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch5_7_Deploy" bpmnElement="Flow_Ch5_7_Deploy">
-        <di:waypoint x="1695" y="335" />
-        <di:waypoint x="1857.5" y="335" />
-        <di:waypoint x="1857.5" y="505" />
-        <di:waypoint x="2020" y="505" />
+        <di:waypoint x="1670" y="310" />
+        <di:waypoint x="1670" y="268" />
+        <di:waypoint x="2110" y="268" />
+        <di:waypoint x="2110" y="450" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch5_8" bpmnElement="Flow_Ch5_8">
         <di:waypoint x="2200" y="505" />
@@ -302,10 +311,10 @@ L1 source anchors: who-iris/library/9789240093362-eng sections 5.1 (prose-sec-02
         <di:waypoint x="2525" y="335" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch5_10_Update" bpmnElement="Flow_Ch5_10_Update">
-        <di:waypoint x="2550" y="360"/>
-        <di:waypoint x="2550" y="390"/>
-        <di:waypoint x="1890" y="390"/>
-        <di:waypoint x="1890" y="547"/>
+        <di:waypoint x="2550" y="360" />
+        <di:waypoint x="2550" y="585" />
+        <di:waypoint x="1930" y="585" />
+        <di:waypoint x="1930" y="547" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Edge_Flow_Ch5_10_Done" bpmnElement="Flow_Ch5_10_Done">
         <di:waypoint x="2575" y="335"/>

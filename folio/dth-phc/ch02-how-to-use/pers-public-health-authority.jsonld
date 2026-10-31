@@ -20,7 +20,7 @@
   "meta": {
     "title": "Public health authority / Ministry of Health (MoH)",
     "personaType": "organisation",
-    "bpmnRoleId": "public-health-authority",
+    "bpmnRoleId": "pers:public-health-authority",
     "bpmnLanes": [
       {
         "process": "bp:pcposs-implementation-lifecycle",

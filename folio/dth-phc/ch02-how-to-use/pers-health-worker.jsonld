@@ -20,7 +20,7 @@
   "meta": {
     "title": "Health worker (clinician, nurse, midwife, community health worker)",
     "personaType": "person",
-    "bpmnRoleId": "health-worker",
+    "bpmnRoleId": "pers:health-worker",
     "bpmnLanes": [
       {
         "process": "bp:pcposs-implementation-lifecycle",

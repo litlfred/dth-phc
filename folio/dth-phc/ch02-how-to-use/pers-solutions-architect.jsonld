@@ -20,7 +20,7 @@
   "meta": {
     "title": "Solutions architect",
     "personaType": "person",
-    "bpmnRoleId": "solutions-architect",
+    "bpmnRoleId": "pers:solutions-architect",
     "bpmnLanes": [
       {
         "process": "bp:design-and-adaptation",

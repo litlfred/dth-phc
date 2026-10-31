@@ -20,7 +20,7 @@
   "meta": {
     "title": "Monitoring and evaluation (M&E) specialist",
     "personaType": "person",
-    "bpmnRoleId": "monitoring-and-evaluation-specialist",
+    "bpmnRoleId": "pers:monitoring-and-evaluation-specialist",
     "bpmnLanes": [
       {
         "process": "bp:pcposs-implementation-lifecycle",

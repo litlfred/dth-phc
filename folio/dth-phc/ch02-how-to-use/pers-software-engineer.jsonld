@@ -20,7 +20,7 @@
   "meta": {
     "title": "Software engineer",
     "personaType": "person",
-    "bpmnRoleId": "software-engineer",
+    "bpmnRoleId": "pers:software-engineer",
     "bpmnLanes": [
       {
         "process": "bp:design-and-adaptation",

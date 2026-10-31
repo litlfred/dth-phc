@@ -20,7 +20,7 @@
   "meta": {
     "title": "Technology partner (vendor)",
     "personaType": "organisation",
-    "bpmnRoleId": "technology-partner",
+    "bpmnRoleId": "pers:technology-partner",
     "bpmnLanes": [
       {
         "process": "bp:pcposs-implementation-lifecycle",

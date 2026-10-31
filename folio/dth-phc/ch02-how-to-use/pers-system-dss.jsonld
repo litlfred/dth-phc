@@ -20,7 +20,7 @@
   "meta": {
     "title": "Decision-support system (DSS)",
     "personaType": "system",
-    "bpmnRoleId": "system-dss",
+    "bpmnRoleId": "pers:system-dss",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

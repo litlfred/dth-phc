@@ -20,7 +20,7 @@
   "meta": {
     "title": "Clerk (facility registration and records staff)",
     "personaType": "person",
-    "bpmnRoleId": "clerk",
+    "bpmnRoleId": "pers:clerk",
     "bpmnLanes": [
       {
         "process": "bp:understand-user-requirements",

@@ -20,7 +20,7 @@
   "meta": {
     "title": "Designer",
     "personaType": "person",
-    "bpmnRoleId": "designer",
+    "bpmnRoleId": "pers:designer",
     "bpmnLanes": [
       {
         "process": "bp:design-and-adaptation",
