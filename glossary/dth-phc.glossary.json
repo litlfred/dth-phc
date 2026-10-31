@@ -1,0 +1,1917 @@
+{
+  "$schema": "folio-glossary/v1",
+  "id": "dth-phc",
+  "title": "Glossary of the Digital Transformation Handbook for Primary Health Care",
+  "description": "SKOS concept scheme of terms and abbreviations defined in the WHO Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems (2024, ISBN 978-92-4-009336-2), cross-linked to the WHO/ITU DPI-H Reference Architecture (smart-ra: dpi-h-ra and full-stac schemes) and the WHO SMART Guidelines DAK vocabulary (smart-base).",
+  "source": "dth-phc.json#who-iris/library/9789240093362-eng",
+  "terms": [
+    {
+      "id": "algorithm",
+      "prefLabel": "Algorithm",
+      "definition": "A specification of how a computer shall solve a problem, perform a calculation and execute a task.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "decision-support-logic",
+        "decision-support-system",
+        "rule",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/clinical-quality-language"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "annotation",
+      "prefLabel": "Annotation",
+      "definition": "In a decision table, an annotation simply provides further details and explanation to the rule, for those working on and working from the decision table.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "decision-support-table",
+        "rule",
+        "decision-support-logic",
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic",
+        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "antenatal-care",
+      "prefLabel": "Antenatal Care (ANC)",
+      "notation": "ANC",
+      "altLabel": [
+        "ANC",
+        "Antenatal Care"
+      ],
+      "definition": "Antenatal care (ANC): preventive and clinical health care services provided to pregnant women and adolescent girls by skilled health personnel throughout pregnancy, used in this handbook as a core primary health care clinical workflow and Digital Adaptation Kit (DAK) domain.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "primary-health-care",
+        "digital-adaptation-kits",
+        "care-pathway",
+        "longitudinal-tracking"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "architecture",
+      "prefLabel": "Architecture",
+      "definition": "The fundamental structure of a digital system or ecosystem, encompassing its components, their relationships, and the principles and guidelines governing their design and evolution.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "enterprise-architecture",
+        "systems-architecture",
+        "architecture-building-blocks"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "architecture-building-blocks",
+      "prefLabel": "Architecture Building Blocks (ABB)",
+      "notation": "ABB",
+      "altLabel": [
+        "ABB",
+        "Architecture Building Block"
+      ],
+      "definition": "Reusable architectural components defining functional and technical capabilities within a reference or enterprise architecture for digital health systems.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "broader": [
+        "architecture"
+      ],
+      "related": [
+        "enterprise-architecture",
+        "capability"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/reference-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-service"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "as-is",
+      "prefLabel": "As-Is",
+      "altLabel": [
+        "As-is",
+        "As-Is Process",
+        "Current State"
+      ],
+      "definition": "The current state of things (also see to-be).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "to-be",
+        "workflow",
+        "business-process",
+        "pain-point"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "beta-version",
+      "prefLabel": "Beta Version",
+      "altLabel": [
+        "Beta version"
+      ],
+      "definition": "The initial version of the software, after prototyping, that is available for testing among a limited group of people.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "broader": [
+        "prototype"
+      ],
+      "related": [
+        "minimum-viable-product",
+        "user-acceptance-testing",
+        "build",
+        "deploy"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "build",
+      "prefLabel": "Build",
+      "definition": "In the context of developing a person-centred point of service system (PCPOSS), build is when a software engineer is writing the necessary code or programming the software.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "deploy",
+        "devsecops",
+        "beta-version",
+        "prototype",
+        "minimum-viable-product"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "business-objective",
+      "prefLabel": "Business Objective",
+      "altLabel": [
+        "Business objective"
+      ],
+      "definition": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, “completed health service user registration”, or “health service user referral sent” (1).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "business-process",
+        "workflow"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/goal",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/outcome"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "business-process",
+      "prefLabel": "Business Process",
+      "altLabel": [
+        "Business process"
+      ],
+      "definition": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "business-objective",
+        "workflow",
+        "care-pathway",
+        "trigger-event"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
+        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "capability",
+      "prefLabel": "Capability",
+      "definition": "An ability that an organization, person, or system possesses to achieve a specific health or operational outcome.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "features",
+        "functions",
+        "architecture-building-blocks",
+        "digital-health-intervention"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/capability"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "care-pathway",
+      "prefLabel": "Care Pathway",
+      "altLabel": [
+        "Care pathway"
+      ],
+      "definition": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n• an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users’ expectations and their characteristics;\n• the facilitation of the communication among the team members and with health service users and families;\n• the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n• the documentation, monitoring and evaluation of variances and outcomes;\n• the identification of the appropriate resources.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "clinical-protocol",
+        "business-process",
+        "workflow",
+        "health-service-users"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/HealthInterventions",
+        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "classifications",
+      "prefLabel": "Classifications",
+      "definition": "Standardized systems of categories used to group health conditions, interventions, and related health concepts for statistical reporting, clinical documentation, and semantic interoperability.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "coding-schemes",
+        "international-classification-of-diseases",
+        "terminologies",
+        "interoperability-standards",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "clinical-protocol",
+      "prefLabel": "Clinical Protocol",
+      "altLabel": [
+        "Clinical protocol"
+      ],
+      "definition": "An official set of procedures or processes outlined by clinical guidelines set at national and/or higher levels.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "care-pathway",
+        "decision-support-system",
+        "decision-support-logic",
+        "smart-guidelines"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/HealthInterventions",
+        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "coding-schemes",
+      "prefLabel": "Coding Schemes",
+      "definition": "Formal sets of codes and rules assigning unique identifiers to clinical concepts, data elements, and classifications to support unambiguous data capture and exchange.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "classifications",
+        "terminologies",
+        "international-classification-of-diseases",
+        "data-element",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "collaborative-requirements-development-methodology",
+      "prefLabel": "Collaborative Requirements Development Methodology (CRDM)",
+      "notation": "CRDM",
+      "altLabel": [
+        "CRDM",
+        "Collaborative Requirements Development Methodology"
+      ],
+      "definition": "Collaborative Requirements Development Methodology (CRDM): structured methodology for analysing business processes, redesigning workflows, and defining functional and non-functional system requirements for health information systems.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "business-process",
+        "workflow",
+        "functional-requirements",
+        "non-functional-requirements"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "community-based-information-system",
+      "prefLabel": "Community-Based Information System",
+      "altLabel": [
+        "Community-based information system"
+      ],
+      "definition": "Applications that facilitate data collection and use at the community level. These applications are utilized by community-based workers who provide health promotion and disease prevention activities (6).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "person-centred-point-of-service-system",
+        "digital-health-intervention"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "data-dictionary",
+      "prefLabel": "Data Dictionary",
+      "altLabel": [
+        "Data dictionary"
+      ],
+      "definition": "A singular storage location for information about the data elements, detailing their type and definition, relationships, origin and use.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "data-element",
+        "interoperability"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/data-object",
+        "http://smart.who.int/base/StructureDefinition/CoreDataElement",
+        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "data-element",
+      "prefLabel": "Data Element",
+      "altLabel": [
+        "Data element",
+        "Core Data Element"
+      ],
+      "definition": "A unit of data that has a specific and precise meaning.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "data-dictionary",
+        "input",
+        "output"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/CoreDataElement",
+        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/data-object"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "data-exchange",
+      "prefLabel": "Data Exchange",
+      "definition": "The structured transmission and sharing of health and administrative data between digital systems using agreed syntactic and semantic interoperability standards.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "interoperability",
+        "interoperability-standards",
+        "fast-healthcare-interoperability-resources"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-information-exchange",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "decision-support-logic",
+      "prefLabel": "Decision Support Logic",
+      "altLabel": [
+        "Decision support logic",
+        "Decision-support logic"
+      ],
+      "definition": "A set of decision rules for standard and exceptional cases that is utilized for a decision task within a business process. This helps to reduce the complexity of the business process without losing the detail necessary for coding the rules needed for system functionality (7).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "decision-support-table",
+        "decision-support-system",
+        "rule",
+        "algorithm"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic",
+        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "decision-support-system",
+      "prefLabel": "Decision Support System",
+      "altLabel": [
+        "Decision support system",
+        "Clinical Decision Support System",
+        "CDSS"
+      ],
+      "definition": "A digital job aid that combines an individual’s health information with the health worker’s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "decision-support-logic",
+        "decision-support-table",
+        "clinical-protocol",
+        "person-centred-point-of-service-system"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "decision-support-table",
+      "prefLabel": "Decision-Support Table",
+      "altLabel": [
+        "Decision-support table",
+        "Decision Table"
+      ],
+      "definition": "A structured way to depict a discrete decision that will need to be embedded into the PCPOSS. There can be multiple decision-support tables (9).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "broader": [
+        "decision-support-logic"
+      ],
+      "related": [
+        "rule",
+        "input",
+        "output",
+        "annotation"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "deploy",
+      "prefLabel": "Deploy",
+      "definition": "Make the software available for use beyond testing purposes.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "build",
+        "devsecops",
+        "user-acceptance-testing",
+        "beta-version"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "devsecops",
+      "prefLabel": "DevSecOps",
+      "altLabel": [
+        "Development, Security and Operations"
+      ],
+      "definition": "Short for “development, security and operations”. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "build",
+        "deploy"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "diastolic-blood-pressure",
+      "prefLabel": "Diastolic Blood Pressure (DBP)",
+      "notation": "DBP",
+      "altLabel": [
+        "DBP",
+        "Diastolic Blood Pressure"
+      ],
+      "definition": "Diastolic blood pressure (DBP): arterial blood pressure measured between heartbeats, captured as a core clinical data element and used in clinical decision support rules (such as antenatal care hypertension screening).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "systolic-blood-pressure",
+        "data-element",
+        "decision-support-logic",
+        "antenatal-care"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/CoreDataElement",
+        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-adaptation-kits",
+      "prefLabel": "Digital Adaptation Kits (DAKs)",
+      "notation": "DAK",
+      "altLabel": [
+        "DAK",
+        "DAKs",
+        "Digital Adaptation Kit",
+        "Digital adaptation kits (DAKs)"
+      ],
+      "definition": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO’s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the “SMART Guidelines” framework (10).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "broader": [
+        "smart-guidelines"
+      ],
+      "related": [
+        "user-persona",
+        "user-scenario",
+        "business-process",
+        "workflow",
+        "data-element",
+        "decision-support-logic",
+        "functional-requirements",
+        "non-functional-requirements"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/DAK"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-health",
+      "prefLabel": "Digital Health",
+      "altLabel": [
+        "Digital health"
+      ],
+      "definition": "Digital health is the systematic application of information and communications technologies, computer science, and data to support informed decision-making by individuals, the health workforce, and health systems, to strengthen resilience to disease and improve health and wellness (11).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "digital-transformation",
+        "digitalization",
+        "digitization",
+        "digital-health-intervention"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-health-ecosystem",
+      "prefLabel": "Digital Health Ecosystem",
+      "definition": "The interconnected network of digital health applications, shared infrastructure services, standards, governance policies, and stakeholders operating within a health system.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "broader": [
+        "ecosystem"
+      ],
+      "related": [
+        "digital-health",
+        "health-information-system",
+        "enterprise-architecture"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-health-intervention",
+      "prefLabel": "Digital Health Intervention (DHI)",
+      "notation": "DHI",
+      "altLabel": [
+        "DHI",
+        "DHIs",
+        "Digital Health Interventions",
+        "Digital health intervention"
+      ],
+      "definition": "A discrete capability of digital technology to achieve health sector objectives. Examples of digital health interventions include providing checklist according to protocol, transmitting targeted health information to person(s) based on health status or demographics, and notifying stock levels of health commodities; see Classification of digital interventions, services and applications in health for a full list of digital health interventions (6).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "digital-health",
+        "person-centred-point-of-service-system"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application",
+        "http://smart.who.int/base/StructureDefinition/HealthInterventions",
+        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-transformation",
+      "prefLabel": "Digital Transformation",
+      "altLabel": [
+        "Digital transformation"
+      ],
+      "definition": "The process of digitally optimizing and driving systems-level changes by leveraging innovation, analytics and feedback mechanisms to improve person-centred health systems. Digital technologies are used to fundamentally change and improve how health services are delivered and accessed across all health programme areas (12,14,15).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "digitalization",
+        "digitization",
+        "enterprise-architecture"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "digitalization",
+      "prefLabel": "Digitalization",
+      "definition": "The process of digitally automating and simplifying processes to streamline individual health programmes and reduce manual efforts for greater efficiency (12,13).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "digitization",
+        "digital-transformation",
+        "business-process"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "digitization",
+      "prefLabel": "Digitization",
+      "definition": "The process of converting and organizing data from paper records into a digital format for easier entry, storage and retrieval (12,16).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "digitalization",
+        "digital-transformation",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/data-object"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "ecosystem",
+      "prefLabel": "Ecosystem",
+      "definition": "A complex network of interacting systems, services, organizations, and users that exchange data and coordinate activities within a shared environment.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "digital-health-ecosystem",
+        "interoperability"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "electronic-health-record-system",
+      "prefLabel": "Electronic Health Record System (EHR)",
+      "notation": "EHR",
+      "altLabel": [
+        "EHR",
+        "EMR",
+        "Electronic health record system",
+        "Electronic Medical Record System"
+      ],
+      "definition": "A secure, online system that holds health service user health records, which include information about people’s health and clinical care. This system is managed by health workers. Also referred to as an “electronic medical record system” (6).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "person-centred-point-of-service-system",
+        "health-service-users-health-records",
+        "longitudinal-tracking"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/repository"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "electronic-medical-record",
+      "prefLabel": "Electronic Medical Record (EMR)",
+      "notation": "EMR",
+      "altLabel": [
+        "EMR",
+        "Electronic Medical Records"
+      ],
+      "definition": "Electronic medical record (EMR): digital version of a health service user's clinical chart maintained within a health care facility or point-of-service system to support diagnosis, treatment, and longitudinal clinical care.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "electronic-health-record-system",
+        "health-service-users-health-records",
+        "person-centred-point-of-service-system"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "end-user",
+      "prefLabel": "End-User",
+      "altLabel": [
+        "End-user",
+        "End User"
+      ],
+      "definition": "People who will be using the digital system(s).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "user-persona",
+        "user-story",
+        "use-case",
+        "user-acceptance-testing"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "enterprise-architecture",
+      "prefLabel": "Enterprise Architecture",
+      "altLabel": [
+        "Enterprise architecture"
+      ],
+      "definition": "A blueprint of business processes, data, systems and technologies used to help planners, software developers and managers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system (11).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "systems-architecture",
+        "interoperability"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "fast-healthcare-interoperability-resources",
+      "prefLabel": "Fast Healthcare Interoperability Resources (FHIR)",
+      "notation": "FHIR",
+      "altLabel": [
+        "FHIR",
+        "HL7 FHIR"
+      ],
+      "definition": "Fast Healthcare Interoperability Resources (FHIR): HL7 open interoperability standard specifying data formats, resources, and application programming interfaces (APIs) for exchanging electronic health information.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "broader": [
+        "interoperability-standards",
+        "open-standards"
+      ],
+      "related": [
+        "interoperability",
+        "data-exchange",
+        "smart-guidelines"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/fast-healthcare-interoperability-resources"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "features",
+      "prefLabel": "Features",
+      "altLabel": [
+        "Feature"
+      ],
+      "definition": "The characteristics of a system that include look and feel as well as what the system can do (e.g. “reporting” can be a feature of a PCPOSS).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "functions",
+        "functional-requirements",
+        "user-story"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/capability",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-service"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "flag",
+      "prefLabel": "Flag",
+      "definition": "In a PCPOSS, a “flag” consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "pop-up-message",
+        "output",
+        "decision-support-system",
+        "decision-support-table"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "functional-requirements",
+      "prefLabel": "Functional Requirements",
+      "altLabel": [
+        "Functional requirements",
+        "Functional Requirement"
+      ],
+      "definition": "Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "non-functional-requirements",
+        "features",
+        "functions",
+        "user-story"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+        "https://litlfred.github.io/smart-base/v0/ns#FunctionalRequirement"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "functions",
+      "prefLabel": "Functions",
+      "altLabel": [
+        "Function"
+      ],
+      "definition": "Functions in a system are how features are implemented (e.g. “calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "features",
+        "functional-requirements"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/capability",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-service"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "generic-business-processes-and-workflows",
+      "prefLabel": "Generic Business Processes and Workflows",
+      "definition": "Standardized L2 Digital Adaptation Kit (DAK) component representing clinical and operational activities, roles, and task sequences (typically modelled in BPMN) that a digital system supports across care encounters.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
+      "broader": [
+        "business-process",
+        "workflow"
+      ],
+      "related": [
+        "digital-adaptation-kits",
+        "user-persona",
+        "user-scenario"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
+        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-information-system",
+      "prefLabel": "Health Information System (HIS)",
+      "notation": "HIS",
+      "altLabel": [
+        "HIS",
+        "Health Information Systems"
+      ],
+      "definition": "Health information system (HIS): socio-technical system that integrates data collection, processing, reporting, and use of health information to improve health service delivery and management across levels of the health system.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "broader": [
+        "information-system"
+      ],
+      "related": [
+        "health-management-information-system",
+        "digital-health-ecosystem"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-interventions-and-recommendations",
+      "prefLabel": "Health Interventions and Recommendations",
+      "definition": "L2 Digital Adaptation Kit (DAK) component summarizing the normative WHO clinical and public health interventions and recommendations that the digital system is designed to operationalize.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
+      "related": [
+        "digital-adaptation-kits",
+        "clinical-protocol",
+        "care-pathway"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/HealthInterventions",
+        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-management-information-system",
+      "prefLabel": "Health Management Information System (HMIS)",
+      "notation": "HMIS",
+      "altLabel": [
+        "HMIS"
+      ],
+      "definition": "Health management information system (HMIS): information system specially designed to assist in the management and planning of health programmes and aggregate routine health facility reporting, distinct from individual point-of-service care systems.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "broader": [
+        "health-information-system"
+      ],
+      "related": [
+        "indicators-and-performance-metrics",
+        "person-centred-point-of-service-system"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-service-users",
+      "prefLabel": "Health Service Users",
+      "altLabel": [
+        "Health service users",
+        "Health Service User",
+        "Patient",
+        "Client"
+      ],
+      "definition": "Also known as patients, clients or beneficiaries, these are individuals who receive formal and/or informal health services.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "person-centred",
+        "health-service-users-health-records",
+        "longitudinal-tracking",
+        "register"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/client",
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-service-users-health-records",
+      "prefLabel": "Health Service User’s Health Records",
+      "altLabel": [
+        "Health service user’s health records",
+        "Health Service User's Health Records"
+      ],
+      "definition": "The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker. The record may be retained by the health-care facility or by the health service user.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "electronic-health-record-system",
+        "health-service-users",
+        "longitudinal-tracking",
+        "register"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "indicators-and-performance-metrics",
+      "prefLabel": "Indicators and Performance Metrics",
+      "definition": "L2 Digital Adaptation Kit (DAK) component specifying numerator, denominator, and calculation logic for programme indicators and performance metrics derived from routine point-of-service data elements.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
+      "related": [
+        "digital-adaptation-kits",
+        "data-element",
+        "health-management-information-system"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/ProgramIndicator",
+        "https://litlfred.github.io/smart-base/v0/ns#Indicator"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "information-system",
+      "prefLabel": "Information System",
+      "definition": "An integrated set of components for collecting, storing, processing, and communicating data and information to support operations and decision-making.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "health-information-system",
+        "systems-architecture"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "input",
+      "prefLabel": "Input",
+      "definition": "The input entry in a decision-support table is a “condition” for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met – leading to the subsequent output or action.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "output",
+        "rule",
+        "decision-support-table",
+        "data-element",
+        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable",
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "international-classification-of-diseases",
+      "prefLabel": "International Classification of Diseases (ICD)",
+      "notation": "ICD",
+      "altLabel": [
+        "ICD",
+        "ICD-10",
+        "ICD-11"
+      ],
+      "definition": "International Classification of Diseases (ICD): WHO international standard diagnostic classification for epidemiology, clinical care, and health management.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "broader": [
+        "classifications",
+        "interoperability-standards"
+      ],
+      "related": [
+        "coding-schemes",
+        "terminologies",
+        "snomed-ct",
+        "logical-observation-identifiers-names-and-codes",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "interoperability",
+      "prefLabel": "Interoperability",
+      "definition": "Ability of different applications to access, exchange, integrate and use data in a coordinated and consistent manner through the use of shared application interfaces, value sets, concepts and standards, within and across organizational, regional and national boundaries, to provide timely and seamless portability of information and optimize health outcomes.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "open-standards",
+        "enterprise-architecture",
+        "systems-architecture",
+        "data-dictionary"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Glossary entry (p. xi) is the primary definition; Section 4.4 body (HIMSS) and Section 4.4.2 (IEEE 1990) provide two additional definitions in the handbook. Section 4.4 body definition (p. 41), citing Healthcare Information and Management Systems Society (HIMSS). Alternative definition (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md): \"Interoperability ensures that all digital systems within the healthcare ecosystem work together harmoniously. It refers to the ability of different systems, devices, applications or products to connect and communicate in a coordinated way, without effort from the end user (14).\" Section 4.4.2 definition (p. 42), citing IEEE Standard Computer Dictionary (1990). Alternative definition (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md): \"The ability of two or more systems or components to exchange information and to use the information that has been exchanged\"",
+      "status": "candidate"
+    },
+    {
+      "id": "interoperability-standards",
+      "prefLabel": "Interoperability Standards",
+      "definition": "Agreed technical and semantic specifications (including transport protocols, data exchange formats such as HL7 FHIR, and terminologies/classifications such as ICD, LOINC, and SNOMED-CT) that enable health information systems to exchange and interpret shared data consistently.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "broader": [
+        "open-standards"
+      ],
+      "related": [
+        "interoperability",
+        "fast-healthcare-interoperability-resources",
+        "international-classification-of-diseases",
+        "logical-observation-identifiers-names-and-codes",
+        "snomed-ct",
+        "classifications",
+        "coding-schemes",
+        "terminologies"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "legacy-system",
+      "prefLabel": "Legacy System",
+      "altLabel": [
+        "Legacy system"
+      ],
+      "definition": "An outdated system or technology that is still in use. The system still meets the needs it was originally designed for but does not meet the current needs or allow room for growth. It may be a paper-based system or a digital system.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "technical-debt",
+        "systems-architecture",
+        "interoperability"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "logical-observation-identifiers-names-and-codes",
+      "prefLabel": "Logical Observation Identifiers Names and Codes (LOINC)",
+      "notation": "LOINC",
+      "altLabel": [
+        "LOINC"
+      ],
+      "definition": "Logical Observation Identifiers Names and Codes (LOINC): international standard terminology and coding system for identifying laboratory tests and clinical observations.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "broader": [
+        "interoperability-standards",
+        "terminologies"
+      ],
+      "related": [
+        "snomed-ct",
+        "international-classification-of-diseases",
+        "coding-schemes"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "longitudinal-tracking",
+      "prefLabel": "Longitudinal Tracking",
+      "altLabel": [
+        "Longitudinal tracking [of a health service user]",
+        "Longitudinal tracking"
+      ],
+      "definition": "Ongoing and systematic collection and analysis of data related to a health service user’s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user’s health status, treatment and outcomes over multiple encounters or visits with health workers.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "register",
+        "health-service-users-health-records",
+        "electronic-health-record-system",
+        "person-centred-point-of-service-system"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "metadata",
+      "prefLabel": "Metadata",
+      "definition": "Structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage a data element or information resource (such as data type, coding scheme, validation rules, and provenance in a data dictionary).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "data-dictionary",
+        "data-element"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/CoreDataElement",
+        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "mhealth-assessment-and-planning-for-scale",
+      "prefLabel": "MHealth Assessment and Planning for Scale (MAPS)",
+      "notation": "MAPS",
+      "altLabel": [
+        "MAPS",
+        "mHealth Assessment and Planning for Scale"
+      ],
+      "definition": "mHealth Assessment and Planning for Scale (MAPS): WHO toolkit and assessment methodology for planning, scaling up, and sustaining digital health implementations.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "digital-health",
+        "digital-health-intervention",
+        "deploy"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "minimum-viable-product",
+      "prefLabel": "Minimum Viable Product (MVP)",
+      "notation": "MVP",
+      "altLabel": [
+        "MVP",
+        "Minimum viable product (MVP)"
+      ],
+      "definition": "A product that satisfies the minimum requirements of the end-users and can function accordingly. With iterative design techniques, the MVP is often used to gather initial reactions and feedback from the end- users, knowing that another version will be created and released with additional or updated features and functionality (17).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "prototype",
+        "beta-version",
+        "wireframes",
+        "mock-up",
+        "build"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "mock-up",
+      "prefLabel": "Mock-Up",
+      "altLabel": [
+        "Mock-up",
+        "Mockup"
+      ],
+      "definition": "Graphic design and descriptive documentation that closely depicts the look and feel (including colour scheme and design themes) of the finished product (see section 4.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "wireframes",
+        "prototype",
+        "minimum-viable-product"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "non-functional-requirements",
+      "prefLabel": "Non-Functional Requirements",
+      "altLabel": [
+        "Non-functional requirements",
+        "Non-Functional Requirement"
+      ],
+      "definition": "General attributes and features of the digital system to ensure usability and overcome technical and physical constraints. Examples of non-functional requirements include ability to work offline, multiple language settings, and password protection (see section 3.8).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "functional-requirements",
+        "digital-adaptation-kits"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+        "https://litlfred.github.io/smart-base/v0/ns#NonFunctionalRequirement"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "open-source",
+      "prefLabel": "Open Source",
+      "altLabel": [
+        "Open source"
+      ],
+      "definition": "Open-source software is software with source code that is published and made freely available to the public, enabling anyone to inspect, modify and enhance the code (18). While the source code is open to everyone, this does not mean that implementation of software is necessarily without costs. An open- source software must have a license approved by the Open Source Initiative (19).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "open-standards",
+        "reference-software",
+        "software-platform"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "open-standards",
+      "prefLabel": "Open Standards",
+      "altLabel": [
+        "Open standards"
+      ],
+      "definition": "Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (20).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "interoperability",
+        "open-source",
+        "smart-guidelines"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "output",
+      "prefLabel": "Output",
+      "definition": "In the context of requirements gathering or decision support logic, for each combination of input entries, the output is what will result in the conditions of the rule being met. This could be a single output value that would become an input in a subsequent decision table, or it could be a resulting action, activity or task in a business process.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "input",
+        "rule",
+        "decision-support-table",
+        "flag",
+        "pop-up-message",
+        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable",
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "pain-point",
+      "prefLabel": "Pain Point",
+      "altLabel": [
+        "Pain point"
+      ],
+      "definition": "A real or perceived problem that end-users experience.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "as-is",
+        "to-be",
+        "workflow",
+        "business-process"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "person-centred",
+      "prefLabel": "Person-Centred",
+      "altLabel": [
+        "Person-centred",
+        "Person-Centered"
+      ],
+      "definition": "In the context of person-centred health services, person-centred refers to prioritizing the comprehensive needs of individuals (i.e. persons, clients, patients, health service users) at the centre of health systems. It involves actively engaging and empowering individuals to have a more active role in their own health and health-care decisions. It shifts the focus of health services away from specific diseases or interventions, towards holistic needs of individuals across the continuum of care and life course (21).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "person-centred-point-of-service-system",
+        "health-service-users",
+        "care-pathway"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/person-focused-health"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "person-centred-point-of-service-system",
+      "prefLabel": "Person-Centred Point of Service System (PCPOSS)",
+      "notation": "PCPOSS",
+      "altLabel": [
+        "PCPOSS",
+        "Person-Centred Point of Service Systems (PCPOSS)",
+        "Person-centred point of service system (PCPOSS)"
+      ],
+      "definition": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals’ health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "person-centred",
+        "point-of-service",
+        "community-based-information-system",
+        "decision-support-system",
+        "electronic-health-record-system",
+        "digital-health-intervention",
+        "longitudinal-tracking"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Section 1.1 and the Glossary note that PCPOSS encompasses 4 service/application types (community-based information systems, decision support systems, electronic medical/health record systems, and personal health records), while Annex 1 maps PCPOSS functional requirements across 13 WHO Classification of Digital Health Interventions (DHIs): 1.1.1, 1.4.1, 2.1.1, 2.2.1, 2.2.2, 2.2.4, 2.3.1, 2.3.2, 2.4.3, 2.7.1, 2.7.2, 2.8.1, and 2.9.1. Section 1.1 and Annex 1 synthesis contrasting the 4 application types with the 13 DHIs delivered by PCPOSS. Alternative definition (who-iris/library/9789240093362-eng/sections/sec-004-11-person-centred-point-of-service-systems.md): \"Person-centred point of service systems (PCPOSS) encompass four primary application types (community-based information systems, decision support systems, electronic medical/health record systems, and personal health records) and operationalize 13 WHO Digital Health Interventions (DHIs) across Annex 1.\"",
+      "status": "candidate"
+    },
+    {
+      "id": "point-of-service",
+      "prefLabel": "Point of Service (POS)",
+      "notation": "POS",
+      "altLabel": [
+        "POS",
+        "Point of Service"
+      ],
+      "definition": "Point of service (POS): the setting and care encounter where health workers and health service users interact and where clinical and administrative data are captured and used in real time.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "person-centred-point-of-service-system",
+        "primary-health-care",
+        "health-service-users"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "pop-up-message",
+      "prefLabel": "Pop-Up Message",
+      "altLabel": [
+        "Pop-up message",
+        "Toast Message",
+        "Toast Notification"
+      ],
+      "definition": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a “toast message” or “toast notification”.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "flag",
+        "trigger-event",
+        "output",
+        "decision-support-system"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "primary-health-care",
+      "prefLabel": "Primary Health Care (PHC)",
+      "notation": "PHC",
+      "altLabel": [
+        "PHC",
+        "Primary Health Care"
+      ],
+      "definition": "Primary health care (PHC): whole-of-society approach to health that aims to ensure the highest possible level of health and well-being and their equitable distribution by focusing on people's needs and as early as possible along the continuum from health promotion and disease prevention to treatment, rehabilitation and palliative care, and as close as feasible to people's everyday environment.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "person-centred",
+        "person-centred-point-of-service-system",
+        "care-pathway",
+        "antenatal-care"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-programme",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/person-focused-health"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "prototype",
+      "prefLabel": "Prototype",
+      "definition": "Prototypes have high fidelity to the end product with options and functionalities that can be tested (see section 4.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "wireframes",
+        "mock-up",
+        "minimum-viable-product",
+        "beta-version"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "reference-software",
+      "prefLabel": "Reference Software",
+      "altLabel": [
+        "Reference software",
+        "Reference Application"
+      ],
+      "definition": "Reference software, or applications, provide executable examples of best practices and serve as a starting point containing the software, its documentation, operating manuals, source code, and platform and architecture specifications.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "software-platform",
+        "open-source"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/product",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "register",
+      "prefLabel": "Register",
+      "definition": "In the context of health care, a list of health service users compiled for the purposes of tracking care, aggregating activities or health outcomes, or identifying health service users who need specific interventions.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "longitudinal-tracking",
+        "health-service-users-health-records",
+        "health-service-users",
+        "registry"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Rule register-is-not-registry: In PHC, a Register is a list of health service users compiled for tracking care, aggregating activities or health outcomes, or identifying health service users who need specific interventions (cohort tracking log). It must NOT be conflated with Registry (dpi-h-ra/registry), which is an HIE master index.",
+      "status": "candidate"
+    },
+    {
+      "id": "registry",
+      "prefLabel": "Registry",
+      "definition": "A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health-care facilities, health service users, products and/or health workforce using a predefined canonical minimum data set.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "register",
+        "interoperability"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/registry"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Rule register-is-not-registry: Registry refers to a governed, authoritative centralized information system (HIE master index of facilities, health service users, products, or health workforce) and matches dpi-h-ra/registry, distinct from a clinical cohort Register.",
+      "status": "candidate"
+    },
+    {
+      "id": "requirements",
+      "prefLabel": "Requirements",
+      "definition": "Documented statements of system capabilities, behaviours, and quality attributes needed by stakeholders and end-users, comprising both functional requirements and non-functional requirements.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
+      "related": [
+        "functional-requirements",
+        "non-functional-requirements",
+        "digital-adaptation-kits"
+      ],
+      "narrowMatch": [
+        "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+        "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+        "https://litlfred.github.io/smart-base/v0/ns#FunctionalRequirement",
+        "https://litlfred.github.io/smart-base/v0/ns#NonFunctionalRequirement"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "rule",
+      "prefLabel": "Rule",
+      "definition": "In the context of a decision-support table, each rule contains input and output entries. The input entries are the condition, and the output entries are the conclusion of the rule. If each input entry (condition) is satisfied, then the rule is satisfied, and the decision result contains the output entries (conclusion) of this rule (22).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "broader": [
+        "decision-support-table"
+      ],
+      "related": [
+        "input",
+        "output",
+        "annotation",
+        "decision-support-logic",
+        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable",
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "scheduling-logic",
+      "prefLabel": "Scheduling Logic",
+      "definition": "L2 Digital Adaptation Kit (DAK) component specifying rules and timing intervals for follow-up visits, immunizations, laboratory tests, and care reminders across a longitudinal care pathway.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
+      "related": [
+        "decision-support-logic",
+        "digital-adaptation-kits",
+        "longitudinal-tracking"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-base/v0/ns#SchedulingLogic"
+      ],
+      "broadMatch": [
+        "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "smart-guidelines",
+      "prefLabel": "SMART Guidelines",
+      "definition": "Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations. They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity. SMART Guidelines serve as a starting point and as foundational specifications to advance the development of robust person-centred digital systems. These specifications are software-agnostic, context-agnostic, and are applicable to all levels of digital maturity (10,23).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "digital-adaptation-kits",
+        "open-standards",
+        "clinical-protocol"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "snomed-ct",
+      "prefLabel": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)",
+      "notation": "SNOMED-CT",
+      "altLabel": [
+        "SNOMED-CT",
+        "SNOMED CT"
+      ],
+      "definition": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "broader": [
+        "interoperability-standards",
+        "terminologies"
+      ],
+      "related": [
+        "logical-observation-identifiers-names-and-codes",
+        "international-classification-of-diseases",
+        "coding-schemes"
+      ],
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "software-platform",
+      "prefLabel": "Software Platform",
+      "altLabel": [
+        "Software platform"
+      ],
+      "definition": "A software platform is a type of software in which multiple software “products” can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "reference-software",
+        "systems-architecture"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-infrastructure",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "special-programme-of-research-in-human-reproduction",
+      "prefLabel": "Special Programme of Research, Development and Research Training in Human Reproduction (HRP)",
+      "notation": "HRP",
+      "altLabel": [
+        "HRP",
+        "UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction"
+      ],
+      "definition": "UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction (HRP): co-sponsoring programme within WHO contributing to SMART Guidelines and Digital Adaptation Kits for sexual, reproductive, maternal and newborn health.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "digital-adaptation-kits",
+        "smart-guidelines",
+        "antenatal-care"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "systems-architecture",
+      "prefLabel": "Systems Architecture",
+      "altLabel": [
+        "Systems architecture",
+        "System Architecture"
+      ],
+      "definition": "The technical framework of the system depicted in a conceptual model that defines how the system is structured and how its elements are connected.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "enterprise-architecture",
+        "software-platform",
+        "technical-debt"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "systolic-blood-pressure",
+      "prefLabel": "Systolic Blood Pressure (SBP)",
+      "notation": "SBP",
+      "altLabel": [
+        "SBP",
+        "Systolic Blood Pressure"
+      ],
+      "definition": "Systolic blood pressure (SBP): peak arterial blood pressure during cardiac contraction, captured as a core clinical data element and evaluated alongside diastolic blood pressure (DBP) in clinical decision support rules.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "related": [
+        "diastolic-blood-pressure",
+        "data-element",
+        "decision-support-logic",
+        "antenatal-care"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/CoreDataElement",
+        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "technical-debt",
+      "prefLabel": "Technical Debt",
+      "altLabel": [
+        "Technical debt"
+      ],
+      "definition": "Technical debt in software development and systems architecture describes the risk of taking shortcuts and making short-term fixes, which later require costly revisions and add-ons; rather than investing in carefully designed, robust solutions, which may cost more upfront, but have lower maintenance and feature development costs over time (11).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "legacy-system",
+        "systems-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "terminologies",
+      "prefLabel": "Terminologies",
+      "definition": "Structured vocabularies of clinical and health terms (such as SNOMED-CT and LOINC) that provide standardized meaning to concepts recorded and exchanged across digital health systems.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "related": [
+        "classifications",
+        "coding-schemes",
+        "interoperability-standards",
+        "snomed-ct",
+        "logical-observation-identifiers-names-and-codes",
+        "international-classification-of-diseases",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "to-be",
+      "prefLabel": "To-Be",
+      "altLabel": [
+        "To-be",
+        "To-Be Process",
+        "Future State"
+      ],
+      "definition": "The determined future state (also see as-is).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "as-is",
+        "workflow",
+        "business-process",
+        "pain-point"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "trigger-event",
+      "prefLabel": "Trigger Event",
+      "altLabel": [
+        "Trigger event"
+      ],
+      "definition": "An event recorded in the system that will start the execution of relevant subsequent operations.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "business-process",
+        "workflow",
+        "pop-up-message",
+        "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
+        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess",
+        "https://litlfred.github.io/smart-base/v0/ns#SchedulingLogic"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "use-case",
+      "prefLabel": "Use Case",
+      "altLabel": [
+        "Use case",
+        "User Scenario"
+      ],
+      "definition": "A use case is an example scenario of how the end-user will use the system.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "user-persona",
+        "user-story",
+        "end-user",
+        "workflow"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/UserScenario",
+        "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "user-acceptance-testing",
+      "prefLabel": "User Acceptance Testing (UAT)",
+      "notation": "UAT",
+      "altLabel": [
+        "UAT",
+        "User acceptance testing"
+      ],
+      "definition": "User acceptance testing (UAT) is conducted to see whether the end-users are satisfied with the end product (24).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "beta-version",
+        "deploy",
+        "end-user",
+        "functional-requirements"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/TestScenario",
+        "https://litlfred.github.io/smart-base/v0/ns#TestScenario"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "user-persona",
+      "prefLabel": "User Persona",
+      "altLabel": [
+        "User persona",
+        "Generic Persona"
+      ],
+      "definition": "A generic or archetypical profile of an end-user that is representative of a single type of end-user.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "end-user",
+        "use-case",
+        "user-story",
+        "digital-adaptation-kits"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona",
+        "https://litlfred.github.io/smart-base/v0/ns#ActorDefinition"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "user-scenario",
+      "prefLabel": "User Scenario",
+      "definition": "L2 Digital Adaptation Kit (DAK) narrative component describing how generic personas interact with the digital system during a specific care encounter or workflow.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
+      "related": [
+        "use-case",
+        "user-persona",
+        "user-story",
+        "digital-adaptation-kits"
+      ],
+      "exactMatch": [
+        "http://smart.who.int/base/StructureDefinition/UserScenario",
+        "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "user-story",
+      "prefLabel": "User Story",
+      "altLabel": [
+        "User story"
+      ],
+      "definition": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "end-user",
+        "user-persona",
+        "use-case",
+        "features",
+        "functional-requirements"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+        "https://litlfred.github.io/smart-base/v0/ns#FunctionalRequirement",
+        "http://smart.who.int/base/StructureDefinition/UserScenario",
+        "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "wireframes",
+      "prefLabel": "Wireframes",
+      "altLabel": [
+        "Wireframe"
+      ],
+      "definition": "Low fidelity outlines that depict the overall design ideas and flow of the final product (see section 4.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "mock-up",
+        "prototype",
+        "minimum-viable-product"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "workflow",
+      "prefLabel": "Workflow",
+      "definition": "The sequence of activities from one task to another (see section 3.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "related": [
+        "business-process",
+        "as-is",
+        "to-be",
+        "pain-point",
+        "trigger-event"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
+        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
+      ],
+      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    }
+  ],
+  "modified": "2026-10-31",
+  "license": "CC-BY-NC-SA-3.0-IGO"
+}

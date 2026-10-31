@@ -1,0 +1,299 @@
+{
+  "$schema": "folio-index-config/v1",
+  "instances": [
+    {
+      "name": "dth-phc",
+      "source": {
+        "local": {
+          "at": "."
+        }
+      }
+    },
+    {
+      "name": "who-iris",
+      "source": {
+        "remote": {
+          "repository": "litlfred/who-iris",
+          "ref": "bdadee3d159a27d58834133872e20ec631665f6c",
+          "overrides": {
+            "who-iris": {
+              "whole": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-30",
+              "ref": "bdadee3d159a27d58834133872e20ec631665f6c",
+              "evidence": "litlfred, 2026-10-30 23:10Z, decision card in thread 'Align smart-ra and DTH handbook pipelines': 'A. Yes, re-pin in #42' to 'May I re-pin who-iris in dth-hrh to fix the mount?'; at 23:33Z the thread said it would take who-iris#133 under that OK and the owner then merged #133 (23:36Z). main tip bdadee3 = #133 (catalogue forwarding stub gets a body, which staging-banner needs) + #132 (glossary regen) on top of b17b03a."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "smart-base",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-base",
+          "ref": "07a4c1ec0f8fbd645c74badc0a44ccbd4fdfb863",
+          "overrides": {
+            "smart-base": {
+              "path": "smart-base",
+              "directories": [
+                "smart-base-qa-checkers",
+                "smart-base-block-kinds",
+                "smart-base-content-adapters",
+                "smart-base-translations",
+                "library",
+                "methodologies",
+                "processes",
+                "smart-base-house-processes",
+                "smart-base-artifact-index",
+                "tools",
+                "smart-base-themes",
+                "smart-base-docs",
+                "smart-base-document-kinds",
+                "smart-base-findings",
+                "smart-base-platform",
+                "smart-base-schemas",
+                "smart-base-pipeline",
+                "smart-base-scripts",
+                "smart-base-skills",
+                "smart-base-scenarios",
+                "smart-base-code-lists",
+                "smart-base-typologies",
+                "smart-base-validators"
+              ]
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-30",
+              "ref": "07a4c1ec0f8fbd645c74badc0a44ccbd4fdfb863",
+              "evidence": "Owner litlfred, 2026-10-16 (06:51Z): 'merge and repin window open 3 hrs'; re-pin to main after smart-base#93/#97 and folio-assistant-core#132 merged; main tip 07a4c1e (who-iris mount #224, CI #227 #229, schemas move #225, sidecars #198). Window: litlfred 2026-10-30 11:13Z 'merge and repin window open for 4 horus', extended 16:37Z 'merge window +3 hrs' (to ~19:38Z)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "fhir-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/fhir-harness",
+          "ref": "5545d6b5f803f9b4e38b9d0d55f38da82e2f8c93",
+          "overrides": {
+            "fhir-harness": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-30",
+              "ref": "5545d6b5f803f9b4e38b9d0d55f38da82e2f8c93",
+              "evidence": "Re-pin fhir-harness to its current main for dth-hrh (owner 2026-10-16: open a new window to fix the smart-base folder declaration, remove the expo cap, and re-pin); main tip 5545d6b (IG pages #214, CI #217 #221, direction #224, schemas move #215). Window: litlfred 2026-10-30 11:13Z 'merge and repin window open for 4 horus', extended 16:37Z 'merge window +3 hrs' (to ~19:38Z)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "folio-assistant-core",
+      "source": {
+        "remote": {
+          "repository": "litlfred/folio-assistant-core",
+          "ref": "1602a1be5ac16b95fa70b487f142d47d210e652b",
+          "overrides": {
+            "folio-assistant-core": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-31",
+              "ref": "1602a1be5ac16b95fa70b487f142d47d210e652b",
+              "evidence": "litlfred, 2026-10-31: card 'A. Merge when green' for core#328 (thread Review sheet Apps Script), merge and repin window to ~09:00Z; re-pin folio-assistant-core to core#328 (1602a1b): review-sheet Code.gs, readable Config, relative sheet-sync URLs"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness",
+          "ref": "6aa373c3c932379ff22bb2cbb3d27a8953056ea4",
+          "overrides": {
+            "cat-harness": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-31",
+              "ref": "6aa373c3c932379ff22bb2cbb3d27a8953056ea4",
+              "evidence": "litlfred, decision card in thread 'Align smart-ra and DTH handbook pipelines', 2026-10-31 00:10:38Z: 'A. Merge, re-pin, republish' (merge cat-harness#821 and cat-harness-tools#1044, then re-pin smart-ra and dth-hrh and republish both). cat-harness main 6aa373c carries the theme-switch fix for the unstyled flash on fresh loads (#820); tools main f2e2a2a its test."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness-tools",
+          "ref": "2d017c9fd101ec8735ce68282005b68c6df775fa",
+          "overrides": {
+            "cat-harness-tools": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-31",
+              "ref": "2d017c9fd101ec8735ce68282005b68c6df775fa",
+              "evidence": "litlfred, 2026-10-31 01:59:58Z (via coordinator): 'merge repin winfow + 3hts' (window to ~05:00Z); main tip 2d017c9 (re-pin tools past the archimate fix (#1070))."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap",
+          "ref": "3ce2b5d641779ca78432971abb919e6e3afdc60a",
+          "overrides": {
+            "bootstrap": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-30",
+              "ref": "3ce2b5d641779ca78432971abb919e6e3afdc60a",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'; main tip 3ce2b5d (main, matches cat-harness-tools). Window: litlfred 2026-10-30 11:13Z 'merge and repin window open for 4 horus', extended 16:37Z 'merge window +3 hrs' (to ~19:38Z)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap-tools",
+          "ref": "b7fb762ba968a6868bbe5004144ddf78023eb9c7",
+          "overrides": {
+            "bootstrap-tools": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-30",
+              "ref": "b7fb762ba968a6868bbe5004144ddf78023eb9c7",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'; main tip b7fb762 (main, exports importClosure that cat-harness-tools needs). Window: litlfred 2026-10-30 11:13Z 'merge and repin window open for 4 horus', extended 16:37Z 'merge window +3 hrs' (to ~19:38Z)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "dpi-h-ra",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-ra",
+          "ref": "6c60711bf241a9fe04755e29f2c00e0c2d58e46a",
+          "overrides": {
+            "dpi-h-ra": {
+              "directories": [
+                "glossary",
+                "archimate"
+              ]
+            },
+            "who-iris": {
+              "skip": true
+            },
+            "smart-base": {
+              "skip": true
+            },
+            "fhir-harness": {
+              "skip": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-31",
+              "ref": "6c60711bf241a9fe04755e29f2c00e0c2d58e46a",
+              "evidence": "litlfred, 2026-10-31 08:14Z, decision card in thread 'Finish dth-hrh issue 47': 'A. Wiring now (items 1-4)' (merge smart-ra#144 and #148, then one dth-hrh draft PR mounting smart-ra with glossary and ArchiMate links); plan option A for L2 DTHs on smart-ra, 2026-10-31 00:26Z, thread 'Prepare DTH ingests as L2 on smart-ra'. main tip 6c60711 = #148 (RA glossary as SKOS) on #144 (full-STAC glossary)."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "site": {
+    "landing": "dth-phc"
+  }
+}

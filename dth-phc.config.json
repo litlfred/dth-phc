@@ -1,0 +1,46 @@
+{
+  "contentType": "document",
+  "adapter": "document",
+  "adapterModule": "./folio-assistant-core/adapters/document/index.ts",
+  "dependencies": {
+    "folioAssistant": [
+      {
+        "name": "folio-assistant-core",
+        "path": "folio-assistant-core"
+      },
+      {
+        "name": "smart-base",
+        "path": "smart-base"
+      }
+    ]
+  },
+  "feedbackDir": ".folio-feedback",
+  "skills": ".claude/skills/local",
+  "viewer": {
+    "dir": "cat-harness-tools/viewer",
+    "port": 8080
+  },
+  "readme": {
+    "linkStyle": "blob",
+    "publishRef": "gh-pages"
+  },
+  "site": {
+    "build": {
+      "sourceSteps": [
+        "site:document",
+        "site:library",
+        "site:glossary"
+      ],
+      "siteSteps": [
+        "site:node-kinds"
+      ],
+      "pre": [
+        "check:dth-glossary"
+      ],
+      "keep": [
+        "ns"
+      ]
+    }
+  },
+  "_site_comment": "`site.build.pre` runs check:dth-glossary now; add check:kg-blocks once the folio block KG nodes (`bun run kg:blocks`) are generated in Step P4+. `site.build.keep`: `ns`, the JSON-LD context at ns/context/v1.jsonld that the block KG nodes name."
+}
