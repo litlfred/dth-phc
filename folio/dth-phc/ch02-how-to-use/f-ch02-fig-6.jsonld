@@ -13,21 +13,38 @@
   ],
   "label": "fig:6",
   "kind": "figure",
-  "title": "Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources (reproduced from WHO DIIG Fig. 1.1.1)",
+  "title": "Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources, with this handbook in phase 05 (adapted from WHO DIIG Fig. 1.1.1)",
   "uses": [
     "papers/dth-phc/blocks/prose-ch02-sec-009-prerequisites"
   ],
   "text": "f-ch02-fig-6.md",
   "meta": {
-    "title": "Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources (reproduced from WHO DIIG Fig. 1.1.1)",
+    "title": "Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources, with this handbook in phase 05 (adapted from WHO DIIG Fig. 1.1.1)",
     "source": {
       "library": "9789240093362-eng",
       "section": "sec-009-23-before-using-this-resource",
       "file": "who-iris/library/9789240093362-eng/sections/sec-009-23-before-using-this-resource.md",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p024.png",
+      "page": 24,
       "pdfPages": [
         24
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "citation": "WHO. Digital transformation handbook for primary health care: optimizing person-centred point of service systems. 2024. Fig. 6, adapted from WHO Digital implementation investment guide (DIIG), 2020, Fig. 1.1.1",
+      "issue": "litlfred/dth-phc#1",
+      "generated": {
+        "adaptation": "figure-data/diig-phases-phc.json",
+        "repo": "https://github.com/litlfred/who-iris",
+        "commit": "3ecd60367222d7cc8eb0960061bcc06eb7a985dd",
+        "data": "https://github.com/litlfred/who-iris/blob/3ecd60367222d7cc8eb0960061bcc06eb7a985dd/library/9789240116191-eng/figure-data/fig-4-diig-phases.json",
+        "generator": "https://github.com/litlfred/folio-assistant-core/blob/aeef4ea569c25cff8649d7365e69554eadab6027/scripts/diig-phases-svg.ts",
+        "tool": "diig-phases-svg",
+        "pr": [
+          "https://github.com/litlfred/who-iris/pull/149",
+          "https://github.com/litlfred/folio-assistant-core/pull/405"
+        ],
+        "output": "diig-phases-phc.svg"
+      }
     },
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/enterprise-architecture",
