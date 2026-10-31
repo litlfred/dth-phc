@@ -24,10 +24,26 @@
       "library": "9789240093362-eng",
       "section": "sec-005-12-smart-guidelines",
       "file": "who-iris/library/9789240093362-eng/sections/sec-005-12-smart-guidelines.md",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p020.png",
+      "page": 20,
       "pdfPages": [
         20
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "citation": "WHO. Digital transformation handbook for primary health care: optimizing person-centred point of service systems. 2024. Fig. 5, adapted from WHO SMART Guidelines (Mehl et al., 2021)",
+      "issue": "litlfred/dth-phc#1",
+      "generated": {
+        "repo": "https://github.com/litlfred/who-iris",
+        "commit": "3ecd60367222d7cc8eb0960061bcc06eb7a985dd",
+        "data": "https://github.com/litlfred/who-iris/blob/3ecd60367222d7cc8eb0960061bcc06eb7a985dd/library/9789240116191-eng/figure-data/fig-5-smart-guidelines-approach.json",
+        "generator": "https://github.com/litlfred/folio-assistant-core/blob/aeef4ea569c25cff8649d7365e69554eadab6027/scripts/smart-approach-svg.ts",
+        "tool": "smart-approach-svg",
+        "pr": [
+          "https://github.com/litlfred/who-iris/pull/149",
+          "https://github.com/litlfred/folio-assistant-core/pull/405"
+        ],
+        "output": "fig-5-smart-guidelines-approach.svg"
+      }
     },
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines",
