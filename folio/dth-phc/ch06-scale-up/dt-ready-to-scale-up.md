@@ -4,10 +4,13 @@ Formal DMN 1.5 decision table (`Decision_ReadyToScaleUp`, `hitPolicy="FIRST"`) e
 
 ## Decision structure
 
+Written from the DMN file next to this page.
+
 - **Inputs:**
-  - `pcpossReady` (`boolean`): PCPOSS technical, functional and usability readiness verified (6.1).
-  - `healthSystemReady` (`boolean`): Health system governance, financing, infrastructure and workforce readiness verified (6.1).
-  - `objectivesMet` (`boolean`): SMART objectives and Table 5 benchmark thresholds met during pilot monitoring (6.2, 6.3).
+  - `pcpossReady` (`boolean`): PCPOSS ready?
+  - `healthSystemReady` (`boolean`): Health system ready?
+  - `objectivesMet` (`boolean`): Objectives met?
 - **Outputs:**
-  - `scaleUpDecision` (`"proceed"` | `"not"`): Routes to `Task_6_4_PhaseOutLegacySystems` (`"proceed"`) or `Task_6_3a_RemediateReadinessGaps` (`"not"`).
-  - `nextStep`: Actionable remediation or scale-up instruction.
+  - `outcome` (`"proceed"` | `"not"` | `"unknown"`): Proceed or not
+  - `guidance`: Handbook guidance (6.1, 6.2, 6.4)
+- **Rules:** 5, hit policy `FIRST`. The last rule returns `"unknown"` when any input has not been answered.

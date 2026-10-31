@@ -12,5 +12,5 @@ The primary point-of-service end-user of a PCPOSS (section 1.1, `sec-004`; Phase
    - [`design-and-adaptation.bpmn#Lane-Ch4-Users`](../../../processes/design-and-adaptation.bpmn) (*Health Workers & Health Service Users*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Users`](../../../processes/training-testing-and-roll-out.bpmn) (*Health Workers, Clerks & Supervisors*)
    - [`scale-up.bpmn#Lane-Ch6-Users`](../../../processes/scale-up.bpmn) (*Health Workers & Clerks*)
-2. **`smart-ra` ArchiMate mapping:** Existing `archimate:Stakeholder` **Health Workers** (`id-8d3dd8b68d504c2a9fe8cf414b16c127` in `WHOBaseFile.archimate`); `smart-base` generic personas `HealthcareProvider; CommunityHealthWorker`.
+2. **Concepts:** [Health Worker](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-worker), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:health-worker` (aligned with `dth-hrh:health-worker`).

@@ -603,7 +603,7 @@
    "sections": [
     "sec:2-1"
    ],
-   "hash": "09084c7d934b",
+   "hash": "2b71e7894356",
    "excerpt": "Starting-scenario classification decision table (section 2.1) Formal DMN 1.5 decision table ( Decision StartingScenario , hitPolicy=\"FIRST\" ) derived from secti",
    "method": "folio-snapshot"
   },
@@ -627,7 +627,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "65d7344f73b8",
+   "hash": "9f404ae77071",
    "excerpt": "Business analyst A core member of the PCPOSS implementing team (section 2.2) who translates health service delivery needs, clinical guidelines and operational w",
    "method": "folio-snapshot"
   },
@@ -639,7 +639,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "73db18db0bed",
+   "hash": "481e23ae8767",
    "excerpt": "Health informatician A core member of the PCPOSS implementing team (section 2.2) responsible for health data dictionaries, terminology bindings, indicator mappi",
    "method": "folio-snapshot"
   },
@@ -651,7 +651,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "635c620f39ec",
+   "hash": "fbb4ede5e290",
    "excerpt": "Software engineer A core member of the PCPOSS implementing team or technology partner (section 2.2) who builds, configures, integrates and tests the PCPOSS soft",
    "method": "folio-snapshot"
   },
@@ -663,7 +663,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "c44a44a3e684",
+   "hash": "1b2ed27e7b5d",
    "excerpt": "Solutions architect A core member of the PCPOSS implementing team (section 2.2) who designs the end-to-end technical architecture and enterprise integration of ",
    "method": "folio-snapshot"
   },
@@ -675,8 +675,8 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "24a3c693981c",
-   "excerpt": "Designer A core member of the PCPOSS implementing team (section 2.2) responsible for human-centred interface design and prototyping: - Role definition (section ",
+   "hash": "261a6a52a4fc",
+   "excerpt": "Designer A core member of the PCPOSS implementing team (section 2.2) responsible for human-centred interface design and prototyping: - Role summary (agent draft",
    "method": "folio-snapshot"
   },
   {
@@ -687,8 +687,8 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "1fdb29456182",
-   "excerpt": "User researcher A core member of the PCPOSS implementing team (section 2.2) who studies end-users in their real clinical and community environments: - Role defi",
+   "hash": "f405e71c4014",
+   "excerpt": "User researcher A core member of the PCPOSS implementing team (section 2.2) who studies end-users in their real clinical and community environments: - Role summ",
    "method": "folio-snapshot"
   },
   {
@@ -699,7 +699,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "339a1f84ebf7",
+   "hash": "497bf20491bb",
    "excerpt": "Technology partner (vendor) An external or internal software development organization contracted or designated to configure, build, deploy and maintain the PCPO",
    "method": "folio-snapshot"
   },
@@ -711,7 +711,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "4dca9047ebaf",
+   "hash": "a61a4d72006c",
    "excerpt": "Implementing team The multidisciplinary team formed in section 2.2 ( sec-008 ) that coordinates and executes all four phases of the PCPOSS implementation lifecy",
    "method": "folio-snapshot"
   },
@@ -723,7 +723,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "8c997f8da194",
+   "hash": "7dc5cfc0df44",
    "excerpt": "Monitoring and evaluation (M&E) specialist A specialist Named in the Phase 1 ( sec-011 ) and Phase 4 ( sec-029 ) \"Who should be involved\" panels who defines agg",
    "method": "folio-snapshot"
   },
@@ -735,7 +735,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "d2073399ea50",
+   "hash": "963c9bf27d8a",
    "excerpt": "Public health authority / Ministry of Health (MoH) The primary target audience and governing authority of the handbook (section 1.3, sec-006 ; Phase 1–4 panels)",
    "method": "folio-snapshot"
   },
@@ -747,7 +747,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "c2e80cf517fc",
+   "hash": "4f54e3ae3ae0",
    "excerpt": "Health worker (clinician, nurse, midwife, community health worker) The primary point-of-service end-user of a PCPOSS (section 1.1, sec-004 ; Phase 1–4 panels): ",
    "method": "folio-snapshot"
   },
@@ -759,7 +759,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "d15d73edcefb",
+   "hash": "1fc4df462b86",
    "excerpt": "Clerk (facility registration and records staff) Health facility registration, reception and medical records staff who check in clients, verify identity in the c",
    "method": "folio-snapshot"
   },
@@ -771,7 +771,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "0590125126ad",
+   "hash": "786826896e69",
    "excerpt": "Supervisor / health facility manager Health facility in-charges, clinical supervisors and district PHC supervisors who oversee service delivery, data quality, s",
    "method": "folio-snapshot"
   },
@@ -783,7 +783,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "9c54505702f6",
+   "hash": "0b313d387e00",
    "excerpt": "Health service user (patient / client) Any person receiving or seeking primary health care services, as well as their family members or caregivers, and the dire",
    "method": "folio-snapshot"
   },
@@ -795,7 +795,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "bd24b6577361",
+   "hash": "89001ab5feda",
    "excerpt": "Electronic health record (EHR) system One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a longitudinal ",
    "method": "folio-snapshot"
   },
@@ -807,7 +807,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "f2254d677329",
+   "hash": "f413bd3be46d",
    "excerpt": "Decision-support system (DSS) One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — the clinical and operat",
    "method": "folio-snapshot"
   },
@@ -819,7 +819,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "90c351138da5",
+   "hash": "74b75f1f1c8b",
    "excerpt": "Community-based information system (CBIS) One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a mobile or",
    "method": "folio-snapshot"
   },
@@ -831,7 +831,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "c2e5f0eb155d",
+   "hash": "1fe2538865d0",
    "excerpt": "Personal health record (PHR) system One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a client-facing d",
    "method": "folio-snapshot"
   },
@@ -843,7 +843,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "e8d17ae9dd81",
+   "hash": "ccbf36f3cdf8",
    "excerpt": "Donors, development partners and implementing partners International and domestic funding agencies, multilateral organizations, technical assistance partners an",
    "method": "folio-snapshot"
   },
@@ -1153,7 +1153,7 @@
    "sections": [
     "sec:3-4"
    ],
-   "hash": "0e0e26f7d056",
+   "hash": "ff780b78330a",
    "excerpt": "Data-element minimization decision table (section 3.4.4, Fig. 12) Formal DMN 1.5 decision table ( Decision KeepDataElement , hitPolicy=\"FIRST\" ) encoding the Fi",
    "method": "folio-snapshot"
   },
@@ -1263,7 +1263,7 @@
    "sections": [
     "sec:3-8"
    ],
-   "hash": "51772581aa3f",
+   "hash": "002d66de5ca8",
    "excerpt": "Requirement prioritization decision table (section 3.8 and Annex 13) Formal DMN 1.5 decision table ( Decision RequirementPriority , hitPolicy=\"FIRST\" ) encoding",
    "method": "folio-snapshot"
   },
@@ -1594,7 +1594,7 @@
    "sections": [
     "sec:6-1"
    ],
-   "hash": "f1f035cfe0b0",
+   "hash": "b62288135ec9",
    "excerpt": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5) Formal DMN 1.5 decision table ( Decision ReadyToScaleUp , hitPolicy=\"FIRST\" ) encoding the rea",
    "method": "folio-snapshot"
   },
@@ -1821,7 +1821,7 @@
    "sections": [
     "sec:annex-11"
    ],
-   "hash": "73b3396bd264",
+   "hash": "3a9703871678",
    "excerpt": "Annex 11: Decision-support table template and DMN 1.5 column mapping Formal mapping of the handbook's Annex 11 Decision-support table template ( sec-043 , secti",
    "method": "folio-snapshot"
   },

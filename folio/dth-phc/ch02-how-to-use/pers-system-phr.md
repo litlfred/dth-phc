@@ -8,5 +8,5 @@ One of the four core application types that make up a PCPOSS (section 1.1, `sec-
 
 1. **BPMN lanes & resources:**
    - Declared as `<bpmn:resource id="pers-system-phr">` in [`pcposs-implementation-lifecycle.bpmn`](../../../processes/pcposs-implementation-lifecycle.bpmn) and integrated in [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](../../../processes/design-and-adaptation.bpmn).
-2. **`smart-ra` ArchiMate mapping:** `archimate:ApplicationComponent` **Personal health record (PHR)** on the `smart-ra` PCPOSS view, serving `Patients` (`id-a2320dbc07e6450b94f3f0f3e03bb877`) and synchronising with `SHR Repository` (`id-0e6d89398fff4f20994a31b4de58e7d7`).
+2. **Concepts:** [Personal Health Record (PHR)](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/personal-health-record), [Point-of-service applications](https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications)
 3. **Glossary term:** `dth-phc:personal-health-record`.

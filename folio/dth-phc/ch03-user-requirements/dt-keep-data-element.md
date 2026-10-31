@@ -4,10 +4,13 @@ Formal DMN 1.5 decision table (`Decision_KeepDataElement`, `hitPolicy="FIRST"`) 
 
 ## Decision structure
 
+Written from the DMN file next to this page.
+
 - **Inputs:**
-  - `duplicated` (`boolean`): Is the data element duplicated across forms or registers?
-  - `orphaned` (`boolean`): Is the data element orphaned (collected on a form without any downstream clinical or reporting use)?
-  - `neededForCareOrIndicator` (`boolean`): Is the data element needed for direct clinical care, continuity of care, or an approved aggregate health indicator (section 3.4.3)?
+  - `duplicated` (`boolean`): Duplicated?
+  - `orphaned` (`boolean`): Orphaned?
+  - `neededForCareOrIndicator` (`boolean`): Needed for care or for an indicator?
 - **Outputs:**
-  - `disposition` (`"keep"` | `"remove"`): Routes to `Task_3_4_4_RetainDataElement` (`"keep"`) or `Task_3_4_4_RemoveDataElement` (`"remove"`).
-  - `rationale`: Standardized explanation recorded in the form data mapping worksheet (Annex 8).
+  - `decision` (`"remove"` | `"keep"` | `"unknown"`): Keep or remove
+  - `action`: Action to be taken (Fig. 12)
+- **Rules:** 6, hit policy `FIRST`. The last rule returns `"unknown"` when any input has not been answered.

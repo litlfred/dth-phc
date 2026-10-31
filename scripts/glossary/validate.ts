@@ -435,6 +435,18 @@ if (existsSync(FOLIO_DIR)) {
           fail(`${bf} (${cid}): ${JSON.stringify(c.hits)}`);
         }
       }
+      // The platform wants two copies: the companion next to the block (smart-base)
+      // and processes/decisions/ for BPMN gateway refs (cat-harness kg-audit).
+      // Until one copy can serve both, they must stay byte-identical (dth-phc#1 R3).
+      const dtMeta = JSON.parse(src.match(/meta: (\{.*\}),\n/)?.[1] ?? "{}");
+      if (dtMeta.canonicalDmn && existsSync(dmnPath)) {
+        const canon = join(ROOT, dtMeta.canonicalDmn);
+        if (!existsSync(canon)) {
+          fail(`${bf}: canonicalDmn '${dtMeta.canonicalDmn}' is missing`);
+        } else if (readFileSync(canon, "utf8") !== readFileSync(dmnPath, "utf8")) {
+          fail(`${dmnPath}: differs from canonicalDmn '${dtMeta.canonicalDmn}'; copy one over the other`);
+        }
+      }
       const decisionId = src.match(/decisionId:\s*"([^"]+)"/)?.[1];
       if (!decisionId) {
         fail(`${bf}: missing top-level decisionId`);

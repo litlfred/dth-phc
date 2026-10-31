@@ -5,9 +5,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-002-glossary",
-    "note": "Bibliographic reference title (WHO 2019 digital health guideline)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic reference title (WHO 2019 digital health guideline)"
   },
   {
     "location": "p3:s126",
@@ -15,9 +13,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-002-glossary",
-    "note": "Bibliographic reference title (WHO SMART Guidelines article)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic reference title (WHO SMART Guidelines article)"
   },
   {
     "location": "p4:s11",
@@ -25,9 +21,7 @@
     "reason": "background-fact",
     "classification": "background-fact",
     "section": "sec-003-introduction",
-    "note": "Historical background on the 2019 launch of the WHO digital health guideline",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Historical background on the 2019 launch of the WHO digital health guideline"
   },
   {
     "location": "p4:s12",
@@ -35,9 +29,7 @@
     "reason": "background-fact",
     "classification": "background-fact",
     "section": "sec-003-introduction",
-    "note": "Descriptive summary of the 2019 WHO digital health guideline's scope",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Descriptive summary of the 2019 WHO digital health guideline's scope"
   },
   {
     "location": "p7:s7",
@@ -45,9 +37,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-006-13-how-this-handbook-was-developed",
-    "note": "Editorial illustration of Principles for Digital Development in Section 1.3",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Editorial illustration of Principles for Digital Development in Section 1.3"
   },
   {
     "location": "p7:s8",
@@ -55,9 +45,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-006-13-how-this-handbook-was-developed",
-    "note": "Editorial explanation of 'Design with people' principle in Section 1.3",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Editorial explanation of 'Design with people' principle in Section 1.3"
   },
   {
     "location": "p10:s15",
@@ -66,9 +54,7 @@
     "classification": "reproduced-example",
     "section": "sec-009-23-before-using-this-resource",
     "reproducesBlock": "prose:fig-06-diig-reproduces",
-    "note": "Text inside Fig. 6 (reproduced from WHO DIIG 2020 Fig. 1.1.1)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Text inside Fig. 6 (reproduced from WHO DIIG 2020 Fig. 1.1.1)"
   },
   {
     "location": "p15:s13",
@@ -77,9 +63,7 @@
     "classification": "reproduced-example",
     "section": "sec-014-33-map-business-processes-and-workflows",
     "reproducesBlock": "prose:fig-10-11-anc-registration-reproduces",
-    "note": "Worked example cell in Table 1 (family planning / ANC care pathway example)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Worked example cell in Table 1 (family planning / ANC care pathway example)"
   },
   {
     "location": "p15:s126",
@@ -88,9 +72,7 @@
     "classification": "reproduced-example",
     "section": "sec-014-33-map-business-processes-and-workflows",
     "reproducesBlock": "prose:fig-10-11-anc-registration-reproduces",
-    "note": "Caption/source note on Figs. 10-11 (reproduced from WHO ANC DAK 2021)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Caption/source note on Figs. 10-11 (reproduced from WHO ANC DAK 2021)"
   },
   {
     "location": "p15:s128",
@@ -99,9 +81,7 @@
     "classification": "reproduced-example",
     "section": "sec-014-33-map-business-processes-and-workflows",
     "reproducesBlock": "prose:fig-10-11-anc-registration-reproduces",
-    "note": "Illustrative ANC clinic registration duplicate-entry example (Figs. 10-11)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Illustrative ANC clinic registration duplicate-entry example (Figs. 10-11)"
   },
   {
     "location": "p18:s43",
@@ -110,9 +90,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.01 (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.01 (Fig. 13)"
   },
   {
     "location": "p18:s53",
@@ -121,9 +99,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV/syphilis dual detection testing strategy row (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV/syphilis dual detection testing strategy row (Fig. 13)"
   },
   {
     "location": "p18:s55",
@@ -132,9 +108,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV early infant diagnosis reference row (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV early infant diagnosis reference row (Fig. 13)"
   },
   {
     "location": "p18:s58",
@@ -143,9 +117,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.03 (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.03 (Fig. 13)"
   },
   {
     "location": "p18:s59",
@@ -154,9 +126,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.04 (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.04 (Fig. 13)"
   },
   {
     "location": "p18:s61",
@@ -165,9 +135,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.05 (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.05 (Fig. 13)"
   },
   {
     "location": "p18:s62",
@@ -176,9 +144,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV DAK decision-support matrix activity header (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV DAK decision-support matrix activity header (Fig. 13)"
   },
   {
     "location": "p18:s63",
@@ -187,9 +153,7 @@
     "classification": "reproduced-example",
     "section": "sec-017-36-determine-decision-support-logic",
     "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
-    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.06 (Fig. 13)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.06 (Fig. 13)"
   },
   {
     "location": "p35:s7",
@@ -197,9 +161,7 @@
     "reason": "background-fact",
     "classification": "background-fact",
     "section": "sec-035-principles-for-digital-development",
-    "note": "External Principles for Digital Development annex lead-in (cited external source per dth-phc#1 §3b)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "External Principles for Digital Development annex lead-in (cited external source per dth-phc#1 §3b)"
   },
   {
     "location": "p42:s19",
@@ -207,9 +169,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-042-aggregate-indicator-mapping-guide",
-    "note": "Bibliographic citation of WHO ANC DAK (2021)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO ANC DAK (2021)"
   },
   {
     "location": "p42:s20",
@@ -217,9 +177,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-042-aggregate-indicator-mapping-guide",
-    "note": "Bibliographic citation of WHO Family Planning DAK (2021)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO Family Planning DAK (2021)"
   },
   {
     "location": "p42:s21",
@@ -227,9 +185,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-042-aggregate-indicator-mapping-guide",
-    "note": "Bibliographic citation of WHO HIV DAK (2023)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO HIV DAK (2023)"
   },
   {
     "location": "p42:s22",
@@ -237,9 +193,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-042-aggregate-indicator-mapping-guide",
-    "note": "Bibliographic citation of WHO TB DAK (2024)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO TB DAK (2024)"
   },
   {
     "location": "p43:s12",
@@ -247,9 +201,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-043-template-for-a-decision-support-table",
-    "note": "Bibliographic list header of published WHO DAKs",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic list header of published WHO DAKs"
   },
   {
     "location": "p43:s13",
@@ -257,9 +209,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-043-template-for-a-decision-support-table",
-    "note": "Bibliographic citation of WHO ANC DAK (2021)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO ANC DAK (2021)"
   },
   {
     "location": "p43:s14",
@@ -267,9 +217,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-043-template-for-a-decision-support-table",
-    "note": "Bibliographic citation of WHO Family Planning DAK (2021)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO Family Planning DAK (2021)"
   },
   {
     "location": "p43:s15",
@@ -277,9 +225,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-043-template-for-a-decision-support-table",
-    "note": "Bibliographic citation of WHO HIV DAK (2023)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO HIV DAK (2023)"
   },
   {
     "location": "p43:s16",
@@ -287,9 +233,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-043-template-for-a-decision-support-table",
-    "note": "Bibliographic citation of WHO TB DAK (2024)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Bibliographic citation of WHO TB DAK (2024)"
   },
   {
     "location": "p44:s6",
@@ -298,9 +242,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Cross-reference to ANC DAK service schedule example in Annex 12",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Cross-reference to ANC DAK service schedule example in Annex 12"
   },
   {
     "location": "p44:s7",
@@ -309,9 +251,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Reproduced Immunization DAK Hepatitis B birth-dose description cell (Annex 12 worked example)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced Immunization DAK Hepatitis B birth-dose description cell (Annex 12 worked example)"
   },
   {
     "location": "p44:s8",
@@ -320,9 +260,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Reproduced Immunization DAK Hepatitis B trigger event cell (Annex 12 worked example)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced Immunization DAK Hepatitis B trigger event cell (Annex 12 worked example)"
   },
   {
     "location": "p44:s10",
@@ -331,9 +269,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Reproduced Immunization DAK Hepatitis B due/overdue rationale cell (Annex 12 worked example)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced Immunization DAK Hepatitis B due/overdue rationale cell (Annex 12 worked example)"
   },
   {
     "location": "p44:s15",
@@ -342,9 +278,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Reproduced Immunization DAK Hepatitis B completion cell (Annex 12 worked example)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced Immunization DAK Hepatitis B completion cell (Annex 12 worked example)"
   },
   {
     "location": "p44:s16",
@@ -353,9 +287,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Reproduced Immunization DAK Hepatitis B 3- or 4-dose series cell (Annex 12 worked example)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced Immunization DAK Hepatitis B 3- or 4-dose series cell (Annex 12 worked example)"
   },
   {
     "location": "p44:s19",
@@ -364,9 +296,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Reproduced Immunization DAK Hepatitis B minimum 4-week interval cell (Annex 12 worked example)",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced Immunization DAK Hepatitis B minimum 4-week interval cell (Annex 12 worked example)"
   },
   {
     "location": "p44:s22",
@@ -375,9 +305,7 @@
     "classification": "reproduced-example",
     "section": "sec-044-scheduling-logic-table-guide",
     "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
-    "note": "Reproduced WHO routine immunization tables URL in Annex 12 worked example",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Reproduced WHO routine immunization tables URL in Annex 12 worked example"
   },
   {
     "location": "p47:s4",
@@ -385,9 +313,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-front-matter",
-    "note": "WHO CC BY-NC-SA 3.0 IGO licence no-endorsement clause",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "WHO CC BY-NC-SA 3.0 IGO licence no-endorsement clause"
   },
   {
     "location": "p47:s6",
@@ -395,9 +321,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-front-matter",
-    "note": "WHO CC BY-NC-SA 3.0 IGO share-alike adaptation licence clause",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "WHO CC BY-NC-SA 3.0 IGO share-alike adaptation licence clause"
   },
   {
     "location": "p47:s7",
@@ -405,9 +329,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-front-matter",
-    "note": "WHO translation disclaimer instruction",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "WHO translation disclaimer instruction"
   },
   {
     "location": "p47:s9",
@@ -415,9 +337,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-front-matter",
-    "note": "WHO binding original English edition clause",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "WHO binding original English edition clause"
   },
   {
     "location": "p47:s10",
@@ -425,9 +345,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-front-matter",
-    "note": "WIPO mediation clause for licence disputes",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "WIPO mediation clause for licence disputes"
   },
   {
     "location": "p47:s26",
@@ -435,9 +353,7 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-front-matter",
-    "note": "Standard WHO manufacturer/product non-endorsement disclaimer",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Standard WHO manufacturer/product non-endorsement disclaimer"
   },
   {
     "location": "p47:s31",
@@ -445,8 +361,6 @@
     "reason": "editorial",
     "classification": "editorial",
     "section": "sec-front-matter",
-    "note": "Standard WHO limitation of liability clause",
-    "signedOffBy": "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-    "signedOffAt": "2026-10-31"
+    "note": "Standard WHO limitation of liability clause"
   }
 ]

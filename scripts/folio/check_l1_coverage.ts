@@ -42,6 +42,12 @@ const REPORT_PATH = join(FOLIO_DIR, "l1-coverage.json");
 const DOCS_MD_PATH = join(ROOT, "docs/l1-coverage.md");
 
 const WRITE = process.argv.includes("--write");
+const SIGNOFFS_PATH = join(FOLIO_DIR, "l1-signoffs.json");
+/** Owner sign-offs: `[{ "location": "p3:s70", "signedOffBy": "…", "signedOffAt": "YYYY-MM-DD", "evidence": "…" }]`. */
+const SIGNOFFS = new Map<string, { signedOffBy: string; signedOffAt: string }>(
+  (existsSync(SIGNOFFS_PATH) ? (JSON.parse(readFileSync(SIGNOFFS_PATH, "utf8")) as Array<{ location: string; signedOffBy: string; signedOffAt: string }>) : [])
+    .map((x) => [x.location, { signedOffBy: x.signedOffBy, signedOffAt: x.signedOffAt }]),
+);
 
 interface EnrichedExclusion extends Exclusion {
   classification: "editorial" | "background-fact" | "reproduced-example";
@@ -293,8 +299,9 @@ for (const pg of pagesMeta) {
         section: pg.section,
         ...(exSpec.reproducesBlock ? { reproducesBlock: exSpec.reproducesBlock } : {}),
         note: exSpec.note,
-        signedOffBy: "litlfred (per litlfred/dth-phc#1 §3b/§3d)",
-        signedOffAt: "2026-10-31",
+        // Only the owner signs an exclusion off (l1-signoffs.json). An agent
+        // never writes a name here, so an unsigned one stays a proposal.
+        ...(SIGNOFFS.get(loc) ?? {}),
       });
     } else {
       const blocks = sectionToBlocks.get(pg.section) ?? ["prose:ch01-sec-003-introduction"];
@@ -394,6 +401,11 @@ if (WRITE) {
 
 const code = exitCodeFor(report);
 console.log(
-  `OK: l1-coverage ${report.totals.accountedForPct}% accounted-for (${report.totals.normative} normative sentences: ${report.totals.captured} captured [${report.totals.capturedPct}%], ${report.totals.excluded} excluded [editorial=${enrichedReport.classificationBreakdown.editorial}, background-fact=${enrichedReport.classificationBreakdown.backgroundFact}, reproduced-example=${enrichedReport.classificationBreakdown.reproducedExample}], ${report.totals.unaccounted} unaccounted)`
+  `${code === 0 ? "OK" : "OPEN"}: l1-coverage ${report.totals.accountedForPct}% accounted-for (${report.totals.normative} normative sentences: ${report.totals.captured} captured [${report.totals.capturedPct}%], ${report.totals.excluded} excluded [editorial=${enrichedReport.classificationBreakdown.editorial}, background-fact=${enrichedReport.classificationBreakdown.backgroundFact}, reproduced-example=${enrichedReport.classificationBreakdown.reproducedExample}], ${report.totals.unaccounted} unaccounted)`
 );
+const proposed = exclusions.filter((e) => !e.signedOffBy).length;
+if (proposed > 0) {
+  console.log(`  ${proposed} exclusion(s) are proposals waiting for the owner's sign-off in folio/dth-phc/l1-signoffs.json:`);
+  for (const e of exclusions.filter((x) => !x.signedOffBy)) console.log(`    ${e.location}\t${e.classification}\t${e.section}\t${(e.text ?? "").slice(0, 110)}`);
+}
 process.exit(code);

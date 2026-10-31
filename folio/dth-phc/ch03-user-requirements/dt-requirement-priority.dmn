@@ -43,11 +43,18 @@
       </rule>
 
       <rule id="Rule_LowPriority">
-        <description>Annex 13 (Low priority / nice-to-have): Not necessary given time and budget constraints, but value-adding for future releases and updates on the roadmap.</description>
-        <inputEntry id="IE_Low_1"><text>-</text></inputEntry>
-        <inputEntry id="IE_Low_2"><text>-</text></inputEntry>
+        <description>Annex 13 (Low priority / nice-to-have): Not necessary given time and budget constraints, but value-adding for future releases and updates on the roadmap. Inputs are explicit so that a missing answer falls to Rule_Unknown.</description>
+        <inputEntry id="IE_Low_1"><text>false</text></inputEntry>
+        <inputEntry id="IE_Low_2"><text>false</text></inputEntry>
         <outputEntry id="OE_Low_1"><text>"Low"</text></outputEntry>
         <outputEntry id="OE_Low_2"><text>"Nice-to-have: value-adding feature for future roadmap releases"</text></outputEntry>
+      </rule>
+      <rule id="Rule_Unknown">
+        <description>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</description>
+        <inputEntry id="IE_RequirementPriorityUnknown_1"><text>-</text></inputEntry>
+        <inputEntry id="IE_RequirementPriorityUnknown_2"><text>-</text></inputEntry>
+        <outputEntry id="OE_RequirementPriorityUnknown_1"><text>"unknown"</text></outputEntry>
+        <outputEntry id="OE_RequirementPriorityUnknown_2"><text>"Answer every input question before this decision is made."</text></outputEntry>
       </rule>
     </decisionTable>
   </decision>

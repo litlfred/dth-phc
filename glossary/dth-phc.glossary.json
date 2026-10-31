@@ -60,7 +60,6 @@
         "ANC",
         "Antenatal Care"
       ],
-      "definition": "Antenatal care (ANC): preventive and clinical health care services provided to pregnant women and adolescent girls by skilled health personnel throughout pregnancy, used in this handbook as a core primary health care clinical workflow and Digital Adaptation Kit (DAK) domain.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "primary-health-care",
@@ -68,7 +67,7 @@
         "care-pathway",
         "longitudinal-tracking"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Antenatal care (ANC): preventive and clinical health care services provided to pregnant women and adolescent girls by skilled health personnel throughout pregnancy, used in this handbook as a core primary health care clinical workflow and Digital Adaptation Kit (DAK) domain.",
       "status": "candidate"
     },
     {
@@ -85,7 +84,6 @@
     {
       "id": "architecture",
       "prefLabel": "Architecture",
-      "definition": "The fundamental structure of a digital system or ecosystem, encompassing its components, their relationships, and the principles and guidelines governing their design and evolution.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "enterprise-architecture",
@@ -96,7 +94,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The fundamental structure of a digital system or ecosystem, encompassing its components, their relationships, and the principles and guidelines governing their design and evolution.",
       "status": "candidate"
     },
     {
@@ -107,7 +105,6 @@
         "ABB",
         "Architecture Building Block"
       ],
-      "definition": "Reusable architectural components defining functional and technical capabilities within a reference or enterprise architecture for digital health systems.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "broader": [
         "architecture"
@@ -121,7 +118,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-service"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Reusable architectural components defining functional and technical capabilities within a reference or enterprise architecture for digital health systems.",
       "status": "candidate"
     },
     {
@@ -221,7 +218,6 @@
       "altLabel": [
         "Business analyst"
       ],
-      "definition": "Someone who helps bridge the gap between what users need and how the technology should work. They help translate health requirements into technical plans (section 2.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -237,7 +233,7 @@
         "https://litlfred.github.io/smart-base/v0/ns#Persona",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
       ],
-      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc, smart-base and cat-harness.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who helps bridge the gap between what users need and how the technology should work. They help translate health requirements into technical plans (section 2.2).",
       "status": "candidate"
     },
     {
@@ -322,7 +318,6 @@
     {
       "id": "capability",
       "prefLabel": "Capability",
-      "definition": "An ability that an organization, person, or system possesses to achieve a specific health or operational outcome.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "features",
@@ -333,7 +328,7 @@
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/capability"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An ability that an organization, person, or system possesses to achieve a specific health or operational outcome.",
       "status": "candidate"
     },
     {
@@ -371,7 +366,6 @@
     {
       "id": "classifications",
       "prefLabel": "Classifications",
-      "definition": "Standardized systems of categories used to group health conditions, interventions, and related health concepts for statistical reporting, clinical documentation, and semantic interoperability.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "coding-schemes",
@@ -381,7 +375,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Standardized systems of categories used to group health conditions, interventions, and related health concepts for statistical reporting, clinical documentation, and semantic interoperability.",
       "status": "candidate"
     },
     {
@@ -392,7 +386,6 @@
         "Registration clerk",
         "Records clerk"
       ],
-      "definition": "Health facility registration, reception and medical records staff who register clients, verify client identity and maintain facility registers (sections 3.1, 3.3.2 Figs. 10–11, 5.1, 6.4).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012.json",
       "broader": [
         "end-user",
@@ -407,7 +400,7 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Facility registration/records end-user role in section 3.1 and Figs. 10–11 (Workflow A: ANC Registration).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health facility registration, reception and medical records staff who register clients, verify client identity and maintain facility registers (sections 3.1, 3.3.2 Figs. 10–11, 5.1, 6.4).",
       "status": "candidate"
     },
     {
@@ -434,7 +427,6 @@
     {
       "id": "coding-schemes",
       "prefLabel": "Coding Schemes",
-      "definition": "Formal sets of codes and rules assigning unique identifiers to clinical concepts, data elements, and classifications to support unambiguous data capture and exchange.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "classifications",
@@ -444,7 +436,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Formal sets of codes and rules assigning unique identifiers to clinical concepts, data elements, and classifications to support unambiguous data capture and exchange.",
       "status": "candidate"
     },
     {
@@ -455,7 +447,6 @@
         "CRDM",
         "Collaborative Requirements Development Methodology"
       ],
-      "definition": "Collaborative Requirements Development Methodology (CRDM): structured methodology for analysing business processes, redesigning workflows, and defining functional and non-functional system requirements for health information systems.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "business-process",
@@ -463,7 +454,7 @@
         "functional-requirements",
         "non-functional-requirements"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Collaborative Requirements Development Methodology (CRDM): structured methodology for analysing business processes, redesigning workflows, and defining functional and non-functional system requirements for health information systems.",
       "status": "candidate"
     },
     {
@@ -560,7 +551,6 @@
     {
       "id": "data-exchange",
       "prefLabel": "Data Exchange",
-      "definition": "The structured transmission and sharing of health and administrative data between digital systems using agreed syntactic and semantic interoperability standards.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "interoperability",
@@ -571,7 +561,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-information-exchange",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The structured transmission and sharing of health and administrative data between digital systems using agreed syntactic and semantic interoperability standards.",
       "status": "candidate"
     },
     {
@@ -690,7 +680,6 @@
         "User-experience designer",
         "UX Designer"
       ],
-      "definition": "Someone who focuses on how the software looks and feels to the user, making sure it is easy to understand and navigate (section 2.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -706,7 +695,7 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate role.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who focuses on how the software looks and feels to the user, making sure it is easy to understand and navigate (section 2.2).",
       "status": "candidate"
     },
     {
@@ -732,7 +721,6 @@
         "DBP",
         "Diastolic Blood Pressure"
       ],
-      "definition": "Diastolic blood pressure (DBP): arterial blood pressure measured between heartbeats, captured as a core clinical data element and used in clinical decision support rules (such as antenatal care hypertension screening).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "systolic-blood-pressure",
@@ -744,7 +732,7 @@
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
         "https://litlfred.github.io/smart-base/v0/ns#DataElement"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Diastolic blood pressure (DBP): arterial blood pressure measured between heartbeats, captured as a core clinical data element and used in clinical decision support rules (such as antenatal care hypertension screening).",
       "status": "candidate"
     },
     {
@@ -815,7 +803,6 @@
     {
       "id": "digital-health-ecosystem",
       "prefLabel": "Digital Health Ecosystem",
-      "definition": "The interconnected network of digital health applications, shared infrastructure services, standards, governance policies, and stakeholders operating within a health system.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "broader": [
         "ecosystem"
@@ -828,7 +815,7 @@
       "closeMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The interconnected network of digital health applications, shared infrastructure services, standards, governance policies, and stakeholders operating within a health system.",
       "status": "candidate"
     },
     {
@@ -948,7 +935,6 @@
         "Donors, development partners and implementing partners",
         "Implementing partner"
       ],
-      "definition": "Funding agencies, multilateral organizations, technical assistance partners and non-governmental implementing partners that co-finance and support digital health implementation in alignment with national strategies (sections 1.3, 2.3, 3.1, 6.1).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-006.json",
       "broader": [
         "user-persona"
@@ -963,13 +949,12 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Named in target audience (1.3) and Phase 1 / Phase 4 involvement panels (sec-011, sec-029).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Funding agencies, multilateral organizations, technical assistance partners and non-governmental implementing partners that co-finance and support digital health implementation in alignment with national strategies (sections 1.3, 2.3, 3.1, 6.1).",
       "status": "candidate"
     },
     {
       "id": "ecosystem",
       "prefLabel": "Ecosystem",
-      "definition": "A complex network of interacting systems, services, organizations, and users that exchange data and coordinate activities within a shared environment.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "digital-health-ecosystem",
@@ -978,7 +963,7 @@
       "closeMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): A complex network of interacting systems, services, organizations, and users that exchange data and coordinate activities within a shared environment.",
       "status": "candidate"
     },
     {
@@ -1016,7 +1001,6 @@
         "EMR",
         "Electronic Medical Records"
       ],
-      "definition": "Electronic medical record (EMR): digital version of a health service user's clinical chart maintained within a health care facility or point-of-service system to support diagnosis, treatment, and longitudinal clinical care.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "electronic-health-record-system",
@@ -1029,7 +1013,7 @@
       "broadMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Electronic medical record (EMR): digital version of a health service user's clinical chart maintained within a health care facility or point-of-service system to support diagnosis, treatment, and longitudinal clinical care.",
       "status": "candidate"
     },
     {
@@ -1094,7 +1078,6 @@
         "FHIR",
         "HL7 FHIR"
       ],
-      "definition": "Fast Healthcare Interoperability Resources (FHIR): HL7 open interoperability standard specifying data formats, resources, and application programming interfaces (APIs) for exchanging electronic health information.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "interoperability-standards",
@@ -1108,7 +1091,7 @@
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/fast-healthcare-interoperability-resources"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Fast Healthcare Interoperability Resources (FHIR): HL7 open interoperability standard specifying data formats, resources, and application programming interfaces (APIs) for exchanging electronic health information.",
       "status": "candidate"
     },
     {
@@ -1215,7 +1198,6 @@
     {
       "id": "generic-business-processes-and-workflows",
       "prefLabel": "Generic Business Processes and Workflows",
-      "definition": "Standardized L2 Digital Adaptation Kit (DAK) component representing clinical and operational activities, roles, and task sequences (typically modelled in BPMN) that a digital system supports across care encounters.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
       "broader": [
         "business-process",
@@ -1230,7 +1212,7 @@
         "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
         "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Standardized L2 Digital Adaptation Kit (DAK) component representing clinical and operational activities, roles, and task sequences (typically modelled in BPMN) that a digital system supports across care encounters.",
       "status": "candidate"
     },
     {
@@ -1254,7 +1236,6 @@
       "altLabel": [
         "Health informatician"
       ],
-      "definition": "Someone who understands both health care and information systems. They help make sure the system captures and uses health data in a meaningful and standardized way (section 2.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -1271,7 +1252,7 @@
         "https://litlfred.github.io/smart-base/v0/ns#Persona",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
       ],
-      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc and dth-hrh.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who understands both health care and information systems. They help make sure the system captures and uses health data in a meaningful and standardized way (section 2.2).",
       "status": "candidate"
     },
     {
@@ -1282,7 +1263,6 @@
         "HIS",
         "Health Information Systems"
       ],
-      "definition": "Health information system (HIS): socio-technical system that integrates data collection, processing, reporting, and use of health information to improve health service delivery and management across levels of the health system.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "information-system"
@@ -1294,7 +1274,7 @@
       "closeMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health information system (HIS): socio-technical system that integrates data collection, processing, reporting, and use of health information to improve health service delivery and management across levels of the health system.",
       "status": "candidate"
     },
     {
@@ -1311,7 +1291,6 @@
     {
       "id": "health-interventions-and-recommendations",
       "prefLabel": "Health Interventions and Recommendations",
-      "definition": "L2 Digital Adaptation Kit (DAK) component summarizing the normative WHO clinical and public health interventions and recommendations that the digital system is designed to operationalize.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
       "related": [
         "digital-adaptation-kits",
@@ -1322,7 +1301,7 @@
         "http://smart.who.int/base/StructureDefinition/HealthInterventions",
         "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component summarizing the normative WHO clinical and public health interventions and recommendations that the digital system is designed to operationalize.",
       "status": "candidate"
     },
     {
@@ -1350,7 +1329,6 @@
       "altLabel": [
         "HMIS"
       ],
-      "definition": "Health management information system (HMIS): information system specially designed to assist in the management and planning of health programmes and aggregate routine health facility reporting, distinct from individual point-of-service care systems.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "health-information-system"
@@ -1362,7 +1340,7 @@
       "broadMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health management information system (HMIS): information system specially designed to assist in the management and planning of health programmes and aggregate routine health facility reporting, distinct from individual point-of-service care systems.",
       "status": "candidate"
     },
     {
@@ -1420,7 +1398,6 @@
         "Community Health Worker",
         "CHW"
       ],
-      "definition": "Primary point-of-service clinical and community health care providers (doctors, clinical officers, nurses, midwives, community health workers) who use the PCPOSS to deliver primary health care services (sections 1.1, 3.1, 3.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-004.json",
       "broader": [
         "end-user",
@@ -1437,7 +1414,7 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Primary PCPOSS end-user occupational group across Chapters 1–6; maps to Health Workers stakeholder in smart-ra and dth-hrh.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Primary point-of-service clinical and community health care providers (doctors, clinical officers, nurses, midwives, community health workers) who use the PCPOSS to deliver primary health care services (sections 1.1, 3.1, 3.2).",
       "status": "candidate"
     },
     {
@@ -1492,7 +1469,6 @@
         "Implementing team",
         "PCPOSS Implementing Team"
       ],
-      "definition": "The multidisciplinary team formed in section 2.2 (comprising business analysts, health informaticians, software engineers, solutions architects, designers, user researchers and clinical/M&E experts) that plans, designs, tests, rolls out and scales up the PCPOSS.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -1509,13 +1485,12 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Section 2.2 composite team role. Open: candidate role.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The multidisciplinary team formed in section 2.2 (comprising business analysts, health informaticians, software engineers, solutions architects, designers, user researchers and clinical/M&E experts) that plans, designs, tests, rolls out and scales up the PCPOSS.",
       "status": "candidate"
     },
     {
       "id": "indicators-and-performance-metrics",
       "prefLabel": "Indicators and Performance Metrics",
-      "definition": "L2 Digital Adaptation Kit (DAK) component specifying numerator, denominator, and calculation logic for programme indicators and performance metrics derived from routine point-of-service data elements.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
       "related": [
         "digital-adaptation-kits",
@@ -1526,13 +1501,12 @@
         "http://smart.who.int/base/StructureDefinition/ProgramIndicator",
         "https://litlfred.github.io/smart-base/v0/ns#Indicator"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component specifying numerator, denominator, and calculation logic for programme indicators and performance metrics derived from routine point-of-service data elements.",
       "status": "candidate"
     },
     {
       "id": "information-system",
       "prefLabel": "Information System",
-      "definition": "An integrated set of components for collecting, storing, processing, and communicating data and information to support operations and decision-making.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "health-information-system",
@@ -1541,7 +1515,7 @@
       "closeMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An integrated set of components for collecting, storing, processing, and communicating data and information to support operations and decision-making.",
       "status": "candidate"
     },
     {
@@ -1625,7 +1599,6 @@
         "ICD-10",
         "ICD-11"
       ],
-      "definition": "International Classification of Diseases (ICD): WHO international standard diagnostic classification for epidemiology, clinical care, and health management.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "classifications",
@@ -1642,7 +1615,7 @@
       "broadMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): International Classification of Diseases (ICD): WHO international standard diagnostic classification for epidemiology, clinical care, and health management.",
       "status": "candidate"
     },
     {
@@ -1757,7 +1730,6 @@
     {
       "id": "interoperability-standards",
       "prefLabel": "Interoperability Standards",
-      "definition": "Agreed technical and semantic specifications (including transport protocols, data exchange formats such as HL7 FHIR, and terminologies/classifications such as ICD, LOINC, and SNOMED-CT) that enable health information systems to exchange and interpret shared data consistently.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "broader": [
         "open-standards"
@@ -1775,7 +1747,7 @@
       "closeMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Agreed technical and semantic specifications (including transport protocols, data exchange formats such as HL7 FHIR, and terminologies/classifications such as ICD, LOINC, and SNOMED-CT) that enable health information systems to exchange and interpret shared data consistently.",
       "status": "candidate"
     },
     {
@@ -1844,7 +1816,6 @@
       "altLabel": [
         "LOINC"
       ],
-      "definition": "Logical Observation Identifiers Names and Codes (LOINC): international standard terminology and coding system for identifying laboratory tests and clinical observations.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "interoperability-standards",
@@ -1858,7 +1829,7 @@
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Logical Observation Identifiers Names and Codes (LOINC): international standard terminology and coding system for identifying laboratory tests and clinical observations.",
       "status": "candidate"
     },
     {
@@ -1885,7 +1856,6 @@
     {
       "id": "metadata",
       "prefLabel": "Metadata",
-      "definition": "Structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage a data element or information resource (such as data type, coding scheme, validation rules, and provenance in a data dictionary).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "data-dictionary",
@@ -1895,7 +1865,7 @@
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
         "https://litlfred.github.io/smart-base/v0/ns#DataElement"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage a data element or information resource (such as data type, coding scheme, validation rules, and provenance in a data dictionary).",
       "status": "candidate"
     },
     {
@@ -1906,14 +1876,13 @@
         "MAPS",
         "mHealth Assessment and Planning for Scale"
       ],
-      "definition": "mHealth Assessment and Planning for Scale (MAPS): WHO toolkit and assessment methodology for planning, scaling up, and sustaining digital health implementations.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "digital-health",
         "digital-health-intervention",
         "deploy"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): mHealth Assessment and Planning for Scale (MAPS): WHO toolkit and assessment methodology for planning, scaling up, and sustaining digital health implementations.",
       "status": "candidate"
     },
     {
@@ -2001,7 +1970,6 @@
         "M&E Specialist",
         "M&E"
       ],
-      "definition": "Specialist responsible for mapping aggregate health indicators to point-of-service data elements (section 3.4.3) and assessing scale-up readiness and SMART objective benchmarks (sections 6.1–6.3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-011.json",
       "broader": [
         "user-persona"
@@ -2015,7 +1983,7 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Named in Phase 1 (sec-011) and Phase 4 (sec-029) involvement panels. Open: candidate shared role across dth-phc, dth-sc and dth-hrh.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Specialist responsible for mapping aggregate health indicators to point-of-service data elements (section 3.4.3) and assessing scale-up readiness and SMART objective benchmarks (sections 6.1–6.3).",
       "status": "candidate"
     },
     {
@@ -2245,7 +2213,6 @@
         "Personal health record",
         "Personal Health Record System"
       ],
-      "definition": "An application used by a health service user to access, manage and share their own health information, receive targeted client communications and appointment reminders, and interact with the health system (section 1.1).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-004.json",
       "related": [
         "person-centred-point-of-service-system",
@@ -2257,7 +2224,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
       ],
-      "scopeNote": "Fourth core application type of a PCPOSS in section 1.1 (alongside EHR, DSS and CBIS).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An application used by a health service user to access, manage and share their own health information, receive targeted client communications and appointment reminders, and interact with the health system (section 1.1).",
       "status": "candidate"
     },
     {
@@ -2268,7 +2235,6 @@
         "POS",
         "Point of Service"
       ],
-      "definition": "Point of service (POS): the setting and care encounter where health workers and health service users interact and where clinical and administrative data are captured and used in real time.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "person-centred-point-of-service-system",
@@ -2278,7 +2244,7 @@
       "closeMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Point of service (POS): the setting and care encounter where health workers and health service users interact and where clinical and administrative data are captured and used in real time.",
       "status": "candidate"
     },
     {
@@ -2351,7 +2317,6 @@
         "PHC",
         "Primary Health Care"
       ],
-      "definition": "Primary health care (PHC): whole-of-society approach to health that aims to ensure the highest possible level of health and well-being and their equitable distribution by focusing on people's needs and as early as possible along the continuum from health promotion and disease prevention to treatment, rehabilitation and palliative care, and as close as feasible to people's everyday environment.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "person-centred",
@@ -2363,7 +2328,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-programme",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/person-focused-health"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Primary health care (PHC): whole-of-society approach to health that aims to ensure the highest possible level of health and well-being and their equitable distribution by focusing on people's needs and as early as possible along the continuum from health promotion and disease prevention to treatment, rehabilitation and palliative care, and as close as feasible to people's everyday environment.",
       "status": "candidate"
     },
     {
@@ -2388,7 +2353,6 @@
         "Ministry of Health",
         "MoH"
       ],
-      "definition": "National or subnational government health authority (such as the Ministry of Health) that governs digital health strategy alignment, policy, resource allocation and scale-up of the PCPOSS (sections 1.3, 2.3, 5.0, 6.1).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-006.json",
       "broader": [
         "user-persona"
@@ -2403,7 +2367,7 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Primary target audience and governing authority in sections 1.3 and Phase 1–4 panels; maps to Ministry of Health stakeholder in smart-ra.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): National or subnational government health authority (such as the Ministry of Health) that governs digital health strategy alignment, policy, resource allocation and scale-up of the PCPOSS (sections 1.3, 2.3, 5.0, 6.1).",
       "status": "candidate"
     },
     {
@@ -2535,7 +2499,6 @@
     {
       "id": "requirements",
       "prefLabel": "Requirements",
-      "definition": "Documented statements of system capabilities, behaviours, and quality attributes needed by stakeholders and end-users, comprising both functional requirements and non-functional requirements.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
       "related": [
         "functional-requirements",
@@ -2548,7 +2511,7 @@
         "https://litlfred.github.io/smart-base/v0/ns#FunctionalRequirement",
         "https://litlfred.github.io/smart-base/v0/ns#NonFunctionalRequirement"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Documented statements of system capabilities, behaviours, and quality attributes needed by stakeholders and end-users, comprising both functional requirements and non-functional requirements.",
       "status": "candidate"
     },
     {
@@ -2573,7 +2536,6 @@
     {
       "id": "scheduling-logic",
       "prefLabel": "Scheduling Logic",
-      "definition": "L2 Digital Adaptation Kit (DAK) component specifying rules and timing intervals for follow-up visits, immunizations, laboratory tests, and care reminders across a longitudinal care pathway.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
       "related": [
         "decision-support-logic",
@@ -2586,7 +2548,7 @@
       "broadMatch": [
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component specifying rules and timing intervals for follow-up visits, immunizations, laboratory tests, and care reminders across a longitudinal care pathway.",
       "status": "candidate"
     },
     {
@@ -2643,7 +2605,6 @@
         "SNOMED",
         "CT"
       ],
-      "definition": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "interoperability-standards",
@@ -2657,7 +2618,7 @@
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
       "status": "candidate"
     },
     {
@@ -2687,7 +2648,6 @@
         "Software Developer",
         "Developer"
       ],
-      "definition": "A technical expert who creates and adapts software solutions. Sometimes referred to as a developer (section 2.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -2703,7 +2663,7 @@
         "https://litlfred.github.io/smart-base/v0/ns#Persona",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
       ],
-      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc, smart-base and cat-harness.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): A technical expert who creates and adapts software solutions. Sometimes referred to as a developer (section 2.2).",
       "status": "candidate"
     },
     {
@@ -2732,7 +2692,6 @@
         "Solutions architect",
         "Enterprise Architect"
       ],
-      "definition": "Someone who designs the overall technical structure of the system, making sure all the parts fit together and can connect with other digital health systems (section 2.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -2748,7 +2707,7 @@
         "https://litlfred.github.io/smart-base/v0/ns#Persona",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
       ],
-      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc, dth-sc and dth-hrh.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who designs the overall technical structure of the system, making sure all the parts fit together and can connect with other digital health systems (section 2.2).",
       "status": "candidate"
     },
     {
@@ -2759,14 +2718,13 @@
         "HRP",
         "UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction"
       ],
-      "definition": "UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction (HRP): co-sponsoring programme within WHO contributing to SMART Guidelines and Digital Adaptation Kits for sexual, reproductive, maternal and newborn health.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "digital-adaptation-kits",
         "smart-guidelines",
         "antenatal-care"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction (HRP): co-sponsoring programme within WHO contributing to SMART Guidelines and Digital Adaptation Kits for sexual, reproductive, maternal and newborn health.",
       "status": "candidate",
       "focus": {
         "type": "OrganizationalCollaboration",
@@ -2795,7 +2753,6 @@
         "Health facility manager",
         "Facility supervisor"
       ],
-      "definition": "Health facility in-charge, clinical supervisor or district primary health care manager who oversees service delivery, data quality, staff training, legacy system phase-out and electronic data-use culture (sections 1.1, 3.1, 5.1, 6.4, 6.5).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012.json",
       "broader": [
         "end-user",
@@ -2811,7 +2768,7 @@
         "https://litlfred.github.io/smart-base/v0/ns#Persona",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
       ],
-      "scopeNote": "Facility management and supervisory end-user role across Chapters 1, 3, 5 and 6.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health facility in-charge, clinical supervisor or district primary health care manager who oversees service delivery, data quality, staff training, legacy system phase-out and electronic data-use culture (sections 1.1, 3.1, 5.1, 6.4, 6.5).",
       "status": "candidate"
     },
     {
@@ -2855,7 +2812,6 @@
         "SBP",
         "Systolic Blood Pressure"
       ],
-      "definition": "Systolic blood pressure (SBP): peak arterial blood pressure during cardiac contraction, captured as a core clinical data element and evaluated alongside diastolic blood pressure (DBP) in clinical decision support rules.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "related": [
         "diastolic-blood-pressure",
@@ -2867,7 +2823,7 @@
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
         "https://litlfred.github.io/smart-base/v0/ns#DataElement"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Systolic blood pressure (SBP): peak arterial blood pressure during cardiac contraction, captured as a core clinical data element and evaluated alongside diastolic blood pressure (DBP) in clinical decision support rules.",
       "status": "candidate"
     },
     {
@@ -2895,7 +2851,6 @@
         "Vendor",
         "Software Vendor"
       ],
-      "definition": "An internal or external software development team or vendor organization responsible for configuring, building, testing, deploying and maintaining the PCPOSS software (sections 2.2, 4.1, 5.1.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -2911,13 +2866,12 @@
         "https://litlfred.github.io/smart-base/v0/ns#Persona",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
       ],
-      "scopeNote": "Synthesized from sections 2.2, 4.1 and 5.1.2. Open: candidate shared stakeholder role.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An internal or external software development team or vendor organization responsible for configuring, building, testing, deploying and maintaining the PCPOSS software (sections 2.2, 4.1, 5.1.2).",
       "status": "candidate"
     },
     {
       "id": "terminologies",
       "prefLabel": "Terminologies",
-      "definition": "Structured vocabularies of clinical and health terms (such as SNOMED-CT and LOINC) that provide standardized meaning to concepts recorded and exchanged across digital health systems.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "related": [
         "classifications",
@@ -2929,7 +2883,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Structured vocabularies of clinical and health terms (such as SNOMED-CT and LOINC) that provide standardized meaning to concepts recorded and exchanged across digital health systems.",
       "status": "candidate"
     },
     {
@@ -3166,7 +3120,6 @@
       "altLabel": [
         "User researcher"
       ],
-      "definition": "Someone who studies how health workers and other users actually work, through interviews and observations, to make sure the system fits their real-world context (section 2.2).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
       "broader": [
         "user-persona"
@@ -3182,13 +3135,12 @@
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
         "https://litlfred.github.io/smart-base/v0/ns#Persona"
       ],
-      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate role.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who studies how health workers and other users actually work, through interviews and observations, to make sure the system fits their real-world context (section 2.2).",
       "status": "candidate"
     },
     {
       "id": "user-scenario",
       "prefLabel": "User Scenario",
-      "definition": "L2 Digital Adaptation Kit (DAK) narrative component describing how generic personas interact with the digital system during a specific care encounter or workflow.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-012-31-understand-the-who-smart-guidelines-digital-adaptation-kits-and-l2-content.md",
       "related": [
         "use-case",
@@ -3200,7 +3152,7 @@
         "http://smart.who.int/base/StructureDefinition/UserScenario",
         "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
       ],
-      "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) narrative component describing how generic personas interact with the digital system during a specific care encounter or workflow.",
       "status": "candidate"
     },
     {
