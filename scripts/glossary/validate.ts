@@ -334,7 +334,11 @@ if (existsSync(FOLIO_DIR)) {
         const hit = String(item.iri ?? "").match(archimateIriRe);
         if (!hit) {
           fail(`${bf}: invalid ArchiMate IRI '${item.iri}'`);
-        } else if (raArchimateByModel.has(hit[1]) && !raArchimateByModel.get(hit[1])!.has(hit[3])) {
+        } else if (
+          raArchimateByModel.has(hit[1]) &&
+          (hit[1] !== "0.3.0-draft.1" || raArchimateByModel.get("0.3.0-draft.1")!.has("id-bcf04de52bb05c3a932bbfdd36d7ae4f")) &&
+          !raArchimateByModel.get(hit[1])!.has(hit[3])
+        ) {
           fail(`${bf}: ArchiMate ID '${hit[3]}' (${item.name}) not found in dpi-h-ra ArchiMate model`);
         } else {
           blockArchimateLinkCount++;

@@ -248,7 +248,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-ra",
-          "ref": "6c60711bf241a9fe04755e29f2c00e0c2d58e46a",
+          "ref": "7aaec92b0ec4afafdf95aa6504e32550e3e6aa6d",
           "overrides": {
             "dpi-h-ra": {
               "directories": [
@@ -285,8 +285,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-31",
-              "ref": "6c60711bf241a9fe04755e29f2c00e0c2d58e46a",
-              "evidence": "litlfred, 2026-10-31 08:14Z, decision card in thread 'Finish dth-hrh issue 47': 'A. Wiring now (items 1-4)' (merge smart-ra#144 and #148, then one dth-hrh draft PR mounting smart-ra with glossary and ArchiMate links); plan option A for L2 DTHs on smart-ra, 2026-10-31 00:26Z, thread 'Prepare DTH ingests as L2 on smart-ra'. main tip 6c60711 = #148 (RA glossary as SKOS) on #144 (full-STAC glossary)."
+              "ref": "7aaec92b0ec4afafdf95aa6504e32550e3e6aa6d",
+              "evidence": "litlfred, 2026-10-31 14:26Z: '+3 hrs merge window' (to 17:26Z). Re-pin dpi-h-ra to smart-ra main 7aaec92 (smart-ra#198: shared organizations glossary). Prior: litlfred, 2026-10-31 08:14Z, decision card in thread 'Finish dth-hrh issue 47': 'A. Wiring now (items 1-4)' (merge smart-ra#144 and #148, then one dth-hrh draft PR mounting smart-ra with glossary and ArchiMate links); plan option A for L2 DTHs on smart-ra, 2026-10-31 00:26Z, thread 'Prepare DTH ingests as L2 on smart-ra'. main tip 6c60711 = #148 (RA glossary as SKOS) on #144 (full-STAC glossary)."
             }
           }
         }
