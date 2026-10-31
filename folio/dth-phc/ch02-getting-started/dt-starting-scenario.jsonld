@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/dt-starting-scenario",
+  "@type": [
+    "smart-base:DecisionTable"
+  ],
+  "label": "dt:starting-scenario",
+  "kind": "decision-table",
+  "title": "Starting-scenario classification decision table (section 2.1)",
+  "text": "dt-starting-scenario.md",
+  "companions": {
+    "dmn": "dt-starting-scenario.dmn"
+  },
+  "uses": [
+    "papers/dth-phc/blocks/pers-implementing-team",
+    "papers/dth-phc/blocks/pers-public-health-authority"
+  ],
+  "meta": {
+    "title": "Starting-scenario classification decision table (section 2.1)",
+    "decisionId": "Decision_StartingScenario",
+    "canonicalDmn": "processes/decisions/starting-scenario.dmn",
+    "dmnSpec": "omg-2024-dmn-1-5",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-007"
+      ],
+      "pdfPages": [
+        17,
+        18
+      ],
+      "method": "p4b-dmn-formalization"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/"
+             xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
+             id="Definitions_Annex11DecisionSupportTableTemplate"
+             name="Annex 11 Decision-Support Table Template Hit Policy Mapping"
+             namespace="https://litlfred.github.io/dth-phc/decisions/annex-11-template">
+  <decision id="Decision_Annex11DecisionSupportTableTemplate" name="Select Annex 11 decision-support table hit policy code">
+    <description>Annex 11 (sec-043): Maps the structural properties of a clinical/operational decision table to the handbook's Hit Policy code (U = Unique, R = Rule order, F = First) and rule structure (AND across input columns within a row; OR across rows; rule ID pattern 'process ID, activity number, DT, rule number').</description>
+    <decisionTable id="DecisionTable_Annex11DecisionSupportTableTemplate" hitPolicy="FIRST">
+      <input id="Input_RulesMutuallyExclusive" label="All rules are mutually exclusive (no overlap)">
+        <inputExpression id="InputExpression_RulesMutuallyExclusive" typeRef="boolean">
+          <text>rulesMutuallyExclusive</text>
+        </inputExpression>
+      </input>
+      <input id="Input_MultipleOutputsInPriorityOrder" label="Overlapping rules return multiple outputs in priority order">
+        <inputExpression id="InputExpression_MultipleOutputsInPriorityOrder" typeRef="boolean">
+          <text>multipleOutputsInOrder</text>
+        </inputExpression>
+      </input>
+      <output id="Output_HitPolicyCode" label="Annex 11 Hit Policy code" name="hitPolicyCode" typeRef="string"/>
+      <output id="Output_DmnHitPolicy" label="DMN 1.5 HitPolicy attribute" name="dmnHitPolicy" typeRef="string"/>
+      <rule id="Rule_Annex11_Unique">
+        <description>Unique (U): no overlap is possible and all rules are exclusive; only a single rule can be matched.</description>
+        <inputEntry id="IE_A11_1_1"><text>true</text></inputEntry>
+        <inputEntry id="IE_A11_1_2"><text>-</text></inputEntry>
+        <outputEntry id="OE_A11_1_1"><text>"U"</text></outputEntry>
+        <outputEntry id="OE_A11_1_2"><text>"UNIQUE"</text></outputEntry>
+      </rule>
+      <rule id="Rule_Annex11_RuleOrder">
+        <description>Rule order (R): rules may overlap and multiple rules can match; all matching outputs are returned in rule order.</description>
+        <inputEntry id="IE_A11_2_1"><text>false</text></inputEntry>
+        <inputEntry id="IE_A11_2_2"><text>true</text></inputEntry>
+        <outputEntry id="OE_A11_2_1"><text>"R"</text></outputEntry>
+        <outputEntry id="OE_A11_2_2"><text>"RULE ORDER"</text></outputEntry>
+      </rule>
+      <rule id="Rule_Annex11_First">
+        <description>First (F): rules are evaluated from top to bottom and the first matching rule's output is returned.</description>
+        <inputEntry id="IE_A11_3_1"><text>-</text></inputEntry>
+        <inputEntry id="IE_A11_3_2"><text>-</text></inputEntry>
+        <outputEntry id="OE_A11_3_1"><text>"F"</text></outputEntry>
+        <outputEntry id="OE_A11_3_2"><text>"FIRST"</text></outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

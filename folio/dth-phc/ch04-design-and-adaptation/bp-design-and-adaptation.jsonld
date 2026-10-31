@@ -1,0 +1,61 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/bp-design-and-adaptation",
+  "@type": [
+    "smart-base:BusinessProcess"
+  ],
+  "label": "bp:design-and-adaptation",
+  "kind": "business-process",
+  "title": "Phase 2: Design and adaptation (Chapter 4)",
+  "text": "bp-design-and-adaptation.md",
+  "companions": {
+    "bpmn": "bp-design-and-adaptation.bpmn"
+  },
+  "uses": [
+    "papers/dth-phc/blocks/pers-implementing-team",
+    "papers/dth-phc/blocks/pers-business-analyst",
+    "papers/dth-phc/blocks/pers-designer",
+    "papers/dth-phc/blocks/pers-user-researcher",
+    "papers/dth-phc/blocks/pers-solutions-architect",
+    "papers/dth-phc/blocks/pers-health-informatician",
+    "papers/dth-phc/blocks/pers-software-engineer",
+    "papers/dth-phc/blocks/pers-technology-partner",
+    "papers/dth-phc/blocks/pers-health-worker",
+    "papers/dth-phc/blocks/pers-health-service-user"
+  ],
+  "meta": {
+    "title": "Phase 2: Design and adaptation (Chapter 4)",
+    "processId": "Process_DesignAndAdaptation",
+    "canonicalBpmn": "processes/design-and-adaptation.bpmn",
+    "canonicalSvg": "processes/design-and-adaptation.svg",
+    "checklist": "processes/design-and-adaptation.checklist.md",
+    "bpmnSpec": "omg-2013-bpmn-2-0-2",
+    "sdlcMapping": "arxiv-2404.04834v4",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-020",
+        "sec-021",
+        "sec-022",
+        "sec-023",
+        "sec-024"
+      ],
+      "pdfPages": [
+        50,
+        51,
+        52,
+        53,
+        56,
+        58
+      ],
+      "method": "p4b-bpmn-formalization"
+    }
+  },
+  "provenance": "authored"
+}

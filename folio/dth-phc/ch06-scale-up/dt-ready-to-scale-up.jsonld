@@ -1,0 +1,48 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/dt-ready-to-scale-up",
+  "@type": [
+    "smart-base:DecisionTable"
+  ],
+  "label": "dt:ready-to-scale-up",
+  "kind": "decision-table",
+  "title": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5)",
+  "text": "dt-ready-to-scale-up.md",
+  "companions": {
+    "dmn": "dt-ready-to-scale-up.dmn"
+  },
+  "uses": [
+    "papers/dth-phc/blocks/pers-public-health-authority",
+    "papers/dth-phc/blocks/pers-monitoring-and-evaluation-specialist",
+    "papers/dth-phc/blocks/pers-solutions-architect",
+    "papers/dth-phc/blocks/pers-implementing-team"
+  ],
+  "meta": {
+    "title": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5)",
+    "decisionId": "Decision_ReadyToScaleUp",
+    "canonicalDmn": "processes/decisions/ready-to-scale-up.dmn",
+    "dmnSpec": "omg-2024-dmn-1-5",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-029",
+        "sec-030",
+        "sec-031"
+      ],
+      "pdfPages": [
+        71,
+        72,
+        74,
+        75
+      ],
+      "method": "p4b-dmn-formalization"
+    }
+  },
+  "provenance": "authored"
+}

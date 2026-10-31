@@ -154,12 +154,37 @@
       "status": "candidate"
     },
     {
+      "id": "business-analyst",
+      "prefLabel": "Business Analyst",
+      "altLabel": [
+        "Business analyst"
+      ],
+      "definition": "Someone who helps bridge the gap between what users need and how the technology should work. They help translate health requirements into technical plans (section 2.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "implementing-team",
+        "business-process",
+        "functional-requirements",
+        "collaborative-requirements-development-methodology"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+      ],
+      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc, smart-base and cat-harness.",
+      "status": "candidate"
+    },
+    {
       "id": "business-objective",
       "prefLabel": "Business Objective",
       "altLabel": [
         "Business objective"
       ],
-      "definition": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, “completed health service user registration”, or “health service user referral sent” (1).",
+      "definition": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, \u201ccompleted health service user registration\u201d, or \u201chealth service user referral sent\u201d (1).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "business-process",
@@ -178,7 +203,7 @@
       "altLabel": [
         "Business process"
       ],
-      "definition": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3).",
+      "definition": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include \u201chealth service user registration\u201d and \u201creferrals\u201d, for example (see section 3.3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "business-objective",
@@ -216,7 +241,7 @@
       "altLabel": [
         "Care pathway"
       ],
-      "definition": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n• an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users’ expectations and their characteristics;\n• the facilitation of the communication among the team members and with health service users and families;\n• the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n• the documentation, monitoring and evaluation of variances and outcomes;\n• the identification of the appropriate resources.",
+      "definition": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n\u2022 an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users\u2019 expectations and their characteristics;\n\u2022 the facilitation of the communication among the team members and with health service users and families;\n\u2022 the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n\u2022 the documentation, monitoring and evaluation of variances and outcomes;\n\u2022 the identification of the appropriate resources.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "clinical-protocol",
@@ -245,6 +270,32 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "clerk",
+      "prefLabel": "Clerk",
+      "altLabel": [
+        "Facility clerk",
+        "Registration clerk",
+        "Records clerk"
+      ],
+      "definition": "Health facility registration, reception and medical records staff who register clients, verify client identity and maintain facility registers (sections 3.1, 3.3.2 Figs. 10\u201311, 5.1, 6.4).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012.json",
+      "broader": [
+        "end-user",
+        "user-persona"
+      ],
+      "related": [
+        "health-worker",
+        "register",
+        "registry"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Facility registration/records end-user role in section 3.1 and Figs. 10\u201311 (Workflow A: ANC Registration).",
       "status": "candidate"
     },
     {
@@ -413,7 +464,7 @@
         "Clinical Decision Support System",
         "CDSS"
       ],
-      "definition": "A digital job aid that combines an individual’s health information with the health worker’s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8).",
+      "definition": "A digital job aid that combines an individual\u2019s health information with the health worker\u2019s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "decision-support-logic",
@@ -473,12 +524,38 @@
       "status": "candidate"
     },
     {
+      "id": "designer",
+      "prefLabel": "Designer",
+      "altLabel": [
+        "User-experience designer",
+        "UX Designer"
+      ],
+      "definition": "Someone who focuses on how the software looks and feels to the user, making sure it is easy to understand and navigate (section 2.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "implementing-team",
+        "user-researcher",
+        "wireframes",
+        "mock-up",
+        "prototype"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate role.",
+      "status": "candidate"
+    },
+    {
       "id": "devsecops",
       "prefLabel": "DevSecOps",
       "altLabel": [
         "Development, Security and Operations"
       ],
-      "definition": "Short for “development, security and operations”. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues.",
+      "definition": "Short for \u201cdevelopment, security and operations\u201d. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "build",
@@ -520,7 +597,7 @@
         "Digital Adaptation Kit",
         "Digital adaptation kits (DAKs)"
       ],
-      "definition": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO’s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the “SMART Guidelines” framework (10).",
+      "definition": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO\u2019s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the \u201cSMART Guidelines\u201d framework (10).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "broader": [
         "smart-guidelines"
@@ -658,6 +735,31 @@
       "status": "candidate"
     },
     {
+      "id": "donors-and-development-partners",
+      "prefLabel": "Donors and Development Partners",
+      "altLabel": [
+        "Donors, development partners and implementing partners",
+        "Implementing partner"
+      ],
+      "definition": "Funding agencies, multilateral organizations, technical assistance partners and non-governmental implementing partners that co-finance and support digital health implementation in alignment with national strategies (sections 1.3, 2.3, 3.1, 6.1).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-006.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "public-health-authority",
+        "implementing-team",
+        "digital-health-ecosystem"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Named in target audience (1.3) and Phase 1 / Phase 4 involvement panels (sec-011, sec-029).",
+      "status": "candidate"
+    },
+    {
       "id": "ecosystem",
       "prefLabel": "Ecosystem",
       "definition": "A complex network of interacting systems, services, organizations, and users that exchange data and coordinate activities within a shared environment.",
@@ -682,7 +784,7 @@
         "Electronic health record system",
         "Electronic Medical Record System"
       ],
-      "definition": "A secure, online system that holds health service user health records, which include information about people’s health and clinical care. This system is managed by health workers. Also referred to as an “electronic medical record system” (6).",
+      "definition": "A secure, online system that holds health service user health records, which include information about people\u2019s health and clinical care. This system is managed by health workers. Also referred to as an \u201celectronic medical record system\u201d (6).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "person-centred-point-of-service-system",
@@ -795,7 +897,7 @@
       "altLabel": [
         "Feature"
       ],
-      "definition": "The characteristics of a system that include look and feel as well as what the system can do (e.g. “reporting” can be a feature of a PCPOSS).",
+      "definition": "The characteristics of a system that include look and feel as well as what the system can do (e.g. \u201creporting\u201d can be a feature of a PCPOSS).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "functions",
@@ -812,7 +914,7 @@
     {
       "id": "flag",
       "prefLabel": "Flag",
-      "definition": "In a PCPOSS, a “flag” consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default).",
+      "definition": "In a PCPOSS, a \u201cflag\u201d consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "pop-up-message",
@@ -851,7 +953,7 @@
       "altLabel": [
         "Function"
       ],
-      "definition": "Functions in a system are how features are implemented (e.g. “calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS).",
+      "definition": "Functions in a system are how features are implemented (e.g. \u201ccalculating aggregate data\u201d and \u201cdisplaying feedback in the form of diagrams\u201d are functions of the \u201creporting\u201d feature of a PCPOSS).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "features",
@@ -883,6 +985,32 @@
         "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-informatician",
+      "prefLabel": "Health Informatician",
+      "altLabel": [
+        "Health informatician"
+      ],
+      "definition": "Someone who understands both health care and information systems. They help make sure the system captures and uses health data in a meaningful and standardized way (section 2.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "implementing-team",
+        "data-dictionary",
+        "data-element",
+        "terminologies",
+        "coding-schemes"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+      ],
+      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc and dth-hrh.",
       "status": "candidate"
     },
     {
@@ -974,9 +1102,9 @@
     },
     {
       "id": "health-service-users-health-records",
-      "prefLabel": "Health Service User’s Health Records",
+      "prefLabel": "Health Service User\u2019s Health Records",
       "altLabel": [
-        "Health service user’s health records",
+        "Health service user\u2019s health records",
         "Health Service User's Health Records"
       ],
       "definition": "The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker. The record may be retained by the health-care facility or by the health service user.",
@@ -991,6 +1119,62 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "health-worker",
+      "prefLabel": "Health Worker",
+      "altLabel": [
+        "Health worker",
+        "Clinician",
+        "Community Health Worker",
+        "CHW"
+      ],
+      "definition": "Primary point-of-service clinical and community health care providers (doctors, clinical officers, nurses, midwives, community health workers) who use the PCPOSS to deliver primary health care services (sections 1.1, 3.1, 3.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-004.json",
+      "broader": [
+        "end-user",
+        "user-persona"
+      ],
+      "related": [
+        "person-centred-point-of-service-system",
+        "electronic-health-record-system",
+        "decision-support-system",
+        "community-based-information-system"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Primary PCPOSS end-user occupational group across Chapters 1\u20136; maps to Health Workers stakeholder in smart-ra and dth-hrh.",
+      "status": "candidate"
+    },
+    {
+      "id": "implementing-team",
+      "prefLabel": "Implementing Team",
+      "altLabel": [
+        "Implementing team",
+        "PCPOSS Implementing Team"
+      ],
+      "definition": "The multidisciplinary team formed in section 2.2 (comprising business analysts, health informaticians, software engineers, solutions architects, designers, user researchers and clinical/M&E experts) that plans, designs, tests, rolls out and scales up the PCPOSS.",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "business-analyst",
+        "health-informatician",
+        "software-engineer",
+        "solutions-architect",
+        "designer",
+        "user-researcher"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Section 2.2 composite team role. Open: candidate role.",
       "status": "candidate"
     },
     {
@@ -1028,7 +1212,7 @@
     {
       "id": "input",
       "prefLabel": "Input",
-      "definition": "The input entry in a decision-support table is a “condition” for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met – leading to the subsequent output or action.",
+      "definition": "The input entry in a decision-support table is a \u201ccondition\u201d for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met \u2013 leading to the subsequent output or action.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "output",
@@ -1161,7 +1345,7 @@
         "Longitudinal tracking [of a health service user]",
         "Longitudinal tracking"
       ],
-      "definition": "Ongoing and systematic collection and analysis of data related to a health service user’s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user’s health status, treatment and outcomes over multiple encounters or visits with health workers.",
+      "definition": "Ongoing and systematic collection and analysis of data related to a health service user\u2019s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user\u2019s health status, treatment and outcomes over multiple encounters or visits with health workers.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "register",
@@ -1244,6 +1428,31 @@
         "minimum-viable-product"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "monitoring-and-evaluation-specialist",
+      "prefLabel": "Monitoring and Evaluation Specialist",
+      "altLabel": [
+        "Monitoring and evaluation specialist",
+        "M&E Specialist",
+        "M&E"
+      ],
+      "definition": "Specialist responsible for mapping aggregate health indicators to point-of-service data elements (section 3.4.3) and assessing scale-up readiness and SMART objective benchmarks (sections 6.1\u20136.3).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-011.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "indicators-and-performance-metrics",
+        "health-management-information-system",
+        "implementing-team"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Named in Phase 1 (sec-011) and Phase 4 (sec-029) involvement panels. Open: candidate shared role across dth-phc, dth-sc and dth-hrh.",
       "status": "candidate"
     },
     {
@@ -1368,7 +1577,7 @@
         "Person-Centred Point of Service Systems (PCPOSS)",
         "Person-centred point of service system (PCPOSS)"
       ],
-      "definition": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals’ health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3).",
+      "definition": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals\u2019 health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "person-centred",
@@ -1383,6 +1592,30 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Section 1.1 and the Glossary note that PCPOSS encompasses 4 service/application types (community-based information systems, decision support systems, electronic medical/health record systems, and personal health records), while Annex 1 maps PCPOSS functional requirements across 13 WHO Classification of Digital Health Interventions (DHIs): 1.1.1, 1.4.1, 2.1.1, 2.2.1, 2.2.2, 2.2.4, 2.3.1, 2.3.2, 2.4.3, 2.7.1, 2.7.2, 2.8.1, and 2.9.1. Section 1.1 and Annex 1 synthesis contrasting the 4 application types with the 13 DHIs delivered by PCPOSS. Alternative definition (who-iris/library/9789240093362-eng/sections/sec-004-11-person-centred-point-of-service-systems.md): \"Person-centred point of service systems (PCPOSS) encompass four primary application types (community-based information systems, decision support systems, electronic medical/health record systems, and personal health records) and operationalize 13 WHO Digital Health Interventions (DHIs) across Annex 1.\"",
+      "status": "candidate"
+    },
+    {
+      "id": "personal-health-record",
+      "prefLabel": "Personal Health Record (PHR)",
+      "notation": "PHR",
+      "altLabel": [
+        "PHR",
+        "Personal health record",
+        "Personal Health Record System"
+      ],
+      "definition": "An application used by a health service user to access, manage and share their own health information, receive targeted client communications and appointment reminders, and interact with the health system (section 1.1).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-004.json",
+      "related": [
+        "person-centred-point-of-service-system",
+        "health-service-users",
+        "health-service-users-health-records",
+        "electronic-health-record-system"
+      ],
+      "broadMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+      ],
+      "scopeNote": "Fourth core application type of a PCPOSS in section 1.1 (alongside EHR, DSS and CBIS).",
       "status": "candidate"
     },
     {
@@ -1414,7 +1647,7 @@
         "Toast Message",
         "Toast Notification"
       ],
-      "definition": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a “toast message” or “toast notification”.",
+      "definition": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a \u201ctoast message\u201d or \u201ctoast notification\u201d.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "flag",
@@ -1460,6 +1693,32 @@
         "beta-version"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "public-health-authority",
+      "prefLabel": "Public Health Authority",
+      "altLabel": [
+        "Public health authority",
+        "Ministry of Health",
+        "MoH"
+      ],
+      "definition": "National or subnational government health authority (such as the Ministry of Health) that governs digital health strategy alignment, policy, resource allocation and scale-up of the PCPOSS (sections 1.3, 2.3, 5.0, 6.1).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-006.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "implementing-team",
+        "digital-health-ecosystem",
+        "primary-health-care"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Primary target audience and governing authority in sections 1.3 and Phase 1\u20134 panels; maps to Ministry of Health stakeholder in smart-ra.",
       "status": "candidate"
     },
     {
@@ -1589,13 +1848,13 @@
     },
     {
       "id": "snomed-ct",
-      "prefLabel": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)",
+      "prefLabel": "Systematized Nomenclature of Medicine \u2013 Clinical Terms (SNOMED-CT)",
       "notation": "SNOMED-CT",
       "altLabel": [
         "SNOMED-CT",
         "SNOMED CT"
       ],
-      "definition": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
+      "definition": "Systematized Nomenclature of Medicine \u2013 Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "broader": [
         "interoperability-standards",
@@ -1613,12 +1872,39 @@
       "status": "candidate"
     },
     {
+      "id": "software-engineer",
+      "prefLabel": "Software Engineer",
+      "altLabel": [
+        "Software engineer",
+        "Software Developer",
+        "Developer"
+      ],
+      "definition": "A technical expert who creates and adapts software solutions. Sometimes referred to as a developer (section 2.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "implementing-team",
+        "technology-partner",
+        "build",
+        "software-platform"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+      ],
+      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc, smart-base and cat-harness.",
+      "status": "candidate"
+    },
+    {
       "id": "software-platform",
       "prefLabel": "Software Platform",
       "altLabel": [
         "Software platform"
       ],
-      "definition": "A software platform is a type of software in which multiple software “products” can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner.",
+      "definition": "A software platform is a type of software in which multiple software \u201cproducts\u201d can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "reference-software",
@@ -1629,6 +1915,32 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "solutions-architect",
+      "prefLabel": "Solutions Architect",
+      "altLabel": [
+        "Solutions architect",
+        "Enterprise Architect"
+      ],
+      "definition": "Someone who designs the overall technical structure of the system, making sure all the parts fit together and can connect with other digital health systems (section 2.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "implementing-team",
+        "systems-architecture",
+        "enterprise-architecture",
+        "interoperability"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+      ],
+      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate shared role across dth-phc, dth-sc and dth-hrh.",
       "status": "candidate"
     },
     {
@@ -1647,6 +1959,32 @@
         "antenatal-care"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Abbreviation defined in Front Matter Abbreviations (sec-001-abbreviations.md).",
+      "status": "candidate"
+    },
+    {
+      "id": "supervisor",
+      "prefLabel": "Supervisor",
+      "altLabel": [
+        "Health facility manager",
+        "Facility supervisor"
+      ],
+      "definition": "Health facility in-charge, clinical supervisor or district primary health care manager who oversees service delivery, data quality, staff training, legacy system phase-out and electronic data-use culture (sections 1.1, 3.1, 5.1, 6.4, 6.5).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-012.json",
+      "broader": [
+        "end-user",
+        "user-persona"
+      ],
+      "related": [
+        "health-worker",
+        "indicators-and-performance-metrics",
+        "health-management-information-system"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+      ],
+      "scopeNote": "Facility management and supervisory end-user role across Chapters 1, 3, 5 and 6.",
       "status": "candidate"
     },
     {
@@ -1708,6 +2046,33 @@
         "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
+      "status": "candidate"
+    },
+    {
+      "id": "technology-partner",
+      "prefLabel": "Technology Partner",
+      "altLabel": [
+        "Technology partner",
+        "Vendor",
+        "Software Vendor"
+      ],
+      "definition": "An internal or external software development team or vendor organization responsible for configuring, building, testing, deploying and maintaining the PCPOSS software (sections 2.2, 4.1, 5.1.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "software-engineer",
+        "implementing-team",
+        "build",
+        "deploy"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+      ],
+      "scopeNote": "Synthesized from sections 2.2, 4.1 and 5.1.2. Open: candidate shared stakeholder role.",
       "status": "candidate"
     },
     {
@@ -1835,6 +2200,31 @@
       "status": "candidate"
     },
     {
+      "id": "user-researcher",
+      "prefLabel": "User Researcher",
+      "altLabel": [
+        "User researcher"
+      ],
+      "definition": "Someone who studies how health workers and other users actually work, through interviews and observations, to make sure the system fits their real-world context (section 2.2).",
+      "source": "who-iris/library/9789240093362-eng/sections/sec-008.json",
+      "broader": [
+        "user-persona"
+      ],
+      "related": [
+        "implementing-team",
+        "designer",
+        "end-user",
+        "user-persona",
+        "pain-point"
+      ],
+      "closeMatch": [
+        "http://smart.who.int/base/StructureDefinition/GenericPersona",
+        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+      ],
+      "scopeNote": "Section 2.2 core implementing-team role definition, quoted. Open: candidate role.",
+      "status": "candidate"
+    },
+    {
       "id": "user-scenario",
       "prefLabel": "User Scenario",
       "definition": "L2 Digital Adaptation Kit (DAK) narrative component describing how generic personas interact with the digital system during a specific care encounter or workflow.",
@@ -1858,7 +2248,7 @@
       "altLabel": [
         "User story"
       ],
-      "definition": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
+      "definition": "Captures a long list of features from an end-user\u2019s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
       "related": [
         "end-user",
