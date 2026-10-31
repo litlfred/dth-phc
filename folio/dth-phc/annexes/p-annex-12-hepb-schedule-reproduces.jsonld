@@ -2,26 +2,29 @@
   "@context": [
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
-      "@base": "https://litlfred.github.io/folio/"
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
     }
   ],
-  "@id": "papers/dth-phc/blocks/p-annex-12-hepb-schedule-reproduces",
+  "@id": "papers/dth-phc/blocks/prose-annex-12-hepb-schedule-reproduces",
   "@type": [
-    "Block"
+    "folio-assistant-core:Prose",
+    "doco:Section"
   ],
   "label": "prose:annex-12-hepb-schedule-reproduces",
   "kind": "prose",
   "title": "Annex 12 worked example: Hepatitis B birth-dose vaccination schedule (reproduces WHO Immunization DAK)",
-  "text": "p-annex-12-hepb-schedule-reproduces.md",
   "uses": [
-    "papers/dth-phc/blocks/pers-system-dss"
+    "papers/dth-phc/blocks/tbl-annex-12",
+    "papers/dth-phc/blocks/prose-ch03-sec-018-schedules"
   ],
+  "text": "p-annex-12-hepb-schedule-reproduces.md",
   "meta": {
     "title": "Annex 12 worked example: Hepatitis B birth-dose vaccination schedule (reproduces WHO Immunization DAK)",
     "reproduces": {
       "kind": "reproduces",
       "upstreamDocument": "WHO Digital Adaptation Kit for Immunizations (Immunization DAK / smart-immunizations)",
-      "upstreamComponent": "Component 7 \u2014 Scheduling logic: Hepatitis B birth-dose vaccination schedule (`IMMZ.S.HepB`)",
+      "upstreamComponent": "Component 7 — Scheduling logic: Hepatitis B birth-dose vaccination schedule (`IMMZ.S.HepB`)",
       "templateUsed": "sched:annex-12-scheduling-logic-template"
     },
     "source": {
@@ -34,7 +37,34 @@
         46,
         99
       ],
-      "method": "p4b-reproduces-link"
+      "method": "p4b-reproduces-link",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-018-37-map-health-service-schedules.md",
+      "section": "sec-018-37-map-health-service-schedules",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "relatedBlocks": [
+      "pers:system-dss"
+    ],
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines"
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
     }
   },
   "provenance": "authored"

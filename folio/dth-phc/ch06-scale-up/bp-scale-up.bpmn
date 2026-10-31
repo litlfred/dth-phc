@@ -10,10 +10,24 @@
                   exporter="folio-assistant" exporterVersion="1">
   <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
   <bpmn:resource id="public-health-authority" name="Public health authority"/>
-  <bpmn:resource id="implementing-team" name="Implementing team"/>
-  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation specialist"/>
+  <bpmn:resource id="business-analyst" name="Business analyst"/>
   <bpmn:resource id="technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="implementing-team" name="Implementing team"/>
   <bpmn:resource id="health-worker" name="Health worker"/>
+  <bpmn:resource id="health-informatician" name="Health informatician"/>
+  <bpmn:resource id="software-engineer" name="Software engineer"/>
+  <bpmn:resource id="solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="designer" name="Designer"/>
+  <bpmn:resource id="user-researcher" name="User researcher"/>
+  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="donors-and-development-partners" name="Donors, development partners and implementing partners"/>
   <bpmn:collaboration id="Collaboration_Process_ScaleUp">
     <bpmn:participant id="Participant_Process_ScaleUp" name="WHO DTH for Primary Health Care — Chapter 6: Prepare for scale-up (6.1-6.5)" processRef="Process_ScaleUp"/>
   </bpmn:collaboration>

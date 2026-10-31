@@ -35,12 +35,15 @@
         "site:node-kinds"
       ],
       "pre": [
-        "check:dth-glossary"
+        "check:dth-glossary",
+        "check:kg-blocks",
+        "check:library-kg",
+        "check:l1-coverage"
       ],
       "keep": [
         "ns"
       ]
     }
   },
-  "_site_comment": "`site.build.pre` runs check:dth-glossary now; add check:kg-blocks once the folio block KG nodes (`bun run kg:blocks`) are generated in Step P4+. `site.build.keep`: `ns`, the JSON-LD context at ns/context/v1.jsonld that the block KG nodes name."
+  "_site_comment": "`site.build.keep`: `ns`, the JSON-LD context at ns/context/v1.jsonld that the block KG nodes name (iriBase in dth-phc.json); the root publish keeps it, as smart-ra's does."
 }

@@ -9,7 +9,7 @@ export default chapter({
       title: "Chapter overview and phase panel",
       label: "sec:ch04-lead",
       lead: true,
-      blocks: ["p-ch04-overview", "t-ch04-phase-panel"],
+      blocks: ["p-ch04-overview", "t-ch04-phase-panel", "bp-design-and-adaptation"],
     }),
     section({
       title: "4.1 Finalize software and vendor selection",

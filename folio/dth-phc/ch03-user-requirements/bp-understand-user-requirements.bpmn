@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  xmlns:bootstrap.processes="https://litlfred.github.io/bootstrap/v0/processes/ns#"
+                  xmlns:cat-harness.processes="https://litlfred.github.io/cat-harness/v0/processes/ns#"
+                  id="Definitions_Process_UnderstandUserRequirements"
+                  targetNamespace="https://litlfred.github.io/dth-phc/workflows"
+                  exporter="folio-assistant" exporterVersion="1">
+  <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
+  <bpmn:resource id="public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="business-analyst" name="Business analyst"/>
+  <bpmn:resource id="technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="implementing-team" name="Implementing team"/>
+  <bpmn:resource id="health-worker" name="Health worker"/>
+  <bpmn:resource id="health-informatician" name="Health informatician"/>
+  <bpmn:resource id="software-engineer" name="Software engineer"/>
+  <bpmn:resource id="solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="designer" name="Designer"/>
+  <bpmn:resource id="user-researcher" name="User researcher"/>
+  <bpmn:resource id="monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:collaboration id="Collaboration_Process_UnderstandUserRequirements">
+    <bpmn:participant id="Participant_Process_UnderstandUserRequirements" name="WHO DTH for Primary Health Care — Chapter 3: Understand user requirements (3.1-3.8)" processRef="Process_UnderstandUserRequirements"/>
+  </bpmn:collaboration>
+  <bpmn:process id="Process_UnderstandUserRequirements" name="Understand user requirements (Ch 3, 3.1-3.8)" isExecutable="false">
+    <bpmn:documentation>Gather, streamline and prioritize the user, workflow, data, clinical decision-support, scheduling and system requirements for a PCPOSS across steps 3.1 to 3.8, producing each corresponding WHO SMART Guidelines L2 DAK component.
+
+L1 source anchors: who-iris/library/9789240093362-eng sections 3.1 (prose-sec-012), 3.2 (prose-sec-013), 3.3 (prose-sec-014), 3.4 (prose-sec-015, Fig. 12), 3.5 (prose-sec-016), 3.6 (prose-sec-017), 3.7 (prose-sec-018), 3.8 (prose-sec-019) and Annexes 2-11 (prose-sec-036..045).
+
+Comparison with smart-base l2-dak-authoring.bpmn and cat-harness crdm-requirements-definition.bpmn (recorded as structural alternatives per workplan 3d.2 and 3f):
+1. vs. smart-base/processes/content/l2-dak-authoring.bpmn: l2-dak-authoring scopes the DAK under the Programme manager and forks into six parallel authoring tracks (Personas &amp; scenarios, Business processes, Core data elements, Decision logic, Indicators, Terminology mappings) before clinical SME validation. PHC Chapter 3 sequences steps 3.1 to 3.8 linearly — starting from field observations and interviews (3.1), personas/use cases/user stories (3.2), as-is and to-be BPMN workflows (3.3), paper register form inventory, form data mapping, indicator compilation and Fig. 12 data-minimization filtering (3.4) into the consolidated data dictionary (3.5), decision logic (3.6), schedules (3.7) and prioritized requirements (3.8) — because a country PCPOSS team is streamlining paper registers in addition to adapting global DAKs.
+2. vs. cat-harness/processes/process/crdm-requirements-definition.bpmn: CRDM Phases 2-4 map current workflow (BPA), define requirements, run wireframe design review when a rendered surface changes, compare options and loop on stakeholder sign-off within one diagram. PHC separates requirements definition and prioritization (Chapter 3, 3.1-3.8) from software/vendor option selection (4.1), stakeholder validation of functional requirements (4.2) and the wireframe/mock-up/prototype loop (4.3 in design-and-adaptation.bpmn).</bpmn:documentation>
+    <bpmn:extensionElements>
+      <cat-harness.processes:policy enforcement="advisory"/>
+    </bpmn:extensionElements>
+    <bpmn:laneSet id="LaneSet_Process_UnderstandUserRequirements">
+      <bpmn:lane id="Lane-Ch3-PHA" name="Public health authority" partitionElementRef="public-health-authority">
+        <bpmn:documentation>Persona block pers:public-health-authority. Provides national guidelines, strategies, policies and official form lists, resolves discrepancies on facility registers (3.4.1), and approves the prioritized requirements package (3.1 panel, 3.8).</bpmn:documentation>
+        <bpmn:flowNodeRef>Start_Ch3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_8_ConfirmPackage</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Ch3</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch3-BA" name="Business analyst &amp; user researcher" partitionElementRef="business-analyst">
+        <bpmn:documentation>Persona blocks pers:business-analyst and pers:user-researcher. Leads desk reviews, observations, interviews and workshops (3.1), authors personas, use cases and user stories (3.2), maps as-is and to-be BPMN workflows (3.3), inventories forms and indicators (3.4), documents decision logic (3.6) and schedules (3.7), and prioritizes requirements (3.8).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_3_1_Methods</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_2_1_Personas</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_2_2_UseCases</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_3_Workflows</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_4_InventoryAndIndicators</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_6_DecisionLogic</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_7_Schedules</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_RequirementPriority</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_8_PriorityHigh</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch3-HI" name="Health informatician" partitionElementRef="health-informatician">
+        <bpmn:documentation>Persona block pers:health-informatician. Leads data-element streamlining (3.4.4-3.4.5), creates the consolidated data dictionary (3.5.1), and maps data elements to standardized terminologies and FHIR/ICD/LOINC/SNOMED classifications (3.5.2).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_3_4_4_EvaluateDataElement</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_KeepDataElement</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_4_4_RemoveElement</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_5_DataDictionary</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_8_PriorityMedium</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch3-Users" name="Targeted health worker occupational groups &amp; health service users" partitionElementRef="health-worker">
+        <bpmn:documentation>Persona blocks pers:health-worker, pers:clerk, pers:supervisor and pers:health-service-user. Guide requirements through observations, semi-structured interviews and participatory requirements-gathering workshops (3.1-3.8).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_3_1_Participate</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch3-SE" name="Software engineer" partitionElementRef="software-engineer">
+        <bpmn:documentation>Persona block pers:software-engineer. Engaged during requirements gathering so the engineering team understands the context, constraints and feasibility of the solution they will build (Ch 3 opener panel, 3.8).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_3_8_GatherRequirements</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_3_8_PriorityLow</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_Ch3" name="Ch 3 inputs assembled (strategies, guidelines, paper registers)">
+      <bpmn:documentation>Chapter 3 opener panel (prose-sec-012, page 28): National health and digital health strategies, privacy/security policies, architecture blueprint, infrastructure assessment, unique ID method, WHO/national guidelines, SOPs and existing paper forms.</bpmn:documentation>
+      <bpmn:outgoing>Flow_Ch3_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_3_1_Methods" name="3.1 Conduct desk review, observations, interviews &amp; workshops">
+      <bpmn:documentation>Section 3.1 (prose-sec-012, pages 28-33) and Annex 2/3 Observations worksheet (prose-sec-036): Combine desk review (3.1.1), facility observations (3.1.2), semi-structured and follow-up interviews (3.1.3, Fig. 8) and requirements-gathering workshops (3.1.4).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="dak-l1-library"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_1_Methods_IO">
+        <bpmn:dataInput id="Task_3_1_Methods_In_1" name="WHO and national guidelines, SOPs, existing paper records and register forms"/>
+        <bpmn:dataOutput id="Task_3_1_Methods_Out_1" name="Completed observations worksheets and stakeholder interview insights"/>
+        <bpmn:inputSet id="Task_3_1_Methods_InputSet">
+          <bpmn:dataInputRefs>Task_3_1_Methods_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_1_Methods_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_1_Methods_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_1_Participate" name="3.1 Share routine care workflows, constraints &amp; needs">
+      <bpmn:documentation>Section 3.1.2-3.1.4 (prose-sec-012): Targeted health worker occupational groups and health service users participate in observations, interviews and workshops to ground requirements in real point-of-care practice.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="guideline-use-case"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_2_1_Personas" name="3.2.1 Create user personas [produces: persona]">
+      <bpmn:documentation>Section 3.2.1 (prose-sec-013, pages 33-34) and Annex 4 User persona worksheet (prose-sec-037): Produce structured user personas (DAK kind `persona`, smart-base:Persona) describing demographics, responsibilities, goals, pain points and digital literacy.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_2_1_Personas_IO">
+        <bpmn:dataInput id="Task_3_2_1_Personas_In_1" name="Completed observations worksheets and stakeholder interview insights"/>
+        <bpmn:dataOutput id="Task_3_2_1_Personas_Out_1" name="User personas (DAK kind: persona)"/>
+        <bpmn:inputSet id="Task_3_2_1_Personas_InputSet">
+          <bpmn:dataInputRefs>Task_3_2_1_Personas_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_2_1_Personas_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_2_1_Personas_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_2_2_UseCases" name="3.2.2 Gather use cases &amp; 3.2.3 user stories [produces: user-scenario]">
+      <bpmn:documentation>Sections 3.2.2-3.2.3 (prose-sec-013, pages 34-35) and Annex 5 User stories worksheet (prose-sec-038): Produce use cases and &#x27;As a &lt;persona&gt;, I want &lt;action&gt;, so that &lt;outcome&gt;&#x27; user stories (DAK kind `user-scenario`, smart-base:UserScenario).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_2_2_UseCases_IO">
+        <bpmn:dataInput id="Task_3_2_2_UseCases_In_1" name="User personas (DAK kind: persona)"/>
+        <bpmn:dataOutput id="Task_3_2_2_UseCases_Out_1" name="Use cases (DAK kind: user-scenario)"/>
+        <bpmn:dataOutput id="Task_3_2_2_UseCases_Out_2" name="User stories (DAK kind: user-scenario / functional-requirement)"/>
+        <bpmn:inputSet id="Task_3_2_2_UseCases_InputSet">
+          <bpmn:dataInputRefs>Task_3_2_2_UseCases_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_2_2_UseCases_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_2_2_UseCases_Out_1</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Task_3_2_2_UseCases_Out_2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_5</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_3_Workflows" name="3.3 Map as-is and to-be business processes [produces: business-process]">
+      <bpmn:documentation>Section 3.3 (prose-sec-014, pages 35-38, Table 1, Figs. 9-11) and Annex 6 Business process matrix guide (prose-sec-039): Map as-is and optimized to-be workflows in BPMN 2.0 (DAK kind `business-process`, smart-base:BusinessProcess). Figs. 10-11 reproduce ANC DAK Workflow A.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="bpmn-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_3_Workflows_IO">
+        <bpmn:dataInput id="Task_3_3_Workflows_In_1" name="User personas (DAK kind: persona)"/>
+        <bpmn:dataInput id="Task_3_3_Workflows_In_2" name="Use cases (DAK kind: user-scenario)"/>
+        <bpmn:dataOutput id="Task_3_3_Workflows_Out_1" name="As-is and to-be business processes (DAK kind: business-process)"/>
+        <bpmn:inputSet id="Task_3_3_Workflows_InputSet">
+          <bpmn:dataInputRefs>Task_3_3_Workflows_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_3_3_Workflows_In_2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_3_Workflows_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_3_Workflows_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_4_InventoryAndIndicators" name="3.4.1-3.4.3 Inventory forms, map form data &amp; compile indicators [produces: indicator]">
+      <bpmn:documentation>Sections 3.4.1-3.4.3 (prose-sec-015, pages 39-40) and Annexes 7-9 (prose-sec-040..042): Inventory paper registers (3.4.1), map data elements across forms (3.4.2), and compile aggregate indicators and calculation methods (3.4.3, DAK kind `indicator`, smart-base:Indicator).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_4_InventoryAndIndicators_IO">
+        <bpmn:dataInput id="Task_3_4_InventoryAndIndicators_In_1" name="Existing paper records and register forms"/>
+        <bpmn:dataInput id="Task_3_4_InventoryAndIndicators_In_2" name="As-is and to-be business processes (DAK kind: business-process)"/>
+        <bpmn:dataOutput id="Task_3_4_InventoryAndIndicators_Out_1" name="Paper form inventory and form data mapping"/>
+        <bpmn:dataOutput id="Task_3_4_InventoryAndIndicators_Out_2" name="List of indicators and calculation method (DAK kind: indicator)"/>
+        <bpmn:inputSet id="Task_3_4_InventoryAndIndicators_InputSet">
+          <bpmn:dataInputRefs>Task_3_4_InventoryAndIndicators_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_3_4_InventoryAndIndicators_In_2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_4_InventoryAndIndicators_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_4_InventoryAndIndicators_Out_1</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Task_3_4_InventoryAndIndicators_Out_2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_6</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_4_4_EvaluateDataElement" name="3.4.4 Assess data element for duplication, need &amp; orphan links (Fig. 12)">
+      <bpmn:documentation>Section 3.4.4 and Fig. 12 (prose-sec-015, page 41): For each mapped data element, evaluate whether it is duplicated across forms, needed for service delivery or indicator reporting, or orphaned from its primary data element.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_7</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_KeepDataElement" name="Keep or remove data element (3.4.4, Fig. 12)?">
+      <bpmn:documentation>Computed from decisions/keep-data-element.dmn#Decision_KeepDataElement (Section 3.4.4, Fig. 12, prose-sec-015): routes &#x27;keep&#x27; (reconciling duplicates and linking orphans) or &#x27;remove&#x27; (under data minimization).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <cat-harness.processes:decision ref="decisions/keep-data-element.dmn#Decision_KeepDataElement"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_8</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_9_Remove</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch3_9_Keep</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_3_4_4_RemoveElement" name="3.4.4 Remove non-essential data element with audit trail">
+      <bpmn:documentation>Section 3.4.4 (prose-sec-015, page 41): Remove data elements not needed for care delivery or indicator reporting while maintaining a backup original file and audit trail.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_9_Remove</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_10</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_5_DataDictionary" name="3.4.5 &amp; 3.5 Create data dictionary &amp; map terminologies [produces: data-element]">
+      <bpmn:documentation>Sections 3.4.5 and 3.5.1-3.5.2 (prose-sec-015, prose-sec-016, pages 41-44): Consolidate kept data elements into a data dictionary and map to standardized classifications and terminologies (ICD-11, LOINC, SNOMED-GPS, ICF, ICHI, HL7 FHIR; DAK kind `data-element`, smart-base:DataElement).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="terminology-management"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_5_DataDictionary_IO">
+        <bpmn:dataInput id="Task_3_5_DataDictionary_In_1" name="Streamlined data elements and indicator definitions"/>
+        <bpmn:dataOutput id="Task_3_5_DataDictionary_Out_1" name="Data dictionary and data model (DAK kind: data-element)"/>
+        <bpmn:inputSet id="Task_3_5_DataDictionary_InputSet">
+          <bpmn:dataInputRefs>Task_3_5_DataDictionary_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_5_DataDictionary_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_5_DataDictionary_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_9_Keep</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch3_10</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_6_DecisionLogic" name="3.6 Document clinical decision-support logic [produces: decision-table]">
+      <bpmn:documentation>Section 3.6 (prose-sec-017, pages 44-47, Figs. 13-14) and Annexes 10-11 (prose-sec-043): Document clinical care-pathway decision-support matrices, decision trees and DMN decision tables (DAK kind `decision-table`, smart-base:DecisionTable). Fig. 13 reproduces the HIV DAK matrix; Fig. 14 reproduces the ANC DAK HIV-testing decision tree.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="dmn-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_6_DecisionLogic_IO">
+        <bpmn:dataInput id="Task_3_6_DecisionLogic_In_1" name="Data dictionary and data model (DAK kind: data-element)"/>
+        <bpmn:dataInput id="Task_3_6_DecisionLogic_In_2" name="WHO and national clinical guidelines"/>
+        <bpmn:dataOutput id="Task_3_6_DecisionLogic_Out_1" name="Documented decision logic algorithms (DAK kind: decision-table)"/>
+        <bpmn:inputSet id="Task_3_6_DecisionLogic_InputSet">
+          <bpmn:dataInputRefs>Task_3_6_DecisionLogic_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_3_6_DecisionLogic_In_2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_6_DecisionLogic_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_6_DecisionLogic_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_11</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_12</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_7_Schedules" name="3.7 Map health service schedules [produces: scheduling-logic]">
+      <bpmn:documentation>Section 3.7 (prose-sec-018, pages 47-48) and Annex 12 Scheduling logic table guide (prose-sec-044): Document trigger events, due dates, overdue dates and expiration rules for recurring contacts and vaccinations (DAK kind `scheduling-logic`, smart-base:SchedulingLogic). Annex 12 reproduces the Hepatitis B birth-dose schedule example.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_7_Schedules_IO">
+        <bpmn:dataInput id="Task_3_7_Schedules_In_1" name="Data dictionary and data model (DAK kind: data-element)"/>
+        <bpmn:dataInput id="Task_3_7_Schedules_In_2" name="Documented decision logic algorithms (DAK kind: decision-table)"/>
+        <bpmn:dataOutput id="Task_3_7_Schedules_Out_1" name="Documented health service schedule (DAK kind: scheduling-logic)"/>
+        <bpmn:inputSet id="Task_3_7_Schedules_InputSet">
+          <bpmn:dataInputRefs>Task_3_7_Schedules_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_3_7_Schedules_In_2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_7_Schedules_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_7_Schedules_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_12</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_13</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_8_GatherRequirements" name="3.8 Gather functional &amp; non-functional requirements [produces: freq, nfreq]">
+      <bpmn:documentation>Section 3.8 (prose-sec-019, pages 48-49) and Annex 13 Prioritization of requirements guide (prose-sec-045): Compile functional and non-functional requirements (DAK kinds `functional-requirement` and `non-functional-requirement`) with software engineering engagement on technical context.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_8_GatherRequirements_IO">
+        <bpmn:dataInput id="Task_3_8_GatherRequirements_In_1" name="User personas, use cases and user stories"/>
+        <bpmn:dataInput id="Task_3_8_GatherRequirements_In_2" name="As-is and to-be business processes"/>
+        <bpmn:dataInput id="Task_3_8_GatherRequirements_In_3" name="Data dictionary, decision logic and service schedules"/>
+        <bpmn:dataOutput id="Task_3_8_GatherRequirements_Out_1" name="Candidate functional and non-functional requirements (DAK kinds: functional-requirement, non-functional-requirement)"/>
+        <bpmn:inputSet id="Task_3_8_GatherRequirements_InputSet">
+          <bpmn:dataInputRefs>Task_3_8_GatherRequirements_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_3_8_GatherRequirements_In_2</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_3_8_GatherRequirements_In_3</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_8_GatherRequirements_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_8_GatherRequirements_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_13</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_14</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_RequirementPriority" name="Requirement priority (3.8, Annex 13)?">
+      <bpmn:documentation>Computed from decisions/requirement-priority.dmn#Decision_RequirementPriority (Section 3.8, Annex 13, prose-sec-019, prose-sec-045): classifies each requirement as &#x27;High&#x27; (need-to-have), &#x27;Medium&#x27; (should-have) or &#x27;Low&#x27; (nice-to-have).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <cat-harness.processes:decision ref="decisions/requirement-priority.dmn#Decision_RequirementPriority"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_14</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_15_High</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch3_15_Med</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch3_15_Low</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_3_8_PriorityHigh" name="3.8 Classify as High priority (need-to-have for complete PCPOSS)">
+      <bpmn:documentation>Annex 13 (prose-sec-045, page 95): High priority (&#x27;need-to-have&#x27;) — without this function or feature, the PCPOSS is considered incomplete.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_15_High</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_16_High</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_8_PriorityMedium" name="3.8 Classify as Medium priority (should-have for uptake &amp; usability)">
+      <bpmn:documentation>Annex 13 (prose-sec-045, page 95): Medium priority (&#x27;should-have&#x27;) — strongly advised to improve uptake, usability and overall system performance.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_15_Med</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_16_Med</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_8_PriorityLow" name="3.8 Classify as Low priority (nice-to-have for future roadmap)">
+      <bpmn:documentation>Annex 13 (prose-sec-045, page 95): Low priority (&#x27;nice-to-have&#x27;) — value-adding feature recorded for future developments and updates on the roadmap.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dak-authoring"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch3_15_Low</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_16_Low</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_3_8_ConfirmPackage" name="3.8 Confirm prioritized requirements documentation with public health authority">
+      <bpmn:documentation>Chapter 3 opener panel and Section 3.8 (prose-sec-012, prose-sec-019): Confirm the complete nine-component requirements documentation package with the public health authority to hand off to Chapter 4 Design and adaptation.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="content-review"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_3_8_ConfirmPackage_IO">
+        <bpmn:dataInput id="Task_3_8_ConfirmPackage_In_1" name="Classified High, Medium and Low functional and non-functional requirements"/>
+        <bpmn:dataOutput id="Task_3_8_ConfirmPackage_Out_1" name="Prioritized functional and non-functional requirements (DAK kinds: functional-requirement, non-functional-requirement)"/>
+        <bpmn:inputSet id="Task_3_8_ConfirmPackage_InputSet">
+          <bpmn:dataInputRefs>Task_3_8_ConfirmPackage_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_3_8_ConfirmPackage_OutputSet">
+          <bpmn:dataOutputRefs>Task_3_8_ConfirmPackage_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch3_16_High</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch3_16_Med</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch3_16_Low</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch3_17</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="End_Ch3" name="Ch 3 requirements documentation complete">
+      <bpmn:documentation>Chapter 3 opener panel outputs complete: User personas, Use cases, User stories, As-is and to-be business processes, Data dictionary and data model, Documented health service schedule, Documented decision logic algorithms, List of indicators and calculation method, and Prioritized functional and non-functional requirements.</bpmn:documentation>
+      <bpmn:incoming>Flow_Ch3_17</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_Ch3_1" sourceRef="Start_Ch3" targetRef="Task_3_1_Methods"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_2" sourceRef="Task_3_1_Methods" targetRef="Task_3_1_Participate"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_3" sourceRef="Task_3_1_Participate" targetRef="Task_3_2_1_Personas"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_4" sourceRef="Task_3_2_1_Personas" targetRef="Task_3_2_2_UseCases"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_5" sourceRef="Task_3_2_2_UseCases" targetRef="Task_3_3_Workflows"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_6" sourceRef="Task_3_3_Workflows" targetRef="Task_3_4_InventoryAndIndicators"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_7" sourceRef="Task_3_4_InventoryAndIndicators" targetRef="Task_3_4_4_EvaluateDataElement"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_8" sourceRef="Task_3_4_4_EvaluateDataElement" targetRef="GW_KeepDataElement"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_9_Remove" sourceRef="GW_KeepDataElement" targetRef="Task_3_4_4_RemoveElement" name="remove"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_9_Keep" sourceRef="GW_KeepDataElement" targetRef="Task_3_5_DataDictionary" name="keep"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_10" sourceRef="Task_3_4_4_RemoveElement" targetRef="Task_3_5_DataDictionary"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_11" sourceRef="Task_3_5_DataDictionary" targetRef="Task_3_6_DecisionLogic"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_12" sourceRef="Task_3_6_DecisionLogic" targetRef="Task_3_7_Schedules"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_13" sourceRef="Task_3_7_Schedules" targetRef="Task_3_8_GatherRequirements"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_14" sourceRef="Task_3_8_GatherRequirements" targetRef="GW_RequirementPriority"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_15_High" sourceRef="GW_RequirementPriority" targetRef="Task_3_8_PriorityHigh" name="High"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_15_Med" sourceRef="GW_RequirementPriority" targetRef="Task_3_8_PriorityMedium" name="Medium"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_15_Low" sourceRef="GW_RequirementPriority" targetRef="Task_3_8_PriorityLow" name="Low"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_16_High" sourceRef="Task_3_8_PriorityHigh" targetRef="Task_3_8_ConfirmPackage"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_16_Med" sourceRef="Task_3_8_PriorityMedium" targetRef="Task_3_8_ConfirmPackage"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_16_Low" sourceRef="Task_3_8_PriorityLow" targetRef="Task_3_8_ConfirmPackage"/>
+    <bpmn:sequenceFlow id="Flow_Ch3_17" sourceRef="Task_3_8_ConfirmPackage" targetRef="End_Ch3"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Process_UnderstandUserRequirements">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_UnderstandUserRequirements" bpmnElement="Collaboration_Process_UnderstandUserRequirements">
+      <bpmndi:BPMNShape id="Shape_Participant_Process_UnderstandUserRequirements" bpmnElement="Participant_Process_UnderstandUserRequirements" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="4160" height="850"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch3-PHA" bpmnElement="Lane-Ch3-PHA" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="4130" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch3-BA" bpmnElement="Lane-Ch3-BA" isHorizontal="true">
+        <dc:Bounds x="190" y="250" width="4130" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch3-HI" bpmnElement="Lane-Ch3-HI" isHorizontal="true">
+        <dc:Bounds x="190" y="420" width="4130" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch3-Users" bpmnElement="Lane-Ch3-Users" isHorizontal="true">
+        <dc:Bounds x="190" y="590" width="4130" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch3-SE" bpmnElement="Lane-Ch3-SE" isHorizontal="true">
+        <dc:Bounds x="190" y="760" width="4130" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Start_Ch3" bpmnElement="Start_Ch3">
+        <dc:Bounds x="332" y="147" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_1_Methods" bpmnElement="Task_3_1_Methods">
+        <dc:Bounds x="495" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_1_Participate" bpmnElement="Task_3_1_Participate">
+        <dc:Bounds x="715" y="633" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_2_1_Personas" bpmnElement="Task_3_2_1_Personas">
+        <dc:Bounds x="935" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_2_2_UseCases" bpmnElement="Task_3_2_2_UseCases">
+        <dc:Bounds x="1155" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_3_Workflows" bpmnElement="Task_3_3_Workflows">
+        <dc:Bounds x="1375" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_4_InventoryAndIndicators" bpmnElement="Task_3_4_InventoryAndIndicators">
+        <dc:Bounds x="1595" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_4_4_EvaluateDataElement" bpmnElement="Task_3_4_4_EvaluateDataElement">
+        <dc:Bounds x="1815" y="463" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_KeepDataElement" bpmnElement="GW_KeepDataElement" isMarkerVisible="true">
+        <dc:Bounds x="2085" y="480" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_4_4_RemoveElement" bpmnElement="Task_3_4_4_RemoveElement">
+        <dc:Bounds x="2255" y="463" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_5_DataDictionary" bpmnElement="Task_3_5_DataDictionary">
+        <dc:Bounds x="2475" y="463" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_6_DecisionLogic" bpmnElement="Task_3_6_DecisionLogic">
+        <dc:Bounds x="2695" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_7_Schedules" bpmnElement="Task_3_7_Schedules">
+        <dc:Bounds x="2915" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_8_GatherRequirements" bpmnElement="Task_3_8_GatherRequirements">
+        <dc:Bounds x="3135" y="803" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_RequirementPriority" bpmnElement="GW_RequirementPriority" isMarkerVisible="true">
+        <dc:Bounds x="3405" y="310" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_8_PriorityHigh" bpmnElement="Task_3_8_PriorityHigh">
+        <dc:Bounds x="3575" y="293" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_8_PriorityMedium" bpmnElement="Task_3_8_PriorityMedium">
+        <dc:Bounds x="3575" y="463" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_8_PriorityLow" bpmnElement="Task_3_8_PriorityLow">
+        <dc:Bounds x="3575" y="803" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_3_8_ConfirmPackage" bpmnElement="Task_3_8_ConfirmPackage">
+        <dc:Bounds x="3795" y="123" width="150" height="84"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_End_Ch3" bpmnElement="End_Ch3">
+        <dc:Bounds x="4072" y="147" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_1" bpmnElement="Flow_Ch3_1">
+        <di:waypoint x="368" y="165"/>
+        <di:waypoint x="431" y="165"/>
+        <di:waypoint x="431" y="335"/>
+        <di:waypoint x="495" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_2" bpmnElement="Flow_Ch3_2">
+        <di:waypoint x="645" y="335"/>
+        <di:waypoint x="680" y="335"/>
+        <di:waypoint x="680" y="675"/>
+        <di:waypoint x="715" y="675"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_3" bpmnElement="Flow_Ch3_3">
+        <di:waypoint x="865" y="675"/>
+        <di:waypoint x="900" y="675"/>
+        <di:waypoint x="900" y="335"/>
+        <di:waypoint x="935" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_4" bpmnElement="Flow_Ch3_4">
+        <di:waypoint x="1085" y="335"/>
+        <di:waypoint x="1155" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_5" bpmnElement="Flow_Ch3_5">
+        <di:waypoint x="1305" y="335"/>
+        <di:waypoint x="1375" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_6" bpmnElement="Flow_Ch3_6">
+        <di:waypoint x="1525" y="335"/>
+        <di:waypoint x="1595" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_7" bpmnElement="Flow_Ch3_7">
+        <di:waypoint x="1745" y="335"/>
+        <di:waypoint x="1780" y="335"/>
+        <di:waypoint x="1780" y="505"/>
+        <di:waypoint x="1815" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_8" bpmnElement="Flow_Ch3_8">
+        <di:waypoint x="1965" y="505"/>
+        <di:waypoint x="2085" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_9_Remove" bpmnElement="Flow_Ch3_9_Remove">
+        <di:waypoint x="2135" y="505"/>
+        <di:waypoint x="2255" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_9_Keep" bpmnElement="Flow_Ch3_9_Keep">
+        <di:waypoint x="2135" y="505"/>
+        <di:waypoint x="2475" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_10" bpmnElement="Flow_Ch3_10">
+        <di:waypoint x="2405" y="505"/>
+        <di:waypoint x="2475" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_11" bpmnElement="Flow_Ch3_11">
+        <di:waypoint x="2625" y="505"/>
+        <di:waypoint x="2660" y="505"/>
+        <di:waypoint x="2660" y="335"/>
+        <di:waypoint x="2695" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_12" bpmnElement="Flow_Ch3_12">
+        <di:waypoint x="2845" y="335"/>
+        <di:waypoint x="2915" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_13" bpmnElement="Flow_Ch3_13">
+        <di:waypoint x="3065" y="335"/>
+        <di:waypoint x="3100" y="335"/>
+        <di:waypoint x="3100" y="845"/>
+        <di:waypoint x="3135" y="845"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_14" bpmnElement="Flow_Ch3_14">
+        <di:waypoint x="3285" y="845"/>
+        <di:waypoint x="3345" y="845"/>
+        <di:waypoint x="3345" y="335"/>
+        <di:waypoint x="3405" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_15_High" bpmnElement="Flow_Ch3_15_High">
+        <di:waypoint x="3455" y="335"/>
+        <di:waypoint x="3575" y="335"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_15_Med" bpmnElement="Flow_Ch3_15_Med">
+        <di:waypoint x="3455" y="335"/>
+        <di:waypoint x="3515" y="335"/>
+        <di:waypoint x="3515" y="505"/>
+        <di:waypoint x="3575" y="505"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_15_Low" bpmnElement="Flow_Ch3_15_Low">
+        <di:waypoint x="3455" y="335"/>
+        <di:waypoint x="3515" y="335"/>
+        <di:waypoint x="3515" y="845"/>
+        <di:waypoint x="3575" y="845"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_16_High" bpmnElement="Flow_Ch3_16_High">
+        <di:waypoint x="3725" y="335"/>
+        <di:waypoint x="3760" y="335"/>
+        <di:waypoint x="3760" y="165"/>
+        <di:waypoint x="3795" y="165"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_16_Med" bpmnElement="Flow_Ch3_16_Med">
+        <di:waypoint x="3725" y="505"/>
+        <di:waypoint x="3760" y="505"/>
+        <di:waypoint x="3760" y="165"/>
+        <di:waypoint x="3795" y="165"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_16_Low" bpmnElement="Flow_Ch3_16_Low">
+        <di:waypoint x="3725" y="845"/>
+        <di:waypoint x="3760" y="845"/>
+        <di:waypoint x="3760" y="165"/>
+        <di:waypoint x="3795" y="165"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch3_17" bpmnElement="Flow_Ch3_17">
+        <di:waypoint x="3945" y="165"/>
+        <di:waypoint x="4072" y="165"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

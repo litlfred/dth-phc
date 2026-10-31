@@ -9,7 +9,7 @@ export default chapter({
       title: "Chapter overview and phase panel",
       label: "sec:ch05-lead",
       lead: true,
-      blocks: ["p-ch05-overview", "t-ch05-phase-panel"],
+      blocks: ["p-ch05-overview", "t-ch05-phase-panel", "bp-training-testing-and-roll-out"],
     }),
     section({
       title: "5.1 Develop and conduct training",

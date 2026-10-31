@@ -1,0 +1,118 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-health-service-user",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:health-service-user",
+  "kind": "persona",
+  "title": "Health service user (patient / client)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-health-service-user.md",
+  "meta": {
+    "title": "Health service user (patient / client)",
+    "personaType": "person",
+    "bpmnRoleId": "health-service-user",
+    "bpmnLanes": [
+      {
+        "process": "bp:understand-user-requirements",
+        "processId": "Process_UnderstandUserRequirements",
+        "laneId": "Lane-Ch3-Users",
+        "bpmnFile": "processes/understand-user-requirements.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn",
+        "ref": "processes/understand-user-requirements.bpmn#Lane-Ch3-Users"
+      },
+      {
+        "process": "bp:design-and-adaptation",
+        "processId": "Process_DesignAndAdaptation",
+        "laneId": "Lane-Ch4-Users",
+        "bpmnFile": "processes/design-and-adaptation.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn",
+        "ref": "processes/design-and-adaptation.bpmn#Lane-Ch4-Users"
+      },
+      {
+        "process": "bp:training-testing-and-roll-out",
+        "processId": "Process_TrainingTestingAndRollOut",
+        "laneId": "Lane-Ch5-Users",
+        "bpmnFile": "processes/training-testing-and-roll-out.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.bpmn",
+        "ref": "processes/training-testing-and-roll-out.bpmn#Lane-Ch5-Users"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+          "name": "Health service user",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a2320dbc07e6450b94f3f0f3e03bb877.jsonld",
+          "name": "Patients",
+          "type": "Stakeholder"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:health-service-users",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-003",
+        "sec-004",
+        "sec-011",
+        "sec-012",
+        "sec-014",
+        "sec-020",
+        "sec-022",
+        "sec-025"
+      ],
+      "pdfPages": [
+        10,
+        12,
+        25,
+        27,
+        33,
+        50,
+        53,
+        61
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-003-introduction.md",
+      "section": "sec-003-introduction",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "ClientOrPatient; Caregiver",
+    "relatedBlocks": [
+      "bp:understand-user-requirements",
+      "bp:design-and-adaptation",
+      "bp:training-testing-and-roll-out",
+      "prose:fig-10-11-anc-registration-reproduces"
+    ],
+    "roleId": "PHC-R-14",
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-service-users",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/user-persona"
+    ]
+  },
+  "provenance": "authored"
+}

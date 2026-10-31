@@ -1,0 +1,115 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-clerk",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:clerk",
+  "kind": "persona",
+  "title": "Clerk (facility registration and records staff)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-clerk.md",
+  "meta": {
+    "title": "Clerk (facility registration and records staff)",
+    "personaType": "person",
+    "bpmnRoleId": "clerk",
+    "bpmnLanes": [
+      {
+        "process": "bp:understand-user-requirements",
+        "processId": "Process_UnderstandUserRequirements",
+        "laneId": "Lane-Ch3-Users",
+        "bpmnFile": "processes/understand-user-requirements.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn",
+        "ref": "processes/understand-user-requirements.bpmn#Lane-Ch3-Users"
+      },
+      {
+        "process": "bp:training-testing-and-roll-out",
+        "processId": "Process_TrainingTestingAndRollOut",
+        "laneId": "Lane-Ch5-Users",
+        "bpmnFile": "processes/training-testing-and-roll-out.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.bpmn",
+        "ref": "processes/training-testing-and-roll-out.bpmn#Lane-Ch5-Users"
+      },
+      {
+        "process": "bp:scale-up",
+        "processId": "Process_ScaleUp",
+        "laneId": "Lane-Ch6-Users",
+        "bpmnFile": "processes/scale-up.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch06-scale-up/bp-scale-up.bpmn",
+        "ref": "processes/scale-up.bpmn#Lane-Ch6-Users"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "name": "Health worker",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-8d3dd8b68d504c2a9fe8cf414b16c127.jsonld",
+          "name": "Health Workers",
+          "type": "Stakeholder"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-515be0d38c564767bc2b1ee5fcb0adb6.jsonld",
+          "name": "Health Care Institutions",
+          "type": "Stakeholder"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:clerk",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-012",
+        "sec-014",
+        "sec-026",
+        "sec-032"
+      ],
+      "pdfPages": [
+        27,
+        33,
+        34,
+        62,
+        77
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-012-31-follow-key-requirement-gathering-methods.md",
+      "section": "sec-012-31-follow-key-requirement-gathering-methods",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "DataManagerOrRoutineHealthInformationSystemStaff",
+    "relatedBlocks": [
+      "bp:understand-user-requirements",
+      "bp:training-testing-and-roll-out",
+      "bp:scale-up",
+      "prose:fig-10-11-anc-registration-reproduces"
+    ],
+    "roleId": "PHC-R-12",
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/clerk"
+    ]
+  },
+  "provenance": "authored"
+}

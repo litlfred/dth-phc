@@ -1,0 +1,111 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-monitoring-and-evaluation-specialist",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:monitoring-and-evaluation-specialist",
+  "kind": "persona",
+  "title": "Monitoring and evaluation (M&E) specialist",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-monitoring-and-evaluation-specialist.md",
+  "meta": {
+    "title": "Monitoring and evaluation (M&E) specialist",
+    "personaType": "person",
+    "bpmnRoleId": "monitoring-and-evaluation-specialist",
+    "bpmnLanes": [
+      {
+        "process": "bp:pcposs-implementation-lifecycle",
+        "processId": "Process_PcpossImplementationLifecycle",
+        "laneId": "Lane-Lifecycle-Impl",
+        "bpmnFile": "processes/pcposs-implementation-lifecycle.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.bpmn",
+        "ref": "processes/pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Impl"
+      },
+      {
+        "process": "bp:understand-user-requirements",
+        "processId": "Process_UnderstandUserRequirements",
+        "laneId": "Lane-Ch3-HI",
+        "bpmnFile": "processes/understand-user-requirements.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn",
+        "ref": "processes/understand-user-requirements.bpmn#Lane-Ch3-HI"
+      },
+      {
+        "process": "bp:scale-up",
+        "processId": "Process_ScaleUp",
+        "laneId": "Lane-Ch6-ME",
+        "bpmnFile": "processes/scale-up.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch06-scale-up/bp-scale-up.bpmn",
+        "ref": "processes/scale-up.bpmn#Lane-Ch6-ME"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+          "name": "Monitoring and evaluation specialist",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "name": "Analytics & Reporting Platform",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:monitoring-and-evaluation-specialist",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-011",
+        "sec-015",
+        "sec-029",
+        "sec-030",
+        "sec-031"
+      ],
+      "pdfPages": [
+        25,
+        35,
+        71,
+        74,
+        75
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-011-25-choices-for-software-and-digital-applications.md",
+      "section": "sec-011-25-choices-for-software-and-digital-applications",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "DataManagerOrRoutineHealthInformationSystemStaff",
+    "relatedBlocks": [
+      "bp:understand-user-requirements",
+      "bp:scale-up",
+      "dt:ready-to-scale-up"
+    ],
+    "roleId": "PHC-R-09",
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/monitoring-and-evaluation-specialist",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/user-persona"
+    ]
+  },
+  "provenance": "authored"
+}

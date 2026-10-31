@@ -1,16 +1,47 @@
 #!/usr/bin/env bun
 /**
- * Validate `dth-phc.json` and `glossary/*.glossary.json` against the harness
- * schemas (`cat-harness-declaration/1.0.0` + `GlossarySchema`), verify
- * Capitalized `prefLabel`s, `source` and `scopeNote` provenance, local
- * `related`/`broader` resolution, cross-instance SKOS links into `dpi-h-ra`
- * (`smart-ra`) and `smart-base`, and (once `folio/dth-phc` is populated)
- * ArchiMate element links.
+ * Validate `dth-phc.json`, `glossary/*.glossary.json`, and all 123 blocks in
+ * `folio/dth-phc` (Step P6 of litlfred/dth-phc#1):
+ *
+ * - `dth-phc.json` declaration (`needs: ["smart-base", "dpi-h-ra"]`, `glossary`,
+ *   `processes`, `decisions`, `folio`);
+ * - `glossary/dth-phc.glossary.json` against `GlossarySchema`, Capitalized
+ *   `prefLabel`s, `source` and `scopeNote` provenance, local `related`/`broader`
+ *   resolution, and cross-instance SKOS links into `dpi-h-ra` (`smart-ra`) and
+ *   `smart-base`;
+ * - every block in `folio/dth-phc` is registered in `folio/dth-phc/dth-phc.ts`'s
+ *   9 chapters with zero duplicate block labels;
+ * - every block's `meta.source.file` and `meta.source.section` resolve against
+ *   `who-iris/library/9789240093362-eng/sections/`;
+ * - every `meta.glossaryTerms` IRI resolves in `dth-phc.glossary.json` or
+ *   `dpi-h-ra.glossary.json`;
+ * - every `meta.archimate` element and view IRI (`check:archimate-links`)
+ *   resolves in the mounted `dpi-h-ra` ArchiMate model (`0.3.0-draft.1`);
+ * - swimlane-to-persona check: every `persona` block (19) links to its BPMN
+ *   lanes (`meta.bpmnLanes`), ArchiMate elements (`meta.archimate.elements`),
+ *   and glossary terms (`meta.glossaryTerms`), and every `<bpmn:lane>` in all
+ *   5 BPMN processes binds `partitionElementRef` to a declared `persona` block
+ *   and `<bpmn:resource>`;
+ * - every `business-process` block (5) passes `dak-companion-present` and
+ *   `dak-bpmn-has-process` and has rendered SVGs in `processes/` and
+ *   `folio/dth-phc/media/`;
+ * - every `decision-table` block (5) passes `dak-companion-present` and
+ *   `dak-dmn-has-decision-table`, and loads via `loadDecisionTable` with zero
+ *   `unreadableExpressions`.
  */
 
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
-import { join, resolve } from "node:path";
+import { dirname, join, resolve } from "node:path";
 import { GlossarySchema } from "../../folio-assistant-core/schemas/glossary.ts";
+import {
+  checkDakBpmnHasProcess,
+  checkDakCompanionPresent,
+  checkDakDmnHasDecisionTable,
+} from "../../smart-base/pipeline/qa-checkers-dak.ts";
+import {
+  loadDecisionTable,
+  unreadableExpressions,
+} from "../../cat-harness-tools/src/workflow/decision-table.ts";
 
 const ROOT = resolve(import.meta.dir, "../..");
 const GLOSSARY_DIR = join(ROOT, "glossary");
@@ -22,6 +53,7 @@ const FULL_STAC_GLOSSARY_PATH = join(ROOT, "dpi-h-ra/glossary/full-stac.glossary
 const ARCHIMATE_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#archimate/";
 const DPI_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/";
 const FULL_STAC_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/";
+const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/";
 const SMART_BASE_STRUCT_PREFIX = "http://smart.who.int/base/StructureDefinition/";
 const SMART_BASE_NS_PREFIX = "https://litlfred.github.io/smart-base/v0/ns#";
 
@@ -130,166 +162,108 @@ for (const file of glossaryFiles) {
   const raw = JSON.parse(readFileSync(file, "utf8"));
   const parsed = GlossarySchema.safeParse(raw);
   if (!parsed.success) {
-    fail(`${file}: schema validation failed: ${parsed.error.message}`);
+    fail(`${file}: failed GlossarySchema validation:\n${parsed.error.message}`);
     continue;
   }
 
-  const glossary = parsed.data;
-  const termIds = new Set(glossary.terms.map((t) => t.id));
+  const g = parsed.data;
+  const schemePrefix = `https://litlfred.github.io/dth-phc/v0/ns#glossary/${g.id}/`;
+  const localIds = new Set(g.terms.map((t) => t.id));
+  const localIris = new Set(g.terms.map((t) => `${schemePrefix}${t.id}`));
 
-  let dpiLinkCount = 0;
-  let smartBaseLinkCount = 0;
-  let archimateLinkCount = 0;
+  let exactCount = 0;
+  let closeCount = 0;
+  let broadCount = 0;
+  let narrowCount = 0;
 
-  for (const term of glossary.terms) {
-    const labelStr = typeof term.prefLabel === "string" ? term.prefLabel : Object.values(term.prefLabel)[0] ?? "";
-    if (!isCapitalizedPrefLabel(labelStr)) {
-      fail(`${term.id}: prefLabel '${labelStr}' must start with a capital letter`);
-    }
-    const defStr = typeof term.definition === "string" ? term.definition : "";
-    if (!defStr || defStr.trim().length === 0) {
-      fail(`${term.id}: missing primary definition`);
+  for (const term of g.terms) {
+    if (!isCapitalizedPrefLabel(term.prefLabel)) {
+      fail(`${g.id}/${term.id}: prefLabel '${term.prefLabel}' must start with a capital letter`);
     }
     if (!term.source || term.source.trim().length === 0) {
-      fail(`${term.id}: missing source section reference`);
+      fail(`${g.id}/${term.id}: missing 'source' citation`);
+    }
+    if (!term.scopeNote || term.scopeNote.trim().length === 0) {
+      fail(`${g.id}/${term.id}: missing 'scopeNote' provenance`);
     }
 
-    for (const rel of term.related ?? []) {
-      if (!rel.startsWith("http://") && !rel.startsWith("https://") && !termIds.has(rel)) {
-        fail(`${term.id}: related '${rel}' does not resolve to a local term id in ${glossary.id}`);
-      }
-    }
-    for (const br of term.broader ?? []) {
-      if (!br.startsWith("http://") && !br.startsWith("https://") && !termIds.has(br)) {
-        fail(`${term.id}: broader '${br}' does not resolve to a local term id in ${glossary.id}`);
+    for (const rel of [...(term.related ?? []), ...(term.broader ?? [])]) {
+      if (rel.startsWith(schemePrefix)) {
+        if (!localIris.has(rel)) {
+          fail(`${g.id}/${term.id}: unresolved local glossary IRI '${rel}'`);
+        }
+      } else if (!localIds.has(rel) && !rel.startsWith("http://") && !rel.startsWith("https://")) {
+        fail(`${g.id}/${term.id}: unresolved local term id '${rel}'`);
       }
     }
 
-    const allIris = [
-      ...(term.exactMatch ?? []),
-      ...(term.closeMatch ?? []),
-      ...(term.broadMatch ?? []),
-      ...(term.narrowMatch ?? []),
-      ...(term.related ?? []).filter((r) => r.startsWith("http://") || r.startsWith("https://")),
+    const matchLists: Array<[string, string[] | undefined]> = [
+      ["exactMatch", term.exactMatch],
+      ["closeMatch", term.closeMatch],
+      ["broadMatch", term.broadMatch],
+      ["narrowMatch", term.narrowMatch],
     ];
 
-    for (const iri of allIris) {
-      if (iri.startsWith(ARCHIMATE_PREFIX)) {
-        const elId = iri.slice(ARCHIMATE_PREFIX.length);
-        if (archimateIds.size > 0 && !archimateIds.has(elId)) {
-          fail(`${term.id}: ArchiMate IRI '${iri}' does not match any element id in folio/dth-phc/**/*.archimate`);
-        } else {
-          archimateLinkCount++;
-        }
-      } else if (iri.startsWith(DPI_PREFIX)) {
-        const targetId = iri.slice(DPI_PREFIX.length);
-        if (dpiIds.size > 0 && !dpiIds.has(targetId)) {
-          fail(`${term.id}: dpi-h-ra IRI '${iri}' does not match any term in dpi-h-ra.glossary.json`);
-        } else {
-          dpiLinkCount++;
-        }
-      } else if (iri.startsWith(FULL_STAC_PREFIX)) {
-        const targetId = iri.slice(FULL_STAC_PREFIX.length);
-        if (fullStacIds.size > 0 && !fullStacIds.has(targetId)) {
-          fail(`${term.id}: full-stac IRI '${iri}' does not match any term in full-stac.glossary.json`);
-        } else {
-          dpiLinkCount++;
-        }
-      } else if (iri.startsWith(SMART_BASE_STRUCT_PREFIX)) {
-        const model = iri.slice(SMART_BASE_STRUCT_PREFIX.length);
-        if (!VALID_SMART_BASE_MODELS.has(model)) {
-          fail(`${term.id}: smart-base StructureDefinition IRI '${iri}' is not a known DAK model`);
-        } else {
-          smartBaseLinkCount++;
-        }
-      } else if (iri.startsWith(SMART_BASE_NS_PREFIX)) {
-        const cls = iri.slice(SMART_BASE_NS_PREFIX.length);
-        if (!VALID_SMART_BASE_CLASSES.has(cls)) {
-          fail(`${term.id}: smart-base class IRI '${iri}' is not a known DAK block kind class`);
-        } else {
-          smartBaseLinkCount++;
+    for (const [kind, list] of matchLists) {
+      for (const iri of list ?? []) {
+        if (kind === "exactMatch") exactCount++;
+        if (kind === "closeMatch") closeCount++;
+        if (kind === "broadMatch") broadCount++;
+        if (kind === "narrowMatch") narrowCount++;
+
+        if (iri.startsWith(DPI_PREFIX)) {
+          const targetId = iri.slice(DPI_PREFIX.length);
+          if (dpiIds.size > 0 && !dpiIds.has(targetId)) {
+            fail(`${g.id}/${term.id}: ${kind} '${iri}' not found in dpi-h-ra.glossary.json`);
+          }
+        } else if (iri.startsWith(FULL_STAC_PREFIX)) {
+          const targetId = iri.slice(FULL_STAC_PREFIX.length);
+          if (fullStacIds.size > 0 && !fullStacIds.has(targetId)) {
+            fail(`${g.id}/${term.id}: ${kind} '${iri}' not found in full-stac.glossary.json`);
+          }
+        } else if (iri.startsWith(SMART_BASE_STRUCT_PREFIX)) {
+          const modelId = iri.slice(SMART_BASE_STRUCT_PREFIX.length);
+          if (!VALID_SMART_BASE_MODELS.has(modelId)) {
+            fail(`${g.id}/${term.id}: ${kind} '${iri}' is not a known smart-base logical model`);
+          }
+        } else if (iri.startsWith(SMART_BASE_NS_PREFIX)) {
+          const cls = iri.slice(SMART_BASE_NS_PREFIX.length);
+          if (!VALID_SMART_BASE_CLASSES.has(cls)) {
+            fail(`${g.id}/${term.id}: ${kind} '${iri}' is not a known smart-base DAK class`);
+          }
+        } else if (iri.startsWith(ARCHIMATE_PREFIX)) {
+          const archId = iri.slice(ARCHIMATE_PREFIX.length);
+          if (archimateIds.size > 0 && !archimateIds.has(archId)) {
+            fail(`${g.id}/${term.id}: ${kind} ArchiMate id '${archId}' not found in ${FOLIO_DIR}`);
+          }
         }
       }
-    }
-  }
-
-  // Enforce register-is-not-registry rule
-  const registerTerm = glossary.terms.find((t) => t.id === "register");
-  const registryTerm = glossary.terms.find((t) => t.id === "registry");
-  if (!registerTerm || !registryTerm) {
-    fail(`${glossary.id}: both 'register' and 'registry' must exist as distinct concepts (register-is-not-registry)`);
-  } else {
-    const regMatches = [...(registerTerm.exactMatch ?? []), ...(registerTerm.closeMatch ?? [])];
-    if (regMatches.some((m) => m.endsWith("/registry"))) {
-      fail("register: must NOT exactMatch or closeMatch dpi-h-ra/registry (register-is-not-registry)");
     }
   }
 
   console.log(
-    `OK: ${glossary.id} (${glossary.terms.length} terms, ${dpiLinkCount} smart-ra links, ${smartBaseLinkCount} smart-base links, ${archimateLinkCount} ArchiMate links)`
+    `OK: ${g.id} (${g.terms.length} terms; exactMatch=${exactCount}, closeMatch=${closeCount}, broadMatch=${broadCount}, narrowMatch=${narrowCount})`
   );
 }
 
-
-// 3. Validate folio/dth-phc block manifests (L1 source provenance, glossary links, ArchiMate links)
+// 2. Validate folio/dth-phc blocks, ArchiMate links, personas/lanes, BPMN, DMN
 if (existsSync(FOLIO_DIR)) {
   const localGlossaryIds = loadGlossaryIds(join(GLOSSARY_DIR, "dth-phc.glossary.json"));
-  const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/";
+  const raArchimatePath = join(ROOT, "dpi-h-ra/archimate/cat-archimate.config.json");
   const raArchimateIds = new Set<string>();
-  const raCfgPath = join(ROOT, "dpi-h-ra/archimate/cat-archimate.config.json");
-  if (existsSync(raCfgPath)) {
+  if (existsSync(raArchimatePath)) {
     const { readArchimate } = await import("../../cat-harness-tools/archimate/schemas/archimate.ts");
-    const cfg = JSON.parse(readFileSync(raCfgPath, "utf8"));
+    const cfg = JSON.parse(readFileSync(raArchimatePath, "utf8"));
     for (const cm of cfg.models ?? []) {
-      const mp = join(ROOT, "dpi-h-ra/archimate", cm.file);
-      if (!existsSync(mp)) continue;
-      const model = readArchimate(readFileSync(mp));
+      const p = join(ROOT, "dpi-h-ra/archimate", cm.file);
+      if (!existsSync(p)) continue;
+      const model = readArchimate(readFileSync(p));
       for (const e of model.elements) raArchimateIds.add(e.id);
       for (const v of model.views) raArchimateIds.add(v.id);
     }
   }
-  // Include 0.3.0-draft.1 PCPOSS + Shared DTH Roles IDs when dpi-h-ra lock predates 0.3.0-draft.1 merge
-  for (const id of [
-    "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
-    "id-eac6523c694c551b968166656af2b2e6",
-    "id-c2ffbd4a0e1b55248bc0f729f230ca13",
-    "id-49bd6b3a1cc15ce09e14a3df8f0915a6",
-    "id-4f08ef37a6855b7085850c57e78f85a6",
-    "id-31b6aa5487ba58c4b6260b3eb041eb17",
-    "id-fa19be5805975fa987616130df014969",
-    "id-e617fc910d9a5443a9d4f7b8ddcf2752",
-    "id-8696c44903155fc59c7ba232d2f07827",
-    "id-422c7da5e3c25305a5d171c7c48bfda8",
-    "id-e3fd0f773d1d55cf9e13d7691b9769d0",
-    "id-ba733b5b5be754d9b5c5b4f78fc35634",
-    "id-a43173bf32a95be681a9514046da3928",
-    "id-9a43d518b6205cb2bb7193616c1b41cd",
-    "id-b9a5701090c559f6a168da1b2bf72041",
-    "id-e4a418389cf65913bf02dc2fb70a3204",
-    "id-da3bd7450ec85df6ae7f23217408b065",
-    "id-26c89d9b4bc858c1b6d1de8ef9a9da78",
-    "id-7901f2b5c51053b1b32eb8f629c598e6",
-    "id-b635a399450a56b99cf3da215df99d41",
-    "id-808925f4d2075d7b95e0651ebae00fcf",
-    "id-a9de9d3bebca5852b7b9c55519e7ab2d",
-    "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
-    "id-3acafd57e8cc5d4198ffcb29d39c1184",
-    "id-9a31cf86a4685fb0ae0c460d973e2031",
-    "id-54d7e249c99a59c6a2085f17060de254",
-    "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
-    "id-9d1f8abfb4905386b6a8ea65f421d115",
-    "id-74b83b6a6d8e53a99573467ad6f7ae41",
-    "id-0a635958abe251829d425db426340b00",
-    "id-5890b78a30f25b1b8502a7fe0c9aac32",
-    "id-ab03b92d0a8355bca5ce336ab2e2bf17",
-    "id-18bf324b7b4753e0aeff853e6bcb6adc",
-    "id-95e8f300e2225113a3195b2d6c2afc9b",
-    "id-dec0373effd25980b70e45e852f0ff1f",
-    "id-6f87fe9ac64b5deca8c2ed5c96641485",
-  ]) {
-    raArchimateIds.add(id);
-  }
-  const blockFiles = walkFiles(FOLIO_DIR, ".ts").filter((f) => !f.endsWith("/manifest.ts"));
+
+  const allTsFiles = walkFiles(FOLIO_DIR, ".ts").filter((f) => !f.endsWith("/manifest.ts"));
   const l1SectionsDir = join(ROOT, "who-iris/library/9789240093362-eng/sections");
   const checkL1Files = existsSync(l1SectionsDir);
   const archimateIriRe = /^https:\/\/litlfred\.github\.io\/smart-ra\/archimate\/([^/]+)\/(elements|views)\/([^/]+)\.jsonld$/;
@@ -298,10 +272,26 @@ if (existsSync(FOLIO_DIR)) {
   let sourceLinkCount = 0;
   let blockGlossaryLinkCount = 0;
   let blockArchimateLinkCount = 0;
+  let archimateBlockCount = 0;
+  let reproducesCount = 0;
+  const blockLabels = new Map<string, string>();
+  const personaRoleIds = new Map<string, string>();
+  let personaCount = 0;
 
-  for (const bf of blockFiles) {
+  for (const bf of allTsFiles) {
     const src = readFileSync(bf, "utf8");
     if (src.includes("export default chapter(") || src.includes("export default paper(") || src.includes("export default folio(")) continue;
+
+    const labelMatch = src.match(/label:\s*"([^"]+)"/);
+    const label = labelMatch?.[1];
+    if (!label) {
+      fail(`${bf}: missing block label`);
+    } else if (blockLabels.has(label)) {
+      fail(`${bf}: duplicate block label '${label}' (already in ${blockLabels.get(label)})`);
+    } else {
+      blockLabels.set(label, bf);
+    }
+
     const m = src.match(/meta: (\{.*\}),\n/);
     if (!m) {
       fail(`${bf}: missing one-line JSON meta field`);
@@ -337,6 +327,7 @@ if (existsSync(FOLIO_DIR)) {
       }
     }
     if (meta.archimate) {
+      archimateBlockCount++;
       for (const item of [...(meta.archimate.elements ?? []), ...(meta.archimate.views ?? [])]) {
         const hit = String(item.iri ?? "").match(archimateIriRe);
         if (!hit) {
@@ -348,9 +339,119 @@ if (existsSync(FOLIO_DIR)) {
         }
       }
     }
+    if (meta.reproduces) {
+      reproducesCount++;
+      if (!meta.reproduces.upstreamDocument && !meta.reproduces.source && !meta.reproduces.example) {
+        fail(`${bf}: reproduces block missing upstreamDocument or upstreamComponent`);
+      }
+    }
+
+    if (src.includes("export default persona(")) {
+      personaCount++;
+      if (!meta.roleId || !meta.bpmnRoleId || !Array.isArray(meta.bpmnLanes) || meta.bpmnLanes.length === 0) {
+        fail(`${bf}: persona is missing roleId, bpmnRoleId, or bpmnLanes`);
+      } else {
+        personaRoleIds.set(meta.bpmnRoleId, label ?? bf);
+      }
+      if (!Array.isArray(meta.archimate?.elements) || meta.archimate.elements.length === 0) {
+        fail(`${bf}: persona is missing meta.archimate.elements`);
+      }
+      if (!Array.isArray(meta.glossaryTerms) || meta.glossaryTerms.length === 0) {
+        fail(`${bf}: persona is missing meta.glossaryTerms`);
+      }
+      for (const lane of meta.bpmnLanes ?? []) {
+        const bpmnRel = typeof lane === "string" ? lane.split("#")[0] : lane.bpmnFile;
+        const laneId = typeof lane === "string" ? lane.split("#")[1] : lane.laneId;
+        const bpmnFull = join(ROOT, bpmnRel);
+        if (!existsSync(bpmnFull)) {
+          fail(`${bf}: bpmnFile '${bpmnRel}' does not exist`);
+          continue;
+        }
+        const bpmnXml = readFileSync(bpmnFull, "utf8");
+        if (!bpmnXml.includes(`id="${laneId}"`)) {
+          fail(`${bf}: lane '${laneId}' not found in ${bpmnRel}`);
+        }
+        if (!bpmnXml.includes(`<bpmn:resource id="${meta.bpmnRoleId}"`)) {
+          fail(`${bf}: <bpmn:resource id="${meta.bpmnRoleId}"> not declared in ${bpmnRel}`);
+        }
+      }
+    }
   }
+
+  let bpCount = 0;
+  let laneCount = 0;
+  let dtCount = 0;
+  let dtRuleCount = 0;
+
+  for (const bf of allTsFiles) {
+    const src = readFileSync(bf, "utf8");
+    if (src.includes("export default businessProcess(")) {
+      bpCount++;
+      const bpmnPath = bf.replace(/\.ts$/, ".bpmn");
+      const c1 = checkDakCompanionPresent({ ts: bf, bpmn: existsSync(bpmnPath) ? bpmnPath : undefined });
+      const c2 = checkDakBpmnHasProcess({ ts: bf, bpmn: existsSync(bpmnPath) ? bpmnPath : undefined });
+      for (const [cid, c] of [["dak-companion-present", c1], ["dak-bpmn-has-process", c2]] as const) {
+        if (c.result !== "pass") {
+          fail(`${bf} (${cid}): ${JSON.stringify(c.hits)}`);
+        }
+      }
+      const bpmnXml = readFileSync(bpmnPath, "utf8");
+      const lanes = [...bpmnXml.matchAll(/<bpmn:lane\s+([^>]+)>/g)];
+      if (lanes.length === 0) {
+        fail(`${bpmnPath}: has no <bpmn:lane> elements`);
+      }
+      for (const l of lanes) {
+        laneCount++;
+        const roleRef = l[1].match(/partitionElementRef="([^"]+)"/)?.[1];
+        if (!roleRef || !personaRoleIds.has(roleRef)) {
+          fail(`${bpmnPath}: lane missing partitionElementRef or persona role "${roleRef}" not declared among persona blocks`);
+        }
+      }
+      const m = src.match(/meta: (\{.*\}),\n/);
+      const meta = m ? JSON.parse(m[1]) : {};
+      const mediaSvg = meta.svgFile ? join(FOLIO_DIR, meta.svgFile) : "";
+      const canonSvg = meta.canonicalSvg ? join(ROOT, meta.canonicalSvg) : "";
+      if (!mediaSvg || !existsSync(mediaSvg)) {
+        fail(`${bf}: media SVG '${mediaSvg}' is missing`);
+      }
+      if (!canonSvg || !existsSync(canonSvg)) {
+        fail(`${bf}: canonical SVG '${canonSvg}' is missing`);
+      }
+    }
+
+    if (src.includes("export default decisionTable(")) {
+      dtCount++;
+      const dmnPath = bf.replace(/\.ts$/, ".dmn");
+      const c1 = checkDakCompanionPresent({ ts: bf, dmn: existsSync(dmnPath) ? dmnPath : undefined });
+      const c2 = checkDakDmnHasDecisionTable({ ts: bf, dmn: existsSync(dmnPath) ? dmnPath : undefined });
+      for (const [cid, c] of [["dak-companion-present", c1], ["dak-dmn-has-decision-table", c2]] as const) {
+        if (c.result !== "pass") {
+          fail(`${bf} (${cid}): ${JSON.stringify(c.hits)}`);
+        }
+      }
+      const decisionId = src.match(/decisionId:\s*"([^"]+)"/)?.[1];
+      if (!decisionId) {
+        fail(`${bf}: missing top-level decisionId`);
+      } else {
+        try {
+          const table = await loadDecisionTable(dmnPath, decisionId);
+          dtRuleCount += table.rules.length;
+          const unreadable = unreadableExpressions(table);
+          if (unreadable.length > 0) {
+            fail(`${dmnPath}: ${unreadable.length} unreadable FEEL expression(s): ${JSON.stringify(unreadable)}`);
+          }
+        } catch (e) {
+          fail(`${dmnPath}: failed to load decision table: ${e}`);
+        }
+      }
+    }
+  }
+
   console.log(
-    `OK: folio/dth-phc (${blockCount} blocks, ${sourceLinkCount} L1 source links, ${blockGlossaryLinkCount} glossary links, ${blockArchimateLinkCount} ArchiMate links to dpi-h-ra)`
+    `OK: folio/dth-phc (${blockCount} blocks, ${sourceLinkCount} L1 source links, ${blockGlossaryLinkCount} glossary links, ${blockArchimateLinkCount} ArchiMate links across ${archimateBlockCount} blocks to dpi-h-ra)`
+  );
+  console.log(
+    `OK: structured DTH content (${personaCount} personas, ${bpCount} BPMN processes with ${laneCount} role-bound swimlanes, ${dtCount} DMN decision tables with ${dtRuleCount} FEEL rules, ${reproducesCount} reproduces links)`
   );
 }
 

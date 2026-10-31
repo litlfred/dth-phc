@@ -33,7 +33,7 @@
       "graphTypologies": [
         "processes"
       ],
-      "description": "The five executable BPMN 2.0 workflows (lifecycle, Ch. 3 requirements, Ch. 4 design & adaptation, Ch. 5 training/testing/roll-out, Ch. 6 scale-up), their rendered SVGs and checklists, and the four DMN 1.5 decision tables in processes/decisions/."
+      "description": "The five executable BPMN 2.0 workflows (lifecycle, Ch. 3 requirements, Ch. 4 design & adaptation, Ch. 5 training/testing/roll-out, Ch. 6 scale-up), their rendered SVGs and checklists, and the five DMN 1.5 decision tables."
     },
     {
       "id": "glossary",

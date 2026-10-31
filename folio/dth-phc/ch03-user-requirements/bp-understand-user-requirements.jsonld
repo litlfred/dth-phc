@@ -1,0 +1,176 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/bp-understand-user-requirements",
+  "@type": [
+    "smart-base:BusinessProcess",
+    "doco:Figure"
+  ],
+  "label": "bp:understand-user-requirements",
+  "kind": "business-process",
+  "title": "Phase 1: Understanding user requirements (Chapter 3)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch03-overview",
+    "papers/dth-phc/blocks/tbl-ch03-phase-panel",
+    "papers/dth-phc/blocks/prose-ch03-sec-014-workflows"
+  ],
+  "text": "bp-understand-user-requirements.md",
+  "meta": {
+    "title": "Phase 1: Understanding user requirements (Chapter 3)",
+    "processId": "Process_UnderstandUserRequirements",
+    "canonicalBpmn": "processes/understand-user-requirements.bpmn",
+    "canonicalSvg": "processes/understand-user-requirements.svg",
+    "checklist": "processes/understand-user-requirements.checklist.md",
+    "bpmnSpec": "omg-2013-bpmn-2-0-2",
+    "sdlcMapping": "arxiv-2404.04834v4",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-011",
+        "sec-012",
+        "sec-013",
+        "sec-014",
+        "sec-015",
+        "sec-016",
+        "sec-017",
+        "sec-018",
+        "sec-019"
+      ],
+      "pdfPages": [
+        25,
+        26,
+        27,
+        29,
+        32,
+        35,
+        41,
+        42,
+        46,
+        47
+      ],
+      "method": "p4b-bpmn-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-011-25-choices-for-software-and-digital-applications.md",
+      "section": "sec-011-25-choices-for-software-and-digital-applications",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "relatedBlocks": [
+      "dt:keep-data-element",
+      "dt:requirement-priority",
+      "prose:fig-10-11-anc-registration-reproduces",
+      "prose:fig-13-hiv-decision-matrix-reproduces",
+      "prose:fig-14-anc-hiv-decision-tree-reproduces",
+      "pers:implementing-team",
+      "pers:business-analyst",
+      "pers:user-researcher",
+      "pers:health-informatician",
+      "pers:monitoring-and-evaluation-specialist",
+      "pers:public-health-authority",
+      "pers:health-worker",
+      "pers:clerk",
+      "pers:supervisor",
+      "pers:health-service-user"
+    ],
+    "code": "PHC-BP-02",
+    "bpmnFile": "bp-understand-user-requirements.bpmn",
+    "svgFile": "media/bp-understand-user-requirements.svg",
+    "lanes": [
+      {
+        "laneId": "Lane-Ch3-PHA",
+        "name": "Public health authority",
+        "persona": "pers:public-health-authority",
+        "bpmnRoleId": "public-health-authority"
+      },
+      {
+        "laneId": "Lane-Ch3-BA",
+        "name": "Business analyst & user researcher",
+        "persona": "pers:business-analyst",
+        "bpmnRoleId": "business-analyst"
+      },
+      {
+        "laneId": "Lane-Ch3-HI",
+        "name": "Health informatician",
+        "persona": "pers:health-informatician",
+        "bpmnRoleId": "health-informatician"
+      },
+      {
+        "laneId": "Lane-Ch3-Users",
+        "name": "Targeted health worker occupational groups & health service users",
+        "persona": "pers:health-worker",
+        "bpmnRoleId": "health-worker"
+      },
+      {
+        "laneId": "Lane-Ch3-SE",
+        "name": "Software engineer",
+        "persona": "pers:software-engineer",
+        "bpmnRoleId": "software-engineer"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "name": "Business analyst",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+          "name": "Health informatician",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld",
+          "name": "User researcher",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "name": "Health worker",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+          "name": "Health service user",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+          "name": "Terminology Service",
+          "type": "ApplicationComponent"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+          "name": "Decision Support Engine",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "name": "CDS"
+        }
+      ]
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-process",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-dictionary",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/functional-requirements"
+    ]
+  },
+  "provenance": "authored"
+}

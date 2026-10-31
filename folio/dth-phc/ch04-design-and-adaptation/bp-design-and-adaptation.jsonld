@@ -8,27 +8,18 @@
   ],
   "@id": "papers/dth-phc/blocks/bp-design-and-adaptation",
   "@type": [
-    "smart-base:BusinessProcess"
+    "smart-base:BusinessProcess",
+    "doco:Figure"
   ],
   "label": "bp:design-and-adaptation",
   "kind": "business-process",
   "title": "Phase 2: Design and adaptation (Chapter 4)",
-  "text": "bp-design-and-adaptation.md",
-  "companions": {
-    "bpmn": "bp-design-and-adaptation.bpmn"
-  },
   "uses": [
-    "papers/dth-phc/blocks/pers-implementing-team",
-    "papers/dth-phc/blocks/pers-business-analyst",
-    "papers/dth-phc/blocks/pers-designer",
-    "papers/dth-phc/blocks/pers-user-researcher",
-    "papers/dth-phc/blocks/pers-solutions-architect",
-    "papers/dth-phc/blocks/pers-health-informatician",
-    "papers/dth-phc/blocks/pers-software-engineer",
-    "papers/dth-phc/blocks/pers-technology-partner",
-    "papers/dth-phc/blocks/pers-health-worker",
-    "papers/dth-phc/blocks/pers-health-service-user"
+    "papers/dth-phc/blocks/prose-ch04-overview",
+    "papers/dth-phc/blocks/tbl-ch04-phase-panel",
+    "papers/dth-phc/blocks/prose-ch04-sec-023-architecture-overview"
   ],
+  "text": "bp-design-and-adaptation.md",
   "meta": {
     "title": "Phase 2: Design and adaptation (Chapter 4)",
     "processId": "Process_DesignAndAdaptation",
@@ -54,8 +45,108 @@
         56,
         58
       ],
-      "method": "p4b-bpmn-formalization"
-    }
+      "method": "p4b-bpmn-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-020-41-finalize-software-and-vendor-selection.md",
+      "section": "sec-020-41-finalize-software-and-vendor-selection",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "relatedBlocks": [
+      "pers:implementing-team",
+      "pers:business-analyst",
+      "pers:designer",
+      "pers:user-researcher",
+      "pers:solutions-architect",
+      "pers:health-informatician",
+      "pers:software-engineer",
+      "pers:technology-partner",
+      "pers:health-worker",
+      "pers:health-service-user"
+    ],
+    "code": "PHC-BP-03",
+    "bpmnFile": "bp-design-and-adaptation.bpmn",
+    "svgFile": "media/bp-design-and-adaptation.svg",
+    "lanes": [
+      {
+        "laneId": "Lane-Ch4-BA",
+        "name": "Business analyst & implementing team",
+        "persona": "pers:business-analyst",
+        "bpmnRoleId": "business-analyst"
+      },
+      {
+        "laneId": "Lane-Ch4-Designer",
+        "name": "Designer",
+        "persona": "pers:designer",
+        "bpmnRoleId": "designer"
+      },
+      {
+        "laneId": "Lane-Ch4-Users",
+        "name": "Targeted health worker occupational groups & end-users",
+        "persona": "pers:health-worker",
+        "bpmnRoleId": "health-worker"
+      },
+      {
+        "laneId": "Lane-Ch4-Architect",
+        "name": "Solutions architect & health informatician",
+        "persona": "pers:solutions-architect",
+        "bpmnRoleId": "solutions-architect"
+      },
+      {
+        "laneId": "Lane-Ch4-Engineer",
+        "name": "Software engineer / technology partner",
+        "persona": "pers:software-engineer",
+        "bpmnRoleId": "software-engineer"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
+          "name": "Solutions architect",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-5d55040d3ed75347b5d30553fda6f40c.jsonld",
+          "name": "Designer",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
+          "name": "Software engineer",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-80856538cbd44167a37b276e38c994c3.jsonld",
+          "name": "Interoperability Component",
+          "type": "ApplicationComponent"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
+          "name": "Interoperability Layer"
+        }
+      ]
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/systems-architecture",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/interoperability",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/prototype"
+    ]
   },
   "provenance": "authored"
 }

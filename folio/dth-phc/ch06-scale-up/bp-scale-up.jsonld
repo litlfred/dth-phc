@@ -8,26 +8,18 @@
   ],
   "@id": "papers/dth-phc/blocks/bp-scale-up",
   "@type": [
-    "smart-base:BusinessProcess"
+    "smart-base:BusinessProcess",
+    "doco:Figure"
   ],
   "label": "bp:scale-up",
   "kind": "business-process",
   "title": "Phase 4: Scale-up (Chapter 6)",
-  "text": "bp-scale-up.md",
-  "companions": {
-    "bpmn": "bp-scale-up.bpmn"
-  },
   "uses": [
-    "papers/dth-phc/blocks/dt-ready-to-scale-up",
-    "papers/dth-phc/blocks/pers-public-health-authority",
-    "papers/dth-phc/blocks/pers-monitoring-and-evaluation-specialist",
-    "papers/dth-phc/blocks/pers-solutions-architect",
-    "papers/dth-phc/blocks/pers-implementing-team",
-    "papers/dth-phc/blocks/pers-supervisor",
-    "papers/dth-phc/blocks/pers-health-worker",
-    "papers/dth-phc/blocks/pers-clerk",
-    "papers/dth-phc/blocks/pers-donors-and-development-partners"
+    "papers/dth-phc/blocks/prose-ch06-overview",
+    "papers/dth-phc/blocks/tbl-ch06-phase-panel",
+    "papers/dth-phc/blocks/prose-ch06-sec-029-readiness-to-scale"
   ],
+  "text": "bp-scale-up.md",
   "meta": {
     "title": "Phase 4: Scale-up (Chapter 6)",
     "processId": "Process_ScaleUp",
@@ -53,8 +45,97 @@
         77,
         79
       ],
-      "method": "p4b-bpmn-formalization"
-    }
+      "method": "p4b-bpmn-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-029-61-determine-readiness-for-scaling-up.md",
+      "section": "sec-029-61-determine-readiness-for-scaling-up",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "relatedBlocks": [
+      "dt:ready-to-scale-up",
+      "pers:public-health-authority",
+      "pers:monitoring-and-evaluation-specialist",
+      "pers:solutions-architect",
+      "pers:implementing-team",
+      "pers:supervisor",
+      "pers:health-worker",
+      "pers:clerk",
+      "pers:donors-and-development-partners"
+    ],
+    "code": "PHC-BP-05",
+    "bpmnFile": "bp-scale-up.bpmn",
+    "svgFile": "media/bp-scale-up.svg",
+    "lanes": [
+      {
+        "laneId": "Lane-Ch6-PHA",
+        "name": "Public health authority (ministry of health)",
+        "persona": "pers:public-health-authority",
+        "bpmnRoleId": "public-health-authority"
+      },
+      {
+        "laneId": "Lane-Ch6-Impl",
+        "name": "Implementing team",
+        "persona": "pers:implementing-team",
+        "bpmnRoleId": "implementing-team"
+      },
+      {
+        "laneId": "Lane-Ch6-ME",
+        "name": "Monitoring and evaluation specialist",
+        "persona": "pers:monitoring-and-evaluation-specialist",
+        "bpmnRoleId": "monitoring-and-evaluation-specialist"
+      },
+      {
+        "laneId": "Lane-Ch6-Tech",
+        "name": "Technology partner",
+        "persona": "pers:technology-partner",
+        "bpmnRoleId": "technology-partner"
+      },
+      {
+        "laneId": "Lane-Ch6-Users",
+        "name": "End-users (health workers, supervisors & programme managers)",
+        "persona": "pers:health-worker",
+        "bpmnRoleId": "health-worker"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
+          "name": "Public health authority",
+          "type": "BusinessActor"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "name": "Implementing team",
+          "type": "BusinessActor"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+          "name": "Monitoring and evaluation specialist",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "name": "Analytics & Reporting Platform",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/legacy-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/monitoring-and-evaluation-specialist"
+    ]
   },
   "provenance": "authored"
 }

@@ -1,0 +1,95 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-donors-and-development-partners",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:donors-and-development-partners",
+  "kind": "persona",
+  "title": "Donors, development partners and implementing partners",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-donors-and-development-partners.md",
+  "meta": {
+    "title": "Donors, development partners and implementing partners",
+    "personaType": "organisation",
+    "bpmnRoleId": "donors-and-development-partners",
+    "bpmnLanes": [
+      {
+        "process": "bp:pcposs-implementation-lifecycle",
+        "processId": "Process_PcpossImplementationLifecycle",
+        "laneId": "Lane-Lifecycle-PHA",
+        "bpmnFile": "processes/pcposs-implementation-lifecycle.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.bpmn",
+        "ref": "processes/pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-PHA"
+      },
+      {
+        "process": "bp:scale-up",
+        "processId": "Process_ScaleUp",
+        "laneId": "Lane-Ch6-PHA",
+        "bpmnFile": "processes/scale-up.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch06-scale-up/bp-scale-up.bpmn",
+        "ref": "processes/scale-up.bpmn#Lane-Ch6-PHA"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-e0e0f3f71f13517aa67f1eee6712a327.jsonld",
+          "name": "Donor",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-947a49b1d8234db095f416b0c4a7f746.jsonld",
+          "name": "Contributor",
+          "type": "Stakeholder"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-2d524cffba25509e82684f47d624cc42.jsonld",
+          "name": "Health Supply Chain Partners and Processes (DTH SC Figs. 1-3)"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:donors-and-development-partners",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-006",
+        "sec-009",
+        "sec-011",
+        "sec-029"
+      ],
+      "pdfPages": [
+        15,
+        20,
+        25,
+        71
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-006-13-how-this-handbook-was-developed.md",
+      "section": "sec-006-13-how-this-handbook-was-developed",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "HealthSystemManager",
+    "relatedBlocks": [
+      "bp:pcposs-implementation-lifecycle",
+      "bp:scale-up"
+    ],
+    "roleId": "PHC-R-19",
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/donors-and-development-partners"
+    ]
+  },
+  "provenance": "authored"
+}

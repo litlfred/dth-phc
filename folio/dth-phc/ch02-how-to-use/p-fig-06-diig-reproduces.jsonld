@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-fig-06-diig-reproduces",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:fig-06-diig-reproduces",
+  "kind": "prose",
+  "title": "Fig. 6. Digital health guidelines and tools by DIIG phase (reproduces DIIG Fig. 1.1.1)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-009-prerequisites",
+    "papers/dth-phc/blocks/fig-6"
+  ],
+  "text": "p-fig-06-diig-reproduces.md",
+  "meta": {
+    "title": "Fig. 6. Digital health guidelines and tools by DIIG phase (reproduces DIIG Fig. 1.1.1)",
+    "reproduces": {
+      "kind": "reproduces",
+      "upstreamDocument": "WHO Digital Implementation Investment Guide (DIIG): Integrating Digital Interventions into Health Programmes (2020), Fig. 1.1.1",
+      "smartBaseProcess": "smart-base/methodologies/processes/diig-investment-path.bpmn",
+      "siblingAdaptations": [
+        "dth-pc: Fig. 4 (9789240116191-eng, PDF page 13)",
+        "dth-hrh: fig:diig-phases (folio/dth-hrh/media/diig-phases-hrh.svg)",
+        "dth-sc: Fig. 2 (9789240101197-eng, PDF page 15)"
+      ],
+      "thisHandbookPlacement": "Phase 05 — Determining health content requirements (WHO handbook for digitalizing primary health care)"
+    },
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-009"
+      ],
+      "pdfPages": [
+        21
+      ],
+      "method": "p4b-reproduces-link",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-009-23-before-using-this-resource.md",
+      "section": "sec-009-23-before-using-this-resource",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "relatedBlocks": [],
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines"
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    }
+  },
+  "provenance": "authored"
+}

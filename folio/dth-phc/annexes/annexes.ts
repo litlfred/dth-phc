@@ -58,12 +58,12 @@ export default chapter({
     section({
       title: "Annex 11. Template for a decision-support table",
       label: "sec:annex-11",
-      blocks: ["t-annex-11-decision-support-table-template"],
+      blocks: ["t-annex-11-decision-support-table-template", "dt-annex-11-decision-support-table-template"],
     }),
     section({
       title: "Annex 12. Scheduling logic table guide",
       label: "sec:annex-12",
-      blocks: ["t-annex-12-scheduling-logic-guide"],
+      blocks: ["t-annex-12-scheduling-logic-guide", "sched-annex-12-scheduling-logic-template", "p-annex-12-hepb-schedule-reproduces"],
     }),
     section({
       title: "Annex 13. Prioritization of requirements guide",

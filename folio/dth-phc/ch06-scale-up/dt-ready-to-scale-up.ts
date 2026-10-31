@@ -3,27 +3,8 @@ import { decisionTable } from "../../schema/dak";
 export default decisionTable({
   label: "dt:ready-to-scale-up",
   title: "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5)",
+  decisionId: "Decision_ReadyToScaleUp",
   companions: { dmn: "dt-ready-to-scale-up.dmn" },
-  uses: ["pers:public-health-authority", "pers:monitoring-and-evaluation-specialist", "pers:solutions-architect", "pers:implementing-team"],
-  meta: {
-  "title": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5)",
-  "decisionId": "Decision_ReadyToScaleUp",
-  "canonicalDmn": "processes/decisions/ready-to-scale-up.dmn",
-  "dmnSpec": "omg-2024-dmn-1-5",
-  "source": {
-    "library": "9789240093362-eng",
-    "sections": [
-      "sec-029",
-      "sec-030",
-      "sec-031"
-    ],
-    "pdfPages": [
-      71,
-      72,
-      74,
-      75
-    ],
-    "method": "p4b-dmn-formalization"
-  }
-},
+  uses: ["prose:ch06-sec-029-readiness-to-scale", "prose:ch06-sec-030-plan-legacy-phaseout", "tbl:5"],
+  meta: {"title": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5)", "decisionId": "Decision_ReadyToScaleUp", "canonicalDmn": "processes/decisions/ready-to-scale-up.dmn", "dmnSpec": "omg-2024-dmn-1-5", "source": {"library": "9789240093362-eng", "sections": ["sec-029", "sec-030", "sec-031"], "pdfPages": [71, 72, 74, 75], "method": "p4b-dmn-formalization", "file": "who-iris/library/9789240093362-eng/sections/sec-029-61-determine-readiness-for-scaling-up.md", "section": "sec-029-61-determine-readiness-for-scaling-up", "issue": "litlfred/dth-phc#1"}, "relatedBlocks": ["pers:public-health-authority", "pers:monitoring-and-evaluation-specialist", "pers:solutions-architect", "pers:implementing-team"], "code": "PHC-DT-04", "dmnFile": "dt-ready-to-scale-up.dmn", "archimate": {"model": "smart-ra 0.3.0-draft.1", "basis": "agent-proposed by name, for working-group review (dth-phc#1)", "elements": [{"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld", "name": "Public health authority", "type": "BusinessActor"}, {"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld", "name": "Monitoring and evaluation specialist", "type": "BusinessRole"}], "views": [{"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld", "name": "Shared DTH Roles and Actors"}, {"iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld", "name": "Person-centred point of service (PCPOSS)"}]}, "glossaryTerms": ["https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/legacy-system", "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system"]},
 });
