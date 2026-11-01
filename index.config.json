@@ -176,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "c5ccdc30d80eae86638db56b4f3c88d74516fed3",
+          "ref": "6f431f09d8755bd95d21b3d0e49f872cc6a71d53",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -189,8 +189,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-01",
-              "ref": "c5ccdc30d80eae86638db56b4f3c88d74516fed3",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "ref": "6f431f09d8755bd95d21b3d0e49f872cc6a71d53",
+              "evidence": "Owner litlfred, 2026-11-01 18:53Z 'go ahead and start migration of DAKs as needed' (cmsg_017WNUkNK8kdDziPK58Pv6G97mZBVYgzjtiNdrERXA6oer); repin to cat-harness-tools main 6f431f0 for the business-processes kind (tools#1316)."
             }
           }
         }
