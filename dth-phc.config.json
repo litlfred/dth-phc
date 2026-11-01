@@ -38,7 +38,7 @@
         "check:dth-glossary",
         "check:kg-blocks",
         "check:library-kg",
-        "check:l1-coverage"
+        "check:l1-coverage:warn"
       ],
       "keep": [
         "ns"

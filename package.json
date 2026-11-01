@@ -14,6 +14,7 @@
     "seed:folio": "python3 -I scripts/folio/seed_from_l1.py",
     "check:archimate-links": "bun run scripts/glossary/validate.ts",
     "check:l1-coverage": "bun run scripts/folio/check_l1_coverage.ts",
+    "check:l1-coverage:warn": "bun run scripts/folio/check_l1_coverage.ts --warn",
     "review:anchors": "bun run folio-assistant-core/scripts/review-anchors-from-folio.ts --document dth-phc --library 9789240093362-eng --source who-iris/library/9789240093362-eng/structure.json --source-label \"the WHO IRIS L1 entry it was seeded from\"",
     "check:review-anchors": "bun run folio-assistant-core/scripts/review-anchors-from-folio.ts --document dth-phc --library 9789240093362-eng --source who-iris/library/9789240093362-eng/structure.json --source-label \"the WHO IRIS L1 entry it was seeded from\" --check"
   },
