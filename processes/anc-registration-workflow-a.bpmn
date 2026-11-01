@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_Process_AncRegistrationWorkflowA" targetNamespace="https://litlfred.github.io/dth-phc/workflows" exporter="folio-assistant" exporterVersion="1">
+  <bpmn:resource id="pers:health-service-user" name="Client"/>
+  <bpmn:resource id="pers:health-worker" name="Health worker or Clerk"/>
+  <bpmn:collaboration id="Collaboration_AncRegistrationWorkflowA">
+    <bpmn:participant id="Participant_HealthFacility" name="Health facility" processRef="Process_AncRegistrationWorkflowA"/>
+  </bpmn:collaboration>
+  <bpmn:process id="Process_AncRegistrationWorkflowA" name="Workflow A: Registration business process" isExecutable="false">
+    <bpmn:documentation>Fig. 10 of WHO 9789240093362 (PDF page 38), rebuilt as BPMN in the figure's own words. Source: WHO (29), the WHO Digital adaptation kit for antenatal care (ANC.A). Notes and annotations for each activity: Fig. 11 (tbl:fig-11).</bpmn:documentation>
+    <bpmn:laneSet id="LaneSet_AncRegistrationWorkflowA">
+      <bpmn:lane id="Lane_Client" name="Client" partitionElementRef="pers:health-service-user">
+        <bpmn:flowNodeRef>Start</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T1</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_HealthWorkerOrClerk" name="Health worker or Clerk" partitionElementRef="pers:health-worker">
+        <bpmn:flowNodeRef>T2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndC</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndB</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Sub8</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start" name="Start">
+      <bpmn:outgoing>F1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="T1" name="1. Arrive at facility">
+      <bpmn:incoming>F1</bpmn:incoming>
+      <bpmn:outgoing>F2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T2" name="2. Rapid assessment and management (RAM)">
+      <bpmn:incoming>F2</bpmn:incoming>
+      <bpmn:outgoing>F3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G3" name="3. Urgent referral necessary?">
+      <bpmn:incoming>F3</bpmn:incoming>
+      <bpmn:outgoing>F4</bpmn:outgoing>
+      <bpmn:outgoing>F5</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id="EndC" name="C. ANC referral">
+      <bpmn:incoming>F4</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="T4" name="4. Gather client details">
+      <bpmn:incoming>F5</bpmn:incoming>
+      <bpmn:outgoing>F6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T5" name="5. Search for client">
+      <bpmn:incoming>F6</bpmn:incoming>
+      <bpmn:outgoing>F7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G6" name="6. Match found?">
+      <bpmn:incoming>F7</bpmn:incoming>
+      <bpmn:outgoing>F8</bpmn:outgoing>
+      <bpmn:outgoing>F9</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T7" name="7. Create client record">
+      <bpmn:incoming>F9</bpmn:incoming>
+      <bpmn:outgoing>F11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T9" name="9. Check-in client">
+      <bpmn:incoming>F10</bpmn:incoming>
+      <bpmn:incoming>F11</bpmn:incoming>
+      <bpmn:outgoing>F12</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="EndB" name="B. ANC contact">
+      <bpmn:incoming>F12</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:subProcess id="Sub8" name="8. Validate client details">
+      <bpmn:incoming>F8</bpmn:incoming>
+      <bpmn:outgoing>F10</bpmn:outgoing>
+      <bpmn:startEvent id="S8Start">
+        <bpmn:outgoing>F81</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:task id="T81" name="8.1 Review socio-demographic data with client">
+        <bpmn:incoming>F81</bpmn:incoming>
+        <bpmn:outgoing>F82</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:exclusiveGateway id="G82" name="8.2 Update needed?">
+        <bpmn:incoming>F82</bpmn:incoming>
+        <bpmn:outgoing>F83</bpmn:outgoing>
+        <bpmn:outgoing>F85</bpmn:outgoing>
+      </bpmn:exclusiveGateway>
+      <bpmn:task id="T83" name="8.3 Update client details">
+        <bpmn:incoming>F83</bpmn:incoming>
+        <bpmn:outgoing>F84</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:endEvent id="S8End">
+        <bpmn:incoming>F84</bpmn:incoming>
+        <bpmn:incoming>F85</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:sequenceFlow id="F81" sourceRef="S8Start" targetRef="T81"/>
+      <bpmn:sequenceFlow id="F82" sourceRef="T81" targetRef="G82"/>
+      <bpmn:sequenceFlow id="F83" sourceRef="G82" targetRef="T83" name="Yes"/>
+      <bpmn:sequenceFlow id="F84" sourceRef="T83" targetRef="S8End"/>
+      <bpmn:sequenceFlow id="F85" sourceRef="G82" targetRef="S8End" name="No"/>
+    </bpmn:subProcess>
+    <bpmn:sequenceFlow id="F1" sourceRef="Start" targetRef="T1"/>
+    <bpmn:sequenceFlow id="F2" sourceRef="T1" targetRef="T2"/>
+    <bpmn:sequenceFlow id="F3" sourceRef="T2" targetRef="G3"/>
+    <bpmn:sequenceFlow id="F4" sourceRef="G3" targetRef="EndC" name="Yes"/>
+    <bpmn:sequenceFlow id="F5" sourceRef="G3" targetRef="T4" name="No"/>
+    <bpmn:sequenceFlow id="F6" sourceRef="T4" targetRef="T5"/>
+    <bpmn:sequenceFlow id="F7" sourceRef="T5" targetRef="G6"/>
+    <bpmn:sequenceFlow id="F8" sourceRef="G6" targetRef="Sub8" name="Yes"/>
+    <bpmn:sequenceFlow id="F9" sourceRef="G6" targetRef="T7" name="No"/>
+    <bpmn:sequenceFlow id="F10" sourceRef="Sub8" targetRef="T9"/>
+    <bpmn:sequenceFlow id="F11" sourceRef="T7" targetRef="T9"/>
+    <bpmn:sequenceFlow id="F12" sourceRef="T9" targetRef="EndB"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diagram_AncRegistrationWorkflowA">
+    <bpmndi:BPMNPlane id="Plane_AncRegistrationWorkflowA" bpmnElement="Collaboration_AncRegistrationWorkflowA">
+      <bpmndi:BPMNShape id="Participant_HealthFacility_di" bpmnElement="Participant_HealthFacility" isHorizontal="true"><dc:Bounds x="0" y="0" width="1290" height="870"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Client_di" bpmnElement="Lane_Client" isHorizontal="true"><dc:Bounds x="30" y="0" width="1260" height="160"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_HealthWorkerOrClerk_di" bpmnElement="Lane_HealthWorkerOrClerk" isHorizontal="true"><dc:Bounds x="30" y="160" width="1260" height="710"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Start_di" bpmnElement="Start"><dc:Bounds x="62" y="62" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T1_di" bpmnElement="T1"><dc:Bounds x="140" y="20" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T2_di" bpmnElement="T2"><dc:Bounds x="140" y="190" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G3_di" bpmnElement="G3"><dc:Bounds x="305" y="225" width="50" height="50"/><bpmndi:BPMNLabel><dc:Bounds x="270" y="166" width="120" height="50"/></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndC_di" bpmnElement="EndC"><dc:Bounds x="422" y="232" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T4_di" bpmnElement="T4"><dc:Bounds x="270" y="360" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T5_di" bpmnElement="T5"><dc:Bounds x="270" y="540" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G6_di" bpmnElement="G6"><dc:Bounds x="425" y="575" width="50" height="50"/><bpmndi:BPMNLabel><dc:Bounds x="390" y="540" width="120" height="30"/></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S8Start_di" bpmnElement="S8Start"><dc:Bounds x="527" y="582" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T81_di" bpmnElement="T81"><dc:Bounds x="590" y="540" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G82_di" bpmnElement="G82"><dc:Bounds x="745" y="575" width="50" height="50"/><bpmndi:BPMNLabel><dc:Bounds x="642" y="666" width="122" height="36"/></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T83_di" bpmnElement="T83"><dc:Bounds x="830" y="540" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S8End_di" bpmnElement="S8End"><dc:Bounds x="967" y="582" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T7_di" bpmnElement="T7"><dc:Bounds x="590" y="740" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T9_di" bpmnElement="T9"><dc:Bounds x="1050" y="540" width="120" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndB_di" bpmnElement="EndB"><dc:Bounds x="1222" y="582" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Sub8_di" bpmnElement="Sub8" isExpanded="true"><dc:Bounds x="510" y="480" width="500" height="240"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="F1_di" bpmnElement="F1"><di:waypoint x="98" y="80"/><di:waypoint x="140" y="80"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F2_di" bpmnElement="F2"><di:waypoint x="200" y="140"/><di:waypoint x="200" y="190"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F3_di" bpmnElement="F3"><di:waypoint x="260" y="250"/><di:waypoint x="305" y="250"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F4_di" bpmnElement="F4"><di:waypoint x="355" y="250"/><di:waypoint x="422" y="250"/><bpmndi:BPMNLabel><dc:Bounds x="392" y="228" width="30" height="16"/></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F5_di" bpmnElement="F5"><di:waypoint x="330" y="275"/><di:waypoint x="330" y="360"/><bpmndi:BPMNLabel><dc:Bounds x="338" y="300" width="24" height="16"/></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F6_di" bpmnElement="F6"><di:waypoint x="330" y="480"/><di:waypoint x="330" y="540"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F7_di" bpmnElement="F7"><di:waypoint x="390" y="600"/><di:waypoint x="425" y="600"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F8_di" bpmnElement="F8"><di:waypoint x="475" y="600"/><di:waypoint x="510" y="600"/><bpmndi:BPMNLabel><dc:Bounds x="480" y="580" width="30" height="16"/></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F9_di" bpmnElement="F9"><di:waypoint x="450" y="625"/><di:waypoint x="450" y="800"/><di:waypoint x="590" y="800"/><bpmndi:BPMNLabel><dc:Bounds x="456" y="650" width="24" height="16"/></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F10_di" bpmnElement="F10"><di:waypoint x="1010" y="600"/><di:waypoint x="1050" y="600"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F11_di" bpmnElement="F11"><di:waypoint x="710" y="800"/><di:waypoint x="1110" y="800"/><di:waypoint x="1110" y="660"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F12_di" bpmnElement="F12"><di:waypoint x="1170" y="600"/><di:waypoint x="1222" y="600"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F81_di" bpmnElement="F81"><di:waypoint x="563" y="600"/><di:waypoint x="590" y="600"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F82_di" bpmnElement="F82"><di:waypoint x="710" y="600"/><di:waypoint x="745" y="600"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F83_di" bpmnElement="F83"><di:waypoint x="795" y="600"/><di:waypoint x="830" y="600"/><bpmndi:BPMNLabel><dc:Bounds x="800" y="580" width="30" height="16"/></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F84_di" bpmnElement="F84"><di:waypoint x="950" y="600"/><di:waypoint x="967" y="600"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F85_di" bpmnElement="F85"><di:waypoint x="770" y="625"/><di:waypoint x="770" y="700"/><di:waypoint x="985" y="700"/><di:waypoint x="985" y="618"/><bpmndi:BPMNLabel><dc:Bounds x="840" y="702" width="24" height="16"/></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

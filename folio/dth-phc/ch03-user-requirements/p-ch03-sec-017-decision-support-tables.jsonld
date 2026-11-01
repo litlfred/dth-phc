@@ -1,0 +1,153 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch03-sec-017-decision-support-tables",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch03-sec-017-decision-support-tables",
+  "kind": "prose",
+  "title": "3.6 Decision-support tables",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch03-sec-017-decision-support-logic",
+    "papers/dth-phc/blocks/fig-14"
+  ],
+  "text": "p-ch03-sec-017-decision-support-tables.md",
+  "meta": {
+    "title": "3.6 Decision-support tables",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-017-36-determine-decision-support-logic",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "pdfPages": [
+        46
+      ],
+      "method": "l1-section-formalized",
+      "decision": "moved out of the Fig. 14 block, where the L1 seed had put the page's prose (ingestion fix, 2026-11-01)"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-logic",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-table",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/clinical-protocol",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/care-pathway",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/algorithm",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/rule",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/input",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/output",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/flag",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/pop-up-message",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+        "name": "Decision support system"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+        "id": "id-539b04ae45f147258d8253ae5cb87402",
+        "name": "Decision Support Engine"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
+        "id": "id-9d1f8abfb4905386b6a8ea65f421d115",
+        "name": "Alerts and reminders"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0a635958abe251829d425db426340b00.jsonld",
+        "id": "id-0a635958abe251829d425db426340b00",
+        "name": "Care checklists"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-5890b78a30f25b1b8502a7fe0c9aac32.jsonld",
+        "id": "id-5890b78a30f25b1b8502a7fe0c9aac32",
+        "name": "Clinical screening"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+        "id": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+        "name": "SMART Guidelines L2 (DAK)"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+        "id": "id-4c98f10e0a244315acddaf5257c7822e",
+        "name": "CDS"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "name": "Decision support system"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+          "name": "Decision Support Engine"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
+          "name": "Alerts and reminders"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0a635958abe251829d425db426340b00.jsonld",
+          "name": "Care checklists"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-5890b78a30f25b1b8502a7fe0c9aac32.jsonld",
+          "name": "Clinical screening"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+          "name": "SMART Guidelines L2 (DAK)"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "name": "CDS"
+        }
+      ]
+    },
+    "methodStep": {
+      "stepId": "3.6",
+      "title": "Determine decision-support logic",
+      "substeps": [
+        "3.6.1 Document clinical care pathway decision-support logic"
+      ],
+      "producesDakComponents": [
+        "smart-base:DecisionTable"
+      ],
+      "dakKind": "decision-table",
+      "templates": [
+        "Annex 10. Decision-support logic and scheduling matrix guide (sec-042)",
+        "Annex 11. Template for a decision-support table (sec-043)"
+      ],
+      "standards": [
+        "omg-2024-dmn-1-5"
+      ],
+      "normativeSpec": "cat-harness/library/omg-2024-dmn-1-5"
+    }
+  },
+  "provenance": "authored"
+}

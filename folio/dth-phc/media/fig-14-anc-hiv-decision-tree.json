@@ -1,0 +1,162 @@
+{
+ "$comment": "Fig. 14 as data: boxes in the figure's words, and the arrows between them. Written by scripts/figures/fig14_decision_tree.py.",
+ "figure": "Fig. 14",
+ "source": "who-iris/library/9789240093362-eng, PDF page 46",
+ "nodes": [
+  {
+   "id": "registration",
+   "title": "Antenatal registration",
+   "text": [
+    "Provider-initiated HIV testing & counselling"
+   ]
+  },
+  {
+   "id": "hiv-positive",
+   "title": "HIV-positive",
+   "text": [
+    "PMTCT, treatment, support,",
+    "offer partner notification"
+   ]
+  },
+  {
+   "id": "hiv-negative",
+   "title": "HIV-negative",
+   "text": [
+    "Standard HIV post-test guidance and",
+    "counselling on prevention"
+   ]
+  },
+  {
+   "id": "partner-testing",
+   "title": "Partner testing",
+   "text": []
+  },
+  {
+   "id": "offer-partner-testing",
+   "title": "Offer partner testing & conduct risk assessment",
+   "text": []
+  },
+  {
+   "id": "risk-assessment",
+   "title": "Risk assessment using tool",
+   "text": []
+  },
+  {
+   "id": "partner-hiv-negative",
+   "title": "Partner HIV- negative",
+   "text": []
+  },
+  {
+   "id": "partner-not-tested",
+   "title": "Partner not tested or HIV-positive",
+   "text": [
+    "Offer partner:",
+    "1. HIV treatment",
+    "(if HIV-positive)",
+    "2. Condom",
+    "promotion",
+    "3. Risk reduction",
+    "counselling"
+   ]
+  },
+  {
+   "id": "partner-negative-actions",
+   "title": "",
+   "text": [
+    "» Reassess",
+    "woman’s",
+    "risk",
+    "» Offer",
+    "partner",
+    "referral for",
+    "VMMC"
+   ]
+  },
+  {
+   "id": "at-risk",
+   "title": "Woman at substantial risk of HIV acquisition",
+   "text": []
+  },
+  {
+   "id": "not-at-risk",
+   "title": "Woman not at substantial risk of HIV acquisition",
+   "text": []
+  },
+  {
+   "id": "prevention-options",
+   "title": "Provide comprehensive HIV prevention options:",
+   "text": [
+    "1. STI screening and treatment (syndromic and syphilis)",
+    "2. Condom promotion",
+    "3. Risk reduction counselling",
+    "4. PrEP with emphasis on adherence",
+    "5. Emphasize importance of follow-up ANC visits"
+   ]
+  },
+  {
+   "id": "initiate-prep",
+   "title": "Woman who chooses to initiate PrEP",
+   "text": [
+    "1. Clinical laboratory assessments",
+    "2. Adherence counselling",
+    "3. Emphasize importance of follow-up visits and repeat",
+    "HIV testing"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "registration",
+   "to": "hiv-positive"
+  },
+  {
+   "from": "registration",
+   "to": "hiv-negative"
+  },
+  {
+   "from": "hiv-positive",
+   "to": "partner-testing"
+  },
+  {
+   "from": "hiv-negative",
+   "to": "offer-partner-testing"
+  },
+  {
+   "from": "hiv-negative",
+   "to": "risk-assessment"
+  },
+  {
+   "from": "offer-partner-testing",
+   "to": "partner-testing"
+  },
+  {
+   "from": "partner-testing",
+   "to": "partner-hiv-negative"
+  },
+  {
+   "from": "partner-testing",
+   "to": "partner-not-tested"
+  },
+  {
+   "from": "risk-assessment",
+   "to": "at-risk"
+  },
+  {
+   "from": "risk-assessment",
+   "to": "not-at-risk"
+  },
+  {
+   "from": "at-risk",
+   "to": "prevention-options"
+  },
+  {
+   "from": "prevention-options",
+   "to": "initiate-prep"
+  }
+ ],
+ "footnote": [
+  "ANC: antenatal care; PMTCT: prevention of mother-to-child transmission; PrEP: pre-exposure prophylaxis; STI: sexually",
+  "transmitted infection; VMMC: voluntary medical male circumcision.",
+  "Source: WHO (29)"
+ ]
+}

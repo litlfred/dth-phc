@@ -1,0 +1,105 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/tbl-fig-13",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:fig-13",
+  "kind": "table",
+  "title": "Fig. 13 as a table: Example decision-support logic matrix from DAK for HIV",
+  "uses": [
+    "papers/dth-phc/blocks/fig-13"
+  ],
+  "text": "t-ch03-fig-13.md",
+  "meta": {
+    "title": "Fig. 13 as a table: Example decision-support logic matrix from DAK for HIV",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-017-36-determine-decision-support-logic",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "pdfPages": [
+        45
+      ],
+      "method": "l1-table-formalized",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p045.png",
+      "decision": "owner 2026-11-01 15:50Z: turn the PDF's figures into computable assets without changing meaning",
+      "verbatimCheck": "every word is on PDF page 45 (who-iris vector-labels.json)"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-logic",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-table",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+        "name": "Decision support system"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+        "id": "id-539b04ae45f147258d8253ae5cb87402",
+        "name": "Decision Support Engine"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+        "id": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+        "name": "SMART Guidelines L2 (DAK)"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+        "id": "id-4c98f10e0a244315acddaf5257c7822e",
+        "name": "CDS"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "name": "Decision support system"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+          "name": "Decision Support Engine"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+          "name": "SMART Guidelines L2 (DAK)"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "name": "CDS"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    },
+    "reproduces": {
+      "source": "WHO Digital adaptation kit for HIV, 2nd ed. (2023)",
+      "iris": "https://iris.who.int/handle/10665/375230",
+      "component": "decision-table"
+    },
+    "sourceOnly": "reproduced decision-support matrix from WHO HIV DAK (ref. 31): linked, never redrawn per dth-phc#1 §3d"
+  },
+  "provenance": "authored"
+}
