@@ -176,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "c5ccdc30d80eae86638db56b4f3c88d74516fed3",
+          "ref": "f92092eb95e01386b834c659eae8082ce1bb9431",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -189,8 +189,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-01",
-              "ref": "c5ccdc30d80eae86638db56b4f3c88d74516fed3",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "ref": "f92092eb95e01386b834c659eae8082ce1bb9431",
+              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv), inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); re-pinned with cat-harness, whose archimate-blocks tool needs cat-harness-tools' archimate:blocks script."
             }
           }
         }
