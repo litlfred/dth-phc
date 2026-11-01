@@ -148,7 +148,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "f824cad9641a7f1bcf9812d977e695bce7b43296",
+          "ref": "1b2228331caf3d3b5a8a3f0d289d69f584f4b8a4",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -164,8 +164,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-01",
-              "ref": "f824cad9641a7f1bcf9812d977e695bce7b43296",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "ref": "1b2228331caf3d3b5a8a3f0d289d69f584f4b8a4",
+              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A 'Ready it, merge when green' (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) for cat-harness#927, inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); repin to main to publish the figure controls."
             }
           }
         }
