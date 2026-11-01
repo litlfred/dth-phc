@@ -87,46 +87,46 @@
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.1",
+      "model": "smart-ra 0.3.0-draft.2",
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
           "name": "Implementing team",
           "type": "BusinessActor"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
           "name": "Software engineer",
           "type": "BusinessRole"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
           "name": "Health worker",
           "type": "BusinessRole"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-7c03cebca775460c8481d8c4729b127b.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-7c03cebca775460c8481d8c4729b127b.jsonld",
           "name": "Testing Platforms",
           "type": "ApplicationComponent"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f9759d3c33a848cd81ba7cbae9fa2b99.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-f9759d3c33a848cd81ba7cbae9fa2b99.jsonld",
           "name": "System Under Test",
           "type": "ApplicationComponent"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-0e97a3f6a8f545f5bd90e123c11a2545.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-0e97a3f6a8f545f5bd90e123c11a2545.jsonld",
           "name": "Testing"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-b44f768c54ea493c8b33499e5d2e2d33.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-b44f768c54ea493c8b33499e5d2e2d33.jsonld",
           "name": "Conformance"
         }
       ]

@@ -54,32 +54,32 @@
     ],
     "code": "PHC-SCHED-01",
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.1",
+      "model": "smart-ra 0.3.0-draft.2",
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
           "name": "Alerts and reminders",
           "type": "ApplicationService"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
           "name": "Longitudinal tracking",
           "type": "ApplicationService"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
           "name": "Decision support system",
           "type": "ApplicationComponent"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
           "name": "CDS"
         }
       ]

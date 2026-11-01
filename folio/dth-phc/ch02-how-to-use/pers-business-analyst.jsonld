@@ -40,22 +40,22 @@
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.1",
+      "model": "smart-ra 0.3.0-draft.2",
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
           "name": "Business analyst",
           "type": "BusinessRole"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
           "name": "CDS"
         }
       ]

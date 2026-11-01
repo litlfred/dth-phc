@@ -52,66 +52,66 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-5b55a8ca67864a1a91910347db193e79.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-5b55a8ca67864a1a91910347db193e79.jsonld",
         "id": "id-5b55a8ca67864a1a91910347db193e79",
         "name": "SMART Guidelines L1"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b03a09f1177a4bf6bfd1f22c6cea1c94.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-b03a09f1177a4bf6bfd1f22c6cea1c94.jsonld",
         "id": "id-b03a09f1177a4bf6bfd1f22c6cea1c94",
         "name": "Adapted SMART Guidelines L1"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
         "id": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
         "name": "SMART Guidelines L2 (DAK)"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-2f415a2e0d4245c19663f5821ed02a16.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-2f415a2e0d4245c19663f5821ed02a16.jsonld",
         "id": "id-2f415a2e0d4245c19663f5821ed02a16",
         "name": "Adapted SMART Guidelines L2 (DAK)"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
         "id": "id-4c98f10e0a244315acddaf5257c7822e",
         "name": "CDS"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.1",
+      "model": "smart-ra 0.3.0-draft.2",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-5b55a8ca67864a1a91910347db193e79.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-5b55a8ca67864a1a91910347db193e79.jsonld",
           "name": "SMART Guidelines L1"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b03a09f1177a4bf6bfd1f22c6cea1c94.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-b03a09f1177a4bf6bfd1f22c6cea1c94.jsonld",
           "name": "Adapted SMART Guidelines L1"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
           "name": "SMART Guidelines L2 (DAK)"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-2f415a2e0d4245c19663f5821ed02a16.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-2f415a2e0d4245c19663f5821ed02a16.jsonld",
           "name": "Adapted SMART Guidelines L2 (DAK)"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
           "name": "CDS"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]

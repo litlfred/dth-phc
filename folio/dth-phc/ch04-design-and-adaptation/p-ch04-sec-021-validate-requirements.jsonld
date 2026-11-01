@@ -38,66 +38,66 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
         "id": "id-b1a348e9848f50e19a46bf2226dc2f08",
         "name": "Business analyst"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
         "id": "id-6f87fe9ac64b5deca8c2ed5c96641485",
         "name": "Software engineer"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
         "id": "id-dec0373effd25980b70e45e852f0ff1f",
         "name": "Technology partner"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
         "id": "id-95e8f300e2225113a3195b2d6c2afc9b",
         "name": "Implementing team"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
         "id": "id-eac6523c694c551b968166656af2b2e6",
         "name": "Shared DTH Roles and Actors"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.1",
+      "model": "smart-ra 0.3.0-draft.2",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
           "name": "Business analyst"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
           "name": "Software engineer"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
           "name": "Technology partner"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
           "name": "Implementing team"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]

@@ -38,66 +38,66 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
         "id": "id-efb44c09bbb251a4a851dbef2bfaf5a2",
         "name": "Monitoring and evaluation specialist"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
         "id": "id-3fd92d497ca040c8a436f355c0b68770",
         "name": "Analytics & Reporting Platform"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
         "id": "id-ab03b92d0a8355bca5ce336ab2e2bf17",
         "name": "Indicator reporting"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
         "id": "id-808925f4d2075d7b95e0651ebae00fcf",
         "name": "Point-of-service application"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
         "id": "id-eac6523c694c551b968166656af2b2e6",
         "name": "Shared DTH Roles and Actors"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.1",
+      "model": "smart-ra 0.3.0-draft.2",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
           "name": "Monitoring and evaluation specialist"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
           "name": "Analytics & Reporting Platform"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
           "name": "Indicator reporting"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
           "name": "Point-of-service application"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         }
       ]

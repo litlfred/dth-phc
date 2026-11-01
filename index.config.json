@@ -248,7 +248,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-ra",
-          "ref": "6c60711bf241a9fe04755e29f2c00e0c2d58e46a",
+          "ref": "3b4a66f86888e7d98617b490ac8af16c28decaae",
           "overrides": {
             "dpi-h-ra": {
               "directories": [
@@ -284,9 +284,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-31",
-              "ref": "6c60711bf241a9fe04755e29f2c00e0c2d58e46a",
-              "evidence": "litlfred, 2026-10-31 08:14Z, decision card in thread 'Finish dth-hrh issue 47': 'A. Wiring now (items 1-4)' (merge smart-ra#144 and #148, then one dth-hrh draft PR mounting smart-ra with glossary and ArchiMate links); plan option A for L2 DTHs on smart-ra, 2026-10-31 00:26Z, thread 'Prepare DTH ingests as L2 on smart-ra'. main tip 6c60711 = #148 (RA glossary as SKOS) on #144 (full-STAC glossary)."
+              "on": "2026-11-01",
+              "ref": "3b4a66f86888e7d98617b490ac8af16c28decaae",
+              "evidence": "Owner litlfred, 2026-11-01 08:08Z 'put the new PHC elements in a new version' (Q-PHC2 A): pin dpi-h-ra to smart-ra#182 head with ArchiMate 0.3.0-draft.2; under the 07:27Z '+3hrs merge + repin' window."
             }
           }
         }

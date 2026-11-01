@@ -53,84 +53,84 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
         "id": "id-3f41de2b51c24041b08243bf72b140d1",
         "name": "Terminology Service"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
         "id": "id-c0d39bf67fe64f54b07fbeb9bf37d404",
         "name": "Logical Information Model Registry"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-80856538cbd44167a37b276e38c994c3.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-80856538cbd44167a37b276e38c994c3.jsonld",
         "id": "id-80856538cbd44167a37b276e38c994c3",
         "name": "Interoperability Component"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-d79aa0eec0584b0792b44bca408afeb6.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-d79aa0eec0584b0792b44bca408afeb6.jsonld",
         "id": "id-d79aa0eec0584b0792b44bca408afeb6",
         "name": "DPI-F Security & Consent Module"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
         "id": "id-8074acfb0a065da4b9b36ad88fc2a0d5",
         "name": "Health informatician"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
         "id": "id-8c5dd12b8d4e425184f6003d0513d569",
         "name": "Interoperability Layer"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-dbcfb8e417294161ac0b1614c2e18cc5.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-dbcfb8e417294161ac0b1614c2e18cc5.jsonld",
         "id": "id-dbcfb8e417294161ac0b1614c2e18cc5",
         "name": "LMIR Overview"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.1",
+      "model": "smart-ra 0.3.0-draft.2",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
           "name": "Terminology Service"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
           "name": "Logical Information Model Registry"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-80856538cbd44167a37b276e38c994c3.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-80856538cbd44167a37b276e38c994c3.jsonld",
           "name": "Interoperability Component"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-d79aa0eec0584b0792b44bca408afeb6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-d79aa0eec0584b0792b44bca408afeb6.jsonld",
           "name": "DPI-F Security & Consent Module"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
           "name": "Health informatician"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
           "name": "Interoperability Layer"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-dbcfb8e417294161ac0b1614c2e18cc5.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-dbcfb8e417294161ac0b1614c2e18cc5.jsonld",
           "name": "LMIR Overview"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]

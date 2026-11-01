@@ -44,9 +44,9 @@ TITLE = "Digital Transformation Handbook for Primary Health Care: optimizing per
 
 PHC_TERM_NS = "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/"
 RA_TERM_NS = "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/"
-RA_ARCHI_NS = "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/"
+RA_ARCHI_NS = "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/"
 
-# Known ArchiMate elements in smart-ra (0.2.0 + 0.3.0-draft.1 from #133)
+# Known ArchiMate elements in smart-ra (0.2.0 + 0.3.0-draft.2 from #133)
 ARCHI_ELEMENTS = {
     # New PCPOSS elements (dth_phc.py)
     "pos-app": ("id-808925f4d2075d7b95e0651ebae00fcf", "Point-of-service application"),
@@ -193,7 +193,7 @@ def make_meta(
         meta["archimateElements"] = els
         meta["archimateViews"] = vws
         meta["archimate"] = {
-            "model": "smart-ra 0.3.0-draft.1",
+            "model": "smart-ra 0.3.0-draft.2",
             "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
             "elements": [{"iri": x["iri"], "name": x["name"]} for x in els],
             "views": [{"iri": x["iri"], "name": x["name"]} for x in vws],
