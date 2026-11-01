@@ -42,6 +42,9 @@ const REPORT_PATH = join(FOLIO_DIR, "l1-coverage.json");
 const DOCS_MD_PATH = join(ROOT, "docs/l1-coverage.md");
 
 const WRITE = process.argv.includes("--write");
+// --warn: report OPEN coverage but exit 0. The site publish uses it (owner, Q-PHC13 A, 2026-11-01) so
+// unsigned exclusions do not block publishing. A hard error (exit 2) still fails.
+const WARN = process.argv.includes("--warn");
 const SIGNOFFS_PATH = join(FOLIO_DIR, "l1-signoffs.json");
 /** Owner sign-offs: `[{ "location": "p3:s70", "signedOffBy": "…", "signedOffAt": "YYYY-MM-DD", "evidence": "…" }]`. */
 const SIGNOFFS = new Map<string, { signedOffBy: string; signedOffAt: string }>(
@@ -407,5 +410,9 @@ const proposed = exclusions.filter((e) => !e.signedOffBy).length;
 if (proposed > 0) {
   console.log(`  ${proposed} exclusion(s) are proposals waiting for the owner's sign-off in folio/dth-phc/l1-signoffs.json:`);
   for (const e of exclusions.filter((x) => !x.signedOffBy)) console.log(`    ${e.location}\t${e.classification}\t${e.section}\t${(e.text ?? "").slice(0, 110)}`);
+}
+if (WARN && code === 1) {
+  console.log("  WARN: coverage is OPEN; --warn lets the build continue.");
+  process.exit(0);
 }
 process.exit(code);
