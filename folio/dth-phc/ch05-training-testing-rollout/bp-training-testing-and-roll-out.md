@@ -2,7 +2,7 @@
 
 Formal BPMN 2.0 model of Chapter 5 (sections 5.1 to 5.4, `sec-025`–`sec-028`), covering pre-roll-out governance policies, parallel user and maintenance training tracks, User Acceptance Testing (UAT), production deployment, and the ongoing feedback and maintenance loop.
 
-![Phase 3: Training, testing and roll-out](https://github.com/litlfred/dth-phc/blob/main/processes/training-testing-and-roll-out.svg)
+![Phase 3: Training, testing and roll-out](media/bp-training-testing-and-roll-out.svg)
 
 ## Structure of the model (`Process_TrainingTestingAndRollOut`)
 

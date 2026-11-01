@@ -2,7 +2,7 @@
 
 Formal BPMN 2.0 model of Chapter 4 (sections 4.1 to 4.5, `sec-020`–`sec-024`), covering software and vendor selection, functional requirement validation, the three-stage human-centred prototyping loop, enterprise architecture and interoperability standards, and software build with the 7-part QA test suite.
 
-![Phase 2: Design and adaptation](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.svg)
+![Phase 2: Design and adaptation](media/bp-design-and-adaptation.svg)
 
 ## Structure of the model (`Process_DesignAndAdaptation`)
 
