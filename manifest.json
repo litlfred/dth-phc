@@ -1,0 +1,12 @@
+{
+  "$schema": "state-manifest/v1",
+  "status": "authoritative",
+  "authoritative": true,
+  "subgraph": "beans",
+  "note": "Created 2026-11-01 for dth-phc, which declares beans on this branch (dth-phc.json) but never had it. First use: the editing-hci-validation records for the blocks of dth-phc#3, owner card Q-PHC11 A (2026-11-01 11:27Z). main never tracked beans/, so there is nothing to seed from.",
+  "source": { "ref": "main", "sha": "169b6e5c84167fadbd801f720ff586212d7bfb9d" },
+  "seededAt": "2026-11-01T11:34:01Z",
+  "keyedBy": "tip",
+  "graphs": [ { "path": "beans", "tree": "d564d0bc3dd917926892c55e3706cc116d5b165e", "files": 1 } ],
+  "authoritativeSince": "2026-11-01T11:34:01Z"
+}
