@@ -7,15 +7,16 @@
     "site:library": "bun run folio-assistant-core/scripts/build-library-site.ts --out",
     "site:node-kinds": "bun run cat-harness-tools/scripts/gen-node-kind-pages.ts --root . --out",
     "site:glossary": "bun run folio-assistant-core/scripts/glossary-page.ts --instance dth-phc --site",
-    "check:dth-glossary": "bun run scripts/glossary/validate.ts",
+    "check:dth-glossary": "bun run folio-assistant-core/scripts/glossary-validate.ts --instance dth-phc --capitalized",
+    "check:dth-blocks": "bun run scripts/folio/check-dth-blocks.ts",
     "kg:blocks": "bun run cat-harness-tools/pipeline/gen-block-jsonld.ts --paper dth-phc",
     "check:kg-blocks": "bun run cat-harness-tools/pipeline/gen-block-jsonld.ts --paper dth-phc --check",
     "check:library-kg": "bun run cat-harness-tools/pipeline/gen-library-jsonld.ts --check",
     "seed:folio": "python3 -I scripts/folio/seed_from_l1.py",
-    "check:archimate-links": "bun run scripts/glossary/validate.ts",
-    "check:l1-coverage": "bun run scripts/folio/check_l1_coverage.ts",
+    "check:l1-coverage": "bun run folio-assistant-core/scripts/folio-l1-coverage.ts --document dth-phc --l1 who-iris/library/9789240093362-eng --check",
     "review:anchors": "bun run folio-assistant-core/scripts/review-anchors-from-folio.ts --document dth-phc --library 9789240093362-eng --source who-iris/library/9789240093362-eng/structure.json --source-label \"the WHO IRIS L1 entry it was seeded from\"",
-    "check:review-anchors": "bun run folio-assistant-core/scripts/review-anchors-from-folio.ts --document dth-phc --library 9789240093362-eng --source who-iris/library/9789240093362-eng/structure.json --source-label \"the WHO IRIS L1 entry it was seeded from\" --check"
+    "check:review-anchors": "bun run folio-assistant-core/scripts/review-anchors-from-folio.ts --document dth-phc --library 9789240093362-eng --source who-iris/library/9789240093362-eng/structure.json --source-label \"the WHO IRIS L1 entry it was seeded from\" --check",
+    "l1:coverage:write": "bun run folio-assistant-core/scripts/folio-l1-coverage.ts --document dth-phc --l1 who-iris/library/9789240093362-eng"
   },
   "_workspaces_comment": "The mounted code layers, as workspaces, as smart-ra and folio-assistant list them: they import each other by package name (@litlfred/cat-harness-tools, ...), and nothing publishes those packages, so a mount resolves them only through the ONE root node_modules that bunfig.toml's hoisted linker lays out. Without this, fhir-harness's scripts could not find @litlfred/cat-harness-tools and check:review-anchors, site:document and the CI publish failed (dth-hrh#41).",
   "workspaces": [
