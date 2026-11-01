@@ -1,0 +1,1078 @@
+{
+  "$schema": "folio-workflow-instance/v1",
+  "id": "editing--prose-fig-13-hiv-decision-matrix-reproduces",
+  "processId": "Process_Editing",
+  "source": "folio-assistant-core/processes/content/editing-hci-validation.bpmn",
+  "subject": "prose:fig-13-hiv-decision-matrix-reproduces",
+  "carriedBeans": [],
+  "tokens": [
+    "Task_Commit"
+  ],
+  "arrivals": {},
+  "history": [
+    {
+      "at": "2026-11-01T12:36:41.829Z",
+      "node": "StartEvent_EditRequested",
+      "note": "instance started"
+    },
+    {
+      "at": "2026-11-01T12:36:49.224Z",
+      "node": "Task_DescribeChange",
+      "actor": "litlfred",
+      "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "author",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#1",
+        "prov:startedAtTime": "2026-11-01T12:36:49.224Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "author",
+          "prov:hadPlan": "editing-hci-validation#Task_DescribeChange"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:37:19.630Z",
+      "node": "Task_ClaimBean",
+      "actor": "litlfred",
+      "note": "subprocess Process_BeanOpen completed"
+    },
+    {
+      "at": "2026-11-01T12:37:27.989Z",
+      "node": "GW_BeanYours",
+      "outcome": "claimed",
+      "actor": "litlfred",
+      "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "work-plan",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#3",
+        "prov:startedAtTime": "2026-11-01T12:37:27.989Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "work-plan",
+          "prov:hadPlan": "editing-hci-validation#GW_BeanYours"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:38:41.825Z",
+      "node": "CallActivity_Evidence",
+      "actor": "litlfred",
+      "note": "subprocess Process_EvidenceRetrieval completed"
+    },
+    {
+      "at": "2026-11-01T12:38:49.322Z",
+      "node": "Task_DraftEdit",
+      "actor": "litlfred",
+      "note": "The block is the dth-phc#1 P4 seed of the handbook, as in dth-phc#3. The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "authoring-agent",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#5",
+        "prov:startedAtTime": "2026-11-01T12:38:49.322Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "authoring-agent",
+          "prov:hadPlan": "editing-hci-validation#Task_DraftEdit"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:38:56.638Z",
+      "node": "Task_SchemaValidate",
+      "actor": "litlfred",
+      "note": "Checks on the block's PR head f44be74: CI run 41299528294 tests and typecheck passed; locally check:dth-glossary, check-archimate, check:kg-blocks, check:review-anchors passed. These are the findings shown to the editor on dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "validation-pipeline",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#6",
+        "prov:startedAtTime": "2026-11-01T12:38:56.638Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "validation-pipeline",
+          "prov:hadPlan": "editing-hci-validation#Task_SchemaValidate"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:39:04.033Z",
+      "node": "Task_SyntaxSpell",
+      "actor": "litlfred",
+      "note": "Checks on the block's PR head f44be74: CI run 41299528294 tests and typecheck passed; locally check:dth-glossary, check-archimate, check:kg-blocks, check:review-anchors passed. These are the findings shown to the editor on dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "validation-pipeline",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#7",
+        "prov:startedAtTime": "2026-11-01T12:39:04.033Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "validation-pipeline",
+          "prov:hadPlan": "editing-hci-validation#Task_SyntaxSpell"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:39:11.254Z",
+      "node": "Task_BuildGates",
+      "actor": "litlfred",
+      "note": "Checks on the block's PR head f44be74: CI run 41299528294 tests and typecheck passed; locally check:dth-glossary, check-archimate, check:kg-blocks, check:review-anchors passed. These are the findings shown to the editor on dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "validation-pipeline",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#8",
+        "prov:startedAtTime": "2026-11-01T12:39:11.254Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "validation-pipeline",
+          "prov:hadPlan": "editing-hci-validation#Task_BuildGates"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:39:18.909Z",
+      "node": "Gateway_ReviewerKind",
+      "outcome": "yes",
+      "actor": "litlfred",
+      "note": "Content of a WHO handbook: a person decides. Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "reviewer",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#9",
+        "prov:startedAtTime": "2026-11-01T12:39:18.909Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "reviewer",
+          "prov:hadPlan": "editing-hci-validation#Gateway_ReviewerKind"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:39:26.005Z",
+      "node": "Task_SmeReview",
+      "actor": "litlfred",
+      "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "reviewer",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#10",
+        "prov:startedAtTime": "2026-11-01T12:39:26.005Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "reviewer",
+          "prov:hadPlan": "editing-hci-validation#Task_SmeReview"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:39:33.405Z",
+      "node": "Task_CollateFindings",
+      "actor": "litlfred",
+      "note": "Checks on the block's PR head f44be74: CI run 41299528294 tests and typecheck passed; locally check:dth-glossary, check-archimate, check:kg-blocks, check:review-anchors passed. These are the findings shown to the editor on dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "validation-pipeline",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#11",
+        "prov:startedAtTime": "2026-11-01T12:39:33.405Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "validation-pipeline",
+          "prov:hadPlan": "editing-hci-validation#Task_CollateFindings"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:39:41.424Z",
+      "node": "Task_LogFindings",
+      "actor": "litlfred",
+      "note": "Checks on the block's PR head f44be74: CI run 41299528294 tests and typecheck passed; locally check:dth-glossary, check-archimate, check:kg-blocks, check:review-anchors passed. These are the findings shown to the editor on dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "work-plan",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#12",
+        "prov:startedAtTime": "2026-11-01T12:39:41.424Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "work-plan",
+          "prov:hadPlan": "editing-hci-validation#Task_LogFindings"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:39:48.987Z",
+      "node": "Task_ReviewFindings",
+      "actor": "litlfred",
+      "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "author",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#13",
+        "prov:startedAtTime": "2026-11-01T12:39:48.987Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "author",
+          "prov:hadPlan": "editing-hci-validation#Task_ReviewFindings"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:40:03.232Z",
+      "node": "Call_OptionsAnalysis",
+      "actor": "litlfred",
+      "note": "subprocess Process_OptionsAnalysis completed"
+    },
+    {
+      "at": "2026-11-01T12:40:10.954Z",
+      "node": "Task_RecordDecision",
+      "actor": "litlfred",
+      "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "author",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#15",
+        "prov:startedAtTime": "2026-11-01T12:40:10.954Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "author",
+          "prov:hadPlan": "editing-hci-validation#Task_RecordDecision"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-01T12:40:18.203Z",
+      "node": "Gateway_EditorDecision",
+      "outcome": "accept",
+      "actor": "litlfred",
+      "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "author",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces#16",
+        "prov:startedAtTime": "2026-11-01T12:40:18.203Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "author",
+          "prov:hadPlan": "editing-hci-validation#Gateway_EditorDecision"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    }
+  ],
+  "status": "running",
+  "startedAt": "2026-11-01T12:36:41.829Z",
+  "updatedAt": "2026-11-01T12:40:18.207Z",
+  "children": {
+    "Task_ClaimBean": {
+      "id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Task_ClaimBean",
+      "processId": "Process_BeanOpen",
+      "source": "cat-harness/processes/sdlc/bean-open.bpmn",
+      "subject": "prose:fig-13-hiv-decision-matrix-reproduces",
+      "carriedBeans": [],
+      "tokens": [],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-01T12:36:49.226Z",
+          "node": "Open_Start",
+          "note": "instance started"
+        },
+        {
+          "at": "2026-11-01T12:36:57.454Z",
+          "node": "Open_CheckExists",
+          "actor": "litlfred",
+          "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Task_ClaimBean#1",
+            "prov:startedAtTime": "2026-11-01T12:36:57.454Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_CheckExists"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:37:05.101Z",
+          "node": "Open_Exists",
+          "outcome": "no",
+          "actor": "litlfred",
+          "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Task_ClaimBean#2",
+            "prov:startedAtTime": "2026-11-01T12:37:05.101Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Exists"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:37:12.631Z",
+          "node": "Open_Create",
+          "actor": "litlfred",
+          "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Task_ClaimBean#3",
+            "prov:startedAtTime": "2026-11-01T12:37:12.631Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Create"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:37:19.627Z",
+          "node": "Open_Claim",
+          "actor": "litlfred",
+          "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Task_ClaimBean#4",
+            "prov:startedAtTime": "2026-11-01T12:37:19.627Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Claim"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:37:19.630Z",
+          "node": "Open_Claimed",
+          "note": "end event reached"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-11-01T12:36:49.226Z",
+      "updatedAt": "2026-11-01T12:37:19.630Z"
+    },
+    "CallActivity_Evidence": {
+      "id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence",
+      "processId": "Process_EvidenceRetrieval",
+      "source": "folio-assistant-core/processes/content/evidence-retrieval.bpmn",
+      "subject": "prose:fig-13-hiv-decision-matrix-reproduces",
+      "carriedBeans": [],
+      "tokens": [],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-01T12:37:27.995Z",
+          "node": "StartEvent_Recommendation",
+          "note": "instance started"
+        },
+        {
+          "at": "2026-11-01T12:37:35.546Z",
+          "node": "Task_ReviewExisting",
+          "actor": "litlfred",
+          "note": "No earlier version: dth-phc main was empty before dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "author",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#1",
+            "prov:startedAtTime": "2026-11-01T12:37:35.546Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "author",
+              "prov:hadPlan": "evidence-retrieval#Task_ReviewExisting"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:37:42.336Z",
+          "node": "Task_FramePico",
+          "actor": "litlfred",
+          "note": "Not a guideline recommendation, so no PICO question: The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "author",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#2",
+            "prov:startedAtTime": "2026-11-01T12:37:42.336Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "author",
+              "prov:hadPlan": "evidence-retrieval#Task_FramePico"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:37:49.755Z",
+          "node": "Task_L1Sources",
+          "actor": "litlfred",
+          "note": "The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "evidence-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#3",
+            "prov:startedAtTime": "2026-11-01T12:37:49.755Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "evidence-agent",
+              "prov:hadPlan": "evidence-retrieval#Task_L1Sources"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:37:56.729Z",
+          "node": "Task_L2L3Content",
+          "actor": "litlfred",
+          "note": "No L2/L3 source: the block is L1 handbook content. The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "evidence-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#4",
+            "prov:startedAtTime": "2026-11-01T12:37:56.729Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "evidence-agent",
+              "prov:hadPlan": "evidence-retrieval#Task_L2L3Content"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:38:04.462Z",
+          "node": "Task_DataRepos",
+          "actor": "litlfred",
+          "note": "No data repository: the block is narrative from the handbook. The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "evidence-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#5",
+            "prov:startedAtTime": "2026-11-01T12:38:04.462Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "evidence-agent",
+              "prov:hadPlan": "evidence-retrieval#Task_DataRepos"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:38:12.103Z",
+          "node": "Task_VerifyAuthority",
+          "actor": "litlfred",
+          "note": "The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "external-registry",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#6",
+            "prov:startedAtTime": "2026-11-01T12:38:12.103Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "external-registry",
+              "prov:hadPlan": "evidence-retrieval#Task_VerifyAuthority"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:38:20.050Z",
+          "node": "Gateway_Authoritative",
+          "outcome": "yes",
+          "actor": "litlfred",
+          "note": "Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "external-registry",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#7",
+            "prov:startedAtTime": "2026-11-01T12:38:20.050Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "external-registry",
+              "prov:hadPlan": "evidence-retrieval#Gateway_Authoritative"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:38:27.473Z",
+          "node": "Task_AppraiseGrade",
+          "actor": "litlfred",
+          "note": "Not graded: the block states no recommendation of its own; it reproduces the handbook. The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "author",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#8",
+            "prov:startedAtTime": "2026-11-01T12:38:27.473Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "author",
+              "prov:hadPlan": "evidence-retrieval#Task_AppraiseGrade"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:38:34.916Z",
+          "node": "Gateway_Sufficient",
+          "outcome": "yes",
+          "actor": "litlfred",
+          "note": "The block makes no recommendation; it reproduces the handbook text. The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "author",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#9",
+            "prov:startedAtTime": "2026-11-01T12:38:34.916Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "author",
+              "prov:hadPlan": "evidence-retrieval#Gateway_Sufficient"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:38:41.822Z",
+          "node": "Task_AttachEvidence",
+          "actor": "litlfred",
+          "note": "The block was seeded from the WHO handbook's L1 entry (who-iris library/9789240093362-eng, IRIS 10665/379452), cited in its meta.source; its authority is that WHO publication.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "author",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/CallActivity_Evidence#10",
+            "prov:startedAtTime": "2026-11-01T12:38:41.822Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "author",
+              "prov:hadPlan": "evidence-retrieval#Task_AttachEvidence"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:38:41.825Z",
+          "node": "EndEvent_EvidenceAttached",
+          "note": "end event reached"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-11-01T12:37:27.995Z",
+      "updatedAt": "2026-11-01T12:38:41.825Z"
+    },
+    "Call_OptionsAnalysis": {
+      "id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Call_OptionsAnalysis",
+      "processId": "Process_OptionsAnalysis",
+      "source": "cat-harness/processes/sdlc/options-analysis.bpmn",
+      "subject": "prose:fig-13-hiv-decision-matrix-reproduces",
+      "carriedBeans": [],
+      "tokens": [],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-01T12:39:48.990Z",
+          "node": "Start_Process_OptionsAnalysis",
+          "note": "instance started"
+        },
+        {
+          "at": "2026-11-01T12:39:56.375Z",
+          "node": "A_Frame",
+          "actor": "litlfred",
+          "note": "Decision: accept the block into the corpus. The owner already chose on cards Q-PHC8 and Q-PHC11. Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "business-analyst",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Call_OptionsAnalysis#1",
+            "prov:startedAtTime": "2026-11-01T12:39:56.375Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "business-analyst",
+              "prov:hadPlan": "options-analysis#A_Frame"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:40:03.230Z",
+          "node": "GW_Trigger",
+          "outcome": "no",
+          "actor": "litlfred",
+          "note": "Not irreversible: a merge can be reverted, and the owner decided on a card. Owner card Q-PHC11 A (litlfred, 2026-11-01 11:27:41Z, thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) records the owner's 10:54:30Z 'B. Merge #3 now' (card Q-PHC8) as the editor's acceptance of every block in dth-phc#3.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "business-analyst",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "editing--prose-fig-13-hiv-decision-matrix-reproduces/Call_OptionsAnalysis#2",
+            "prov:startedAtTime": "2026-11-01T12:40:03.230Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "business-analyst",
+              "prov:hadPlan": "options-analysis#GW_Trigger"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-01T12:40:03.232Z",
+          "node": "End_TriggerNotMet",
+          "note": "end event reached"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-11-01T12:39:48.990Z",
+      "updatedAt": "2026-11-01T12:40:03.232Z"
+    }
+  }
+}
