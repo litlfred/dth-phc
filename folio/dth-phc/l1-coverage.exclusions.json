@@ -1,0 +1,27 @@
+[
+  {
+    "text": "An opensource software must have a license approved by the Open Source Initiative (19).",
+    "reason": "background-fact",
+    "note": "PROPOSED, not signed off. Front-matter glossary definition of open source software."
+  },
+  {
+    "text": "Each data element should be noted in a in separate row in the spreadsheet.",
+    "reason": "editorial",
+    "note": "PROPOSED, not signed off. The folio holds this sentence as \"noted in a separate row\"; the re-ingested L1 text reads \"noted in a in separate row\" (a typo), so it no longer matches. Fixing the L1 text in who-iris would capture it instead."
+  },
+  {
+    "text": "Since perinatal or early postnatal transmission is the most important source of chronic HBV infection globally, all infants (including low-birthweight and premature infants) should receive their first dose of hepatitis B vaccine as soon as possible after birth, ideally within 24 hours.",
+    "reason": "background-fact",
+    "note": "PROPOSED, not signed off. Worked example quoting the WHO hepatitis B position, in the scheduling logic table guide. Excluded as background-fact before (old location p44:s10), when the L1 joined it to the sentence before."
+  },
+  {
+    "text": "WHO recommendations for routine immunization –summary tables (e.g.",
+    "reason": "editorial",
+    "note": "PROPOSED, not signed off. First half of a citation to the WHO routine immunization summary tables, split by the \"(e.g.\" abbreviation."
+  },
+  {
+    "text": "Table 1 for all ages and Table 2 for children) are available at: https:// www.who.int/teams/immunization-vaccines-andbiologicals/policies/who-recommendations-forroutine-immunization---summary-tables Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Annexes 83 ANNEX 13.",
+    "reason": "editorial",
+    "note": "PROPOSED, not signed off. Second half of the same citation. Excluded as background-fact before (old location p44:s22); the re-ingested L1 now runs it into the page footer text."
+  }
+]

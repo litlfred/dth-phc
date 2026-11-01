@@ -1,5 +1,14 @@
 #!/usr/bin/env bun
 /**
+ * `bun run check:dth-blocks`: dth-phc's declaration, block, persona, BPMN and
+ * DMN checks (P6), with the glossary checks they grew up beside.
+ *
+ * The glossary and link checks now run from core (`bun run
+ * check:dth-glossary`, folio-assistant-core glossary-validate.ts), and L1
+ * coverage from core's folio-l1-coverage.ts (bean cysv). This file stays only
+ * until the block checks move to kg-audit (bean lo3p); then it is deleted.
+ *
+ * Originally:
  * Validate `dth-phc.json`, `glossary/*.glossary.json`, and all 123 blocks in
  * `folio/dth-phc` (Step P6 of litlfred/dth-phc#1):
  *
