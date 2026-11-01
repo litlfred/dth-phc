@@ -14,7 +14,7 @@ export default chapter({
     section({
       title: "3.1 Follow key requirement-gathering methods",
       label: "sec:3-1",
-      blocks: ["p-ch03-sec-012-methods", "p-ch03-sec-012-interviews-and-workshops", "f-ch03-fig-8"],
+      blocks: ["p-ch03-sec-012-methods", "p-ch03-sec-012-interviews-and-workshops", "t-ch03-fig-8", "f-ch03-fig-8"],
     }),
     section({
       title: "3.2 Get to know the users",
