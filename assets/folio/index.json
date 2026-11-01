@@ -296,8 +296,8 @@
         },
         {
           "path": "dth-phc/ch01-introduction/ch01-introduction.ts",
-          "bytes": 1021,
-          "size": "1021 B"
+          "bytes": 1037,
+          "size": "1.0 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-1.jsonld",
@@ -493,6 +493,21 @@
           "path": "dth-phc/ch01-introduction/t-ch01-fig-1.ts",
           "bytes": 3420,
           "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/t-ch01-fig-2.jsonld",
+          "bytes": 3420,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/t-ch01-fig-2.md",
+          "bytes": 916,
+          "size": "916 B"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/t-ch01-fig-2.ts",
+          "bytes": 2719,
+          "size": "2.7 KB"
         },
         {
           "path": "dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.bpmn",
@@ -966,8 +981,8 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/ch03-user-requirements.ts",
-          "bytes": 2049,
-          "size": "2.0 KB"
+          "bytes": 2171,
+          "size": "2.1 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/dt-keep-data-element.dmn",
@@ -1011,18 +1026,18 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-10.jsonld",
-          "bytes": 3712,
-          "size": "3.6 KB"
+          "bytes": 3986,
+          "size": "3.9 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-10.md",
-          "bytes": 149,
-          "size": "149 B"
+          "bytes": 166,
+          "size": "166 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-10.ts",
-          "bytes": 2921,
-          "size": "2.9 KB"
+          "bytes": 3196,
+          "size": "3.1 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.jsonld",
@@ -1031,8 +1046,8 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.md",
-          "bytes": 5330,
-          "size": "5.2 KB"
+          "bytes": 197,
+          "size": "197 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.ts",
@@ -1061,8 +1076,8 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.md",
-          "bytes": 3460,
-          "size": "3.4 KB"
+          "bytes": 171,
+          "size": "171 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.ts",
@@ -1071,18 +1086,18 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-14.jsonld",
-          "bytes": 4162,
-          "size": "4.1 KB"
+          "bytes": 4431,
+          "size": "4.3 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-14.md",
-          "bytes": 2278,
-          "size": "2.2 KB"
+          "bytes": 429,
+          "size": "429 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-14.ts",
-          "bytes": 3333,
-          "size": "3.3 KB"
+          "bytes": 3601,
+          "size": "3.5 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-8.jsonld",
@@ -1106,8 +1121,8 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.md",
-          "bytes": 2385,
-          "size": "2.3 KB"
+          "bytes": 173,
+          "size": "173 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.ts",
@@ -1190,6 +1205,21 @@
           "size": "3.8 KB"
         },
         {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-014-annotations.jsonld",
+          "bytes": 6446,
+          "size": "6.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-014-annotations.md",
+          "bytes": 1751,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-014-annotations.ts",
+          "bytes": 5057,
+          "size": "4.9 KB"
+        },
+        {
           "path": "dth-phc/ch03-user-requirements/p-ch03-sec-014-workflows.jsonld",
           "bytes": 6528,
           "size": "6.4 KB"
@@ -1247,6 +1277,21 @@
         {
           "path": "dth-phc/ch03-user-requirements/p-ch03-sec-017-decision-support-logic.ts",
           "bytes": 5100,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-017-decision-support-tables.jsonld",
+          "bytes": 6544,
+          "size": "6.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-017-decision-support-tables.md",
+          "bytes": 810,
+          "size": "810 B"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-017-decision-support-tables.ts",
+          "bytes": 5107,
           "size": "5.0 KB"
         },
         {
@@ -1325,6 +1370,21 @@
           "size": "1.8 KB"
         },
         {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-11.jsonld",
+          "bytes": 3290,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-11.md",
+          "bytes": 3100,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-11.ts",
+          "bytes": 2599,
+          "size": "2.5 KB"
+        },
+        {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-12.jsonld",
           "bytes": 3650,
           "size": "3.6 KB"
@@ -1340,6 +1400,21 @@
           "size": "2.8 KB"
         },
         {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-13.jsonld",
+          "bytes": 4344,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-13.md",
+          "bytes": 2936,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-13.ts",
+          "bytes": 3438,
+          "size": "3.4 KB"
+        },
+        {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-8.jsonld",
           "bytes": 3131,
           "size": "3.1 KB"
@@ -1352,6 +1427,21 @@
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-8.ts",
           "bytes": 2425,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-9.jsonld",
+          "bytes": 3156,
+          "size": "3.1 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-9.md",
+          "bytes": 2295,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-9.ts",
+          "bytes": 2475,
           "size": "2.4 KB"
         },
         {
@@ -1995,6 +2085,11 @@
           "size": "287.3 KB"
         },
         {
+          "path": "dth-phc/media/bp-anc-registration-workflow-a.svg",
+          "bytes": 33762,
+          "size": "33.0 KB"
+        },
+        {
           "path": "dth-phc/media/bp-design-and-adaptation.svg",
           "bytes": 45602,
           "size": "44.5 KB"
@@ -2023,6 +2118,16 @@
           "path": "dth-phc/media/diig-phases-phc.svg",
           "bytes": 34411,
           "size": "33.6 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-14-anc-hiv-decision-tree.json",
+          "bytes": 3357,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-14-anc-hiv-decision-tree.svg",
+          "bytes": 9548,
+          "size": "9.3 KB"
         },
         {
           "path": "dth-phc/media/fig-3-phc-digital-ecosystem.svg",
@@ -2131,8 +2236,8 @@
         },
         {
           "path": "dth-phc/review-anchors.json",
-          "bytes": 64125,
-          "size": "62.6 KB"
+          "bytes": 66722,
+          "size": "65.2 KB"
         },
         {
           "path": "schema/builders.ts",
