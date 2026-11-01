@@ -1,0 +1,8 @@
+import { prose } from "../../schema/builders";
+
+export default prose({
+  label: "prose:references-main",
+  title: "References (107 numbered references)",
+  uses: [],
+  meta: {"title": "References (107 numbered references)", "source": {"library": "9789240093362-eng", "section": "sec-034-references", "file": "who-iris/library/9789240093362-eng/sections/sec-034-references.md", "pdfPages": [72, 73, 74, 75], "method": "l1-references"}, "glossaryTerms": ["https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system", "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines", "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits", "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/collaborative-requirements-development-methodology", "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/interoperability", "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines", "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability"], "ingestedCrossReferences": {"ref-20": {"citation": "PHII Collaborative Requirements Development Methodology (CRDM)", "bean": "folio-assistant-max2"}, "ref-47-49": {"citation": "OMG Business Process Model and Notation (BPMN) 2.0.2", "library": "cat-harness/library/omg-2013-bpmn-2-0-2"}, "ref-50": {"citation": "PATH Common Requirements for Maternal and Child Health Information Systems (2012)", "bean": "folio-assistant-max2"}, "dmn-3.6": {"citation": "OMG Decision Model and Notation (DMN) 1.5", "library": "cat-harness/library/omg-2024-dmn-1-5"}, "sdlc-mapping": {"citation": "SDLC phase structural mapping", "library": "cat-harness/library/arxiv-2404.04834v4"}}},
+});

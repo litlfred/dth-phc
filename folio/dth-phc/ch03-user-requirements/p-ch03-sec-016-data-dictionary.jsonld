@@ -1,0 +1,147 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch03-sec-016-data-dictionary",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch03-sec-016-data-dictionary",
+  "kind": "prose",
+  "title": "3.5 Create a data dictionary (data element definitions and terminology mapping)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch03-sec-015-streamline-data-and-indicators"
+  ],
+  "defines": [
+    "data-dictionary",
+    "data-element",
+    "metadata"
+  ],
+  "text": "p-ch03-sec-016-data-dictionary.md",
+  "meta": {
+    "title": "3.5 Create a data dictionary (data element definitions and terminology mapping)",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-016-35-create-a-data-dictionary",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-016-35-create-a-data-dictionary.md",
+      "pdfPages": [
+        42,
+        43,
+        44
+      ],
+      "method": "l1-section-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-dictionary",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-element",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/metadata",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/terminologies",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/classifications",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/coding-schemes",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/interoperability-standards",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/international-classification-of-diseases",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/logical-observation-identifiers-names-and-codes",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/snomed-ct",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-gps"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+        "id": "id-3f41de2b51c24041b08243bf72b140d1",
+        "name": "Terminology Service"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
+        "id": "id-c0d39bf67fe64f54b07fbeb9bf37d404",
+        "name": "Logical Information Model Registry"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-6e06187bc1764418b58cfe3455df7481.jsonld",
+        "id": "id-6e06187bc1764418b58cfe3455df7481",
+        "name": "Logical Information Models"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
+        "id": "id-71b2e11df2e348a2b9f8eee36c8e5292",
+        "name": "Patient-level Data"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+        "id": "id-8074acfb0a065da4b9b36ad88fc2a0d5",
+        "name": "Health informatician"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-dbcfb8e417294161ac0b1614c2e18cc5.jsonld",
+        "id": "id-dbcfb8e417294161ac0b1614c2e18cc5",
+        "name": "LMIR Overview"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+          "name": "Terminology Service"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
+          "name": "Logical Information Model Registry"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-6e06187bc1764418b58cfe3455df7481.jsonld",
+          "name": "Logical Information Models"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
+          "name": "Patient-level Data"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+          "name": "Health informatician"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-dbcfb8e417294161ac0b1614c2e18cc5.jsonld",
+          "name": "LMIR Overview"
+        }
+      ]
+    },
+    "methodStep": {
+      "stepId": "3.5",
+      "title": "Create a data dictionary",
+      "substeps": [
+        "3.5.1 Define data elements for inclusion in the data dictionary",
+        "3.5.2 Map data elements to standardized terminologies"
+      ],
+      "producesDakComponents": [
+        "smart-base:DataElement"
+      ],
+      "dakKind": "data-element",
+      "template": "Annex 8. Form data mapping guide (sec-041)"
+    }
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  xmlns:bootstrap.processes="https://litlfred.github.io/bootstrap/v0/processes/ns#"
+                  xmlns:cat-harness.processes="https://litlfred.github.io/cat-harness/v0/processes/ns#"
+                  id="Definitions_Process_ScaleUp"
+                  targetNamespace="https://litlfred.github.io/dth-phc/workflows"
+                  exporter="folio-assistant" exporterVersion="1">
+  <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
+  <bpmn:resource id="pers:public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="pers:business-analyst" name="Business analyst"/>
+  <bpmn:resource id="pers:technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="pers:implementing-team" name="Implementing team"/>
+  <bpmn:resource id="pers:health-worker" name="Health worker"/>
+  <bpmn:resource id="pers:health-informatician" name="Health informatician"/>
+  <bpmn:resource id="pers:software-engineer" name="Software engineer"/>
+  <bpmn:resource id="pers:solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="pers:designer" name="Designer"/>
+  <bpmn:resource id="pers:user-researcher" name="User researcher"/>
+  <bpmn:resource id="pers:monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="pers:clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="pers:supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="pers:health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="pers:system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="pers:system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="pers:system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="pers:system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="pers:donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:collaboration id="Collaboration_Process_ScaleUp">
+    <bpmn:participant id="Participant_Process_ScaleUp" name="WHO DTH for Primary Health Care — Chapter 6: Prepare for scale-up (6.1-6.5)" processRef="Process_ScaleUp"/>
+  </bpmn:collaboration>
+  <bpmn:process id="Process_ScaleUp" name="Prepare for scale-up and legacy phase-out (Ch 6, 6.1-6.5)" isExecutable="false">
+    <bpmn:documentation>Assess readiness of the PCPOSS and health system to scale up, define and monitor SMART objectives and benchmarks for legacy phase-out, execute staged region-by-region phase-out of paper and legacy systems while retaining paper backup SOPs, and embed change management and electronic data-use culture.
+
+L1 source anchors: who-iris/library/9789240093362-eng sections 6.1 (prose-sec-029), 6.2 (prose-sec-030, Table 5), 6.3 (prose-sec-031), 6.4 (prose-sec-032), and 6.5 (prose-sec-033). Mapped to DIIG Phase 7.</bpmn:documentation>
+    <bpmn:extensionElements>
+      <cat-harness.processes:policy enforcement="advisory"/>
+    </bpmn:extensionElements>
+    <bpmn:laneSet id="LaneSet_Process_ScaleUp">
+      <bpmn:lane id="Lane-Ch6-PHA" name="Public health authority (ministry of health)" partitionElementRef="pers:public-health-authority">
+        <bpmn:documentation>Persona block pers:public-health-authority. Leads scale-up governance, sets SMART objectives and legal recognition policies for digital health records (6.2), directs staged region-by-region legacy phase-out with paper backup SOPs (6.4), and champions change management across leadership levels (6.5).</bpmn:documentation>
+        <bpmn:flowNodeRef>Start_Ch6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_6_2_DefineObjectives</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_6_4_StagedPhaseOut</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Ch6</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch6-PHA">
+          <bpmn:lane id="Lane-Ch6-PHA-donors-and-development-partners" name="Donors, development partners and implementing partners" partitionElementRef="pers:donors-and-development-partners"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch6-Impl" name="Implementing team" partitionElementRef="pers:implementing-team">
+        <bpmn:documentation>Persona block pers:implementing-team. Assists the public health authority throughout scale-up, conducts MAPS toolkit self-assessment and Digital Health Atlas registration (6.1), and supports change management and data-use training (6.5).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_6_1_AssessReadiness</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch6-ME" name="Monitoring and evaluation specialist" partitionElementRef="pers:monitoring-and-evaluation-specialist">
+        <bpmn:documentation>Persona block pers:monitoring-and-evaluation-specialist. Defines and tracks indicators across connectivity, power, support, maintenance, functionality, user adoption, efficiency, quality, costs and health outcomes (6.2 Table 5, 6.3) to determine whether the PCPOSS meets the benchmarks for legacy phase-out.</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_6_3_MonitorObjectives</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_ReadyToScaleUp</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch6-ME">
+          <bpmn:lane id="Lane-Ch6-ME-solutions-architect" name="Solutions architect" partitionElementRef="pers:solutions-architect"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch6-Tech" name="Technology partner" partitionElementRef="pers:technology-partner">
+        <bpmn:documentation>Persona block pers:technology-partner. Maintains, scales and updates the PCPOSS as user numbers, health facilities and functionality expand during scale-up (Ch 6 opener panel, 6.1).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_6_1_RemediateGaps</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch6-Users" name="End-users (health workers, supervisors &amp; programme managers)" partitionElementRef="pers:health-worker">
+        <bpmn:documentation>Persona blocks pers:health-worker and pers:supervisor. Adopt the scaled PCPOSS, provide ongoing feedback, maintain paper backup readiness for downtime/crises (6.4), and cultivate a culture of electronic data use for clinical care and programme management (6.5).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_6_5_ChangeManagement</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch6-Users">
+          <bpmn:lane id="Lane-Ch6-Users-clerk" name="Clerk (facility registration and records staff)" partitionElementRef="pers:clerk"/>
+          <bpmn:lane id="Lane-Ch6-Users-supervisor" name="Supervisor / health facility manager" partitionElementRef="pers:supervisor"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_Ch6" name="Live version of PCPOSS in use (Ch 6 input)">
+      <bpmn:documentation>Chapter 6 opener panel input (prose-sec-029, page 66): Live version of the PCPOSS being used in routine care.</bpmn:documentation>
+      <bpmn:outgoing>Flow_Ch6_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_6_1_AssessReadiness" name="6.1 Assess PCPOSS &amp; health-system readiness (MAPS toolkit, DHA, infrastructure)">
+      <bpmn:documentation>Section 6.1 (prose-sec-029, pages 66-68): Use the WHO MAPS toolkit to assess PCPOSS and health-system readiness for scale-up, register the project in the WHO Digital Health Atlas, and verify foundational elements (power, connectivity, political support).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="methodology-adoption"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch6_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch6_2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_6_2_DefineObjectives" name="6.2 Set SMART objectives, phase-out benchmarks (Table 5) &amp; legal recognition policies">
+      <bpmn:documentation>Section 6.2 and Table 5 (prose-sec-030, pages 68-70): Establish country-defined SMART objectives and benchmarks for legacy phase-out, enact policies legally recognizing digital health records, and define downtime/offline backup paper SOPs.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="methodology-adoption"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_6_2_DefineObjectives_IO">
+        <bpmn:dataInput id="Task_6_2_DefineObjectives_In_1" name="Live version of your PCPOSS being used"/>
+        <bpmn:dataOutput id="Task_6_2_DefineObjectives_Out_1" name="Set of objectives and benchmarks the PCPOSS will need to meet before phasing out paper and/or legacy systems"/>
+        <bpmn:inputSet id="Task_6_2_DefineObjectives_InputSet">
+          <bpmn:dataInputRefs>Task_6_2_DefineObjectives_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_6_2_DefineObjectives_OutputSet">
+          <bpmn:dataOutputRefs>Task_6_2_DefineObjectives_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch6_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch6_3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_6_3_MonitorObjectives" name="6.3 Monitor and evaluate progress against objectives (Table 5 metrics)">
+      <bpmn:documentation>Sections 6.2-6.3 (prose-sec-030, prose-sec-031, pages 68-71): M&amp;E specialists monitor system functionality, data migration, user adoption, efficiency, care quality, costs and health outcomes, leveraging direct in-system indicators where possible.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="methodology-adoption"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch6_3</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch6_5_Loop</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch6_4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_ReadyToScaleUp" name="Ready to scale up and phase out (6.1, 6.2)?">
+      <bpmn:documentation>Computed from decisions/ready-to-scale-up.dmn#Decision_ReadyToScaleUp (Sections 6.1-6.2, prose-sec-029, prose-sec-030): evaluates PCPOSS readiness, health-system readiness and whether country-defined SMART objectives are met.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <cat-harness.processes:decision ref="decisions/ready-to-scale-up.dmn#Decision_ReadyToScaleUp"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch6_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch6_5_Not</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch6_5_Proceed</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_6_1_RemediateGaps" name="6.1-6.2 Remediate PCPOSS, infrastructure or adoption gaps before phase-out">
+      <bpmn:documentation>Sections 6.1-6.2 (prose-sec-029, prose-sec-030): Technology partners and implementing teams address technical, infrastructure or adoption gaps while maintaining the PCPOSS until readiness benchmarks are met.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="methodology-adoption"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch6_5_Not</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch6_5_Loop</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_6_4_StagedPhaseOut" name="6.4 Execute staged region-by-region legacy phase-out while retaining paper backup">
+      <bpmn:documentation>Section 6.4 (prose-sec-032, page 71): Phase out paper and/or legacy systems in a staged, province-by-province manner as each region meets readiness criteria, while keeping a backup paper mechanism for blackouts, cybersecurity incidents or crises.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="methodology-adoption"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_6_4_StagedPhaseOut_IO">
+        <bpmn:dataInput id="Task_6_4_StagedPhaseOut_In_1" name="Set of objectives and benchmarks met (Table 5)"/>
+        <bpmn:dataOutput id="Task_6_4_StagedPhaseOut_Out_1" name="Strategic plan for phasing out paper and/or legacy systems"/>
+        <bpmn:inputSet id="Task_6_4_StagedPhaseOut_InputSet">
+          <bpmn:dataInputRefs>Task_6_4_StagedPhaseOut_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_6_4_StagedPhaseOut_OutputSet">
+          <bpmn:dataOutputRefs>Task_6_4_StagedPhaseOut_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch6_5_Proceed</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch6_6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_6_5_ChangeManagement" name="6.5 Adopt change management practices &amp; cultivate electronic data-use culture">
+      <bpmn:documentation>Section 6.5 (prose-sec-033, pages 71-72): Embed change management at all health-system levels and cultivate a culture of electronic data use across health workers, supervisors and programme managers (linking toward SMART Guidelines L5 dynamic guidelines).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="methodology-adoption"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch6_6</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch6_7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="End_Ch6" name="PCPOSS scaled up &amp; legacy systems phased out with paper backup">
+      <bpmn:documentation>Chapter 6 opener panel outputs complete: Set of objectives and benchmarks met, and strategic plan for phasing out paper and/or legacy systems executed with resilient backup SOPs.</bpmn:documentation>
+      <bpmn:incoming>Flow_Ch6_7</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_Ch6_1" sourceRef="Start_Ch6" targetRef="Task_6_1_AssessReadiness"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_2" sourceRef="Task_6_1_AssessReadiness" targetRef="Task_6_2_DefineObjectives"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_3" sourceRef="Task_6_2_DefineObjectives" targetRef="Task_6_3_MonitorObjectives"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_4" sourceRef="Task_6_3_MonitorObjectives" targetRef="GW_ReadyToScaleUp"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_5_Not" sourceRef="GW_ReadyToScaleUp" targetRef="Task_6_1_RemediateGaps" name="not"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_5_Loop" sourceRef="Task_6_1_RemediateGaps" targetRef="Task_6_3_MonitorObjectives"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_5_Proceed" sourceRef="GW_ReadyToScaleUp" targetRef="Task_6_4_StagedPhaseOut" name="proceed"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_6" sourceRef="Task_6_4_StagedPhaseOut" targetRef="Task_6_5_ChangeManagement"/>
+    <bpmn:sequenceFlow id="Flow_Ch6_7" sourceRef="Task_6_5_ChangeManagement" targetRef="End_Ch6"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Process_ScaleUp">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_ScaleUp" bpmnElement="Collaboration_Process_ScaleUp">
+      <bpmndi:BPMNShape id="Shape_Participant_Process_ScaleUp" bpmnElement="Participant_Process_ScaleUp" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1280" height="845" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch6-Impl" bpmnElement="Lane-Ch6-Impl" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1250" height="155" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch6-PHA" bpmnElement="Lane-Ch6-PHA" isHorizontal="true">
+        <dc:Bounds x="190" y="235" width="1250" height="155" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch6-Users" bpmnElement="Lane-Ch6-Users" isHorizontal="true">
+        <dc:Bounds x="190" y="390" width="1250" height="230" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch6-ME" bpmnElement="Lane-Ch6-ME" isHorizontal="true">
+        <dc:Bounds x="190" y="620" width="1250" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch6-Tech" bpmnElement="Lane-Ch6-Tech" isHorizontal="true">
+        <dc:Bounds x="190" y="770" width="1250" height="155" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Start_Ch6" bpmnElement="Start_Ch6">
+        <dc:Bounds x="260" y="294" width="36" height="36" />
+        <bpmndi:BPMNLabel><dc:Bounds x="300" y="267.42" width="90" height="89.16" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_6_1_AssessReadiness" bpmnElement="Task_6_1_AssessReadiness">
+        <dc:Bounds x="360" y="102" width="180" height="111" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_6_2_DefineObjectives" bpmnElement="Task_6_2_DefineObjectives">
+        <dc:Bounds x="590" y="257" width="180" height="110" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_6_3_MonitorObjectives" bpmnElement="Task_6_3_MonitorObjectives">
+        <dc:Bounds x="605" y="653" width="150" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_ReadyToScaleUp" bpmnElement="GW_ReadyToScaleUp" isMarkerVisible="true">
+        <dc:Bounds x="840" y="670" width="50" height="50" />
+        <bpmndi:BPMNLabel><dc:Bounds x="898" y="660" width="105" height="70" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_6_1_RemediateGaps" bpmnElement="Task_6_1_RemediateGaps">
+        <dc:Bounds x="775" y="792" width="180" height="110" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_6_4_StagedPhaseOut" bpmnElement="Task_6_4_StagedPhaseOut">
+        <dc:Bounds x="960" y="270" width="180" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_6_5_ChangeManagement" bpmnElement="Task_6_5_ChangeManagement">
+        <dc:Bounds x="960" y="463" width="180" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_End_Ch6" bpmnElement="End_Ch6">
+        <dc:Bounds x="1260" y="294" width="36" height="36" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1300" y="249.5" width="95" height="125" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_1" bpmnElement="Flow_Ch6_1">
+        <di:waypoint x="278" y="294" />
+        <di:waypoint x="278" y="157" />
+        <di:waypoint x="360" y="157" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_2" bpmnElement="Flow_Ch6_2">
+        <di:waypoint x="540" y="157" />
+        <di:waypoint x="565" y="157" />
+        <di:waypoint x="565" y="312" />
+        <di:waypoint x="590" y="312" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_3" bpmnElement="Flow_Ch6_3">
+        <di:waypoint x="680" y="367" />
+        <di:waypoint x="680" y="653" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_4" bpmnElement="Flow_Ch6_4">
+        <di:waypoint x="755" y="695" />
+        <di:waypoint x="840" y="695" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_5_Not" bpmnElement="Flow_Ch6_5_Not">
+        <di:waypoint x="865" y="720" />
+        <di:waypoint x="865" y="792" />
+        <bpmndi:BPMNLabel><dc:Bounds x="872" y="742" width="40" height="20" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_5_Loop" bpmnElement="Flow_Ch6_5_Loop">
+        <di:waypoint x="775" y="847" />
+        <di:waypoint x="680" y="847" />
+        <di:waypoint x="680" y="737" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_5_Proceed" bpmnElement="Flow_Ch6_5_Proceed">
+        <di:waypoint x="865" y="670" />
+        <di:waypoint x="865" y="312" />
+        <di:waypoint x="960" y="312" />
+        <bpmndi:BPMNLabel><dc:Bounds x="872" y="470" width="70" height="20" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_6" bpmnElement="Flow_Ch6_6">
+        <di:waypoint x="1050" y="354" />
+        <di:waypoint x="1050" y="463" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch6_7" bpmnElement="Flow_Ch6_7">
+        <di:waypoint x="1140" y="505" />
+        <di:waypoint x="1210" y="505" />
+        <di:waypoint x="1210" y="312" />
+        <di:waypoint x="1260" y="312" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

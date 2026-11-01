@@ -1,0 +1,6 @@
+| Component | Details |
+| --- | --- |
+| **Who should be involved?** | • The leading public health authority, such as a ministry of health, should be leading this phase to ensure scale-up and widespread adoption, that the necessary policies are in place to allow for phase-out of paper and/or legacy systems.<br>• Implementing teams should be assist the public health authority throughout the scale-up phases, with the addition of monitoring and evaluation specialists.<br>• Monitoring and evaluation specialists are critical during this stage to determine whether the PCPOSS is meeting the required metrics so that the public health authority is comfortable with phasing out paper and/or legacy systems.<br>• Technology partners will need to continue to be a part of this phase to maintain and update the system as the number of users and functionality increase through scale-up.<br>• End-users will continue to provide feedback as well as adopt the tool itself. |
+| **Inputs** | • Live version of your PCPOSS being used |
+| **Tools** | • *Monitoring and evaluating digital health interventions* (99)<br>• *The MAPS toolkit* (100) |
+| **Outputs** | • Set of objectives and benchmarks the PCPOSS will need to meet before phasing out paper and/or legacy systems<br>• Strategic plan for phasing out paper and/or legacy systems |

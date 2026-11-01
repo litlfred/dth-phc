@@ -1,0 +1,83 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/dt-annex-11-decision-support-table-template",
+  "@type": [
+    "smart-base:DecisionTable",
+    "doco:Table"
+  ],
+  "label": "dt:annex-11-decision-support-table-template",
+  "kind": "decision-table",
+  "title": "Annex 11: Decision-support table template and DMN 1.5 column mapping",
+  "uses": [
+    "papers/dth-phc/blocks/tbl-annex-11",
+    "papers/dth-phc/blocks/prose-ch03-sec-017-decision-support-logic"
+  ],
+  "text": "dt-annex-11-decision-support-table-template.md",
+  "meta": {
+    "title": "Annex 11: Decision-support table template and DMN 1.5 column mapping",
+    "decisionId": "Decision_Annex11DecisionSupportTableTemplate",
+    "canonicalDmn": "processes/decisions/annex-11-decision-support-table-template.dmn",
+    "dmnSpec": "omg-2024-dmn-1-5",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-017",
+        "sec-043"
+      ],
+      "pdfPages": [
+        42,
+        43,
+        44,
+        45,
+        98
+      ],
+      "method": "p4b-dmn-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
+      "section": "sec-017-36-determine-decision-support-logic",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "relatedBlocks": [
+      "pers:business-analyst",
+      "pers:system-dss"
+    ],
+    "code": "PHC-DT-05",
+    "dmnFile": "dt-annex-11-decision-support-table-template.dmn",
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "name": "Decision support system",
+          "type": "ApplicationComponent"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+          "name": "Decision Support Engine",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "name": "CDS"
+        }
+      ]
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/rule"
+    ]
+  },
+  "provenance": "authored"
+}

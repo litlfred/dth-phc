@@ -1,0 +1,366 @@
+[
+  {
+    "location": "p3:s70",
+    "text": "WHO guideline: recommendations on digital interventions for health system strengthening.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-002-glossary",
+    "note": "Bibliographic reference title (WHO 2019 digital health guideline)"
+  },
+  {
+    "location": "p3:s126",
+    "text": "WHO SMART Guidelines: optimising country- level use of guideline recommendations in the digital age.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-002-glossary",
+    "note": "Bibliographic reference title (WHO SMART Guidelines article)"
+  },
+  {
+    "location": "p4:s11",
+    "text": "In response to requests from Member States for normative guidance on digital health, the World Health Organization (WHO) launched WHO guideline: recommendations on digital interventions for health system strengthening in 2019 (2).",
+    "reason": "background-fact",
+    "classification": "background-fact",
+    "section": "sec-003-introduction",
+    "note": "Historical background on the 2019 launch of the WHO digital health guideline"
+  },
+  {
+    "location": "p4:s12",
+    "text": "Those evidence-based recommendations provide guidance to countries and regions looking to adopt digital health interventions as part of health system strengthening, and in support of universal health coverage or other health sector objectives.",
+    "reason": "background-fact",
+    "classification": "background-fact",
+    "section": "sec-003-introduction",
+    "note": "Descriptive summary of the 2019 WHO digital health guideline's scope"
+  },
+  {
+    "location": "p7:s7",
+    "text": "In practice, for example, digital solutions that are built to support monitoring and evaluation programmes should not only serve the purpose of monitoring and evaluation, but should also bring value to the health worker.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-006-13-how-this-handbook-was-developed",
+    "note": "Editorial illustration of Principles for Digital Development in Section 1.3"
+  },
+  {
+    "location": "p7:s8",
+    "text": "“Design with people” means that people who will manage, use, potentially benefit, and/or be affected by a given technology should meaningfully participate in the design of those systems so that the digital technology is built in a way that is fit-for-purpose (21).",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-006-13-how-this-handbook-was-developed",
+    "note": "Editorial explanation of 'Design with people' principle in Section 1.3"
+  },
+  {
+    "location": "p10:s15",
+    "text": "WHO core indicator sets Global digital health index WHO digital health atlas Digital health investment review tool HIS stages of continuous improvement + Conduct an inventory of existing or previously used software applications, ICT systems and other tools to better understand the requirements for reuse and interoperability + Develop a national digital health strategy outlining overarching needs, desired activities and outcomes + Define a vision for how the health system will be strengthened through the use of digital technology + Formulate a digital health investment roadmap to support the national digital health strategy + Plan and identify appropriate digital interventions, alongside the health and data content, to improve health system processes and address programmatic needs + Review the current state and develop an architecture blueprint for the design of the digital health implementations + Identify validated open standards to ensure data exchange, systems integration and future-proofing of digital health implementations + Monitor implementation to ensure digital implementations are functioning as intended and having the desired effect + Foster data-driven adaptive change management within the overall health system + Identify validated health content appropriate for the implementation context + Ensure use of content aligned with identified standards for the future state + Maintain and sustain digital health implementations + Identify risks and appropriate mitigations ASSESSING THE CURRENT STATE AND ENABLING ENVIRONMENT PHASE 01 DEFINING THE FUTURE STATE PHASE 03 M&E OF DIGITAL HEALTH IMPLEMENTATIONS AND FOSTERING DATA USE PHASE 06 DETERMINING HEALTH CONTENT REQUIREMENTS PHASE 05 ESTABLISHING A SHARED UNDERSTANDING AND STRATEGIC PLANNING PHASE 02 IMPLEMENTING, MAINTAINING AND SCALING PHASE 07 PLANNING THE ENTERPRISE ARCHITECTURE PHASE 04 WHO–ITU national eHealth strategy toolkit WHO classification of digital health interventions WHO guideline: recommendations on digital interventions for health system strengthening ITU digital health platform handbook UNICEF humancentred design toolkit World Bank digital identity toolkit WHO digital clearinghouse Digital implementation investment guide (DIIG) DIIG Quick deployment guide Asian Development Bank total cost of ownership tool Handbook on approaches to implementing standardized national product catalog WHO MAPS toolkit: mHealth assessment and planning for scale Handbook on approaches to implementing digital health supply chain WHO handbook for digitalizing primary health care (this document) Be He@lthy, Be Mobile handbooks for noncommunicable diseases WHO FIC ICD-11 HL7 FHIR LOINC PATH Defining and building a data use culture MEASURE Tools for Data Demand and Use in the Health Sector WHO SCORE for health data technical package Ethics and governance of artificial intelligence for health WHO M&E digital health interventions ITU SDG digital investment framework (eGov) Open Health Information Exchange (Open HIE) PDF for print Online environment The Open Group Architecture Framework (TOGAF) Terminology Service Global Digital Health Certification Network (GDHCN) Digital Square global goods guidebook Principles for donor alignment Principles for digital development Training Planning National Systems course Machinereadable recommendations Digital adaptation kits WHO SMART guidelines STEPS A further assumption is that users of this handbook have already considered the feasibility of implementing a PCPOSS in terms of some key foundational elements that are needed.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-009-23-before-using-this-resource",
+    "reproducesBlock": "prose:fig-06-diig-reproduces",
+    "note": "Text inside Fig. 6 (reproduced from WHO DIIG 2020 Fig. 1.1.1)"
+  },
+  {
+    "location": "p15:s13",
+    "text": "Family planning counselling can happen alongside other health services (e.g. nutrition counselling, child immunizations)<br>• Take client history<br>• Conduct a risk assessment<br>• Discuss issues and concerns if a returning client or a client already on a method<br>• Counsel on possible family planning methods and reproductive intentions<br>• Check medical eligibility criteria<br>• Select method<br>• Check stock and skills for delivering method<br>• If facility is not equipped to provide the method, refer | | **C** | Service provision | FP.C | • Client<br>• Health-care provider | To provide the method(s) or service(s) the client requires, if the client is medically eligible for them | Starting point: Client has selected a method and is medically eligible or eligible with clinical judgment<br>• Obtain informed consent<br>• Determine when to start method<br>• Provide method and/or explain how to use method<br>• Discuss dual protection<br>• Determine follow-up requirements and schedule follow-up, if needed | Source: WHO (30) 3.3.1 Workflow mapping conventions Once the requirements-gathering team has taken an inventory of the key business processes using the business process matrix, the relevant workflows should be created.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-014-33-map-business-processes-and-workflows",
+    "reproducesBlock": "prose:fig-10-11-anc-registration-reproduces",
+    "note": "Worked example cell in Table 1 (family planning / ANC care pathway example)"
+  },
+  {
+    "location": "p15:s126",
+    "text": "Source: WHO (29) Source: WHO (29) 3.3.3 As-is and to-be analysis When developing the as-is workflow for each of the relevant processes, it should become clear which activities are redundant (as they are unnecessarily repeated across multiple workflows).",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-014-33-map-business-processes-and-workflows",
+    "reproducesBlock": "prose:fig-10-11-anc-registration-reproduces",
+    "note": "Caption/source note on Figs. 10-11 (reproduced from WHO ANC DAK 2021)"
+  },
+  {
+    "location": "p15:s128",
+    "text": "If a health service user has already registered (i.e. provided their name, age, address and other demographic information) for the purposes of immunization, they should not have to give the same information again for the purposes of ANC.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-014-33-map-business-processes-and-workflows",
+    "reproducesBlock": "prose:fig-10-11-anc-registration-reproduces",
+    "note": "Illustrative ANC clinic registration duplicate-entry example (Figs. 10-11)"
+  },
+  {
+    "location": "p18:s43",
+    "text": "Check for signs of serious illness | HIV.DT.01 | Check for serious illness | *Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach* (2021) (27) Table 5.1.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.01 (Fig. 13)"
+  },
+  {
+    "location": "p18:s53",
+    "text": "WHO recommended testing strategy for dual detection of HIV and syphilis in ANC settings.<br>Fig.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV/syphilis dual detection testing strategy row (Fig. 13)"
+  },
+  {
+    "location": "p18:s55",
+    "text": "WHO HIV testing strategy for early infant diagnosis.<br>*Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach* (2021) (27).<br>Fig.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV early infant diagnosis reference row (Fig. 13)"
+  },
+  {
+    "location": "p18:s58",
+    "text": "Determine recommended services | HIV.DT.03 | Determine retest recommendation | *Consolidated guidelines on HIV testing services* (2019) (22).<br>7.2.4 Retesting – when and who?<br>7.2.5 Testing pregnant and breastfeeding women. | | HIV.C8.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.03 (Fig. 13)"
+  },
+  {
+    "location": "p18:s59",
+    "text": "Check eligibility for PrEP or PEP | HIV.DT.04 | Check eligibility for PrEP or PEP | *Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach* (2021) (27).<br>Chapter 3: Boxes 3.1 and 3.3.<br>*WHO implementation tool for pre-exposure prophylaxis (PrEP) of HIV infection: module 1: clinical* (2017) (28).<br>*Updated recommendations on first-line and second-line antiretroviral regimens and post-exposure prophylaxis and recommendations on early infant diagnosis of HIV: interim guidelines.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.04 (Fig. 13)"
+  },
+  {
+    "location": "p18:s61",
+    "text": "Technical brief* (2017) (29). | | HIV.C.24 Prescribe | HIV.DT.05 | Determine PEP or PrEP regimen | *Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach* (2021) (27).<br>Chapter 3: Box 3.1. | | HIV.D12.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.05 (Fig. 13)"
+  },
+  {
+    "location": "p18:s62",
+    "text": "Determine recommended screenings and tests OR HIV.H3.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV DAK decision-support matrix activity header (Fig. 13)"
+  },
+  {
+    "location": "p18:s63",
+    "text": "Conduct follow-up | HIV.DT.06 | Screen for TB | *Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach* (2021) (27).<br>4.7.2 People living with HIV – W4SS, CRP, CXR, mWRD and LF-LAM (adults and adolescents) supplementary table.<br>*WHO consolidated guidelines on tuberculosis Module 2: Screening – Systematic screening for tuberculosis disease* (47). | Source: WHO (31) Fig.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-017-36-determine-decision-support-logic",
+    "reproducesBlock": "prose:fig-13-hiv-decision-matrix-reproduces",
+    "note": "Reproduced HIV DAK decision-support matrix row HIV.DT.06 (Fig. 13)"
+  },
+  {
+    "location": "p35:s7",
+    "text": "Worksheet for semi-structured interviews This example interview guide is intended to provide guidance on what key information the team should be collecting to gain insights on the day-to-day life of the end-users, in this case a health worker.",
+    "reason": "background-fact",
+    "classification": "background-fact",
+    "section": "sec-035-principles-for-digital-development",
+    "note": "External Principles for Digital Development annex lead-in (cited external source per dth-phc#1 §3b)"
+  },
+  {
+    "location": "p42:s19",
+    "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/339745). • Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-042-aggregate-indicator-mapping-guide",
+    "note": "Bibliographic citation of WHO ANC DAK (2021)"
+  },
+  {
+    "location": "p42:s20",
+    "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/341997). • Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations and standards within digital systems, 2nd edition.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-042-aggregate-indicator-mapping-guide",
+    "note": "Bibliographic citation of WHO Family Planning DAK (2021)"
+  },
+  {
+    "location": "p42:s21",
+    "text": "Geneva: World Health Organization; 2023 (https://iris.who.int/handle/10665/375230). • Digital adaptation kit for tuberculosis: operational requirements for implementing WHO recommendations in digital systems.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-042-aggregate-indicator-mapping-guide",
+    "note": "Bibliographic citation of WHO HIV DAK (2023)"
+  },
+  {
+    "location": "p42:s22",
+    "text": "Geneva: World Health Organization; 2024 (https://iris.who.int/handle/10665/376631). • Digital adaptation kit for child health (0-59 months) in humanitarian emergencies: operational requirements for implementing WHO recommendations in digital systems.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-042-aggregate-indicator-mapping-guide",
+    "note": "Bibliographic citation of WHO TB DAK (2024)"
+  },
+  {
+    "location": "p43:s12",
+    "text": "Detailed examples of a decision-support table can be found in the following resources: • Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-043-template-for-a-decision-support-table",
+    "note": "Bibliographic list header of published WHO DAKs"
+  },
+  {
+    "location": "p43:s13",
+    "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/339745). • Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-043-template-for-a-decision-support-table",
+    "note": "Bibliographic citation of WHO ANC DAK (2021)"
+  },
+  {
+    "location": "p43:s14",
+    "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/341997). • Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations and standards within digital systems, 2nd edition.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-043-template-for-a-decision-support-table",
+    "note": "Bibliographic citation of WHO Family Planning DAK (2021)"
+  },
+  {
+    "location": "p43:s15",
+    "text": "Geneva: World Health Organization; 2023 (https://iris.who.int/handle/10665/375230). • Digital adaptation kit for tuberculosis: operational requirements for implementing WHO recommendations in digital systems.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-043-template-for-a-decision-support-table",
+    "note": "Bibliographic citation of WHO HIV DAK (2023)"
+  },
+  {
+    "location": "p43:s16",
+    "text": "Geneva: World Health Organization; 2024 (https://iris.who.int/handle/10665/376631). • Digital adaptation kit for child health (0-59 months) in humanitarian emergencies: operational requirements for implementing WHO recommendations in digital systems.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-043-template-for-a-decision-support-table",
+    "note": "Bibliographic citation of WHO TB DAK (2024)"
+  },
+  {
+    "location": "p44:s6",
+    "text": "The service schedule for antenatal care, for example, can be found in WHO’s 2021 *Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems* (https://iris.who.int/handle/10665/339745). | What to note | Description | Example | | --- | --- | --- | | **Service name** | What is the shorthand name of the service? | Hepatitis B birth dose | | **Service description** | What is the longer description of the service?",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Cross-reference to ANC DAK service schedule example in Annex 12"
+  },
+  {
+    "location": "p44:s7",
+    "text": "In 1–2 sentences, describe the service and when it’s given. | As part of the recommended routine immunizations for children, WHO recommends at least three doses of hepatitis B vaccine.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Reproduced Immunization DAK Hepatitis B birth-dose description cell (Annex 12 worked example)"
+  },
+  {
+    "location": "p44:s8",
+    "text": "This is the first vaccine in the series. | | **Trigger event** | What event signals the start of the service schedule? | Child’s birth | | **Trigger date** | What is the date of the signalling event that will be used to determine a service’s due date? | Child’s birthdate | | **Create condition** | Are there any conditions that specify when a service should be given?",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Reproduced Immunization DAK Hepatitis B trigger event cell (Annex 12 worked example)"
+  },
+  {
+    "location": "p44:s10",
+    "text": "If no, write “Not applicable” or “N/A”. | Since perinatal or early postnatal transmission is the most important source of chronic HBV infection globally, all infants (including low-birth-weight and premature infants) should receive their first dose of hepatitis B vaccine as soon as possible after birth, ideally within 24 hours. | | **Due date** | How is the service due date calculated?",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Reproduced Immunization DAK Hepatitis B due/overdue rationale cell (Annex 12 worked example)"
+  },
+  {
+    "location": "p44:s15",
+    "text": "If no, write “No expiration date”. | No expiration date | | **Completion** | How does the health worker complete the service? | Provide the vaccination | | **Potential risks and alternative schedules** | What are the potential risks to health service user safety if service is not delivered according to the recommended schedule?",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Reproduced Immunization DAK Hepatitis B completion cell (Annex 12 worked example)"
+  },
+  {
+    "location": "p44:s16",
+    "text": "What are the possible alternative service schedules? | Hepatitis B vaccination should include a birth dose followed by 2 or 3 additional doses to complete the primary series.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Reproduced Immunization DAK Hepatitis B 3- or 4-dose series cell (Annex 12 worked example)"
+  },
+  {
+    "location": "p44:s19",
+    "text": "The interval between doses should be at least 4 weeks. | | **Comments** | Any narrative or additional information that needs to be added by the implementation team should be written here. | Hepatitis B vaccine schedule in country varies slightly from WHO’s recommended immunization schedule. | | **References** | If there are any national or global guidelines (e.g.",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Reproduced Immunization DAK Hepatitis B minimum 4-week interval cell (Annex 12 worked example)"
+  },
+  {
+    "location": "p44:s22",
+    "text": "Table 1 for all ages and Table 2 for children) are available at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables |",
+    "reason": "background-fact",
+    "classification": "reproduced-example",
+    "section": "sec-044-scheduling-logic-table-guide",
+    "reproducesBlock": "prose:annex-12-hepb-schedule-reproduces",
+    "note": "Reproduced WHO routine immunization tables URL in Annex 12 worked example"
+  },
+  {
+    "location": "p47:s4",
+    "text": "In any use of this work, there should be no suggestion that WHO endorses any specific organization, products or services.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-front-matter",
+    "note": "WHO CC BY-NC-SA 3.0 IGO licence no-endorsement clause"
+  },
+  {
+    "location": "p47:s6",
+    "text": "If you adapt the work, then you must license your work under the same or equivalent Creative Commons licence.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-front-matter",
+    "note": "WHO CC BY-NC-SA 3.0 IGO share-alike adaptation licence clause"
+  },
+  {
+    "location": "p47:s7",
+    "text": "If you create a translation of this work, you should add the following disclaimer along with the suggested citation: “This translation was not created by the World Health Organization (WHO).",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-front-matter",
+    "note": "WHO translation disclaimer instruction"
+  },
+  {
+    "location": "p47:s9",
+    "text": "The original English edition shall be the binding and authentic edition”.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-front-matter",
+    "note": "WHO binding original English edition clause"
+  },
+  {
+    "location": "p47:s10",
+    "text": "Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the World Intellectual Property Organization (http://www.wipo.int/amc/en/mediation/rules/).",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-front-matter",
+    "note": "WIPO mediation clause for licence disputes"
+  },
+  {
+    "location": "p47:s26",
+    "text": "The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended by WHO in preference to others of a similar nature that are not mentioned.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-front-matter",
+    "note": "Standard WHO manufacturer/product non-endorsement disclaimer"
+  },
+  {
+    "location": "p47:s31",
+    "text": "In no event shall WHO be liable for damages arising from its use.",
+    "reason": "editorial",
+    "classification": "editorial",
+    "section": "sec-front-matter",
+    "note": "Standard WHO limitation of liability clause"
+  }
+]

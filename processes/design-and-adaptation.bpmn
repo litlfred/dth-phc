@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  xmlns:bootstrap.processes="https://litlfred.github.io/bootstrap/v0/processes/ns#"
+                  xmlns:cat-harness.processes="https://litlfred.github.io/cat-harness/v0/processes/ns#"
+                  id="Definitions_Process_DesignAndAdaptation"
+                  targetNamespace="https://litlfred.github.io/dth-phc/workflows"
+                  exporter="folio-assistant" exporterVersion="1">
+  <bpmn:import namespace="https://litlfred.github.io/bootstrap/v0/processes/ns#" location="https://litlfred.github.io/bootstrap/v0/processes/ns.jsonld" importType="http://www.w3.org/ns/json-ld"/>
+  <bpmn:resource id="pers:public-health-authority" name="Public health authority"/>
+  <bpmn:resource id="pers:business-analyst" name="Business analyst"/>
+  <bpmn:resource id="pers:technology-partner" name="Technology partner (vendor)"/>
+  <bpmn:resource id="pers:implementing-team" name="Implementing team"/>
+  <bpmn:resource id="pers:health-worker" name="Health worker"/>
+  <bpmn:resource id="pers:health-informatician" name="Health informatician"/>
+  <bpmn:resource id="pers:software-engineer" name="Software engineer"/>
+  <bpmn:resource id="pers:solutions-architect" name="Solutions architect"/>
+  <bpmn:resource id="pers:designer" name="Designer"/>
+  <bpmn:resource id="pers:user-researcher" name="User researcher"/>
+  <bpmn:resource id="pers:monitoring-and-evaluation-specialist" name="Monitoring and evaluation (M&amp;E) specialist"/>
+  <bpmn:resource id="pers:clerk" name="Clerk (facility registration and records staff)"/>
+  <bpmn:resource id="pers:supervisor" name="Supervisor / health facility manager"/>
+  <bpmn:resource id="pers:health-service-user" name="Health service user (patient / client)"/>
+  <bpmn:resource id="pers:system-ehr" name="Electronic health record (EHR) system"/>
+  <bpmn:resource id="pers:system-dss" name="Decision-support system (DSS)"/>
+  <bpmn:resource id="pers:system-cbis" name="Community-based information system (CBIS)"/>
+  <bpmn:resource id="pers:system-phr" name="Personal health record (PHR) system"/>
+  <bpmn:resource id="pers:donors-and-development-partners" name="Donors, development partners and implementing partners"/>
+  <bpmn:collaboration id="Collaboration_Process_DesignAndAdaptation">
+    <bpmn:participant id="Participant_Process_DesignAndAdaptation" name="WHO DTH for Primary Health Care — Chapter 4: Undertake design and adaptation (4.1-4.5)" processRef="Process_DesignAndAdaptation"/>
+  </bpmn:collaboration>
+  <bpmn:process id="Process_DesignAndAdaptation" name="Undertake design and adaptation (Ch 4, 4.1-4.5)" isExecutable="false">
+    <bpmn:documentation>Select the software and vendor, validate functional requirements with stakeholders, iteratively design and test wireframes, mock-ups and clickable prototypes with end-users, specify the system and interoperability architecture, and build and QA-test the beta PCPOSS.
+
+L1 source anchors: who-iris/library/9789240093362-eng sections 4.1 (prose-sec-020), 4.2 (prose-sec-021), 4.3 (prose-sec-022, Fig. 15), 4.4 (prose-sec-023, Table 3, Figs. 16-18), 4.5 (prose-sec-024) and Annex 14 HL7 FHIR standard components (prose-sec-046).</bpmn:documentation>
+    <bpmn:extensionElements>
+      <cat-harness.processes:policy enforcement="advisory"/>
+    </bpmn:extensionElements>
+    <bpmn:laneSet id="LaneSet_Process_DesignAndAdaptation">
+      <bpmn:lane id="Lane-Ch4-BA" name="Business analyst &amp; implementing team" partitionElementRef="pers:business-analyst">
+        <bpmn:documentation>Persona blocks pers:business-analyst and pers:implementing-team. Conducts landscape analysis and software/vendor selection (4.1), facilitates stakeholder workshops to validate functional requirements (4.2), designs testing use cases (4.3.2), and vets prototype feedback against scope.</bpmn:documentation>
+        <bpmn:flowNodeRef>Start_Ch4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_4_1_SelectSoftwareVendor</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_4_2_ValidateRequirements</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_PrototypeOk</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-BA">
+          <bpmn:lane id="Lane-Ch4-BA-implementing-team" name="Implementing team" partitionElementRef="pers:implementing-team"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch4-Designer" name="Designer" partitionElementRef="pers:designer">
+        <bpmn:documentation>Persona block pers:designer. Creates progressive user-interface artefacts across the 4.3 prototype loop (Fig. 15): low-fidelity sketches and wireframes, moderate-fidelity visual mock-ups, and higher-fidelity clickable prototypes, incorporating vetted user feedback at each level.</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_4_3_Wireframe</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_WireframeOk</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_4_3_Mockup</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_MockupOk</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_4_3_Prototype</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Designer">
+          <bpmn:lane id="Lane-Ch4-Designer-business-analyst" name="Business analyst" partitionElementRef="pers:business-analyst"/>
+          <bpmn:lane id="Lane-Ch4-Designer-user-researcher" name="User researcher" partitionElementRef="pers:user-researcher"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch4-Users" name="Targeted health worker occupational groups &amp; end-users" partitionElementRef="pers:health-worker">
+        <bpmn:documentation>Persona blocks pers:health-worker and pers:health-service-user. Validate functional requirements (4.2) and test wireframes, mock-ups and clickable prototypes through role play, one-to-one interviews and focus groups (4.3.2).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_4_3_TestWireframe</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_4_3_TestMockup</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_4_3_TestPrototype</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Users">
+          <bpmn:lane id="Lane-Ch4-Users-health-service-user" name="Health service user (patient / client)" partitionElementRef="pers:health-service-user"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch4-Architect" name="Solutions architect &amp; health informatician" partitionElementRef="pers:solutions-architect">
+        <bpmn:documentation>Persona blocks pers:solutions-architect and pers:health-informatician. Designs the system architecture across business, data, application and technology viewpoints (4.4.1) and specifies syntactic, semantic and foundational interoperability standards including HL7 FHIR (4.4.2-4.4.3, Annex 14).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_4_4_Architecture</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Architect">
+          <bpmn:lane id="Lane-Ch4-Architect-health-informatician" name="Health informatician" partitionElementRef="pers:health-informatician"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-cbis" name="Community-based information system (CBIS)" partitionElementRef="pers:system-cbis"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-dss" name="Decision-support system (DSS)" partitionElementRef="pers:system-dss"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-ehr" name="Electronic health record (EHR) system" partitionElementRef="pers:system-ehr"/>
+          <bpmn:lane id="Lane-Ch4-Architect-system-phr" name="Personal health record (PHR) system" partitionElementRef="pers:system-phr"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+      <bpmn:lane id="Lane-Ch4-Engineer" name="Software engineer / technology partner" partitionElementRef="pers:software-engineer">
+        <bpmn:documentation>Persona blocks pers:software-engineer and pers:technology-partner. Leads technical build, product documentation and the seven-part quality assurance test suite (installation, stress, security, graphic UI, integration, QA and accessibility testing, 4.5).</bpmn:documentation>
+        <bpmn:flowNodeRef>Task_4_5_BuildAndDocument</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_4_5_RunQaTests</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>GW_QaPassed</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Ch4</bpmn:flowNodeRef>
+      
+        <bpmn:childLaneSet id="ChildLaneSet_Lane-Ch4-Engineer">
+          <bpmn:lane id="Lane-Ch4-Engineer-technology-partner" name="Technology partner (vendor)" partitionElementRef="pers:technology-partner"/>
+        </bpmn:childLaneSet>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_Ch4" name="Ch 3 requirements documentation &amp; DAKs received">
+      <bpmn:documentation>Chapter 4 opener panel inputs (prose-sec-020, page 50): PCPOSS scope, governance structure, budget/timeline/risk plan, applicable WHO DAKs, and the nine requirements documentation outputs from Chapter 3.</bpmn:documentation>
+      <bpmn:outgoing>Flow_Ch4_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_4_1_SelectSoftwareVendor" name="4.1 Finalize software &amp; vendor selection (bespoke, COTS or reference software)">
+      <bpmn:documentation>Section 4.1 (prose-sec-020, pages 50-53, Table 2): Conduct landscape analysis and scorecard evaluation across bespoke software, commercial/open-source COTS, digital public goods and SMART Guidelines L4 reference software.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l2-dependency-choice"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_4_1_SelectSoftwareVendor_IO">
+        <bpmn:dataInput id="Task_4_1_SelectSoftwareVendor_In_1" name="Prioritized functional and non-functional requirements"/>
+        <bpmn:dataInput id="Task_4_1_SelectSoftwareVendor_In_2" name="Budget, timeline, and risk and mitigations plan"/>
+        <bpmn:dataOutput id="Task_4_1_SelectSoftwareVendor_Out_1" name="Selected software and software vendor"/>
+        <bpmn:inputSet id="Task_4_1_SelectSoftwareVendor_InputSet">
+          <bpmn:dataInputRefs>Task_4_1_SelectSoftwareVendor_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_4_1_SelectSoftwareVendor_In_2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_4_1_SelectSoftwareVendor_OutputSet">
+          <bpmn:dataOutputRefs>Task_4_1_SelectSoftwareVendor_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch4_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_4_2_ValidateRequirements" name="4.2 Validate functional requirements in stakeholder workshops &amp; design test use cases (4.3.2)">
+      <bpmn:documentation>Section 4.2 (prose-sec-021, page 53) and Section 4.3.2 Step 1 (prose-sec-022, page 55): Validate and confirm functional requirements with key stakeholders before build, and design testing use cases from Section 3.2 use cases and user stories.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="content-review"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch4_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_4_3_Wireframe" name="4.3.1 Draw low-fidelity sketches and wireframes">
+      <bpmn:documentation>Section 4.3.1 and Fig. 15 (prose-sec-022, pages 53-55): Create low-fidelity paper sketches and non-clickable wireframes depicting overall layout and data-entry flow.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="wireframe-design-review"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch4_3</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch4_6_Loop</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_4_3_TestWireframe" name="4.3.2 Test wireframe structure &amp; data-entry flow with end-users">
+      <bpmn:documentation>Section 4.3.1-4.3.2 and Fig. 15 (prose-sec-022, pages 54-56): Invite end-users to walk through scenarios on the wireframes to validate overall structure and information organization.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="wireframe-design-review"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch4_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_5</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_WireframeOk" name="Wireframe layout &amp; flow validated?">
+      <bpmn:documentation>Section 4.3.2 (prose-sec-022): If layout or data-entry flow needs revision, iterate the wireframe; once validated, advance to moderate-fidelity mock-ups.</bpmn:documentation>
+      <bpmn:incoming>Flow_Ch4_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_6_Loop</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch4_6_Pass</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_4_3_Mockup" name="4.3.1 Create moderate-fidelity visual mock-ups">
+      <bpmn:documentation>Section 4.3.1 and Fig. 15 (prose-sec-022, pages 54-55): Create visual screen mock-ups with colour schemes, flags/notifications, language tone and scheduling timeframes.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="wireframe-design-review"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch4_6_Pass</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch4_9_Loop</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_4_3_TestMockup" name="4.3.2 Test mock-ups (look, feel &amp; language) with end-users">
+      <bpmn:documentation>Section 4.3.2 (prose-sec-022, pages 55-56): Test multiple mock-up options with end-users and document structured feedback (things liked, confusing features, improvements).</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="wireframe-design-review"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch4_7</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_MockupOk" name="Mock-up look &amp; feel validated?">
+      <bpmn:documentation>Section 4.3.2 (prose-sec-022): Iterate mock-ups on vetted feedback, or advance to higher-fidelity clickable prototype.</bpmn:documentation>
+      <bpmn:incoming>Flow_Ch4_8</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_9_Loop</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch4_9_Pass</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_4_3_Prototype" name="4.3.1 Build higher-fidelity clickable prototype">
+      <bpmn:documentation>Section 4.3.1 and Fig. 15 (prose-sec-022, pages 54-55): Build an interactive, clickable prototype where buttons navigate across screens and simulate clinical care pathways.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="wireframe-design-review"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_4_3_Prototype_IO">
+        <bpmn:dataInput id="Task_4_3_Prototype_In_1" name="Validated wireframes and visual mock-ups"/>
+        <bpmn:dataOutput id="Task_4_3_Prototype_Out_1" name="User interface design (validated clickable prototype)"/>
+        <bpmn:inputSet id="Task_4_3_Prototype_InputSet">
+          <bpmn:dataInputRefs>Task_4_3_Prototype_In_1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_4_3_Prototype_OutputSet">
+          <bpmn:dataOutputRefs>Task_4_3_Prototype_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch4_9_Pass</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch4_12_Loop</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_10</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_4_3_TestPrototype" name="4.3.2 Validate clickable prototype via end-user role play">
+      <bpmn:documentation>Section 4.3.2 (prose-sec-022, pages 55-56): End-users experiment with the clickable prototype (&#x27;Show, don&#x27;t tell&#x27;) in role-play scenarios; feedback is documented and vetted by stakeholders to prevent scope creep.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="wireframe-design-review"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch4_10</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_PrototypeOk" name="Clickable prototype approved?">
+      <bpmn:documentation>Section 4.3.2 Step 5 (prose-sec-022, page 56): Vetted feedback is either incorporated into another prototype iteration or approved for system architecture and engineering build.</bpmn:documentation>
+      <bpmn:incoming>Flow_Ch4_11</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_12_Loop</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch4_12_Pass</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_4_4_Architecture" name="4.4 Design system architecture &amp; interoperability standards (FHIR, HIE)">
+      <bpmn:documentation>Section 4.4 (prose-sec-023, pages 56-60, Table 3, Figs. 16-18) and Annex 14 (prose-sec-046): Define business, data, application and technology architecture viewpoints (4.4.1), foundational/structural/semantic/organizational interoperability (4.4.2), and health data, terminology and HL7 FHIR exchange standards (4.4.3). Links to smart-ra PCPOSS, CDS, SHR and Interoperability views.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="archimate-models"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_4_4_Architecture_IO">
+        <bpmn:dataInput id="Task_4_4_Architecture_In_1" name="Data dictionary and data model"/>
+        <bpmn:dataInput id="Task_4_4_Architecture_In_2" name="Prioritized functional and non-functional requirements"/>
+        <bpmn:dataOutput id="Task_4_4_Architecture_Out_1" name="System architecture"/>
+        <bpmn:inputSet id="Task_4_4_Architecture_InputSet">
+          <bpmn:dataInputRefs>Task_4_4_Architecture_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_4_4_Architecture_In_2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_4_4_Architecture_OutputSet">
+          <bpmn:dataOutputRefs>Task_4_4_Architecture_Out_1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch4_12_Pass</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_13</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_4_5_BuildAndDocument" name="4.5 Establish test plan, build beta PCPOSS &amp; product documentation">
+      <bpmn:documentation>Section 4.5 (prose-sec-024, pages 60-61): Establish comprehensive test plan once requirements are finalized, build or adapt the PCPOSS beta version in sprints, and author product documentation.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="l4-application-build"/>
+      </bpmn:extensionElements>
+      <bpmn:ioSpecification id="Task_4_5_BuildAndDocument_IO">
+        <bpmn:dataInput id="Task_4_5_BuildAndDocument_In_1" name="Selected software and software vendor"/>
+        <bpmn:dataInput id="Task_4_5_BuildAndDocument_In_2" name="User interface design"/>
+        <bpmn:dataInput id="Task_4_5_BuildAndDocument_In_3" name="System architecture"/>
+        <bpmn:dataOutput id="Task_4_5_BuildAndDocument_Out_1" name="Product documentation"/>
+        <bpmn:dataOutput id="Task_4_5_BuildAndDocument_Out_2" name="Beta version of the PCPOSS"/>
+        <bpmn:inputSet id="Task_4_5_BuildAndDocument_InputSet">
+          <bpmn:dataInputRefs>Task_4_5_BuildAndDocument_In_1</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_4_5_BuildAndDocument_In_2</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>Task_4_5_BuildAndDocument_In_3</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="Task_4_5_BuildAndDocument_OutputSet">
+          <bpmn:dataOutputRefs>Task_4_5_BuildAndDocument_Out_1</bpmn:dataOutputRefs>
+          <bpmn:dataOutputRefs>Task_4_5_BuildAndDocument_Out_2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:incoming>Flow_Ch4_13</bpmn:incoming>
+      <bpmn:incoming>Flow_Ch4_16_Loop</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_14</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_4_5_RunQaTests" name="4.5 Execute installation, stress, security, UI, integration, QA &amp; accessibility tests">
+      <bpmn:documentation>Section 4.5 (prose-sec-024, page 61): Technology partner runs installation testing, stress testing, security testing, graphic UI testing, integration testing, quality assurance testing and accessibility testing.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <bootstrap.processes:skill ref="content-test"/>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Ch4_14</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_15</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="GW_QaPassed" name="All 4.5 QA &amp; accessibility tests pass?">
+      <bpmn:documentation>Section 4.5 Checkpoint (prose-sec-024, page 61): Verify that all seven test categories pass and that the MVP/beta version, UI design, system architecture and product documentation are ready for Chapter 5 UAT and roll-out.</bpmn:documentation>
+      <bpmn:incoming>Flow_Ch4_15</bpmn:incoming>
+      <bpmn:outgoing>Flow_Ch4_16_Loop</bpmn:outgoing>
+      <bpmn:outgoing>Flow_Ch4_16_Pass</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id="End_Ch4" name="Beta version of PCPOSS &amp; documentation ready">
+      <bpmn:documentation>Chapter 4 opener panel outputs complete: Selected software and software vendor, System architecture, User interface design, Product documentation, and Beta version of the PCPOSS.</bpmn:documentation>
+      <bpmn:incoming>Flow_Ch4_16_Pass</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_Ch4_1" sourceRef="Start_Ch4" targetRef="Task_4_1_SelectSoftwareVendor"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_2" sourceRef="Task_4_1_SelectSoftwareVendor" targetRef="Task_4_2_ValidateRequirements"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_3" sourceRef="Task_4_2_ValidateRequirements" targetRef="Task_4_3_Wireframe"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_4" sourceRef="Task_4_3_Wireframe" targetRef="Task_4_3_TestWireframe"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_5" sourceRef="Task_4_3_TestWireframe" targetRef="GW_WireframeOk"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_6_Loop" sourceRef="GW_WireframeOk" targetRef="Task_4_3_Wireframe" name="iterate wireframe"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_6_Pass" sourceRef="GW_WireframeOk" targetRef="Task_4_3_Mockup" name="advance to mock-up"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_7" sourceRef="Task_4_3_Mockup" targetRef="Task_4_3_TestMockup"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_8" sourceRef="Task_4_3_TestMockup" targetRef="GW_MockupOk"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_9_Loop" sourceRef="GW_MockupOk" targetRef="Task_4_3_Mockup" name="iterate mock-up"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_9_Pass" sourceRef="GW_MockupOk" targetRef="Task_4_3_Prototype" name="advance to clickable prototype"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_10" sourceRef="Task_4_3_Prototype" targetRef="Task_4_3_TestPrototype"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_11" sourceRef="Task_4_3_TestPrototype" targetRef="GW_PrototypeOk"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_12_Loop" sourceRef="GW_PrototypeOk" targetRef="Task_4_3_Prototype" name="incorporate vetted feedback"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_12_Pass" sourceRef="GW_PrototypeOk" targetRef="Task_4_4_Architecture" name="prototype approved"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_13" sourceRef="Task_4_4_Architecture" targetRef="Task_4_5_BuildAndDocument"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_14" sourceRef="Task_4_5_BuildAndDocument" targetRef="Task_4_5_RunQaTests"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_15" sourceRef="Task_4_5_RunQaTests" targetRef="GW_QaPassed"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_16_Loop" sourceRef="GW_QaPassed" targetRef="Task_4_5_BuildAndDocument" name="fix defects"/>
+    <bpmn:sequenceFlow id="Flow_Ch4_16_Pass" sourceRef="GW_QaPassed" targetRef="End_Ch4" name="beta ready"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Process_DesignAndAdaptation">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_DesignAndAdaptation" bpmnElement="Collaboration_Process_DesignAndAdaptation">
+      <bpmndi:BPMNShape id="Shape_Participant_Process_DesignAndAdaptation" bpmnElement="Participant_Process_DesignAndAdaptation" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1390" height="890" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch4-Users" bpmnElement="Lane-Ch4-Users" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1360" height="205" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch4-Designer" bpmnElement="Lane-Ch4-Designer" isHorizontal="true">
+        <dc:Bounds x="190" y="285" width="1360" height="180" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch4-BA" bpmnElement="Lane-Ch4-BA" isHorizontal="true">
+        <dc:Bounds x="190" y="465" width="1360" height="175" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch4-Architect" bpmnElement="Lane-Ch4-Architect" isHorizontal="true">
+        <dc:Bounds x="190" y="640" width="1360" height="135" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Lane-Ch4-Engineer" bpmnElement="Lane-Ch4-Engineer" isHorizontal="true">
+        <dc:Bounds x="190" y="775" width="1360" height="195" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Start_Ch4" bpmnElement="Start_Ch4">
+        <dc:Bounds x="240" y="485" width="36" height="36" />
+        <bpmndi:BPMNLabel><dc:Bounds x="225" y="528" width="95" height="72" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_1_SelectSoftwareVendor" bpmnElement="Task_4_1_SelectSoftwareVendor">
+        <dc:Bounds x="330" y="510" width="180" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_2_ValidateRequirements" bpmnElement="Task_4_2_ValidateRequirements">
+        <dc:Bounds x="530" y="497" width="180" height="111" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_3_Wireframe" bpmnElement="Task_4_3_Wireframe">
+        <dc:Bounds x="545" y="333" width="150" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_3_TestWireframe" bpmnElement="Task_4_3_TestWireframe">
+        <dc:Bounds x="530" y="140" width="180" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_WireframeOk" bpmnElement="GW_WireframeOk" isMarkerVisible="true">
+        <dc:Bounds x="750" y="350" width="50" height="50" />
+        <bpmndi:BPMNLabel><dc:Bounds x="736" y="290" width="120" height="54" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_3_Mockup" bpmnElement="Task_4_3_Mockup">
+        <dc:Bounds x="890" y="333" width="150" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_3_TestMockup" bpmnElement="Task_4_3_TestMockup">
+        <dc:Bounds x="890" y="140" width="150" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_MockupOk" bpmnElement="GW_MockupOk" isMarkerVisible="true">
+        <dc:Bounds x="1080" y="350" width="50" height="50" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1066" y="290" width="120" height="54" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_3_Prototype" bpmnElement="Task_4_3_Prototype">
+        <dc:Bounds x="1230" y="333" width="150" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_3_TestPrototype" bpmnElement="Task_4_3_TestPrototype">
+        <dc:Bounds x="1230" y="140" width="150" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_PrototypeOk" bpmnElement="GW_PrototypeOk" isMarkerVisible="true">
+        <dc:Bounds x="1280" y="530" width="50" height="50" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1166" y="528.5" width="110" height="53" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_4_Architecture" bpmnElement="Task_4_4_Architecture">
+        <dc:Bounds x="760" y="665" width="180" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_5_BuildAndDocument" bpmnElement="Task_4_5_BuildAndDocument">
+        <dc:Bounds x="760" y="830" width="180" height="84" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_Task_4_5_RunQaTests" bpmnElement="Task_4_5_RunQaTests">
+        <dc:Bounds x="980" y="817" width="180" height="111" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_GW_QaPassed" bpmnElement="GW_QaPassed" isMarkerVisible="true">
+        <dc:Bounds x="1230" y="852" width="50" height="50" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1180" y="783" width="150" height="60" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Shape_End_Ch4" bpmnElement="End_Ch4">
+        <dc:Bounds x="1400" y="859" width="36" height="36" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1365" y="783" width="140" height="65" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_1" bpmnElement="Flow_Ch4_1">
+        <di:waypoint x="276" y="503" />
+        <di:waypoint x="330" y="503" />
+        <di:waypoint x="330" y="552" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_2" bpmnElement="Flow_Ch4_2">
+        <di:waypoint x="510" y="552" />
+        <di:waypoint x="530" y="552" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_3" bpmnElement="Flow_Ch4_3">
+        <di:waypoint x="620" y="497" />
+        <di:waypoint x="620" y="417" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_4" bpmnElement="Flow_Ch4_4">
+        <di:waypoint x="620" y="333" />
+        <di:waypoint x="620" y="224" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_5" bpmnElement="Flow_Ch4_5">
+        <di:waypoint x="710" y="182" />
+        <di:waypoint x="728" y="182" />
+        <di:waypoint x="728" y="375" />
+        <di:waypoint x="750" y="375" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_6_Loop" bpmnElement="Flow_Ch4_6_Loop">
+        <di:waypoint x="775" y="400" />
+        <di:waypoint x="775" y="448" />
+        <di:waypoint x="650" y="448" />
+        <di:waypoint x="650" y="417" />
+        <bpmndi:BPMNLabel><dc:Bounds x="654" y="422" width="116" height="20" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_6_Pass" bpmnElement="Flow_Ch4_6_Pass">
+        <di:waypoint x="800" y="375" />
+        <di:waypoint x="890" y="375" />
+        <bpmndi:BPMNLabel><dc:Bounds x="805" y="382" width="80" height="40" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_7" bpmnElement="Flow_Ch4_7">
+        <di:waypoint x="965" y="333" />
+        <di:waypoint x="965" y="224" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_8" bpmnElement="Flow_Ch4_8">
+        <di:waypoint x="1040" y="182" />
+        <di:waypoint x="1058" y="182" />
+        <di:waypoint x="1058" y="375" />
+        <di:waypoint x="1080" y="375" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_9_Loop" bpmnElement="Flow_Ch4_9_Loop">
+        <di:waypoint x="1105" y="400" />
+        <di:waypoint x="1105" y="448" />
+        <di:waypoint x="965" y="448" />
+        <di:waypoint x="965" y="417" />
+        <bpmndi:BPMNLabel><dc:Bounds x="975" y="422" width="115" height="20" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_9_Pass" bpmnElement="Flow_Ch4_9_Pass">
+        <di:waypoint x="1130" y="375" />
+        <di:waypoint x="1230" y="375" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1134" y="382" width="92" height="54" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_10" bpmnElement="Flow_Ch4_10">
+        <di:waypoint x="1305" y="333" />
+        <di:waypoint x="1305" y="224" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_11" bpmnElement="Flow_Ch4_11">
+        <di:waypoint x="1380" y="182" />
+        <di:waypoint x="1460" y="182" />
+        <di:waypoint x="1460" y="555" />
+        <di:waypoint x="1330" y="555" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_12_Loop" bpmnElement="Flow_Ch4_12_Loop">
+        <di:waypoint x="1305" y="530" />
+        <di:waypoint x="1305" y="417" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1185" y="470" width="110" height="40" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_12_Pass" bpmnElement="Flow_Ch4_12_Pass">
+        <di:waypoint x="1305" y="580" />
+        <di:waypoint x="1305" y="707" />
+        <di:waypoint x="940" y="707" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1309" y="585.25" width="120" height="53" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_13" bpmnElement="Flow_Ch4_13">
+        <di:waypoint x="850" y="749" />
+        <di:waypoint x="850" y="830" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_14" bpmnElement="Flow_Ch4_14">
+        <di:waypoint x="940" y="872" />
+        <di:waypoint x="980" y="872" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_15" bpmnElement="Flow_Ch4_15">
+        <di:waypoint x="1160" y="877" />
+        <di:waypoint x="1230" y="877" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_16_Loop" bpmnElement="Flow_Ch4_16_Loop">
+        <di:waypoint x="1255" y="902" />
+        <di:waypoint x="1255" y="954" />
+        <di:waypoint x="850" y="954" />
+        <di:waypoint x="850" y="914" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1010" y="930" width="80" height="20" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Edge_Flow_Ch4_16_Pass" bpmnElement="Flow_Ch4_16_Pass">
+        <di:waypoint x="1280" y="877" />
+        <di:waypoint x="1400" y="877" />
+        <bpmndi:BPMNLabel><dc:Bounds x="1300" y="850" width="80" height="20" /></bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

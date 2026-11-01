@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Requirement priority decision table — Section 3.8 and Annex 13 (Prioritization of requirements guide)
+  L1 sources:
+    - who-iris/library/9789240093362-eng/sections/sec-019-38-gather-and-prioritize-requirements.md (prose-sec-019, pages 48-49)
+    - who-iris/library/9789240093362-eng/sections/sec-045-prioritization-of-requirements-guide.md (prose-sec-045, page 95)
+
+  Classifies a functional or non-functional requirement as High ("need-to-have"),
+  Medium ("should-have"), or Low ("nice-to-have") based on the criteria stated in
+  Annex 13 (workplan Annex 10/11). Aligned with Must/Should/Nice-to-have and
+  RFC 2119 / RFC 8174 SHALL/SHOULD/MAY (workplan section 3f).
+-->
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
+             id="Definitions_RequirementPriority"
+             name="Requirement priority (3.8, Annex 13)"
+             namespace="https://litlfred.github.io/dth-phc/decisions">
+  <decision id="Decision_RequirementPriority" name="Requirement priority (3.8, Annex 13)">
+    <description>Assign High, Medium or Low priority to a functional or non-functional requirement using the criteria in Section 3.8 (prose-sec-019) and Annex 13 (prose-sec-045).</description>
+    <decisionTable id="Table_RequirementPriority" hitPolicy="FIRST">
+      <input id="In_NeededComplete" label="needed for a complete system?">
+        <inputExpression id="Expr_NeededComplete" typeRef="boolean"><text>neededForCompleteSystem</text></inputExpression>
+      </input>
+      <input id="In_StronglyAdvised" label="strongly advised for uptake and usability?">
+        <inputExpression id="Expr_StronglyAdvised" typeRef="boolean"><text>stronglyAdvisedForUptakeAndUsability</text></inputExpression>
+      </input>
+      <output id="Out_Priority" name="priority" label="priority" typeRef="string" />
+      <output id="Out_Category" name="category" label="requirement category (Annex 13)" typeRef="string" />
+
+      <rule id="Rule_HighPriority">
+        <description>Annex 13 (High priority / need-to-have): If the PCPOSS does not have this function or feature, the system is considered incomplete.</description>
+        <inputEntry id="IE_High_1"><text>true</text></inputEntry>
+        <inputEntry id="IE_High_2"><text>-</text></inputEntry>
+        <outputEntry id="OE_High_1"><text>"High"</text></outputEntry>
+        <outputEntry id="OE_High_2"><text>"Need-to-have: required for a complete PCPOSS (MVP scope)"</text></outputEntry>
+      </rule>
+
+      <rule id="Rule_MediumPriority">
+        <description>Annex 13 (Medium priority / should-have): Not necessary to have a complete and functioning PCPOSS, but strongly advised to improve uptake, usability and overall performance of the system.</description>
+        <inputEntry id="IE_Med_1"><text>false</text></inputEntry>
+        <inputEntry id="IE_Med_2"><text>true</text></inputEntry>
+        <outputEntry id="OE_Med_1"><text>"Medium"</text></outputEntry>
+        <outputEntry id="OE_Med_2"><text>"Should-have: strongly advised to improve uptake, usability and overall performance"</text></outputEntry>
+      </rule>
+
+      <rule id="Rule_LowPriority">
+        <description>Annex 13 (Low priority / nice-to-have): Not necessary given time and budget constraints, but value-adding for future releases and updates on the roadmap.</description>
+        <inputEntry id="IE_Low_1"><text>-</text></inputEntry>
+        <inputEntry id="IE_Low_2"><text>-</text></inputEntry>
+        <outputEntry id="OE_Low_1"><text>"Low"</text></outputEntry>
+        <outputEntry id="OE_Low_2"><text>"Nice-to-have: value-adding feature for future roadmap releases"</text></outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

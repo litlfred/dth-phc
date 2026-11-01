@@ -1,0 +1,110 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch05-sec-027-deploy",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch05-sec-027-deploy",
+  "kind": "prose",
+  "title": "5.3 Deploy the system",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch05-sec-026-uat"
+  ],
+  "defines": [
+    "deploy"
+  ],
+  "text": "p-ch05-sec-027-deploy.md",
+  "meta": {
+    "title": "5.3 Deploy the system",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-027-53-deploy-the-system",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-027-53-deploy-the-system.md",
+      "pdfPages": [
+        65
+      ],
+      "method": "l1-section-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/deploy",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/legacy-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/register"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+        "id": "id-95e8f300e2225113a3195b2d6c2afc9b",
+        "name": "Implementing team"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+        "id": "id-dec0373effd25980b70e45e852f0ff1f",
+        "name": "Technology partner"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "id": "id-808925f4d2075d7b95e0651ebae00fcf",
+        "name": "Point-of-service application"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+        "id": "id-54d7e249c99a59c6a2085f17060de254",
+        "name": "Health worker"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "id": "id-eac6523c694c551b968166656af2b2e6",
+        "name": "Shared DTH Roles and Actors"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "name": "Implementing team"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+          "name": "Technology partner"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "name": "Health worker"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "sourceOnly": "deployment operational and phased roll-out advice: cited L1 narrative per dth-phc#1 §3b"
+  },
+  "provenance": "authored"
+}

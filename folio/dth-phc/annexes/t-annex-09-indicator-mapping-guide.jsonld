@@ -1,0 +1,122 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/tbl-annex-09",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:annex-09",
+  "kind": "table",
+  "title": "Annex 9. Aggregate indicator mapping guide",
+  "text": "t-annex-09-indicator-mapping-guide.md",
+  "meta": {
+    "title": "Annex 9. Aggregate indicator mapping guide",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-042-aggregate-indicator-mapping-guide",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-042-aggregate-indicator-mapping-guide.md",
+      "pdfPages": [
+        90
+      ],
+      "method": "l1-template-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/indicators-and-performance-metrics",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-element",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-dictionary",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-management-information-system"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+        "id": "id-ab03b92d0a8355bca5ce336ab2e2bf17",
+        "name": "Indicator reporting"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+        "id": "id-3fd92d497ca040c8a436f355c0b68770",
+        "name": "Analytics & Reporting Platform"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-d626508a7dc55b1fb11bf34f57f8ddd9.jsonld",
+        "id": "id-d626508a7dc55b1fb11bf34f57f8ddd9",
+        "name": "Health Management Information System"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+        "id": "id-efb44c09bbb251a4a851dbef2bfaf5a2",
+        "name": "Monitoring and evaluation specialist"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "id": "id-eac6523c694c551b968166656af2b2e6",
+        "name": "Shared DTH Roles and Actors"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+          "name": "Indicator reporting"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "name": "Analytics & Reporting Platform"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-d626508a7dc55b1fb11bf34f57f8ddd9.jsonld",
+          "name": "Health Management Information System"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+          "name": "Monitoring and evaluation specialist"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "templateFor": {
+      "chapterStep": "3.4.3 Compile aggregate indicators",
+      "producesDakKind": "indicator",
+      "smartBaseClass": "smart-base:Indicator",
+      "smartBaseStructureDefinition": "http://smart.who.int/base/StructureDefinition/ProgramIndicator",
+      "columns": [
+        "Indicator ID",
+        "Indicator name",
+        "Definition",
+        "Numerator description",
+        "Numerator computation",
+        "Denominator description",
+        "Denominator computation",
+        "Frequency of reporting",
+        "Disaggregation",
+        "Alerts or targets",
+        "References"
+      ]
+    }
+  },
+  "provenance": "authored"
+}

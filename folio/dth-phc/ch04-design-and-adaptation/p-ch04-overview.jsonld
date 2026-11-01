@@ -1,0 +1,114 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch04-overview",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch04-overview",
+  "kind": "prose",
+  "title": "Chapter 4 overview: Undertake design and adaptation",
+  "text": "p-ch04-overview.md",
+  "meta": {
+    "title": "Chapter 4 overview: Undertake design and adaptation",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-020-41-finalize-software-and-vendor-selection",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-020-41-finalize-software-and-vendor-selection.md",
+      "pdfPages": [
+        50
+      ],
+      "method": "l1-section-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/systems-architecture",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/prototype",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/beta-version",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+        "id": "id-dec0373effd25980b70e45e852f0ff1f",
+        "name": "Technology partner"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
+        "id": "id-6f87fe9ac64b5deca8c2ed5c96641485",
+        "name": "Software engineer"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
+        "id": "id-ffa13a71f7575bd1ab3bf9496433cdcf",
+        "name": "Solutions architect"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+        "id": "id-95e8f300e2225113a3195b2d6c2afc9b",
+        "name": "Implementing team"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "id": "id-808925f4d2075d7b95e0651ebae00fcf",
+        "name": "Point-of-service application"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "id": "id-eac6523c694c551b968166656af2b2e6",
+        "name": "Shared DTH Roles and Actors"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+          "name": "Technology partner"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld",
+          "name": "Software engineer"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
+          "name": "Solutions architect"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "name": "Implementing team"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    }
+  },
+  "provenance": "authored"
+}

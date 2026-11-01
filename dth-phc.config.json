@@ -1,0 +1,49 @@
+{
+  "contentType": "document",
+  "adapter": "document",
+  "adapterModule": "./folio-assistant-core/adapters/document/index.ts",
+  "dependencies": {
+    "folioAssistant": [
+      {
+        "name": "folio-assistant-core",
+        "path": "folio-assistant-core"
+      },
+      {
+        "name": "smart-base",
+        "path": "smart-base"
+      }
+    ]
+  },
+  "feedbackDir": ".folio-feedback",
+  "skills": ".claude/skills/local",
+  "viewer": {
+    "dir": "cat-harness-tools/viewer",
+    "port": 8080
+  },
+  "readme": {
+    "linkStyle": "blob",
+    "publishRef": "gh-pages"
+  },
+  "site": {
+    "build": {
+      "sourceSteps": [
+        "site:document",
+        "site:library",
+        "site:glossary"
+      ],
+      "siteSteps": [
+        "site:node-kinds"
+      ],
+      "pre": [
+        "check:dth-glossary",
+        "check:kg-blocks",
+        "check:library-kg",
+        "check:l1-coverage"
+      ],
+      "keep": [
+        "ns"
+      ]
+    }
+  },
+  "_site_comment": "`site.build.keep`: `ns`, the JSON-LD context at ns/context/v1.jsonld that the block KG nodes name (iriBase in dth-phc.json); the root publish keeps it, as smart-ra's does."
+}

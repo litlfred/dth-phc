@@ -1,0 +1,850 @@
+[
+  {
+    "id": "tbl:glossary",
+    "text": "| Term | Definition | | --- | --- | | Algorithm | A specification of how a computer shall solve a problem, perform a calculation and execute a task. | | Annotation | In a decision table, an annotation simply provides further details and explanation to the rule, for those working on and working from the decision table. | | As-is | The current state of things (also see to-be). | | Beta version | The initial version of the software, after prototyping, that is available for testing among a limited group of people. | | Build | In the context of developing a person-centred point of service system (PCPOSS), build is when a software engineer is writing the necessary code or programming the software. | | Business objective | A time-targeted and measurable output or outcome of a routine health system function."
+  },
+  {
+    "id": "tbl:glossary",
+    "text": "“calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS). | | Functional requirements | Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with). | | Health service users | Also known as patients, clients or beneficiaries, these are individuals who receive formal and/or informal health services. | | Health service user’s health records | The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker."
+  },
+  {
+    "id": "tbl:glossary",
+    "text": "An open- source software must have a license approved by the Open Source Initiative (19). | | Open standards | Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process."
+  },
+  {
+    "id": "tbl:glossary",
+    "text": "If each input entry (condition) is satisfied, then the rule is satisfied, and the decision result contains the output entries (conclusion) of this rule (22). | | SMART Guidelines | Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations."
+  },
+  {
+    "id": "tbl:glossary",
+    "text": "They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity."
+  },
+  {
+    "id": "rec:who-2019-digital-tracking-decision-support",
+    "text": "WHO recommends (recommendation 8) the use of digital tracking of clients’ health status and services, combined with decision support (see Fig."
+  },
+  {
+    "id": "rec:who-2019-digital-tracking-decision-support",
+    "text": "To support implementation of this recommendation, a person-centred point of service system (PCPOSS) is needed to improve effective coverage and increase accountability at the point of service or point of care."
+  },
+  {
+    "id": "rec:who-2019-digital-tracking-decision-support",
+    "text": "2 The 2019 WHO guideline: recommendations on digital interventions for health system strengthening Expected Contribution to universal health coverage (UHC) Digital health intervention (accessible at a minimum via mobile devices) Recommendation Effective coverage Accountability coverage Digital tracking of clients’ health status and services (digital tracking) combined with decision support Recommendation 8: WHO recommends digital tracking of clients’ health status and services, combined with decision support under these conditions: • in settings where the health system can support the implementation of these intervention components in an integrated manner; and • for tasks that are already defined as within the scope of practice for the health worker."
+  },
+  {
+    "id": "rec:who-2019-digital-tracking-decision-support",
+    "text": "(Recommended only in specific contexts or conditions) Source: WHO, 2019 (2)."
+  },
+  {
+    "id": "fig:4",
+    "text": "They are intended to provide healthcare professionals and/or users with recommendations for diagnosis, prognosis, monitoring and treatment of individual patients” (3). • Community-based information systems: Systems that “facilitate data collection and use at the community level."
+  },
+  {
+    "id": "fig:4",
+    "text": "It should be noted that community-based information systems, decision support systems, electronic health record systems and personal health records may exist separately."
+  },
+  {
+    "id": "fig:4",
+    "text": "WHO is software agnostic and does not provide recommendations on specific digital health tools, software or platforms."
+  },
+  {
+    "id": "fig:5",
+    "text": "SMART Guidelines are Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable recommended digital capabilities, health and data content."
+  },
+  {
+    "id": "fig:5",
+    "text": "SMART Guidelines are WHO’s approach designed to systematize and accelerate the consistent application of recommended, lifesaving interventions in the digital age (18)."
+  },
+  {
+    "id": "fig:5",
+    "text": "As countries are investing heavily in PCPOSSs, SMART Guidelines provide detailed specifications, documentation and encoded content to facilitate accurate and consistent incorporation of WHO clinical, public health, data and interoperability recommendations into PCPOSSs."
+  },
+  {
+    "id": "fig:5",
+    "text": "SMART Guidelines are a layered set of reusable documentation and digital health components designed to advance the development of digital services and applications that incorporate recommended clinical, public health and health system data, interoperability guidelines and best practices."
+  },
+  {
+    "id": "fig:5",
+    "text": "The five knowledge layers are: • L1 Narrative: Enhanced clinical and public health guidelines and data recommendations; • L2 Operational: Digital adaptation kits (DAKs); • L3 Machine readable: Machine-readable implementation guides; • L4 Executable: Reference applications and services; • L5 Dynamic: Precision health model."
+  },
+  {
+    "id": "fig:5",
+    "text": "These layers inform guideline developers on how to translate recommendations into specifications and standards; technologists on how to integrate recommendations into updatable digital systems; and countries on how to localize, make interoperable, institutionalize, and update digital systems consistent with evidence-based recommendations."
+  },
+  {
+    "id": "fig:5",
+    "text": "5 WHO SMART Guidelines approach L1 Narrative Guideline and data recommendations: L2 Operational Semi-structured documentation of operational and functional requirments: L3 \u0007Machine readable Structured, software-neutral specifications, code, terminology and interoperability standards: L4 \u0007Executable Software that is able to execute static algorithms and interoperable digital components and deliver operational and functional requirements: L5 Dynamic Executable dynamic algorithms that are trained and optimised with advance analytics to achieve prioritise outcomes: Data, evidence, and impact Research and evidence base Enhanced guidelines Digital adaptation kits Machine-readable recommendations Reference software Precision health models Localisation Evidence from digital implementations Knowledge layers and associated products Country implementation L1 L1 Adaptation National policies, guidelines, data, and operational procedures L1 Adaptation Localised requirements L1 Adaptation Localised machine readable code and standards L1 Adaptation Localised static digital services and applications within a digital health enterprise L1 Adaptation Dynamic digital applications and services trained and optimised for prioritised local outcomes L2 L2 L3 L3 L4 L4 L5 L5 L1"
+  },
+  {
+    "id": "prose:ch02-sec-008-targeted-users",
+    "text": "Although this resource is not targeted to the end-users of PCPOSS (i.e. health workers involved in care delivery or health service users), they should be involved throughout the entire development and adaptation process."
+  },
+  {
+    "id": "fig:6",
+    "text": "This needs assessment should have included a root-cause analysis illustrating the need for the PCPOSS to improve service delivery and accountability measures."
+  },
+  {
+    "id": "fig:6",
+    "text": "If there is no clear plan for how PCPOSSs can be leveraged as a public health intervention, please refer to the WHO guideline: recommendations on digital interventions for health system strengthening (2)."
+  },
+  {
+    "id": "fig:6",
+    "text": "In addition to this handbook, Digital adaptation kits (DAKs) and machine-readable recommendations from the SMART Guidelines work can be leveraged to support determination of health content requirements (Fig."
+  },
+  {
+    "id": "fig:7",
+    "text": "Quick prototyping and incorporation of feedback is often performed based on the agile methodology (28), thus in each phase, there should be opportunity to update the system based on users’ feedback as seen in Fig."
+  },
+  {
+    "id": "fig:7",
+    "text": "7 Iterative and agile approach Minimum viable product (MVP) VERSION 1 VERSION 2 Determine that a PCPOSS is an appropriate health intervention Build and test Build and test Build and test Train users Train users Train users Repeat previous loop until meeting MVP specs to deploy Gather and manage user feedback Gather and manage user feedback Deploy and roll out Deploy and roll out Deploy, roll out, and scale Iterations for continuous improvement Design Adapt design Adapt design Understand and prioritize user requirements Understand and prioritize user requirements Understand and prioritize user requirements Based on circumstances and resources available, teams should determine the order of operations outlined in this handbook recognizing and acknowledging that there are multiple leading practices and methodologies available."
+  },
+  {
+    "id": "prose:ch02-sec-011-software-choices",
+    "text": "Regardless of the chosen technology used, the only strong recommendation would be to ensure robust, high-quality documentation of the requirements of the system and its design."
+  },
+  {
+    "id": "prose:ch02-sec-011-software-choices",
+    "text": "Microsoft Teams, Slack, Google Drive) should be used to improve the capacity for knowledge sharing within, and between, implementing teams and others involved in the digitizing primary health care processes."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "By the end of this chapter, the implementation team should have a clear understanding of the scope of the system, how the workflows and data flow may need to be optimized, and the relevant data that will need to be collected and accounted for at individual and aggregate levels."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "If a digital system already exists, the team should also have a clear understanding of the key functionalities and features of the present system, and how a PCPOSS would complement or upgrade the present system. | Component | Details | | --- | --- | | **Who should be involved?** | • Targeted health worker occupational groups (e.g. physicians, nurses, midwives and community health workers), health service users and any other intended end-users, should guide the requirements for a PCPOSS.<br>• Business analysts, health informaticians and people trained in user research should lead the process of gathering requirements and ensuring that the solution will adhere to interoperability standards.<br>• Software engineers should be engaged so they understand the context of the solution they will be responsible for building.<br>• The public health authority should preferably be responsible for these tasks, or at least be consulted and involved throughout the entire process. | | **Inputs** | • National health strategy, digital health strategy, health policies, and a strategic direction and scope for the PCPOSS<br>• Health information system, privacy, security and data use policies<br>• Digital health architecture blueprint and high-level requirements for meeting interoperability standards<br>• Infrastructure readiness assessment<br>• Unique identifier method<br>• List of anticipated outcomes against which to measure success<br>• World Health Organization (WHO) and national guidelines for the health area targeted, in addition to the standard operating procedures for care delivery, data and indicator definitions<br>• Existing paper records and register forms<br>• End user and key stakeholder interviews and insights | | **Tools** | • Observation templates (Annex 3)<br>• User persona template (Annex 4)<br>• User stories template (Annex 5)<br>• Business process matrix template (Annex 6)<br>• WHO’s Digital adaptation kits<br>• Forms inventory template (Annex 7)<br>• Form data mapping template (Annex 8)<br>• Aggregate indicator mapping template (Annex 9)<br>• Decision table and scheduling matrix template (Annex 10)<br>• Decision table template (Annex 11)<br>• Service schedule template (Annex 12)<br>• Prioritization of requirements template (Annex 13) | | **Outputs** | Requirements documentation that includes:<br>• User personas<br>• Use cases<br>• User stories<br>• As-is and to-be business processes<br>• Data dictionary and data model<br>• Documented health service schedule<br>• Documented decision logic algorithms<br>• List of indicators and calculation method<br>• Prioritized functional and non-functional requirements | A combination of methods can be used to corroborate information and better guide the process outlined in this chapter for assessing needs and gathering requirements."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "The desk review should prioritize national and context-specific guidelines."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "Global resources that have previously documented health worker workflows should also be consulted since they provide valuable examples that may be applicable to other contexts."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "They provide the generic content requirements that should be housed within digital systems and define system requirements, including minimum datasets, decision-support logic and business processes."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "Note that strict health service user confidentiality must always be respected while observing interactions between health workers and health service users, and all the necessary consent should also be obtained."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "Interviewers should agree on a minimum set of questions to provide structure, but this should neither limit possible follow-up nor further questions being asked for clarification."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "Interviews should ideally take place at the end-user’s place of work (e.g. in the health-care facilities and external locations where health services are provided), to allow the team to have an in-depth understanding of the context in which systems will be implemented."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "Interviews are not for confirming our biases or preconceived hypotheses of what a system should do, and questions should be structured accordingly. • Start interviews with broad questions to build rapport and gain trust."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "After the health workers have been shadowed, follow-up interviews with the same health workers should follow."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "Questions should cover any issues about: • inconsistencies noted in workflows; • irregularities or deviations from the set schedule; • the manner and frequency with which data were recorded; • supervisory functions; • any special circumstances that led to variations in workflow, scheduling, reporting, etc.; • any workload redundancy, or overlap or integration with other health workers; and • any other issues relevant to understanding the health worker roles."
+  },
+  {
+    "id": "pers:clerk",
+    "text": "3.1.4 Requirements-gathering workshops The size of a requirements-gathering workshop will depend on the scale of the solution, but workshops should include key stakeholders, including the end-users and secondary users (such as supervisors), to gather the necessary requirements for the system, such as whether the solution will be deployed on mobile devices, desktop computers, or both; and whether the platform operates online, offline, or both."
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "The Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems provides detailed descriptions of key generic personas along with related personas such as physicians and pharmacists within the context of family planning services (30)."
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "There should be a persona to reflect each relevant health worker occupational group and each stakeholder (e.g. district health office, public health authority programme manager, health service users, etc.) The information that should be included in a user persona includes (37-39): • generic name for the persona; • background information and demographics (e.g. gender, age, whether they are from the community, whether they have a mobile phone/smartphone); • professional background (e.g. skilled or unskilled, familiarity with digital tools); • environment and any relevant contextual information about the persona’s surroundings (e.g. work site characteristics; rural or urban; availability of electricity, water and internet; distance from nearest referral facility); • expected roles and responsibilities (including roles in data collection and reporting); • actual roles and responsibilities; • context (e.g. other personas/health workers they interact with); • metrics by which their performance is measured by others (e.g. indicators, quotas); • challenges – what are the day-to-day challenges the enduser might face? • motivations and values – what does success look like to this user persona and what do they value?"
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "User personas should be created through the combination of a desk review of official manuals, guidelines, job descriptions and training materials related to the target health worker’s scope of work; discussions with experts in the local context; and most importantly, interviews with health workers themselves."
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "The material reviewed for each user persona should define or explain the health worker’s official work duties in the community, such as what data they are responsible for collecting, what health services they provide, what commodities they dispense to the community, or what counselling they are trained to provide."
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "Anything that delineates the health worker’s scope of work, including sanctioned and unsanctioned work, should be included."
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "After creating user personas, there should be clear answers to the following questions. ❑ Who will be the end-users of the PCPOSS? ❑ What are their needs in the context they are working in? ❑ What user-related constraints will the system’s design need to consider? ❑ What will motivate uptake of the system (e.g. routinized use, reduced workload, system-based incentives)?"
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "Adhering to the principle of “design with the user” (see Annex 1), when interviewing end-users, the interviewer should be gathering insights into how the solution will be integrated into the enduser’s routine."
+  },
+  {
+    "id": "prose:ch03-sec-013-personas",
+    "text": "Each user persona (generated previously – see section 3.2.1) should have a series of user stories, each structured with “As a… I want to… so that” statements: “As a… [user persona], I want to… [do what I want to be able to do differently using an electronic system], so that… [reason for wanting that functionality].” Such statements are intended to better contextualize requirements."
+  },
+  {
+    "id": "fig:10",
+    "text": "Prior to mapping and creating these workflows, it is recommended that a full inventory of the business processes that will be involved with the PCPOSS is taken."
+  },
+  {
+    "id": "fig:10",
+    "text": "This should include processes that reflect care pathways involving integrated services across different levels of the health system, different health worker occupational groups, and health domains."
+  },
+  {
+    "id": "fig:10",
+    "text": "This step should allow for the creation of a visual map of the current (as-is) service delivery, data collection, coordination and referral activities performed by the health worker occupational group(s) of interest."
+  },
+  {
+    "id": "fig:10",
+    "text": "The workflow diagram should note the different steps or tasks to achieving a business process (46)."
+  },
+  {
+    "id": "fig:10",
+    "text": "As-is workflows should depict what actually happens, not what should happen."
+  },
+  {
+    "id": "fig:10",
+    "text": "As-is workflows are depicted at this stage to ensure that the PCPOSS implemented will be built for usability – there will always be reasons why certain tasks that should be happening now are not happening."
+  },
+  {
+    "id": "fig:10",
+    "text": "Standard workflow guidelines, if available, can be used as a reference on what should happen, which can be depicted in “to-be” workflows."
+  },
+  {
+    "id": "fig:10",
+    "text": "Conventional diagramming techniques should be used so that the workflow can be universally understood."
+  },
+  {
+    "id": "fig:10",
+    "text": "Diagrams should be clear, neat and easy for all viewers to understand the relationships across the different swim lanes."
+  },
+  {
+    "id": "fig:10",
+    "text": "For example, a nurse may have one swim lane; the supervisor would be in another swim lane; the health service users would be classified in another swim lane. | | Thin circle | **Start event or trigger event** | The workflow diagram should contain both a start and an end event, defining the beginning and completion of the task, respectively. | | Thin circle with envelope | **Start event message** | This is a type of start event."
+  },
+  {
+    "id": "fig:10",
+    "text": "However, for diagram clarity, there should only be one end event per swim lane. | | Rounded rectangle | **Activity, process, step or task** | Each activity should start with a verb, for example, “register client”, “calculate risk”."
+  },
+  {
+    "id": "fig:10",
+    "text": "Between the start and end of a workflow, there should be a series of activities noting the successive actions performed by the actor in that swim lane."
+  },
+  {
+    "id": "fig:10",
+    "text": "If the diagram starts to become too complex and unhelpful, the subprocess symbol should be used to reference another process depicted on another page. | | Rounded rectangle with table icon | **Activity with business rule** | This denotes a decision-making activity that requires the business rule, or decision-support logic, to be detailed in a decision-support table."
+  },
+  {
+    "id": "fig:10",
+    "text": "One or more tasks in this shape should be performed, and they can be performed in any order."
+  },
+  {
+    "id": "fig:10",
+    "text": "The end event should not have any output arrows."
+  },
+  {
+    "id": "fig:10",
+    "text": "All symbols (except for end event and gateway) should have one and only one output arrow, leading to a new symbol, looping back to a previously used symbol or to the end event symbol."
+  },
+  {
+    "id": "fig:10",
+    "text": "Connecting arrows should not intersect (cross) each other. | | Dashed arrow | **Message flow** | This denotes the flow of data or information from one process to another."
+  },
+  {
+    "id": "fig:10",
+    "text": "There should only be two different outputs that originate from the decision point."
+  },
+  {
+    "id": "fig:10",
+    "text": "This should be depicted as an activity with business rule (above) instead. | | Diamond with `+` | **Parallel gateway** | The parallel gateway symbol is used to depict a split in the workflow into more than one concurrent activities and pathways in a workflow."
+  },
+  {
+    "id": "fig:10",
+    "text": "The above selection of symbols should be sufficient, though, for the purposes of illustrating the business process workflows in a clear, standardized way."
+  },
+  {
+    "id": "fig:10",
+    "text": "Each workflow diagram should be clearly named with the service title and given a process ID number – for example, “1."
+  },
+  {
+    "id": "fig:10",
+    "text": "Additionally, each task, or activity, should be numbered with an activity ID, and consistent language should be used across processes."
+  },
+  {
+    "id": "fig:10",
+    "text": "For example, if it is known that a certain activity requires 1 hour of the health worker’s time every day, that should be recorded as an annotation."
+  },
+  {
+    "id": "fig:10",
+    "text": "Activities that cannot be digitized should also be labelled as such."
+  },
+  {
+    "id": "fig:10",
+    "text": "Annotations are also a useful way to take note of any national or global guidelines and recommendations that might have shaped a specific workflow."
+  },
+  {
+    "id": "fig:10",
+    "text": "An initial set of pain points should already have been gathered through observations and interviews, but this analysis will systematically depict them."
+  },
+  {
+    "id": "fig:10",
+    "text": "Once the as-is workflows are mapped, the to-be workflows should be mapped to depict how the PCPOSS can automate certain activities, remove redundancies and improve the overall workflow, by increasing efficiencies, or improving effectiveness and overall quality of care."
+  },
+  {
+    "id": "fig:10",
+    "text": "If the as-is workflows reveal persistent gaps in adhering to service-delivery protocols, for example, the to-be workflows should address those gaps by either providing a more usable solution (e.g. a pre-filled form or facilitated calculation) or simply eliminating the need to follow that specific step (e.g. through an automated functionality in the system)."
+  },
+  {
+    "id": "fig:10",
+    "text": "Using the same BPMN standard described in section 3.3.1 (workflow mapping conventions), the to-be workflows should: • eliminate redundant tasks; • eliminate unnecessary data collection; • reduce bottlenecks; • consolidate related tasks if possible; • create more linkages to data across health worker occupational groups; • attempt to improve the quality-of-service delivery and the accountability mechanisms overall; and • integrate service delivery across different levels of the health system along care pathways."
+  },
+  {
+    "id": "fig:10",
+    "text": "Furthermore, because the workflows (both manual and digital) will affect the usability of the digital system, it is important to gain consensus among the key stakeholder groups on what the to-be workflows should be."
+  },
+  {
+    "id": "fig:10",
+    "text": "At the end of this exercise, there should be: ❑ an inventory of business processes ❑ as-is workflows for each business process with points of data collection, bottlenecks and redundancies clearly labelled ❑ to-be workflows for each business process, clearly labelling where the PCPOSS would facilitate or entirely replace certain tasks."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "However, these two steps are recommended to ensure the new PCPOSS will be able to replace the paper register system in its entirety, leaving paper registers only as a backup option."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "CHECKPOINT WARNING 3.4.1 Create an inventory of paper forms The implementation team should begin the data mapping exercise by collating all the data collection instruments used by the targeted health worker for routine service delivery and reporting."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "Only those data collection instruments for which the health worker has primary responsibility (for completing and maintaining them) should be included."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "Any form to which a health worker may contribute, but does not have responsibility for, should be collected separately as they will used when determining which key indicators need to be included and calculated for reporting purposes."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "A spreadsheet should be created to collate all the data collection forms, and each form should be linked to at least one process in the workflows mapped in section 3.3."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "Copies of forms The implementation team should archive at least one copy of each data collection form in completed or partially completed status through wide-angle photo or digital scan."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "If possible, sample forms should be archived to showcase any inconsistencies in data recording methods across health worker health worker occupational groups."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "The indicators should be compiled in a separate tab in the workbook or a separate file from the one used for mapping data elements."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "Note that the list of key indicators required to be collected for local, national and global levels should be cross-checked with the in-country programme manager."
+  },
+  {
+    "id": "dt:keep-data-element",
+    "text": "12 in the logical order is a good way to identify the data elements that should be removed or reconciled (see Fig."
+  },
+  {
+    "id": "prose:ch03-sec-016-data-dictionary",
+    "text": "Data dictionaries should utilize interoperability standards."
+  },
+  {
+    "id": "prose:ch03-sec-016-data-dictionary",
+    "text": "As a result of the work already completed, all the data elements included in the data dictionary should now serve only the essential purposes of service delivery and accountability."
+  },
+  {
+    "id": "prose:ch03-sec-016-data-dictionary",
+    "text": "This type of data dictionary may be used to create the prototype and mock-up design, ultimately creating a well-defined and effective UI during the early stages of system development."
+  },
+  {
+    "id": "prose:ch03-sec-016-data-dictionary",
+    "text": "Engaging individuals with expertise in health informatics, classifications and terminologies in order to map data elements to standardized concepts is highly recommended."
+  },
+  {
+    "id": "prose:ch03-sec-016-data-dictionary",
+    "text": "If any widely used mappings already exist, it is highly recommended to simply adopt these."
+  },
+  {
+    "id": "dt:annex-11-decision-support-table-template",
+    "text": "In PCPOSSs, embedded decision-support logic can help health workers follow appropriate clinical care pathways set out by WHO and national public health authorities’ guidelines and recommendations."
+  },
+  {
+    "id": "dt:annex-11-decision-support-table-template",
+    "text": "These decision support mechanisms should be directed by clinical and evidence-based protocols that have been outlined by WHO or the national governing agency (e.g. the public health authority)."
+  },
+  {
+    "id": "dt:annex-11-decision-support-table-template",
+    "text": "The clinical protocols used in the PCPOSS should follow WHO and/or national public health authority recommendations."
+  },
+  {
+    "id": "dt:annex-11-decision-support-table-template",
+    "text": "Changes to the decision-support logic should be considered carefully and any new additions should be agreed upon by clinical experts."
+  },
+  {
+    "id": "prose:annex-12-hepb-schedule-reproduces",
+    "text": "DAKs provide different schedule logic tables along with references to recommendations."
+  },
+  {
+    "id": "prose:annex-12-hepb-schedule-reproduces",
+    "text": "For example, the ANC Digital adaptation kit Web Annex B maps out the schedules for upcoming ANC contacts, immunizations and lab tests based on WHO recommendations (29)."
+  },
+  {
+    "id": "prose:annex-12-hepb-schedule-reproduces",
+    "text": "These service schedules should be documented according to clinical protocols approved by the local public health authority."
+  },
+  {
+    "id": "prose:annex-12-hepb-schedule-reproduces",
+    "text": "For each health service, a service schedule spreadsheet should be created to map the key events and dates."
+  },
+  {
+    "id": "prose:annex-12-hepb-schedule-reproduces",
+    "text": "If service schedules vary by health worker occupational group, a separate spreadsheet should be created for each health worker occupational group to ensure that all the differentiating schedules are incorporated into the PCPOSS."
+  },
+  {
+    "id": "prose:annex-12-hepb-schedule-reproduces",
+    "text": "The information to be recorded includes: • trigger events • time between events • follow-up actions • if and when a service should no longer be given • changes when there is deviation from the pre-set schedule."
+  },
+  {
+    "id": "prose:annex-12-hepb-schedule-reproduces",
+    "text": "The spreadsheet should include all the details explained in the guide provided in Annex 12."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "The requirements for a PCPOSS are the functional and non-functional criteria that it must meet to ensure end-users are satisfied and the system performs as intended."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "The following two types of requirements need to be gathered and prioritized. • Functional requirements describe what the system must be able to do (“the water bottle shall be able to store liquid without leaking” would be an everyday example). • Non-functional requirements describe how the system will work (“the water bottle must not weigh more than 0.5 kg and must be blue in colour”, to continue the simple example)."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "For the user story, “As a nurse/midwife, I want to know which health service users I need to follow up with today, so that I may plan my workday,” the functional requirements that would support health service user follow-up and workday planning could be that the system shall: • collect a list or register of the health worker’s health service users; • have a list of health service users that is filterable by risk stratification and overdue services; • automatically schedule (daily) health service users based on the health worker’s availability and the service(s) needed."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "The functional requirements for, “As a nurse/midwife, I want to know what to do in situations when I cannot ask my supervisor, so that I can still provide quality care,” could be that the system shall: • automatically calculate the total number of services provided daily, weekly, monthly and annually; • generate and push reports to a national monitoring and evaluation system."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "For example, if there is a point in a workflow where health service users must be triaged, there can be risk-stratification functionality built into the system to support decision-making by the health worker."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "The functional requirements for this could be that the system shall: • flag health service users as high-risk in accordance with WHO care guidelines • provide a suggested plan of action (including referrals)."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "Other examples of functional requirements (which may be context dependent) include that the system shall: • adhere to Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) standards (54) • use a shared concept dictionary (e.g."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "Non-functional requirements are context dependent and some examples include that the system shall: • allow access (i.e. user permissions) based on the type of user (e.g. nurse-midwife versus community health worker); • have encrypted data exchange across systems; • have an easy-to-understand and intuitive UI, with colour coding and minimal text; • enhance the rights and privileges of the user (e.g. ensuring health worker control over digital requests and notifications outside of work hours or during rest or vacation periods); • use the local language; and • work on a tablet and mobile phone."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "After finishing the processes outlined in previous sections, there should be answers to all of the following questions."
+  },
+  {
+    "id": "dt:requirement-priority",
+    "text": "The Institute of Electrical and Electronics Engineers has outlined eight characteristics of good software requirements specifications (56): • correct: accurately reflects actual needs; • unambiguous: precise with only one interpretation; • complete: contains all significant requirements that must be met by the PCPOSS; • consistent: internal consistency without conflicting requirements; • ranked for importance and/or stability: prioritized based on the importance of the requirement to the uptake of the system and/or the functioning of the system; • verifiable: has a definitive way to determine if that requirement is met; • modifiable: the list of requirements should be “living” and allow for modifications; and • traceable: references the origin or source of the requirement."
+  },
+  {
+    "id": "bp:design-and-adaptation",
+    "text": "CHAPTER 4 Undertake design and adaptation The steps of undertaking detailed design and adaptation should be led primarily by a technology partner."
+  },
+  {
+    "id": "bp:design-and-adaptation",
+    "text": "Active, successful collaboration between implementers and technology partners helps to ensure that the solution being built or adapted matches the needs of end-users. | Component | Details | | --- | --- | | **Who should be involved?** | • Software engineers and solutions architects should lead this work.<br>• Business analysts and designers should provide meaningful and constant feedback to the engineering team to ensure proper translation of the system requirements into implementation.<br>• Health informaticians should be involved to provide expert guidance as needed to ensure the system is able to operate using standards such as Fast Healthcare Interoperability Resources (FHIR).<br>• The targeted health worker occupational groups and end-users should provide feedback as different versions of the person-centred point of service system (PCPOSS) are created. | | **Inputs** | • Scope for PCPOSSᵃ<br>• Project team governance structureᵃ<br>• Budget, timeline, and risk and mitigations planᵃ<br>• Digital adaptation kitsᵇ<br>Requirements documentation that includes:<br>• User personasᶜ<br>• Use casesᶜ<br>• User storiesᶜ<br>• As-is and to-be business processesᶜ<br>• Data dictionaryᶜ<br>• Data model inclusive of semantic classifications and terminology standards and syntactic interoperability standards<br>• Documented decision logic algorithmsᶜ<br>• Documented health service scheduleᶜ<br>• Prioritized functional and non-functional requirementsᶜ | | **Tools** | • Design software tools for prototype creation<br>• Design tools for depicting system architecture<br>• Concept dictionary or terminology service<br>• Coding environment (depending on software)<br>As these tools will vary greatly from solution to solution, it will be up to the technology partner to determine which tools work best for them."
+  },
+  {
+    "id": "bp:design-and-adaptation",
+    "text": "It will also be critical for the wider team to determine the best tools for collaboration. | | **Outputs** | • Selected software and software vendor<br>• System architecture<br>• User interface design<br>• Product documentation<br>• Beta version of the PCPOSS | ᵃ Guidance on generating these inputs can be found in the *Digital implementation investment guide (DIIG): integrating digital interventions into health programmes* (22) ᵇ If available for the scoped health domain ᶜ Chapter 1 After the requirements are defined and prioritized, the implementation team must first select and finalize a software and software vendor that can successfully achieve all necessary business requirements."
+  },
+  {
+    "id": "bp:design-and-adaptation",
+    "text": "The implementation team must conduct an objective software selection process comprising a landscape analysis to review tools that are already available in the market."
+  },
+  {
+    "id": "bp:design-and-adaptation",
+    "text": "WHO’s Digital ANC module is an example of a fully functional application that is an executable reference software, which incorporates decision support and person-centred tracking based on WHO ANC recommendations, addresses the needs of the users and health systems, and has been tested in multiple countries (59)."
+  },
+  {
+    "id": "prose:ch04-sec-021-validate-requirements",
+    "text": "Once a team, including technology partners, is in place and an initial set of requirements has been identified, these requirements should be validated with all the key stakeholders."
+  },
+  {
+    "id": "fig:15",
+    "text": "Regardless, all designs should be tested with end-users prior to the actual development or adaptation of the system."
+  },
+  {
+    "id": "fig:15",
+    "text": "This should be done early in the process to gather initial feedback on how to organize the layout of information, on whether the data entry flow makes sense, and on the information that users will need in different scenarios."
+  },
+  {
+    "id": "fig:15",
+    "text": "These designs should be iterated upon."
+  },
+  {
+    "id": "fig:15",
+    "text": "Feedback should be discussed and vetted by key stakeholders before it is incorporated."
+  },
+  {
+    "id": "fig:15",
+    "text": "Not all feedback should be incorporated, to reduce the risk of, for example, scope creep – but the decision on whether to include feedback should be noted for facilitated stakeholder management."
+  },
+  {
+    "id": "prose:ch04-sec-023-architecture-domains",
+    "text": "Interoperability is the ability of different applications to access, exchange, integrate and use data in a coordinated manner through the use of shared application interfaces and standards, which should be defined by the EA and independent of a particular solution’s system architecture (22)."
+  },
+  {
+    "id": "prose:ch04-sec-023-architecture-domains",
+    "text": "For example, WHO’s ANC FHIR Implementation Guide provides implementation resources and guidance in support of applying the WHO recommendations on antenatal care (ANC) for a positive pregnancy experience."
+  },
+  {
+    "id": "prose:ch04-sec-023-architecture-domains",
+    "text": "WHO-FIC includes: the International Statistical Classification of Diseases and Related Health Problems (ICD), the International Classification of Functioning, Disability and Health (ICF), and the International Classification of Health Interventions (ICHI) (76).<br>**The International classification of diseases, 11th revision (ICD-11)** is a medical classification list developed by WHO that contains codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances and external causes of injury or diseases (77).<br>**Logical Observation Identifiers Names and Codes (LOINC)** is a universal code system created by Regenstrief Institute and used for laboratory and clinical tests, measurements, and observations (78).<br>**Systematized Nomenclature of Medicine-Global Patient Set (SNOMED-GPS)** is a clinical health terminology product owned by SNOMED International that supports the sharing of health service user’s health information coded with SNOMED GPS (79). | | **Organizational** | Health Content standards | Health content standards are based on clinical and public health evidence-based best practice, representing potential areas of integrated care. | **Digital adaptation kits (DAKs)** outline key workflows and user personas that highlight areas for integration across the different health domains.<br>**WHO guidelines and normative guidance documents** are information products developed by WHO that contain WHO recommendations for clinical practice or public health policy."
+  },
+  {
+    "id": "prose:ch04-sec-024-build-and-qa",
+    "text": "It is recommended to follow an Agile framework (see Fig."
+  },
+  {
+    "id": "prose:ch04-sec-024-build-and-qa",
+    "text": "Quality assurance A PCPOSS must always be designed and built with safety as a core feature."
+  },
+  {
+    "id": "prose:ch04-sec-024-build-and-qa",
+    "text": "4.5.2 Testing for quality assurance A test plan must be established as soon as the requirements are finalized."
+  },
+  {
+    "id": "prose:ch04-sec-024-build-and-qa",
+    "text": "(95–97) As soon as the requirements are finalized, a test plan must be established that outlines the testing approach, goals and expected outcomes."
+  },
+  {
+    "id": "prose:ch04-sec-024-build-and-qa",
+    "text": "At the end of the detailed design and adaptation phase, there should be: ❑ A design mock-up and/or prototype to help evaluate the layout, flow and usability of the PCPOSS. ❑ A system architecture depicting the structure and functions of the PCPOSS. ❑ A minimum viable product, or beta version, of the PCPOSS that can be formally tested in preparation for deployment. ❑ In an agile model, a new release version of the PCPOSS."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "End-user training is necessary to help improve the likelihood of adoption, and quality assurance tests need to be conducted prior to deployment. | Component | Details | | --- | --- | | **Who should be involved?** | • Implementing teams should be responsible for training and interfacing with the targeted end-users.<br>• Software engineers should take feedback and make changes to the PCPOSS accordingly."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "It would also be valuable for the engineering team to receive feedback directly from end-users to minimize any potential miscommunication in the feedback management process.<br>• The public health authority should be involved in change management, pushing for adoption of the solution at the local level and providing any political support needed."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "Further, the public health authority needs to implement any policies surrounding cybersecurity, privacy, confidentiality, acceptability of electronic signatures, data use, identification management and content management, as relevant.<br>• End-users should be involved in providing feedback and using the tool itself. | | **Inputs** | • Beta version of the person-centred point of service system (PCPOSS) | | **Tools** | • Testing checklist | | **Outputs** | • Training materials<br>• A deployed and rolled-out PCPOSS | Three categories of training will be needed: (i) training on use of the PCPOSS; (ii) training on maintenance of the PCPOSS; and (iii) training related to any potential changes to service delivery and quality of care."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "This Handbook will only address the first two types of training as the third type of training should be addressed by the national health programme managers."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "The training curriculum should be tested at a small scale prior to training larger groups of stakeholders."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "The training curriculum must be highly tailored and culturally sensitive to the local community."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "Training should be given in the local language (if possible) and should be cognizant of health workers’ familiarity with mobile or web technologies in general."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "For example, if targeted health workers have never used a smartphone or tablet before, they should be given the opportunity to explore the various functionalities of a smartphone or tablet (e.g. camera application, calculators, timers) before being trained on the PCPOSS."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "Training of trainers should be provided so that there is firstline support for any health workers having difficulty using the PCPOSS."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "The training of trainers should begin once finalized prototypes can be used, so health workers are prepared to use the PCPOSS as soon as it is deployed."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "They should be available to do this whenever health workers and implementation partners are unable to troubleshoot technical problems themselves."
+  },
+  {
+    "id": "bp:training-testing-and-roll-out",
+    "text": "The training on system maintenance should be carried out throughout the entirety of the project."
+  },
+  {
+    "id": "prose:ch05-sec-026-uat",
+    "text": "User acceptance testing (UAT) should be conducted by the core project team with a small group of trusted advisers and end-users."
+  },
+  {
+    "id": "prose:ch05-sec-026-uat",
+    "text": "The small number of UAT testers, including some end-users, should initially be trained on how to use the beta version of the software, then tasked with using the PCPOSS in existing workflows, and finally invited to provide feedback."
+  },
+  {
+    "id": "prose:ch05-sec-026-uat",
+    "text": "Test cases outline how the system should be used and the expected outcomes to test key functionality."
+  },
+  {
+    "id": "prose:ch05-sec-026-uat",
+    "text": "For example, to test clinical decision logic, a test case can outline what symptoms the tester should be inputting into the system and the expected diagnosis based on those inputs."
+  },
+  {
+    "id": "prose:ch05-sec-026-uat",
+    "text": "Test data should be curated with data that closely reflects real-time settings and must include some scenarios that might occur but are not routinely expected (i.e. edge cases)."
+  },
+  {
+    "id": "prose:ch05-sec-026-uat",
+    "text": "Typically, test cases should be designed using the use cases developed during the needs assessment phase (see Section 3.2.2) and/or the use cases for testing developed during the design testing phase (see Section 4.3.2)."
+  },
+  {
+    "id": "prose:ch05-sec-027-deploy",
+    "text": "This deployment and roll-out phase should be led by the technology partner, as every software and context will be different."
+  },
+  {
+    "id": "prose:ch05-sec-028-maintenance",
+    "text": "The implementation team should have a standard operating procedure for managing all this feedback."
+  },
+  {
+    "id": "bp:scale-up",
+    "text": "Every country and context will be moving at a different pace due to a variety of factors, that include but are not limited to: funding and resources available domestically or externally from donors; political buy-in; culture of change at all levels; the context in which the PCPOSS fits into the national health and digital health strategy overall; as well as the information and communication technology infrastructure and connectivity planned in countries. | Component | Details | | --- | --- | | **Who should be involved?** | • The leading public health authority, such as a ministry of health, should be leading this phase to ensure scale-up and widespread adoption, that the necessary policies are in place to allow for phase-out of paper and/or legacy systems.<br>• Implementing teams should be assist the public health authority throughout the scale-up phases, with the addition of monitoring and evaluation specialists.<br>• Monitoring and evaluation specialists are critical during this stage to determine whether the PCPOSS is meeting the required metrics so that the public health authority is comfortable with phasing out paper and/or legacy systems.<br>• Technology partners will need to continue to be a part of this phase to maintain and update the system as the number of users and functionality increase through scale-up.<br>• End-users will continue to provide feedback as well as adopt the tool itself. | | **Inputs** | • Live version of your PCPOSS being used | | **Tools** | • *Monitoring and evaluating digital health interventions* (99)<br>• *The MAPS toolkit* (100) | | **Outputs** | • Set of objectives and benchmarks the PCPOSS will need to meet before phasing out paper and/or legacy systems<br>• Strategic plan for phasing out paper and/or legacy systems | Before scaling up and phasing out paper and legacy systems, it is important to determine both that the PCPOSS is ready to be scaled up and that the existing health system is ready to phase out paper and legacy systems."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "When moving from scale-up to integration and sustainability (see Monitoring and evaluating digital health interventions [99]), answer the following question: What targets, indicators or objectives must the PCPOSS meet for the public health authority to feel comfortable phasing out paper and/or legacy systems?"
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Clear, agreed upon objectives should be set to allow for the phase-out of legacy systems."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "The objectives for the PCPOSS should be specific, measurable, attainable, relevant and time-bound (or SMART for short) (99): • Specific: the indicator must be specific about what is being measured, and from whom the data will be collected and when. • Measurable: the indicator must be quantifiable."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Avoid the use of subjective terms such as “good quality” or “accessible” in defining the indicator, as these may be interpreted differently across regions, professions and individuals. • Attainable: the indicator should be attainable within the available budget, time and human resources. • Relevant: the indicator should be relevant to the context, and specific to the needs of the programme or intervention being evaluated. • Time-bound: the indicator should be specific about time, based on the overall time frame of the health programme."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Furthermore, these objectives should be based on indicators that would answer the following questions (99): • Does the PCPOSS work as intended? • Has all necessary data been migrated from paper and legacy systems to the PCPOSS? • Do health workers use the system as intended? • Does the PCPOSS improve processes for service delivery and accountability? • How do these improvements in service delivery and accountability affect health outcomes?"
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Key objectives and indicators that are of critical managerial importance for phasing out paper systems should be prioritized."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "However, there should always be a paper system available as a backup system in instances of network downtime, blackouts, etc., even if the system has been deployed in 100% of health-care facilities."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Downtime or offline standard operating procedures must be developed to ensure continuity of care."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Indicators should not be too burdensome to monitor."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "In fact, indicators that can be taken directly from the PCPOSS should also be leveraged."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Key indicators of whether a digital system meets its objectives | Questions for assessment | Metric area | Indicator | | --- | --- | --- | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Connectivity | • Percent (%) of target population with internet connectivity (whether through mobile broadband or Wi-Fi)<br>• % of health workers with internet connectivity (whether through broadband or Wi-Fi) | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Power | • % of health workers with current access to a power source for recharging a mobile device<br>• Number of hours per day health workers have access to power | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Availability of technical support | • % of health workers with access to local technical support systems for troubleshooting | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Maintenance | • % of devices (mobile, tablet or otherwise) given to health workers that are currently operational | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Functionality | • % of data fields from the paper-based system that are captured by the PCPOSS<br>• % of prioritized functionsᵃ achieved by the PCPOSS | | **Do health workers use the PCPOSS as intended?** | User adoption | • % of health workers who demonstrate proficiency in routine use the PCPOSS<br>• % of health workers observed using the PCPOSS for intended purpose over reference period<br>• % of data fields/forms left incomplete over a reference period<br>• % of total reports sent via the PCPOSS over reference period | | **Do health workers use the PCPOSS as intended?** | User response | • % of health workers who rate the PCPOSS as easier to use than the paper and/or legacy system<br>• % of health workers who are satisfied with using the PCPOSS | | **Do health workers use the PCPOSS as intended?** | Health service user coverage | • % of health service users uniquely registered on the PCPOSS | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Efficiency | • Change in time health workers need for registering new health service users<br>• Change in time health workers need for reporting<br>• Change in number of health service users per day health workers are able to see<br>• Change in time health workers need for recording health service user data<br>• Change in time community health workers need to transmit individual health service user data to a health facility | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Quality | • % of health workers adhering to national or global guidelines<br>• % of health service users who receive services according to recommended care plan<br>• % of health service users reporting adverse health events<br>• % loss to follow-up among health service users | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Use | • % of health facilities using PCPOSS<br>• % or number of health workers (disaggregated by health worker occupational group) using PCPOSS<br>• % of referrals conducted via PCPOSS | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Costsᵇ | • % change in costs to health workers for reporting-related expenses (e.g. transport, notebooks, pens)<br>• % change in costs of human resources for data entry<br>• % change in costs associated with appropriateness and timeliness of illness management<br>• % change in reported health service user out-of-pocket payments for management of illness | | **How do these improvements in service delivery and accountability affect health outcomes?** | Health outcomes | Programmatic indicators or outcomes will vary by health programme area."
+  },
+  {
+    "id": "prose:ch06-sec-030-plan-legacy-phaseout",
+    "text": "Some examples include:<br>• % of pregnant women receiving recommended minimum of eight antenatal care contacts<br>• % change in drop-out rates for immunizations<br>• % of women receiving family planning method of choice<br>• % coverage of case-based surveillance for HIV | PCPOSS: Person-centred point of service system. ᵃ Priority functions set by following section 3.8 to understand user requirements, and section 4.2 to validate functional requirements ᵇ Over a reference period, the percentage changes in costs are from costs using the PCPOSS compared with those using the paper and/or legacy system."
+  },
+  {
+    "id": "prose:ch06-sec-032-execute-legacy-phaseout",
+    "text": "This process must be developed with all key stakeholders to ensure that the plan for phasing out paper and/or legacy systems makes sense in context."
+  },
+  {
+    "id": "tbl:annex-04",
+    "text": "User persona worksheet A user persona worksheet that summarizes each and every type of end-user (e.g. community health worker, district health officer, health service user) should be completed. | Section | Prompts | | --- | --- | | **Persona title (e.g. nurse)** | | | **Name, photo and type of persona** | • Name (real or illustrative)<br>• Photo or illustration of persona (helps with visualization and storytelling)<br>• Health worker occupational group | | **Demographics** | • Gender<br>• Age<br>• Community of origin<br>• Language(s) used | | **Expected roles and responsibilities** | • Daily<br>• Weekly<br>• Monthly | | **Actual roles and responsibilities** | • Daily, weekly, monthly<br>• How does this person spend their time?<br>• What is a typical day | | **Context description** | • Do they own their own mobile device?"
+  },
+  {
+    "id": "tbl:annex-06",
+    "text": "Each row should describe an individual business process with the following information needed for each row, under separate columns. | What to note | Description | | --- | --- | | **Business process number** | This is a running number or letter for each business process, to help with organization and references. | | **Process name** | What is the short title of this process?<br>• Examples: health service user registration, counselling, service provision, aggregate reporting | | **Process ID** | Important for referencing the other components required for requirements gathering (e.g. data dictionary, decision support logic).<br>• An example used in the Digital adaptation kits (DAKs) is “abbreviated health domain name”, “number or letter”."
+  },
+  {
+    "id": "tbl:annex-06",
+    "text": "For the DAK for family planning, “FP.B” refers to “Family planning counselling”. | | **Personas** | Which groups of people or key functions and roles are involved in completing the process?<br>• Examples: nurse, head nurse, community health worker, district health office, health service user, specialist physician<br>• Note: These are the groups that should be reflected in each swim lane of the workflow diagram. | | **Objectives** | What is the purpose of the process?"
+  },
+  {
+    "id": "tbl:annex-07",
+    "text": "Form inventory guide The following explains the information needed for each paper or digital form, which should be logged in separate rows in a table."
+  },
+  {
+    "id": "tbl:annex-07",
+    "text": "For each row of the inventory, the following columns should be filled out."
+  },
+  {
+    "id": "tbl:annex-07",
+    "text": "That should also be listed here."
+  },
+  {
+    "id": "tbl:annex-07",
+    "text": "If the form is kept with the worker who fills it out, mark this column with “not applicable” or “N/A”. | | **Submission frequency** | For any forms that are given to another health worker occupational group for supervisory and/or reporting purposes, indicate how often this is (or should be) done."
+  },
+  {
+    "id": "tbl:annex-07",
+    "text": "This should align with the activity IDs in the business process matrix (Annex 6). | | **Source** | Who “owns” this form?"
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "A spreadsheet should be created to document this information."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "Each data element should be noted in a separate row in the spreadsheet."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "For each row, the following columns should be filled out."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "This should align with the Activity ID that is provided during form mapping (see Annex 7). | | **Form ID** | The Form ID should be from the Form ID listed in the forms inventory spreadsheet (Annex 7)."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "The data element label in this column is what will be used in the digital form as the digital register should not simply replace the paper registers, but it should also streamline processes and link duplicated data elements. | | **Description and definition** | The description and definition of the data element, including any units that define the field (e.g. weight in kilograms [kg])."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "This would require a change in the data element labels so that data entry is done accurately. | | **Data type** | The data types are:²<br>• Boolean (i.e. true/false, yes/no)<br>• String (i.e. a sequence of Unicode characters – e.g. name)<br>• Date (e.g. date of birth) – used when only the date is recorded<br>• Time (e.g. time of delivery) – used when only the time is recorded<br>• DateTime (e.g. appointment) – used when the date and time are recorded<br>• ID (e.g. unique identifier assigned to the health service user)<br>• Quantity – a number that is associated with a unit of measure outlined in the standard for Unified Code for Units of Measure (UCUM);³ quantities include any number that is associated with a unit, such as “number of past pregnancies”, where “past pregnancies” is the unit of measure (if the data type is a Quantity there should be an associated sub-type listed in the Quantity sub-type column)<br>• Signature (e.g. supervisor’s approval) – an electronic representation of a signature that is either cryptographic or a graphical image that represents a signature or a signature process<br>• Attachment (e.g. image) – additional data content defined in other formats<br>• List - select one (e.g."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "However, there are many subtypes of the Quantity data type that should be listed here:<br>• Integer quantity – a whole number (e.g. number of past pregnancies, pulse, systolic blood pressure, diastolic blood pressure)<br>• Decimal quantity – rational numbers that have a decimal representation (e.g. exact weight in kilograms, exact height in centimetres, location coordinates, percentages, temperature)<br>• Duration – duration of time associated with time units (e.g. number of minutes, number of hours, number of days) | | **Calculation** | If a calculation is needed to define the data element, write the formula here."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "Write the formula using standard mathematical symbols and the Data element label included in the formula (e.g. for the body mass index [BMI] calculation, “weight/(height2)”). | | **Optionality** | Note whether this field is:<br>Required – R<br>Optional – O<br>Conditional on answers from other data fields – C | | **Reason for requiring data** | If this field is required (R), state the reason here – whether for:<br>• accountability for global or national-level reporting<br>• service delivery or clinical decision-making<br>• health service user identification.<br>The PCPOSS should not simply replace paper registers, but should also streamline processes; thus, it is important to understand why a certain data field is required."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "If not, indicate “No”.<br>All duplicated data elements should have the same “Data element name”."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "The PCPOSS should not simply replace paper systems, but it should also streamline processes and remove duplicated data entry."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "This column should also be used for any other notes, annotations, or communication messages within the team. | | **Mapping(s) to standardized classifications and terminologies** | A column should be added to each classification or terminology code system (e.g."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "The code used for each data element should be logged in these columns."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "Any existing standardized code systems that can be used, should be used for the purposes of interoperability so data can be exchanged with any other critical health information systems (e.g. lab systems, supply chain systems)."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "This part can also be done through a terminology service. | | **Mapping comments and considerations** | Any comments and considerations related to the mapping of data elements to standardized classification and terminology code systems should be noted here. | | **Mapping Relationship⁴** | For each classification and terminology code system that a data element that can be mapped to, this column should be used to identify the relationship between the original intent of the data element (i.e."
+  },
+  {
+    "id": "tbl:annex-08",
+    "text": "The field should indicate:<br>• Related to – The concepts are related to each other, but the exact relationship is not known.<br>• Equivalent – The definitions of the concepts mean the same thing.<br>• Source is narrower than target – The source concept is narrower in meaning than the target concept.<br>• Source is broader than target – The source concept is broader in meaning than the target concept. | ² Datatypes."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "Aggregate indicator mapping guide A spreadsheet should be created to document the indicators that can be calculated from the individual level data that is collected from the PCPOSS."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "This guide provides a way to consolidate and organize this list of indicators. | What to note | Description | | --- | --- | | **Indicator ID** | The Indicator ID should be a running number or letter that would facilitate organization and references. | | **Indicator name** | Brief name of the indicator. | | **Definition** | Provide a narrative description of the indicator to provide additional context. | | **Numerator description** | Note the narrative definition of the numerator used to calculate the indicator here. | | **Numerator computation** | Note how the numerator is calculated in a formula format.<br>Any specific data elements noted here should align directly with the individual-level Data element label in the data dictionary to realize the benefit of one-time data entry."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "Using the same Data element labels that are listed in the data dictionary will help with the linkage of primary data elements to the generation of aggregate indicators for reporting. | | **Denominator description** | Note the narrative definition of the denominator used to calculate the indicator here. | | **Denominator computation** | Note how the denominator is calculated in a formula format.<br>Any specific data elements noted here should align directly with the individual-level Data element label to realize the benefit of one-time data entry."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "WHO guidelines) that dictate how and why this indicator should be calculated or reported, it should be noted here."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "If any guidelines or recommendations change, having a clear reference listed would help in updating or restructuring data and indicators. | ANNEX 10."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "Decision-support logic and scheduling matrix guide This table should provide an overview and inventory of all the decision-support logic that will be elaborated in decision trees and/or decision-support tables."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "Each decision-support logic should be noted in a separate row in a table."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "For each row, the following columns should be filled out. | What to note | Description | | --- | --- | | **Activity ID and activity name** | What is the associated “Activity” from your workflow diagram for which this decision is necessary?"
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "For example, during the family planning counselling process, one decision that needs to be made is the family planning method. | | **Decision-support table ID** | This should be a running number of decision-support logic that needs to be documented."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "This helps ensure linkages and facilitated cross references to the data dictionary. | | **Decision name** | Briefly describes the decision for which the decision table provides the decision logic | | **Description** | Give a description of what decision needs to be made. | | **References** | What global and/or national guidelines inform this decision-making process? | This table should provide an overview and inventory of all the service schedules that will be elaborated in a scheduling logic table."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "Each health service schedule should be noted in a separate row in a table."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "For each row, the following columns should be filled out. | What to note | Description | | --- | --- | | **Scheduling logic ID** | This should be a running number of health service schedules."
+  },
+  {
+    "id": "tbl:annex-09",
+    "text": "This helps ensure linkages and facilitated cross references to the data dictionary. | | **Scheduling logic description** | Provide the description of the health service or care plan being outlined, e.g. measles vaccination schedule, antenatal care schedule. | | **References** | What global and/or national guidelines inform this? | An example of this can be found in the following resources: • Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems."
+  },
+  {
+    "id": "tbl:annex-11",
+    "text": "It has been adapted from the Decision Model and Notation (DMN) standard. | Field | Description | | --- | --- | | **Decision-support table ID** | The Decision support table ID should correspond to the number in the overview matrix (Annex 10). | | **Decision name** | The name of the “decision” describing what algorithm or logic is represented (e.g. pre-eclampsia risk counselling). | | **Business rule** | The description of the decision that needs to be made based on IF/THEN statements with the appropriate data element name for the variables."
+  },
+  {
+    "id": "tbl:annex-11",
+    "text": "The rule demonstrates the relationship between the input variables and the expected outputs and actions within the decision-support logic, for example, if blood pressure is higher than 140 SBP/90 DBP for a pregnant client, then the client is flagged as a high-risk pregnancy | | **Trigger** | The event that would indicate when this decision-support logic should appear within the workflow, such as the activity that would trigger this decision to be made | | **Hit Policy Indicator** | Displays the hit policy selected for the table."
+  },
+  {
+    "id": "tbl:annex-12",
+    "text": "WHO guidelines) that dictate the health service schedule noted here, then it should be noted."
+  },
+  {
+    "id": "tbl:annex-12",
+    "text": "If any guidelines or recommendations change, having a clear reference listed would help in updating or restructuring the service schedule(s). | WHO recommendations for routine immunization – summary tables (e.g."
+  },
+  {
+    "id": "tbl:annex-13",
+    "text": "Each requirement should be documented in a separate row with each of the following columns filled out. | What to note | Description | | --- | --- | | **Requirement ID** | This could be a running number list so the team can ensure that they are referring to the same functional requirement when discussing requirements. | | **Requirement description** | Describe the requirement here, e.g."
+  },
+  {
+    "id": "tbl:annex-13",
+    "text": "In essence, if the PCPOSS does not have this function or feature, then the system would be considered incomplete.<br>• **Medium priority**: This requirement would be a “should-have”."
+  },
+  {
+    "id": "tbl:annex-13",
+    "text": "This exercise can also help to frame a roadmap for future developments and updates to the system. | | **Sources** | The source of this requirement should be noted here, as there will likely be discussion on why this requirement was added to facilitate the prioritization process.<br>• Who is the source of this requirement?"
+  },
+  {
+    "id": "prose:annex-14-fhir-components",
+    "text": "Implementation guide A “FHIR Implementation guide” is a standards-based technical guide that outlines how the FHIR Resources should be used for a given use case (4)."
+  },
+  {
+    "id": "prose:annex-14-fhir-components",
+    "text": "This interface defines the interactions between applications (e.g. how data can be searched across applications) and how that data must be formatted."
+  }
+]
