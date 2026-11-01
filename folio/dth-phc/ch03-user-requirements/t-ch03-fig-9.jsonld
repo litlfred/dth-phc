@@ -1,0 +1,79 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/tbl-fig-9",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:fig-9",
+  "kind": "table",
+  "title": "Fig. 9 as a table: Example business process matrix from family planning DAK",
+  "uses": [
+    "papers/dth-phc/blocks/fig-9"
+  ],
+  "text": "t-ch03-fig-9.md",
+  "meta": {
+    "title": "Fig. 9 as a table: Example business process matrix from family planning DAK",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-014-33-map-business-processes-and-workflows",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-014-33-map-business-processes-and-workflows.md",
+      "pdfPages": [
+        35
+      ],
+      "method": "l1-table-formalized",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p035.png",
+      "decision": "owner 2026-11-01 15:50Z: turn the PDF's figures into computable assets without changing meaning",
+      "verbatimCheck": "every word is on PDF page 35 (who-iris vector-labels.json)"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-process",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-objective",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+        "id": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
+        "name": "SMART Guidelines L2 (DAK)"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+          "name": "SMART Guidelines L2 (DAK)"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    },
+    "reproduces": {
+      "source": "WHO Digital adaptation kit for family planning (2021)",
+      "iris": "https://iris.who.int/handle/10665/341997",
+      "component": "business-process"
+    },
+    "sourceOnly": "reproduced DAK example from WHO Family Planning DAK (ref. 30): linked, never redrawn per dth-phc#1 §3d"
+  },
+  "provenance": "authored"
+}

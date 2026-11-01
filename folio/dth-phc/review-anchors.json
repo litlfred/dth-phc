@@ -472,6 +472,19 @@
    "method": "folio-snapshot"
   },
   {
+   "label": "tbl:fig-2",
+   "kind": "table",
+   "chapter": "ch01-introduction",
+   "root": "t-ch01-fig-2",
+   "sections": [
+    "sec:1-0"
+   ],
+   "caption": "Fig. 2. The 2019 WHO guideline: recommendations on digital interventions for health system strengthening",
+   "hash": "f1ed9299209f",
+   "excerpt": "Fig. 2 The 2019 WHO guideline: recommendations on digital interventions for health system strengthening Expected Contribution to universal health coverage (UHC)",
+   "method": "folio-snapshot"
+  },
+  {
    "label": "fig:2",
    "kind": "figure",
    "chapter": "ch01-introduction",
@@ -1070,6 +1083,19 @@
    "method": "folio-snapshot"
   },
   {
+   "label": "tbl:fig-9",
+   "kind": "table",
+   "chapter": "ch03-user-requirements",
+   "root": "t-ch03-fig-9",
+   "sections": [
+    "sec:3-3"
+   ],
+   "caption": "Fig. 9. Example business process matrix from family planning DAK",
+   "hash": "b56b3b60036f",
+   "excerpt": "Fig. 9 Example business process matrix from family planning DAK Process name Process ID Personas Objectives Task set --- --- --- --- --- --- — Title ID used to ",
+   "method": "folio-snapshot"
+  },
+  {
    "label": "fig:9",
    "kind": "figure",
    "chapter": "ch03-user-requirements",
@@ -1078,8 +1104,8 @@
     "sec:3-3"
    ],
    "caption": "Fig. 9. Example business process matrix from family planning DAK",
-   "hash": "b56b3b60036f",
-   "excerpt": "Fig. 9 Example business process matrix from family planning DAK Process name Process ID Personas Objectives Task set --- --- --- --- --- --- — Title ID used to ",
+   "hash": "fecb51630ffc",
+   "excerpt": "Fig. 9 Example business process matrix from family planning DAK Source: WHO (30)",
    "method": "folio-snapshot"
   },
   {
@@ -1091,8 +1117,21 @@
     "sec:3-3"
    ],
    "caption": "Fig. 10. Workflow A: Registration business process",
-   "hash": "983b5e93fadd",
-   "excerpt": "Source: WHO Digital adaptation kit for antenatal care, 2021 (ref. 29).",
+   "hash": "bcc95ee15002",
+   "excerpt": "Fig. 10 Workflow A: Registration business process Source: WHO (29)",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:fig-11",
+   "kind": "table",
+   "chapter": "ch03-user-requirements",
+   "root": "t-ch03-fig-11",
+   "sections": [
+    "sec:3-3"
+   ],
+   "caption": "Fig. 11. Notes and annotations for Workflow A: Registration business process",
+   "hash": "b03729ffa00c",
+   "excerpt": "Fig. 11 Notes and annotations for Workflow A: Registration business process REGISTRATION BUSINESS PROCESS NOTES AND ANNOTATIONS General note: Registration may b",
    "method": "folio-snapshot"
   },
   {
@@ -1104,8 +1143,20 @@
     "sec:3-3"
    ],
    "caption": "Fig. 11. Notes and annotations for Workflow A: Registration business process",
-   "hash": "0737f7219526",
-   "excerpt": "Fig. 10 Workflow A: Registration business process Fig. 11 Notes and annotations for Workflow A: Registration business process l Health facility Client Health wo",
+   "hash": "0f83f09b5dd2",
+   "excerpt": "Fig. 11 Notes and annotations for Workflow A: Registration business process Source: WHO (29)",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-014-annotations",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-014-annotations",
+   "sections": [
+    "sec:3-3"
+   ],
+   "hash": "d963de634935",
+   "excerpt": "Beyond simply labelling each activity within a workflow, it is also important to add annotations to the activities, describing, for example, a list of forms to ",
    "method": "folio-snapshot"
   },
   {
@@ -1195,6 +1246,19 @@
    "method": "folio-snapshot"
   },
   {
+   "label": "tbl:fig-13",
+   "kind": "table",
+   "chapter": "ch03-user-requirements",
+   "root": "t-ch03-fig-13",
+   "sections": [
+    "sec:3-6"
+   ],
+   "caption": "Fig. 13. Example decision-support logic matrix from DAK for HIV",
+   "hash": "a32ab363250a",
+   "excerpt": "Fig. 13 Example decision-support logic matrix from DAK for HIV Activity ID & activity name Decision table ID Decision table description Reference/source --- ---",
+   "method": "folio-snapshot"
+  },
+  {
    "label": "fig:13",
    "kind": "figure",
    "chapter": "ch03-user-requirements",
@@ -1203,8 +1267,8 @@
     "sec:3-6"
    ],
    "caption": "Fig. 13. Example decision-support logic matrix from DAK for HIV",
-   "hash": "a6c36ca37524",
-   "excerpt": "Fig. 13 Example decision-support logic matrix from DAK for HIV Activity ID & activity name Decision table ID Decision table description Reference/source --- ---",
+   "hash": "bad74a0f32dc",
+   "excerpt": "Fig. 13 Example decision-support logic matrix from DAK for HIV Source: WHO (31)",
    "method": "folio-snapshot"
   },
   {
@@ -1228,8 +1292,8 @@
     "sec:3-6"
    ],
    "caption": "Fig. 14. Decision-support logic for a clinical care pathway in the form of a decision tree",
-   "hash": "96d45bed5811",
-   "excerpt": "Fig. 14 Decision-support logic for a clinical care pathway in the form of a decision tree Decision-support tables Within each of the boxes depicted in the decis",
+   "hash": "157df0fb4e07",
+   "excerpt": "Fig. 14 Decision-support logic for a clinical care pathway in the form of a decision tree ANC: antenatal care; PMTCT: prevention of mother-to-child transmission",
    "method": "folio-snapshot"
   },
   {
@@ -1242,6 +1306,18 @@
    ],
    "hash": "495afdd112e7",
    "excerpt": "Fig. 14. Illustrative ANC HIV-testing decision tree (reproduces WHO ANC DAK) Section 3.6.1 ( sec-017 , PDF page 45, Fig. 14) reproduces an illustrative clinical",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:ch03-sec-017-decision-support-tables",
+   "kind": "prose",
+   "chapter": "ch03-user-requirements",
+   "root": "p-ch03-sec-017-decision-support-tables",
+   "sections": [
+    "sec:3-6"
+   ],
+   "hash": "308049e28727",
+   "excerpt": "Decision-support tables Within each of the boxes depicted in the decision tree, more detailed decisions can be depicted in decision-support tables. Decision-sup",
    "method": "folio-snapshot"
   },
   {
