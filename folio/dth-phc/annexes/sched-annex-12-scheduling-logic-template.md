@@ -2,7 +2,7 @@
 
 Formal mapping of the handbook's **Annex 12 Scheduling-logic template** (`sec-044`, section 3.7 `sec-018`) onto `smart-base:SchedulingLogic`.
 
-> **Boundary rule (`litlfred/dth-phc#1` §3b & §3d):** The worked Hepatitis B birth-dose vaccination schedule shown in Annex 12 is an illustrative excerpt from the WHO Immunization Digital Adaptation Kit (DAK) and is recorded separately as a `"reproduces"` link in [`p-annex-12-hepb-schedule-reproduces`](p-annex-12-hepb-schedule-reproduces.ts) — never re-extracted as a PHC clinical rule. Only the Annex 12 template structure itself belongs to `dth-phc`.
+> **Boundary rule (`litlfred/dth-phc#1` §3b & §3d):** The worked Hepatitis B birth-dose vaccination schedule shown in Annex 12 is an illustrative excerpt from the WHO Immunization Digital Adaptation Kit (DAK) and is recorded separately as a `"reproduces"` link in [`p-annex-12-hepb-schedule-reproduces`](https://github.com/litlfred/dth-phc/blob/main/folio/dth-phc/annexes/p-annex-12-hepb-schedule-reproduces.ts) — never re-extracted as a PHC clinical rule. Only the Annex 12 template structure itself belongs to `dth-phc`.
 
 ## Column-by-column mapping from Annex 12 to `smart-base:SchedulingLogic`
 

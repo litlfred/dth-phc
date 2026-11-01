@@ -7,6 +7,6 @@ One of the four core application types that make up a PCPOSS (section 1.1, `sec-
 ## Three-way linkage
 
 1. **BPMN lanes & resources:**
-   - Declared as `<bpmn:resource id="pers-system-cbis">` in [`pcposs-implementation-lifecycle.bpmn`](../../../processes/pcposs-implementation-lifecycle.bpmn) and integrated in [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](../../../processes/design-and-adaptation.bpmn).
+   - Declared as `<bpmn:resource id="pers-system-cbis">` in [`pcposs-implementation-lifecycle.bpmn`](https://github.com/litlfred/dth-phc/blob/main/processes/pcposs-implementation-lifecycle.bpmn) and integrated in [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.bpmn).
 2. **Concepts:** [Community-Based Information System](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/community-based-information-system), [Point-of-service applications](https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications)
 3. **Glossary term:** `dth-phc:community-based-information-system`.
