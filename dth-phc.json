@@ -55,6 +55,26 @@
       }
     },
     {
+      "id": "archimate",
+      "path": "archimate/",
+      "graphTypologies": [
+        "archimate"
+      ],
+      "served": true,
+      "description": "The dth-phc ArchiMate overlay on the smart-ra (DPI-H RA) model, one folder per SemVer version, named by archimate/cat-archimate.config.json. A DTH builds an overlay and does not add to smart-ra (owner, 2026-11-01, Q-RA1 A; dth-phc#8): elements tagged overlay:base copy a smart-ra element, elements tagged overlay:owner=dth-phc are this DTH's own. scripts/archimate/extract_overlay.py built 0.1.0-draft.1 from the PHC work once in smart-ra#182.",
+      "coverage": {
+        "visualiser": [
+          {
+            "ref": "en/dth-phc/archimate/index.html",
+            "title": "ArchiMate overlay",
+            "writer": [
+              "cat-harness-tools/archimate/scripts/gen-archimate-pages.ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "uploads",
       "path": "uploads/",
       "graphTypologies": [
@@ -73,7 +93,7 @@
         "branch": "cat/dth-phc/beans",
         "keyedBy": "tip"
       },
-      "description": "This instance's work plan \u2014 one Markdown file per bean, managed with the `beans` CLI (`.beans.yml`)."
+      "description": "This instance's work plan — one Markdown file per bean, managed with the `beans` CLI (`.beans.yml`)."
     },
     {
       "id": "todos",
@@ -107,5 +127,14 @@
     "smart-base",
     "dpi-h-ra"
   ],
-  "_needs_comment": "An L2 DTH on smart-ra and smart-base (litlfred/dth-phc#1, approved 2026-10-31 01:41Z): its glossary terms and narrative link to dpi-h-ra (litlfred/smart-ra) glossary concepts and ArchiMate elements, and to smart-base DAK block kinds and StructureDefinitions."
+  "_needs_comment": "An L2 DTH on smart-ra and smart-base (litlfred/dth-phc#1, approved 2026-10-31 01:41Z): its glossary terms and narrative link to dpi-h-ra (litlfred/smart-ra) glossary concepts and ArchiMate elements, and to smart-base DAK block kinds and StructureDefinitions.",
+  "visualisers": [
+    {
+      "id": "archimate",
+      "renderedBy": "archimate-pages",
+      "covers": [
+        "archimate"
+      ]
+    }
+  ]
 }

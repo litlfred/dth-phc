@@ -53,7 +53,7 @@
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
           "name": "Decision support system",
           "type": "ApplicationComponent"
         },
@@ -65,7 +65,7 @@
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {

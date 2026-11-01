@@ -42,19 +42,19 @@
         "name": "SMART Guidelines L2 (DAK)"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
         "id": "id-54d7e249c99a59c6a2085f17060de254",
         "name": "Health worker"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
         "id": "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
         "name": "Health service user"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
@@ -68,17 +68,17 @@
           "name": "SMART Guidelines L2 (DAK)"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
           "name": "Health worker"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
           "name": "Health service user"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]

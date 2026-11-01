@@ -40,54 +40,54 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
         "id": "id-b1a348e9848f50e19a46bf2226dc2f08",
         "name": "Business analyst"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
         "id": "id-8074acfb0a065da4b9b36ad88fc2a0d5",
         "name": "Health informatician"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
         "id": "id-18bf324b7b4753e0aeff853e6bcb6adc",
         "name": "Public health authority"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
         "id": "id-95e8f300e2225113a3195b2d6c2afc9b",
         "name": "Implementing team"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-5d55040d3ed75347b5d30553fda6f40c.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-5d55040d3ed75347b5d30553fda6f40c.jsonld",
         "id": "id-5d55040d3ed75347b5d30553fda6f40c",
         "name": "Designer"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
         "id": "id-dec0373effd25980b70e45e852f0ff1f",
         "name": "Technology partner"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
         "id": "id-54d7e249c99a59c6a2085f17060de254",
         "name": "Health worker"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
         "id": "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
         "name": "Health service user"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
         "id": "id-eac6523c694c551b968166656af2b2e6",
         "name": "Shared DTH Roles and Actors"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
@@ -97,45 +97,45 @@
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
           "name": "Business analyst"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
           "name": "Health informatician"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
           "name": "Public health authority"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
           "name": "Implementing team"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-5d55040d3ed75347b5d30553fda6f40c.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-5d55040d3ed75347b5d30553fda6f40c.jsonld",
           "name": "Designer"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
           "name": "Technology partner"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
           "name": "Health worker"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
           "name": "Health service user"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]
