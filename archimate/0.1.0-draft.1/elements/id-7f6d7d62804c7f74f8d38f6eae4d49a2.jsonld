@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-7f6d7d62804c7f74f8d38f6eae4d49a2.jsonld",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-7f6d7d62804c7f74f8d38f6eae4d49a2",
+  "schema:name": "CHW job aid",
+  "schema:description": "To help community health workers improve coverage",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

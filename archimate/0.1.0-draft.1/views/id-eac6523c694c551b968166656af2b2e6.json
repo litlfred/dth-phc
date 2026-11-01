@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+  "@type": "archimate:Diagram",
+  "schema:identifier": "id-eac6523c694c551b968166656af2b2e6",
+  "schema:name": "Shared DTH Roles and Actors",
+  "schema:description": "Shared Digital Transformation Handbook (DTH) governance, implementation, specialist and end-user roles and actors (smart-ra#133 comment 1; dth-phc#1 §3d / Step P5), linking the Implementing team, Public health authority, Technology partner and specialist Business Roles (Business analyst, Health informatician, User researcher, Designer, Solutions architect, Software engineer, Monitoring and evaluation specialist, National Regulatory Authority) with end-user roles (Health worker, Health service user) and 0.2.0 Stakeholders (Ministry of Health, Health Workers, Patients).",
+  "schema:image": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.svg",
+  "schema:about": [
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-1c5c0bc9234e4282b654dbc71b9da706.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8e67c8e9e1195cdc857b03a2c640e7fe.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-5d55040d3ed75347b5d30553fda6f40c.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-a2320dbc07e6450b94f3f0f3e03bb877.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8d3dd8b68d504c2a9fe8cf414b16c127.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-6f87fe9ac64b5deca8c2ed5c96641485.jsonld"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld"
+    }
+  ],
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

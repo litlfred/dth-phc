@@ -1,0 +1,36 @@
+classDiagram
+  %% DTH-PHC overlay on the DPI-H reference architecture: metamodel in use, derived by archimate-metamodel. Do not edit.
+  class ApplicationComponent["Application Component"]
+  <<Application>> ApplicationComponent
+  class BusinessRole["Business Role"]
+  <<Business>> BusinessRole
+  class Stakeholder["Stakeholder"]
+  <<Motivation>> Stakeholder
+  class ApplicationService["Application Service"]
+  <<Application>> ApplicationService
+  class Grouping["Grouping"]
+  <<Other>> Grouping
+  class BusinessActor["Business Actor"]
+  <<Business>> BusinessActor
+  class BusinessObject["Business Object"]
+  <<Business>> BusinessObject
+  class Capability["Capability"]
+  <<Strategy>> Capability
+  Grouping o-- ApplicationComponent : aggregates ×13
+  BusinessRole --> BusinessRole : serves ×10
+  BusinessActor --> BusinessRole : assigned to ×7
+  ApplicationComponent ..|> ApplicationService : realises ×5
+  ApplicationComponent --> ApplicationComponent : serves ×5
+  ApplicationComponent --|> ApplicationComponent : specialises ×4
+  Stakeholder -- Grouping : associated with ×4
+  ApplicationService --> BusinessRole : serves ×3
+  ApplicationComponent ..> ApplicationComponent : flows to ×2
+  ApplicationComponent ..|> Capability : realises ×2
+  BusinessRole o-- BusinessRole : aggregates ×2
+  BusinessRole -- Stakeholder : associated with ×2
+  ApplicationComponent ..> BusinessObject : accesses ×1
+  ApplicationComponent --> BusinessRole : serves ×1
+  ApplicationService ..> ApplicationComponent : flows to ×1
+  BusinessActor -- Stakeholder : associated with ×1
+  BusinessActor --> BusinessActor : serves ×1
+  BusinessRole --> BusinessActor : serves ×1

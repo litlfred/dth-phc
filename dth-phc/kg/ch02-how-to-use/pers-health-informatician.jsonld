@@ -1,0 +1,107 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-health-informatician",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:health-informatician",
+  "kind": "persona",
+  "title": "Health informatician",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-health-informatician.md",
+  "meta": {
+    "title": "Health informatician",
+    "personaType": "person",
+    "bpmnRoleId": "pers:health-informatician",
+    "bpmnLanes": [
+      {
+        "process": "bp:understand-user-requirements",
+        "processId": "Process_UnderstandUserRequirements",
+        "laneId": "Lane-Ch3-HI",
+        "bpmnFile": "processes/understand-user-requirements.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn",
+        "ref": "processes/understand-user-requirements.bpmn#Lane-Ch3-HI"
+      },
+      {
+        "process": "bp:design-and-adaptation",
+        "processId": "Process_DesignAndAdaptation",
+        "laneId": "Lane-Ch4-Architect",
+        "bpmnFile": "processes/design-and-adaptation.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn",
+        "ref": "processes/design-and-adaptation.bpmn#Lane-Ch4-Architect"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+          "name": "Health informatician",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+          "name": "Terminology Service",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
+          "name": "Interoperability Layer"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
+          "name": "SHR"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:health-informatician",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-008",
+        "sec-011",
+        "sec-015",
+        "sec-020",
+        "sec-023"
+      ],
+      "pdfPages": [
+        19,
+        25,
+        36,
+        50,
+        56
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-008-22-targeted-users.md",
+      "section": "sec-008-22-targeted-users",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "DataManagerOrRoutineHealthInformationSystemStaff",
+    "relatedBlocks": [
+      "bp:understand-user-requirements",
+      "bp:design-and-adaptation",
+      "dt:keep-data-element"
+    ],
+    "roleId": "PHC-R-02",
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-informatician",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona"
+    ]
+  },
+  "provenance": "authored"
+}

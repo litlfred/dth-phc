@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld",
+  "@type": "archimate:Model",
+  "schema:identifier": "0.1.0-draft.1",
+  "schema:name": "DTH-PHC overlay 0.1.0-draft.1",
+  "schema:description": "The dth-phc overlay on the smart-ra (DPI-H RA) ArchiMate model 0.3.0-draft.1: the person-centred point of service (PCPOSS) view and the shared DTH roles it uses. Elements tagged overlay:base copy a smart-ra element and name it by IRI; elements tagged overlay:owner=dth-phc are this DTH's own (dth-phc#8).",
+  "dcterms:identifier": "id-dthphc-overlay-0-1-0-draft-1",
+  "schema:contentUrl": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/dth-phc-overlay.archimate",
+  "schema:hasPart": [
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+      "@type": "archimate:Diagram",
+      "schema:name": "Person-centred point of service (PCPOSS)"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+      "@type": "archimate:Diagram",
+      "schema:name": "Shared DTH Roles and Actors"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-ad0f062a4ea2429f7ee98665aea95a6d.jsonld",
+      "@type": "archimate:Diagram",
+      "schema:name": "PHC digital ecosystem (Fig. 3)"
+    }
+  ]
+}

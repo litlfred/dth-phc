@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-c1828d1712d41499f0700ea0212bca12.jsonld",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-c1828d1712d41499f0700ea0212bca12",
+  "schema:name": "Dashboard",
+  "schema:description": "(with geolocated data on disease prevalence, service gaps, etc) To support decision making for universal health service coverage, programme monitoring",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

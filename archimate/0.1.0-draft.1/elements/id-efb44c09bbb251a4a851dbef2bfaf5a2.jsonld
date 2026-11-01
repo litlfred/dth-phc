@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-efb44c09bbb251a4a851dbef2bfaf5a2",
+  "schema:name": "Monitoring and evaluation specialist",
+  "schema:description": "Determines whether the digital health system meets required performance metrics and benchmarks during scale-up so that the public health authority can safely phase out paper and/or legacy systems. (Ch. 6 panel, Section 6.3, PDF 68, 70)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

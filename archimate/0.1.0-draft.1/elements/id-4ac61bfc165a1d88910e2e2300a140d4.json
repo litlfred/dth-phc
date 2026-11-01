@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-4ac61bfc165a1d88910e2e2300a140d4.jsonld",
+  "@type": "archimate:Grouping",
+  "schema:identifier": "id-4ac61bfc165a1d88910e2e2300a140d4",
+  "schema:name": "Selection, design and planning of services",
+  "schema:category": "Other",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

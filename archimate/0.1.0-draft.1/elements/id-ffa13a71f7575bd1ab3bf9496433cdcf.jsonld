@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-ffa13a71f7575bd1ab3bf9496433cdcf",
+  "schema:name": "Solutions architect",
+  "schema:description": "Leads system architecture design and adaptation alongside software engineers, defining how software components, data services and interoperability standards fit within the national digital health enterprise architecture. (Ch. 4 panel, Section 4.4, PDF 52, 56-60)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

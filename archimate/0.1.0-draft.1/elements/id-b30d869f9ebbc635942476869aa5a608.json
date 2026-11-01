@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b30d869f9ebbc635942476869aa5a608.jsonld",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-b30d869f9ebbc635942476869aa5a608",
+  "schema:name": "Civil registration & vital statistics",
+  "schema:description": "To provide a population profile (birth rate extent and causes of mortality)",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

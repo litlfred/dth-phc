@@ -1,0 +1,2192 @@
+{
+  "$schema": "folio-graph-projection/v1",
+  "tile": {
+    "folio": {
+      "count": 1,
+      "unit": "stickies"
+    }
+  },
+  "directories": [
+    {
+      "dir": "cat-harness/folio",
+      "present": true,
+      "nodes": 1,
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 1390,
+          "size": "1.4 KB"
+        },
+        {
+          "path": "cat-harness.json",
+          "bytes": 2366,
+          "size": "2.3 KB"
+        }
+      ]
+    },
+    {
+      "dir": "folio",
+      "present": true,
+      "nodes": 0,
+      "files": [
+        {
+          "path": "dth-phc/annexes/annexes.ts",
+          "bytes": 2543,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/annexes/dt-annex-11-decision-support-table-template.dmn",
+          "bytes": 4104,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/annexes/dt-annex-11-decision-support-table-template.jsonld",
+          "bytes": 2930,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/dt-annex-11-decision-support-table-template.md",
+          "bytes": 3151,
+          "size": "3.1 KB"
+        },
+        {
+          "path": "dth-phc/annexes/dt-annex-11-decision-support-table-template.ts",
+          "bytes": 2191,
+          "size": "2.1 KB"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-01-principles.jsonld",
+          "bytes": 1405,
+          "size": "1.4 KB"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-01-principles.md",
+          "bytes": 1696,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-01-principles.ts",
+          "bytes": 936,
+          "size": "936 B"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-12-hepb-schedule-reproduces.jsonld",
+          "bytes": 2590,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-12-hepb-schedule-reproduces.md",
+          "bytes": 1005,
+          "size": "1005 B"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-12-hepb-schedule-reproduces.ts",
+          "bytes": 1803,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-14-fhir-components.jsonld",
+          "bytes": 6640,
+          "size": "6.5 KB"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-14-fhir-components.md",
+          "bytes": 4259,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/annexes/p-annex-14-fhir-components.ts",
+          "bytes": 5213,
+          "size": "5.1 KB"
+        },
+        {
+          "path": "dth-phc/annexes/sched-annex-12-scheduling-logic-template.jsonld",
+          "bytes": 3409,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/annexes/sched-annex-12-scheduling-logic-template.md",
+          "bytes": 2365,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/annexes/sched-annex-12-scheduling-logic-template.ts",
+          "bytes": 2474,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-02-interview-worksheet.jsonld",
+          "bytes": 3652,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-02-interview-worksheet.md",
+          "bytes": 5068,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-02-interview-worksheet.ts",
+          "bytes": 2779,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-03-observations-worksheet.jsonld",
+          "bytes": 3483,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-03-observations-worksheet.md",
+          "bytes": 1682,
+          "size": "1.6 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-03-observations-worksheet.ts",
+          "bytes": 2627,
+          "size": "2.6 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-04-user-persona-worksheet.jsonld",
+          "bytes": 4339,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-04-user-persona-worksheet.md",
+          "bytes": 2128,
+          "size": "2.1 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-04-user-persona-worksheet.ts",
+          "bytes": 3357,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-05-user-stories-worksheet.jsonld",
+          "bytes": 3905,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-05-user-stories-worksheet.md",
+          "bytes": 792,
+          "size": "792 B"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-05-user-stories-worksheet.ts",
+          "bytes": 2967,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-06-business-process-matrix.jsonld",
+          "bytes": 4042,
+          "size": "3.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-06-business-process-matrix.md",
+          "bytes": 1995,
+          "size": "1.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-06-business-process-matrix.ts",
+          "bytes": 3122,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-07-form-inventory-guide.jsonld",
+          "bytes": 2973,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-07-form-inventory-guide.md",
+          "bytes": 2548,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-07-form-inventory-guide.ts",
+          "bytes": 2225,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-08-form-data-mapping-guide.jsonld",
+          "bytes": 5968,
+          "size": "5.8 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-08-form-data-mapping-guide.md",
+          "bytes": 12549,
+          "size": "12.3 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-08-form-data-mapping-guide.ts",
+          "bytes": 4847,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-09-indicator-mapping-guide.jsonld",
+          "bytes": 4911,
+          "size": "4.8 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-09-indicator-mapping-guide.md",
+          "bytes": 2557,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-09-indicator-mapping-guide.ts",
+          "bytes": 3837,
+          "size": "3.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-10-decision-and-scheduling-matrix.jsonld",
+          "bytes": 4863,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-10-decision-and-scheduling-matrix.md",
+          "bytes": 3083,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-10-decision-and-scheduling-matrix.ts",
+          "bytes": 3724,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-11-decision-support-table-template.jsonld",
+          "bytes": 4986,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-11-decision-support-table-template.md",
+          "bytes": 5153,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-11-decision-support-table-template.ts",
+          "bytes": 3953,
+          "size": "3.9 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-12-scheduling-logic-guide.jsonld",
+          "bytes": 4865,
+          "size": "4.8 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-12-scheduling-logic-guide.md",
+          "bytes": 3792,
+          "size": "3.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-12-scheduling-logic-guide.ts",
+          "bytes": 3782,
+          "size": "3.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-13-prioritization-guide.jsonld",
+          "bytes": 4768,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-13-prioritization-guide.md",
+          "bytes": 2916,
+          "size": "2.8 KB"
+        },
+        {
+          "path": "dth-phc/annexes/t-annex-13-prioritization-guide.ts",
+          "bytes": 3693,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/ch01-introduction.ts",
+          "bytes": 1021,
+          "size": "1021 B"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-1.jsonld",
+          "bytes": 2374,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-1.md",
+          "bytes": 416,
+          "size": "416 B"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-1.ts",
+          "bytes": 1788,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-2.jsonld",
+          "bytes": 3149,
+          "size": "3.1 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-2.md",
+          "bytes": 1009,
+          "size": "1009 B"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-2.ts",
+          "bytes": 2512,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-3.jsonld",
+          "bytes": 5740,
+          "size": "5.6 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-3.md",
+          "bytes": 2011,
+          "size": "2.0 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-3.ts",
+          "bytes": 4695,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-4.jsonld",
+          "bytes": 4331,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-4.md",
+          "bytes": 769,
+          "size": "769 B"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-4.ts",
+          "bytes": 3468,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-5.jsonld",
+          "bytes": 5164,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-5.md",
+          "bytes": 568,
+          "size": "568 B"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/f-ch01-fig-5.ts",
+          "bytes": 4152,
+          "size": "4.1 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-clerical-burden.jsonld",
+          "bytes": 3697,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-clerical-burden.md",
+          "bytes": 1890,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-clerical-burden.ts",
+          "bytes": 2786,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-introduction.jsonld",
+          "bytes": 6083,
+          "size": "5.9 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-introduction.md",
+          "bytes": 3892,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-introduction.ts",
+          "bytes": 4836,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-phc-digital-ecosystem.jsonld",
+          "bytes": 7581,
+          "size": "7.4 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-phc-digital-ecosystem.md",
+          "bytes": 2854,
+          "size": "2.8 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-003-phc-digital-ecosystem.ts",
+          "bytes": 5996,
+          "size": "5.9 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-004-pcposs.jsonld",
+          "bytes": 16245,
+          "size": "15.9 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-004-pcposs.md",
+          "bytes": 5333,
+          "size": "5.2 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-004-pcposs.ts",
+          "bytes": 13018,
+          "size": "12.7 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-005-smart-guidelines.jsonld",
+          "bytes": 7702,
+          "size": "7.5 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-005-smart-guidelines.md",
+          "bytes": 2024,
+          "size": "2.0 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-005-smart-guidelines.ts",
+          "bytes": 6096,
+          "size": "6.0 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-006-how-developed.jsonld",
+          "bytes": 4284,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-006-how-developed.md",
+          "bytes": 2494,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/p-ch01-sec-006-how-developed.ts",
+          "bytes": 3241,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/rec-who-2019-digital-tracking-decision-support.jsonld",
+          "bytes": 5913,
+          "size": "5.8 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/rec-who-2019-digital-tracking-decision-support.md",
+          "bytes": 708,
+          "size": "708 B"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/rec-who-2019-digital-tracking-decision-support.ts",
+          "bytes": 4712,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/t-ch01-fig-1.jsonld",
+          "bytes": 4237,
+          "size": "4.1 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/t-ch01-fig-1.md",
+          "bytes": 4218,
+          "size": "4.1 KB"
+        },
+        {
+          "path": "dth-phc/ch01-introduction/t-ch01-fig-1.ts",
+          "bytes": 3420,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.bpmn",
+          "bytes": 32378,
+          "size": "31.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.jsonld",
+          "bytes": 5581,
+          "size": "5.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.md",
+          "bytes": 2839,
+          "size": "2.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.ts",
+          "bytes": 4302,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/ch02-how-to-use.ts",
+          "bytes": 1739,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/dt-starting-scenario.dmn",
+          "bytes": 4913,
+          "size": "4.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/dt-starting-scenario.jsonld",
+          "bytes": 2407,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/dt-starting-scenario.md",
+          "bytes": 863,
+          "size": "863 B"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/dt-starting-scenario.ts",
+          "bytes": 1810,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/f-ch02-fig-6.jsonld",
+          "bytes": 5504,
+          "size": "5.4 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/f-ch02-fig-6.md",
+          "bytes": 638,
+          "size": "638 B"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/f-ch02-fig-6.ts",
+          "bytes": 4676,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/f-ch02-fig-7.jsonld",
+          "bytes": 4315,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/f-ch02-fig-7.md",
+          "bytes": 574,
+          "size": "574 B"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/f-ch02-fig-7.ts",
+          "bytes": 3495,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-007-readiness-scenarios.jsonld",
+          "bytes": 4851,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-007-readiness-scenarios.md",
+          "bytes": 2190,
+          "size": "2.1 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-007-readiness-scenarios.ts",
+          "bytes": 3794,
+          "size": "3.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-008-targeted-users.jsonld",
+          "bytes": 7135,
+          "size": "7.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-008-targeted-users.md",
+          "bytes": 1297,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-008-targeted-users.ts",
+          "bytes": 5466,
+          "size": "5.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-009-prerequisites.jsonld",
+          "bytes": 6312,
+          "size": "6.2 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-009-prerequisites.md",
+          "bytes": 6185,
+          "size": "6.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-009-prerequisites.ts",
+          "bytes": 4967,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-010-stepwise-approach.jsonld",
+          "bytes": 6114,
+          "size": "6.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-010-stepwise-approach.md",
+          "bytes": 2915,
+          "size": "2.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-010-stepwise-approach.ts",
+          "bytes": 4667,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-011-software-choices.jsonld",
+          "bytes": 3462,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-011-software-choices.md",
+          "bytes": 1117,
+          "size": "1.1 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-ch02-sec-011-software-choices.ts",
+          "bytes": 2607,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-fig-06-diig-reproduces.jsonld",
+          "bytes": 2773,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-fig-06-diig-reproduces.md",
+          "bytes": 909,
+          "size": "909 B"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/p-fig-06-diig-reproduces.ts",
+          "bytes": 1998,
+          "size": "2.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-business-analyst.jsonld",
+          "bytes": 3275,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-business-analyst.md",
+          "bytes": 1673,
+          "size": "1.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-business-analyst.ts",
+          "bytes": 2339,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-clerk.jsonld",
+          "bytes": 4094,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-clerk.md",
+          "bytes": 1311,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-clerk.ts",
+          "bytes": 3064,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-designer.jsonld",
+          "bytes": 2662,
+          "size": "2.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-designer.md",
+          "bytes": 1154,
+          "size": "1.1 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-designer.ts",
+          "bytes": 1882,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-donors-and-development-partners.jsonld",
+          "bytes": 3290,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-donors-and-development-partners.md",
+          "bytes": 1310,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-donors-and-development-partners.ts",
+          "bytes": 2376,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-informatician.jsonld",
+          "bytes": 3726,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-informatician.md",
+          "bytes": 1746,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-informatician.ts",
+          "bytes": 2730,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-service-user.jsonld",
+          "bytes": 4129,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-service-user.md",
+          "bytes": 1700,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-service-user.ts",
+          "bytes": 3057,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-worker.jsonld",
+          "bytes": 5069,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-worker.md",
+          "bytes": 1868,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-health-worker.ts",
+          "bytes": 3831,
+          "size": "3.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-implementing-team.jsonld",
+          "bytes": 4596,
+          "size": "4.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-implementing-team.md",
+          "bytes": 2740,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-implementing-team.ts",
+          "bytes": 3464,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-monitoring-and-evaluation-specialist.jsonld",
+          "bytes": 4127,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-monitoring-and-evaluation-specialist.md",
+          "bytes": 1752,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-monitoring-and-evaluation-specialist.ts",
+          "bytes": 3075,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-public-health-authority.jsonld",
+          "bytes": 4405,
+          "size": "4.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-public-health-authority.md",
+          "bytes": 1812,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-public-health-authority.ts",
+          "bytes": 3299,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-software-engineer.jsonld",
+          "bytes": 3679,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-software-engineer.md",
+          "bytes": 1852,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-software-engineer.ts",
+          "bytes": 2719,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-solutions-architect.jsonld",
+          "bytes": 3542,
+          "size": "3.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-solutions-architect.md",
+          "bytes": 1558,
+          "size": "1.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-solutions-architect.ts",
+          "bytes": 2570,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-supervisor.jsonld",
+          "bytes": 4132,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-supervisor.md",
+          "bytes": 1366,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-supervisor.ts",
+          "bytes": 3042,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-cbis.jsonld",
+          "bytes": 2820,
+          "size": "2.8 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-cbis.md",
+          "bytes": 1316,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-cbis.ts",
+          "bytes": 2028,
+          "size": "2.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-dss.jsonld",
+          "bytes": 3606,
+          "size": "3.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-dss.md",
+          "bytes": 1606,
+          "size": "1.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-dss.ts",
+          "bytes": 2634,
+          "size": "2.6 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-ehr.jsonld",
+          "bytes": 3441,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-ehr.md",
+          "bytes": 1544,
+          "size": "1.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-ehr.ts",
+          "bytes": 2529,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-phr.jsonld",
+          "bytes": 2768,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-phr.md",
+          "bytes": 1292,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-system-phr.ts",
+          "bytes": 1978,
+          "size": "1.9 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-technology-partner.jsonld",
+          "bytes": 4052,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-technology-partner.md",
+          "bytes": 1474,
+          "size": "1.4 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-technology-partner.ts",
+          "bytes": 3004,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-user-researcher.jsonld",
+          "bytes": 3027,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-user-researcher.md",
+          "bytes": 1505,
+          "size": "1.5 KB"
+        },
+        {
+          "path": "dth-phc/ch02-how-to-use/pers-user-researcher.ts",
+          "bytes": 2171,
+          "size": "2.1 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn",
+          "bytes": 44824,
+          "size": "43.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/bp-understand-user-requirements.jsonld",
+          "bytes": 6300,
+          "size": "6.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/bp-understand-user-requirements.md",
+          "bytes": 4035,
+          "size": "3.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/bp-understand-user-requirements.ts",
+          "bytes": 4817,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/ch03-user-requirements.ts",
+          "bytes": 2049,
+          "size": "2.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-keep-data-element.dmn",
+          "bytes": 6641,
+          "size": "6.5 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-keep-data-element.jsonld",
+          "bytes": 2942,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-keep-data-element.md",
+          "bytes": 913,
+          "size": "913 B"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-keep-data-element.ts",
+          "bytes": 2206,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-requirement-priority.dmn",
+          "bytes": 4496,
+          "size": "4.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-requirement-priority.jsonld",
+          "bytes": 2502,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-requirement-priority.md",
+          "bytes": 1580,
+          "size": "1.5 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/dt-requirement-priority.ts",
+          "bytes": 1857,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-10.jsonld",
+          "bytes": 3712,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-10.md",
+          "bytes": 149,
+          "size": "149 B"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-10.ts",
+          "bytes": 2921,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.jsonld",
+          "bytes": 2978,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.md",
+          "bytes": 5330,
+          "size": "5.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.ts",
+          "bytes": 2351,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-12.jsonld",
+          "bytes": 2367,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-12.md",
+          "bytes": 186,
+          "size": "186 B"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-12.ts",
+          "bytes": 1783,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.jsonld",
+          "bytes": 4067,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.md",
+          "bytes": 3460,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.ts",
+          "bytes": 3225,
+          "size": "3.1 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-14.jsonld",
+          "bytes": 4162,
+          "size": "4.1 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-14.md",
+          "bytes": 2278,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-14.ts",
+          "bytes": 3333,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-8.jsonld",
+          "bytes": 2949,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-8.md",
+          "bytes": 2025,
+          "size": "2.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-8.ts",
+          "bytes": 2301,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.jsonld",
+          "bytes": 2867,
+          "size": "2.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.md",
+          "bytes": 2385,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.ts",
+          "bytes": 2250,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-overview.jsonld",
+          "bytes": 4809,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-overview.md",
+          "bytes": 1184,
+          "size": "1.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-overview.ts",
+          "bytes": 3736,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-012-interviews-and-workshops.jsonld",
+          "bytes": 4113,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-012-interviews-and-workshops.md",
+          "bytes": 3964,
+          "size": "3.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-012-interviews-and-workshops.ts",
+          "bytes": 3089,
+          "size": "3.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-012-methods.jsonld",
+          "bytes": 5037,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-012-methods.md",
+          "bytes": 4119,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-012-methods.ts",
+          "bytes": 3862,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-013-personas.jsonld",
+          "bytes": 4624,
+          "size": "4.5 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-013-personas.md",
+          "bytes": 4835,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-013-personas.ts",
+          "bytes": 3493,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-013-use-cases-and-stories.jsonld",
+          "bytes": 5071,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-013-use-cases-and-stories.md",
+          "bytes": 3992,
+          "size": "3.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-013-use-cases-and-stories.ts",
+          "bytes": 3859,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-014-workflows.jsonld",
+          "bytes": 6528,
+          "size": "6.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-014-workflows.md",
+          "bytes": 7757,
+          "size": "7.6 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-014-workflows.ts",
+          "bytes": 5113,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-015-streamline-data-and-indicators.jsonld",
+          "bytes": 6450,
+          "size": "6.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-015-streamline-data-and-indicators.md",
+          "bytes": 8660,
+          "size": "8.5 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-015-streamline-data-and-indicators.ts",
+          "bytes": 4987,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-016-data-dictionary.jsonld",
+          "bytes": 6476,
+          "size": "6.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-016-data-dictionary.md",
+          "bytes": 6299,
+          "size": "6.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-016-data-dictionary.ts",
+          "bytes": 5149,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-017-decision-support-logic.jsonld",
+          "bytes": 6553,
+          "size": "6.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-017-decision-support-logic.md",
+          "bytes": 5505,
+          "size": "5.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-017-decision-support-logic.ts",
+          "bytes": 5100,
+          "size": "5.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-018-schedules.jsonld",
+          "bytes": 4829,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-018-schedules.md",
+          "bytes": 2390,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-018-schedules.ts",
+          "bytes": 3680,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-019-requirements.jsonld",
+          "bytes": 5769,
+          "size": "5.6 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-019-requirements.md",
+          "bytes": 8163,
+          "size": "8.0 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-ch03-sec-019-requirements.ts",
+          "bytes": 4466,
+          "size": "4.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-10-11-anc-registration-reproduces.jsonld",
+          "bytes": 2804,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-10-11-anc-registration-reproduces.md",
+          "bytes": 1234,
+          "size": "1.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-10-11-anc-registration-reproduces.ts",
+          "bytes": 1947,
+          "size": "1.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-13-hiv-decision-matrix-reproduces.jsonld",
+          "bytes": 2542,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-13-hiv-decision-matrix-reproduces.md",
+          "bytes": 805,
+          "size": "805 B"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-13-hiv-decision-matrix-reproduces.ts",
+          "bytes": 1749,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-14-anc-hiv-decision-tree-reproduces.jsonld",
+          "bytes": 2582,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-14-anc-hiv-decision-tree-reproduces.md",
+          "bytes": 837,
+          "size": "837 B"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/p-fig-14-anc-hiv-decision-tree-reproduces.ts",
+          "bytes": 1793,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-12.jsonld",
+          "bytes": 3650,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-12.md",
+          "bytes": 1606,
+          "size": "1.6 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-12.ts",
+          "bytes": 2855,
+          "size": "2.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-8.jsonld",
+          "bytes": 3131,
+          "size": "3.1 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-8.md",
+          "bytes": 1228,
+          "size": "1.2 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-fig-8.ts",
+          "bytes": 2425,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-phase-panel.jsonld",
+          "bytes": 10635,
+          "size": "10.4 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-phase-panel.md",
+          "bytes": 2509,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-phase-panel.ts",
+          "bytes": 8527,
+          "size": "8.3 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-table-1.jsonld",
+          "bytes": 2999,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-table-1.md",
+          "bytes": 5936,
+          "size": "5.8 KB"
+        },
+        {
+          "path": "dth-phc/ch03-user-requirements/t-ch03-table-1.ts",
+          "bytes": 2281,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn",
+          "bytes": 34756,
+          "size": "33.9 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.jsonld",
+          "bytes": 5337,
+          "size": "5.2 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.md",
+          "bytes": 2229,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.ts",
+          "bytes": 4050,
+          "size": "4.0 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/ch04-design-and-adaptation.ts",
+          "bytes": 1343,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/f-ch04-fig-15.jsonld",
+          "bytes": 2783,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/f-ch04-fig-15.md",
+          "bytes": 1168,
+          "size": "1.1 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/f-ch04-fig-15.ts",
+          "bytes": 2121,
+          "size": "2.1 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-overview.jsonld",
+          "bytes": 4834,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-overview.md",
+          "bytes": 782,
+          "size": "782 B"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-overview.ts",
+          "bytes": 3761,
+          "size": "3.7 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-020-vendor-selection.jsonld",
+          "bytes": 5045,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-020-vendor-selection.md",
+          "bytes": 3501,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-020-vendor-selection.ts",
+          "bytes": 3912,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-021-validate-requirements.jsonld",
+          "bytes": 4397,
+          "size": "4.3 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-021-validate-requirements.md",
+          "bytes": 1099,
+          "size": "1.1 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-021-validate-requirements.ts",
+          "bytes": 3320,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-022-prototyping.jsonld",
+          "bytes": 5874,
+          "size": "5.7 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-022-prototyping.md",
+          "bytes": 7143,
+          "size": "7.0 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-022-prototyping.ts",
+          "bytes": 4579,
+          "size": "4.5 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-architecture-domains.jsonld",
+          "bytes": 7446,
+          "size": "7.3 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-architecture-domains.md",
+          "bytes": 2538,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-architecture-domains.ts",
+          "bytes": 5925,
+          "size": "5.8 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-architecture-overview.jsonld",
+          "bytes": 8993,
+          "size": "8.8 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-architecture-overview.md",
+          "bytes": 3468,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-architecture-overview.ts",
+          "bytes": 7236,
+          "size": "7.1 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-interoperability.jsonld",
+          "bytes": 5651,
+          "size": "5.5 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-interoperability.md",
+          "bytes": 736,
+          "size": "736 B"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-interoperability.ts",
+          "bytes": 4398,
+          "size": "4.3 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-standards.jsonld",
+          "bytes": 6193,
+          "size": "6.0 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-standards.md",
+          "bytes": 993,
+          "size": "993 B"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-standards.ts",
+          "bytes": 4912,
+          "size": "4.8 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-024-build-and-qa.jsonld",
+          "bytes": 6965,
+          "size": "6.8 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-024-build-and-qa.md",
+          "bytes": 3857,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/p-ch04-sec-024-build-and-qa.ts",
+          "bytes": 5404,
+          "size": "5.3 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-phase-panel.jsonld",
+          "bytes": 8772,
+          "size": "8.6 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-phase-panel.md",
+          "bytes": 2222,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-phase-panel.ts",
+          "bytes": 7088,
+          "size": "6.9 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-2.jsonld",
+          "bytes": 5676,
+          "size": "5.5 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-2.md",
+          "bytes": 1297,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-2.ts",
+          "bytes": 4519,
+          "size": "4.4 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-3.jsonld",
+          "bytes": 8104,
+          "size": "7.9 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-3.md",
+          "bytes": 2502,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-3.ts",
+          "bytes": 6615,
+          "size": "6.5 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-4.jsonld",
+          "bytes": 8047,
+          "size": "7.9 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-4.md",
+          "bytes": 6285,
+          "size": "6.1 KB"
+        },
+        {
+          "path": "dth-phc/ch04-design-and-adaptation/t-ch04-table-4.ts",
+          "bytes": 6361,
+          "size": "6.2 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.bpmn",
+          "bytes": 24312,
+          "size": "23.7 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.jsonld",
+          "bytes": 4938,
+          "size": "4.8 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.md",
+          "bytes": 1729,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.ts",
+          "bytes": 3737,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/ch05-training-testing-rollout.ts",
+          "bytes": 1005,
+          "size": "1005 B"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-overview.jsonld",
+          "bytes": 4701,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-overview.md",
+          "bytes": 482,
+          "size": "482 B"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-overview.ts",
+          "bytes": 3634,
+          "size": "3.5 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-025-training.jsonld",
+          "bytes": 3933,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-025-training.md",
+          "bytes": 2718,
+          "size": "2.7 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-025-training.ts",
+          "bytes": 2950,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-026-uat.jsonld",
+          "bytes": 7148,
+          "size": "7.0 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-026-uat.md",
+          "bytes": 2593,
+          "size": "2.5 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-026-uat.ts",
+          "bytes": 5603,
+          "size": "5.5 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-027-deploy.jsonld",
+          "bytes": 4320,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-027-deploy.md",
+          "bytes": 2124,
+          "size": "2.1 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-027-deploy.ts",
+          "bytes": 3265,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-028-maintenance.jsonld",
+          "bytes": 4289,
+          "size": "4.2 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-028-maintenance.md",
+          "bytes": 1195,
+          "size": "1.2 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/p-ch05-sec-028-maintenance.ts",
+          "bytes": 3238,
+          "size": "3.2 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/t-ch05-phase-panel.jsonld",
+          "bytes": 7066,
+          "size": "6.9 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/t-ch05-phase-panel.md",
+          "bytes": 1144,
+          "size": "1.1 KB"
+        },
+        {
+          "path": "dth-phc/ch05-training-testing-rollout/t-ch05-phase-panel.ts",
+          "bytes": 5593,
+          "size": "5.5 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/bp-scale-up.bpmn",
+          "bytes": 20719,
+          "size": "20.2 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/bp-scale-up.jsonld",
+          "bytes": 4765,
+          "size": "4.7 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/bp-scale-up.md",
+          "bytes": 1862,
+          "size": "1.8 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/bp-scale-up.ts",
+          "bytes": 3577,
+          "size": "3.5 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/ch06-scale-up.ts",
+          "bytes": 1202,
+          "size": "1.2 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/dt-ready-to-scale-up.dmn",
+          "bytes": 6069,
+          "size": "5.9 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/dt-ready-to-scale-up.jsonld",
+          "bytes": 3000,
+          "size": "2.9 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/dt-ready-to-scale-up.md",
+          "bytes": 966,
+          "size": "966 B"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/dt-ready-to-scale-up.ts",
+          "bytes": 2225,
+          "size": "2.2 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-overview.jsonld",
+          "bytes": 4724,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-overview.md",
+          "bytes": 993,
+          "size": "993 B"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-overview.ts",
+          "bytes": 3659,
+          "size": "3.6 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-029-readiness-to-scale.jsonld",
+          "bytes": 5008,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-029-readiness-to-scale.md",
+          "bytes": 1558,
+          "size": "1.5 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-029-readiness-to-scale.ts",
+          "bytes": 3843,
+          "size": "3.8 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-030-plan-legacy-phaseout.jsonld",
+          "bytes": 6100,
+          "size": "6.0 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-030-plan-legacy-phaseout.md",
+          "bytes": 3491,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-030-plan-legacy-phaseout.ts",
+          "bytes": 4753,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-031-monitoring.jsonld",
+          "bytes": 4430,
+          "size": "4.3 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-031-monitoring.md",
+          "bytes": 835,
+          "size": "835 B"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-031-monitoring.ts",
+          "bytes": 3383,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-032-execute-legacy-phaseout.jsonld",
+          "bytes": 4404,
+          "size": "4.3 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-032-execute-legacy-phaseout.md",
+          "bytes": 1419,
+          "size": "1.4 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-032-execute-legacy-phaseout.ts",
+          "bytes": 3329,
+          "size": "3.3 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-033-change-management.jsonld",
+          "bytes": 4527,
+          "size": "4.4 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-033-change-management.md",
+          "bytes": 1647,
+          "size": "1.6 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/p-ch06-sec-033-change-management.ts",
+          "bytes": 3452,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/t-ch06-phase-panel.jsonld",
+          "bytes": 7593,
+          "size": "7.4 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/t-ch06-phase-panel.md",
+          "bytes": 1346,
+          "size": "1.3 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/t-ch06-phase-panel.ts",
+          "bytes": 6097,
+          "size": "6.0 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/t-ch06-table-5.jsonld",
+          "bytes": 4399,
+          "size": "4.3 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/t-ch06-table-5.md",
+          "bytes": 4711,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/ch06-scale-up/t-ch06-table-5.ts",
+          "bytes": 3466,
+          "size": "3.4 KB"
+        },
+        {
+          "path": "dth-phc/dth-phc.ts",
+          "bytes": 1489,
+          "size": "1.5 KB"
+        },
+        {
+          "path": "dth-phc/figure-exclusions.json",
+          "bytes": 474,
+          "size": "474 B"
+        },
+        {
+          "path": "dth-phc/front-matter/front-matter.ts",
+          "bytes": 750,
+          "size": "750 B"
+        },
+        {
+          "path": "dth-phc/front-matter/p-fm-acknowledgements.jsonld",
+          "bytes": 1172,
+          "size": "1.1 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/p-fm-acknowledgements.md",
+          "bytes": 4737,
+          "size": "4.6 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/p-fm-acknowledgements.ts",
+          "bytes": 701,
+          "size": "701 B"
+        },
+        {
+          "path": "dth-phc/front-matter/p-fm-publication-metadata.jsonld",
+          "bytes": 2438,
+          "size": "2.4 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/p-fm-publication-metadata.md",
+          "bytes": 14093,
+          "size": "13.8 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/p-fm-publication-metadata.ts",
+          "bytes": 1703,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/t-fm-abbreviations.jsonld",
+          "bytes": 5022,
+          "size": "4.9 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/t-fm-abbreviations.md",
+          "bytes": 1707,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/t-fm-abbreviations.ts",
+          "bytes": 4364,
+          "size": "4.3 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/t-fm-glossary.jsonld",
+          "bytes": 6643,
+          "size": "6.5 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/t-fm-glossary.md",
+          "bytes": 21419,
+          "size": "20.9 KB"
+        },
+        {
+          "path": "dth-phc/front-matter/t-fm-glossary.ts",
+          "bytes": 5400,
+          "size": "5.3 KB"
+        },
+        {
+          "path": "dth-phc/l1-captured.json",
+          "bytes": 78902,
+          "size": "77.1 KB"
+        },
+        {
+          "path": "dth-phc/l1-coverage.json",
+          "bytes": 165528,
+          "size": "161.6 KB"
+        },
+        {
+          "path": "dth-phc/l1-exclusions.json",
+          "bytes": 26724,
+          "size": "26.1 KB"
+        },
+        {
+          "path": "dth-phc/l1-pages.json",
+          "bytes": 294150,
+          "size": "287.3 KB"
+        },
+        {
+          "path": "dth-phc/media/bp-design-and-adaptation.svg",
+          "bytes": 45602,
+          "size": "44.5 KB"
+        },
+        {
+          "path": "dth-phc/media/bp-pcposs-implementation-lifecycle.svg",
+          "bytes": 34390,
+          "size": "33.6 KB"
+        },
+        {
+          "path": "dth-phc/media/bp-scale-up.svg",
+          "bytes": 24045,
+          "size": "23.5 KB"
+        },
+        {
+          "path": "dth-phc/media/bp-training-testing-and-roll-out.svg",
+          "bytes": 31176,
+          "size": "30.4 KB"
+        },
+        {
+          "path": "dth-phc/media/bp-understand-user-requirements.svg",
+          "bytes": 46540,
+          "size": "45.4 KB"
+        },
+        {
+          "path": "dth-phc/media/diig-phases-phc.svg",
+          "bytes": 34411,
+          "size": "33.6 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+          "bytes": 14766,
+          "size": "14.4 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-5-smart-guidelines-approach.svg",
+          "bytes": 10238,
+          "size": "10.0 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p014.png",
+          "bytes": 13837,
+          "size": "13.5 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p015.png",
+          "bytes": 361195,
+          "size": "352.7 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p016.png",
+          "bytes": 113016,
+          "size": "110.4 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p017.png",
+          "bytes": 170377,
+          "size": "166.4 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p019.png",
+          "bytes": 52865,
+          "size": "51.6 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p020.png",
+          "bytes": 104474,
+          "size": "102.0 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p024.png",
+          "bytes": 184802,
+          "size": "180.5 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p026.png",
+          "bytes": 80073,
+          "size": "78.2 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p032.png",
+          "bytes": 86113,
+          "size": "84.1 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p035.png",
+          "bytes": 96966,
+          "size": "94.7 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p038.png",
+          "bytes": 257935,
+          "size": "251.9 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p042.png",
+          "bytes": 149324,
+          "size": "145.8 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p045.png",
+          "bytes": 286343,
+          "size": "279.6 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p046.png",
+          "bytes": 141348,
+          "size": "138.0 KB"
+        },
+        {
+          "path": "dth-phc/media/vfig-p054.png",
+          "bytes": 100383,
+          "size": "98.0 KB"
+        },
+        {
+          "path": "dth-phc/references/p-references-main.jsonld",
+          "bytes": 2403,
+          "size": "2.3 KB"
+        },
+        {
+          "path": "dth-phc/references/p-references-main.md",
+          "bytes": 23288,
+          "size": "22.7 KB"
+        },
+        {
+          "path": "dth-phc/references/p-references-main.ts",
+          "bytes": 1738,
+          "size": "1.7 KB"
+        },
+        {
+          "path": "dth-phc/references/references.ts",
+          "bytes": 298,
+          "size": "298 B"
+        },
+        {
+          "path": "dth-phc/review-anchors.json",
+          "bytes": 64125,
+          "size": "62.6 KB"
+        },
+        {
+          "path": "schema/builders.ts",
+          "bytes": 496,
+          "size": "496 B"
+        },
+        {
+          "path": "schema/dak.ts",
+          "bytes": 512,
+          "size": "512 B"
+        },
+        {
+          "path": "schema/types.ts",
+          "bytes": 210,
+          "size": "210 B"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cat-harness",
+      "summary": "computable adjudication and agentic test harness",
+      "theme": "grumpy-cyborg-agents",
+      "anchor": "page:index",
+      "declaredIn": "cat-harness.json",
+      "links": [
+        {
+          "label": "cat-harness, in the source",
+          "href": "https://github.com/litlfred/cat-harness"
+        },
+        {
+          "label": "RTFM — the cat-harness docs",
+          "href": "/docs/cat-harness/concepts/agentic-harness.html"
+        },
+        {
+          "label": "The work plan is where you say what you are doing",
+          "href": "/docs/cat-harness/guides/beans-and-todos.html"
+        },
+        {
+          "label": "Make your first folio",
+          "href": "/docs/cat-harness/start/getting-started.html"
+        },
+        {
+          "label": "Know which kind of thing you are writing",
+          "href": "/docs/cat-harness/concepts/content-types.html"
+        },
+        {
+          "label": "The documentation you will never read",
+          "href": "/docs/cat-harness/guides/index.html"
+        }
+      ],
+      "chars": 431,
+      "file": "cat-harness/folio/cat-harness.json"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-dec0373effd25980b70e45e852f0ff1f",
+  "schema:name": "Technology partner",
+  "schema:description": "Software vendor or technology partner selected to build, adapt, maintain and update the digital health solution across design, adaptation, deployment and scale-up phases in collaboration with the implementing team. (Section 2.2, Ch. 4 & 6 panels, Section 4.1, PDF 24, 52-53, 68)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}

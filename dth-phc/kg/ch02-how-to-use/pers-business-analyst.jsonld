@@ -1,0 +1,102 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-business-analyst",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:business-analyst",
+  "kind": "persona",
+  "title": "Business analyst",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-business-analyst.md",
+  "meta": {
+    "title": "Business analyst",
+    "personaType": "person",
+    "bpmnRoleId": "pers:business-analyst",
+    "bpmnLanes": [
+      {
+        "process": "bp:understand-user-requirements",
+        "processId": "Process_UnderstandUserRequirements",
+        "laneId": "Lane-Ch3-BA",
+        "bpmnFile": "processes/understand-user-requirements.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn",
+        "ref": "processes/understand-user-requirements.bpmn#Lane-Ch3-BA"
+      },
+      {
+        "process": "bp:design-and-adaptation",
+        "processId": "Process_DesignAndAdaptation",
+        "laneId": "Lane-Ch4-Designer",
+        "bpmnFile": "processes/design-and-adaptation.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn",
+        "ref": "processes/design-and-adaptation.bpmn#Lane-Ch4-Designer"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "name": "Business analyst",
+          "type": "BusinessRole"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "name": "CDS"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:business-analyst",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-008",
+        "sec-011",
+        "sec-013",
+        "sec-014",
+        "sec-016",
+        "sec-020",
+        "sec-021"
+      ],
+      "pdfPages": [
+        19,
+        25,
+        29,
+        32,
+        41,
+        47,
+        50,
+        52
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-008-22-targeted-users.md",
+      "section": "sec-008-22-targeted-users",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "HealthSystemManager",
+    "relatedBlocks": [
+      "bp:understand-user-requirements",
+      "bp:design-and-adaptation"
+    ],
+    "roleId": "PHC-R-01",
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-analyst",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona"
+    ]
+  },
+  "provenance": "authored"
+}

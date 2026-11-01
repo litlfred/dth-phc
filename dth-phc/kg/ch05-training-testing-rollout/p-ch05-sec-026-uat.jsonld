@@ -1,0 +1,172 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch05-sec-026-uat",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch05-sec-026-uat",
+  "kind": "prose",
+  "title": "5.2 Test user acceptance and deployment readiness (5.2.1 Test cases and test data)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch05-sec-025-training"
+  ],
+  "defines": [
+    "user-acceptance-testing"
+  ],
+  "text": "p-ch05-sec-026-uat.md",
+  "meta": {
+    "title": "5.2 Test user acceptance and deployment readiness (5.2.1 Test cases and test data)",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-026-52-test-user-acceptance-and-deployment-readiness",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-026-52-test-user-acceptance-and-deployment-readiness.md",
+      "pdfPages": [
+        64,
+        65
+      ],
+      "method": "l1-section-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-acceptance-testing",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/beta-version",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/use-case",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-story",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/functional-requirements",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/non-functional-requirements",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-7c03cebca775460c8481d8c4729b127b.jsonld",
+        "id": "id-7c03cebca775460c8481d8c4729b127b",
+        "name": "Testing Platforms"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9410790dc72a4831b7bdd40e85a8158d.jsonld",
+        "id": "id-9410790dc72a4831b7bdd40e85a8158d",
+        "name": "Test Cases"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f9759d3c33a848cd81ba7cbae9fa2b99.jsonld",
+        "id": "id-f9759d3c33a848cd81ba7cbae9fa2b99",
+        "name": "System Under Test"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-abd2da4297944a5ca707a28a400dfb8f.jsonld",
+        "id": "id-abd2da4297944a5ca707a28a400dfb8f",
+        "name": "Test Operator"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+        "id": "id-54d7e249c99a59c6a2085f17060de254",
+        "name": "Health worker"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+        "id": "id-95e8f300e2225113a3195b2d6c2afc9b",
+        "name": "Implementing team"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+        "id": "id-dec0373effd25980b70e45e852f0ff1f",
+        "name": "Technology partner"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-0e97a3f6a8f545f5bd90e123c11a2545.jsonld",
+        "id": "id-0e97a3f6a8f545f5bd90e123c11a2545",
+        "name": "Testing"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-b44f768c54ea493c8b33499e5d2e2d33.jsonld",
+        "id": "id-b44f768c54ea493c8b33499e5d2e2d33",
+        "name": "Conformance"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "id": "id-eac6523c694c551b968166656af2b2e6",
+        "name": "Shared DTH Roles and Actors"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-7c03cebca775460c8481d8c4729b127b.jsonld",
+          "name": "Testing Platforms"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9410790dc72a4831b7bdd40e85a8158d.jsonld",
+          "name": "Test Cases"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f9759d3c33a848cd81ba7cbae9fa2b99.jsonld",
+          "name": "System Under Test"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-abd2da4297944a5ca707a28a400dfb8f.jsonld",
+          "name": "Test Operator"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "name": "Health worker"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "name": "Implementing team"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+          "name": "Technology partner"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-0e97a3f6a8f545f5bd90e123c11a2545.jsonld",
+          "name": "Testing"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-b44f768c54ea493c8b33499e5d2e2d33.jsonld",
+          "name": "Conformance"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "methodStep": {
+      "stepId": "5.2",
+      "title": "Test user acceptance and deployment readiness",
+      "substeps": [
+        "5.2.1 Test cases and test data"
+      ],
+      "producesDakComponents": [
+        "smart-base:TestScenario"
+      ],
+      "dakKind": "test-scenario",
+      "sdlcAlignment": {
+        "catHarnessSkill": "cat-harness/skills/sdlc/sdlc-core/test-plan-execution.md"
+      }
+    }
+  },
+  "provenance": "authored"
+}

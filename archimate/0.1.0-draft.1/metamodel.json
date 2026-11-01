@@ -1,0 +1,354 @@
+{
+  "$schema": "archimate-metamodel/v1",
+  "model": "0.1.0-draft.1",
+  "name": "DTH-PHC overlay on the DPI-H reference architecture",
+  "archimateVersion": "3.2",
+  "types": [
+    {
+      "type": "ApplicationComponent",
+      "layer": "Application",
+      "elements": 26,
+      "ids": [
+        "id-3acafd57e8cc5d4198ffcb29d39c1184",
+        "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+        "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+        "id-9a31cf86a4685fb0ae0c460d973e2031",
+        "id-808925f4d2075d7b95e0651ebae00fcf",
+        "id-b30d869f9ebbc635942476869aa5a608",
+        "id-78b68512c281117dff979f9a5649cd92",
+        "id-c1828d1712d41499f0700ea0212bca12",
+        "id-7e2d5f0c273f74192dcaa4ea29a0e72d",
+        "id-8810f35620fd4bd1bde7baf5ada085d0",
+        "id-3b00c008fe9ffff1d0be095c93b16fb5",
+        "id-27b71213bc25d5adf0dbf3b0191af355",
+        "id-141ad21fddfbbbc863f8c7b6bdf69ac6",
+        "id-8fc925d9f3c3c19c86f09950f658f3b9",
+        "id-2d44df3f11f4d5390586d6486c08feb8",
+        "id-7f6d7d62804c7f74f8d38f6eae4d49a2",
+        "id-1fa83a115853e4b28f4f84754fee4a3d",
+        "id-48accc51eb0c33c8c7cad78503f53b28",
+        "id-3fd92d497ca040c8a436f355c0b68770",
+        "id-350840520ae44f658b6ad3b3762e382e",
+        "id-539b04ae45f147258d8253ae5cb87402",
+        "id-5f6d9b9678824b37b95952735420ae8d",
+        "id-80856538cbd44167a37b276e38c994c3",
+        "id-c0d39bf67fe64f54b07fbeb9bf37d404",
+        "id-0e6d89398fff4f20994a31b4de58e7d7",
+        "id-3f41de2b51c24041b08243bf72b140d1"
+      ]
+    },
+    {
+      "type": "BusinessRole",
+      "layer": "Business",
+      "elements": 11,
+      "ids": [
+        "id-b1a348e9848f50e19a46bf2226dc2f08",
+        "id-5d55040d3ed75347b5d30553fda6f40c",
+        "id-8074acfb0a065da4b9b36ad88fc2a0d5",
+        "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
+        "id-54d7e249c99a59c6a2085f17060de254",
+        "id-efb44c09bbb251a4a851dbef2bfaf5a2",
+        "id-6f87fe9ac64b5deca8c2ed5c96641485",
+        "id-ffa13a71f7575bd1ab3bf9496433cdcf",
+        "id-dec0373effd25980b70e45e852f0ff1f",
+        "id-b003f851903c557fa2b020e234e850e0",
+        "id-8e67c8e9e1195cdc857b03a2c640e7fe"
+      ]
+    },
+    {
+      "type": "Stakeholder",
+      "layer": "Motivation",
+      "elements": 8,
+      "ids": [
+        "id-7cafc859c8a08c43588ba06b239dcbee",
+        "id-0e312c6afc23ccad03e4d4273c4dc771",
+        "id-231e8a69ecc37e3a10e7f7368a3a34be",
+        "id-809d7ef4829bf876f33095cf30a48461",
+        "id-d1e988d35cc563b8fca0d97c3ba4ca48",
+        "id-8d3dd8b68d504c2a9fe8cf414b16c127",
+        "id-1c5c0bc9234e4282b654dbc71b9da706",
+        "id-a2320dbc07e6450b94f3f0f3e03bb877"
+      ]
+    },
+    {
+      "type": "ApplicationService",
+      "layer": "Application",
+      "elements": 5,
+      "ids": [
+        "id-9d1f8abfb4905386b6a8ea65f421d115",
+        "id-0a635958abe251829d425db426340b00",
+        "id-5890b78a30f25b1b8502a7fe0c9aac32",
+        "id-ab03b92d0a8355bca5ce336ab2e2bf17",
+        "id-74b83b6a6d8e53a99573467ad6f7ae41"
+      ]
+    },
+    {
+      "type": "Grouping",
+      "layer": "Other",
+      "elements": 4,
+      "ids": [
+        "id-ee40de4391598b534eac5e8d56bea92f",
+        "id-4ac61bfc165a1d88910e2e2300a140d4",
+        "id-6a50f512b2fa73c786c163bf707e7575",
+        "id-97d03a0f5b7feb157f35af23a295b44c"
+      ]
+    },
+    {
+      "type": "BusinessActor",
+      "layer": "Business",
+      "elements": 2,
+      "ids": [
+        "id-95e8f300e2225113a3195b2d6c2afc9b",
+        "id-18bf324b7b4753e0aeff853e6bcb6adc"
+      ]
+    },
+    {
+      "type": "BusinessObject",
+      "layer": "Business",
+      "elements": 1,
+      "ids": [
+        "id-f180ad44b2e94e2a9ee8523ffc900264"
+      ]
+    },
+    {
+      "type": "Capability",
+      "layer": "Strategy",
+      "elements": 1,
+      "ids": [
+        "id-788f660553e14f0283b93c2dda3ae441"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "source": "Grouping",
+      "relationship": "Aggregation",
+      "target": "ApplicationComponent",
+      "count": 13,
+      "allowed": true,
+      "relationships": [
+        "id-eab4f62282885e07e00ca4767140d90d",
+        "id-65ab4abcef1700745b9ce716026a8a97",
+        "id-f3ccca07c5d9dffb1df78ab0ca7215c9",
+        "id-a4df0f491d42ee405e9a599a599448e9",
+        "id-e30c5b49dc96e4536af3cbb04d1a9d74",
+        "id-ccd8a73d2575d1e345946f42443e58d3",
+        "id-9c6f48e8856351d8227e8a774cfd3de7",
+        "id-21b732bd34f98a40259044e12ff04bc1",
+        "id-e01b6984d436654535f55e6e0a100991",
+        "id-edc2b540d882b3a1644c2e16dc923703",
+        "id-50e2e87634b76defc8bb8dcede816e11",
+        "id-218e93c3bd841eca8afec1080c157c18",
+        "id-1ee15ccbb7f482910cee79d0bcdf1f72"
+      ]
+    },
+    {
+      "source": "BusinessRole",
+      "relationship": "Serving",
+      "target": "BusinessRole",
+      "count": 10,
+      "allowed": true,
+      "relationships": [
+        "id-69e6485392785855baa9a8284ee119a4",
+        "id-6f9d78c2daa85c0193f8eb2b1f629cac",
+        "id-7cfddbe4b5535a6689cb443698f6a8f7",
+        "id-9549aadb6ff35cfeb2f21c8ce126c290",
+        "id-a687a3b55f7a5ac497549c7b52eff5c6",
+        "id-c1a743d7c3c65299bc7ae1406dd8157b",
+        "id-e159e53d89715779859733c2c15e678e",
+        "id-f63c73ff6a47526b8b65516217f7d4d2",
+        "id-f9b070ecdf13541397b4010867580380",
+        "id-fa0cb4de64a5595ab72e2d3e8bbfe3a0"
+      ]
+    },
+    {
+      "source": "BusinessActor",
+      "relationship": "Assignment",
+      "target": "BusinessRole",
+      "count": 7,
+      "allowed": true,
+      "relationships": [
+        "id-2777b7980423515da911e64e411e810a",
+        "id-3246551433e15deba224d7932a0a8062",
+        "id-7b1bbb9ea7b252caaaf291a4f199eadd",
+        "id-b0476f2d91bd53fda1f9d63b7f83c037",
+        "id-c3a25b9bfca85587b4d6f10d92ca1470",
+        "id-f869db6b2ea65029a2bc9dbd9cf5fd24",
+        "id-fcba8d96c93f5da78da087e757b6bf4d"
+      ]
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Realization",
+      "target": "ApplicationService",
+      "count": 5,
+      "allowed": true,
+      "relationships": [
+        "id-472bb820a01757c7b875f785d64f0fea",
+        "id-88575b6aa5f9575793c22f569086708c",
+        "id-d6051f45890950afb26ab72165ff888d",
+        "id-e3815e0039815e74b2e72421995a2be4",
+        "id-eb1acbb3301f55a1a4f04a181bc9968e"
+      ]
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Serving",
+      "target": "ApplicationComponent",
+      "count": 5,
+      "allowed": true,
+      "relationships": [
+        "id-067ea908bb7f51b3b52068d5be84c223",
+        "id-403b2d0d52b652118bee949f7cc6d80f",
+        "id-a074bf6460e657e88dde6f8a9c440c8e",
+        "id-af000f1eb03658b6b8ac51fa7276a130",
+        "id-d4d703c340a3507692f4ca468119a2cd"
+      ]
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Specialization",
+      "target": "ApplicationComponent",
+      "count": 4,
+      "allowed": true,
+      "relationships": [
+        "id-7bd65f0a1008528eb9b01a4a41cdf8c6",
+        "id-d657b22f76c3555b972dd36f0f96d87b",
+        "id-dfcf230c3ce655e0af73552f276e4131",
+        "id-e02e2d56e6aa57ae8ff4d2cecd73081d"
+      ]
+    },
+    {
+      "source": "Stakeholder",
+      "relationship": "Association",
+      "target": "Grouping",
+      "count": 4,
+      "allowed": true,
+      "relationships": [
+        "id-ad2b34c02611e79f4c8b8972fa2596cf",
+        "id-7b593dbc1d5e4838521598da12cbc27e",
+        "id-63958f59487c7a711a71ba9e98f77ad8",
+        "id-b5cfa5b6d886b591c2f96ff35f22a4dc"
+      ]
+    },
+    {
+      "source": "ApplicationService",
+      "relationship": "Serving",
+      "target": "BusinessRole",
+      "count": 3,
+      "allowed": true,
+      "relationships": [
+        "id-241d6efc25fb5c4caa4a20e2bb4e8c1c",
+        "id-429e7abd6a4153e8bd870febc37f8841",
+        "id-4cda608427e956469199f22881c784fb"
+      ]
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Flow",
+      "target": "ApplicationComponent",
+      "count": 2,
+      "allowed": true,
+      "relationships": [
+        "id-433fffbfdeb156e79a0dd82c64ff3b69",
+        "id-518dbbf177975c4d873437bb5c3930a5"
+      ]
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Realization",
+      "target": "Capability",
+      "count": 2,
+      "allowed": true,
+      "relationships": [
+        "id-6acbc86cbcd459e58f044342b3ffbc09",
+        "id-9297c43917215ad8b2b438afaff57e2f"
+      ]
+    },
+    {
+      "source": "BusinessRole",
+      "relationship": "Aggregation",
+      "target": "BusinessRole",
+      "count": 2,
+      "allowed": true,
+      "relationships": [
+        "id-6e5106e4dbee5b4694a5747ce3a1fc04",
+        "id-8a343798bf3b5eb58e8c79ee2955c09d"
+      ]
+    },
+    {
+      "source": "BusinessRole",
+      "relationship": "Association",
+      "target": "Stakeholder",
+      "count": 2,
+      "allowed": true,
+      "relationships": [
+        "id-c13f077bb0065095bcdbb8d7890250d2",
+        "id-a17f0d5a7834524bb9be5f4b76b1f259"
+      ]
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Access",
+      "target": "BusinessObject",
+      "count": 1,
+      "allowed": true,
+      "relationships": [
+        "id-73b8c09a72aa5e34a7796c2b75443813"
+      ]
+    },
+    {
+      "source": "ApplicationComponent",
+      "relationship": "Serving",
+      "target": "BusinessRole",
+      "count": 1,
+      "allowed": true,
+      "relationships": [
+        "id-1fb2fcbebc7f5368a4305c434d81cf5f"
+      ]
+    },
+    {
+      "source": "ApplicationService",
+      "relationship": "Flow",
+      "target": "ApplicationComponent",
+      "count": 1,
+      "allowed": true,
+      "relationships": [
+        "id-b5dfa9899b915196a038ade1d6347016"
+      ]
+    },
+    {
+      "source": "BusinessActor",
+      "relationship": "Association",
+      "target": "Stakeholder",
+      "count": 1,
+      "allowed": true,
+      "relationships": [
+        "id-e6e0d170de755fef8bbdba31a35c174a"
+      ]
+    },
+    {
+      "source": "BusinessActor",
+      "relationship": "Serving",
+      "target": "BusinessActor",
+      "count": 1,
+      "allowed": true,
+      "relationships": [
+        "id-261de5349a3e5402bc0df72b7b6831b3"
+      ]
+    },
+    {
+      "source": "BusinessRole",
+      "relationship": "Serving",
+      "target": "BusinessActor",
+      "count": 1,
+      "allowed": true,
+      "relationships": [
+        "id-d129c8914017533dadadaba659ec66e8"
+      ]
+    }
+  ],
+  "placeholders": [],
+  "placeholderRelationships": [],
+  "notAllowed": 0
+}

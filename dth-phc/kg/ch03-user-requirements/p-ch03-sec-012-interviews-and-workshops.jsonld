@@ -1,0 +1,101 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch03-sec-012-interviews-and-workshops",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch03-sec-012-interviews-and-workshops",
+  "kind": "prose",
+  "title": "3.1.3–3.1.4 Semi-structured interviews and requirements-gathering workshops",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch03-sec-012-methods"
+  ],
+  "text": "p-ch03-sec-012-interviews-and-workshops.md",
+  "meta": {
+    "title": "3.1.3–3.1.4 Semi-structured interviews and requirements-gathering workshops",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-012-31-follow-key-requirement-gathering-methods",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-012-31-follow-key-requirement-gathering-methods.md",
+      "pdfPages": [
+        31,
+        32,
+        33
+      ],
+      "method": "l1-section-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/end-user",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-service-users",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/pain-point",
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/requirements",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld",
+        "id": "id-b003f851903c557fa2b020e234e850e0",
+        "name": "User researcher"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+        "id": "id-b1a348e9848f50e19a46bf2226dc2f08",
+        "name": "Business analyst"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+        "id": "id-54d7e249c99a59c6a2085f17060de254",
+        "name": "Health worker"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+        "id": "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
+        "name": "Health service user"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "id": "id-eac6523c694c551b968166656af2b2e6",
+        "name": "Shared DTH Roles and Actors"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld",
+          "name": "User researcher"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "name": "Business analyst"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "name": "Health worker"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+          "name": "Health service user"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "sourceOnly": "interview and workshop facilitation tips and example prompts: cited L1 narrative per dth-phc#1 §3b"
+  },
+  "provenance": "authored"
+}

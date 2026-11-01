@@ -1,0 +1,84 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-system-cbis",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:system-cbis",
+  "kind": "persona",
+  "title": "Community-based information system (CBIS)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-system-cbis.md",
+  "meta": {
+    "title": "Community-based information system (CBIS)",
+    "personaType": "system",
+    "bpmnRoleId": "pers:system-cbis",
+    "bpmnLanes": [
+      {
+        "process": "bp:design-and-adaptation",
+        "processId": "Process_DesignAndAdaptation",
+        "laneId": "Lane-Ch4-Architect",
+        "bpmnFile": "processes/design-and-adaptation.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn",
+        "ref": "processes/design-and-adaptation.bpmn#Lane-Ch4-Architect"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+          "name": "Community-based information system",
+          "type": "ApplicationComponent"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:community-based-information-system",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-003",
+        "sec-004",
+        "sec-023"
+      ],
+      "pdfPages": [
+        10,
+        12,
+        56
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-003-introduction.md",
+      "section": "sec-003-introduction",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "relatedBlocks": [
+      "bp:design-and-adaptation"
+    ],
+    "roleId": "PHC-R-17",
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/community-based-information-system",
+      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+    ]
+  },
+  "provenance": "authored"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-9a31cf86a4685fb0ae0c460d973e2031",
+  "schema:name": "Personal health record",
+  "schema:description": "A record of an individual's health information in a structured digital format for a set of defined use cases over which the person has agency. (PDF 18)",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld"
+}
