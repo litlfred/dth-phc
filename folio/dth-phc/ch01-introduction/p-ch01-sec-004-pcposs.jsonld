@@ -61,37 +61,37 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
         "id": "id-808925f4d2075d7b95e0651ebae00fcf",
         "name": "Point-of-service application"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
         "id": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
         "name": "Electronic health record system"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
         "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
         "name": "Decision support system"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
         "id": "id-3acafd57e8cc5d4198ffcb29d39c1184",
         "name": "Community-based information system"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
         "id": "id-9a31cf86a4685fb0ae0c460d973e2031",
         "name": "Personal health record"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
         "id": "id-54d7e249c99a59c6a2085f17060de254",
         "name": "Health worker"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
         "id": "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
         "name": "Health service user"
       },
@@ -101,27 +101,27 @@
         "name": "Patients"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
         "id": "id-9d1f8abfb4905386b6a8ea65f421d115",
         "name": "Alerts and reminders"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
         "id": "id-74b83b6a6d8e53a99573467ad6f7ae41",
         "name": "Longitudinal tracking"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0a635958abe251829d425db426340b00.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0a635958abe251829d425db426340b00.jsonld",
         "id": "id-0a635958abe251829d425db426340b00",
         "name": "Care checklists"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-5890b78a30f25b1b8502a7fe0c9aac32.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-5890b78a30f25b1b8502a7fe0c9aac32.jsonld",
         "id": "id-5890b78a30f25b1b8502a7fe0c9aac32",
         "name": "Clinical screening"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
         "id": "id-ab03b92d0a8355bca5ce336ab2e2bf17",
         "name": "Indicator reporting"
       },
@@ -158,7 +158,7 @@
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       },
@@ -178,31 +178,31 @@
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
           "name": "Point-of-service application"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
           "name": "Electronic health record system"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
           "name": "Decision support system"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
           "name": "Community-based information system"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
           "name": "Personal health record"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
           "name": "Health worker"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
           "name": "Health service user"
         },
         {
@@ -210,23 +210,23 @@
           "name": "Patients"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
           "name": "Alerts and reminders"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
           "name": "Longitudinal tracking"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-0a635958abe251829d425db426340b00.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0a635958abe251829d425db426340b00.jsonld",
           "name": "Care checklists"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-5890b78a30f25b1b8502a7fe0c9aac32.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-5890b78a30f25b1b8502a7fe0c9aac32.jsonld",
           "name": "Clinical screening"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
           "name": "Indicator reporting"
         },
         {
@@ -256,7 +256,7 @@
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {

@@ -284,9 +284,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-31",
+              "on": "2026-11-01",
               "ref": "7aaec92b0ec4afafdf95aa6504e32550e3e6aa6d",
-              "evidence": "litlfred, 2026-10-31 14:26Z: '+3 hrs merge window' (to 17:26Z). Re-pin dpi-h-ra to smart-ra main 7aaec92 (smart-ra#198: shared organizations glossary). Prior: litlfred, 2026-10-31 08:14Z, decision card in thread 'Finish dth-hrh issue 47': 'A. Wiring now (items 1-4)' (merge smart-ra#144 and #148, then one dth-hrh draft PR mounting smart-ra with glossary and ArchiMate links); plan option A for L2 DTHs on smart-ra, 2026-10-31 00:26Z, thread 'Prepare DTH ingests as L2 on smart-ra'. main tip 6c60711 = #148 (RA glossary as SKOS) on #144 (full-STAC glossary)."
+              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb), and 08:20Z card Q-RA1 'A. Move to DTH overlays' (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv): repin to smart-ra main so the dth-phc overlay's reference copies are checked against smart-ra's own ArchiMate 0.3.0-draft.1 (dth-phc#8)."
             }
           }
         }

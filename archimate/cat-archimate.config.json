@@ -1,0 +1,13 @@
+{
+  "$schema": "cat-archimate-config/v1",
+  "directory": "archimate",
+  "models": [
+    {
+      "id": "0.1.0-draft.1",
+      "file": "0.1.0-draft.1/dth-phc-overlay.archimate",
+      "title": "DTH-PHC overlay 0.1.0-draft.1",
+      "description": "The dth-phc overlay on the smart-ra (DPI-H RA) ArchiMate model 0.3.0-draft.1: the person-centred point of service (PCPOSS) view and the shared DTH roles it uses. Elements tagged overlay:base copy a smart-ra element and name it by IRI; elements tagged overlay:owner=dth-phc are this DTH's own (dth-phc#8)."
+    }
+  ],
+  "figures": []
+}

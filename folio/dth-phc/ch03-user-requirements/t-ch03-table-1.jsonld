@@ -38,7 +38,7 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
         "id": "id-b1a348e9848f50e19a46bf2226dc2f08",
         "name": "Business analyst"
       },
@@ -50,7 +50,7 @@
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
         "id": "id-eac6523c694c551b968166656af2b2e6",
         "name": "Shared DTH Roles and Actors"
       }
@@ -60,7 +60,7 @@
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
           "name": "Business analyst"
         },
         {
@@ -70,7 +70,7 @@
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         }
       ]
