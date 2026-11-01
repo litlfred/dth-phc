@@ -47,84 +47,84 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
         "id": "id-808925f4d2075d7b95e0651ebae00fcf",
         "name": "Point-of-service application"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
         "id": "id-ab03b92d0a8355bca5ce336ab2e2bf17",
         "name": "Indicator reporting"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
         "id": "id-3fd92d497ca040c8a436f355c0b68770",
         "name": "Analytics & Reporting Platform"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-d626508a7dc55b1fb11bf34f57f8ddd9.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-d626508a7dc55b1fb11bf34f57f8ddd9.jsonld",
         "id": "id-d626508a7dc55b1fb11bf34f57f8ddd9",
         "name": "Health Management Information System"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
         "id": "id-f180ad44b2e94e2a9ee8523ffc900264",
         "name": "Shared Health Record"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
         "id": "id-71b2e11df2e348a2b9f8eee36c8e5292",
         "name": "Patient-level Data"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
         "id": "id-cefde7ed0dcd47d3bb214657ac3e5725",
         "name": "SHR"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
           "name": "Point-of-service application"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-ab03b92d0a8355bca5ce336ab2e2bf17.jsonld",
           "name": "Indicator reporting"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
           "name": "Analytics & Reporting Platform"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-d626508a7dc55b1fb11bf34f57f8ddd9.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-d626508a7dc55b1fb11bf34f57f8ddd9.jsonld",
           "name": "Health Management Information System"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
           "name": "Shared Health Record"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
           "name": "Patient-level Data"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
           "name": "SHR"
         }
       ]

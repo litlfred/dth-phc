@@ -16,7 +16,7 @@
  * - every `meta.glossaryTerms` IRI resolves in `dth-phc.glossary.json` or
  *   `dpi-h-ra.glossary.json`;
  * - every `meta.archimate` element and view IRI (`check:archimate-links`)
- *   resolves in the mounted `dpi-h-ra` ArchiMate model (`0.3.0-draft.2`);
+ *   resolves in the mounted `dpi-h-ra` ArchiMate model (`0.3.0-draft.1`);
  * - swimlane-to-persona check: every `persona` block (19) links to its BPMN
  *   lanes (`meta.bpmnLanes`), ArchiMate elements (`meta.archimate.elements`),
  *   and glossary terms (`meta.glossaryTerms`), and every `<bpmn:lane>` in all

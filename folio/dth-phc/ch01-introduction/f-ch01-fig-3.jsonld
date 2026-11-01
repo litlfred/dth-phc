@@ -37,75 +37,75 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
         "id": "id-808925f4d2075d7b95e0651ebae00fcf",
         "name": "Point-of-service application"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
         "id": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
         "name": "Electronic health record system"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
         "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
         "name": "Decision support system"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
         "id": "id-3acafd57e8cc5d4198ffcb29d39c1184",
         "name": "Community-based information system"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
         "id": "id-9a31cf86a4685fb0ae0c460d973e2031",
         "name": "Personal health record"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
         "id": "id-3fd92d497ca040c8a436f355c0b68770",
         "name": "Analytics & Reporting Platform"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
           "name": "Point-of-service application"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
           "name": "Electronic health record system"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
           "name": "Decision support system"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
           "name": "Community-based information system"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
           "name": "Personal health record"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
           "name": "Analytics & Reporting Platform"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]

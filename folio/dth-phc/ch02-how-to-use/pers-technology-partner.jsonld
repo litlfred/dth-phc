@@ -48,27 +48,27 @@
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
           "name": "Technology partner",
           "type": "BusinessRole"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3bd1011d76c843fa860255f00a6aa68f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3bd1011d76c843fa860255f00a6aa68f.jsonld",
           "name": "Vendor EHR Product",
           "type": "ApplicationComponent"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-0e97a3f6a8f545f5bd90e123c11a2545.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-0e97a3f6a8f545f5bd90e123c11a2545.jsonld",
           "name": "Testing"
         }
       ]

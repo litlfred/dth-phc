@@ -40,23 +40,23 @@
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-e0e0f3f71f13517aa67f1eee6712a327.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-e0e0f3f71f13517aa67f1eee6712a327.jsonld",
           "name": "Donor",
           "type": "BusinessRole"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-947a49b1d8234db095f416b0c4a7f746.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-947a49b1d8234db095f416b0c4a7f746.jsonld",
           "name": "Contributor",
           "type": "Stakeholder"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-2d524cffba25509e82684f47d624cc42.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-2d524cffba25509e82684f47d624cc42.jsonld",
           "name": "Health Supply Chain Partners and Processes (DTH SC Figs. 1-3)"
         }
       ]

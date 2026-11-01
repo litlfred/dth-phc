@@ -97,37 +97,37 @@
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
           "name": "Public health authority",
           "type": "BusinessActor"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-95e8f300e2225113a3195b2d6c2afc9b.jsonld",
           "name": "Implementing team",
           "type": "BusinessActor"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-efb44c09bbb251a4a851dbef2bfaf5a2.jsonld",
           "name": "Monitoring and evaluation specialist",
           "type": "BusinessRole"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3fd92d497ca040c8a436f355c0b68770.jsonld",
           "name": "Analytics & Reporting Platform",
           "type": "ApplicationComponent"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]

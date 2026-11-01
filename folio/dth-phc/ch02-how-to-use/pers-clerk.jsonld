@@ -48,32 +48,32 @@
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-54d7e249c99a59c6a2085f17060de254.jsonld",
           "name": "Health worker",
           "type": "BusinessRole"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-8d3dd8b68d504c2a9fe8cf414b16c127.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-8d3dd8b68d504c2a9fe8cf414b16c127.jsonld",
           "name": "Health Workers",
           "type": "Stakeholder"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-515be0d38c564767bc2b1ee5fcb0adb6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-515be0d38c564767bc2b1ee5fcb0adb6.jsonld",
           "name": "Health Care Institutions",
           "type": "Stakeholder"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         }
       ]

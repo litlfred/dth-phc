@@ -35,66 +35,66 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
         "id": "id-74b83b6a6d8e53a99573467ad6f7ae41",
         "name": "Longitudinal tracking"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
         "id": "id-9d1f8abfb4905386b6a8ea65f421d115",
         "name": "Alerts and reminders"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
         "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
         "name": "Decision support system"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
         "id": "id-066e40fefc9e48e4b23e51d9f9bd14d2",
         "name": "SMART Guidelines L2 (DAK)"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       },
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
         "id": "id-4c98f10e0a244315acddaf5257c7822e",
         "name": "CDS"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-74b83b6a6d8e53a99573467ad6f7ae41.jsonld",
           "name": "Longitudinal tracking"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-9d1f8abfb4905386b6a8ea65f421d115.jsonld",
           "name": "Alerts and reminders"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
           "name": "Decision support system"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-066e40fefc9e48e4b23e51d9f9bd14d2.jsonld",
           "name": "SMART Guidelines L2 (DAK)"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
           "name": "CDS"
         }
       ]

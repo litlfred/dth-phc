@@ -36,30 +36,30 @@
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
         "id": "id-71b2e11df2e348a2b9f8eee36c8e5292",
         "name": "Patient-level Data"
       }
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
     ],
     "archimate": {
-      "model": "smart-ra 0.3.0-draft.2",
+      "model": "smart-ra 0.3.0-draft.1",
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-71b2e11df2e348a2b9f8eee36c8e5292.jsonld",
           "name": "Patient-level Data"
         }
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.2/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]
