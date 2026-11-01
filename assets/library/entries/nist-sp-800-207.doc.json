@@ -805,7 +805,7 @@
           "heading": false
         },
         {
-          "term": "technology laboratory",
+          "term": "federal information",
           "heading": false
         },
         {
@@ -845,11 +845,11 @@
           "heading": false
         },
         {
-          "term": "lateral movement",
+          "term": "security posture",
           "heading": false
         },
         {
-          "term": "security posture",
+          "term": "lateral movement",
           "heading": false
         },
         {
@@ -1033,19 +1033,19 @@
           "heading": false
         },
         {
-          "term": "enterprise implementing",
-          "heading": false
-        },
-        {
           "term": "basic tenets",
           "heading": false
         },
         {
-          "term": "network infrastructure",
+          "term": "enterprise implementing",
           "heading": false
         },
         {
           "term": "trust architecture",
+          "heading": false
+        },
+        {
+          "term": "network infrastructure",
           "heading": false
         }
       ],
@@ -1141,7 +1141,7 @@
           "heading": false
         },
         {
-          "term": "cdm systems",
+          "term": "policy rules",
           "heading": false
         }
       ],
@@ -1169,11 +1169,11 @@
           "heading": false
         },
         {
-          "term": "enterprise",
+          "term": "zta",
           "heading": false
         },
         {
-          "term": "zta",
+          "term": "enterprise",
           "heading": false
         }
       ],
@@ -1557,11 +1557,11 @@
           "heading": false
         },
         {
-          "term": "observable status",
+          "term": "policy engine",
           "heading": false
         },
         {
-          "term": "policy engine",
+          "term": "observable status",
           "heading": false
         },
         {
@@ -1737,7 +1737,7 @@
           "heading": false
         },
         {
-          "term": "enterprise",
+          "term": "perimeter-based",
           "heading": false
         }
       ],
@@ -2021,12 +2021,12 @@
       "summary": null,
       "keywords": [
         {
-          "term": "configured",
-          "heading": false
-        },
-        {
           "term": "zta",
           "heading": true
+        },
+        {
+          "term": "configured",
+          "heading": false
         },
         {
           "term": "enterprise",
@@ -2097,12 +2097,12 @@
       "summary": null,
       "keywords": [
         {
-          "term": "compromised account",
-          "heading": false
-        },
-        {
           "term": "insider",
           "heading": true
+        },
+        {
+          "term": "compromised account",
+          "heading": false
         },
         {
           "term": "credentials",
@@ -2125,8 +2125,8 @@
           "heading": false
         },
         {
-          "term": "valuable",
-          "heading": false
+          "term": "threat",
+          "heading": true
         }
       ],
       "extract": "Properly implemented ZT, information security and resiliency policies, and best practices reduce the risk of an attacker gaining broad access via stolen credentials or insider attack. The ZT principle of no implicit trust based on network location means attackers need to compromise an existing account or device to gain a foothold in an enterprise. A properly developed and implemented ZTA should prevent a compromised",
@@ -2161,11 +2161,11 @@
           "heading": false
         },
         {
-          "term": "mentioned",
+          "term": "attacker",
           "heading": false
         },
         {
-          "term": "attacker",
+          "term": "mentioned",
           "heading": false
         }
       ],
@@ -2197,11 +2197,11 @@
           "heading": false
         },
         {
-          "term": "enterprise",
+          "term": "attacker",
           "heading": false
         },
         {
-          "term": "attacker",
+          "term": "enterprise",
           "heading": false
         },
         {
@@ -2281,11 +2281,11 @@
           "heading": false
         },
         {
-          "term": "trust architecture",
+          "term": "attacker",
           "heading": false
         },
         {
-          "term": "attacker",
+          "term": "trust architecture",
           "heading": false
         },
         {
@@ -2697,15 +2697,15 @@
           "heading": false
         },
         {
-          "term": "organizational",
-          "heading": false
-        },
-        {
           "term": "enterprise",
           "heading": false
         },
         {
           "term": "building",
+          "heading": false
+        },
+        {
+          "term": "organizational",
           "heading": false
         }
       ],
@@ -2821,7 +2821,7 @@
           "heading": false
         },
         {
-          "term": "blanket",
+          "term": "scrutiny",
           "heading": false
         }
       ],
@@ -2853,11 +2853,11 @@
           "heading": false
         },
         {
-          "term": "shadow",
+          "term": "network location",
           "heading": false
         },
         {
-          "term": "network location",
+          "term": "shadow",
           "heading": false
         },
         {
@@ -2865,12 +2865,12 @@
           "heading": false
         },
         {
-          "term": "identify",
-          "heading": true
-        },
-        {
           "term": "swam",
           "heading": false
+        },
+        {
+          "term": "identify",
+          "heading": true
         }
       ],
       "extract": "As mentioned in Section 2.1, one of the key requirements of ZTA is the ability to identify and manage devices. ZTA also requires the ability to identify and monitor nonenterprise-owned devices that may be on enterprise-owned network infrastructure or that access enterprise resources. The ability to manage enterprise assets is key to the successful deployment of ZTA. This includes hardware components (e.g., laptops,",
@@ -2981,11 +2981,11 @@
           "heading": false
         },
         {
-          "term": "some solutions",
+          "term": "business process",
           "heading": false
         },
         {
-          "term": "business process",
+          "term": "some solutions",
           "heading": false
         },
         {
@@ -3025,15 +3025,15 @@
           "heading": false
         },
         {
-          "term": "monitoring",
-          "heading": true
-        },
-        {
           "term": "enterprise",
           "heading": false
         },
         {
-          "term": "logs",
+          "term": "monitoring",
+          "heading": true
+        },
+        {
+          "term": "policies",
           "heading": false
         },
         {
@@ -3041,7 +3041,7 @@
           "heading": false
         },
         {
-          "term": "policies",
+          "term": "logs",
           "heading": false
         }
       ],
@@ -3069,11 +3069,11 @@
           "heading": false
         },
         {
-          "term": "phase",
+          "term": "done",
           "heading": false
         },
         {
-          "term": "done",
+          "term": "phase",
           "heading": false
         },
         {
@@ -3121,11 +3121,11 @@
           "heading": false
         },
         {
-          "term": "zta environments",
+          "term": "zero trust",
           "heading": false
         },
         {
-          "term": "zero trust",
+          "term": "zta environments",
           "heading": false
         },
         {
@@ -3218,8 +3218,8 @@
       "heading": false
     },
     {
-      "term": "enterprise administrator",
-      "heading": false
+      "term": "zero trust",
+      "heading": true
     }
   ],
   "pageLabels": [

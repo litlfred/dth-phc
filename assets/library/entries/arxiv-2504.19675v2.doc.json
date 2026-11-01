@@ -433,15 +433,15 @@
           "heading": false
         },
         {
-          "term": "subsets",
-          "heading": false
-        },
-        {
           "term": "all-subjects",
           "heading": false
         },
         {
           "term": "tib-core-subjects",
+          "heading": false
+        },
+        {
+          "term": "subsets",
           "heading": false
         },
         {
@@ -500,7 +500,7 @@
           "heading": false
         },
         {
-          "term": "suggested",
+          "term": "lexical",
           "heading": false
         }
       ],
@@ -925,11 +925,11 @@
       },
       "keywords": [
         {
-          "term": "mathias begoin",
+          "term": "holger israel",
           "heading": false
         },
         {
-          "term": "holger israel",
+          "term": "mathias begoin",
           "heading": false
         },
         {
@@ -1197,6 +1197,10 @@
           "heading": false
         },
         {
+          "term": "den",
+          "heading": false
+        },
+        {
           "term": "gnd",
           "heading": true
         },
@@ -1205,15 +1209,11 @@
           "heading": false
         },
         {
-          "term": "der",
-          "heading": false
-        },
-        {
           "term": "des",
           "heading": false
         },
         {
-          "term": "translated",
+          "term": "der",
           "heading": false
         }
       ],
@@ -1257,11 +1257,11 @@
       "heading": false
     },
     {
-      "term": "tibkat subject",
+      "term": "english synthetic",
       "heading": false
     },
     {
-      "term": "english synthetic",
+      "term": "tibkat subject",
       "heading": false
     },
     {

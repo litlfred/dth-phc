@@ -507,11 +507,11 @@
           "heading": false
         },
         {
-          "term": "downstream analyses",
+          "term": "conditional independence",
           "heading": false
         },
         {
-          "term": "conditional independence",
+          "term": "error-prone variable",
           "heading": false
         }
       ],
@@ -581,11 +581,11 @@
           "heading": false
         },
         {
-          "term": "rdβ",
+          "term": "true label",
           "heading": false
         },
         {
-          "term": "true label",
+          "term": "rdβ",
           "heading": false
         },
         {
@@ -823,19 +823,19 @@
       },
       "keywords": [
         {
-          "term": "bridge function",
-          "heading": false
-        },
-        {
           "term": "true label",
           "heading": false
         },
         {
-          "term": "conditional classification",
+          "term": "bridge function",
           "heading": false
         },
         {
           "term": "downstream moment",
+          "heading": false
+        },
+        {
+          "term": "conditional classification",
           "heading": false
         },
         {
@@ -996,7 +996,7 @@
           "heading": false
         },
         {
-          "term": "single-proxy bridge",
+          "term": "conditional classification",
           "heading": false
         }
       ],
@@ -1088,11 +1088,11 @@
           "heading": false
         },
         {
-          "term": "bridge",
+          "term": "analogs",
           "heading": false
         },
         {
-          "term": "analogs",
+          "term": "bridge",
           "heading": false
         },
         {
@@ -1166,6 +1166,10 @@
           "heading": false
         },
         {
+          "term": "kruskal condition",
+          "heading": false
+        },
+        {
           "term": "class-specific bridges",
           "heading": false
         },
@@ -1174,15 +1178,11 @@
           "heading": false
         },
         {
-          "term": "kruskal condition",
-          "heading": false
-        },
-        {
           "term": "multicategory analog",
           "heading": false
         },
         {
-          "term": "joint proxy",
+          "term": "column rank",
           "heading": false
         }
       ],
@@ -1260,11 +1260,11 @@
           "heading": false
         },
         {
-          "term": "researchers",
+          "term": "open-source model",
           "heading": false
         },
         {
-          "term": "open-source model",
+          "term": "conditioning",
           "heading": false
         }
       ],
@@ -1448,11 +1448,11 @@
           "heading": false
         },
         {
-          "term": "majority voting",
+          "term": "empirical coverage",
           "heading": false
         },
         {
-          "term": "empirical coverage",
+          "term": "majority voting",
           "heading": false
         }
       ],
@@ -1894,12 +1894,12 @@
           "heading": false
         },
         {
-          "term": "log",
-          "heading": false
-        },
-        {
           "term": "algorithm",
           "heading": true
+        },
+        {
+          "term": "log",
+          "heading": false
         }
       ],
       "extract": "Let ξ(t) i = Prθ(t)(L∗ i = 1 | eLi, Zi) denote the posterior responsibility at iteration t. For compactness, define f(t) ij,a = {η(t) ij,a}L(j) i {1 −η(t) ij,a}1−L(j) i . The E-step is ξ(t) i = p(t) i QJ j=1 f(t) ij,1 (1 −p(t) i ) QJ j=1 f(t) ij,0 + p(t) i QJ j=1 f(t) ij,1 . (C.2) The production code evaluates equation (C.2) on the log scale using a log-sum-exp calculation. Given ξ(t) i , the M-step separates into",
@@ -2049,15 +2049,11 @@
   "withheld": false,
   "keywords": [
     {
-      "term": "conditional moment",
-      "heading": false
-    },
-    {
       "term": "proxy labels",
       "heading": true
     },
     {
-      "term": "conditional bridge",
+      "term": "conditional moment",
       "heading": false
     },
     {
@@ -2069,6 +2065,10 @@
       "heading": false
     },
     {
+      "term": "conditional bridge",
+      "heading": false
+    },
+    {
       "term": "gold-standard labels",
       "heading": true
     },
@@ -2077,11 +2077,11 @@
       "heading": true
     },
     {
-      "term": "imperfect labels",
+      "term": "downstream inference",
       "heading": false
     },
     {
-      "term": "downstream inference",
+      "term": "imperfect labels",
       "heading": false
     },
     {

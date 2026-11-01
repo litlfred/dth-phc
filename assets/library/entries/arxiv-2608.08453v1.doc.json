@@ -265,7 +265,7 @@
           "heading": false
         },
         {
-          "term": "usa",
+          "term": "hunter",
           "heading": false
         }
       ],
@@ -361,7 +361,7 @@
           "heading": false
         },
         {
-          "term": "platform",
+          "term": "official",
           "heading": false
         }
       ],
@@ -450,11 +450,11 @@
           "heading": false
         },
         {
-          "term": "disclosure",
+          "term": "upstream",
           "heading": false
         },
         {
-          "term": "upstream",
+          "term": "disclosure",
           "heading": false
         }
       ],
@@ -545,11 +545,11 @@
           "heading": false
         },
         {
-          "term": "pat terns",
+          "term": "persona redefinition",
           "heading": false
         },
         {
-          "term": "persona redefinition",
+          "term": "pat terns",
           "heading": false
         },
         {
@@ -557,15 +557,15 @@
           "heading": false
         },
         {
-          "term": "hardcoded credentials",
-          "heading": false
-        },
-        {
           "term": "oversized bodies",
           "heading": false
         },
         {
-          "term": "github issues",
+          "term": "hardcoded credentials",
+          "heading": false
+        },
+        {
+          "term": "skills specification",
           "heading": false
         }
       ],
@@ -613,7 +613,7 @@
           "heading": false
         },
         {
-          "term": "discovery",
+          "term": "missing",
           "heading": false
         }
       ],
@@ -736,12 +736,12 @@
           "heading": true
         },
         {
-          "term": "stress test",
-          "heading": false
-        },
-        {
           "term": "defects",
           "heading": true
+        },
+        {
+          "term": "stress test",
+          "heading": false
         },
         {
           "term": "agent skills",
@@ -780,11 +780,11 @@
           "heading": false
         },
         {
-          "term": "detected defects",
+          "term": "unmarked skills",
           "heading": false
         },
         {
-          "term": "unmarked skills",
+          "term": "detected defects",
           "heading": false
         },
         {
@@ -1051,11 +1051,11 @@
       "heading": false
     },
     {
-      "term": "skills work",
+      "term": "r1-clean skills",
       "heading": false
     },
     {
-      "term": "r1-clean skills",
+      "term": "skills work",
       "heading": false
     },
     {

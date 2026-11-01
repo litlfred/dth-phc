@@ -28,11 +28,11 @@
           "heading": false
         },
         {
-          "term": "semantic analysis",
+          "term": "chicago",
           "heading": false
         },
         {
-          "term": "chicago",
+          "term": "semantic analysis",
           "heading": false
         },
         {
@@ -79,11 +79,11 @@
           "heading": false
         },
         {
-          "term": "semantic structure",
+          "term": "singular-value decomposition",
           "heading": false
         },
         {
-          "term": "singular-value decomposition",
+          "term": "semantic structure",
           "heading": false
         },
         {
@@ -177,11 +177,11 @@
           "heading": false
         },
         {
-          "term": "occurrence",
+          "term": "retrieval",
           "heading": false
         },
         {
-          "term": "retrieval",
+          "term": "occurrence",
           "heading": false
         },
         {
@@ -248,7 +248,7 @@
           "heading": false
         },
         {
-          "term": "retrieval",
+          "term": "distance",
           "heading": false
         }
       ],
@@ -299,7 +299,7 @@
           "heading": false
         },
         {
-          "term": "both terms",
+          "term": "koll",
           "heading": false
         }
       ],
@@ -385,11 +385,11 @@
           "heading": false
         },
         {
-          "term": "factor analysis",
+          "term": "symmetric matrix",
           "heading": false
         },
         {
-          "term": "symmetric matrix",
+          "term": "factor analysis",
           "heading": false
         },
         {
@@ -505,11 +505,11 @@
           "heading": false
         },
         {
-          "term": "response time",
+          "term": "system response",
           "heading": false
         },
         {
-          "term": "system response",
+          "term": "response time",
           "heading": false
         },
         {
@@ -521,7 +521,7 @@
           "heading": false
         },
         {
-          "term": "terms",
+          "term": "svd",
           "heading": false
         }
       ],
@@ -568,11 +568,11 @@
           "heading": false
         },
         {
-          "term": "indicated",
+          "term": "labeled",
           "heading": false
         },
         {
-          "term": "labeled",
+          "term": "near",
           "heading": false
         }
       ],
@@ -611,6 +611,10 @@
           "heading": false
         },
         {
+          "term": "interchanged",
+          "heading": false
+        },
+        {
           "term": "singular values",
           "heading": false
         },
@@ -620,10 +624,6 @@
         },
         {
           "term": "diagonal",
-          "heading": false
-        },
-        {
-          "term": "permutations",
           "heading": false
         }
       ],
@@ -654,11 +654,11 @@
           "heading": false
         },
         {
-          "term": "comparing",
+          "term": "xhihat",
           "heading": false
         },
         {
-          "term": "xhihat",
+          "term": "comparing",
           "heading": false
         },
         {
@@ -725,7 +725,7 @@
           "heading": false
         },
         {
-          "term": "comparing",
+          "term": "documents",
           "heading": false
         }
       ],
@@ -748,11 +748,11 @@
       },
       "keywords": [
         {
-          "term": "like row",
+          "term": "computational constraints",
           "heading": false
         },
         {
-          "term": "computational constraints",
+          "term": "like row",
           "heading": false
         },
         {
@@ -917,11 +917,11 @@
           "heading": false
         },
         {
-          "term": "dimensions",
+          "term": "isolated",
           "heading": false
         },
         {
-          "term": "isolated",
+          "term": "dimensions",
           "heading": false
         },
         {
@@ -929,7 +929,7 @@
           "heading": false
         },
         {
-          "term": "retrieval",
+          "term": "documents",
           "heading": false
         }
       ],
@@ -1074,15 +1074,15 @@
           "heading": false
         },
         {
-          "term": "efﬁcient",
-          "heading": false
-        },
-        {
-          "term": "terms",
-          "heading": false
-        },
-        {
           "term": "borko",
+          "heading": false
+        },
+        {
+          "term": "koll",
+          "heading": false
+        },
+        {
+          "term": "centroid",
           "heading": false
         }
       ],
@@ -1133,7 +1133,7 @@
           "heading": false
         },
         {
-          "term": "similarity",
+          "term": "documents",
           "heading": false
         }
       ],
@@ -1394,15 +1394,7 @@
           "heading": false
         },
         {
-          "term": "data analysis",
-          "heading": false
-        },
-        {
           "term": "least squares",
-          "heading": false
-        },
-        {
-          "term": "harshman",
           "heading": false
         },
         {
@@ -1410,11 +1402,19 @@
           "heading": false
         },
         {
-          "term": "jasis",
+          "term": "data analysis",
           "heading": false
         },
         {
-          "term": "lundy",
+          "term": "harshman",
+          "heading": false
+        },
+        {
+          "term": "eds",
+          "heading": false
+        },
+        {
+          "term": "jasis",
           "heading": false
         }
       ],
@@ -1569,11 +1569,11 @@
       "heading": false
     },
     {
-      "term": "terms occurring",
+      "term": "original term",
       "heading": false
     },
     {
-      "term": "original term",
+      "term": "terms occurring",
       "heading": false
     }
   ],

@@ -302,11 +302,11 @@
           "heading": false
         },
         {
-          "term": "software development",
+          "term": "christoph treude",
           "heading": false
         },
         {
-          "term": "christoph treude",
+          "term": "software development",
           "heading": false
         }
       ],
@@ -392,11 +392,11 @@
           "heading": false
         },
         {
-          "term": "software development",
+          "term": "llm-based agents",
           "heading": false
         },
         {
-          "term": "llm-based agents",
+          "term": "software development",
           "heading": false
         },
         {
@@ -454,8 +454,8 @@
           "heading": false
         },
         {
-          "term": "review",
-          "heading": true
+          "term": "paving",
+          "heading": false
         }
       ],
       "extract": "3 development of autonomous, scalable, and trustworthy LMA systems, paving the way for the next generation of software engineering To summarize, this study makes the following key contributions: • We conduct a systematic review of 71 recent primary studies on the application of LMA systems in software engineering. • We perform two case studies to illustrate the current capabilities and limitations of LMA systems. •",
@@ -582,15 +582,15 @@
           "heading": false
         },
         {
-          "term": "exclusion criteria",
-          "heading": false
-        },
-        {
           "term": "lma systems",
           "heading": false
         },
         {
           "term": "lma framework",
+          "heading": false
+        },
+        {
+          "term": "exclusion criteria",
           "heading": false
         },
         {
@@ -637,15 +637,15 @@
           "heading": false
         },
         {
+          "term": "false positives",
+          "heading": false
+        },
+        {
           "term": "llm-based agents",
           "heading": false
         },
         {
           "term": "lma systems",
-          "heading": false
-        },
-        {
-          "term": "false positives",
           "heading": false
         },
         {
@@ -747,15 +747,15 @@
           "heading": false
         },
         {
+          "term": "process models",
+          "heading": false
+        },
+        {
           "term": "project requirements",
           "heading": false
         },
         {
           "term": "agent roles",
-          "heading": false
-        },
-        {
-          "term": "waterfall model",
           "heading": false
         }
       ],
@@ -833,11 +833,11 @@
           "heading": false
         },
         {
-          "term": "generated",
+          "term": "prompt",
           "heading": false
         },
         {
-          "term": "attempt",
+          "term": "generated",
           "heading": false
         }
       ],
@@ -911,15 +911,15 @@
       },
       "keywords": [
         {
+          "term": "lma systems",
+          "heading": false
+        },
+        {
           "term": "research",
           "heading": true
         },
         {
           "term": "research questions",
-          "heading": false
-        },
-        {
-          "term": "lma systems",
           "heading": false
         }
       ],
@@ -1082,15 +1082,15 @@
           "heading": true
         },
         {
+          "term": "feedback",
+          "heading": false
+        },
+        {
           "term": "specialized",
           "heading": false
         },
         {
           "term": "training",
-          "heading": false
-        },
-        {
-          "term": "feedback",
           "heading": false
         }
       ],
@@ -1265,11 +1265,11 @@
       "heading": false
     },
     {
-      "term": "current lma",
+      "term": "lma framework",
       "heading": false
     },
     {
-      "term": "lma framework",
+      "term": "current lma",
       "heading": false
     },
     {

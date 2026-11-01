@@ -606,7 +606,7 @@
       "truncated": true,
       "provenance": "ingested",
       "summary": {
-        "status": "draft",
+        "status": "stale",
         "text": "Explains how to document clinical care pathway decision-support logic—covering scheduling, clinical prompts, risk assessment/triage, and medical eligibility grounded in WHO or national guidelines—using a decision-support logic matrix (illustrated from the HIV DAK, Fig. 13), visual decision trees (illustrated from the ANC DAK, Fig. 14), and DMN-aligned decision-support tables (Annex 11).",
         "state": "draft",
         "draftedBy": {

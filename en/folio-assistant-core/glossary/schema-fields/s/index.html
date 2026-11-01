@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=6071ae228cf3">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=18eb22b50395">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=a0806788c1f5">
+<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=e905de88eeeb">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -640,12 +640,12 @@
 <!-- BEFORE docs-ui.js and work-plan.js: both read window.faRender. -->
 <script src="../../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
-<script src="../../../../../assets/js/navbar-row.js?v=7dce6a7e2ab0" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=c7e8e0ebcddb" defer></script>
+<script src="../../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=52e4c68c64c7" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../../assets/js/edit-links.js?v=81bb303b6bc2" defer></script>
+<script src="../../../../../assets/js/edit-links.js?v=4f82faf45c35" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -849,11 +849,11 @@
 
 <p>Candidate terms extracted from every schema field with a doc comment: <code class="language-plaintext highlighter-rouge">&lt;Declaration&gt;.&lt;field&gt;</code> as the label, the comment’s first paragraph as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2251 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 141 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 182 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2293 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 141 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 182 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 7 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/schema-fields/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 249 terms and is 145 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 255 terms and is 148 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
@@ -868,7 +868,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">249</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">255</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-S">S</a></nav>
 <h2 id="letter-S">
@@ -2280,12 +2280,54 @@ StickyTextSchema.scale <span class="fa-gloss-status">candidate, extracted</span>
 <p>Multiply the words' size. <code>1</code> is normal; <code>0.8</code> fits more in.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/sticky-contribution.ts"><code>cat-harness-tools/schemas/content/sticky-contribution.ts#StickyTextSchema.scale</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.storeapi.document" data-fa-state="extracted" data-fa-gloss="">
+StoreApi.document <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The API's own document: a URL or an instance-relative path. Held as the API's authors wrote it, never restated (the <code>openapi</code> subgraph's rule). Absent for <code>cli</code>, which names its tools instead.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#StoreApi.document</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.storeapi.tools" data-fa-state="extracted" data-fa-gloss="">
+StoreApi.tools <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>For <code>cli</code>: the harness tool ids that read or write the store.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#StoreApi.tools</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--qa-attestations.storedadversarialreviews.path" data-fa-state="extracted" data-fa-gloss="">
 StoredAdversarialReviews.path <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>Absolute path of the attestation file.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/qa-attestations.ts"><code>cat-harness-tools/schemas/sdlc/qa-attestations.ts#StoredAdversarialReviews.path</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.storedef.api" data-fa-state="extracted" data-fa-gloss="">
+StoreDef.api <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Its interfaces, one per transport.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#StoreDef.api</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.storedef.holds" data-fa-state="extracted" data-fa-gloss="">
+StoreDef.holds <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The typologies (graph kinds) it holds, by id, e.g. <code>bean-defs</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#StoreDef.holds</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.storedef.published" data-fa-state="extracted" data-fa-gloss="">
+StoreDef.published <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Whether what it keeps reaches a published graph. The activity log does not.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#StoreDef.published</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.storedef.realisedby" data-fa-state="extracted" data-fa-gloss="">
+StoreDef.realisedBy <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The actor that plays it, e.g. <code>beans</code>, <code>git</code>, <code>google-sheets</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#StoreDef.realisedBy</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--cat-harness.subgraphcoverageschema.process" data-fa-state="extracted" data-fa-gloss="">
 SubgraphCoverageSchema.process <span class="fa-gloss-status">candidate, extracted</span>

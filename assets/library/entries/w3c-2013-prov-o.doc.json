@@ -1295,7 +1295,7 @@
           "heading": false
         },
         {
-          "term": "usa",
+          "term": "manchester",
           "heading": false
         }
       ],
@@ -1588,11 +1588,11 @@
           "heading": false
         },
         {
-          "term": "ontology language",
+          "term": "namespace prefixes",
           "heading": false
         },
         {
-          "term": "namespace prefixes",
+          "term": "ontology language",
           "heading": false
         },
         {
@@ -1623,7 +1623,15 @@
           "heading": false
         },
         {
+          "term": "entity prov",
+          "heading": false
+        },
+        {
           "term": "wasattributedto prov",
+          "heading": false
+        },
+        {
+          "term": "wasinformedby prov",
           "heading": false
         },
         {
@@ -1631,16 +1639,8 @@
           "heading": false
         },
         {
-          "term": "entity prov",
-          "heading": false
-        },
-        {
           "term": "starting point",
           "heading": true
-        },
-        {
-          "term": "wasinformedby prov",
-          "heading": false
         },
         {
           "term": "wasassociatedwith prov",
@@ -1694,11 +1694,11 @@
           "heading": false
         },
         {
-          "term": "inc prov",
+          "term": "crimedata prov",
           "heading": false
         },
         {
-          "term": "crimedata prov",
+          "term": "inc prov",
           "heading": false
         }
       ],
@@ -1878,10 +1878,6 @@
           "heading": false
         },
         {
-          "term": "chart prov",
-          "heading": false
-        },
-        {
           "term": "activity prov",
           "heading": false
         },
@@ -1899,6 +1895,10 @@
         },
         {
           "term": "derek prov",
+          "heading": false
+        },
+        {
+          "term": "qualifiedassociation prov",
           "heading": false
         }
       ],
@@ -2031,15 +2031,11 @@
           "heading": false
         },
         {
-          "term": "activity prov",
-          "heading": false
-        },
-        {
           "term": "qualified properties",
           "heading": true
         },
         {
-          "term": "chart prov",
+          "term": "activity prov",
           "heading": false
         },
         {
@@ -2052,6 +2048,10 @@
         },
         {
           "term": "super-properties prov",
+          "heading": false
+        },
+        {
+          "term": "prefix rdfs",
           "heading": false
         }
       ],
@@ -2133,11 +2133,11 @@
           "heading": false
         },
         {
-          "term": "activity prov",
+          "term": "hadactivity rdfs",
           "heading": false
         },
         {
-          "term": "hadactivity rdfs",
+          "term": "activity prov",
           "heading": false
         },
         {
@@ -2149,11 +2149,11 @@
           "heading": false
         },
         {
-          "term": "atlocation rdfs",
+          "term": "agent prov",
           "heading": false
         },
         {
-          "term": "agent prov",
+          "term": "atlocation rdfs",
           "heading": false
         }
       ],
@@ -2235,11 +2235,11 @@
           "heading": false
         },
         {
-          "term": "added",
+          "term": "subproperty",
           "heading": false
         },
         {
-          "term": "subproperty",
+          "term": "added",
           "heading": false
         },
         {
@@ -2371,7 +2371,7 @@
           "heading": false
         },
         {
-          "term": "working group",
+          "term": "page cross",
           "heading": false
         }
       ],
@@ -2421,11 +2421,11 @@
           "heading": false
         },
         {
-          "term": "april",
+          "term": "url",
           "heading": false
         },
         {
-          "term": "url",
+          "term": "april",
           "heading": false
         },
         {
@@ -2468,11 +2468,11 @@
           "heading": false
         },
         {
-          "term": "april",
+          "term": "eds",
           "heading": false
         },
         {
-          "term": "eds",
+          "term": "april",
           "heading": false
         },
         {
@@ -2536,8 +2536,8 @@
       "heading": false
     },
     {
-      "term": "wasinfluencedby prov",
-      "heading": true
+      "term": "datetime prov",
+      "heading": false
     }
   ],
   "links": {

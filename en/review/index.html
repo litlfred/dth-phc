@@ -89,6 +89,15 @@
   @media (max-width: 40rem) { .diff-sbs { grid-template-columns: 1fr; } }
   /* Visual diff (0rxe): pictures on a white card, since they are screenshots
      of light pages; the mode buttons are native radios, one click each. */
+  /* A changed picture: before and after, side by side (the text diff cannot
+     see a new src). */
+  .diff-figures { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin: .25rem 0 .75rem; }
+  .diff-figure { margin: 0; border: 2px solid var(--rule); border-radius: .3rem; padding: .4rem; background: #fff; }
+  .diff-figure figcaption { font-weight: 600; font-size: .85rem; margin-bottom: .3rem; color: #1f1f1f; }
+  .diff-figure-base { border-color: #b3261e; }
+  .diff-figure-head { border-color: #4F6F52; }
+  .diff-figure img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+  @media (max-width: 40rem) { .diff-figures { grid-template-columns: 1fr; } }
   .diff-visual img { max-width: 100%; height: auto; border: 1px solid var(--rule); border-radius: .3rem; background: #fff; display: block; }
   .visual-modes { border: 0; padding: 0; margin: .25rem 0 .5rem; display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
   .visual-modes legend { float: left; margin-right: .5rem; font-weight: 600; }
@@ -209,8 +218,14 @@ var wordDiff = function wordDiff(a, b, limit = 4000000) {
     push("same", x.slice(x.length - suf).join(""));
   return out;
 };
-var cleanRendered = function cleanRendered(doc, html) {
+var cleanRendered = function cleanRendered(doc, html, base) {
   const parsed = new DOMParser().parseFromString(html, "text/html");
+  if (base)
+    parsed.querySelectorAll("img[src],source[src],a[href]").forEach((el) => {
+      const attr = el.hasAttribute("src") ? "src" : "href", v = el.getAttribute(attr) || "";
+      if (v && !/^([a-z][a-z0-9+.-]*:|\/|#)/i.test(v))
+        el.setAttribute(attr, base + v);
+    });
   parsed.querySelectorAll("script,iframe,object,embed,frame,frameset,link,meta,base,form").forEach((n) => n.remove());
   parsed.querySelectorAll("*").forEach((el) => {
     for (const a of Array.from(el.attributes)) {
@@ -220,6 +235,34 @@ var cleanRendered = function cleanRendered(doc, html) {
     }
   });
   return doc.importNode(parsed.body, !0);
+};
+var imageChange = function imageChange(doc, baseHtml, headHtml, cleanBase, cleanHead) {
+  const srcs = (html) => html === null ? [] : Array.from(new DOMParser().parseFromString(html, "text/html").querySelectorAll("img")).map((i) => i.getAttribute("src") || ""), b = srcs(baseHtml), h = srcs(headHtml);
+  if (b.join(`
+`) === h.join(`
+`))
+    return null;
+  const box = doc.createElement("div");
+  box.className = "diff-figures";
+  const side = (label, cls, html, clean) => {
+    const col = doc.createElement("figure");
+    col.className = "diff-figure " + cls;
+    const cap = doc.createElement("figcaption");
+    cap.textContent = label;
+    col.appendChild(cap);
+    const imgs = html === null ? [] : Array.from(clean(doc, html).querySelectorAll("img"));
+    if (!imgs.length) {
+      const p = doc.createElement("p");
+      p.className = "muted";
+      p.textContent = "no picture";
+      col.appendChild(p);
+    }
+    imgs.forEach((i) => col.appendChild(i));
+    box.appendChild(col);
+  };
+  side("Before", "diff-figure-base", baseHtml, cleanBase);
+  side("After", "diff-figure-head", headHtml, cleanHead);
+  return box;
 };
 var renderWordDiff = function renderWordDiff(doc, ops) {
   const pre = doc.createElement("pre");
@@ -1548,11 +1591,19 @@ var renderBrief = function renderBrief(doc, box, model, where, jump) {
     var base = t.base || null;
     var head = t.head || null;
     var out;
+    // Each side's HTML resolves relative links from its own page's directory.
+    function dirOf(u) { return u ? String(u).replace(/[#?].*$/, "").replace(/[^/]*$/, "") : ""; }
+    var headDir = dirOf(ctx.after) || dirOf(ctx.before);
+    var baseDir = dirOf(ctx.before) || headDir;
+    function cleanHead(d, h) { return cleanRendered(d, h, headDir); }
+    function cleanBase(d, h) { return cleanRendered(d, h, baseDir); }
+    var figs = (id === "inline" || id === "side-by-side") && (base || head) ? imageChange(document, base ? base.html : null, head ? head.html : null, cleanBase, cleanHead) : null;
+    if (figs) panel.appendChild(figs);
     if (id === "word") {
       var ops = wordDiff(base ? base.prose : "", head ? head.prose : "");
       out = ops === null ? "This block is too long for a word diff. Choose side by side." : renderWordDiff(document, ops);
     } else if (id === "inline") {
-      out = renderInline(document, base ? base.html : null, head ? head.html : null, wordDiff, cleanRendered);
+      out = renderInline(document, base ? base.html : null, head ? head.html : null, wordDiff, head ? cleanHead : cleanBase);
     } else if (id === "side-by-side") {
       // The rendered text of each side, diffed, says where each pane scrolls to.
       var runs = null;
@@ -1567,6 +1618,12 @@ var renderBrief = function renderBrief(doc, box, model, where, jump) {
       out = renderVisual(document, ctx.visual, ROOT, "vis-" + panel.id);
     } else if (id === "fields") {
       out = renderFields(document, ctx.structure);
+    }
+    // The pictures are already shown, before and after; inline shows only
+    // the text around them, and nothing when the picture was all that changed.
+    if (figs && id === "inline" && out && typeof out !== "string") {
+      out.querySelectorAll("img").forEach(function (i) { i.remove(); });
+      if (!(out.textContent || "").trim()) out = null;
     }
     if (typeof out === "string") panel.appendChild(el("p", out, "muted"));
     else if (out) panel.appendChild(out);

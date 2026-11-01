@@ -2194,7 +2194,7 @@
           "heading": false
         },
         {
-          "term": "linked data",
+          "term": "w3c",
           "heading": false
         }
       ],
@@ -2270,12 +2270,12 @@
           "heading": false
         },
         {
-          "term": "working group",
-          "heading": false
-        },
-        {
           "term": "document",
           "heading": true
+        },
+        {
+          "term": "working group",
+          "heading": false
         },
         {
           "term": "default vocabulary",
@@ -2494,11 +2494,11 @@
           "heading": false
         },
         {
-          "term": "green",
+          "term": "ecmascript",
           "heading": false
         },
         {
-          "term": "ecmascript",
+          "term": "green",
           "heading": false
         },
         {
@@ -2529,11 +2529,11 @@
           "heading": false
         },
         {
-          "term": "border",
+          "term": "font",
           "heading": false
         },
         {
-          "term": "font",
+          "term": "border",
           "heading": false
         }
       ],
@@ -2556,11 +2556,11 @@
       },
       "keywords": [
         {
-          "term": "graph entry",
+          "term": "blank node",
           "heading": false
         },
         {
-          "term": "blank node",
+          "term": "graph entry",
           "heading": false
         },
         {
@@ -2568,7 +2568,7 @@
           "heading": false
         },
         {
-          "term": "graph object",
+          "term": "node object",
           "heading": false
         },
         {
@@ -2619,12 +2619,12 @@
           "heading": false
         },
         {
-          "term": "map value",
-          "heading": false
-        },
-        {
           "term": "term",
           "heading": true
+        },
+        {
+          "term": "map value",
+          "heading": false
         },
         {
           "term": "language map",
@@ -2897,7 +2897,7 @@
           "heading": false
         },
         {
-          "term": "strings",
+          "term": "keyword",
           "heading": false
         }
       ],
@@ -3248,11 +3248,11 @@
           "heading": false
         },
         {
-          "term": "york city",
+          "term": "term definitions",
           "heading": false
         },
         {
-          "term": "term definitions",
+          "term": "york city",
           "heading": false
         }
       ],
@@ -3717,11 +3717,11 @@
           "heading": false
         },
         {
-          "term": "age",
+          "term": "term",
           "heading": false
         },
         {
-          "term": "term",
+          "term": "age",
           "heading": false
         },
         {
@@ -4089,15 +4089,15 @@
           "heading": false
         },
         {
-          "term": "utilizing",
-          "heading": false
-        },
-        {
           "term": "term",
           "heading": false
         },
         {
           "term": "json-ld",
+          "heading": false
+        },
+        {
+          "term": "utilizing",
           "heading": false
         },
         {
@@ -4361,7 +4361,7 @@
           "heading": false
         },
         {
-          "term": "age",
+          "term": "homepage",
           "heading": false
         }
       ],
@@ -4494,11 +4494,11 @@
           "heading": false
         },
         {
-          "term": "default language",
+          "term": "language tag",
           "heading": false
         },
         {
-          "term": "language tag",
+          "term": "default language",
           "heading": false
         },
         {
@@ -4880,11 +4880,11 @@
           "heading": false
         },
         {
-          "term": "necessary",
+          "term": "agent",
           "heading": false
         },
         {
-          "term": "agent",
+          "term": "necessary",
           "heading": false
         },
         {
@@ -4892,11 +4892,11 @@
           "heading": false
         },
         {
-          "term": "identified",
+          "term": "json-ld",
           "heading": false
         },
         {
-          "term": "json-ld",
+          "term": "identified",
           "heading": false
         }
       ],
@@ -4931,11 +4931,11 @@
           "heading": false
         },
         {
-          "term": "language indexing",
+          "term": "indexing allows",
           "heading": false
         },
         {
-          "term": "indexing allows",
+          "term": "language indexing",
           "heading": false
         },
         {
@@ -5064,11 +5064,11 @@
           "heading": false
         },
         {
-          "term": "value objects",
+          "term": "data indexing",
           "heading": false
         },
         {
-          "term": "data indexing",
+          "term": "value objects",
           "heading": false
         },
         {
@@ -5111,11 +5111,11 @@
           "heading": false
         },
         {
-          "term": "language",
+          "term": "indexing",
           "heading": true
         },
         {
-          "term": "indexing",
+          "term": "language",
           "heading": true
         },
         {
@@ -5307,11 +5307,11 @@
           "heading": false
         },
         {
-          "term": "contractor",
+          "term": "dave longley",
           "heading": false
         },
         {
-          "term": "dave longley",
+          "term": "contractor",
           "heading": false
         },
         {
@@ -5584,11 +5584,11 @@
           "heading": false
         },
         {
-          "term": "feasible",
+          "term": "caching",
           "heading": false
         },
         {
-          "term": "caching",
+          "term": "feasible",
           "heading": false
         }
       ],
@@ -5645,12 +5645,12 @@
           "heading": false
         },
         {
-          "term": "compacted",
-          "heading": true
-        },
-        {
           "term": "process",
           "heading": false
+        },
+        {
+          "term": "compacted",
+          "heading": true
         }
       ],
       "extract": "Compaction is the process of applying a provided context to an existing JSON-LD document. This process is described further in § 5.2 Compacted Document Form. Flattened Document Form Flattening is the process of extracting embedded nodes to the top level of the JSON tree, and replacing the embedded node with a reference, creating blank node identifiers as necessary. This process is described further in § 5.3",
@@ -5699,11 +5699,11 @@
           "heading": false
         },
         {
-          "term": "shorten iris",
+          "term": "compaction algorithm",
           "heading": false
         },
         {
-          "term": "compaction algorithm",
+          "term": "shorten iris",
           "heading": false
         },
         {
@@ -5715,7 +5715,7 @@
           "heading": false
         },
         {
-          "term": "expanded form",
+          "term": "manu sporny",
           "heading": false
         }
       ],
@@ -5793,6 +5793,10 @@
           "heading": true
         },
         {
+          "term": "true",
+          "heading": false
+        },
+        {
           "term": "plain",
           "heading": false
         },
@@ -5806,10 +5810,6 @@
         },
         {
           "term": "date",
-          "heading": false
-        },
-        {
-          "term": "term",
           "heading": false
         }
       ],
@@ -5875,16 +5875,16 @@
           "heading": true
         },
         {
-          "term": "reverse",
-          "heading": false
-        },
-        {
           "term": "children",
           "heading": false
         },
         {
-          "term": "lisa",
+          "term": "reverse",
           "heading": false
+        },
+        {
+          "term": "node",
+          "heading": true
         }
       ],
       "extract": "Input Example 132: Reversing Node Relationships Given the following expanded document: [{ \"@id\": \"http://example.org/#homer\", \"http://example.com/vocab#name\": [{\"@value\": \"Homer\"}], \"@reverse\": { Reverse properties can be even more useful when combined with framing, which can actually make node objects defined at the top-level of a document to become embedded nodes. JSON-LD provides a means to index such values, by",
@@ -5965,15 +5965,15 @@
           "heading": false
         },
         {
-          "term": "compacting",
-          "heading": false
-        },
-        {
-          "term": "represented",
-          "heading": false
-        },
-        {
           "term": "false",
+          "heading": false
+        },
+        {
+          "term": "true",
+          "heading": false
+        },
+        {
+          "term": "compacting",
           "heading": false
         },
         {
@@ -6535,11 +6535,11 @@
           "heading": false
         },
         {
-          "term": "whenever practical",
+          "term": "blank node",
           "heading": false
         },
         {
-          "term": "blank node",
+          "term": "whenever practical",
           "heading": false
         }
       ],
@@ -6801,11 +6801,11 @@
           "heading": false
         },
         {
-          "term": "represents named",
+          "term": "object contains",
           "heading": false
         },
         {
-          "term": "object contains",
+          "term": "represents named",
           "heading": false
         }
       ],
@@ -6898,11 +6898,11 @@
           "heading": false
         },
         {
-          "term": "preserved",
+          "term": "term",
           "heading": false
         },
         {
-          "term": "term",
+          "term": "preserved",
           "heading": false
         }
       ],
@@ -7369,11 +7369,11 @@
           "heading": false
         },
         {
-          "term": "language tag",
+          "term": "json canonicalization",
           "heading": false
         },
         {
-          "term": "json canonicalization",
+          "term": "language tag",
           "heading": false
         },
         {
@@ -7509,11 +7509,11 @@
           "heading": false
         },
         {
-          "term": "working group",
+          "term": "rdf data",
           "heading": false
         },
         {
-          "term": "rdf data",
+          "term": "working group",
           "heading": false
         },
         {
@@ -7529,11 +7529,11 @@
           "heading": false
         },
         {
-          "term": "strings",
+          "term": "publishers",
           "heading": false
         },
         {
-          "term": "publishers",
+          "term": "strings",
           "heading": false
         }
       ],
@@ -7609,19 +7609,19 @@
           "heading": false
         },
         {
-          "term": "language tag",
-          "heading": false
-        },
-        {
           "term": "language-tagged string",
           "heading": false
         },
         {
-          "term": "female",
+          "term": "language tag",
           "heading": false
         },
         {
           "term": "weiblich",
+          "heading": false
+        },
+        {
+          "term": "female",
           "heading": false
         }
       ],
@@ -7775,12 +7775,12 @@
       },
       "keywords": [
         {
-          "term": "booleans",
-          "heading": false
-        },
-        {
           "term": "native",
           "heading": true
+        },
+        {
+          "term": "booleans",
+          "heading": false
         },
         {
           "term": "xsd",
@@ -7880,7 +7880,7 @@
           "heading": false
         },
         {
-          "term": "avoiding",
+          "term": "wil",
           "heading": false
         }
       ],
@@ -7942,8 +7942,8 @@
           "heading": false
         },
         {
-          "term": "application",
-          "heading": true
+          "term": "iris",
+          "heading": false
         },
         {
           "term": "file extension",
@@ -8254,10 +8254,6 @@
           "heading": false
         },
         {
-          "term": "vienna university",
-          "heading": false
-        },
-        {
           "term": "anne van",
           "heading": false
         },
@@ -8266,11 +8262,15 @@
           "heading": false
         },
         {
-          "term": "digital bazaar",
+          "term": "vienna university",
           "heading": false
         },
         {
           "term": "living standard",
+          "heading": false
+        },
+        {
+          "term": "digital bazaar",
           "heading": false
         },
         {
@@ -8386,11 +8386,11 @@
           "heading": false
         },
         {
-          "term": "working group",
+          "term": "url",
           "heading": false
         },
         {
-          "term": "url",
+          "term": "working group",
           "heading": false
         },
         {
@@ -8430,11 +8430,11 @@
       "heading": false
     },
     {
-      "term": "json-ld value",
+      "term": "json-ld document",
       "heading": false
     },
     {
-      "term": "json-ld document",
+      "term": "json-ld value",
       "heading": false
     },
     {

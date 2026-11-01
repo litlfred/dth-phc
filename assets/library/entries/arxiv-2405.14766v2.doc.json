@@ -600,8 +600,8 @@
           "heading": false
         },
         {
-          "term": "restaurant reviews",
-          "heading": false
+          "term": "burden",
+          "heading": true
         }
       ],
       "extract": "The range of data used in our evaluation is also broad, because potentially relevant health information is found in a diverse range of sources: academic literature, electronic health records, public health guidance, social media, news articles, and questionnaire responses [22]. Details of all the tasks, datasets, and annotations are shown in Table 1. Figure 2: Evaluation Tasks by Public Health Area. A summary of",
@@ -631,15 +631,11 @@
           "heading": false
         },
         {
-          "term": "sexual activity",
-          "heading": false
-        },
-        {
           "term": "mmlu benchmark",
           "heading": false
         },
         {
-          "term": "llm ability",
+          "term": "sexual activity",
           "heading": false
         },
         {
@@ -647,11 +643,15 @@
           "heading": false
         },
         {
+          "term": "llm ability",
+          "heading": false
+        },
+        {
           "term": "prompted",
           "heading": false
         },
         {
-          "term": "nutrition",
+          "term": "genetics",
           "heading": false
         }
       ],
@@ -717,15 +717,15 @@
           "heading": false
         },
         {
-          "term": "pubmed article",
-          "heading": false
-        },
-        {
           "term": "health guidance",
           "heading": false
         },
         {
           "term": "advice statement",
+          "heading": false
+        },
+        {
+          "term": "pubmed article",
           "heading": false
         },
         {
@@ -868,8 +868,8 @@
           "heading": false
         },
         {
-          "term": "language",
-          "heading": true
+          "term": "api",
+          "heading": false
         }
       ],
       "extract": "We focus on evaluating open- source/weight LLMs that we host internally to ensure comparability of results, as well as for data protection. We run all models in FP16 precision where feasible. We include the latest GPT-4 models for comparison on a subset of tasks. 2.2.1 Large Language Models In our initial evaluations we assess eleven open-weight LLMs ranging from 7 billion to 123 billion parameters (including the",
@@ -952,11 +952,11 @@
           "heading": false
         },
         {
-          "term": "food extraction",
+          "term": "disease extraction",
           "heading": false
         },
         {
-          "term": "disease extraction",
+          "term": "food extraction",
           "heading": false
         },
         {
@@ -1015,7 +1015,7 @@
           "heading": false
         },
         {
-          "term": "tasks",
+          "term": "gains",
           "heading": false
         }
       ],
@@ -1171,12 +1171,12 @@
           "heading": false
         },
         {
-          "term": "impact",
-          "heading": true
-        },
-        {
           "term": "diff",
           "heading": false
+        },
+        {
+          "term": "impact",
+          "heading": true
         },
         {
           "term": "llama",
@@ -1328,8 +1328,8 @@
           "heading": true
         },
         {
-          "term": "literature",
-          "heading": true
+          "term": "standardised",
+          "heading": false
         }
       ],
       "extract": "Evaluation of LLMs is a broad and rapidly growing field of research [15] ranging from very general assessments of capabilities or intelligence to very task specific performance results (Fig. 5). However, while researchers have developed evaluations for related fields, there is limited literature assessing open-weight LLMs in a standardised way across a variety of public health specific tasks and data. Figure 5: LLM",
@@ -1436,12 +1436,12 @@
           "heading": false
         },
         {
-          "term": "carried out",
-          "heading": false
-        },
-        {
           "term": "interest",
           "heading": true
+        },
+        {
+          "term": "carried out",
+          "heading": false
         },
         {
           "term": "fairness",
@@ -1702,11 +1702,11 @@
           "heading": false
         },
         {
-          "term": "spot checking",
+          "term": "uncertain classifications",
           "heading": false
         },
         {
-          "term": "health experts",
+          "term": "sev eral",
           "heading": false
         }
       ],
@@ -1791,11 +1791,11 @@
       "heading": false
     },
     {
-      "term": "health experts",
+      "term": "health guidance",
       "heading": false
     },
     {
-      "term": "health guidance",
+      "term": "health experts",
       "heading": false
     },
     {

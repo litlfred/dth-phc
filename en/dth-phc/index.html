@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../assets/css/docs-ui.css?v=6071ae228cf3">
+<link rel="stylesheet" href="../../assets/css/docs-ui.css?v=18eb22b50395">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../assets/css/avatars.css?v=a0806788c1f5">
+<link rel="stylesheet" href="../../assets/css/avatars.css?v=e905de88eeeb">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -640,12 +640,12 @@
 <!-- BEFORE docs-ui.js and work-plan.js: both read window.faRender. -->
 <script src="../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
-<script src="../../assets/js/navbar-row.js?v=7dce6a7e2ab0" defer></script>
-<script src="../../assets/js/docs-ui.js?v=c7e8e0ebcddb" defer></script>
+<script src="../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
+<script src="../../assets/js/docs-ui.js?v=52e4c68c64c7" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../assets/js/edit-links.js?v=81bb303b6bc2" defer></script>
+<script src="../../assets/js/edit-links.js?v=4f82faf45c35" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -841,6 +841,31 @@
 .fa-doc .block-actions:hover, .fa-doc .block-actions:focus-within { opacity:1; }
 .fa-doc .block-actions a { text-decoration:none; margin-left:.5rem; }
 .fa-doc .block-actions .ba-existing { margin-left:.5rem; }
+.fa-doc html.fa-bp .block-actions { display:flex; flex-direction:column; gap:4px; align-items:flex-end; font-size:.8rem; opacity:.3; }
+.fa-doc html.fa-bp .block-actions:hover, .fa-doc html.fa-bp .block-actions:focus-within, .fa-doc html.fa-bp *:hover > .block-actions, .fa-doc html.fa-bp p:hover + .block-actions { opacity:1; }
+.fa-doc html.fa-bp .block-actions > a, .fa-doc html.fa-bp .block-actions > .ba-existing { display:none; }
+.fa-doc .ba-ic { position:relative; width:28px; height:28px; padding:0; border:1px solid #8885; border-radius:7px; background:color-mix(in srgb, currentColor 5%, transparent); color:inherit; font-size:14px; line-height:1; cursor:pointer; }
+.fa-doc .ba-ic:hover, .fa-doc .ba-ic:focus-visible, .fa-doc .ba-ic[aria-expanded="true"] { border-color:var(--link,#0b5cad); }
+.fa-doc .ba-ic[aria-expanded="true"] { background:var(--link,#0b5cad); color:#fff; }
+.fa-doc .ba-ic .ba-n { position:absolute; top:-6px; right:-8px; min-width:1.1em; padding:1px 4px; border-radius:8px; background:#b35900; color:#fff; font:700 10px/1.2 sans-serif; }
+.fa-doc .fa-block-panel { position:fixed; top:0; right:0; bottom:0; z-index:2147482000; width:min(380px,92vw); overflow-y:auto; box-sizing:border-box; padding:14px 18px;
+  background:var(--body-background-color,#fff); color:var(--body-text-color,inherit); border-left:1px solid #8886; box-shadow:-8px 0 24px #0003;
+  font-size:.88rem; line-height:1.45; transform:translateX(105%); transition:transform .16s ease; }
+.fa-doc .fa-block-panel.open { transform:none; }
+@media (prefers-reduced-motion:reduce) {
+.fa-doc .fa-block-panel { transition:none; }
+}
+.fa-doc .fa-block-panel .bp-tabs { display:flex; gap:6px; margin:0 2rem .6rem 0; }
+.fa-doc .fa-block-panel .bp-x { position:absolute; top:10px; right:12px; border:0; background:none; color:inherit; font-size:18px; cursor:pointer; opacity:.7; }
+.fa-doc .fa-block-panel h3 { margin:.2rem 0 .1rem; font-size:1rem; }
+.fa-doc .fa-block-panel .bp-sub { opacity:.7; font-size:.8rem; margin-bottom:.6rem; }
+.fa-doc html.fa-bp .fa-block-panel .block-actions { float:none; display:block; opacity:1; white-space:normal; font-size:inherit; margin:0; }
+.fa-doc html.fa-bp .fa-block-panel .block-actions > a { display:block; margin:.5rem 0; padding:.55rem .7rem; border:1px solid #8885; border-radius:8px; text-decoration:none; }
+.fa-doc .fa-block-panel .block-actions > a:hover { border-color:var(--link,#0b5cad); }
+.fa-doc .fa-block-panel .block-actions > a small { display:block; margin-top:.15rem; color:var(--body-text-color,#555); opacity:.85; font-size:.8rem; }
+.fa-doc .fa-block-panel .block-actions > .ba-existing { display:block; margin:.5rem 0; }
+.fa-doc html.fa-bp .fa-block-panel .block-actions > .ba-existing { display:block; }
+.fa-doc .fa-block-panel .block-actions > .ba-ic { display:none; }
 </style>
 <div class="fa-doc">
 <h1>
@@ -862,142 +887,21 @@
     
 <p><a id="sec:fm-metadata"></a>
 <a id="prose:fm-publication-metadata"></a><span class="block-actions" data-block="prose:fm-publication-metadata"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/front-matter/p-fm-publication-metadata.md" title="Edit this block's source on GitHub (folio/dth-phc/front-matter/p-fm-publication-metadata.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Publication+metadata+and+contents+%E2%80%94+prose%3Afm-publication-metadata&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Afm-publication-metadata%60%0A**Section%3A**+Publication+metadata+and+contents%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Ffront-matter%2Fp-fm-publication-metadata.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
-<strong>Publication metadata, licensing and contents.</strong></p>
-<p>Digital
-transformation
-handbook
-for primary
-health care
-Optimizing person-centred
-point of service systems
-Digital
-transformation
-handbook
-for primary
-health care
-Optimizing person-centred
-point of service systems
-Digital transformation handbook for primary health care: optimizing person-centred point of service systems
-ISBN 978-92-4-009336-2 (electronic version)
-ISBN 978-92-4-009337-9 (print version)
-© World Health Organization 2024
-Some rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence
-(CC BY-NC-SA 3.0 IGO; <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/igo">https://creativecommons.org/licenses/by-nc-sa/3.0/igo</a>).
-Under the terms of this licence, you may copy, redistribute and adapt the work for non-commercial purposes, provided the work
-is appropriately cited, as indicated below. In any use of this work, there should be no suggestion that WHO endorses any specific
-organization, products or services. The use of the WHO logo is not permitted. If you adapt the work, then you must license
-your work under the same or equivalent Creative Commons licence. If you create a translation of this work, you should add
-the following disclaimer along with the suggested citation: “This translation was not created by the World Health Organization
-(WHO). WHO is not responsible for the content or accuracy of this translation. The original English edition shall be the binding
-and authentic edition”.
-Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the
-World Intellectual Property Organization (<a href="http://www.wipo.int/amc/en/mediation/rules/">http://www.wipo.int/amc/en/mediation/rules/</a>).
-Suggested citation. Digital transformation handbook for primary health care: optimizing person-centred point of service
-systems. Geneva: World Health Organization; 2024. Licence: CC BY-NC-SA 3.0 IGO.
-Cataloguing-in-Publication (CIP) data. CIP data are available at <a href="https://iris.who.int/">https://iris.who.int/</a>.
-Sales, rights and licensing. To purchase WHO publications, see <a href="https://www.who.int/publications/book-orders">https://www.who.int/publications/book-orders</a>. To submit
-requests for commercial use and queries on rights and licensing, see <a href="https://www.who.int/copyright">https://www.who.int/copyright</a>.
-Third-party materials. If you wish to reuse material from this work that is attributed to a third party, such as tables, figures or
-images, it is your responsibility to determine whether permission is needed for that reuse and to obtain permission from the
-copyright holder. The risk of claims resulting from infringement of any third-party-owned component in the work rests solely
-with the user.
-General disclaimers. The designations employed and the presentation of the material in this publication do not imply the
-expression of any opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city or area or
-of its authorities, or concerning the delimitation of its frontiers or boundaries. Dotted and dashed lines on maps represent
-approximate border lines for which there may not yet be full agreement.
-The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or
-recommended by WHO in preference to others of a similar nature that are not mentioned. Errors and omissions excepted, the
-names of proprietary products are distinguished by initial capital letters.
-All reasonable precautions have been taken by WHO to verify the information contained in this publication. However, the
-published material is being distributed without warranty of any kind, either expressed or implied. The responsibility for the
-interpretation and use of the material lies with the reader. In no event shall WHO be liable for damages arising from its use.
-Contents
-Acknowledgements .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . iv
-Abbreviations .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . v
-Glossary .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . vi
-1.
-Introduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 1
-1.1
-Person-centred point of service systems .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6
-1.2
-SMART Guidelines .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 8
-1.3
-How this handbook was developed .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
-2. 	 How to use this handbook .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
-2.1
-Targeted scenarios of digital readiness .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 11
-2.2
-Targeted users. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-2.3
-Before using this resource .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
-2.4
-The stepwise approaches to digitizing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
-2.5
-Choices for software and digital applications  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 15
-3. 	 Understand user requirements .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
-3.1
-Follow key requirement-gathering methods .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
-3.2
-Get to know the users .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
-3.3
-Map business processes and workflows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-3.4
-Streamline data collection and indicator reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
-3.5
-Create a data dictionary. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-3.6
-Determine decision-support logic  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 32
-3.7
-Map health service schedules  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
-3.8
-Gather and prioritize requirements   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 35
-4. 	 	Undertake design and adaptation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
-4.1
-Finalize software and vendor selection .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 40
-4.2
-Validate functional requirements .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 41
-4.3
-Develop and test prototype design .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 41
-4.4
-Design system architecture. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
-4.5
-Build and quality assurance .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 48
-5. 	 Conduct training, testing and roll-out . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
-5.1
-Develop and conduct training .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 52
-5.2
-Test user acceptance and deployment readiness .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 52
-5.3
-Deploy the system .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 53
-5.4
-Manage feedback and system maintenance .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 53
-6. 	 Prepare for scale-up. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
-6.1
-Determine readiness for scaling up  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 56
-6.2
-Plan for phase-out of legacy system(s). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
-6.3
-Monitor and evaluate progress on objectives  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 59
-6.4
-Phase-out of legacy system(s)   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 59
-6.5
-Adopt change management practices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
-References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
-Annexes .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 64
-Annex 1: Principles for digital development .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 65
-Annex 2: Worksheet for semi-structured interviews .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 66
-Annex 3: Observations worksheet  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 68
-Annex 4: User persona worksheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
-Annex 5: User stories worksheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71
-Annex 6: Business process matrix guide .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 72
-Annex 7: Form inventory guide. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
-Annex 8: Form data mapping guide .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 74
-Annex 9: Aggregate indicator mapping guide. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
-Annex 10: Decision-support logic and scheduling matrix guide .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 79
-Annex 11: Template for a decision-support table  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 80
-Annex 12: Scheduling logic table guide .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 82
-Annex 13: Prioritization of requirements guide .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 83
-Annex 14: HL7 FHIR standard components .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 84</p>
+<strong>Publication metadata and licensing.</strong></p>
+<p><strong>Digital transformation handbook for primary health care: optimizing person-centred point of service systems</strong></p>
+<p>ISBN 978-92-4-009336-2 (electronic version)<br>
+ISBN 978-92-4-009337-9 (print version)</p>
+<p>© World Health Organization 2024</p>
+<p>Some rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence (CC BY-NC-SA 3.0 IGO; <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/igo">https://creativecommons.org/licenses/by-nc-sa/3.0/igo</a>).</p>
+<p>Under the terms of this licence, you may copy, redistribute and adapt the work for non-commercial purposes, provided the work is appropriately cited, as indicated below. In any use of this work, there should be no suggestion that WHO endorses any specific organization, products or services. The use of the WHO logo is not permitted. If you adapt the work, then you must license your work under the same or equivalent Creative Commons licence. If you create a translation of this work, you should add the following disclaimer along with the suggested citation: “This translation was not created by the World Health Organization (WHO). WHO is not responsible for the content or accuracy of this translation. The original English edition shall be the binding and authentic edition”.</p>
+<p>Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the World Intellectual Property Organization (<a href="http://www.wipo.int/amc/en/mediation/rules/">http://www.wipo.int/amc/en/mediation/rules/</a>).</p>
+<p>Suggested citation. Digital transformation handbook for primary health care: optimizing person-centred point of service systems. Geneva: World Health Organization; 2024. Licence: CC BY-NC-SA 3.0 IGO.</p>
+<p>Cataloguing-in-Publication (CIP) data. CIP data are available at <a href="https://iris.who.int/">https://iris.who.int/</a>.</p>
+<p>Sales, rights and licensing. To purchase WHO publications, see <a href="https://www.who.int/publications/book-orders">https://www.who.int/publications/book-orders</a>. To submit requests for commercial use and queries on rights and licensing, see <a href="https://www.who.int/copyright">https://www.who.int/copyright</a>.</p>
+<p>Third-party materials. If you wish to reuse material from this work that is attributed to a third party, such as tables, figures or images, it is your responsibility to determine whether permission is needed for that reuse and to obtain permission from the copyright holder. The risk of claims resulting from infringement of any third-party-owned component in the work rests solely with the user.</p>
+<p>General disclaimers. The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. Dotted and dashed lines on maps represent approximate border lines for which there may not yet be full agreement.</p>
+<p>The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended by WHO in preference to others of a similar nature that are not mentioned. Errors and omissions excepted, the names of proprietary products are distinguished by initial capital letters.</p>
+<p>All reasonable precautions have been taken by WHO to verify the information contained in this publication. However, the published material is being distributed without warranty of any kind, either expressed or implied. The responsibility for the interpretation and use of the material lies with the reader. In no event shall WHO be liable for damages arising from its use.</p>
 <p><a id="sec:fm-acknowledgements"></a></p>
 <h3 id="h-sec:fm-acknowledgements">
   
@@ -1060,6 +964,7 @@ The views of funding bodies have not influenced the contents of this publication
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:abbreviations"></a><span class="block-actions" data-block="tbl:abbreviations"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/front-matter/t-fm-abbreviations.md" title="Edit this block's source on GitHub (folio/dth-phc/front-matter/t-fm-abbreviations.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Abbreviations+%E2%80%94+tbl%3Aabbreviations&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aabbreviations%60%0A**Section%3A**+Abbreviations%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Ffront-matter%2Ft-fm-abbreviations.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Abbreviations (35 acronyms)</em> <a href="#tbl:abbreviations" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <div class="table-wrapper"><table>
@@ -1213,6 +1118,7 @@ The views of funding bodies have not influenced the contents of this publication
 </tbody>
 </table></div>
 <p><em>Abbreviations</em></p>
+</div>
 <p><a id="sec:fm-glossary"></a></p>
 <h3 id="h-sec:fm-glossary">
   
@@ -1222,6 +1128,7 @@ The views of funding bodies have not influenced the contents of this publication
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:glossary"></a><span class="block-actions" data-block="tbl:glossary"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/front-matter/t-fm-glossary.md" title="Edit this block's source on GitHub (folio/dth-phc/front-matter/t-fm-glossary.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Glossary+%E2%80%94+tbl%3Aglossary&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aglossary%60%0A**Section%3A**+Glossary%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Ffront-matter%2Ft-fm-glossary.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Glossary and glossary references</em> <a href="#tbl:glossary" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <div class="table-wrapper"><table>
@@ -1521,6 +1428,7 @@ The views of funding bodies have not influenced the contents of this publication
 <li>Cimperman R. UAT defined: a guide to practical user acceptance testing. Pearson Education/Addison-Wesley Professional; 2006.</li>
 </ol>
 <p><em>Glossary (59 defined terms and 24 glossary references)</em></p>
+</div>
 <p><a id="chap:ch01-introduction"></a></p>
 <h2 id="h-chap:ch01-introduction">
   
@@ -1598,6 +1506,7 @@ include:
 implementation of PCPOSSs in an integrated manner; and
 •	 use of the PCPOSS for tasks that are already defined as
 within the scope of practice for the health worker.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:fig-1"></a><span class="block-actions" data-block="tbl:fig-1"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/t-ch01-fig-1.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/t-ch01-fig-1.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+tbl%3Afig-1&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Afig-1%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Ft-ch01-fig-1.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 1.</strong> <em>Fig. 1 table: From paper to digital: a transformational journey</em> <a href="#tbl:fig-1" class="block-anchor" aria-label="Link to Table 1" title="Link to Table 1"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Fig. 1
@@ -1651,6 +1560,8 @@ From paper to digital: a transformational journey</p>
 </tbody>
 </table></div>
 <p><em>From paper to digital: a transformational journey (comparison of Paper, Digitization, Digitalization and Digital transformation)</em></p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:1"></a><span class="block-actions" data-block="fig:1"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/f-ch01-fig-1.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/f-ch01-fig-1.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+fig%3A1&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A1%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Ff-ch01-fig-1.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 1.</strong> <em>Fig. 1. From paper to digital: a transformational journey</em> <a href="#fig:1" class="block-anchor" aria-label="Link to Figure 1" title="Link to Figure 1"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p015.png" alt="Fig. 1. From paper to digital: a transformational journey"></p>
@@ -1679,6 +1590,7 @@ DIGITIZATION
 DIGITALIZATION
 DIGITAL
 TRANSFORMATION</p>
+</div>
 <p><a id="rec:who-2019-digital-tracking-decision-support"></a><span class="block-actions" data-block="rec:who-2019-digital-tracking-decision-support"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/rec-who-2019-digital-tracking-decision-support.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/rec-who-2019-digital-tracking-decision-support.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+rec%3Awho-2019-digital-tracking-decision-support&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60rec%3Awho-2019-digital-tracking-decision-support%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Frec-who-2019-digital-tracking-decision-support.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Recommendation.</strong> <em>WHO 2019 Digital Guideline Recommendation 8: Digital tracking of clients' health status and services combined with decision support</em></p>
 <blockquote>
@@ -1690,6 +1602,7 @@ TRANSFORMATION</p>
 </ul>
 </blockquote>
 <p><em>Source: WHO guideline: recommendations on digital interventions for health system strengthening. Geneva: World Health Organization; 2019 (ref. 2; <a href="https://iris.who.int/handle/10665/311941">https://iris.who.int/handle/10665/311941</a>).</em></p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:fig-2"></a><span class="block-actions" data-block="tbl:fig-2"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/t-ch01-fig-2.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/t-ch01-fig-2.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+tbl%3Afig-2&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Afig-2%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Ft-ch01-fig-2.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 2.</strong> <em>Fig. 2 as a table: The 2019 WHO guideline: recommendations on digital interventions for health system strengthening</em> <a href="#tbl:fig-2" class="block-anchor" aria-label="Link to Table 2" title="Link to Table 2"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Fig. 2	 The 2019 WHO guideline: recommendations on digital interventions for health system strengthening</p>
@@ -1711,6 +1624,8 @@ TRANSFORMATION</p>
 </table></div>
 <p>Source: WHO, 2019 (2).</p>
 <p><em>The 2019 WHO guideline: recommendations on digital interventions for health system strengthening</em></p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:2"></a><span class="block-actions" data-block="fig:2"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/f-ch01-fig-2.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/f-ch01-fig-2.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+fig%3A2&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A2%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Ff-ch01-fig-2.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 2.</strong> <em>Fig. 2. The 2019 WHO guideline: recommendations on digital interventions for health system strengthening</em> <a href="#fig:2" class="block-anchor" aria-label="Link to Figure 2" title="Link to Figure 2"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p016.png" alt="Fig. 2. The 2019 WHO guideline: recommendations on digital interventions for health system strengthening"></p>
@@ -1751,6 +1666,7 @@ components in an integrated manner; and
 scope of practice for the health worker.
 (Recommended only in specific contexts or conditions)
 Source: WHO, 2019 (2).</p>
+</div>
 <p><a id="prose:ch01-sec-003-phc-digital-ecosystem"></a><span class="block-actions" data-block="prose:ch01-sec-003-phc-digital-ecosystem"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/p-ch01-sec-003-phc-digital-ecosystem.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/p-ch01-sec-003-phc-digital-ecosystem.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+prose%3Ach01-sec-003-phc-digital-ecosystem&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Ach01-sec-003-phc-digital-ecosystem%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Fp-ch01-sec-003-phc-digital-ecosystem.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Primary health care digital ecosystem and workflow-based optimization.</strong></p>
 <p>Digital technologies of all kinds have become essential
@@ -1801,6 +1717,7 @@ support for health workers – all with the intention of improving
 and enhancing the health workers’ routine workflows to
 deliver continuity of care and better management for health
 service users, in an integrated manner (2,10).</p>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:3"></a><span class="block-actions" data-block="fig:3"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/f-ch01-fig-3.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/f-ch01-fig-3.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+fig%3A3&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A3%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Ff-ch01-fig-3.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 3.</strong> <em>Fig. 3. Primary health care digital ecosystem</em> <a href="#fig:3" class="block-anchor" aria-label="Link to Figure 3" title="Link to Figure 3"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/fig-3-phc-digital-ecosystem.svg" alt="Fig. 3. Delivering an integrated ecosystem of information systems and digital health solutions supports the PHC approach"></p>
@@ -1899,6 +1816,7 @@ and supervision to
 expand knowledge and
 skills of providers</p>
 <p><em>Delivering an integrated ecosystem of information systems and digital health solutions supports the PHC approach</em></p>
+</div>
 <p><a id="prose:ch01-sec-003-clerical-burden"></a><span class="block-actions" data-block="prose:ch01-sec-003-clerical-burden"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/p-ch01-sec-003-clerical-burden.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/p-ch01-sec-003-clerical-burden.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Introduction+and+WHO+Digital+Guideline+Recommendation+8+%E2%80%94+prose%3Ach01-sec-003-clerical-burden&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Ach01-sec-003-clerical-burden%60%0A**Section%3A**+Introduction+and+WHO+Digital+Guideline+Recommendation+8%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Fp-ch01-sec-003-clerical-burden.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Reasons for digitizing paper-based systems (clerical burden, workforce shortage and missed services).</strong></p>
 <p>Paper-based systems place a large clerical burden on the
@@ -2041,6 +1959,7 @@ exchange and continuity of care across time, health domains,
 facilities, providers and systems (16,17).  WHO is software
 agnostic and does not provide recommendations on specific
 digital health tools, software or platforms.</p>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:4"></a><span class="block-actions" data-block="fig:4"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/f-ch01-fig-4.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/f-ch01-fig-4.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+1.1+Person-centred+point+of+service+systems+%E2%80%94+fig%3A4&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A4%60%0A**Section%3A**+1.1+Person-centred+point+of+service+systems%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Ff-ch01-fig-4.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 4.</strong> <em>Fig. 4. The added value of “collect once, use for many purposes” principle</em> <a href="#fig:4" class="block-anchor" aria-label="Link to Figure 4" title="Link to Figure 4"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p019.png" alt="Fig. 4. The added value of “collect once, use for many purposes” principle"></p>
@@ -2072,6 +1991,7 @@ Primary, individual
 data collection
 Clinical, lab, pharmacy,
 registries, and ID data</p>
+</div>
 <p><a id="sec:1-2"></a></p>
 <h3 id="h-sec:1-2">
   
@@ -2119,10 +2039,12 @@ adapt and implement into country-specific contexts
 (see Fig. 5) (19). Instances where the knowledge layers and
 artifacts of SMART Guidelines may be useful are outlined
 throughout the document.</p>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:5"></a><span class="block-actions" data-block="fig:5"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch01-introduction/f-ch01-fig-5.md" title="Edit this block's source on GitHub (folio/dth-phc/ch01-introduction/f-ch01-fig-5.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+1.2+SMART+Guidelines+%E2%80%94+fig%3A5&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A5%60%0A**Section%3A**+1.2+SMART+Guidelines%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch01-introduction%2Ff-ch01-fig-5.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 5.</strong> <em>Fig. 5. WHO SMART Guidelines approach</em> <a href="#fig:5" class="block-anchor" aria-label="Link to Figure 5" title="Link to Figure 5"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/fig-5-smart-guidelines-approach.svg" alt="Fig. 5. WHO SMART Guidelines approach"></p>
 <p><em>Source: WHO, Digital transformation handbook for primary health care: optimizing person-centred point of service systems, 2024, Fig. 5 (PDF page 20), adapted from WHO SMART Guidelines (Mehl et al., 2021). Generated by the <code>smart-approach-svg</code> tool from the who-iris SMART Guidelines approach figure data (<code>who-iris/library/9789240116191-eng/figure-data/fig-5-smart-guidelines-approach.json</code>); the original page render is <code>who-iris/library/9789240093362-eng/figures/vfig-p020.png</code>.</em></p>
+</div>
 <p><a id="sec:1-3"></a></p>
 <h3 id="h-sec:1-3">
   
@@ -2257,6 +2179,23 @@ and testing.</p>
 </li>
 <li><strong>Rules:</strong> 4, hit policy <code>FIRST</code>. The last rule returns <code>"unknown"</code> when any input has not been answered.</li>
 </ul>
+<div class="fa-numbered fa-numbered-decision-table" data-dmn-decision="Decision_StartingScenario" data-dmn-file="dt-starting-scenario.dmn" data-dmn-hit-policy="FIRST">
+<style>.fa-dmn-table{border-collapse:separate;border-spacing:0;font-size:0.9em;line-height:1.35}.fa-dmn-table th,.fa-dmn-table td{border:0;border-bottom:1px solid var(--fa-dmn-line);padding:6px 8px;vertical-align:top;text-align:left}.fa-dmn-table thead th{font-weight:600;border-bottom:2px solid var(--fa-dmn-line)}.fa-dmn-table .fa-dmn-side{text-align:center;font-size:0.8em;letter-spacing:0.04em;text-transform:uppercase}.fa-dmn-table .fa-dmn-input{background:var(--fa-dmn-in-bg)}.fa-dmn-table .fa-dmn-output{background:var(--fa-dmn-out-bg)}.fa-dmn-table .fa-dmn-first-output{border-left:3px double var(--fa-dmn-line)}.fa-dmn-table tbody th{color:var(--fa-dmn-muted);font-weight:600;text-align:center}.fa-dmn-table a{text-decoration:underline dotted}.fa-dmn-table a.fa-dmn-ref{text-decoration:none;margin-left:2px}.fa-dmn-chip{display:inline-block;border-radius:999px;padding:1px 8px;margin:1px 0;white-space:nowrap}.fa-dmn-chip-input{border:1px solid var(--fa-dmn-line);background:var(--fa-dmn-bg)}.fa-dmn-any{color:var(--fa-dmn-muted);font-style:italic;opacity:0.7}.fa-dmn-or,.fa-dmn-not{color:var(--fa-dmn-muted);font-size:0.85em}.fa-dmn-description td{color:var(--fa-dmn-muted);padding-top:0;border-bottom:1px solid var(--fa-dmn-line)}.fa-dmn-has-note>th,.fa-dmn-has-note>td{border-bottom:0}.fa-dmn-table{--fa-dmn-line:#c9ced6;--fa-dmn-muted:#5b6470;--fa-dmn-bg:#fff;--fa-dmn-in-bg:#eef4fb;--fa-dmn-out-bg:#eef8f0}.fa-dmn-hue-0{background:#dbe9ff;color:#123d7a}.fa-dmn-hue-1{background:#d9f2e3;color:#14532d}.fa-dmn-hue-2{background:#fde9c8;color:#6b3d00}.fa-dmn-hue-3{background:#f6d9e4;color:#6d1a3a}.fa-dmn-hue-4{background:#e6dcf7;color:#3d2470}.fa-dmn-hue-5{background:#d6f0f2;color:#0f4f57}@media (prefers-color-scheme:dark){.fa-dmn-table{--fa-dmn-line:#3d4450;--fa-dmn-muted:#a3acb9;--fa-dmn-bg:#1b1f24;--fa-dmn-in-bg:#16212e;--fa-dmn-out-bg:#15261c}.fa-dmn-hue-0{background:#1d3557;color:#cfe0ff}.fa-dmn-hue-1{background:#1c3d2a;color:#c9f0d6}.fa-dmn-hue-2{background:#4a3410;color:#fde3b5}.fa-dmn-hue-3{background:#4a1f30;color:#f6cfdd}.fa-dmn-hue-4{background:#33264f;color:#e1d6f7}.fa-dmn-hue-5{background:#123c40;color:#cdeef0}}</style>
+<p class="fa-dmn-title"><strong>Starting scenario (2.1)</strong><br>The first rule that matches applies.</p>
+<div class="table-wrapper"><div class="table-wrapper"><table class="fa-dmn-table" aria-label="Starting scenario (2.1)">
+<thead><tr><th scope="col" rowspan="2">Rule</th><th scope="colgroup" colspan="2" class="fa-dmn-input fa-dmn-side">When</th><th scope="colgroup" colspan="2" class="fa-dmn-output fa-dmn-first-output fa-dmn-side">Then</th></tr><tr><th scope="col" class="fa-dmn-input"><span title="anyPcpossInPlace">any PCPOSS in place?</span></th><th scope="col" class="fa-dmn-input"><span title="comprehensiveAndInteroperable">comprehensive and interoperable?</span></th><th scope="col" class="fa-dmn-output fa-dmn-first-output"><span title="scenario">starting scenario</span></th><th scope="col" class="fa-dmn-output"><span title="entryStep">entry step</span></th></tr></thead>
+<tbody>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_PaperOnly">1</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;paper only&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">paper only</span></td><td class="fa-dmn-output" title="&quot;3.1 Follow key requirement-gathering methods (including 3.4.1 paper form inventory and 3.4.2 form data mapping)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">3.1 Follow key requirement-gathering methods (including 3.4.1 paper form inventory and 3.4.2 form data mapping)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Section 2.1 (Starting from a paper-only system): no PCPOSS is in place; only paper-based records are used at the point of care for service delivery and reporting. Enter at 3.1 and complete all five streamlining steps in 3.4, including 3.4.1 paper form inventory and 3.4.2 form data mapping.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_PartlyDigitized_Siloed">2</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;partly digitized&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">partly digitized</span></td><td class="fa-dmn-output" title="&quot;3.1 Follow key requirement-gathering methods (assess existing PCPOSS features; 3.4.1-3.4.2 optional if data list is established, recommended for full paper replacement)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-5">3.1 Follow key requirement-gathering methods (assess existing PCPOSS features; 3.4.1-3.4.2 optional if data list is established, recommended for full paper replacement)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Section 2.1 (Starting with some parts of the system already digitized): disparate or disconnected PCPOSSs exist with limited functionality, no interoperability, or parallel paper registers. Enter at 3.1 to document existing system features and combine or upgrade siloed PCPOSSs into a comprehensive, interoperable PCPOSS (3.4.1-3.4.2 remain recommended when replacing paper registers in their entirety).</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_PartlyDigitized_UpdateCarePathways">3</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;partly digitized&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">partly digitized</span></td><td class="fa-dmn-output" title="&quot;3.1 Follow key requirement-gathering methods (update existing PCPOSS to integrate care pathways; skip 3.4.1-3.4.2 where data list is already established)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">3.1 Follow key requirement-gathering methods (update existing PCPOSS to integrate care pathways; skip 3.4.1-3.4.2 where data list is already established)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Section 2.1: a PCPOSS is in place and being updated to better integrate additional care pathways or health domains. Inputs are explicit so that a missing answer falls to Rule_Unknown.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Unknown">4</th><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;unknown&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">unknown</span></td><td class="fa-dmn-output" title="&quot;Answer every input question before this decision is made.&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">Answer every input question before this decision is made.</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</em></small></td></tr>
+</tbody>
+</table></div></div>
+</div>
 <p><a id="sec:2-2"></a></p>
 <h3 id="h-sec:2-2">
   
@@ -3053,11 +2992,13 @@ at high levels of government and solution has strong
 government ownership, it will have a higher chance of
 success and long-term sustainability.
 WARNING</p>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:6"></a><span class="block-actions" data-block="fig:6"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch02-how-to-use/f-ch02-fig-6.md" title="Edit this block's source on GitHub (folio/dth-phc/ch02-how-to-use/f-ch02-fig-6.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+2.3+Before+using+this+resource+%E2%80%94+fig%3A6&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A6%60%0A**Section%3A**+2.3+Before+using+this+resource%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch02-how-to-use%2Ff-ch02-fig-6.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 6–1.1.1.</strong> <em>Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources, with this handbook in phase 05 (adapted from WHO DIIG Fig. 1.1.1)</em> <a href="#fig:6" class="block-anchor" aria-label="Link to Figure 6–1.1.1" title="Link to Figure 6–1.1.1"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/diig-phases-phc.svg" alt="Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources, with this handbook in phase 05"></p>
 <p><em>Source: adapted from WHO Digital transformation handbook for health product catalogue, 2025, Fig. 4, itself adapted from the 2020 WHO Digital implementation investment guide (DIIG), Fig. 1.1.1. Generated by the <code>diig-phases-svg</code> tool from the who-iris data for the product catalogue figure and this handbook's adaptation file; this handbook is positioned in phase 05 (Determining health content requirements) and marked "(this document)" in place of the product catalogue handbook.</em></p>
 <p><em>Fig. 6. Planning and implementing a digital health enterprise: phases, steps and resources, with this handbook in phase 05 (adapted from the product catalogue handbook, Fig. 4, and DIIG Fig. 1.1.1)</em></p>
+</div>
 <p><a id="prose:fig-06-diig-reproduces"></a><span class="block-actions" data-block="prose:fig-06-diig-reproduces"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch02-how-to-use/p-fig-06-diig-reproduces.md" title="Edit this block's source on GitHub (folio/dth-phc/ch02-how-to-use/p-fig-06-diig-reproduces.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+2.3+Before+using+this+resource+%E2%80%94+prose%3Afig-06-diig-reproduces&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Afig-06-diig-reproduces%60%0A**Section%3A**+2.3+Before+using+this+resource%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch02-how-to-use%2Fp-fig-06-diig-reproduces.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Fig. 6. Digital health guidelines and tools by DIIG phase (reproduces DIIG Fig. 1.1.1).</strong></p>
 <h1>
@@ -3160,6 +3101,7 @@ recognizing and acknowledging that there are multiple leading
 practices and methodologies available. Some software-specific or
 organization-specific methods and practices not covered in this
 handbook may be preferable, depending on context.</p>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:7"></a><span class="block-actions" data-block="fig:7"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch02-how-to-use/f-ch02-fig-7.md" title="Edit this block's source on GitHub (folio/dth-phc/ch02-how-to-use/f-ch02-fig-7.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+2.4+The+stepwise+approaches+to+digitizing+%E2%80%94+fig%3A7&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A7%60%0A**Section%3A**+2.4+The+stepwise+approaches+to+digitizing%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch02-how-to-use%2Ff-ch02-fig-7.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 7.</strong> <em>Fig. 7. Steps in this handbook to optimize a PCPOSS (with iterative agile MVP build-and-test loop)</em> <a href="#fig:7" class="block-anchor" aria-label="Link to Figure 7" title="Link to Figure 7"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/bp-pcposs-implementation-lifecycle.svg" alt="Fig. 7. Steps in this handbook to optimize a person-centred point of service system (PCPOSS)"></p>
@@ -3215,6 +3157,7 @@ roll
 out
 Deploy,</p>
 <p><em>Steps in this handbook to optimize a person-centred point of service system (PCPOSS)</em></p>
+</div>
 <p><a id="bp:pcposs-implementation-lifecycle"></a><span class="block-actions" data-block="bp:pcposs-implementation-lifecycle"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.md" title="Edit this block's source on GitHub (folio/dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+2.4+The+stepwise+approaches+to+digitizing+%E2%80%94+bp%3Apcposs-implementation-lifecycle&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60bp%3Apcposs-implementation-lifecycle%60%0A**Section%3A**+2.4+The+stepwise+approaches+to+digitizing%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch02-how-to-use%2Fbp-pcposs-implementation-lifecycle.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Business-process.</strong> <em>PCPOSS four-phase implementation lifecycle and agile iteration loop</em></p>
 <h1>
@@ -3307,6 +3250,7 @@ Understand user requirements</p>
 <p>The adoption of a person-centred point of service system (PCPOSS) requires a solid understanding of what data health workers need for routine service delivery and bottom-up accountability.</p>
 <p>This chapter describes the fundamental task of requirements gathering, in which user needs and constraints are documented. This process will rely on desk reviews, observations, workshops, and in-depth discussions and interviews with key stakeholders. Stakeholders include, but are not limited to, end-users of the system (e.g. appropriate health worker occupational group) and indirect beneficiaries (e.g. public health managers in the public health authority).</p>
 <p>By the end of this chapter, the implementation team should have a clear understanding of the scope of the system, how the workflows and data flow may need to be optimized, and the relevant data that will need to be collected and accounted for at individual and aggregate levels. If a digital system already exists, the team should also have a clear understanding of the key functionalities and features of the present system, and how a PCPOSS would complement or upgrade the present system.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:ch03-phase-panel"></a><span class="block-actions" data-block="tbl:ch03-phase-panel"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/t-ch03-phase-panel.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/t-ch03-phase-panel.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+tbl%3Ach03-phase-panel&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Ach03-phase-panel%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ft-ch03-phase-panel.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Chapter 3 phase panel (Who should be involved / Inputs / Tools / Outputs)</em> <a href="#tbl:ch03-phase-panel" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <div class="table-wrapper"><table>
@@ -3336,6 +3280,7 @@ Understand user requirements</p>
 </tbody>
 </table></div>
 <p><em>Chapter 3 phase panel: Who should be involved, Inputs, Tools and Outputs for understanding user requirements</em></p>
+</div>
 <p><a id="bp:understand-user-requirements"></a><span class="block-actions" data-block="bp:understand-user-requirements"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+bp%3Aunderstand-user-requirements&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60bp%3Aunderstand-user-requirements%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Fbp-understand-user-requirements.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Business-process.</strong> <em>Phase 1: Understanding user requirements (Chapter 3)</em></p>
 <h1>
@@ -3621,6 +3566,7 @@ be reserved for the end of the requirements-gathering process
 to validate requirements gathered through other methods (i.e.
 semi-structured interviews and observations).
 Express gratitude for health worker’s time</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:fig-8"></a><span class="block-actions" data-block="tbl:fig-8"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/t-ch03-fig-8.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/t-ch03-fig-8.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.1+Follow+key+requirement-gathering+methods+%E2%80%94+tbl%3Afig-8&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Afig-8%60%0A**Section%3A**+3.1+Follow+key+requirement-gathering+methods%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ft-ch03-fig-8.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 8.</strong> <em>Fig. 8 as a table: example prompts and questions, broad to narrow</em> <a href="#tbl:fig-8" class="block-anchor" aria-label="Link to Table 8" title="Link to Table 8"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Fig. 8	 Example prompts and questions for starting broad and narrowing down</p>
@@ -3658,6 +3604,8 @@ Express gratitude for health worker’s time</p>
 <p>Express gratitude for health worker’s time.</p>
 <p>Source: Tran, 2018 (35). The work was adapted with the addition of questions under each section of the pyramid for contextualization to health care and is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0 DEED. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>).</p>
 <p><em>Example prompts and questions for starting broad and narrowing down</em></p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:8"></a><span class="block-actions" data-block="fig:8"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/f-ch03-fig-8.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/f-ch03-fig-8.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.1+Follow+key+requirement-gathering+methods+%E2%80%94+fig%3A8&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A8%60%0A**Section%3A**+3.1+Follow+key+requirement-gathering+methods%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ff-ch03-fig-8.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 8.</strong> <em>Fig. 8. Example prompts and questions for starting broad and narrowing down</em> <a href="#fig:8" class="block-anchor" aria-label="Link to Figure 8" title="Link to Figure 8"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p032.png" alt="Fig. 8. Example prompts and questions for starting broad and narrowing down"></p>
@@ -3709,6 +3657,7 @@ These follow-up interviews are crucial both to ensure a correct
 understanding of observations and to allow understanding of
 the root causes of observed actions. It is important to remove
 personal and observational biases, as far as possible.</p>
+</div>
 <p><a id="sec:3-2"></a></p>
 <h3 id="h-sec:3-2">
   
@@ -4049,6 +3998,7 @@ redundancies clearly labelled</p>
 to-be workflows for each business process, clearly
 labelling where the PCPOSS would facilitate or
 entirely replace certain tasks.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:1"></a><span class="block-actions" data-block="tbl:1"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/t-ch03-table-1.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/t-ch03-table-1.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.3+Map+business+processes+and+workflows+%E2%80%94+tbl%3A1&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3A1%60%0A**Section%3A**+3.3+Map+business+processes+and+workflows%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ft-ch03-table-1.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 1.</strong> <em>Table 1. Key Business Process Model and Notation (BPMN) symbols</em> <a href="#tbl:1" class="block-anchor" aria-label="Link to Table 1" title="Link to Table 1"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Table 1. Key Business Process Model and Notation (BPMN) symbols</p>
@@ -4146,6 +4096,8 @@ entirely replace certain tasks.</p>
 <p>Source: Object Management Group (47).
 Note: The BPMN standard outlines additional conventions and nuanced symbols that can be used. The above selection of
 symbols should be sufficient, though, for the purposes of illustrating the business process workflows in a clear, standardized way.</p>
+</div>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:fig-9"></a><span class="block-actions" data-block="tbl:fig-9"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/t-ch03-fig-9.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/t-ch03-fig-9.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.3+Map+business+processes+and+workflows+%E2%80%94+tbl%3Afig-9&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Afig-9%60%0A**Section%3A**+3.3+Map+business+processes+and+workflows%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ft-ch03-fig-9.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 9.</strong> <em>Fig. 9 as a table: Example business process matrix from family planning DAK</em> <a href="#tbl:fig-9" class="block-anchor" aria-label="Link to Table 9" title="Link to Table 9"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Fig. 9	 Example business process matrix from family planning DAK</p>
@@ -4197,17 +4149,23 @@ symbols should be sufficient, though, for the purposes of illustrating the busin
 </table></div>
 <p>Source: WHO (30)</p>
 <p><em>Example business process matrix from family planning DAK</em></p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:9"></a><span class="block-actions" data-block="fig:9"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/f-ch03-fig-9.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/f-ch03-fig-9.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.3+Map+business+processes+and+workflows+%E2%80%94+fig%3A9&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A9%60%0A**Section%3A**+3.3+Map+business+processes+and+workflows%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ff-ch03-fig-9.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 9.</strong> <em>Fig. 9. Example business process matrix from family planning DAK</em> <a href="#fig:9" class="block-anchor" aria-label="Link to Figure 9" title="Link to Figure 9"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p035.png" alt="Fig. 9. Example business process matrix from family planning DAK"></p>
 <p>Fig. 9	 Example business process matrix from family planning DAK</p>
 <p>Source: WHO (30)</p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:10"></a><span class="block-actions" data-block="fig:10"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/f-ch03-fig-10.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/f-ch03-fig-10.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.3+Map+business+processes+and+workflows+%E2%80%94+fig%3A10&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A10%60%0A**Section%3A**+3.3+Map+business+processes+and+workflows%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ff-ch03-fig-10.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 10.</strong> <em>Fig. 10. Workflow A: Registration business process (from WHO ANC DAK)</em> <a href="#fig:10" class="block-anchor" aria-label="Link to Figure 10" title="Link to Figure 10"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/bp-anc-registration-workflow-a.svg" alt="Fig. 10. Workflow A: Registration business process"></p>
 <p>Fig. 10	 Workflow A: Registration business process</p>
 <p>Source: WHO (29)</p>
 <p><em>Workflow A: Registration business process</em></p>
+</div>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:fig-11"></a><span class="block-actions" data-block="tbl:fig-11"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/t-ch03-fig-11.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/t-ch03-fig-11.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.3+Map+business+processes+and+workflows+%E2%80%94+tbl%3Afig-11&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Afig-11%60%0A**Section%3A**+3.3+Map+business+processes+and+workflows%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ft-ch03-fig-11.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 11.</strong> <em>Fig. 11 as a table: Notes and annotations for Workflow A: Registration business process</em> <a href="#tbl:fig-11" class="block-anchor" aria-label="Link to Table 11" title="Link to Table 11"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Fig. 11	 Notes and annotations for Workflow A: Registration business process</p>
@@ -4261,11 +4219,14 @@ symbols should be sufficient, though, for the purposes of illustrating the busin
 </table></div>
 <p>Source: WHO (29)</p>
 <p><em>Notes and annotations for Workflow A: Registration business process</em></p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:11"></a><span class="block-actions" data-block="fig:11"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/f-ch03-fig-11.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/f-ch03-fig-11.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.3+Map+business+processes+and+workflows+%E2%80%94+fig%3A11&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A11%60%0A**Section%3A**+3.3+Map+business+processes+and+workflows%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ff-ch03-fig-11.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 11.</strong> <em>Fig. 11. Notes and annotations for Workflow A: Registration business process</em> <a href="#fig:11" class="block-anchor" aria-label="Link to Figure 11" title="Link to Figure 11"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p038.png" alt="Fig. 11. Notes and annotations for Workflow A: Registration business process"></p>
 <p>Fig. 11	 Notes and annotations for Workflow A: Registration business process</p>
 <p>Source: WHO (29)</p>
+</div>
 <p><a id="prose:ch03-sec-014-annotations"></a><span class="block-actions" data-block="prose:ch03-sec-014-annotations"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/p-ch03-sec-014-annotations.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/p-ch03-sec-014-annotations.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.3+Map+business+processes+and+workflows+%E2%80%94+prose%3Ach03-sec-014-annotations&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Ach03-sec-014-annotations%60%0A**Section%3A**+3.3+Map+business+processes+and+workflows%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Fp-ch03-sec-014-annotations.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>3.3 Annotating workflows, and reference business processes (TIP).</strong></p>
 <p>Beyond simply labelling each activity within a workflow, it is also important to add annotations to the activities, describing, for example, a list of forms to be filled out or other nuances that it may not be possible to capture in a workflow diagram. For example, if it is known that a certain activity requires 1 hour of the health worker’s time every day, that should be recorded as an annotation. Activities that cannot be digitized should also be labelled as such. Annotations are also a useful way to take note of any national or global guidelines and recommendations that might have shaped a specific workflow.</p>
@@ -4470,6 +4431,7 @@ across multiple stakeholders.
 Answering the questions shown in Fig. 12 in the logical order
 is a good way to identify the data elements that should be
 removed or reconciled (see Fig. 12).</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:fig-12"></a><span class="block-actions" data-block="tbl:fig-12"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/t-ch03-fig-12.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/t-ch03-fig-12.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.4+Streamline+data+collection+and+indicator+reporting+%E2%80%94+tbl%3Afig-12&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Afig-12%60%0A**Section%3A**+3.4+Streamline+data+collection+and+indicator+reporting%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ft-ch03-fig-12.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 12.</strong> <em>Fig. 12 decision matrix: Keep or remove a data element</em> <a href="#tbl:fig-12" class="block-anchor" aria-label="Link to Table 12" title="Link to Table 12"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Fig. 12	 Is each and every data element collected truly needed?</p>
@@ -4500,10 +4462,13 @@ removed or reconciled (see Fig. 12).</p>
 </tbody>
 </table></div>
 <p><em>Is each and every data element collected truly needed? (Decision criteria for keeping or removing a data element)</em></p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:12"></a><span class="block-actions" data-block="fig:12"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/f-ch03-fig-12.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/f-ch03-fig-12.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.4+Streamline+data+collection+and+indicator+reporting+%E2%80%94+fig%3A12&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A12%60%0A**Section%3A**+3.4+Streamline+data+collection+and+indicator+reporting%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ff-ch03-fig-12.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 12.</strong> <em>Fig. 12. Is each and every data element collected truly needed?</em> <a href="#fig:12" class="block-anchor" aria-label="Link to Figure 12" title="Link to Figure 12"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p042.png" alt="Fig. 12. Is each and every data element collected truly needed?"></p>
 <p><em>Source: WHO, Digital transformation handbook for primary health care, 2024, PDF pages 41–42.</em></p>
+</div>
 <p><a id="dt:keep-data-element"></a><span class="block-actions" data-block="dt:keep-data-element"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/dt-keep-data-element.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/dt-keep-data-element.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.4+Streamline+data+collection+and+indicator+reporting+%E2%80%94+dt%3Akeep-data-element&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60dt%3Akeep-data-element%60%0A**Section%3A**+3.4+Streamline+data+collection+and+indicator+reporting%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Fdt-keep-data-element.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Decision-table.</strong> <em>Data-element minimization decision table (section 3.4.4, Fig. 12)</em></p>
 <h1>
@@ -4540,6 +4505,27 @@ removed or reconciled (see Fig. 12).</p>
 </li>
 <li><strong>Rules:</strong> 6, hit policy <code>FIRST</code>. The last rule returns <code>"unknown"</code> when any input has not been answered.</li>
 </ul>
+<div class="fa-numbered fa-numbered-decision-table" data-dmn-decision="Decision_KeepDataElement" data-dmn-file="dt-keep-data-element.dmn" data-dmn-hit-policy="FIRST">
+<style>.fa-dmn-table{border-collapse:separate;border-spacing:0;font-size:0.9em;line-height:1.35}.fa-dmn-table th,.fa-dmn-table td{border:0;border-bottom:1px solid var(--fa-dmn-line);padding:6px 8px;vertical-align:top;text-align:left}.fa-dmn-table thead th{font-weight:600;border-bottom:2px solid var(--fa-dmn-line)}.fa-dmn-table .fa-dmn-side{text-align:center;font-size:0.8em;letter-spacing:0.04em;text-transform:uppercase}.fa-dmn-table .fa-dmn-input{background:var(--fa-dmn-in-bg)}.fa-dmn-table .fa-dmn-output{background:var(--fa-dmn-out-bg)}.fa-dmn-table .fa-dmn-first-output{border-left:3px double var(--fa-dmn-line)}.fa-dmn-table tbody th{color:var(--fa-dmn-muted);font-weight:600;text-align:center}.fa-dmn-table a{text-decoration:underline dotted}.fa-dmn-table a.fa-dmn-ref{text-decoration:none;margin-left:2px}.fa-dmn-chip{display:inline-block;border-radius:999px;padding:1px 8px;margin:1px 0;white-space:nowrap}.fa-dmn-chip-input{border:1px solid var(--fa-dmn-line);background:var(--fa-dmn-bg)}.fa-dmn-any{color:var(--fa-dmn-muted);font-style:italic;opacity:0.7}.fa-dmn-or,.fa-dmn-not{color:var(--fa-dmn-muted);font-size:0.85em}.fa-dmn-description td{color:var(--fa-dmn-muted);padding-top:0;border-bottom:1px solid var(--fa-dmn-line)}.fa-dmn-has-note>th,.fa-dmn-has-note>td{border-bottom:0}.fa-dmn-table{--fa-dmn-line:#c9ced6;--fa-dmn-muted:#5b6470;--fa-dmn-bg:#fff;--fa-dmn-in-bg:#eef4fb;--fa-dmn-out-bg:#eef8f0}.fa-dmn-hue-0{background:#dbe9ff;color:#123d7a}.fa-dmn-hue-1{background:#d9f2e3;color:#14532d}.fa-dmn-hue-2{background:#fde9c8;color:#6b3d00}.fa-dmn-hue-3{background:#f6d9e4;color:#6d1a3a}.fa-dmn-hue-4{background:#e6dcf7;color:#3d2470}.fa-dmn-hue-5{background:#d6f0f2;color:#0f4f57}@media (prefers-color-scheme:dark){.fa-dmn-table{--fa-dmn-line:#3d4450;--fa-dmn-muted:#a3acb9;--fa-dmn-bg:#1b1f24;--fa-dmn-in-bg:#16212e;--fa-dmn-out-bg:#15261c}.fa-dmn-hue-0{background:#1d3557;color:#cfe0ff}.fa-dmn-hue-1{background:#1c3d2a;color:#c9f0d6}.fa-dmn-hue-2{background:#4a3410;color:#fde3b5}.fa-dmn-hue-3{background:#4a1f30;color:#f6cfdd}.fa-dmn-hue-4{background:#33264f;color:#e1d6f7}.fa-dmn-hue-5{background:#123c40;color:#cdeef0}}</style>
+<p class="fa-dmn-title"><strong>Data element retention (3.4.4, Fig. 12)</strong><br>The first rule that matches applies.</p>
+<div class="table-wrapper"><div class="table-wrapper"><table class="fa-dmn-table" aria-label="Data element retention (3.4.4, Fig. 12)">
+<thead><tr><th scope="col" rowspan="2">Rule</th><th scope="colgroup" colspan="3" class="fa-dmn-input fa-dmn-side">When</th><th scope="colgroup" colspan="2" class="fa-dmn-output fa-dmn-first-output fa-dmn-side">Then</th></tr><tr><th scope="col" class="fa-dmn-input"><span title="duplicated">duplicated?</span></th><th scope="col" class="fa-dmn-input"><span title="orphaned">orphaned?</span></th><th scope="col" class="fa-dmn-input"><span title="neededForCareOrIndicator">needed for care or for an indicator?</span></th><th scope="col" class="fa-dmn-output fa-dmn-first-output"><span title="decision">keep or remove</span></th><th scope="col" class="fa-dmn-output"><span title="action">action to be taken (Fig. 12)</span></th></tr></thead>
+<tbody>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_NotNeeded_Remove">1</th><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;remove&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">remove</span></td><td class="fa-dmn-output" title="&quot;Remove data element not needed for service delivery or indicator reporting (Fig. 12, question 2)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">Remove data element not needed for service delivery or indicator reporting (Fig. 12, question 2)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Fig. 12, Question 2: Under data minimization, only data elements required for health service delivery (clinical decision-making, care provision) or accountability (mandatory indicator reporting) are essential. Remove data elements not needed for either purpose.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_DuplicatedAndOrphaned_ReconcileLinkAndKeep">2</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;keep&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">keep</span></td><td class="fa-dmn-output" title="&quot;Reconcile duplicated data elements into a single element collected once, link to primary data element, and keep (Fig. 12, questions 1 and 3)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">Reconcile duplicated data elements into a single element collected once, link to primary data element, and keep (Fig. 12, questions 1 and 3)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Fig. 12, Questions 1 and 3: Essential data element that is both duplicated across forms/labels and orphaned from its primary data element. Reconcile duplicates into one element with one label and link to its primary data element.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Duplicated_ReconcileAndKeep">3</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;keep&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">keep</span></td><td class="fa-dmn-output" title="&quot;Reconcile duplicated data elements into a single data element collected once with one label, and keep (Fig. 12, question 1)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">Reconcile duplicated data elements into a single data element collected once with one label, and keep (Fig. 12, question 1)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Fig. 12, Question 1: Essential data element duplicated across forms or under different labels. Reconcile into a single data element collected once with one label.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Orphaned_LinkAndKeep">4</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;keep&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">keep</span></td><td class="fa-dmn-output" title="&quot;Link orphaned data element to its relevant primary data element and keep (Fig. 12, question 3)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">Link orphaned data element to its relevant primary data element and keep (Fig. 12, question 3)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Fig. 12, Question 3: Essential data element that is orphaned (dependent on a primary data element linkage that is missing). Link it to its relevant primary data element and keep.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_EssentialClean_Keep">5</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;keep&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">keep</span></td><td class="fa-dmn-output" title="&quot;Keep data element in consolidated data dictionary (3.4.5, 3.5)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">Keep data element in consolidated data dictionary (3.4.5, 3.5)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Fig. 12, Questions 1-3: Data element is needed for service delivery or accountability, is not duplicated, and is not orphaned. Keep in the consolidated data dictionary (3.4.5, 3.5).</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Unknown">6</th><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;unknown&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">unknown</span></td><td class="fa-dmn-output" title="&quot;Answer every input question before this decision is made.&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">Answer every input question before this decision is made.</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</em></small></td></tr>
+</tbody>
+</table></div></div>
+</div>
 <p><a id="sec:3-5"></a></p>
 <h3 id="h-sec:3-5">
   
@@ -4772,6 +4758,7 @@ same, but the content associated with the tasks or activity
 might differ. Decision trees fill this gap. Each box in a decision
 tree will need to be further detailed so that engineers can
 programme the decision-support logic into software.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:fig-13"></a><span class="block-actions" data-block="tbl:fig-13"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/t-ch03-fig-13.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/t-ch03-fig-13.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.6+Determine+decision-support+logic+%E2%80%94+tbl%3Afig-13&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Afig-13%60%0A**Section%3A**+3.6+Determine+decision-support+logic%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ft-ch03-fig-13.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 13.</strong> <em>Fig. 13 as a table: Example decision-support logic matrix from DAK for HIV</em> <a href="#tbl:fig-13" class="block-anchor" aria-label="Link to Table 13" title="Link to Table 13"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Fig. 13	 Example decision-support logic matrix from DAK for HIV</p>
@@ -4825,11 +4812,14 @@ programme the decision-support logic into software.</p>
 </table></div>
 <p>Source: WHO (31)</p>
 <p><em>Example decision-support logic matrix from DAK for HIV</em></p>
+</div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:13"></a><span class="block-actions" data-block="fig:13"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/f-ch03-fig-13.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/f-ch03-fig-13.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.6+Determine+decision-support+logic+%E2%80%94+fig%3A13&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A13%60%0A**Section%3A**+3.6+Determine+decision-support+logic%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ff-ch03-fig-13.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 13.</strong> <em>Fig. 13. Example decision-support logic matrix from DAK for HIV</em> <a href="#fig:13" class="block-anchor" aria-label="Link to Figure 13" title="Link to Figure 13"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p045.png" alt="Fig. 13. Example decision-support logic matrix from DAK for HIV"></p>
 <p>Fig. 13	 Example decision-support logic matrix from DAK for HIV</p>
 <p>Source: WHO (31)</p>
+</div>
 <p><a id="prose:fig-13-hiv-decision-matrix-reproduces"></a><span class="block-actions" data-block="prose:fig-13-hiv-decision-matrix-reproduces"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/p-fig-13-hiv-decision-matrix-reproduces.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/p-fig-13-hiv-decision-matrix-reproduces.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.6+Determine+decision-support+logic+%E2%80%94+prose%3Afig-13-hiv-decision-matrix-reproduces&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Afig-13-hiv-decision-matrix-reproduces%60%0A**Section%3A**+3.6+Determine+decision-support+logic%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Fp-fig-13-hiv-decision-matrix-reproduces.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Fig. 13. Illustrative HIV decision-support logic matrix (reproduces WHO HIV DAK).</strong></p>
 <h1>
@@ -4844,12 +4834,14 @@ programme the decision-support logic into software.</p>
 <ul>
 <li><strong>Boundary rule (<code>reproduces</code> link, not re-extracted as PHC clinical logic):</strong> The clinical rules in Fig. 13 belong to the WHO HIV DAK (<code>HIV.DT.*</code>), whereas the decision-table structure and hit-policy conventions belong to <code>dth-phc</code> (<code>sec-017</code> and Annex 11 <code>sec-043</code>).</li>
 </ul>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:14"></a><span class="block-actions" data-block="fig:14"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/f-ch03-fig-14.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/f-ch03-fig-14.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.6+Determine+decision-support+logic+%E2%80%94+fig%3A14&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A14%60%0A**Section%3A**+3.6+Determine+decision-support+logic%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Ff-ch03-fig-14.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 14.</strong> <em>Fig. 14. Decision-support logic for a clinical care pathway in the form of a decision tree</em> <a href="#fig:14" class="block-anchor" aria-label="Link to Figure 14" title="Link to Figure 14"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/fig-14-anc-hiv-decision-tree.svg" alt="Fig. 14. Decision-support logic for a clinical care pathway in the form of a decision tree"></p>
 <p>Fig. 14	 Decision-support logic for a clinical care pathway in the form of a decision tree</p>
 <p>ANC: antenatal care; PMTCT: prevention of mother-to-child transmission; PrEP: pre-exposure prophylaxis; STI: sexually transmitted infection; VMMC: voluntary medical male circumcision.</p>
 <p>Source: WHO (29)</p>
+</div>
 <p><a id="prose:fig-14-anc-hiv-decision-tree-reproduces"></a><span class="block-actions" data-block="prose:fig-14-anc-hiv-decision-tree-reproduces"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch03-user-requirements/p-fig-14-anc-hiv-decision-tree-reproduces.md" title="Edit this block's source on GitHub (folio/dth-phc/ch03-user-requirements/p-fig-14-anc-hiv-decision-tree-reproduces.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+3.6+Determine+decision-support+logic+%E2%80%94+prose%3Afig-14-anc-hiv-decision-tree-reproduces&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Afig-14-anc-hiv-decision-tree-reproduces%60%0A**Section%3A**+3.6+Determine+decision-support+logic%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch03-user-requirements%2Fp-fig-14-anc-hiv-decision-tree-reproduces.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Fig. 14. Illustrative ANC HIV-testing decision tree (reproduces WHO ANC DAK).</strong></p>
 <h1>
@@ -5170,6 +5162,23 @@ TIP</p>
 </li>
 <li><strong>Rules:</strong> 4, hit policy <code>FIRST</code>. The last rule returns <code>"unknown"</code> when any input has not been answered.</li>
 </ul>
+<div class="fa-numbered fa-numbered-decision-table" data-dmn-decision="Decision_RequirementPriority" data-dmn-file="dt-requirement-priority.dmn" data-dmn-hit-policy="FIRST">
+<style>.fa-dmn-table{border-collapse:separate;border-spacing:0;font-size:0.9em;line-height:1.35}.fa-dmn-table th,.fa-dmn-table td{border:0;border-bottom:1px solid var(--fa-dmn-line);padding:6px 8px;vertical-align:top;text-align:left}.fa-dmn-table thead th{font-weight:600;border-bottom:2px solid var(--fa-dmn-line)}.fa-dmn-table .fa-dmn-side{text-align:center;font-size:0.8em;letter-spacing:0.04em;text-transform:uppercase}.fa-dmn-table .fa-dmn-input{background:var(--fa-dmn-in-bg)}.fa-dmn-table .fa-dmn-output{background:var(--fa-dmn-out-bg)}.fa-dmn-table .fa-dmn-first-output{border-left:3px double var(--fa-dmn-line)}.fa-dmn-table tbody th{color:var(--fa-dmn-muted);font-weight:600;text-align:center}.fa-dmn-table a{text-decoration:underline dotted}.fa-dmn-table a.fa-dmn-ref{text-decoration:none;margin-left:2px}.fa-dmn-chip{display:inline-block;border-radius:999px;padding:1px 8px;margin:1px 0;white-space:nowrap}.fa-dmn-chip-input{border:1px solid var(--fa-dmn-line);background:var(--fa-dmn-bg)}.fa-dmn-any{color:var(--fa-dmn-muted);font-style:italic;opacity:0.7}.fa-dmn-or,.fa-dmn-not{color:var(--fa-dmn-muted);font-size:0.85em}.fa-dmn-description td{color:var(--fa-dmn-muted);padding-top:0;border-bottom:1px solid var(--fa-dmn-line)}.fa-dmn-has-note>th,.fa-dmn-has-note>td{border-bottom:0}.fa-dmn-table{--fa-dmn-line:#c9ced6;--fa-dmn-muted:#5b6470;--fa-dmn-bg:#fff;--fa-dmn-in-bg:#eef4fb;--fa-dmn-out-bg:#eef8f0}.fa-dmn-hue-0{background:#dbe9ff;color:#123d7a}.fa-dmn-hue-1{background:#d9f2e3;color:#14532d}.fa-dmn-hue-2{background:#fde9c8;color:#6b3d00}.fa-dmn-hue-3{background:#f6d9e4;color:#6d1a3a}.fa-dmn-hue-4{background:#e6dcf7;color:#3d2470}.fa-dmn-hue-5{background:#d6f0f2;color:#0f4f57}@media (prefers-color-scheme:dark){.fa-dmn-table{--fa-dmn-line:#3d4450;--fa-dmn-muted:#a3acb9;--fa-dmn-bg:#1b1f24;--fa-dmn-in-bg:#16212e;--fa-dmn-out-bg:#15261c}.fa-dmn-hue-0{background:#1d3557;color:#cfe0ff}.fa-dmn-hue-1{background:#1c3d2a;color:#c9f0d6}.fa-dmn-hue-2{background:#4a3410;color:#fde3b5}.fa-dmn-hue-3{background:#4a1f30;color:#f6cfdd}.fa-dmn-hue-4{background:#33264f;color:#e1d6f7}.fa-dmn-hue-5{background:#123c40;color:#cdeef0}}</style>
+<p class="fa-dmn-title"><strong>Requirement priority (3.8, Annex 13)</strong><br>The first rule that matches applies.</p>
+<div class="table-wrapper"><div class="table-wrapper"><table class="fa-dmn-table" aria-label="Requirement priority (3.8, Annex 13)">
+<thead><tr><th scope="col" rowspan="2">Rule</th><th scope="colgroup" colspan="2" class="fa-dmn-input fa-dmn-side">When</th><th scope="colgroup" colspan="2" class="fa-dmn-output fa-dmn-first-output fa-dmn-side">Then</th></tr><tr><th scope="col" class="fa-dmn-input"><span title="neededForCompleteSystem">needed for a complete system?</span></th><th scope="col" class="fa-dmn-input"><span title="stronglyAdvisedForUptakeAndUsability">strongly advised for uptake and usability?</span></th><th scope="col" class="fa-dmn-output fa-dmn-first-output"><span title="priority">priority</span></th><th scope="col" class="fa-dmn-output"><span title="category">requirement category (Annex 13)</span></th></tr></thead>
+<tbody>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_HighPriority">1</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;High&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">High</span></td><td class="fa-dmn-output" title="&quot;Need-to-have: required for a complete PCPOSS (MVP scope)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">Need-to-have: required for a complete PCPOSS (MVP scope)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Annex 13 (High priority / need-to-have): If the PCPOSS does not have this function or feature, the system is considered incomplete.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_MediumPriority">2</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;Medium&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">Medium</span></td><td class="fa-dmn-output" title="&quot;Should-have: strongly advised to improve uptake, usability and overall performance&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-5">Should-have: strongly advised to improve uptake, usability and overall performance</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Annex 13 (Medium priority / should-have): Not necessary to have a complete and functioning PCPOSS, but strongly advised to improve uptake, usability and overall performance of the system.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_LowPriority">3</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;Low&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">Low</span></td><td class="fa-dmn-output" title="&quot;Nice-to-have: value-adding feature for future roadmap releases&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-5">Nice-to-have: value-adding feature for future roadmap releases</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Annex 13 (Low priority / nice-to-have): Not necessary given time and budget constraints, but value-adding for future releases and updates on the roadmap. Inputs are explicit so that a missing answer falls to Rule_Unknown.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Unknown">4</th><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;unknown&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">unknown</span></td><td class="fa-dmn-output" title="&quot;Answer every input question before this decision is made.&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">Answer every input question before this decision is made.</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</em></small></td></tr>
+</tbody>
+</table></div></div>
+</div>
 <p><a id="chap:ch04-design-and-adaptation"></a></p>
 <h2 id="h-chap:ch04-design-and-adaptation">
   
@@ -5186,6 +5195,7 @@ TIP</p>
 Undertake design and adaptation</p>
 <p>The steps of undertaking detailed design and adaptation should be led primarily by a technology partner. This section summarizes the standards, concept and activities a technology partner is expected, at a minimum, to undertake.</p>
 <p>Implementation teams commissioning the design and adaptation are not expected to know how to programme software themselves but understanding the processes that technology partners go through to build a system is important. The effort needed is otherwise often significantly underestimated, leading to mismatched expectations by both parties. Active, successful collaboration between implementers and technology partners helps to ensure that the solution being built or adapted matches the needs of end-users.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:ch04-phase-panel"></a><span class="block-actions" data-block="tbl:ch04-phase-panel"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/t-ch04-phase-panel.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/t-ch04-phase-panel.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+tbl%3Ach04-phase-panel&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Ach04-phase-panel%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Ft-ch04-phase-panel.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Chapter 4 phase panel (Who should be involved / Inputs / Tools / Outputs)</em> <a href="#tbl:ch04-phase-panel" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <div class="table-wrapper"><table>
@@ -5218,6 +5228,7 @@ Undertake design and adaptation</p>
 ᵇ If available for the scoped health domain
 ᶜ Chapter 1</p>
 <p><em>Chapter 4 phase panel: Who should be involved, Inputs, Tools and Outputs for design and adaptation</em></p>
+</div>
 <p><a id="bp:design-and-adaptation"></a><span class="block-actions" data-block="bp:design-and-adaptation"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+bp%3Adesign-and-adaptation&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60bp%3Adesign-and-adaptation%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Fbp-design-and-adaptation.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Business-process.</strong> <em>Phase 2: Design and adaptation (Chapter 4)</em></p>
 <h1>
@@ -5562,6 +5573,7 @@ Feedback for: <code>&#x3C;ENTER PROTOTYPE NAME> &#x3C;ENTER VERSION NUMBER></cod
 </tr>
 </tbody>
 </table></div>
+<div class="fa-numbered fa-numbered-figure" markdown="1">
 <p><a id="fig:15"></a><span class="block-actions" data-block="fig:15"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/f-ch04-fig-15.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/f-ch04-fig-15.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+4.3+Develop+and+test+prototype+design+%E2%80%94+fig%3A15&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60fig%3A15%60%0A**Section%3A**+4.3+Develop+and+test+prototype+design%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Ff-ch04-fig-15.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Figure 15.</strong> <em>Fig. 15. Levels of insight gained from different prototypes</em> <a href="#fig:15" class="block-anchor" aria-label="Link to Figure 15" title="Link to Figure 15"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p><img src="media/vfig-p054.png" alt="Fig. 15. Levels of insight gained from different prototypes"></p>
@@ -5614,6 +5626,7 @@ Level of
 prototype
 fidelity
 Source: Norman Tran/Stanford school (35), adapted with additional questions, language for clarification and contextualization to health care under license.</p>
+</div>
 <p><a id="sec:4-4"></a></p>
 <h3 id="h-sec:4-4">
   
@@ -5727,6 +5740,7 @@ health information standards, uses a common language
 for describing typical components of a health information
 architecture and allows for flexibility of integration and
 implementation (72).</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:2"></a><span class="block-actions" data-block="tbl:2"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/t-ch04-table-2.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/t-ch04-table-2.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+4.4+Design+system+architecture+%E2%80%94+tbl%3A2&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3A2%60%0A**Section%3A**+4.4+Design+system+architecture%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Ft-ch04-table-2.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 2.</strong> <em>Table 2. Types of architecture domains (Business, Data, Application, Technology)</em> <a href="#tbl:2" class="block-anchor" aria-label="Link to Table 2" title="Link to Table 2"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Table 2. Types of architecture domains</p>
@@ -5757,6 +5771,7 @@ implementation (72).</p>
 </tbody>
 </table></div>
 <p><em>Types of architecture domains</em></p>
+</div>
 <p><a id="prose:ch04-sec-023-interoperability"></a><span class="block-actions" data-block="prose:ch04-sec-023-interoperability"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-interoperability.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-interoperability.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+4.4+Design+system+architecture+%E2%80%94+prose%3Ach04-sec-023-interoperability&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Ach04-sec-023-interoperability%60%0A**Section%3A**+4.4+Design+system+architecture%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Fp-ch04-sec-023-interoperability.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>4.4.2 Types of interoperability in health.</strong></p>
 <p>4.4.2 	 Types of interoperability in health
@@ -5772,6 +5787,7 @@ semantic interoperability, organizational interoperability
 and legal interoperability (73,74). A fully interoperable health
 system encompasses all four areas of interoperability in a
 multi-faceted approach.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:3"></a><span class="block-actions" data-block="tbl:3"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/t-ch04-table-3.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/t-ch04-table-3.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+4.4+Design+system+architecture+%E2%80%94+tbl%3A3&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3A3%60%0A**Section%3A**+4.4+Design+system+architecture%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Ft-ch04-table-3.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 3.</strong> <em>Table 3. Types of interoperability in health (Syntactic, Semantic, Organizational, Legal)</em> <a href="#tbl:3" class="block-anchor" aria-label="Link to Table 3" title="Link to Table 3"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Table 3. Types of interoperability in health</p>
@@ -5802,6 +5818,7 @@ multi-faceted approach.</p>
 </tbody>
 </table></div>
 <p><em>Types of interoperability in health</em></p>
+</div>
 <p><a id="prose:ch04-sec-023-standards"></a><span class="block-actions" data-block="prose:ch04-sec-023-standards"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-standards.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/p-ch04-sec-023-standards.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+4.4+Design+system+architecture+%E2%80%94+prose%3Ach04-sec-023-standards&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60prose%3Ach04-sec-023-standards%60%0A**Section%3A**+4.4+Design+system+architecture%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Fp-ch04-sec-023-standards.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>4.4.3 Types of standards.</strong></p>
 <p>4.4.3 	 Types of standards
@@ -5821,6 +5838,7 @@ standards, and privacy protection standards (See Table 4).
 There are a number of standards that are used and adopted in
 health care; however, listed below are open standards that have
 evidence of global adoption.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:4"></a><span class="block-actions" data-block="tbl:4"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch04-design-and-adaptation/t-ch04-table-4.md" title="Edit this block's source on GitHub (folio/dth-phc/ch04-design-and-adaptation/t-ch04-table-4.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+4.4+Design+system+architecture+%E2%80%94+tbl%3A4&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3A4%60%0A**Section%3A**+4.4+Design+system+architecture%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch04-design-and-adaptation%2Ft-ch04-table-4.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 4.</strong> <em>Table 4. Types of standards (Semantic, Organizational, Syntactic, Legal)</em> <a href="#tbl:4" class="block-anchor" aria-label="Link to Table 4" title="Link to Table 4"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Table 4. Types of standards</p>
@@ -5867,6 +5885,7 @@ evidence of global adoption.</p>
 </tbody>
 </table></div>
 <p><em>Types of standards</em></p>
+</div>
 <p><a id="sec:4-5"></a></p>
 <h3 id="h-sec:4-5">
   
@@ -5974,6 +5993,7 @@ CHECKPOINT</p>
 <p>CHAPTER 5
 Conduct training, testing and roll-out</p>
 <p>After the beta version is built, there are some crucial steps that need to be taken before the system is deployed widely to targeted end-users. This includes training and testing, along with final updates to the person-centred point of service system (PCPOSS) for a version one release. End-user training is necessary to help improve the likelihood of adoption, and quality assurance tests need to be conducted prior to deployment.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:ch05-phase-panel"></a><span class="block-actions" data-block="tbl:ch05-phase-panel"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch05-training-testing-rollout/t-ch05-phase-panel.md" title="Edit this block's source on GitHub (folio/dth-phc/ch05-training-testing-rollout/t-ch05-phase-panel.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+tbl%3Ach05-phase-panel&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Ach05-phase-panel%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch05-training-testing-rollout%2Ft-ch05-phase-panel.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Chapter 5 phase panel (Who should be involved / Inputs / Tools / Outputs)</em> <a href="#tbl:ch05-phase-panel" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <div class="table-wrapper"><table>
@@ -6003,6 +6023,7 @@ Conduct training, testing and roll-out</p>
 </tbody>
 </table></div>
 <p><em>Chapter 5 phase panel: Who should be involved, Inputs, Tools and Outputs for training, testing and roll-out</em></p>
+</div>
 <p><a id="bp:training-testing-and-roll-out"></a><span class="block-actions" data-block="bp:training-testing-and-roll-out"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.md" title="Edit this block's source on GitHub (folio/dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+bp%3Atraining-testing-and-roll-out&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60bp%3Atraining-testing-and-roll-out%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch05-training-testing-rollout%2Fbp-training-testing-and-roll-out.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Business-process.</strong> <em>Phase 3: Training, testing and roll-out (Chapter 5)</em></p>
 <h1>
@@ -6250,6 +6271,7 @@ Monitoring and evaluating digital health interventions (99).</p>
 Prepare for scale-up</p>
 <p>To replace a paper system completely, or to replace multiple, disconnected legacy digital systems, successful implementation of a person-centred point of service system (PCPOSS) needs to be scaled up while legacy systems (paper or otherwise) are phased out – a process that requires a great deal of resources and political buy-in.</p>
 <p>This chapter aims to provide an overview of the key steps to begin the possible phase-out of paper and/or legacy systems. A multitude of factors need to be considered. Every country and context will be moving at a different pace due to a variety of factors, that include but are not limited to: funding and resources available domestically or externally from donors; political buy-in; culture of change at all levels; the context in which the PCPOSS fits into the national health and digital health strategy overall; as well as the information and communication technology infrastructure and connectivity planned in countries.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:ch06-phase-panel"></a><span class="block-actions" data-block="tbl:ch06-phase-panel"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch06-scale-up/t-ch06-phase-panel.md" title="Edit this block's source on GitHub (folio/dth-phc/ch06-scale-up/t-ch06-phase-panel.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+tbl%3Ach06-phase-panel&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Ach06-phase-panel%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch06-scale-up%2Ft-ch06-phase-panel.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Chapter 6 phase panel (Who should be involved / Inputs / Tools / Outputs)</em> <a href="#tbl:ch06-phase-panel" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <div class="table-wrapper"><table>
@@ -6279,6 +6301,7 @@ Prepare for scale-up</p>
 </tbody>
 </table></div>
 <p><em>Chapter 6 phase panel: Who should be involved, Inputs, Tools and Outputs for scaling up the system</em></p>
+</div>
 <p><a id="bp:scale-up"></a><span class="block-actions" data-block="bp:scale-up"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch06-scale-up/bp-scale-up.md" title="Edit this block's source on GitHub (folio/dth-phc/ch06-scale-up/bp-scale-up.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Chapter+overview+and+phase+panel+%E2%80%94+bp%3Ascale-up&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60bp%3Ascale-up%60%0A**Section%3A**+Chapter+overview+and+phase+panel%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch06-scale-up%2Fbp-scale-up.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Business-process.</strong> <em>Phase 4: Scale-up (Chapter 6)</em></p>
 <h1>
@@ -6387,6 +6410,25 @@ for scaling up, begin the scale-up!</p>
 </li>
 <li><strong>Rules:</strong> 5, hit policy <code>FIRST</code>. The last rule returns <code>"unknown"</code> when any input has not been answered.</li>
 </ul>
+<div class="fa-numbered fa-numbered-decision-table" data-dmn-decision="Decision_ReadyToScaleUp" data-dmn-file="dt-ready-to-scale-up.dmn" data-dmn-hit-policy="FIRST">
+<style>.fa-dmn-table{border-collapse:separate;border-spacing:0;font-size:0.9em;line-height:1.35}.fa-dmn-table th,.fa-dmn-table td{border:0;border-bottom:1px solid var(--fa-dmn-line);padding:6px 8px;vertical-align:top;text-align:left}.fa-dmn-table thead th{font-weight:600;border-bottom:2px solid var(--fa-dmn-line)}.fa-dmn-table .fa-dmn-side{text-align:center;font-size:0.8em;letter-spacing:0.04em;text-transform:uppercase}.fa-dmn-table .fa-dmn-input{background:var(--fa-dmn-in-bg)}.fa-dmn-table .fa-dmn-output{background:var(--fa-dmn-out-bg)}.fa-dmn-table .fa-dmn-first-output{border-left:3px double var(--fa-dmn-line)}.fa-dmn-table tbody th{color:var(--fa-dmn-muted);font-weight:600;text-align:center}.fa-dmn-table a{text-decoration:underline dotted}.fa-dmn-table a.fa-dmn-ref{text-decoration:none;margin-left:2px}.fa-dmn-chip{display:inline-block;border-radius:999px;padding:1px 8px;margin:1px 0;white-space:nowrap}.fa-dmn-chip-input{border:1px solid var(--fa-dmn-line);background:var(--fa-dmn-bg)}.fa-dmn-any{color:var(--fa-dmn-muted);font-style:italic;opacity:0.7}.fa-dmn-or,.fa-dmn-not{color:var(--fa-dmn-muted);font-size:0.85em}.fa-dmn-description td{color:var(--fa-dmn-muted);padding-top:0;border-bottom:1px solid var(--fa-dmn-line)}.fa-dmn-has-note>th,.fa-dmn-has-note>td{border-bottom:0}.fa-dmn-table{--fa-dmn-line:#c9ced6;--fa-dmn-muted:#5b6470;--fa-dmn-bg:#fff;--fa-dmn-in-bg:#eef4fb;--fa-dmn-out-bg:#eef8f0}.fa-dmn-hue-0{background:#dbe9ff;color:#123d7a}.fa-dmn-hue-1{background:#d9f2e3;color:#14532d}.fa-dmn-hue-2{background:#fde9c8;color:#6b3d00}.fa-dmn-hue-3{background:#f6d9e4;color:#6d1a3a}.fa-dmn-hue-4{background:#e6dcf7;color:#3d2470}.fa-dmn-hue-5{background:#d6f0f2;color:#0f4f57}@media (prefers-color-scheme:dark){.fa-dmn-table{--fa-dmn-line:#3d4450;--fa-dmn-muted:#a3acb9;--fa-dmn-bg:#1b1f24;--fa-dmn-in-bg:#16212e;--fa-dmn-out-bg:#15261c}.fa-dmn-hue-0{background:#1d3557;color:#cfe0ff}.fa-dmn-hue-1{background:#1c3d2a;color:#c9f0d6}.fa-dmn-hue-2{background:#4a3410;color:#fde3b5}.fa-dmn-hue-3{background:#4a1f30;color:#f6cfdd}.fa-dmn-hue-4{background:#33264f;color:#e1d6f7}.fa-dmn-hue-5{background:#123c40;color:#cdeef0}}</style>
+<p class="fa-dmn-title"><strong>Scale-up readiness and legacy system phase-out (6.1, 6.2)</strong><br>The first rule that matches applies.</p>
+<div class="table-wrapper"><div class="table-wrapper"><table class="fa-dmn-table" aria-label="Scale-up readiness and legacy system phase-out (6.1, 6.2)">
+<thead><tr><th scope="col" rowspan="2">Rule</th><th scope="colgroup" colspan="3" class="fa-dmn-input fa-dmn-side">When</th><th scope="colgroup" colspan="2" class="fa-dmn-output fa-dmn-first-output fa-dmn-side">Then</th></tr><tr><th scope="col" class="fa-dmn-input"><span title="pcpossReady">PCPOSS ready?</span></th><th scope="col" class="fa-dmn-input"><span title="healthSystemReady">health system ready?</span></th><th scope="col" class="fa-dmn-input"><span title="objectivesMet">objectives met?</span></th><th scope="col" class="fa-dmn-output fa-dmn-first-output"><span title="outcome">proceed or not</span></th><th scope="col" class="fa-dmn-output"><span title="guidance">handbook guidance (6.1, 6.2, 6.4)</span></th></tr></thead>
+<tbody>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Ready_Proceed">1</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;proceed&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">proceed</span></td><td class="fa-dmn-output" title="&quot;Proceed with scale-up and staged phase-out of paper/legacy systems while retaining paper backup SOPs (6.1, 6.2, 6.4)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">Proceed with scale-up and staged phase-out of paper/legacy systems while retaining paper backup SOPs (6.1, 6.2, 6.4)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Sections 6.1, 6.2 and 6.4: Both the PCPOSS and the health system are ready and country-defined objectives (Table 5) are met. Proceed with scale-up and staged region-by-region phase-out of paper/legacy systems while retaining a backup paper mechanism for downtime and emergencies.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_PcpossNotReady">2</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;not&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">not</span></td><td class="fa-dmn-output" title="&quot;Do not proceed: remediate PCPOSS technical, functional or support readiness using the MAPS toolkit (6.1)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">Do not proceed: remediate PCPOSS technical, functional or support readiness using the MAPS toolkit (6.1)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Section 6.1: The PCPOSS itself has not yet demonstrated technical, functional or maintenance readiness for scale-up.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_HealthSystemNotReady">3</th><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;not&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">not</span></td><td class="fa-dmn-output" title="&quot;Do not proceed: establish health-system enabling environment, infrastructure and legal recognition policies (6.1, 6.2)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-0">Do not proceed: establish health-system enabling environment, infrastructure and legal recognition policies (6.1, 6.2)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Section 6.1: Foundational health-system elements (power, connectivity, governance, policies recognizing digital records, resources) are not yet in place in target scale-up areas.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_ObjectivesNotMet">4</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;not&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">not</span></td><td class="fa-dmn-output" title="&quot;Do not proceed: continue monitoring and addressing bottlenecks until country-defined SMART objectives are met (6.2, 6.3)&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">Do not proceed: continue monitoring and addressing bottlenecks until country-defined SMART objectives are met (6.2, 6.3)</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Section 6.2: Country-defined SMART objectives and benchmarks across functionality, user adoption, efficiency, quality and outcomes (Table 5) have not yet been met. Inputs are explicit so that a missing answer falls to Rule_Unknown.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Unknown">5</th><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;unknown&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">unknown</span></td><td class="fa-dmn-output" title="&quot;Answer every input question before this decision is made.&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">Answer every input question before this decision is made.</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="5"><small><em>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</em></small></td></tr>
+</tbody>
+</table></div></div>
+</div>
 <p><a id="sec:6-2"></a></p>
 <h3 id="h-sec:6-2">
   
@@ -6461,6 +6503,7 @@ page as an estimate, assuming there are mechanisms to note
 time in which there is inactivity. Using the system for direct
 monitoring as much as possible can help to relieve the health
 workers’ burden of manually tracking indicators.</p>
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:5"></a><span class="block-actions" data-block="tbl:5"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/ch06-scale-up/t-ch06-table-5.md" title="Edit this block's source on GitHub (folio/dth-phc/ch06-scale-up/t-ch06-table-5.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+6.2+Plan+for+phase-out+of+legacy+system%28s%29+%E2%80%94+tbl%3A5&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3A5%60%0A**Section%3A**+6.2+Plan+for+phase-out+of+legacy+system%28s%29%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fch06-scale-up%2Ft-ch06-table-5.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table 5.</strong> <em>Table 5. Key indicators of whether a digital system meets its objectives</em> <a href="#tbl:5" class="block-anchor" aria-label="Link to Table 5" title="Link to Table 5"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>Table 5. Key indicators of whether a digital system meets its objectives</p>
@@ -6544,6 +6587,7 @@ workers’ burden of manually tracking indicators.</p>
 ᵃ Priority functions set by following section 3.8 to understand user requirements, and section 4.2 to validate functional requirements
 ᵇ Over a reference period, the percentage changes in costs are from costs using the PCPOSS compared with those using the paper and/or legacy system.
 Source: WHO, 2016 (99).</p>
+</div>
 <p><a id="sec:6-3"></a></p>
 <h3 id="h-sec:6-3">
   
@@ -6980,6 +7024,7 @@ Principles for digital development</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-02"></a><span class="block-actions" data-block="tbl:annex-02"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-02-interview-worksheet.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-02-interview-worksheet.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+2.+Worksheet+for+semi-structured+interviews+%E2%80%94+tbl%3Aannex-02&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-02%60%0A**Section%3A**+Annex+2.+Worksheet+for+semi-structured+interviews%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-02-interview-worksheet.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 2. Worksheet for semi-structured interviews</em> <a href="#tbl:annex-02" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 2.
@@ -7118,6 +7163,7 @@ We believe health workers are central to ensuring good health. We are seeking to
 </tbody>
 </table></div>
 <p>WORKSHEET</p>
+</div>
 <p><a id="sec:annex-03"></a></p>
 <h3 id="h-sec:annex-03">
   
@@ -7127,6 +7173,7 @@ We believe health workers are central to ensuring good health. We are seeking to
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-03"></a><span class="block-actions" data-block="tbl:annex-03"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-03-observations-worksheet.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-03-observations-worksheet.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+3.+Observations+worksheet+%E2%80%94+tbl%3Aannex-03&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-03%60%0A**Section%3A**+Annex+3.+Observations+worksheet%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-03-observations-worksheet.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 3. Observations worksheet</em> <a href="#tbl:annex-03" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 3.
@@ -7307,6 +7354,7 @@ To be completed for each health service user being observed.</p>
 </tbody>
 </table></div>
 <p>WORKSHEET</p>
+</div>
 <p><a id="sec:annex-04"></a></p>
 <h3 id="h-sec:annex-04">
   
@@ -7316,6 +7364,7 @@ To be completed for each health service user being observed.</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-04"></a><span class="block-actions" data-block="tbl:annex-04"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-04-user-persona-worksheet.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-04-user-persona-worksheet.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+4.+User+persona+worksheet+%E2%80%94+tbl%3Aannex-04&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-04%60%0A**Section%3A**+Annex+4.+User+persona+worksheet%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-04-user-persona-worksheet.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 4. User persona worksheet</em> <a href="#tbl:annex-04" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 4.
@@ -7364,6 +7413,7 @@ User persona worksheet</p>
 </tbody>
 </table></div>
 <p>WORKSHEET</p>
+</div>
 <p><a id="sec:annex-05"></a></p>
 <h3 id="h-sec:annex-05">
   
@@ -7373,6 +7423,7 @@ User persona worksheet</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-05"></a><span class="block-actions" data-block="tbl:annex-05"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-05-user-stories-worksheet.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-05-user-stories-worksheet.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+5.+User+stories+worksheet+%E2%80%94+tbl%3Aannex-05&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-05%60%0A**Section%3A**+Annex+5.+User+stories+worksheet%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-05-user-stories-worksheet.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 5. User stories worksheet</em> <a href="#tbl:annex-05" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 5.
@@ -7400,6 +7451,7 @@ User stories worksheet</p>
 </tbody>
 </table></div>
 <p>WORKSHEET</p>
+</div>
 <p><a id="sec:annex-06"></a></p>
 <h3 id="h-sec:annex-06">
   
@@ -7409,6 +7461,7 @@ User stories worksheet</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-06"></a><span class="block-actions" data-block="tbl:annex-06"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-06-business-process-matrix.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-06-business-process-matrix.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+6.+Business+process+matrix+guide+%E2%80%94+tbl%3Aannex-06&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-06%60%0A**Section%3A**+Annex+6.+Business+process+matrix+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-06-business-process-matrix.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 6. Business process matrix guide</em> <a href="#tbl:annex-06" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 6.
@@ -7448,6 +7501,7 @@ Business process matrix guide</p>
 </tr>
 </tbody>
 </table></div>
+</div>
 <p><a id="sec:annex-07"></a></p>
 <h3 id="h-sec:annex-07">
   
@@ -7457,6 +7511,7 @@ Business process matrix guide</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-07"></a><span class="block-actions" data-block="tbl:annex-07"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-07-form-inventory-guide.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-07-form-inventory-guide.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+7.+Form+inventory+guide+%E2%80%94+tbl%3Aannex-07&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-07%60%0A**Section%3A**+Annex+7.+Form+inventory+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-07-form-inventory-guide.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 7. Form inventory guide</em> <a href="#tbl:annex-07" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 7.
@@ -7512,6 +7567,7 @@ Form inventory guide</p>
 </tr>
 </tbody>
 </table></div>
+</div>
 <p><a id="sec:annex-08"></a></p>
 <h3 id="h-sec:annex-08">
   
@@ -7521,6 +7577,7 @@ Form inventory guide</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-08"></a><span class="block-actions" data-block="tbl:annex-08"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-08-form-data-mapping-guide.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-08-form-data-mapping-guide.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+8.+Form+data+mapping+guide+%E2%80%94+tbl%3Aannex-08&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-08%60%0A**Section%3A**+Annex+8.+Form+data+mapping+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-08-form-data-mapping-guide.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 8. Form data mapping guide</em> <a href="#tbl:annex-08" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 8.
@@ -7628,6 +7685,7 @@ Form data mapping guide</p>
 ³ Unified code for units of measure (UCUM) [website]. Bethesda (MD): National Library of Medicine (<a href="https://ucum.nlm.nih.gov/">https://ucum.nlm.nih.gov/</a>, accessed 9 February 2021).
 ⁴ ConceptMap. In: HL7 FHIR Release 5 [website]. Columbus (OH): Health Level Seven; 26 March 2023 (<a href="https://www.hl7.org/fhir/conceptmap.html">https://www.hl7.org/fhir/conceptmap.html</a>, accessed 10 January 2024).</p>
 <p><em>Annex 8. Form data mapping guide (Data dictionary template)</em></p>
+</div>
 <p><a id="sec:annex-09"></a></p>
 <h3 id="h-sec:annex-09">
   
@@ -7637,6 +7695,7 @@ Form data mapping guide</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-09"></a><span class="block-actions" data-block="tbl:annex-09"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-09-indicator-mapping-guide.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-09-indicator-mapping-guide.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+9.+Aggregate+indicator+mapping+guide+%E2%80%94+tbl%3Aannex-09&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-09%60%0A**Section%3A**+Annex+9.+Aggregate+indicator+mapping+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-09-indicator-mapping-guide.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 9. Aggregate indicator mapping guide</em> <a href="#tbl:annex-09" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 9.
@@ -7696,6 +7755,7 @@ Aggregate indicator mapping guide</p>
 </tr>
 </tbody>
 </table></div>
+</div>
 <p><a id="sec:annex-10"></a></p>
 <h3 id="h-sec:annex-10">
   
@@ -7705,6 +7765,7 @@ Aggregate indicator mapping guide</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-10"></a><span class="block-actions" data-block="tbl:annex-10"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-10-decision-and-scheduling-matrix.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-10-decision-and-scheduling-matrix.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+10.+Decision-support+logic+and+scheduling+matrix+guide+%E2%80%94+tbl%3Aannex-10&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-10%60%0A**Section%3A**+Annex+10.+Decision-support+logic+and+scheduling+matrix+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-10-decision-and-scheduling-matrix.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 10. Decision-support logic and scheduling matrix guide</em> <a href="#tbl:annex-10" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 10.
@@ -7769,6 +7830,7 @@ Decision-support logic and scheduling matrix guide</p>
 • Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations and standards within digital systems, 2nd edition. Geneva: World Health Organization; 2023 (<a href="https://iris.who.int/handle/10665/375230">https://iris.who.int/handle/10665/375230</a>).
 • Digital adaptation kit for tuberculosis: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024 (<a href="https://iris.who.int/handle/10665/376631">https://iris.who.int/handle/10665/376631</a>).
 • Digital adaptation kit for child health (0-59 months) in humanitarian emergencies: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024 (<a href="https://iris.who.int/handle/10665/376626">https://iris.who.int/handle/10665/376626</a>).</p>
+</div>
 <p><a id="sec:annex-11"></a></p>
 <h3 id="h-sec:annex-11">
   
@@ -7778,6 +7840,7 @@ Decision-support logic and scheduling matrix guide</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-11"></a><span class="block-actions" data-block="tbl:annex-11"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-11-decision-support-table-template.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-11-decision-support-table-template.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+11.+Template+for+a+decision-support+table+%E2%80%94+tbl%3Aannex-11&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-11%60%0A**Section%3A**+Annex+11.+Template+for+a+decision-support+table%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-11-decision-support-table-template.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 11. Template for a decision-support table (DMN hit policy and rule structure)</em> <a href="#tbl:annex-11" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 11.
@@ -7857,6 +7920,7 @@ Template for a decision-support table</p>
 • Digital adaptation kit for tuberculosis: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024 (<a href="https://iris.who.int/handle/10665/376631">https://iris.who.int/handle/10665/376631</a>).
 • Digital adaptation kit for child health (0-59 months) in humanitarian emergencies: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024 (<a href="https://iris.who.int/handle/10665/376626">https://iris.who.int/handle/10665/376626</a>).</p>
 <p><em>Annex 11. Template for a decision-support table (DMN shape)</em></p>
+</div>
 <p><a id="dt:annex-11-decision-support-table-template"></a><span class="block-actions" data-block="dt:annex-11-decision-support-table-template"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/dt-annex-11-decision-support-table-template.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/dt-annex-11-decision-support-table-template.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+11.+Template+for+a+decision-support+table+%E2%80%94+dt%3Aannex-11-decision-support-table-template&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60dt%3Aannex-11-decision-support-table-template%60%0A**Section%3A**+Annex+11.+Template+for+a+decision-support+table%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Fdt-annex-11-decision-support-table-template.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Decision-table.</strong> <em>Annex 11: Decision-support table template and DMN 1.5 column mapping</em></p>
 <h1>
@@ -7971,6 +8035,23 @@ Template for a decision-support table</p>
 </li>
 <li><strong>Rules:</strong> 4, hit policy <code>FIRST</code>. The last rule returns <code>"unknown"</code> when any input has not been answered.</li>
 </ul>
+<div class="fa-numbered fa-numbered-decision-table" data-dmn-decision="Decision_Annex11DecisionSupportTableTemplate" data-dmn-file="dt-annex-11-decision-support-table-template.dmn" data-dmn-hit-policy="FIRST">
+<style>.fa-dmn-table{border-collapse:separate;border-spacing:0;font-size:0.9em;line-height:1.35}.fa-dmn-table th,.fa-dmn-table td{border:0;border-bottom:1px solid var(--fa-dmn-line);padding:6px 8px;vertical-align:top;text-align:left}.fa-dmn-table thead th{font-weight:600;border-bottom:2px solid var(--fa-dmn-line)}.fa-dmn-table .fa-dmn-side{text-align:center;font-size:0.8em;letter-spacing:0.04em;text-transform:uppercase}.fa-dmn-table .fa-dmn-input{background:var(--fa-dmn-in-bg)}.fa-dmn-table .fa-dmn-output{background:var(--fa-dmn-out-bg)}.fa-dmn-table .fa-dmn-first-output{border-left:3px double var(--fa-dmn-line)}.fa-dmn-table tbody th{color:var(--fa-dmn-muted);font-weight:600;text-align:center}.fa-dmn-table a{text-decoration:underline dotted}.fa-dmn-table a.fa-dmn-ref{text-decoration:none;margin-left:2px}.fa-dmn-chip{display:inline-block;border-radius:999px;padding:1px 8px;margin:1px 0;white-space:nowrap}.fa-dmn-chip-input{border:1px solid var(--fa-dmn-line);background:var(--fa-dmn-bg)}.fa-dmn-any{color:var(--fa-dmn-muted);font-style:italic;opacity:0.7}.fa-dmn-or,.fa-dmn-not{color:var(--fa-dmn-muted);font-size:0.85em}.fa-dmn-description td{color:var(--fa-dmn-muted);padding-top:0;border-bottom:1px solid var(--fa-dmn-line)}.fa-dmn-has-note>th,.fa-dmn-has-note>td{border-bottom:0}.fa-dmn-table{--fa-dmn-line:#c9ced6;--fa-dmn-muted:#5b6470;--fa-dmn-bg:#fff;--fa-dmn-in-bg:#eef4fb;--fa-dmn-out-bg:#eef8f0}.fa-dmn-hue-0{background:#dbe9ff;color:#123d7a}.fa-dmn-hue-1{background:#d9f2e3;color:#14532d}.fa-dmn-hue-2{background:#fde9c8;color:#6b3d00}.fa-dmn-hue-3{background:#f6d9e4;color:#6d1a3a}.fa-dmn-hue-4{background:#e6dcf7;color:#3d2470}.fa-dmn-hue-5{background:#d6f0f2;color:#0f4f57}@media (prefers-color-scheme:dark){.fa-dmn-table{--fa-dmn-line:#3d4450;--fa-dmn-muted:#a3acb9;--fa-dmn-bg:#1b1f24;--fa-dmn-in-bg:#16212e;--fa-dmn-out-bg:#15261c}.fa-dmn-hue-0{background:#1d3557;color:#cfe0ff}.fa-dmn-hue-1{background:#1c3d2a;color:#c9f0d6}.fa-dmn-hue-2{background:#4a3410;color:#fde3b5}.fa-dmn-hue-3{background:#4a1f30;color:#f6cfdd}.fa-dmn-hue-4{background:#33264f;color:#e1d6f7}.fa-dmn-hue-5{background:#123c40;color:#cdeef0}}</style>
+<p class="fa-dmn-title"><strong>Annex 11 decision-support table hit policy code</strong><br>The first rule that matches applies.</p>
+<div class="table-wrapper"><div class="table-wrapper"><table class="fa-dmn-table" aria-label="Annex 11 decision-support table hit policy code">
+<thead><tr><th scope="col" rowspan="2">Rule</th><th scope="colgroup" colspan="2" class="fa-dmn-input fa-dmn-side">When</th><th scope="colgroup" colspan="2" class="fa-dmn-output fa-dmn-first-output fa-dmn-side">Then</th></tr><tr><th scope="col" class="fa-dmn-input"><span title="rulesMutuallyExclusive">All rules are mutually exclusive (no overlap)</span></th><th scope="col" class="fa-dmn-input"><span title="multipleOutputsInOrder">Overlapping rules return multiple outputs in priority order</span></th><th scope="col" class="fa-dmn-output fa-dmn-first-output"><span title="hitPolicyCode">Annex 11 Hit Policy code</span></th><th scope="col" class="fa-dmn-output"><span title="dmnHitPolicy">DMN 1.5 HitPolicy attribute</span></th></tr></thead>
+<tbody>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Annex11_Unique">1</th><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;U&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-1">U</span></td><td class="fa-dmn-output" title="&quot;UNIQUE&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">UNIQUE</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Unique (U): no overlap is possible and all rules are exclusive; only a single rule can be matched.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Annex11_RuleOrder">2</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="true"><span class="fa-dmn-chip fa-dmn-chip-input">true</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;R&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">R</span></td><td class="fa-dmn-output" title="&quot;RULE ORDER&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">RULE ORDER</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Rule order (R): rules may overlap and multiple rules can match; all matching outputs are returned in rule order.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Annex11_First">3</th><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-input" title="false"><span class="fa-dmn-chip fa-dmn-chip-input">false</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;F&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">F</span></td><td class="fa-dmn-output" title="&quot;FIRST&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-2">FIRST</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>First (F): rules are evaluated from top to bottom and the first matching rule's output is returned. Inputs are explicit so that a missing answer falls to Rule_Unknown.</em></small></td></tr>
+<tr class="fa-dmn-has-note"><th scope="row" title="Rule_Unknown">4</th><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-input" title="-"><span class="fa-dmn-any">any</span></td><td class="fa-dmn-output fa-dmn-first-output" title="&quot;unknown&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-4">unknown</span></td><td class="fa-dmn-output" title="&quot;Answer every input question before this decision is made.&quot;"><span class="fa-dmn-chip fa-dmn-chip-output fa-dmn-hue-3">Answer every input question before this decision is made.</span></td></tr>
+<tr class="fa-dmn-description"><td></td><td colspan="4"><small><em>Unknown: at least one input has not been answered, so the source gives no outcome. Answer every input question first. (House rule: every table has an explicit unknown outcome, dth-phc#1 R3.)</em></small></td></tr>
+</tbody>
+</table></div></div>
+</div>
 <p><a id="sec:annex-12"></a></p>
 <h3 id="h-sec:annex-12">
   
@@ -7980,6 +8061,7 @@ Template for a decision-support table</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-12"></a><span class="block-actions" data-block="tbl:annex-12"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-12-scheduling-logic-guide.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-12-scheduling-logic-guide.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+12.+Scheduling+logic+table+guide+%E2%80%94+tbl%3Aannex-12&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-12%60%0A**Section%3A**+Annex+12.+Scheduling+logic+table+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-12-scheduling-logic-guide.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 12. Scheduling logic table guide</em> <a href="#tbl:annex-12" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 12.
@@ -8056,6 +8138,7 @@ Scheduling logic table guide</p>
 </tr>
 </tbody>
 </table></div>
+</div>
 <p><a id="sched:annex-12-scheduling-logic-template"></a><span class="block-actions" data-block="sched:annex-12-scheduling-logic-template"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/sched-annex-12-scheduling-logic-template.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/sched-annex-12-scheduling-logic-template.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+12.+Scheduling+logic+table+guide+%E2%80%94+sched%3Aannex-12-scheduling-logic-template&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60sched%3Aannex-12-scheduling-logic-template%60%0A**Section%3A**+Annex+12.+Scheduling+logic+table+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Fsched-annex-12-scheduling-logic-template.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Scheduling-logic.</strong> <em>Annex 12: Scheduling-logic template mapping to smart-base:SchedulingLogic</em></p>
 <h1>
@@ -8162,6 +8245,7 @@ Scheduling logic table guide</p>
   
 </h3>
     
+<div class="fa-numbered fa-numbered-table" markdown="1">
 <p><a id="tbl:annex-13"></a><span class="block-actions" data-block="tbl:annex-13"><a class="ba-edit" href="https://github.com/litlfred/dth-phc/edit/main/folio/dth-phc/annexes/t-annex-13-prioritization-guide.md" title="Edit this block's source on GitHub (folio/dth-phc/annexes/t-annex-13-prioritization-guide.md)">✎ edit</a><a class="ba-feedback" href="https://github.com/litlfred/dth-phc/issues/new?title=Feedback+%5Bdth-phc%5D%3A+Annex+13.+Prioritization+of+requirements+guide+%E2%80%94+tbl%3Aannex-13&amp;body=**Content%3A**+%60dth-phc%60%0A**Block%3A**+%60tbl%3Aannex-13%60%0A**Section%3A**+Annex+13.+Prioritization+of+requirements+guide%0A**Source%3A**+https%3A%2F%2Fgithub.com%2Flitlfred%2Fdth-phc%2Fblob%2Fmain%2Ffolio%2Fdth-phc%2Fannexes%2Ft-annex-13-prioritization-guide.md%0A%0A**Type%3A**+general+%7C+technical+%7C+editorial%0A%0A**Comment%3A**%0A%0A%0A**Proposed+change%3A**%0A" title="Give feedback on this block (opens a GitHub issue)">📣 feedback</a></span>
 <strong>Table.</strong> <em>Annex 13. Prioritization of requirements guide</em> <a href="#tbl:annex-13" class="block-anchor" aria-label="Link to Table" title="Link to Table"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a></p>
 <p>ANNEX 13.
@@ -8201,6 +8285,7 @@ Prioritization of requirements guide</p>
 </tr>
 </tbody>
 </table></div>
+</div>
 <p><a id="sec:annex-14"></a></p>
 <h3 id="h-sec:annex-14">
   
@@ -9007,6 +9092,121 @@ Email: <a href="mailto:srhhrp@who.int">srhhrp@who.int</a></p>
   });
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => addSuggest());
   else addSuggest();
+  // ── The block panel: icons on each block, one slide-out pane per icon ──
+  //
+  // Owner, 2026-11-01 (Q-STY-2): only icons show beside a block; each opens
+  // its own pane from the right edge. ✎ "Help improve this section" holds the
+  // block's own links (moved in while open, so their facts and handlers stay
+  // theirs) with a line on what each does. Another layer adds a pane with
+  // window.faBlockPanel.pane(id, { icon, title, render(label, body) }) and
+  // its icon with .icon(box, id, count).
+  const panes = { edit: { icon: "✎", title: "Help improve this section" } };
+  const EXPLAIN = {
+    suggest: ["✍ Suggest a change", "Propose new wording in an editor. It is sent as a GitHub issue with your change, and the editors decide on it."],
+    feedback: ["📣 Give feedback", "Raise a question, concern or error without proposing text. Opens a GitHub issue that names this section."],
+    edit: ["✎ Edit the source", "For editors: change the text yourself on GitHub. The edit becomes a pull request, reviewed before it is published."],
+  };
+  const ORDER = ["suggest", "feedback", "edit"];
+  let panel = null, home = null, moved = null, state = null;
+  const titleOf = (box) => {
+    if (box.dataset.sec) return box.dataset.sec;
+    for (let n = box; n && n !== document.body; n = n.previousElementSibling || n.parentElement)
+      if (/^H[1-6]$/.test(n.tagName)) return n.textContent.trim();
+    return box.dataset.block || "";
+  };
+  const restore = () => { if (moved && home) home.parentNode.insertBefore(moved, home); if (home) home.remove(); moved = home = null; };
+  const close = () => {
+    if (!panel) return;
+    restore();
+    panel.classList.remove("open");
+    document.querySelectorAll('.ba-ic[aria-expanded="true"]').forEach((b) => b.setAttribute("aria-expanded", "false"));
+    if (state && state.from && state.from.isConnected) state.from.focus();
+    state = null;
+  };
+  const open = (box, id, from) => {
+    if (!panel) {
+      panel = el("aside", { className: "fa-block-panel", tabIndex: -1 });
+      panel.setAttribute("aria-label", "Section panel");
+      document.body.append(panel);
+    }
+    restore();
+    const label = box.dataset.block || "";
+    state = { box: box, id: id, from: from };
+    document.querySelectorAll('.ba-ic[aria-expanded="true"]').forEach((b) => b.setAttribute("aria-expanded", "false"));
+    box.querySelectorAll(".ba-ic").forEach((b) => b.setAttribute("aria-expanded", String(b.dataset.pane === id)));
+    const tabs = el("div", { className: "bp-tabs" });
+    for (const b of box.querySelectorAll(".ba-ic")) {
+      const t = b.cloneNode(true);
+      t.setAttribute("aria-expanded", String(b.dataset.pane === id));
+      t.onclick = (e) => { e.stopPropagation(); open(box, b.dataset.pane, from); };
+      tabs.append(t);
+    }
+    const x = el("button", { className: "bp-x", type: "button", textContent: "✕", title: "Close (Esc)" });
+    x.onclick = close;
+    const p = panes[id] || { title: id };
+    const body = el("div", { className: "bp-body" });
+    panel.replaceChildren(x, tabs, el("h3", { textContent: p.title }), el("div", { className: "bp-sub", textContent: titleOf(box) }), body);
+    if (id === "edit") {
+      fill(box);
+      ready(box);
+      for (const a of box.querySelectorAll(":scope > a[data-fa-link]")) {
+        const e = EXPLAIN[a.dataset.faLink];
+        if (!e || a.dataset.bpDone) continue;
+        a.dataset.bpDone = "1";
+        a.replaceChildren(el("b", { textContent: e[0] }), el("small", { textContent: e[1] }));
+      }
+      const links = Array.from(box.querySelectorAll(":scope > a[data-fa-link]"));
+      links.sort((a, b) => ORDER.indexOf(a.dataset.faLink) - ORDER.indexOf(b.dataset.faLink)).forEach((a) => box.append(a));
+      box.querySelectorAll(":scope > .ba-existing").forEach((s) => box.append(s));
+      home = el("span", { hidden: true });
+      box.parentNode.insertBefore(home, box);
+      moved = box;
+      body.append(box);
+    } else if (p.render) p.render(label, body);
+    panel.classList.add("open");
+    panel.focus({ preventScroll: true });
+  };
+  const icon = (box, id, count) => {
+    if (box.querySelector('.ba-ic[data-pane="' + id + '"]')) return;
+    const p = panes[id] || {};
+    const b = el("button", { className: "ba-ic", type: "button", title: (p.title || id) + (count ? " (" + count + ")" : "") });
+    b.dataset.pane = id;
+    b.setAttribute("aria-expanded", "false");
+    b.append(el("span", { textContent: p.icon || "•" }));
+    if (count) b.append(el("b", { className: "ba-n", textContent: String(count) }));
+    // ✎ last; every other pane's icon above it.
+    if (id === "edit") box.append(b);
+    else box.insertBefore(b, box.querySelector('.ba-ic[data-pane="edit"]') || box.firstChild);
+  };
+  const icons = (root) => {
+    const r = root || document;
+    if (!r || typeof r.querySelectorAll !== "function") return;
+    for (const box of r.querySelectorAll(".block-actions")) if (box.querySelector("a[data-fa-link]")) icon(box, "edit");
+  };
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest && e.target.closest(".ba-ic");
+    if (b && !(panel && panel.contains(b))) {
+      e.preventDefault();
+      const box = b.closest(".block-actions");
+      if (state && state.box === box && state.id === b.dataset.pane) close();
+      else if (box) open(box, b.dataset.pane, b);
+      return;
+    }
+    if (panel && panel.classList.contains("open") && !panel.contains(e.target) && !e.target.closest(".fa-suggest, dialog")) close();
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && panel && panel.classList.contains("open") && !document.querySelector("dialog[open]")) close(); });
+  if (typeof document.documentElement === "object" && document.documentElement && document.documentElement.classList) {
+    document.documentElement.classList.add("fa-bp");
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => icons());
+    else icons();
+  }
+  window.faBlockPanel = {
+    pane: (id, p) => { panes[id] = p; },
+    icon: icon,
+    icons: icons,
+    open: (label, id) => { const box = document.querySelector('.block-actions[data-block="' + CSS.escape(label) + '"]'); if (box) open(box, id || "edit"); },
+    close: close,
+  };
   window.faEditLinks = { urls: faBlockUrls, fill: fill, configure: configure };
   // Both the link reached and the host it sits in: a pointer that lands
   // straight on a compact host's link (no gap crossed) or keyboard focus on it

@@ -209,11 +209,11 @@
           "heading": false
         },
         {
-          "term": "bpmn",
+          "term": "process",
           "heading": false
         },
         {
-          "term": "skill",
+          "term": "bpmn",
           "heading": false
         }
       ],
@@ -344,11 +344,11 @@
           "heading": false
         },
         {
-          "term": "utilizes",
+          "term": "test data",
           "heading": false
         },
         {
-          "term": "test data",
+          "term": "utilizes",
           "heading": false
         },
         {
@@ -448,6 +448,10 @@
       "heading": false
     },
     {
+      "term": "missing",
+      "heading": false
+    },
+    {
       "term": "tool repos",
       "heading": false
     },
@@ -456,15 +460,11 @@
       "heading": false
     },
     {
-      "term": "missing",
+      "term": "ohs app",
       "heading": false
     },
     {
       "term": "none",
-      "heading": false
-    },
-    {
-      "term": "ohs app",
       "heading": false
     },
     {
@@ -476,11 +476,11 @@
       "heading": false
     },
     {
-      "term": "knowledge assets",
+      "term": "test data",
       "heading": false
     },
     {
-      "term": "test data",
+      "term": "knowledge assets",
       "heading": false
     }
   ],

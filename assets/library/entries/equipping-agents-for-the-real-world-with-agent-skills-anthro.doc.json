@@ -73,11 +73,11 @@
           "heading": false
         },
         {
-          "term": "abilities",
+          "term": "building",
           "heading": false
         },
         {
-          "term": "building",
+          "term": "abilities",
           "heading": false
         },
         {
@@ -277,15 +277,15 @@
           "heading": false
         },
         {
-          "term": "attention",
-          "heading": false
-        },
-        {
           "term": "pay",
           "heading": false
         },
         {
           "term": "code",
+          "heading": false
+        },
+        {
+          "term": "attention",
           "heading": false
         },
         {

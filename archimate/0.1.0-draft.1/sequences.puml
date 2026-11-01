@@ -1,0 +1,25 @@
+@startuml
+' Person-centred point of service (PCPOSS) (id-bcf04de52bb05c3a932bbfdd36d7ae4f): sequence diagram, derived by archimate-diagrams. Do not edit.
+title Person-centred point of service (PCPOSS)
+hide footbox
+participant "Point-of-service application" as id_808925f4d2075d7b95e0651ebae00fcf <<ApplicationComponent>>
+participant "Interoperability Component" as id_80856538cbd44167a37b276e38c994c3 <<ApplicationComponent>>
+participant "Indicator reporting" as id_ab03b92d0a8355bca5ce336ab2e2bf17 <<ApplicationService>>
+participant "Analytics & Reporting Platform" as id_3fd92d497ca040c8a436f355c0b68770 <<ApplicationComponent>>
+participant "SHR Repository" as id_0e6d89398fff4f20994a31b4de58e7d7 <<ApplicationComponent>>
+participant "Alerts and reminders" as id_9d1f8abfb4905386b6a8ea65f421d115 <<ApplicationService>>
+actor "Health service user" as id_0b80b004c74f5b00b4a5bc56e9c06ac0 <<BusinessRole>>
+actor "Health worker" as id_54d7e249c99a59c6a2085f17060de254 <<BusinessRole>>
+participant "Longitudinal tracking" as id_74b83b6a6d8e53a99573467ad6f7ae41 <<ApplicationService>>
+participant "Decision support system" as id_bc2b3fab70bf5e48a3b043a7245c8f5f <<ApplicationComponent>>
+participant "Electronic health record system" as id_a9de9d3bebca5852b7b9c55519e7ab2d <<ApplicationComponent>>
+database "Shared Health Record" as id_f180ad44b2e94e2a9ee8523ffc900264 <<BusinessObject>>
+id_808925f4d2075d7b95e0651ebae00fcf ->> id_80856538cbd44167a37b276e38c994c3 : flows to Interoperability Component
+id_ab03b92d0a8355bca5ce336ab2e2bf17 ->> id_3fd92d497ca040c8a436f355c0b68770 : flows to Analytics & Reporting Platform
+id_80856538cbd44167a37b276e38c994c3 ->> id_0e6d89398fff4f20994a31b4de58e7d7 : flows to SHR Repository
+id_9d1f8abfb4905386b6a8ea65f421d115 --> id_0b80b004c74f5b00b4a5bc56e9c06ac0 : serves Health service user
+id_9d1f8abfb4905386b6a8ea65f421d115 --> id_54d7e249c99a59c6a2085f17060de254 : serves Health worker
+id_74b83b6a6d8e53a99573467ad6f7ae41 --> id_54d7e249c99a59c6a2085f17060de254 : serves Health worker
+id_bc2b3fab70bf5e48a3b043a7245c8f5f --> id_54d7e249c99a59c6a2085f17060de254 : serves Health worker
+id_a9de9d3bebca5852b7b9c55519e7ab2d -> id_f180ad44b2e94e2a9ee8523ffc900264 : reads/writes Shared Health Record
+@enduml

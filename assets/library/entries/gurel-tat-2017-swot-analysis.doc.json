@@ -44,11 +44,11 @@
           "heading": false
         },
         {
-          "term": "internal analysis",
+          "term": "external analysis",
           "heading": false
         },
         {
-          "term": "external analysis",
+          "term": "internal analysis",
           "heading": false
         },
         {
@@ -150,7 +150,7 @@
           "heading": false
         },
         {
-          "term": "posed",
+          "term": "organization",
           "heading": false
         }
       ],
@@ -299,11 +299,11 @@
           "heading": false
         },
         {
-          "term": "activities",
+          "term": "environmental",
           "heading": false
         },
         {
-          "term": "environmental",
+          "term": "management",
           "heading": false
         }
       ],
@@ -432,7 +432,7 @@
           "heading": false
         },
         {
-          "term": "analysis summary",
+          "term": "score card",
           "heading": false
         },
         {
@@ -440,7 +440,7 @@
           "heading": false
         },
         {
-          "term": "project management",
+          "term": "business policy",
           "heading": false
         }
       ],
@@ -487,11 +487,11 @@
           "heading": false
         },
         {
-          "term": "screen",
+          "term": "competitors",
           "heading": false
         },
         {
-          "term": "competitors",
+          "term": "screen",
           "heading": false
         }
       ],
@@ -669,11 +669,11 @@
       "heading": false
     },
     {
-      "term": "strategic analysis",
+      "term": "organization strengths",
       "heading": false
     },
     {
-      "term": "organization strengths",
+      "term": "strategic analysis",
       "heading": false
     },
     {

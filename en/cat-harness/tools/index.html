@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=6071ae228cf3">
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=18eb22b50395">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../assets/css/avatars.css?v=a0806788c1f5">
+<link rel="stylesheet" href="../../../assets/css/avatars.css?v=e905de88eeeb">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -640,12 +640,12 @@
 <!-- BEFORE docs-ui.js and work-plan.js: both read window.faRender. -->
 <script src="../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
-<script src="../../../assets/js/navbar-row.js?v=7dce6a7e2ab0" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=c7e8e0ebcddb" defer></script>
+<script src="../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
+<script src="../../../assets/js/docs-ui.js?v=52e4c68c64c7" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../assets/js/edit-links.js?v=81bb303b6bc2" defer></script>
+<script src="../../../assets/js/edit-links.js?v=4f82faf45c35" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -886,9 +886,9 @@ is <code class="language-plaintext highlighter-rouge">satisfies</code>, and it r
 to do that</em>, never <em>this skill is a tool</em>.</p>
 
 <div class="tg-grid">
-<a class="tg-stat" href="#every-tool"><b>236</b><span>Tool nodes</span></a>
+<a class="tg-stat" href="#every-tool"><b>237</b><span>Tool nodes</span></a>
 <a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>101</b><span>skills satisfied</span></a>
-<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>210</b><span>invoked as a shell command</span></a>
+<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>211</b><span>invoked as a shell command</span></a>
 <a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>27</b><span>reachable over MCP</span></a>
 </div>
 
@@ -913,7 +913,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><a href="cat-harness/">cat-harness</a></td>
-      <td>167</td>
+      <td>168</td>
     </tr>
     <tr>
       <td><a href="cat-harness-tools/">cat-harness-tools</a></td>
@@ -958,7 +958,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><span class="tg-tag tg-shell">shell</span></td>
-      <td>210</td>
+      <td>211</td>
     </tr>
     <tr>
       <td><span class="tg-tag tg-inproc">inProcess</span></td>
@@ -985,7 +985,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">none</code></td>
-      <td>206</td>
+      <td>207</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cli</code></td>
@@ -1010,7 +1010,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
 </h2>
     
 
-<p>Yes — all <strong>101</strong> skills named across <strong>236</strong> tools resolve to a
+<p>Yes — all <strong>101</strong> skills named across <strong>237</strong> tools resolve to a
 skill document in this checkout. A <code class="language-plaintext highlighter-rouge">satisfies</code> pointing at nothing would be a
 tool advertising a capability the graph cannot locate.</p>
 <h2 id="every-tool">
@@ -1040,6 +1040,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">agent-memory</code></td>
       <td>0 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/dth-phc/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="archimate-blocks"></a><a href="#archimate-blocks"><code class="language-plaintext highlighter-rouge">archimate-blocks</code></a><br />Draw a document’s tables and figures from its ArchiMate data, and check the model against the document’s relationship rules</td>
+      <td>For each table an instance’s <code class="language-plaintext highlighter-rouge">cat-archimate.config.json</code> lists under <code class="language-plaintext highlighter-rouge">tables</code>, rewrites the block’s Markdown table from an <code class="language-plaintext highlighter-rouge">archimate-relationship-rules/v1</code> file (<code class="language-plaintext highlighter-rouge">relationship-rules</code>: source, relationship, target, note; <code class="language-plaintext highlighter-rouge">relationship-types</code>: picture, verb, meaning), keeping the caption and footnotes. For each figure under <code class="language-plaintext highlighter-rouge">figures</code> that names an <code class="language-plaintext highlighter-rouge">svg</code>, writes the view as SVG (the same drawing as the view’s page). For a rules table that names a <code class="language-plaintext highlighter-rouge">model</code>, reports the rules the model never uses, the relationships no rule covers, the rules ArchiMate’s relationship table refuses, and the relationship types the rules use without a meaning. The rules are in charge: nothing is rewritten from the model.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">archimate-models</code></td>
+      <td>3 in / 1 out</td>
       <td><a href="https://github.com/litlfred/dth-phc/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>

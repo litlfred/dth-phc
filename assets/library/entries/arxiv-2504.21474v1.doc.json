@@ -370,11 +370,11 @@
           "heading": false
         },
         {
-          "term": "textual similarity",
+          "term": "relevant subjects",
           "heading": false
         },
         {
-          "term": "relevant subjects",
+          "term": "contrastive learning",
           "heading": false
         }
       ],
@@ -452,16 +452,16 @@
           "heading": false
         },
         {
-          "term": "qualitative",
-          "heading": true
-        },
-        {
           "term": "subject classifications",
           "heading": false
         },
         {
           "term": "subject categories",
           "heading": false
+        },
+        {
+          "term": "qualitative",
+          "heading": true
         },
         {
           "term": "case studies",
@@ -555,12 +555,12 @@
       "heading": false
     },
     {
-      "term": "subject categories",
-      "heading": false
-    },
-    {
       "term": "ontoaligner pipeline",
       "heading": true
+    },
+    {
+      "term": "subject categories",
+      "heading": false
     },
     {
       "term": "babaei giglou",

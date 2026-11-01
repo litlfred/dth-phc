@@ -361,11 +361,11 @@
           "heading": false
         },
         {
-          "term": "hessen",
+          "term": "utrecht",
           "heading": false
         },
         {
-          "term": "heijden",
+          "term": "hessen",
           "heading": false
         }
       ],
@@ -412,11 +412,11 @@
           "heading": false
         },
         {
-          "term": "information retrieval",
+          "term": "yin shen",
           "heading": false
         },
         {
-          "term": "yin shen",
+          "term": "information retrieval",
           "heading": false
         }
       ],
@@ -490,19 +490,15 @@
       },
       "keywords": [
         {
-          "term": "cheetah jaguar",
-          "heading": false
-        },
-        {
           "term": "jaguar porsche",
           "heading": false
         },
         {
-          "term": "porsche ferrari",
+          "term": "cheetah jaguar",
           "heading": false
         },
         {
-          "term": "tiger cheetah",
+          "term": "porsche ferrari",
           "heading": false
         },
         {
@@ -519,6 +515,10 @@
         },
         {
           "term": "cat documents",
+          "heading": false
+        },
+        {
+          "term": "k-dimensional subspace",
           "heading": false
         }
       ],
@@ -627,11 +627,11 @@
           "heading": false
         },
         {
-          "term": "euclidean distances",
+          "term": "singular values",
           "heading": false
         },
         {
-          "term": "singular values",
+          "term": "euclidean distances",
           "heading": false
         },
         {
@@ -658,10 +658,6 @@
       },
       "keywords": [
         {
-          "term": "cheetah jaguar",
-          "heading": false
-        },
-        {
           "term": "jaguar porsche",
           "heading": false
         },
@@ -670,11 +666,15 @@
           "heading": false
         },
         {
-          "term": "tiger cheetah",
+          "term": "lion tiger",
           "heading": false
         },
         {
-          "term": "lion tiger",
+          "term": "cheetah jaguar",
+          "heading": false
+        },
+        {
+          "term": "raw document-term",
           "heading": false
         }
       ],
@@ -829,6 +829,10 @@
       },
       "keywords": [
         {
+          "term": "lsa",
+          "heading": true
+        },
+        {
           "term": "lsa nrowl",
           "heading": false
         },
@@ -855,10 +859,6 @@
         {
           "term": "both lsa",
           "heading": false
-        },
-        {
-          "term": "dimensions",
-          "heading": true
         }
       ],
       "extract": "with the standard weighting exponent ˛ = 1 and for CA We ﬁrst investigate the performance of LSA and CA in terms of MAP, in their standard use, i.e., without varying the weighting exponent α, i.e., α = 1. Term matching without the preliminary use of LSA and CA, i.e., directly on the document-term matrix, is denoted by RAW. We expect that, in line with Qi et al. (2023), the performance of LSA and CA will be better",
@@ -1166,11 +1166,11 @@
           "heading": false
         },
         {
-          "term": "der heijden",
+          "term": "wilhelmus dataset",
           "heading": false
         },
         {
-          "term": "wilhelmus dataset",
+          "term": "bbcsport dataset",
           "heading": false
         }
       ],
@@ -1257,12 +1257,12 @@
       "heading": false
     },
     {
-      "term": "weighting exponent",
-      "heading": true
-    },
-    {
       "term": "lsa involves",
       "heading": false
+    },
+    {
+      "term": "weighting exponent",
+      "heading": true
     },
     {
       "term": "ﬁrst dimensions",
@@ -1273,12 +1273,12 @@
       "heading": true
     },
     {
-      "term": "weighting elements",
-      "heading": true
-    },
-    {
       "term": "intelligent information",
       "heading": false
+    },
+    {
+      "term": "weighting elements",
+      "heading": true
     }
   ],
   "links": {

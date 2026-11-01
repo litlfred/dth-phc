@@ -654,11 +654,11 @@
           "heading": false
         },
         {
-          "term": "google",
+          "term": "attacks",
           "heading": false
         },
         {
-          "term": "attacks",
+          "term": "google",
           "heading": false
         },
         {
@@ -702,11 +702,11 @@
           "heading": false
         },
         {
-          "term": "notes file",
+          "term": "email address",
           "heading": false
         },
         {
-          "term": "email address",
+          "term": "notes file",
           "heading": false
         },
         {
@@ -938,11 +938,11 @@
           "heading": true
         },
         {
-          "term": "calendar event",
+          "term": "p-llm",
           "heading": false
         },
         {
-          "term": "p-llm",
+          "term": "calendar event",
           "heading": false
         },
         {
@@ -962,7 +962,7 @@
           "heading": false
         },
         {
-          "term": "participants",
+          "term": "q-llm",
           "heading": false
         }
       ],
@@ -998,11 +998,11 @@
           "heading": false
         },
         {
-          "term": "individual data",
+          "term": "inner source",
           "heading": false
         },
         {
-          "term": "inner source",
+          "term": "individual data",
           "heading": false
         },
         {
@@ -1078,15 +1078,15 @@
       "summary": null,
       "keywords": [
         {
-          "term": "touch",
-          "heading": false
-        },
-        {
           "term": "utility",
           "heading": false
         },
         {
           "term": "agentic",
+          "heading": false
+        },
+        {
+          "term": "touch",
           "heading": false
         }
       ],
@@ -1274,7 +1274,7 @@
           "heading": false
         },
         {
-          "term": "turn",
+          "term": "discuss",
           "heading": false
         }
       ],
@@ -1370,7 +1370,7 @@
           "heading": false
         },
         {
-          "term": "deny tool",
+          "term": "policy triggering",
           "heading": false
         }
       ],
@@ -1410,11 +1410,11 @@
           "heading": false
         },
         {
-          "term": "tool filter",
+          "term": "instruction hierarchy",
           "heading": false
         },
         {
-          "term": "instruction hierarchy",
+          "term": "tool filter",
           "heading": false
         },
         {
@@ -1550,19 +1550,19 @@
           "heading": false
         },
         {
-          "term": "camel strict",
-          "heading": false
-        },
-        {
-          "term": "adversary observable",
-          "heading": false
-        },
-        {
           "term": "constraints private",
           "heading": false
         },
         {
+          "term": "camel strict",
+          "heading": false
+        },
+        {
           "term": "side-channel attacks",
+          "heading": false
+        },
+        {
+          "term": "adversary observable",
           "heading": false
         }
       ],
@@ -1737,11 +1737,11 @@
           "heading": false
         },
         {
-          "term": "camel",
+          "term": "prompt injection",
           "heading": false
         },
         {
-          "term": "prompt injection",
+          "term": "camel",
           "heading": false
         },
         {
@@ -1781,11 +1781,11 @@
           "heading": false
         },
         {
-          "term": "contextual integrity",
+          "term": "camel",
           "heading": false
         },
         {
-          "term": "camel",
+          "term": "contextual integrity",
           "heading": false
         },
         {
@@ -1837,7 +1837,7 @@
           "heading": false
         },
         {
-          "term": "peter neumann",
+          "term": "prompt injection",
           "heading": false
         },
         {
@@ -1845,7 +1845,7 @@
           "heading": false
         },
         {
-          "term": "prompt injection",
+          "term": "david wagner",
           "heading": false
         }
       ],
@@ -1915,16 +1915,16 @@
           "heading": false
         },
         {
-          "term": "possess",
-          "heading": false
+          "term": "security",
+          "heading": true
         },
         {
           "term": "machine learning",
           "heading": false
         },
         {
-          "term": "security",
-          "heading": true
+          "term": "possess",
+          "heading": false
         }
       ],
       "extract": "In this work we extensively use terminology from the computer security literature. Security Policy is defined by Anderson, Stajano, and Lee (2002) as “a high-level specification of the security properties that a given system should possess”. Such policies describe the overall goals of the system, define the subjects and the objects in the system, and finally restrict the operations that they can perform. An example",
@@ -1963,11 +1963,11 @@
           "heading": false
         },
         {
-          "term": "myers",
+          "term": "confidentiality",
           "heading": false
         },
         {
-          "term": "confidentiality",
+          "term": "myers",
           "heading": false
         }
       ],
@@ -2051,11 +2051,11 @@
           "heading": false
         },
         {
-          "term": "keep track",
+          "term": "defend against",
           "heading": false
         },
         {
-          "term": "defend against",
+          "term": "keep track",
           "heading": false
         }
       ],
@@ -2186,7 +2186,7 @@
       "summary": null,
       "keywords": [
         {
-          "term": "event participants",
+          "term": "transaction policy",
           "heading": false
         },
         {
@@ -2194,11 +2194,11 @@
           "heading": false
         },
         {
-          "term": "transaction policy",
+          "term": "email policy",
           "heading": false
         },
         {
-          "term": "email policy",
+          "term": "event participants",
           "heading": false
         },
         {
@@ -2238,15 +2238,19 @@
           "heading": false
         },
         {
-          "term": "tool filter",
-          "heading": false
-        },
-        {
           "term": "prompt sandwiching",
           "heading": false
         },
         {
+          "term": "tool filter",
+          "heading": false
+        },
+        {
           "term": "usage increase",
+          "heading": false
+        },
+        {
+          "term": "table token",
           "heading": false
         },
         {
@@ -2258,11 +2262,7 @@
           "heading": false
         },
         {
-          "term": "table token",
-          "heading": false
-        },
-        {
-          "term": "defeating prompt",
+          "term": "output",
           "heading": false
         }
       ],
@@ -2320,15 +2320,15 @@
           "heading": false
         },
         {
-          "term": "param participants",
-          "heading": false
-        },
-        {
           "term": "param filename",
           "heading": false
         },
         {
           "term": "param query",
+          "heading": false
+        },
+        {
+          "term": "param participants",
           "heading": false
         },
         {
@@ -2483,11 +2483,11 @@
           "heading": false
         },
         {
-          "term": "com start",
+          "term": "raynolds gmail",
           "heading": false
         },
         {
-          "term": "raynolds gmail",
+          "term": "com start",
           "heading": false
         }
       ],
@@ -2579,11 +2579,11 @@
           "heading": false
         },
         {
-          "term": "com start",
+          "term": "raynolds gmail",
           "heading": false
         },
         {
-          "term": "raynolds gmail",
+          "term": "com start",
           "heading": false
         }
       ],
@@ -2655,7 +2655,19 @@
           "heading": false
         },
         {
+          "term": "vacation plans",
+          "heading": false
+        },
+        {
+          "term": "johnson vacation",
+          "heading": false
+        },
+        {
           "term": "beach activities",
+          "heading": false
+        },
+        {
+          "term": "waikiki beach",
           "heading": false
         },
         {
@@ -2668,18 +2680,6 @@
         },
         {
           "term": "spa june",
-          "heading": false
-        },
-        {
-          "term": "beach days",
-          "heading": false
-        },
-        {
-          "term": "harbor june",
-          "heading": false
-        },
-        {
-          "term": "head june",
           "heading": false
         }
       ],
@@ -2703,11 +2703,11 @@
           "heading": false
         },
         {
-          "term": "suspicious activity",
+          "term": "suspicious transactions",
           "heading": false
         },
         {
-          "term": "suspicious transactions",
+          "term": "suspicious activity",
           "heading": false
         },
         {
@@ -2867,11 +2867,11 @@
           "heading": false
         },
         {
-          "term": "yyyy-mm-dd format",
+          "term": "docx",
           "heading": false
         },
         {
-          "term": "docx",
+          "term": "yyyy-mm-dd format",
           "heading": false
         }
       ],
@@ -2893,16 +2893,12 @@
       "heading": true
     },
     {
-      "term": "camel security",
-      "heading": true
-    },
-    {
       "term": "defeating prompt",
       "heading": true
     },
     {
-      "term": "tool query",
-      "heading": false
+      "term": "camel security",
+      "heading": true
     },
     {
       "term": "prompt injections",
@@ -2911,6 +2907,10 @@
     {
       "term": "send email",
       "heading": true
+    },
+    {
+      "term": "tool query",
+      "heading": false
     },
     {
       "term": "user query",

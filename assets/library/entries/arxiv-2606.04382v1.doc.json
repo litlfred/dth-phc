@@ -391,11 +391,11 @@
       },
       "keywords": [
         {
-          "term": "panel",
+          "term": "scorer",
           "heading": false
         },
         {
-          "term": "scorer",
+          "term": "panel",
           "heading": false
         },
         {
@@ -407,15 +407,15 @@
           "heading": false
         },
         {
-          "term": "metric",
-          "heading": false
-        },
-        {
           "term": "first-stage",
           "heading": false
         },
         {
           "term": "cross-lingual",
+          "heading": false
+        },
+        {
+          "term": "metric",
           "heading": false
         },
         {
@@ -458,15 +458,15 @@
           "heading": false
         },
         {
-          "term": "stud",
-          "heading": false
-        },
-        {
           "term": "subject",
           "heading": false
         },
         {
           "term": "leonard",
+          "heading": false
+        },
+        {
+          "term": "stud",
           "heading": false
         },
         {
@@ -684,11 +684,11 @@
           "heading": false
         },
         {
-          "term": "non-english",
+          "term": "oclc",
           "heading": false
         },
         {
-          "term": "oclc",
+          "term": "non-english",
           "heading": false
         }
       ],
@@ -1166,15 +1166,15 @@
           "heading": false
         },
         {
-          "term": "consensus",
-          "heading": false
-        },
-        {
           "term": "hosted",
           "heading": false
         },
         {
           "term": "fine-tune",
+          "heading": false
+        },
+        {
+          "term": "consensus",
           "heading": false
         }
       ],
@@ -1272,11 +1272,11 @@
           "heading": false
         },
         {
-          "term": "improve",
+          "term": "systems",
           "heading": false
         },
         {
-          "term": "systems",
+          "term": "improve",
           "heading": false
         }
       ],
@@ -1330,6 +1330,10 @@
       },
       "keywords": [
         {
+          "term": "liter ature",
+          "heading": false
+        },
+        {
           "term": "consis tency",
           "heading": false
         },
@@ -1350,15 +1354,11 @@
           "heading": false
         },
         {
-          "term": "information science",
-          "heading": false
-        },
-        {
           "term": "index ing",
           "heading": false
         },
         {
-          "term": "library",
+          "term": "information science",
           "heading": false
         }
       ],

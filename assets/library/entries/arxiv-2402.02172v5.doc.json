@@ -462,15 +462,15 @@
           "heading": false
         },
         {
+          "term": "luxembourg",
+          "heading": false
+        },
+        {
           "term": "university",
           "heading": false
         },
         {
           "term": "tegawendé",
-          "heading": false
-        },
-        {
-          "term": "xunzhu",
           "heading": false
         }
       ],
@@ -535,11 +535,11 @@
           "heading": false
         },
         {
-          "term": "perfor mance",
+          "term": "detecting vulnerabilities",
           "heading": false
         },
         {
-          "term": "detecting vulnerabilities",
+          "term": "perfor mance",
           "heading": false
         }
       ],
@@ -625,12 +625,12 @@
           "heading": true
         },
         {
-          "term": "code review",
-          "heading": false
-        },
-        {
           "term": "card",
           "heading": true
+        },
+        {
+          "term": "code review",
+          "heading": false
         }
       ],
       "extract": "As shown in Figure 1, we define six characters in our simulation system (CodeAgent), includ- ing User, CEO, CPO, CTO, Reviewer, Coder, and they are defined for different specific tasks. All tasks are processed by the collaborative work of two agents in their multi-round conversa- tions. For example, as a role Reviewer, her respon- sibility is to do the code review for given codes and files in three aspects (tasks",
@@ -676,7 +676,7 @@
           "heading": false
         },
         {
-          "term": "attached",
+          "term": "answer",
           "heading": false
         }
       ],
@@ -838,12 +838,12 @@
           "heading": false
         },
         {
-          "term": "discusses",
-          "heading": false
-        },
-        {
           "term": "analysis",
           "heading": true
+        },
+        {
+          "term": "discusses",
+          "heading": false
         }
       ],
       "extract": "This section discusses the performance of CodeAgent in the four tasks considered for our experiments. In Appendix Section E, we provide further analyses: we discuss the difference in the execution time of CodeAgent in different languages and perform a capability analysis between CodeAgent and recent approaches. 4.1",
@@ -932,11 +932,11 @@
           "heading": false
         },
         {
-          "term": "average improvement",
+          "term": "codebert",
           "heading": false
         },
         {
-          "term": "codebert",
+          "term": "average improvement",
           "heading": false
         },
         {
@@ -1065,11 +1065,11 @@
           "heading": false
         },
         {
-          "term": "international conference",
+          "term": "jacques klein",
           "heading": false
         },
         {
-          "term": "jacques klein",
+          "term": "international conference",
           "heading": false
         },
         {
@@ -1146,11 +1146,11 @@
           "heading": false
         },
         {
-          "term": "code review",
+          "term": "remainder term",
           "heading": false
         },
         {
-          "term": "remainder term",
+          "term": "code review",
           "heading": false
         },
         {
@@ -1335,7 +1335,7 @@
           "heading": true
         },
         {
-          "term": "efficiency",
+          "term": "specialized",
           "heading": false
         }
       ],
@@ -1358,11 +1358,11 @@
       },
       "keywords": [
         {
-          "term": "code review",
+          "term": "codeagent",
           "heading": false
         },
         {
-          "term": "codeagent",
+          "term": "code review",
           "heading": false
         },
         {
@@ -1374,7 +1374,7 @@
           "heading": false
         },
         {
-          "term": "nerability",
+          "term": "munication",
           "heading": false
         }
       ],
@@ -1409,11 +1409,11 @@
           "heading": false
         },
         {
-          "term": "programming languages",
+          "term": "recursive self-improvement",
           "heading": false
         },
         {
-          "term": "recursive self-improvement",
+          "term": "programming languages",
           "heading": false
         },
         {
@@ -1425,8 +1425,8 @@
           "heading": false
         },
         {
-          "term": "across languages",
-          "heading": false
+          "term": "dataset",
+          "heading": true
         }
       ],
       "extract": "Previous Dataset As shown in Zhou et al. (2023), our study incorporates three distinct datasets for evaluating the perfor- mance of CodeAgent: Trans-Reviewdata, AutoTransformdata, and T5-Reviewdata. Trans-Reviewdata, compiled by Tufano et al. (Tufano et al., 2021), derives from Gerrit and GitHub projects, excluding noisy or overly lengthy comments and review data with new tokens in revised code not present in the",
@@ -1456,8 +1456,8 @@
           "heading": true
         },
         {
-          "term": "outlines",
-          "heading": false
+          "term": "key",
+          "heading": true
         }
       ],
       "extract": "The following table outlines various key factors that can lead to vulnerabilities in software sys- tems, along with their descriptions. These factors should be carefully considered and addressed to enhance the security of the system. H",
@@ -1495,11 +1495,11 @@
           "heading": false
         },
         {
-          "term": "detailed experimental",
+          "term": "allow unauthorized",
           "heading": false
         },
         {
-          "term": "allow unauthorized",
+          "term": "detailed experimental",
           "heading": false
         },
         {
@@ -1556,11 +1556,11 @@
           "heading": false
         },
         {
-          "term": "diffs",
+          "term": "ample",
           "heading": false
         },
         {
-          "term": "planation",
+          "term": "diffs",
           "heading": false
         }
       ],
@@ -1599,11 +1599,11 @@
           "heading": false
         },
         {
-          "term": "merged data",
+          "term": "recall",
           "heading": false
         },
         {
-          "term": "recall",
+          "term": "merged data",
           "heading": false
         },
         {
@@ -1611,7 +1611,7 @@
           "heading": false
         },
         {
-          "term": "across languages",
+          "term": "vulnerabili ties",
           "heading": false
         }
       ],
@@ -1662,7 +1662,7 @@
           "heading": false
         },
         {
-          "term": "formatting inconsistencies",
+          "term": "info self",
           "heading": false
         }
       ],

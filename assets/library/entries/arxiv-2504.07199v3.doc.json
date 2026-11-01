@@ -270,11 +270,11 @@
           "heading": false
         },
         {
-          "term": "digital library",
+          "term": "subject classification",
           "heading": false
         },
         {
-          "term": "subject classification",
+          "term": "digital library",
           "heading": false
         },
         {
@@ -333,15 +333,15 @@
           "heading": false
         },
         {
+          "term": "library",
+          "heading": false
+        },
+        {
           "term": "scientific",
           "heading": false
         },
         {
           "term": "technology",
-          "heading": false
-        },
-        {
-          "term": "library",
           "heading": false
         }
       ],
@@ -376,11 +376,11 @@
           "heading": false
         },
         {
-          "term": "excluded",
+          "term": "records",
           "heading": false
         },
         {
-          "term": "records",
+          "term": "excluded",
           "heading": false
         }
       ],
@@ -497,10 +497,6 @@
           "heading": false
         },
         {
-          "term": "participants",
-          "heading": false
-        },
-        {
           "term": "engineering",
           "heading": false
         },
@@ -511,6 +507,10 @@
         {
           "term": "all-subjects",
           "heading": false
+        },
+        {
+          "term": "collections",
+          "heading": true
         }
       ],
       "extract": "4.1 Dataset Collections all-subjects.5 This dataset comprises the full TIBKAT open-source collection, with predefined splits: 81,937 records for training and 13,666 for development. A detailed dataset overview is avail- 5https://github.com/jd-coderepos/ llms4subjects/tree/main/shared-task-datasets/ TIBKAT/all-subjects able in the shared task repository. Participants also received the accompanying GND subject taxon-",
@@ -712,11 +712,11 @@
           "heading": false
         },
         {
-          "term": "average recall",
+          "term": "both collections",
           "heading": false
         },
         {
-          "term": "both collections",
+          "term": "average recall",
           "heading": false
         },
         {
@@ -759,11 +759,11 @@
           "heading": false
         },
         {
-          "term": "qualitative eval",
+          "term": "top teams",
           "heading": false
         },
         {
-          "term": "top teams",
+          "term": "qualitative eval",
           "heading": false
         },
         {
@@ -877,11 +877,11 @@
           "heading": false
         },
         {
-          "term": "vienna",
+          "term": "osma suominen",
           "heading": false
         },
         {
-          "term": "austria",
+          "term": "vienna",
           "heading": false
         }
       ],
@@ -947,11 +947,11 @@
           "heading": true
         },
         {
-          "term": "swedish",
+          "term": "indonesian",
           "heading": false
         },
         {
-          "term": "estonian",
+          "term": "nian",
           "heading": false
         }
       ],
@@ -986,12 +986,12 @@
           "heading": false
         },
         {
-          "term": "terms",
-          "heading": false
-        },
-        {
           "term": "details",
           "heading": true
+        },
+        {
+          "term": "terms",
+          "heading": false
         },
         {
           "term": "tib",
@@ -1049,11 +1049,11 @@
           "heading": false
         },
         {
-          "term": "assign",
+          "term": "llms4subjects",
           "heading": false
         },
         {
-          "term": "llms4subjects",
+          "term": "assign",
           "heading": false
         }
       ],
@@ -1089,11 +1089,11 @@
       "heading": false
     },
     {
-      "term": "subject taxonomy",
+      "term": "llms4subjects shared",
       "heading": false
     },
     {
-      "term": "llms4subjects shared",
+      "term": "subject taxonomy",
       "heading": false
     },
     {

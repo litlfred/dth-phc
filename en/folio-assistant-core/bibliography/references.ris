@@ -14,6 +14,29 @@ DA  - D:20261001
 ER  - 
 
 TY  - GEN
+ID  - arxiv-2504-10971v1
+AU  - [0000-0002-4210-2342], Ed Overes1
+AU  - Santoro2[0000-0003-3421-1894], Flavia Maria
+TI  - The Effectiveness of Business Process Visualisations: a Systematic Literature Review
+DA  - D:20250415
+AB  - Business Process Visualisations (BPVs) have become indispensable tools for organisations seeking to enhance their operational efficiency, decision-making capabilities, and overall performance. The burgeoning interest in process modeling and tool development, coupled with the rise of data visualisation field, underscores the significant role of visual tools in leveraging human cognition. Unlike traditional models, data visualisation approaches graphics from a novel angle, emphasising the potency of visual representations. This review aims to integrate the domains of BPV and data visualisation to assess their combined influence on organisational effectiveness comprehensively. Through a meticulous analysis of existing literature, this study aims to amalgamate insights on BPVs impact from a data visualisation standpoint, advocating for a design philosophy that prioritises user engagement to bolster organisational outcomes. Additionally, our systematic review has unveiled promising avenues for future research, identifying underexplored variables that influence the efficacy of BPVs, thereby charting a path for forthcoming scholarly inquiries.
+ER  - 
+
+TY  - GEN
+ID  - avila-2021-process-modeling-guidelines-slr
+TI  - A systematic literature review of process modeling guidelines and their empirical support
+PY  - 2021
+DA  - 2021
+ER  - 
+
+TY  - GEN
+ID  - mendling-2010-activity-labeling
+TI  - Activity labeling in process modeling: empirical insights and recommendations
+PY  - 2010
+DA  - 2010
+ER  - 
+
+TY  - GEN
 ID  - agent-skill-best-practices---gemini-cli
 TI  - Agent Skill best practices
 DA  - D:20260920
@@ -37,6 +60,13 @@ TY  - GEN
 ID  - rfc8174-uppercase-vs-lowercase-2119-key-words
 TI  - Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words
 DA  - D:20260921
+ER  - 
+
+TY  - GEN
+ID  - genon-2010-bpmn2-cognitive-effectiveness
+TI  - Analysing the Cognitive Effectiveness of the BPMN 2.0 Visual Notation
+PY  - 2010
+DA  - 2010
 ER  - 
 
 TY  - JOUR
@@ -63,10 +93,25 @@ UR  - https://doi.org/10.6028/NIST.SP.800-207
 ER  - 
 
 TY  - GEN
+ID  - hasic-2018-5pdm-decision-intelligence
+TI  - Augmenting processes with decision intelligence: Principles for integrated modelling
+PY  - 2018
+DA  - 2018
+ER  - 
+
+TY  - GEN
 ID  - hmans-2026-beans-readme
 TI  - beans
 PY  - 2026
 DA  - 2026
+ER  - 
+
+TY  - JOUR
+ID  - arxiv-2505.11701v2
+AU  - Behavior, LLM
+TI  - DMN-Guided Prompting: A Framework for Controlling LLM Behavior
+UR  - https://arxiv.org/abs/2505.11701
+AB  - Large Language Models (LLMs) have shown considerable potential in automating decision logic within knowledge-intensive processes. However, their effectiveness largely depends on the strategy and quality of prompting. Since decision logic is typically embedded in prompts, it becomes challenging for end users to modify or refine it. Decision Model and Notation (DMN) offers a standardized graphical approach for defining decision logic in a structured, user- friendly manner. This paper introduces a DMN-guided prompting framework that breaks down complex decision logic into smaller, manageable components, guid- ing LLMs through structured decision pathways. We implemented the framework in a graduate-level course where students submitted assignments. The assign- ments and DMN models representing feedback instructions served as inputs to our framework. The instructor evaluated the generated feedback and labeled it for performance assessment. Our approach demonstrated promising results, out- performing chain-of-thought (CoT) prompting in our case study. Students also responded positively to the generated feedback, reporting high levels of perceived usefulness in a survey based on the Technology Acceptance Model.
 ER  - 
 
 TY  - GEN
@@ -95,6 +140,17 @@ DA  - 2013
 ER  - 
 
 TY  - JOUR
+ID  - arxiv-1603.07466v1
+AU  - Calvanese1, Diego
+AU  - Dumas2, Marlon
+AU  - Laurson2, Ülari
+TI  - Semantics and Analysis of DMN Decision Tables
+DA  - D:20160325
+UR  - https://arxiv.org/abs/1603.07466
+AB  - The Decision Model and Notation (DMN) is a standard no- tation to capture decision logic in business applications in general and business processes in particular. A central construct in DMN is that of a decision table. The increasing use of DMN decision tables to capture critical business knowledge raises the need to support analysis tasks on these tables such as correctness and completeness checking. This paper provides a formal semantics for DMN tables, a formal deﬁnition of key analysis tasks and scalable algorithms to tackle two such tasks, i.e., de- tection of overlapping rules and of missing rules. The algorithms are based on a geometric interpretation of decision tables that can be used to support other analysis tasks by tapping into geometric algorithms. The algorithms have been implemented in an open-source DMN editor and tested on large decision tables derived from a credit lending dataset.
+ER  - 
+
+TY  - JOUR
 ID  - arxiv-2507.07974v2
 AU  - Chen, Sizhe
 TI  - Defending Against Prompt Injection With a Few DefensiveTokens
@@ -110,6 +166,47 @@ AU  - Chow, Eric H. C.
 TI  - A Skill-Based Agentic Pipeline for Library of Congress Subject Indexing
 UR  - https://arxiv.org/abs/2605.03537
 AB  - This paper presents a modular AI agentic skill pipeline for au- tomating subject indexing with Library of Congress Subject Headings (LCSH). Subject indexing—the process of analyzing a work’s aboutness, selecting controlled vocabulary terms, and encoding them as MARC 21 subject access fields—is one of the most time-consuming components of library cataloging. The system decomposes this process into four discrete, sequentially executed agent skills: conceptual analysis, quantitative filtering, authority validation, and MARC field synthesis. Each skill encodes domain knowledge drawn directly from Library of Congress Subject Headings Manual (SHM) instruction sheets and subject analysis theory. The pipeline was evaluated against a corpus of ten titles whose existing subject headings were captured from the Harvard Library bibliographic dataset (a snapshot of their Alma ILS). Results demonstrate strong con- ceptual alignment with professional subject indexing practice, with notable differences in specificity, subdivision practice, and the agent’s adherence to the 2026 LC policy discontinuing form subdivisions ($v) in favor of LCGFT 655 fields.
+ER  - 
+
+TY  - JOUR
+ID  - moeller-winter-reichert-2025-cognitive-factors-slr
+AU  - Citation: Möller, M.
+AU  - Winter, M.
+TI  - Cognitive Factors in Process Model Comprehension—A Systematic Literature Review
+DA  - D:20250516
+DO  - 10.3390/brainsci15050505
+UR  - https://doi.org/10.3390/brainsci15050505
+AB  - Process models constitute essential tools in business process management and software engineering for representing and managing real-world business processes. Hence, the proper comprehension of these models is crucial for enabling an effective and efficient communication among stakeholders. While several studies have examined factors affecting process model comprehension, such as the used modeling notation or process complexity, there is a lack of in-depth research on the cognitive processes important to comprehend process models deeper. This systematic literature review explores the cognitive mech- anisms underlying process model comprehension by integrating insights from relevant disciplines such as cognitive neuroscience and psychology. Key areas of cognition include perception, attention, memory, language, problem solving, emotion, and metacognition. This review was conducted following the well-established Kitchenham methodology and included an extensive search in the following digital libraries: Web of Science, IEEE Xplore, ScienceDirect, ACM Digital Library, PubMed, and SpringerLink. By analyzing 47 studies, this literature review identifies gaps in current research, emphasizing the need for further investigation into these cognitive processes to improve model comprehensibility.
+ER  - 
+
+TY  - JOUR
+ID  - arxiv-1511-04055v1
+AU  - Claes1, Jan
+AU  - 2
+AU  - Vanderfeesten2, Irene
+AU  - Pinggera3, Jakob
+AU  - Reijers2, Hajo A.
+AU  - Weber3, Barbara
+AU  - Poels1, Geert
+TI  - A Visual Analysis of the Process of Process Modeling
+DA  - D:20151111
+DO  - 10.1007/s10257-014-0245-4
+UR  - https://doi.org/10.1007/s10257-014-0245-4
+AB  - The construction of business process models has become an important requisite in the analysis and optimization of processes. The success of the analysis and optimization efforts heavily depends on the quality of the models. Therefore, a research domain emerged that studies the process of process modeling. This paper contributes to this research by presenting a way of visualizing the different steps a modeler undertakes to construct a process model, in a so-called PPMChart. The graphical representation lowers the cognitive efforts to discover properties of the modeling process, which facilitates the research and the development of theory, training and tool support for improving model quality. The paper contains an extensive overview of applications of the tool that demonstrate its usefulness for research and practice and discusses the observations from the visualization in relation to other work. The visualization was evaluated through a qualitative study that confirmed its usefulness and added value compared to the Dotted Chart on which the visualization was inspired.
+ER  - 
+
+TY  - GEN
+ID  - zimoch-2017-cognitive-insights-preliminary
+TI  - Cognitive Insights into Business Process Model Comprehension: Preliminary Results for Experienced and Inexperienced Individuals
+PY  - 2017
+DA  - 2017
+ER  - 
+
+TY  - GEN
+ID  - hasic-2019-complexity-metrics-dmn
+TI  - Complexity metrics for DMN decision models
+PY  - 2019
+DA  - 2019
 ER  - 
 
 TY  - GEN
@@ -144,6 +241,16 @@ AU  - Destefanis, Giuseppe
 TI  - Authoring Agent Skills: A Software-Engineering Approach
 UR  - https://arxiv.org/abs/2607.25032
 AB  - Agent Skills are an emerging way to extend large language model agents with reusable procedural knowledge that the agent loads on demand. Anthropic introduced Agent Skills and published the format as an open specification supported across several agent tools. This note argues that a skill is a software artefact and that its construction should follow software-engineering principles, with qualifications: single responsibility, separation of interface from implementation, low coupling, and economy in a shared token budget, together with behavioural evaluation in place of deterministic testing. Using Claude Code as the reference implementation, it describes how a skill is structured, how its contents are loaded in stages, and how to write the description on which selection depends. It places skills against the other mechanisms a developer can use to shape agent behaviour, like project memory files, slash commands, subagents, external tool connections, and hooks, and gives a rule for choosing between them based on who decides that a mechanism runs and what guarantee it provides. It then sets out an evaluation-driven authoring process, a set of patterns and faults commonly encountered in authoring, and the trust question raised by using skills from third parties. We illustrate the comparison drawn in UML class style, the loading model, the anatomy of a skill, the relative position of each mechanism, and the points at which skills and hooks act during a session. Note on sources This note draws on Anthropic’s official documentation1 for Agent Skills, Claude Code skills, hooks, and skill authoring best practices, together with the open Agent Skills specification.
+ER  - 
+
+TY  - JOUR
+ID  - arxiv-2005.09998v1
+AU  - DMN, A Tight Integration of
+AU  - Constraint
+TI  - Tackling the DMN Challenges with cDMN: A Tight Integration of DMN and Constraint Reasoning
+DA  - D:20200521
+UR  - https://arxiv.org/abs/2005.09998
+AB  - This paper describes an extension to the DMN standard, called cDMN. It aims to enlarge the expressivity of DMN in order to solve more complex problems, while retaining DMN’s goal of being readable by domain experts. We test cDMN by solving the most complex challenges posted on the DM Community website. We compare our own cDMN solutions to the solutions that have been submitted to the website and ﬁnd that our approach is competitive, both in readability and compactness. Moreover, cDMN is able to solve more challenges than any other approach.
 ER  - 
 
 TY  - JOUR
@@ -182,6 +289,13 @@ DA  - D:20260920
 ER  - 
 
 TY  - GEN
+ID  - zimoch-2017-eye-tracking-lessons-learned
+TI  - Eye Tracking Experiments on Process Model Comprehension: Lessons Learned
+PY  - 2017
+DA  - 2017
+ER  - 
+
+TY  - GEN
 ID  - hl7-2023-fhir-r5-testplan
 TI  - FHIR R5 (5.0.0) — TestPlan resource
 PY  - 2023
@@ -189,9 +303,27 @@ DA  - 2023
 ER  - 
 
 TY  - GEN
+ID  - figl-2018-what-we-know-dmn-emisa
+AU  - Figl2, Kathrin
+AU  - Mendling3, Jan
+AU  - Tokdemir4, Gul
+AU  - Vanthienen5, Jan
+TI  - What we know and what we do not know about DMN (Extended Abstract)
+DA  - D:20210719
+AB  - )1 Kathrin Figl2, Jan Mendling3, Gul Tokdemir4, Jan Vanthienen5 Abstract: The recent Decision Model and Notation (DMN) establishes business decisions as first- class citizens of executable business processes. This research note has two objectives: first, to describe DMN’s technical and theoretical foundations; second, to identify research directions for investigating DMN’s potential benefits on a technological, individual and organizational level. To this end, we integrate perspectives from management science, cognitive theory and information systems research.
+ER  - 
+
+TY  - GEN
 ID  - arxiv-0909.4061v2
 TI  - Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions
 DA  - D:20241126
+ER  - 
+
+TY  - GEN
+ID  - figl-strembeck-2015-flow-direction-experiment
+TI  - Findings from an Experiment on Flow Direction of Business Process Models
+PY  - 2015
+DA  - 2015
 ER  - 
 
 TY  - GEN
@@ -227,6 +359,13 @@ TI  - Evaluating Large Language Models for Public Health Classification and Extr
 DA  - D:20250220
 UR  - https://arxiv.org/abs/2405.14766
 AB  - Advances in Large Language Models (LLMs) have led to significant interest in their potential to support human experts across a range of domains, including public health. In this work we present automated evaluations of LLMs for public health tasks involving the classification and extraction of free text. We combine six externally annotated datasets with seven new internally annotated datasets to evaluate LLMs for processing text related to: health burden, epidemiological risk factors, and public health interventions. We evaluate eleven open-weight LLMs (7-123 billion parameters) across all tasks using zero-shot in-context learning. We find that Llama-3.3-70B-Instruct is the highest performing model, achieving the best results on 8/16 tasks (using micro-F1 scores). We see significant variation across tasks with all open-weight LLMs scoring below 60% micro-F1 on some challenging tasks, such as Contact Classification, while all LLMs achieve greater than 80% micro-F1 on others, such as GI Illness Classification. For a subset of 11 tasks, we also evaluate three GPT-4 and GPT-4o series models and find comparable results to Llama-3.3-70B-Instruct. Overall, based on these initial results we find promising signs that LLMs may be useful tools for public health experts to extract information from a wide variety of free text sources, and support public health surveillance, research, and interventions. Figure 1: Public Health Large Language Model (LLM) Evaluation Areas [Number of Evalua- tions] and Task Evaluation Micro-F1 Scores by Model. (Left) We divide public health free text processing into three sub-domains: (1) burden, such as reports of disease symptoms, cases, morbidity, or mortality; (2) risk factors, such as environmental, behavioural, or biological contributors; (3) interventions, pharmaceutical and non-pharmaceutical. (Right) Evaluation results (micro-F1 scores) for seven open-weight LLM architectures (highest performing model evaluated from each) across the 16 task
+ER  - 
+
+TY  - GEN
+ID  - zur-muehlen-recker-2008-how-much-language
+TI  - How Much Language Is Enough? Theoretical and Practical Use of the Business Process Modeling Notation
+PY  - 2008
+DA  - 2008
 ER  - 
 
 TY  - GEN
@@ -271,6 +410,15 @@ DA  - 2026
 ER  - 
 
 TY  - JOUR
+ID  - djurica-2024-decision-model-comprehension-emisa
+TI  - Investigating the impact of representation features on decision model comprehension (Extended Abstract)
+DA  - D:20240502
+DO  - 10.18420/EMISA2024_05
+UR  - https://doi.org/10.18420/EMISA2024_05
+AB  - )5 Djordje Djurica 1, Tyge F. Kummer 2, Jan Mendling 1,3, and Kathrin Figl 4 Abstract: Decision models play a crucial role in the development of information systems for tasks such as system analysis and design, as well as compliance management. The effective presentation of these models is essential to ensure their accuracy and completeness. Existing research on their cognitive effectiveness remains inconclusive. Our study advances understanding by examining the detailed representation features of decision models, including type (tree versus table), structure (expanded versus frugal), and design (monochromatic versus colored). We demonstrate that the use of color can improve model-task fit, and that structural features can enhance comprehension. Utilizing eye-tracking, we analyzed the underlying mechanisms of these effects. Our findings provide valuable insights for cognitive information systems research and practical applications, offering guidance for both users and developers of decision models.
+ER  - 
+
+TY  - JOUR
 ID  - arxiv-2504.07199v3
 AU  - Jennifer D’Souza, Sameer Sadruddin, Holger Israel, Mathias Begoin
 AU  - Slawig, Diana
@@ -299,6 +447,13 @@ ID  - landauer-foltz-laham-1998-intro-lsa
 AU  - Laham), (Darrell
 TI  - An Introduction to Latent Semantic Analysis
 DA  - (10:59 AM 
+ER  - 
+
+TY  - GEN
+ID  - leopold-2016-bpmn-quality-issues-industry
+TI  - Learning from Quality Issues of BPMN Models from Industry
+PY  - 2016
+DA  - 2016
 ER  - 
 
 TY  - JOUR
@@ -374,6 +529,13 @@ AB  - We introduce a benchmark that is fully self-contained, needs no ground tru
 ER  - 
 
 TY  - GEN
+ID  - hasic-2019-measuring-complexity-dmn
+TI  - Measuring the Complexity of DMN Decision Models
+PY  - 2019
+DA  - 2019
+ER  - 
+
+TY  - GEN
 ID  - mcp-2026-specification-2026-07-28
 TI  - Model Context Protocol Specification, version 2026-07-28
 PY  - 2026
@@ -394,6 +556,13 @@ AU  - Multi-Agent Collaboration
 TI  - TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration
 UR  - https://arxiv.org/abs/2601.04544
 AB  - Multi-Agent Systems(MAS) have become a powerful paradigm for building high performance intelli- gent applications. Within these systems, the router responsible for determining which expert agents should handle a given query plays a crucial role in overall performance. Existing routing strategies generally fall into two categories: performance routing, which balances latency and cost across mod- els of different sizes, and task routing, which assigns queries to domain-specific experts to improve accuracy. In real-world enterprise applications, task routing is more suitable; however, most existing approaches rely on static single-label decisions, which introduce two major limitations: (i) diﬀiculty in seamlessly integrating new agents as business domains expand, and (ii) routing conflicts caused by overlapping agent capabilities, ultimately degrading accuracy and robustness.To address these challenges, we propose TCAndon-Router(TCAR): an adaptive reasoning router for multi-agent col- laboration. Unlike traditional routers, TCAR supports dynamic agent onboarding and first generates a natural-language reasoning chain before predicting a set of candidate agents capable of handling the query. In addition, we design a collaborative execution pipeline in which selected agents indepen- dently produce responses, which are then aggregated and refined into a single high-quality response by a dedicated Refining Agent.Experiments on public datasets and real enterprise data demonstrate that TCAR significantly improves routing accuracy, reduces routing conflicts, and remains robust in am- biguous scenarios. We have released TCAR at https://huggingface.co/tencent/TCAndon-Router to support future research on explainable and collaborative multi-agent routing.
+ER  - 
+
+TY  - GEN
+ID  - figl-strembeck-2014-flow-direction-importance
+TI  - On the Importance of Flow Direction in Business Process Models
+PY  - 2014
+DA  - 2014
 ER  - 
 
 TY  - GEN
@@ -442,6 +611,13 @@ DA  - D:20261007
 ER  - 
 
 TY  - GEN
+ID  - mendling-2010-7pmg
+TI  - Seven Process Modeling Guidelines (7PMG)
+PY  - 2010
+DA  - 2010
+ER  - 
+
+TY  - GEN
 ID  - skill-authoring-best-practices---claude-platform-docs
 TI  - Skill authoring best practices
 DA  - D:20260920
@@ -487,6 +663,13 @@ TI  - SWOT analysis
 DA  - D:20141211
 ER  - 
 
+TY  - GEN
+ID  - reijers-2011-syntax-highlighting
+TI  - Syntax Highlighting in Business Process Models
+PY  - 2011
+DA  - 2011
+ER  - 
+
 TY  - JOUR
 ID  - arxiv-2606.04382v1
 AU  - Tang, Kwok Leong
@@ -521,10 +704,24 @@ AB  - This paper presents our system, Homa, for SemEval-2025 Task 5: Subject Tag
 ER  - 
 
 TY  - GEN
+ID  - moody-2009-physics-of-notations
+TI  - The 'Physics' of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering
+PY  - 2009
+DA  - 2009
+ER  - 
+
+TY  - GEN
 ID  - w3c-2024-prov-jsonld
 TI  - The PROV-JSONLD Serialization: A JSON-LD Representation for the PROV Data Model
 PY  - 2024
 DA  - 2024
+ER  - 
+
+TY  - GEN
+ID  - mendling-2012-thresholds-error-probability
+TI  - Thresholds for error probability measures of business process models
+PY  - 2012
+DA  - 2012
 ER  - 
 
 TY  - GEN
@@ -569,6 +766,18 @@ ER  -
 TY  - GEN
 ID  - smart-trust
 TI  - WHO SMART Trust
+ER  - 
+
+TY  - JOUR
+ID  - arxiv-2106.12880v1
+AU  - Winter1*, Michael
+AU  - Pryss2, Rüdiger
+AU  - Fink3, Matthias
+AU  - Reichert1, Manfred
+TI  - Towards Measuring and Quantifying the Comprehensibility of Process Models — The Process Model Comprehension Framework
+DA  - D:20210625
+UR  - https://arxiv.org/abs/2106.12880
+AB  - Process models constitute crucial artifacts in modern information systems and, hence, the proper comprehension of these models is of utmost importance in the utilization of such systems. Generally, process models are considered from two different perspectives: process modelers and readers. Both perspectives share similarities and differences in the comprehension of process models (e.g., diverse experiences when working with process models). The literature proposed many rules and guidelines to ensure a proper comprehension of process models for both perspectives. As a novel contribution in this context, this paper introduces the Process Model Comprehension Framework (PMCF) as a ﬁrst step towards the measurement and quantiﬁcation of the perspectives of process modelers and readers as well as the interaction of both regarding the comprehension of process models. Therefore, the PMCF describes an Evaluation Theory Tree based on the Communication Theory as well as the Conceptual Modeling Quality Framework and considers a total of 96 quality metrics in order to quantify process model comprehension. Furthermore, the PMCF was evaluated in a survey with 131 participants and has been implemented as well as applied successfully in a practical case study including 33 participants. To conclude, the PMCF allows for the identiﬁcation of pitfalls and provides related information about how to assist process modelers as well as readers in order to foster and enable a proper comprehension of process models.
 ER  - 
 
 TY  - GEN

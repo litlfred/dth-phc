@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=6071ae228cf3">
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=18eb22b50395">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../assets/css/avatars.css?v=a0806788c1f5">
+<link rel="stylesheet" href="../../../assets/css/avatars.css?v=e905de88eeeb">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -640,12 +640,12 @@
 <!-- BEFORE docs-ui.js and work-plan.js: both read window.faRender. -->
 <script src="../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
-<script src="../../../assets/js/navbar-row.js?v=7dce6a7e2ab0" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=c7e8e0ebcddb" defer></script>
+<script src="../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
+<script src="../../../assets/js/docs-ui.js?v=52e4c68c64c7" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../assets/js/edit-links.js?v=81bb303b6bc2" defer></script>
+<script src="../../../assets/js/edit-links.js?v=4f82faf45c35" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -732,7 +732,7 @@
 
 <link rel="stylesheet" href="../../../assets/css/navbar.css"><script src="../../../assets/navbar/rail-12kbfy851h3.js" defer></script><script src="../../../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../../../assets/page-layout.css" data-fa-page-layout><script src="../../../assets/page-layout.js" defer data-fa-page-layout></script><meta name="fa-pinned-data" content="../../.."></head>
 
-<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../..">{"data":"rail-12kbfy851h3","here":"/en/cat-harness/processes/","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#every-process--one-page-each","label":"Every process — one page each"},{"href":"#what-runs-this-skill","label":"What runs this skill?"},{"href":"#who-appears-in-a-process","label":"Who appears in a process?"},{"href":"#which-steps-touch-the-work-plan","label":"Which steps touch the work plan?"},{"href":"#strict-advisory--and-nobody-said","label":"Strict, advisory — and nobody said"},{"href":"#findings","label":"Findings","children":[{"href":"#activities-carrying-no-bootstrapprocessesskill-ref--a-census-not-a-gap-list","label":"Activities carrying no \u003cbootstrap.processes:skill ref> — a census, not a gap list","depth":1}],"fold":"1 sub-section"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a></nav>
+<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../..">{"data":"rail-12kbfy851h3","here":"/en/cat-harness/processes/","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#by-subgraph","label":"By subgraph"},{"href":"#every-process--one-page-each","label":"Every process — one page each"},{"href":"#what-runs-this-skill","label":"What runs this skill?"},{"href":"#who-appears-in-a-process","label":"Who appears in a process?"},{"href":"#which-steps-touch-the-work-plan","label":"Which steps touch the work plan?"},{"href":"#strict-advisory--and-nobody-said","label":"Strict, advisory — and nobody said"},{"href":"#findings","label":"Findings","children":[{"href":"#activities-carrying-no-bootstrapprocessesskill-ref--a-census-not-a-gap-list","label":"Activities carrying no \u003cbootstrap.processes:skill ref> — a census, not a gap list","depth":1}],"fold":"1 sub-section"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a></nav>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
   <symbol id="svg-link" viewBox="0 0 24 24">
@@ -839,7 +839,7 @@
 
 <p>Generated by <code class="language-plaintext highlighter-rouge">cat-harness-tools/scripts/gen-processes-viz.ts</code>. <strong>Every number here is counted from the directory</strong>, never carried in prose — <code class="language-plaintext highlighter-rouge">bpmn-processes</code>’ own rule, and the bean that asked for this page had two different counts in its title and its body.</p>
 
-<p><strong>130</strong> diagram(s), <strong>126</strong> parsed, <strong>4</strong> that would not load.</p>
+<p><strong>135</strong> diagram(s), <strong>129</strong> parsed, <strong>6</strong> that would not load.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -914,8 +914,81 @@
       <td>1</td>
     </tr>
     <tr>
+      <td><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch02-how-to-use/</code></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch03-user-requirements/</code></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch04-design-and-adaptation/</code></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch05-training-testing-rollout/</code></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch06-scale-up/</code></td>
+      <td>1</td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">smart-base/methodologies/processes/</code></td>
       <td>1</td>
+    </tr>
+  </tbody>
+</table></div>
+<h2 id="by-subgraph">
+  
+  
+    <a href="#by-subgraph" class="anchor-heading" aria-labelledby="by-subgraph"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> By subgraph
+  
+  
+</h2>
+    
+
+<p>Each instance that holds diagrams has its own page, listing only its processes.</p>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>subgraph</th>
+      <th>diagrams</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="bootstrap/">bootstrap</a></td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><a href="bootstrap-tools/">bootstrap-tools</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="cat-harness/">cat-harness</a></td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <td><a href="dth-phc/">dth-phc</a></td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td><a href="fhir-harness/">fhir-harness</a></td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><a href="folio-assistant-core/">folio-assistant-core</a></td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td><a href="smart-base/">smart-base</a></td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><a href="who-iris/">who-iris</a></td>
+      <td>4</td>
     </tr>
   </tbody>
 </table></div>
@@ -1621,6 +1694,24 @@
       <td>none recorded</td>
     </tr>
     <tr>
+      <td><a href="bp-design-and-adaptation.html">Undertake design and adaptation (Ch 4, 4.1-4.5)</a></td>
+      <td>11</td>
+      <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="bp-training-testing-and-roll-out.html">Conduct training, testing and roll-out (Ch 5, 5.1-5.4)</a></td>
+      <td>8</td>
+      <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="anc-registration-workflow-a.html">Workflow A: Registration business process</a></td>
+      <td>6</td>
+      <td>6</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
       <td><a href="design-and-adaptation.html">Undertake design and adaptation (Ch 4, 4.1-4.5)</a></td>
       <td>11</td>
       <td>—</td>
@@ -1749,7 +1840,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">archimate-models</code></td>
-      <td><a href="archimate-publish.html"><code class="language-plaintext highlighter-rouge">archimate-publish.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a></td>
+      <td><a href="archimate-publish.html"><code class="language-plaintext highlighter-rouge">archimate-publish.bpmn</code></a>, <a href="bp-design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">bp-design-and-adaptation.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">artefact-reachability</code></td>
@@ -1821,7 +1912,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">content-feedback</code></td>
-      <td><a href="review-narrative.html"><code class="language-plaintext highlighter-rouge">review-narrative.bpmn</code></a>, <a href="adjudication.html"><code class="language-plaintext highlighter-rouge">adjudication.bpmn</code></a>, <a href="narrative-code-review.html"><code class="language-plaintext highlighter-rouge">narrative-code-review.bpmn</code></a>, <a href="questionnaire-wireframe-review.html"><code class="language-plaintext highlighter-rouge">questionnaire-wireframe-review.bpmn</code></a>, <a href="content-lifecycle.html"><code class="language-plaintext highlighter-rouge">content-lifecycle.bpmn</code></a>, <a href="draft-to-publication.html"><code class="language-plaintext highlighter-rouge">draft-to-publication.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a></td>
+      <td><a href="review-narrative.html"><code class="language-plaintext highlighter-rouge">review-narrative.bpmn</code></a>, <a href="adjudication.html"><code class="language-plaintext highlighter-rouge">adjudication.bpmn</code></a>, <a href="narrative-code-review.html"><code class="language-plaintext highlighter-rouge">narrative-code-review.bpmn</code></a>, <a href="questionnaire-wireframe-review.html"><code class="language-plaintext highlighter-rouge">questionnaire-wireframe-review.bpmn</code></a>, <a href="content-lifecycle.html"><code class="language-plaintext highlighter-rouge">content-lifecycle.bpmn</code></a>, <a href="draft-to-publication.html"><code class="language-plaintext highlighter-rouge">draft-to-publication.bpmn</code></a>, <a href="bp-training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">bp-training-testing-and-roll-out.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">content-graph</code></td>
@@ -1841,11 +1932,11 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">content-review</code></td>
-      <td><a href="review-narrative.html"><code class="language-plaintext highlighter-rouge">review-narrative.bpmn</code></a>, <a href="review-task.html"><code class="language-plaintext highlighter-rouge">review-task.bpmn</code></a>, <a href="authoring-a-document.html"><code class="language-plaintext highlighter-rouge">authoring-a-document.bpmn</code></a>, <a href="content-change-review-committee.html"><code class="language-plaintext highlighter-rouge">content-change-review-committee.bpmn</code></a>, <a href="content-change-review.html"><code class="language-plaintext highlighter-rouge">content-change-review.bpmn</code></a>, <a href="content-lifecycle.html"><code class="language-plaintext highlighter-rouge">content-lifecycle.bpmn</code></a>, <a href="draft-to-publication.html"><code class="language-plaintext highlighter-rouge">draft-to-publication.bpmn</code></a>, <a href="dsa-document-lifecycle.html"><code class="language-plaintext highlighter-rouge">dsa-document-lifecycle.bpmn</code></a>, <a href="editing-hci-validation.html"><code class="language-plaintext highlighter-rouge">editing-hci-validation.bpmn</code></a>, <a href="evidence-retrieval.html"><code class="language-plaintext highlighter-rouge">evidence-retrieval.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="classify-and-code-content.html"><code class="language-plaintext highlighter-rouge">classify-and-code-content.bpmn</code></a>, <a href="l2-component-edit-review.html"><code class="language-plaintext highlighter-rouge">l2-component-edit-review.bpmn</code></a>, <a href="l2-dak-authoring.html"><code class="language-plaintext highlighter-rouge">l2-dak-authoring.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
+      <td><a href="review-narrative.html"><code class="language-plaintext highlighter-rouge">review-narrative.bpmn</code></a>, <a href="review-task.html"><code class="language-plaintext highlighter-rouge">review-task.bpmn</code></a>, <a href="authoring-a-document.html"><code class="language-plaintext highlighter-rouge">authoring-a-document.bpmn</code></a>, <a href="content-change-review-committee.html"><code class="language-plaintext highlighter-rouge">content-change-review-committee.bpmn</code></a>, <a href="content-change-review.html"><code class="language-plaintext highlighter-rouge">content-change-review.bpmn</code></a>, <a href="content-lifecycle.html"><code class="language-plaintext highlighter-rouge">content-lifecycle.bpmn</code></a>, <a href="draft-to-publication.html"><code class="language-plaintext highlighter-rouge">draft-to-publication.bpmn</code></a>, <a href="dsa-document-lifecycle.html"><code class="language-plaintext highlighter-rouge">dsa-document-lifecycle.bpmn</code></a>, <a href="editing-hci-validation.html"><code class="language-plaintext highlighter-rouge">editing-hci-validation.bpmn</code></a>, <a href="evidence-retrieval.html"><code class="language-plaintext highlighter-rouge">evidence-retrieval.bpmn</code></a>, <a href="bp-design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">bp-design-and-adaptation.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="classify-and-code-content.html"><code class="language-plaintext highlighter-rouge">classify-and-code-content.bpmn</code></a>, <a href="l2-component-edit-review.html"><code class="language-plaintext highlighter-rouge">l2-component-edit-review.bpmn</code></a>, <a href="l2-dak-authoring.html"><code class="language-plaintext highlighter-rouge">l2-dak-authoring.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">content-test</code></td>
-      <td><a href="qa-report-signing.html"><code class="language-plaintext highlighter-rouge">qa-report-signing.bpmn</code></a>, <a href="upstream-version-adoption.html"><code class="language-plaintext highlighter-rouge">upstream-version-adoption.bpmn</code></a>, <a href="content-lifecycle.html"><code class="language-plaintext highlighter-rouge">content-lifecycle.bpmn</code></a>, <a href="draft-to-publication.html"><code class="language-plaintext highlighter-rouge">draft-to-publication.bpmn</code></a>, <a href="editing-hci-validation.html"><code class="language-plaintext highlighter-rouge">editing-hci-validation.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="l2-component-edit-review.html"><code class="language-plaintext highlighter-rouge">l2-component-edit-review.bpmn</code></a></td>
+      <td><a href="qa-report-signing.html"><code class="language-plaintext highlighter-rouge">qa-report-signing.bpmn</code></a>, <a href="upstream-version-adoption.html"><code class="language-plaintext highlighter-rouge">upstream-version-adoption.bpmn</code></a>, <a href="content-lifecycle.html"><code class="language-plaintext highlighter-rouge">content-lifecycle.bpmn</code></a>, <a href="draft-to-publication.html"><code class="language-plaintext highlighter-rouge">draft-to-publication.bpmn</code></a>, <a href="editing-hci-validation.html"><code class="language-plaintext highlighter-rouge">editing-hci-validation.bpmn</code></a>, <a href="bp-design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">bp-design-and-adaptation.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="l2-component-edit-review.html"><code class="language-plaintext highlighter-rouge">l2-component-edit-review.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">content-validate</code></td>
@@ -2121,7 +2212,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">l2-dependency-choice</code></td>
-      <td><a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
+      <td><a href="bp-design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">bp-design-and-adaptation.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">l3-dependency-choice</code></td>
@@ -2141,7 +2232,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">l4-application-build</code></td>
-      <td><a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
+      <td><a href="bp-design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">bp-design-and-adaptation.bpmn</code></a>, <a href="bp-training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">bp-training-testing-and-roll-out.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">library-ingestion</code></td>
@@ -2177,7 +2268,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">methodology-adoption</code></td>
-      <td><a href="methodology-from-source.html"><code class="language-plaintext highlighter-rouge">methodology-from-source.bpmn</code></a>, <a href="swot-analysis.html"><code class="language-plaintext highlighter-rouge">swot-analysis.bpmn</code></a>, <a href="options-analysis.html"><code class="language-plaintext highlighter-rouge">options-analysis.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a>, <a href="diig-investment-path.html"><code class="language-plaintext highlighter-rouge">diig-investment-path.bpmn</code></a>, <a href="SGAuthoring.DAKLifecycle.html"><code class="language-plaintext highlighter-rouge">SGAuthoring.DAKLifecycle.bpmn</code></a></td>
+      <td><a href="methodology-from-source.html"><code class="language-plaintext highlighter-rouge">methodology-from-source.bpmn</code></a>, <a href="swot-analysis.html"><code class="language-plaintext highlighter-rouge">swot-analysis.bpmn</code></a>, <a href="options-analysis.html"><code class="language-plaintext highlighter-rouge">options-analysis.bpmn</code></a>, <a href="bp-training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">bp-training-testing-and-roll-out.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a>, <a href="diig-investment-path.html"><code class="language-plaintext highlighter-rouge">diig-investment-path.bpmn</code></a>, <a href="SGAuthoring.DAKLifecycle.html"><code class="language-plaintext highlighter-rouge">SGAuthoring.DAKLifecycle.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">named-query-execution</code></td>
@@ -2385,7 +2476,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">test-data-curation</code></td>
-      <td><a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a></td>
+      <td><a href="bp-training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">bp-training-testing-and-roll-out.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">test-data-sets</code></td>
@@ -2397,7 +2488,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">test-plan-execution</code></td>
-      <td><a href="test-plan-execution.html"><code class="language-plaintext highlighter-rouge">test-plan-execution.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a></td>
+      <td><a href="test-plan-execution.html"><code class="language-plaintext highlighter-rouge">test-plan-execution.bpmn</code></a>, <a href="bp-training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">bp-training-testing-and-roll-out.bpmn</code></a>, <a href="training-testing-and-roll-out.html"><code class="language-plaintext highlighter-rouge">training-testing-and-roll-out.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">theme-art-intake</code></td>
@@ -2453,7 +2544,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">wireframe-design-review</code></td>
-      <td><a href="crdm-requirements-definition.html"><code class="language-plaintext highlighter-rouge">crdm-requirements-definition.bpmn</code></a>, <a href="wireframe-design-review.html"><code class="language-plaintext highlighter-rouge">wireframe-design-review.bpmn</code></a>, <a href="questionnaire-wireframe-review.html"><code class="language-plaintext highlighter-rouge">questionnaire-wireframe-review.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
+      <td><a href="crdm-requirements-definition.html"><code class="language-plaintext highlighter-rouge">crdm-requirements-definition.bpmn</code></a>, <a href="wireframe-design-review.html"><code class="language-plaintext highlighter-rouge">wireframe-design-review.bpmn</code></a>, <a href="questionnaire-wireframe-review.html"><code class="language-plaintext highlighter-rouge">questionnaire-wireframe-review.bpmn</code></a>, <a href="bp-design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">bp-design-and-adaptation.bpmn</code></a>, <a href="design-and-adaptation.html"><code class="language-plaintext highlighter-rouge">design-and-adaptation.bpmn</code></a>, <a href="smart-guideline-end-to-end.html"><code class="language-plaintext highlighter-rouge">smart-guideline-end-to-end.bpmn</code></a></td>
     </tr>
   </tbody>
 </table></div>
@@ -2468,7 +2559,7 @@
 
 <p>A lane NAMES the Role its tasks are performed in; it is not itself a Role. The NAME is free text — <code class="language-plaintext highlighter-rouge">process-model.ts</code> notes that sixty lanes spell two dozen positions — so the lane’s <code class="language-plaintext highlighter-rouge">partitionElementRef</code> (or the legacy <code class="language-plaintext highlighter-rouge">&lt;bootstrap.processes:role ref&gt;</code>) is the join that does not depend on spelling, and it is reported separately below rather than merged into the name.</p>
 
-<p><strong>178</strong> distinct lane name(s).</p>
+<p><strong>180</strong> distinct lane name(s).</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -2539,6 +2630,10 @@
       <td>4</td>
     </tr>
     <tr>
+      <td>Software engineer / technology partner</td>
+      <td>4</td>
+    </tr>
+    <tr>
       <td>Adjudicator</td>
       <td>3</td>
     </tr>
@@ -2552,6 +2647,10 @@
     </tr>
     <tr>
       <td>Cloudflare git (Artifacts)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Designer</td>
       <td>3</td>
     </tr>
     <tr>
@@ -2599,6 +2698,10 @@
       <td>2</td>
     </tr>
     <tr>
+      <td>Business analyst &amp; implementing team</td>
+      <td>2</td>
+    </tr>
+    <tr>
       <td>Cloudflare R2 + CDN</td>
       <td>2</td>
     </tr>
@@ -2607,15 +2710,15 @@
       <td>2</td>
     </tr>
     <tr>
-      <td>Designer</td>
-      <td>2</td>
-    </tr>
-    <tr>
       <td>Folio-Assistant Agent</td>
       <td>2</td>
     </tr>
     <tr>
       <td>Human actor</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Implementing team</td>
       <td>2</td>
     </tr>
     <tr>
@@ -2632,6 +2735,10 @@
     </tr>
     <tr>
       <td>Programme manager</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Public health authority</td>
       <td>2</td>
     </tr>
     <tr>
@@ -2659,7 +2766,15 @@
       <td>2</td>
     </tr>
     <tr>
-      <td>Software engineer / technology partner</td>
+      <td>Solutions architect &amp; health informatician</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Targeted health worker occupational groups &amp; end-users</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Targeted health workers &amp; UAT end-users</td>
       <td>2</td>
     </tr>
     <tr>
@@ -2759,10 +2874,6 @@
       <td>1</td>
     </tr>
     <tr>
-      <td>Business analyst &amp; implementing team</td>
-      <td>1</td>
-    </tr>
-    <tr>
       <td>Certifier</td>
       <td>1</td>
     </tr>
@@ -2772,6 +2883,10 @@
     </tr>
     <tr>
       <td>CI/CD pipeline</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Client</td>
       <td>1</td>
     </tr>
     <tr>
@@ -2883,6 +2998,10 @@
       <td>1</td>
     </tr>
     <tr>
+      <td>Health worker or Clerk</td>
+      <td>1</td>
+    </tr>
+    <tr>
       <td>Human adjudicators</td>
       <td>1</td>
     </tr>
@@ -2896,10 +3015,6 @@
     </tr>
     <tr>
       <td>Human Translator</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Implementing team</td>
       <td>1</td>
     </tr>
     <tr>
@@ -2984,10 +3099,6 @@
     </tr>
     <tr>
       <td>Public commenter</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Public health authority</td>
       <td>1</td>
     </tr>
     <tr>
@@ -3107,10 +3218,6 @@
       <td>1</td>
     </tr>
     <tr>
-      <td>Solutions architect &amp; health informatician</td>
-      <td>1</td>
-    </tr>
-    <tr>
       <td>Source graph — read-only</td>
       <td>1</td>
     </tr>
@@ -3128,14 +3235,6 @@
     </tr>
     <tr>
       <td>Subscriber (the folio’s owner)</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Targeted health worker occupational groups &amp; end-users</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Targeted health workers &amp; UAT end-users</td>
       <td>1</td>
     </tr>
     <tr>
@@ -3238,7 +3337,7 @@
 </h2>
     
 
-<p>Three states, not two. <code class="language-plaintext highlighter-rouge">loadProcessModel</code> reads an undeclared policy as <code class="language-plaintext highlighter-rouge">strict</code>, which is right for the engine — <em>“a process that forgot to say is governed, not exempt”</em> — and hides a fact a reader wants. <strong>Somebody chose strict</strong> and <strong>nobody said, so the engine assumed strict</strong> are different, and the second is <strong>18</strong> of 126 here.</p>
+<p>Three states, not two. <code class="language-plaintext highlighter-rouge">loadProcessModel</code> reads an undeclared policy as <code class="language-plaintext highlighter-rouge">strict</code>, which is right for the engine — <em>“a process that forgot to say is governed, not exempt”</em> — and hides a fact a reader wants. <strong>Somebody chose strict</strong> and <strong>nobody said, so the engine assumed strict</strong> are different, and the second is <strong>19</strong> of 129 here.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -3252,11 +3351,11 @@
     <tr>
       <td><code class="language-plaintext highlighter-rouge">strict</code></td>
       <td>66</td>
-      <td>18</td>
+      <td>19</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">advisory</code></td>
-      <td>42</td>
+      <td>44</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -3270,17 +3369,25 @@
 </h2>
     
 
-<p><strong>4 diagram(s) would not load.</strong> Reported rather than omitted — a
+<p><strong>1 diagram(s) draw elements the engine does not run.</strong> Each has its page, with the elements listed; <code class="language-plaintext highlighter-rouge">workflow_start</code> refuses to run them.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">processes/anc-registration-workflow-a.bpmn</code> — <code class="language-plaintext highlighter-rouge">bpmn:SubProcess</code></li>
+</ul>
+
+<p><strong>6 diagram(s) would not load.</strong> Reported rather than omitted — a
 dropped file shrinks every denominator above and reads as one that does not exist.</p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">processes/anc-registration-workflow-a.bpmn</code> — anc-registration-workflow-a.bpmn uses BPMN this interpreter does not implement: bpmn:SubProcess. Supported: bpmn:StartEvent, bpmn:EndEvent, bpmn:ExclusiveGateway, bpmn:ParallelGateway, bpmn:SequenceFlow, bpmn:Task, bpmn:UserTask, bpmn:ServiceTask, bpmn:CallActivity. Extend the interpreter rather than letting the element be skipped — a process that silently omits a step is not the process on the diagram.</li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.bpmn</code> — ENOENT: no such file or directory, open ‘/home/runner/work/dth-phc/dth-phc/folio/dth-phc/ch02-how-to-use/decisions/starting-scenario.dmn’</li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn</code> — ENOENT: no such file or directory, open ‘/home/runner/work/dth-phc/dth-phc/folio/dth-phc/ch03-user-requirements/decisions/keep-data-element.dmn’</li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch06-scale-up/bp-scale-up.bpmn</code> — ENOENT: no such file or directory, open ‘/home/runner/work/dth-phc/dth-phc/folio/dth-phc/ch06-scale-up/decisions/ready-to-scale-up.dmn’</li>
   <li><code class="language-plaintext highlighter-rouge">processes/pcposs-implementation-lifecycle.bpmn</code> — pcposs-implementation-lifecycle.bpmn: GW_StartingScenario (“Starting scenario (2.1)?”) routes to [paper only, partly digitized], but Decision_StartingScenario can return [unknown] — an outcome with no branch is a decision that cannot be acted on.</li>
   <li><code class="language-plaintext highlighter-rouge">processes/scale-up.bpmn</code> — scale-up.bpmn: GW_ReadyToScaleUp (“Ready to scale up and phase out (6.1, 6.2)?”) routes to [not, proceed], but Decision_ReadyToScaleUp can return [unknown] — an outcome with no branch is a decision that cannot be acted on.</li>
   <li><code class="language-plaintext highlighter-rouge">processes/understand-user-requirements.bpmn</code> — understand-user-requirements.bpmn: GW_KeepDataElement (“Keep or remove data element (3.4.4, Fig. 12)?”) routes to [remove, keep], but Decision_KeepDataElement can return [unknown] — an outcome with no branch is a decision that cannot be acted on.</li>
 </ul>
 
-<p><strong>53 diagram(s) have no rendered SVG.</strong> <code class="language-plaintext highlighter-rouge">bun run cat render:bpmn</code>.</p>
+<p><strong>58 diagram(s) have no rendered SVG.</strong> <code class="language-plaintext highlighter-rouge">bun run cat render:bpmn</code>.</p>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">bootstrap-tools/processes/render-kg-to-github-pages.bpmn</code></li>
@@ -3319,6 +3426,11 @@ dropped file shrinks every denominator above and reads as one that does not exis
   <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-open-close.bpmn</code></li>
   <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-place-note.bpmn</code></li>
   <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-relocate.bpmn</code></li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.bpmn</code></li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn</code></li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn</code></li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.bpmn</code></li>
+  <li><code class="language-plaintext highlighter-rouge">folio/dth-phc/ch06-scale-up/bp-scale-up.bpmn</code></li>
   <li><code class="language-plaintext highlighter-rouge">processes/anc-registration-workflow-a.bpmn</code></li>
   <li><code class="language-plaintext highlighter-rouge">processes/design-and-adaptation.bpmn</code></li>
   <li><code class="language-plaintext highlighter-rouge">processes/pcposs-implementation-lifecycle.bpmn</code></li>
@@ -3346,9 +3458,9 @@ dropped file shrinks every denominator above and reads as one that does not exis
 </h3>
     
 
-<p><strong>48</strong> across <strong>25</strong> diagram(s). This section reported them as defects in its first version, and that was wrong: beans <code class="language-plaintext highlighter-rouge">luke</code> and <code class="language-plaintext highlighter-rouge">uuhu</code> worked this corpus from 90 down to this remainder and settled what is left. <code class="language-plaintext highlighter-rouge">luke</code>: <em>“coverage is deliberately NOT gated — a human sign-off step has no skill”</em>. <code class="language-plaintext highlighter-rouge">uuhu</code> added the call-activity exemption and recorded that its own remainder <em>“are not gaps”</em>.</p>
+<p><strong>54</strong> across <strong>26</strong> diagram(s). This section reported them as defects in its first version, and that was wrong: beans <code class="language-plaintext highlighter-rouge">luke</code> and <code class="language-plaintext highlighter-rouge">uuhu</code> worked this corpus from 90 down to this remainder and settled what is left. <code class="language-plaintext highlighter-rouge">luke</code>: <em>“coverage is deliberately NOT gated — a human sign-off step has no skill”</em>. <code class="language-plaintext highlighter-rouge">uuhu</code> added the call-activity exemption and recorded that its own remainder <em>“are not gaps”</em>.</p>
 
-<p><strong>16</strong> are call activities, which delegate to a subprocess — the skill is named there, and naming it twice would be one fact in two places. The other <strong>32</strong> are listed by lane, because the lane is what says whether a person, a pipeline or an agent performs the step, and only the last of those has a skill to run.</p>
+<p><strong>16</strong> are call activities, which delegate to a subprocess — the skill is named there, and naming it twice would be one fact in two places. The other <strong>38</strong> are listed by lane, because the lane is what says whether a person, a pipeline or an agent performs the step, and only the last of those has a skill to run.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -3365,6 +3477,10 @@ dropped file shrinks every denominator above and reads as one that does not exis
     <tr>
       <td>Parties and signatories (provider, recipient)</td>
       <td>6</td>
+    </tr>
+    <tr>
+      <td>Health worker or Clerk</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>Stakeholders</td>
@@ -3388,6 +3504,10 @@ dropped file shrinks every denominator above and reads as one that does not exis
     </tr>
     <tr>
       <td>CI/CD pipeline</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Client</td>
       <td>1</td>
     </tr>
     <tr>
@@ -3421,7 +3541,7 @@ dropped file shrinks every denominator above and reads as one that does not exis
   </tbody>
 </table></div>
 
-<p><strong>No verdict is offered on which of these is a gap</strong>, and that is the honest state rather than a hedge: distinguishing a person’s judgement step from an agent step somebody forgot needs the lane’s actor KIND, which a free-text lane name does not give — <code class="language-plaintext highlighter-rouge">process-model.ts</code> notes sixty lanes spell two dozen positions. The lane’s <code class="language-plaintext highlighter-rouge">partitionElementRef</code> is the join that would answer it, and it is present on <strong>32</strong> of these <strong>32</strong> steps — which is the measurement, not an impression. An earlier draft of this sentence said <em>few of these</em> and was counting whether the lane had a NAME, a different question with a different answer.</p>
+<p><strong>No verdict is offered on which of these is a gap</strong>, and that is the honest state rather than a hedge: distinguishing a person’s judgement step from an agent step somebody forgot needs the lane’s actor KIND, which a free-text lane name does not give — <code class="language-plaintext highlighter-rouge">process-model.ts</code> notes sixty lanes spell two dozen positions. The lane’s <code class="language-plaintext highlighter-rouge">partitionElementRef</code> is the join that would answer it, and it is present on <strong>38</strong> of these <strong>38</strong> steps — which is the measurement, not an impression. An earlier draft of this sentence said <em>few of these</em> and was counting whether the lane had a NAME, a different question with a different answer.</p>
 
           
 

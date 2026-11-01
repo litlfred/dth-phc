@@ -941,7 +941,7 @@
           "heading": false
         },
         {
-          "term": "university",
+          "term": "pass rate",
           "heading": false
         }
       ],
@@ -977,11 +977,11 @@
           "heading": false
         },
         {
-          "term": "domain",
+          "term": "task",
           "heading": false
         },
         {
-          "term": "task",
+          "term": "domain",
           "heading": false
         },
         {
@@ -1013,7 +1013,7 @@
           "heading": false
         },
         {
-          "term": "augmentation",
+          "term": "harness",
           "heading": false
         },
         {
@@ -1021,7 +1021,7 @@
           "heading": false
         },
         {
-          "term": "harness",
+          "term": "augmentation",
           "heading": false
         }
       ],
@@ -1191,11 +1191,11 @@
           "heading": false
         },
         {
-          "term": "invocation rate",
+          "term": "pass rates",
           "heading": false
         },
         {
-          "term": "pass rates",
+          "term": "self-generated skills",
           "heading": false
         }
       ],
@@ -1399,19 +1399,19 @@
           "heading": false
         },
         {
-          "term": "evaluation methodology",
-          "heading": false
-        },
-        {
           "term": "skillsbench",
           "heading": false
         },
         {
-          "term": "comparability",
+          "term": "evaluation methodology",
           "heading": false
         },
         {
           "term": "terminal-bench",
+          "heading": false
+        },
+        {
+          "term": "comparability",
           "heading": false
         },
         {
@@ -1659,7 +1659,7 @@
           "heading": false
         },
         {
-          "term": "confound",
+          "term": "quality",
           "heading": false
         }
       ],
@@ -1683,11 +1683,11 @@
           "heading": true
         },
         {
-          "term": "task",
+          "term": "process",
           "heading": true
         },
         {
-          "term": "process",
+          "term": "task",
           "heading": true
         }
       ],
@@ -2055,7 +2055,7 @@
           "heading": false
         },
         {
-          "term": "format",
+          "term": "condition",
           "heading": false
         }
       ],
@@ -2106,7 +2106,7 @@
           "heading": false
         },
         {
-          "term": "evolves",
+          "term": "pandas",
           "heading": false
         }
       ],
@@ -2245,11 +2245,11 @@
           "heading": false
         },
         {
-          "term": "averaged",
+          "term": "configurations",
           "heading": false
         },
         {
-          "term": "configurations",
+          "term": "averaged",
           "heading": false
         }
       ],
@@ -2604,11 +2604,11 @@
       "summary": null,
       "keywords": [
         {
-          "term": "industrial",
+          "term": "office",
           "heading": false
         },
         {
-          "term": "office",
+          "term": "industrial",
           "heading": false
         },
         {
@@ -2671,11 +2671,11 @@
           "heading": false
         },
         {
-          "term": "attached",
+          "term": "conflicting",
           "heading": false
         },
         {
-          "term": "conflicting",
+          "term": "attached",
           "heading": false
         }
       ],
@@ -2771,11 +2771,11 @@
           "heading": false
         },
         {
-          "term": "pat",
+          "term": "file-format",
           "heading": false
         },
         {
-          "term": "terns",
+          "term": "paired",
           "heading": false
         }
       ],
@@ -3018,11 +3018,11 @@
           "heading": false
         },
         {
-          "term": "excel",
+          "term": "failed",
           "heading": false
         },
         {
-          "term": "failed",
+          "term": "excel",
           "heading": false
         },
         {
@@ -3030,7 +3030,7 @@
           "heading": true
         },
         {
-          "term": "skills",
+          "term": "tables",
           "heading": false
         }
       ],
@@ -3174,7 +3174,7 @@
           "heading": false
         },
         {
-          "term": "litellm",
+          "term": "trial",
           "heading": false
         }
       ],
@@ -3561,15 +3561,15 @@
           "heading": false
         },
         {
-          "term": "procedural",
-          "heading": false
-        },
-        {
           "term": "audits",
           "heading": false
         },
         {
           "term": "skill-solution",
+          "heading": false
+        },
+        {
+          "term": "procedural",
           "heading": false
         }
       ],
@@ -3625,11 +3625,11 @@
           "heading": false
         },
         {
-          "term": "search research",
+          "term": "reasoning",
           "heading": false
         },
         {
-          "term": "reasoning",
+          "term": "search research",
           "heading": false
         },
         {
@@ -3827,12 +3827,12 @@
       "heading": false
     },
     {
-      "term": "skills efficacy",
-      "heading": true
-    },
-    {
       "term": "skills lift",
       "heading": false
+    },
+    {
+      "term": "skills efficacy",
+      "heading": true
     },
     {
       "term": "skills content",

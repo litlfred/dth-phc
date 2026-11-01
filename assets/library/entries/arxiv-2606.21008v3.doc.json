@@ -529,11 +529,11 @@
           "heading": false
         },
         {
-          "term": "ratings",
+          "term": "generators",
           "heading": false
         },
         {
-          "term": "generators",
+          "term": "rises",
           "heading": false
         }
       ],
@@ -625,16 +625,16 @@
       },
       "keywords": [
         {
-          "term": "participants",
-          "heading": true
-        },
-        {
           "term": "portfolio",
           "heading": false
         },
         {
           "term": "disabled",
           "heading": false
+        },
+        {
+          "term": "participants",
+          "heading": true
         },
         {
           "term": "anchor",
@@ -948,11 +948,11 @@
           "heading": true
         },
         {
-          "term": "five",
+          "term": "seat",
           "heading": false
         },
         {
-          "term": "seat",
+          "term": "five",
           "heading": false
         },
         {
@@ -995,12 +995,12 @@
           "heading": true
         },
         {
-          "term": "official total",
-          "heading": false
-        },
-        {
           "term": "keyed",
           "heading": true
+        },
+        {
+          "term": "official total",
+          "heading": false
         },
         {
           "term": "twelve models",
@@ -1042,7 +1042,7 @@
           "heading": false
         },
         {
-          "term": "factual",
+          "term": "run",
           "heading": false
         }
       ],
@@ -1144,7 +1144,7 @@
           "heading": false
         },
         {
-          "term": "hypothesis",
+          "term": "claude sonnet",
           "heading": false
         }
       ],
@@ -1175,15 +1175,15 @@
           "heading": false
         },
         {
-          "term": "governing",
-          "heading": false
-        },
-        {
           "term": "non-council",
           "heading": false
         },
         {
           "term": "dispersion",
+          "heading": false
+        },
+        {
+          "term": "quar",
           "heading": false
         }
       ],
@@ -1359,7 +1359,7 @@
           "heading": false
         },
         {
-          "term": "left singular",
+          "term": "instantiations",
           "heading": false
         }
       ],
@@ -1406,11 +1406,11 @@
           "heading": true
         },
         {
-          "term": "collapsed",
+          "term": "anchor",
           "heading": false
         },
         {
-          "term": "anchor",
+          "term": "gemini",
           "heading": false
         }
       ],
@@ -1527,12 +1527,12 @@
           "heading": true
         },
         {
-          "term": "ballast blocks",
-          "heading": false
-        },
-        {
           "term": "guards",
           "heading": true
+        },
+        {
+          "term": "ballast blocks",
+          "heading": false
         },
         {
           "term": "seats anchored",
@@ -1656,11 +1656,11 @@
       },
       "keywords": [
         {
-          "term": "reference submission",
+          "term": "target submission",
           "heading": false
         },
         {
-          "term": "target submission",
+          "term": "reference submission",
           "heading": false
         },
         {
@@ -1668,11 +1668,11 @@
           "heading": false
         },
         {
-          "term": "un-anchored",
+          "term": "bootstrap",
           "heading": false
         },
         {
-          "term": "bootstrap",
+          "term": "un-anchored",
           "heading": false
         }
       ],
@@ -1723,7 +1723,7 @@
           "heading": false
         },
         {
-          "term": "investment theory",
+          "term": "reversal cost",
           "heading": false
         }
       ],
@@ -1762,19 +1762,19 @@
           "heading": false
         },
         {
-          "term": "parallel contexts",
-          "heading": false
-        },
-        {
-          "term": "reference anchor",
-          "heading": false
-        },
-        {
           "term": "anchor score",
           "heading": false
         },
         {
+          "term": "parallel contexts",
+          "heading": false
+        },
+        {
           "term": "context template",
+          "heading": false
+        },
+        {
+          "term": "metanym table",
           "heading": false
         }
       ],
@@ -1809,11 +1809,11 @@
           "heading": false
         },
         {
-          "term": "six criteria",
+          "term": "integers inclusive",
           "heading": false
         },
         {
-          "term": "integers inclusive",
+          "term": "six criteria",
           "heading": false
         },
         {
@@ -1872,7 +1872,7 @@
           "heading": false
         },
         {
-          "term": "released",
+          "term": "score",
           "heading": false
         }
       ],
@@ -2013,7 +2013,7 @@
           "heading": false
         },
         {
-          "term": "system structures",
+          "term": "containment",
           "heading": false
         }
       ],
@@ -2058,11 +2058,11 @@
           "heading": false
         },
         {
-          "term": "leading eight",
+          "term": "uncertainty propagated",
           "heading": false
         },
         {
-          "term": "uncertainty propagated",
+          "term": "leading eight",
           "heading": false
         },
         {
@@ -2070,11 +2070,11 @@
           "heading": true
         },
         {
-          "term": "factual axis",
+          "term": "full roster",
           "heading": false
         },
         {
-          "term": "full roster",
+          "term": "factual axis",
           "heading": false
         },
         {
@@ -2164,11 +2164,11 @@
           "heading": false
         },
         {
-          "term": "first-pass log",
+          "term": "raw records",
           "heading": false
         },
         {
-          "term": "raw records",
+          "term": "first-pass log",
           "heading": false
         },
         {
@@ -2317,11 +2317,11 @@
           "heading": false
         },
         {
-          "term": "spread",
+          "term": "anchored",
           "heading": false
         },
         {
-          "term": "anchored",
+          "term": "spread",
           "heading": false
         }
       ],
@@ -2343,11 +2343,15 @@
       "heading": true
     },
     {
+      "term": "run anchor",
+      "heading": false
+    },
+    {
       "term": "factual axis",
       "heading": true
     },
     {
-      "term": "run anchor",
+      "term": "anchor score",
       "heading": false
     },
     {
@@ -2359,20 +2363,16 @@
       "heading": false
     },
     {
-      "term": "anchor score",
-      "heading": false
-    },
-    {
       "term": "reference anchor",
-      "heading": false
-    },
-    {
-      "term": "anchor own",
       "heading": false
     },
     {
       "term": "factual judges",
       "heading": true
+    },
+    {
+      "term": "anchor own",
+      "heading": false
     },
     {
       "term": "fixed anchor",

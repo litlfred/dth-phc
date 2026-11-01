@@ -1,0 +1,10 @@
+@startuml
+' DTH-PHC overlay on the DPI-H reference architecture (0.1.0-draft.1): data class diagram, derived by archimate-diagrams. Do not edit.
+skinparam classAttributeIconSize 0
+hide empty members
+class "Shared Health Record" as id_f180ad44b2e94e2a9ee8523ffc900264 <<BusinessObject>> <<SharedHealthRecord>> {
+  +patient : Reference(Patient) 1..1
+  +encounters : Reference(Encounter) 0..*
+  +clinicalSummary : Composition 0..*
+}
+@enduml

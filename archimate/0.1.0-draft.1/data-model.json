@@ -1,0 +1,41 @@
+{
+  "$schema": "archimate-data-model/v1",
+  "model": "0.1.0-draft.1",
+  "name": "DTH-PHC overlay on the DPI-H reference architecture",
+  "classes": [
+    {
+      "id": "id-f180ad44b2e94e2a9ee8523ffc900264",
+      "name": "Shared Health Record",
+      "type": "BusinessObject",
+      "logicalModel": "SharedHealthRecord",
+      "attributes": [
+        {
+          "name": "patient",
+          "type": "Reference(Patient) 1..1",
+          "source": "property"
+        },
+        {
+          "name": "encounters",
+          "type": "Reference(Encounter) 0..*",
+          "source": "property"
+        },
+        {
+          "name": "clinicalSummary",
+          "type": "Composition 0..*",
+          "source": "property"
+        }
+      ],
+      "accessedBy": [
+        {
+          "elementId": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+          "name": "Electronic health record system",
+          "type": "ApplicationComponent",
+          "relationshipId": "id-73b8c09a72aa5e34a7796c2b75443813",
+          "kind": "readwrite"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "problems": []
+}

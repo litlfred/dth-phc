@@ -1,0 +1,7 @@
+classDiagram
+  %% DTH-PHC overlay on the DPI-H reference architecture (0.1.0-draft.1): data class diagram, derived by archimate-diagrams. Do not edit.
+  class id_f180ad44b2e94e2a9ee8523ffc900264["Shared Health Record"]
+  <<BusinessObject>> id_f180ad44b2e94e2a9ee8523ffc900264
+  id_f180ad44b2e94e2a9ee8523ffc900264 : +Reference(Patient) 1..1 patient
+  id_f180ad44b2e94e2a9ee8523ffc900264 : +Reference(Encounter) 0..* encounters
+  id_f180ad44b2e94e2a9ee8523ffc900264 : +Composition 0..* clinicalSummary

@@ -1,0 +1,145 @@
+{
+  "$schema": "archimate-sequences/v1",
+  "model": "0.1.0-draft.1",
+  "name": "DTH-PHC overlay on the DPI-H reference architecture",
+  "sequences": [
+    {
+      "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+      "title": "Person-centred point of service (PCPOSS)",
+      "source": "view",
+      "viewId": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+      "participants": [
+        {
+          "id": "id-808925f4d2075d7b95e0651ebae00fcf",
+          "name": "Point-of-service application",
+          "type": "ApplicationComponent",
+          "elementId": "id-808925f4d2075d7b95e0651ebae00fcf"
+        },
+        {
+          "id": "id-80856538cbd44167a37b276e38c994c3",
+          "name": "Interoperability Component",
+          "type": "ApplicationComponent",
+          "elementId": "id-80856538cbd44167a37b276e38c994c3"
+        },
+        {
+          "id": "id-ab03b92d0a8355bca5ce336ab2e2bf17",
+          "name": "Indicator reporting",
+          "type": "ApplicationService",
+          "elementId": "id-ab03b92d0a8355bca5ce336ab2e2bf17"
+        },
+        {
+          "id": "id-3fd92d497ca040c8a436f355c0b68770",
+          "name": "Analytics & Reporting Platform",
+          "type": "ApplicationComponent",
+          "elementId": "id-3fd92d497ca040c8a436f355c0b68770"
+        },
+        {
+          "id": "id-0e6d89398fff4f20994a31b4de58e7d7",
+          "name": "SHR Repository",
+          "type": "ApplicationComponent",
+          "elementId": "id-0e6d89398fff4f20994a31b4de58e7d7"
+        },
+        {
+          "id": "id-9d1f8abfb4905386b6a8ea65f421d115",
+          "name": "Alerts and reminders",
+          "type": "ApplicationService",
+          "elementId": "id-9d1f8abfb4905386b6a8ea65f421d115"
+        },
+        {
+          "id": "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
+          "name": "Health service user",
+          "type": "BusinessRole",
+          "elementId": "id-0b80b004c74f5b00b4a5bc56e9c06ac0"
+        },
+        {
+          "id": "id-54d7e249c99a59c6a2085f17060de254",
+          "name": "Health worker",
+          "type": "BusinessRole",
+          "elementId": "id-54d7e249c99a59c6a2085f17060de254"
+        },
+        {
+          "id": "id-74b83b6a6d8e53a99573467ad6f7ae41",
+          "name": "Longitudinal tracking",
+          "type": "ApplicationService",
+          "elementId": "id-74b83b6a6d8e53a99573467ad6f7ae41"
+        },
+        {
+          "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+          "name": "Decision support system",
+          "type": "ApplicationComponent",
+          "elementId": "id-bc2b3fab70bf5e48a3b043a7245c8f5f"
+        },
+        {
+          "id": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+          "name": "Electronic health record system",
+          "type": "ApplicationComponent",
+          "elementId": "id-a9de9d3bebca5852b7b9c55519e7ab2d"
+        },
+        {
+          "id": "id-f180ad44b2e94e2a9ee8523ffc900264",
+          "name": "Shared Health Record",
+          "type": "BusinessObject",
+          "elementId": "id-f180ad44b2e94e2a9ee8523ffc900264"
+        }
+      ],
+      "messages": [
+        {
+          "from": "id-808925f4d2075d7b95e0651ebae00fcf",
+          "to": "id-80856538cbd44167a37b276e38c994c3",
+          "label": "flows to Interoperability Component",
+          "kind": "flow",
+          "relationshipId": "id-433fffbfdeb156e79a0dd82c64ff3b69"
+        },
+        {
+          "from": "id-ab03b92d0a8355bca5ce336ab2e2bf17",
+          "to": "id-3fd92d497ca040c8a436f355c0b68770",
+          "label": "flows to Analytics & Reporting Platform",
+          "kind": "flow",
+          "relationshipId": "id-b5dfa9899b915196a038ade1d6347016"
+        },
+        {
+          "from": "id-80856538cbd44167a37b276e38c994c3",
+          "to": "id-0e6d89398fff4f20994a31b4de58e7d7",
+          "label": "flows to SHR Repository",
+          "kind": "flow",
+          "relationshipId": "id-518dbbf177975c4d873437bb5c3930a5"
+        },
+        {
+          "from": "id-9d1f8abfb4905386b6a8ea65f421d115",
+          "to": "id-0b80b004c74f5b00b4a5bc56e9c06ac0",
+          "label": "serves Health service user",
+          "kind": "serving",
+          "relationshipId": "id-4cda608427e956469199f22881c784fb"
+        },
+        {
+          "from": "id-9d1f8abfb4905386b6a8ea65f421d115",
+          "to": "id-54d7e249c99a59c6a2085f17060de254",
+          "label": "serves Health worker",
+          "kind": "serving",
+          "relationshipId": "id-429e7abd6a4153e8bd870febc37f8841"
+        },
+        {
+          "from": "id-74b83b6a6d8e53a99573467ad6f7ae41",
+          "to": "id-54d7e249c99a59c6a2085f17060de254",
+          "label": "serves Health worker",
+          "kind": "serving",
+          "relationshipId": "id-241d6efc25fb5c4caa4a20e2bb4e8c1c"
+        },
+        {
+          "from": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+          "to": "id-54d7e249c99a59c6a2085f17060de254",
+          "label": "serves Health worker",
+          "kind": "serving",
+          "relationshipId": "id-1fb2fcbebc7f5368a4305c434d81cf5f"
+        },
+        {
+          "from": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+          "to": "id-f180ad44b2e94e2a9ee8523ffc900264",
+          "label": "reads/writes Shared Health Record",
+          "kind": "access",
+          "relationshipId": "id-73b8c09a72aa5e34a7796c2b75443813"
+        }
+      ]
+    }
+  ]
+}

@@ -208,11 +208,11 @@
           "heading": false
         },
         {
-          "term": "linked data",
+          "term": "prov-json",
           "heading": false
         },
         {
-          "term": "prov-json",
+          "term": "linked data",
           "heading": false
         },
         {
@@ -696,11 +696,11 @@
           "heading": false
         },
         {
-          "term": "association",
+          "term": "ref",
           "heading": false
         },
         {
-          "term": "ref",
+          "term": "association",
           "heading": false
         }
       ],
@@ -1274,11 +1274,11 @@
           "heading": false
         },
         {
-          "term": "influence",
+          "term": "json-ld context",
           "heading": false
         },
         {
-          "term": "json-ld context",
+          "term": "influence",
           "heading": false
         },
         {
@@ -1815,11 +1815,11 @@
           "heading": false
         },
         {
-          "term": "activity",
+          "term": "provenance",
           "heading": false
         },
         {
-          "term": "provenance",
+          "term": "qualified",
           "heading": false
         }
       ],
@@ -1858,11 +1858,11 @@
           "heading": false
         },
         {
-          "term": "encoded",
+          "term": "json-ld context",
           "heading": false
         },
         {
-          "term": "json-ld context",
+          "term": "encoded",
           "heading": false
         }
       ],
@@ -1889,11 +1889,11 @@
           "heading": false
         },
         {
-          "term": "programming language",
+          "term": "prov-jsonld serialization",
           "heading": false
         },
         {
-          "term": "prov-jsonld serialization",
+          "term": "programming language",
           "heading": false
         },
         {
@@ -1901,11 +1901,11 @@
           "heading": false
         },
         {
-          "term": "internal representation",
+          "term": "same programming",
           "heading": false
         },
         {
-          "term": "same programming",
+          "term": "internal representation",
           "heading": false
         }
       ],
@@ -2508,11 +2508,11 @@
           "heading": false
         },
         {
-          "term": "activity",
+          "term": "hadactivity",
           "heading": false
         },
         {
-          "term": "hadactivity",
+          "term": "activity",
           "heading": false
         }
       ],
@@ -2703,7 +2703,7 @@
           "heading": false
         },
         {
-          "term": "current practice",
+          "term": "prov-xml",
           "heading": false
         }
       ],
@@ -2734,7 +2734,7 @@
           "heading": false
         },
         {
-          "term": "april",
+          "term": "poster",
           "heading": false
         }
       ],
@@ -2751,15 +2751,15 @@
       "heading": false
     },
     {
-      "term": "activity prov",
-      "heading": false
-    },
-    {
       "term": "entity prov",
       "heading": false
     },
     {
       "term": "type prov",
+      "heading": false
+    },
+    {
+      "term": "activity prov",
       "heading": false
     },
     {
@@ -2779,11 +2779,11 @@
       "heading": false
     },
     {
-      "term": "datetime prov",
+      "term": "agent prov",
       "heading": false
     },
     {
-      "term": "agent prov",
+      "term": "datetime prov",
       "heading": false
     },
     {

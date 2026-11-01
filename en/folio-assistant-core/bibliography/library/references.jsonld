@@ -42,6 +42,44 @@
       "dcterms:hasVersion": "cat-harness/library/w3c-2020-json-ld-1-1"
     },
     {
+      "@id": "references/arxiv-2504-10971v1",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "The Effectiveness of Business Process Visualisations: a Systematic Literature Review",
+      "dcterms:creator": [
+        "[0000-0002-4210-2342], Ed Overes1",
+        "Santoro2[0000-0003-3421-1894], Flavia Maria"
+      ],
+      "dcterms:issued": "D:20250415",
+      "dcterms:abstract": "Business Process Visualisations (BPVs) have become indispensable tools for organisations seeking to enhance their operational efficiency, decision-making capabilities, and overall performance. The burgeoning interest in process modeling and tool development, coupled with the rise of data visualisation field, underscores the significant role of visual tools in leveraging human cognition. Unlike traditional models, data visualisation approaches graphics from a novel angle, emphasising the potency of visual representations. This review aims to integrate the domains of BPV and data visualisation to assess their combined influence on organisational effectiveness comprehensively. Through a meticulous analysis of existing literature, this study aims to amalgamate insights on BPVs impact from a data visualisation standpoint, advocating for a design philosophy that prioritises user engagement to bolster organisational outcomes. Additionally, our systematic review has unveiled promising avenues for future research, identifying underexplored variables that influence the efficacy of BPVs, thereby charting a path for forthcoming scholarly inquiries.",
+      "dcterms:source": "cat-harness/library/arxiv-2504-10971v1/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/arxiv-2504-10971v1"
+    },
+    {
+      "@id": "references/avila-2021-process-modeling-guidelines-slr",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "A systematic literature review of process modeling guidelines and their empirical support",
+      "dcterms:issued": "2021",
+      "dcterms:source": "cat-harness/library/avila-2021-process-modeling-guidelines-slr/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/avila-2021-process-modeling-guidelines-slr"
+    },
+    {
+      "@id": "references/mendling-2010-activity-labeling",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Activity labeling in process modeling: empirical insights and recommendations",
+      "dcterms:issued": "2010",
+      "dcterms:source": "cat-harness/library/mendling-2010-activity-labeling/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/mendling-2010-activity-labeling"
+    },
+    {
       "@id": "references/agent-skill-best-practices---gemini-cli",
       "@type": [
         "fabio:Work",
@@ -90,6 +128,17 @@
       "dcterms:hasVersion": "cat-harness/library/rfc8174-uppercase-vs-lowercase-2119-key-words"
     },
     {
+      "@id": "references/genon-2010-bpmn2-cognitive-effectiveness",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Analysing the Cognitive Effectiveness of the BPMN 2.0 Visual Notation",
+      "dcterms:issued": "2010",
+      "dcterms:source": "cat-harness/library/genon-2010-bpmn2-cognitive-effectiveness/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/genon-2010-bpmn2-cognitive-effectiveness"
+    },
+    {
       "@id": "references/arxiv-2607.20636v1",
       "@type": [
         "fabio:Work",
@@ -134,6 +183,17 @@
       "dcterms:hasVersion": "cat-harness/library/nist-sp-800-207"
     },
     {
+      "@id": "references/hasic-2018-5pdm-decision-intelligence",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Augmenting processes with decision intelligence: Principles for integrated modelling",
+      "dcterms:issued": "2018",
+      "dcterms:source": "cat-harness/library/hasic-2018-5pdm-decision-intelligence/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/hasic-2018-5pdm-decision-intelligence"
+    },
+    {
       "@id": "references/hmans-2026-beans-readme",
       "@type": [
         "fabio:Work",
@@ -143,6 +203,21 @@
       "dcterms:issued": "2026",
       "dcterms:source": "cat-harness/library/hmans-2026-beans-readme/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/hmans-2026-beans-readme"
+    },
+    {
+      "@id": "references/arxiv-2505.11701v2",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "DMN-Guided Prompting: A Framework for Controlling LLM Behavior",
+      "dcterms:creator": [
+        "Behavior, LLM"
+      ],
+      "dcterms:identifier": "https://arxiv.org/abs/2505.11701",
+      "dcterms:abstract": "Large Language Models (LLMs) have shown considerable potential in automating decision logic within knowledge-intensive processes. However, their effectiveness largely depends on the strategy and quality of prompting. Since decision logic is typically embedded in prompts, it becomes challenging for end users to modify or refine it. Decision Model and Notation (DMN) offers a standardized graphical approach for defining decision logic in a structured, user- friendly manner. This paper introduces a DMN-guided prompting framework that breaks down complex decision logic into smaller, manageable components, guid- ing LLMs through structured decision pathways. We implemented the framework in a graduate-level course where students submitted assignments. The assign- ments and DMN models representing feedback instructions served as inputs to our framework. The instructor evaluated the generated feedback and labeled it for performance assessment. Our approach demonstrated promising results, out- performing chain-of-thought (CoT) prompting in our case study. Students also responded positively to the generated feedback, reporting high levels of perceived usefulness in a survey based on the Technology Acceptance Model.",
+      "dcterms:source": "cat-harness/library/arxiv-2505.11701v2/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/arxiv-2505.11701v2"
     },
     {
       "@id": "references/best-practices---google-antigravity-docs",
@@ -186,6 +261,24 @@
       "dcterms:hasVersion": "cat-harness/library/omg-2013-bpmn-2-0-2"
     },
     {
+      "@id": "references/arxiv-1603.07466v1",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Semantics and Analysis of DMN Decision Tables",
+      "dcterms:creator": [
+        "Calvanese1, Diego",
+        "Dumas2, Marlon",
+        "Laurson2, Ülari"
+      ],
+      "dcterms:issued": "D:20160325",
+      "dcterms:identifier": "https://arxiv.org/abs/1603.07466",
+      "dcterms:abstract": "The Decision Model and Notation (DMN) is a standard no- tation to capture decision logic in business applications in general and business processes in particular. A central construct in DMN is that of a decision table. The increasing use of DMN decision tables to capture critical business knowledge raises the need to support analysis tasks on these tables such as correctness and completeness checking. This paper provides a formal semantics for DMN tables, a formal deﬁnition of key analysis tasks and scalable algorithms to tackle two such tasks, i.e., de- tection of overlapping rules and of missing rules. The algorithms are based on a geometric interpretation of decision tables that can be used to support other analysis tasks by tapping into geometric algorithms. The algorithms have been implemented in an open-source DMN editor and tested on large decision tables derived from a credit lending dataset.",
+      "dcterms:source": "cat-harness/library/arxiv-1603.07466v1/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/arxiv-1603.07466v1"
+    },
+    {
       "@id": "references/arxiv-2507.07974v2",
       "@type": [
         "fabio:Work",
@@ -216,6 +309,69 @@
       "dcterms:abstract": "This paper presents a modular AI agentic skill pipeline for au- tomating subject indexing with Library of Congress Subject Headings (LCSH). Subject indexing—the process of analyzing a work’s aboutness, selecting controlled vocabulary terms, and encoding them as MARC 21 subject access fields—is one of the most time-consuming components of library cataloging. The system decomposes this process into four discrete, sequentially executed agent skills: conceptual analysis, quantitative filtering, authority validation, and MARC field synthesis. Each skill encodes domain knowledge drawn directly from Library of Congress Subject Headings Manual (SHM) instruction sheets and subject analysis theory. The pipeline was evaluated against a corpus of ten titles whose existing subject headings were captured from the Harvard Library bibliographic dataset (a snapshot of their Alma ILS). Results demonstrate strong con- ceptual alignment with professional subject indexing practice, with notable differences in specificity, subdivision practice, and the agent’s adherence to the 2026 LC policy discontinuing form subdivisions ($v) in favor of LCGFT 655 fields.",
       "dcterms:source": "cat-harness/library/arxiv-2605.03537v1/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/arxiv-2605.03537v1"
+    },
+    {
+      "@id": "references/moeller-winter-reichert-2025-cognitive-factors-slr",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Cognitive Factors in Process Model Comprehension—A Systematic Literature Review",
+      "dcterms:creator": [
+        "Citation: Möller, M.",
+        "Winter, M."
+      ],
+      "dcterms:issued": "D:20250516",
+      "bibo:doi": "10.3390/brainsci15050505",
+      "dcterms:identifier": "https://doi.org/10.3390/brainsci15050505",
+      "dcterms:abstract": "Process models constitute essential tools in business process management and software engineering for representing and managing real-world business processes. Hence, the proper comprehension of these models is crucial for enabling an effective and efficient communication among stakeholders. While several studies have examined factors affecting process model comprehension, such as the used modeling notation or process complexity, there is a lack of in-depth research on the cognitive processes important to comprehend process models deeper. This systematic literature review explores the cognitive mech- anisms underlying process model comprehension by integrating insights from relevant disciplines such as cognitive neuroscience and psychology. Key areas of cognition include perception, attention, memory, language, problem solving, emotion, and metacognition. This review was conducted following the well-established Kitchenham methodology and included an extensive search in the following digital libraries: Web of Science, IEEE Xplore, ScienceDirect, ACM Digital Library, PubMed, and SpringerLink. By analyzing 47 studies, this literature review identifies gaps in current research, emphasizing the need for further investigation into these cognitive processes to improve model comprehensibility.",
+      "dcterms:source": "cat-harness/library/moeller-winter-reichert-2025-cognitive-factors-slr/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/moeller-winter-reichert-2025-cognitive-factors-slr"
+    },
+    {
+      "@id": "references/arxiv-1511-04055v1",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "A Visual Analysis of the Process of Process Modeling",
+      "dcterms:creator": [
+        "Claes1, Jan",
+        "2",
+        "Vanderfeesten2, Irene",
+        "Pinggera3, Jakob",
+        "Reijers2, Hajo A.",
+        "Weber3, Barbara",
+        "Poels1, Geert"
+      ],
+      "dcterms:issued": "D:20151111",
+      "bibo:doi": "10.1007/s10257-014-0245-4",
+      "dcterms:identifier": "https://doi.org/10.1007/s10257-014-0245-4",
+      "dcterms:abstract": "The construction of business process models has become an important requisite in the analysis and optimization of processes. The success of the analysis and optimization efforts heavily depends on the quality of the models. Therefore, a research domain emerged that studies the process of process modeling. This paper contributes to this research by presenting a way of visualizing the different steps a modeler undertakes to construct a process model, in a so-called PPMChart. The graphical representation lowers the cognitive efforts to discover properties of the modeling process, which facilitates the research and the development of theory, training and tool support for improving model quality. The paper contains an extensive overview of applications of the tool that demonstrate its usefulness for research and practice and discusses the observations from the visualization in relation to other work. The visualization was evaluated through a qualitative study that confirmed its usefulness and added value compared to the Dotted Chart on which the visualization was inspired.",
+      "dcterms:source": "cat-harness/library/arxiv-1511-04055v1/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/arxiv-1511-04055v1"
+    },
+    {
+      "@id": "references/zimoch-2017-cognitive-insights-preliminary",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Cognitive Insights into Business Process Model Comprehension: Preliminary Results for Experienced and Inexperienced Individuals",
+      "dcterms:issued": "2017",
+      "dcterms:source": "cat-harness/library/zimoch-2017-cognitive-insights-preliminary/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/zimoch-2017-cognitive-insights-preliminary"
+    },
+    {
+      "@id": "references/hasic-2019-complexity-metrics-dmn",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Complexity metrics for DMN decision models",
+      "dcterms:issued": "2019",
+      "dcterms:source": "cat-harness/library/hasic-2019-complexity-metrics-dmn/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/hasic-2019-complexity-metrics-dmn"
     },
     {
       "@id": "references/arxiv-2503.18813v2",
@@ -263,6 +419,23 @@
       "dcterms:hasVersion": "cat-harness/library/arxiv-2607.25032v1"
     },
     {
+      "@id": "references/arxiv-2005.09998v1",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Tackling the DMN Challenges with cDMN: A Tight Integration of DMN and Constraint Reasoning",
+      "dcterms:creator": [
+        "DMN, A Tight Integration of",
+        "Constraint"
+      ],
+      "dcterms:issued": "D:20200521",
+      "dcterms:identifier": "https://arxiv.org/abs/2005.09998",
+      "dcterms:abstract": "This paper describes an extension to the DMN standard, called cDMN. It aims to enlarge the expressivity of DMN in order to solve more complex problems, while retaining DMN’s goal of being readable by domain experts. We test cDMN by solving the most complex challenges posted on the DM Community website. We compare our own cDMN solutions to the solutions that have been submitted to the website and ﬁnd that our approach is competitive, both in readability and compactness. Moreover, cDMN is able to solve more challenges than any other approach.",
+      "dcterms:source": "cat-harness/library/arxiv-2005.09998v1/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/arxiv-2005.09998v1"
+    },
+    {
       "@id": "references/arxiv-2608.18294v2",
       "@type": [
         "fabio:Work",
@@ -289,6 +462,17 @@
       "dcterms:hasVersion": "cat-harness/library/equipping-agents-for-the-real-world-with-agent-skills-anthro"
     },
     {
+      "@id": "references/zimoch-2017-eye-tracking-lessons-learned",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Eye Tracking Experiments on Process Model Comprehension: Lessons Learned",
+      "dcterms:issued": "2017",
+      "dcterms:source": "cat-harness/library/zimoch-2017-eye-tracking-lessons-learned/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/zimoch-2017-eye-tracking-lessons-learned"
+    },
+    {
       "@id": "references/hl7-2023-fhir-r5-testplan",
       "@type": [
         "fabio:Work",
@@ -300,6 +484,24 @@
       "dcterms:hasVersion": "fhir-harness/library/hl7-2023-fhir-r5-testplan"
     },
     {
+      "@id": "references/figl-2018-what-we-know-dmn-emisa",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "What we know and what we do not know about DMN (Extended Abstract)",
+      "dcterms:creator": [
+        "Figl2, Kathrin",
+        "Mendling3, Jan",
+        "Tokdemir4, Gul",
+        "Vanthienen5, Jan"
+      ],
+      "dcterms:issued": "D:20210719",
+      "dcterms:abstract": ")1 Kathrin Figl2, Jan Mendling3, Gul Tokdemir4, Jan Vanthienen5 Abstract: The recent Decision Model and Notation (DMN) establishes business decisions as first- class citizens of executable business processes. This research note has two objectives: first, to describe DMN’s technical and theoretical foundations; second, to identify research directions for investigating DMN’s potential benefits on a technological, individual and organizational level. To this end, we integrate perspectives from management science, cognitive theory and information systems research.",
+      "dcterms:source": "cat-harness/library/figl-2018-what-we-know-dmn-emisa/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/figl-2018-what-we-know-dmn-emisa"
+    },
+    {
       "@id": "references/arxiv-0909.4061v2",
       "@type": [
         "fabio:Work",
@@ -309,6 +511,17 @@
       "dcterms:issued": "D:20241126",
       "dcterms:source": "cat-harness/library/arxiv-0909.4061v2/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/arxiv-0909.4061v2"
+    },
+    {
+      "@id": "references/figl-strembeck-2015-flow-direction-experiment",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Findings from an Experiment on Flow Direction of Business Process Models",
+      "dcterms:issued": "2015",
+      "dcterms:source": "cat-harness/library/figl-strembeck-2015-flow-direction-experiment/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/figl-strembeck-2015-flow-direction-experiment"
     },
     {
       "@id": "references/cucumber-2024-gherkin-reference",
@@ -362,6 +575,17 @@
       "dcterms:abstract": "Advances in Large Language Models (LLMs) have led to significant interest in their potential to support human experts across a range of domains, including public health. In this work we present automated evaluations of LLMs for public health tasks involving the classification and extraction of free text. We combine six externally annotated datasets with seven new internally annotated datasets to evaluate LLMs for processing text related to: health burden, epidemiological risk factors, and public health interventions. We evaluate eleven open-weight LLMs (7-123 billion parameters) across all tasks using zero-shot in-context learning. We find that Llama-3.3-70B-Instruct is the highest performing model, achieving the best results on 8/16 tasks (using micro-F1 scores). We see significant variation across tasks with all open-weight LLMs scoring below 60% micro-F1 on some challenging tasks, such as Contact Classification, while all LLMs achieve greater than 80% micro-F1 on others, such as GI Illness Classification. For a subset of 11 tasks, we also evaluate three GPT-4 and GPT-4o series models and find comparable results to Llama-3.3-70B-Instruct. Overall, based on these initial results we find promising signs that LLMs may be useful tools for public health experts to extract information from a wide variety of free text sources, and support public health surveillance, research, and interventions. Figure 1: Public Health Large Language Model (LLM) Evaluation Areas [Number of Evalua- tions] and Task Evaluation Micro-F1 Scores by Model. (Left) We divide public health free text processing into three sub-domains: (1) burden, such as reports of disease symptoms, cases, morbidity, or mortality; (2) risk factors, such as environmental, behavioural, or biological contributors; (3) interventions, pharmaceutical and non-pharmaceutical. (Right) Evaluation results (micro-F1 scores) for seven open-weight LLM architectures (highest performing model evaluated from each) across the 16 task",
       "dcterms:source": "cat-harness/library/arxiv-2405.14766v2/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/arxiv-2405.14766v2"
+    },
+    {
+      "@id": "references/zur-muehlen-recker-2008-how-much-language",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "How Much Language Is Enough? Theoretical and Practical Use of the Business Process Modeling Notation",
+      "dcterms:issued": "2008",
+      "dcterms:source": "cat-harness/library/zur-muehlen-recker-2008-how-much-language/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/zur-muehlen-recker-2008-how-much-language"
     },
     {
       "@id": "references/w3c-2018-odrl-model-2-2",
@@ -433,6 +657,20 @@
       "dcterms:hasVersion": "fhir-harness/library/isaitb-2026-interoperability-test-bed-readme"
     },
     {
+      "@id": "references/djurica-2024-decision-model-comprehension-emisa",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Investigating the impact of representation features on decision model comprehension (Extended Abstract)",
+      "dcterms:issued": "D:20240502",
+      "bibo:doi": "10.18420/EMISA2024_05",
+      "dcterms:identifier": "https://doi.org/10.18420/EMISA2024_05",
+      "dcterms:abstract": ")5 Djordje Djurica 1, Tyge F. Kummer 2, Jan Mendling 1,3, and Kathrin Figl 4 Abstract: Decision models play a crucial role in the development of information systems for tasks such as system analysis and design, as well as compliance management. The effective presentation of these models is essential to ensure their accuracy and completeness. Existing research on their cognitive effectiveness remains inconclusive. Our study advances understanding by examining the detailed representation features of decision models, including type (tree versus table), structure (expanded versus frugal), and design (monochromatic versus colored). We demonstrate that the use of color can improve model-task fit, and that structural features can enhance comprehension. Utilizing eye-tracking, we analyzed the underlying mechanisms of these effects. Our findings provide valuable insights for cognitive information systems research and practical applications, offering guidance for both users and developers of decision models.",
+      "dcterms:source": "cat-harness/library/djurica-2024-decision-model-comprehension-emisa/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/djurica-2024-decision-model-comprehension-emisa"
+    },
+    {
       "@id": "references/arxiv-2504.07199v3",
       "@type": [
         "fabio:Work",
@@ -488,6 +726,17 @@
       "dcterms:issued": "(10:59 AM ",
       "dcterms:source": "cat-harness/library/landauer-foltz-laham-1998-intro-lsa/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/landauer-foltz-laham-1998-intro-lsa"
+    },
+    {
+      "@id": "references/leopold-2016-bpmn-quality-issues-industry",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Learning from Quality Issues of BPMN Models from Industry",
+      "dcterms:issued": "2016",
+      "dcterms:source": "cat-harness/library/leopold-2016-bpmn-quality-issues-industry/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/leopold-2016-bpmn-quality-issues-industry"
     },
     {
       "@id": "references/arxiv-2507.23348v1",
@@ -604,6 +853,17 @@
       "dcterms:hasVersion": "cat-harness/library/arxiv-2606.21008v3"
     },
     {
+      "@id": "references/hasic-2019-measuring-complexity-dmn",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Measuring the Complexity of DMN Decision Models",
+      "dcterms:issued": "2019",
+      "dcterms:source": "cat-harness/library/hasic-2019-measuring-complexity-dmn/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/hasic-2019-measuring-complexity-dmn"
+    },
+    {
       "@id": "references/mcp-2026-specification-2026-07-28",
       "@type": [
         "fabio:Work",
@@ -643,6 +903,17 @@
       "dcterms:abstract": "Multi-Agent Systems(MAS) have become a powerful paradigm for building high performance intelli- gent applications. Within these systems, the router responsible for determining which expert agents should handle a given query plays a crucial role in overall performance. Existing routing strategies generally fall into two categories: performance routing, which balances latency and cost across mod- els of different sizes, and task routing, which assigns queries to domain-specific experts to improve accuracy. In real-world enterprise applications, task routing is more suitable; however, most existing approaches rely on static single-label decisions, which introduce two major limitations: (i) diﬀiculty in seamlessly integrating new agents as business domains expand, and (ii) routing conflicts caused by overlapping agent capabilities, ultimately degrading accuracy and robustness.To address these challenges, we propose TCAndon-Router(TCAR): an adaptive reasoning router for multi-agent col- laboration. Unlike traditional routers, TCAR supports dynamic agent onboarding and first generates a natural-language reasoning chain before predicting a set of candidate agents capable of handling the query. In addition, we design a collaborative execution pipeline in which selected agents indepen- dently produce responses, which are then aggregated and refined into a single high-quality response by a dedicated Refining Agent.Experiments on public datasets and real enterprise data demonstrate that TCAR significantly improves routing accuracy, reduces routing conflicts, and remains robust in am- biguous scenarios. We have released TCAR at https://huggingface.co/tencent/TCAndon-Router to support future research on explainable and collaborative multi-agent routing.",
       "dcterms:source": "cat-harness/library/arxiv-2601.04544v1/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/arxiv-2601.04544v1"
+    },
+    {
+      "@id": "references/figl-strembeck-2014-flow-direction-importance",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "On the Importance of Flow Direction in Business Process Models",
+      "dcterms:issued": "2014",
+      "dcterms:source": "cat-harness/library/figl-strembeck-2014-flow-direction-importance/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/figl-strembeck-2014-flow-direction-importance"
     },
     {
       "@id": "references/mehl-2021-who-smart-guidelines",
@@ -730,6 +1001,17 @@
       "dcterms:hasVersion": "cat-harness/library/github-docs-actions-secure-use-reference"
     },
     {
+      "@id": "references/mendling-2010-7pmg",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Seven Process Modeling Guidelines (7PMG)",
+      "dcterms:issued": "2010",
+      "dcterms:source": "cat-harness/library/mendling-2010-7pmg/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/mendling-2010-7pmg"
+    },
+    {
       "@id": "references/skill-authoring-best-practices---claude-platform-docs",
       "@type": [
         "fabio:Work",
@@ -810,6 +1092,17 @@
       "dcterms:hasVersion": "cat-harness/library/sammut-bonnici-galea-2015-swot-analysis"
     },
     {
+      "@id": "references/reijers-2011-syntax-highlighting",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Syntax Highlighting in Business Process Models",
+      "dcterms:issued": "2011",
+      "dcterms:source": "cat-harness/library/reijers-2011-syntax-highlighting/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/reijers-2011-syntax-highlighting"
+    },
+    {
       "@id": "references/arxiv-2606.04382v1",
       "@type": [
         "fabio:Work",
@@ -864,6 +1157,17 @@
       "dcterms:hasVersion": "cat-harness/library/arxiv-2504.21474v1"
     },
     {
+      "@id": "references/moody-2009-physics-of-notations",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "The 'Physics' of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering",
+      "dcterms:issued": "2009",
+      "dcterms:source": "cat-harness/library/moody-2009-physics-of-notations/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/moody-2009-physics-of-notations"
+    },
+    {
       "@id": "references/w3c-2024-prov-jsonld",
       "@type": [
         "fabio:Work",
@@ -873,6 +1177,17 @@
       "dcterms:issued": "2024",
       "dcterms:source": "cat-harness/library/w3c-2024-prov-jsonld/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/w3c-2024-prov-jsonld"
+    },
+    {
+      "@id": "references/mendling-2012-thresholds-error-probability",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Thresholds for error probability measures of business process models",
+      "dcterms:issued": "2012",
+      "dcterms:source": "cat-harness/library/mendling-2012-thresholds-error-probability/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/mendling-2012-thresholds-error-probability"
     },
     {
       "@id": "references/w3c-2013-prov-o",
@@ -950,6 +1265,25 @@
       "dcterms:title": "WHO SMART Trust",
       "dcterms:source": "smart-base/library/smart-trust/manifest.jsonld",
       "dcterms:hasVersion": "smart-base/library/smart-trust"
+    },
+    {
+      "@id": "references/arxiv-2106.12880v1",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Towards Measuring and Quantifying the Comprehensibility of Process Models — The Process Model Comprehension Framework",
+      "dcterms:creator": [
+        "Winter1*, Michael",
+        "Pryss2, Rüdiger",
+        "Fink3, Matthias",
+        "Reichert1, Manfred"
+      ],
+      "dcterms:issued": "D:20210625",
+      "dcterms:identifier": "https://arxiv.org/abs/2106.12880",
+      "dcterms:abstract": "Process models constitute crucial artifacts in modern information systems and, hence, the proper comprehension of these models is of utmost importance in the utilization of such systems. Generally, process models are considered from two different perspectives: process modelers and readers. Both perspectives share similarities and differences in the comprehension of process models (e.g., diverse experiences when working with process models). The literature proposed many rules and guidelines to ensure a proper comprehension of process models for both perspectives. As a novel contribution in this context, this paper introduces the Process Model Comprehension Framework (PMCF) as a ﬁrst step towards the measurement and quantiﬁcation of the perspectives of process modelers and readers as well as the interaction of both regarding the comprehension of process models. Therefore, the PMCF describes an Evaluation Theory Tree based on the Communication Theory as well as the Conceptual Modeling Quality Framework and considers a total of 96 quality metrics in order to quantify process model comprehension. Furthermore, the PMCF was evaluated in a survey with 131 participants and has been implemented as well as applied successfully in a practical case study including 33 participants. To conclude, the PMCF allows for the identiﬁcation of pitfalls and provides related information about how to assist process modelers as well as readers in order to foster and enable a proper comprehension of process models.",
+      "dcterms:source": "cat-harness/library/arxiv-2106.12880v1/manifest.jsonld",
+      "dcterms:hasVersion": "cat-harness/library/arxiv-2106.12880v1"
     },
     {
       "@id": "references/arxiv-2403.16873v1",

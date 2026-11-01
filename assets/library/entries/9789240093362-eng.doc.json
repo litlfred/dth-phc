@@ -631,15 +631,7 @@
           "heading": false
         },
         {
-          "term": "suggested citation",
-          "heading": false
-        },
-        {
           "term": "creative commons",
-          "heading": false
-        },
-        {
-          "term": "transformation handbook",
           "heading": false
         },
         {
@@ -647,7 +639,15 @@
           "heading": false
         },
         {
-          "term": "matrix guide",
+          "term": "suggested citation",
+          "heading": false
+        },
+        {
+          "term": "transformation handbook",
+          "heading": false
+        },
+        {
+          "term": "legacy system",
           "heading": false
         }
       ],
@@ -670,7 +670,7 @@
       },
       "keywords": [
         {
-          "term": "western pacific",
+          "term": "cape town",
           "heading": false
         },
         {
@@ -678,15 +678,7 @@
           "heading": false
         },
         {
-          "term": "cape town",
-          "heading": false
-        },
-        {
-          "term": "headquarters",
-          "heading": false
-        },
-        {
-          "term": "united states",
+          "term": "johns hopkins",
           "heading": false
         },
         {
@@ -694,11 +686,19 @@
           "heading": false
         },
         {
-          "term": "america",
+          "term": "western pacific",
           "heading": false
         },
         {
-          "term": "johns hopkins",
+          "term": "hopkins bloomberg",
+          "heading": false
+        },
+        {
+          "term": "united states",
+          "heading": false
+        },
+        {
+          "term": "norwegian institute",
           "heading": false
         }
       ],
@@ -737,19 +737,19 @@
           "heading": false
         },
         {
-          "term": "healthcare",
-          "heading": false
-        },
-        {
           "term": "adaptation",
           "heading": false
         },
         {
-          "term": "testing",
+          "term": "healthcare",
           "heading": false
         },
         {
           "term": "user",
+          "heading": false
+        },
+        {
+          "term": "testing",
           "heading": false
         }
       ],
@@ -780,7 +780,7 @@
           "heading": false
         },
         {
-          "term": "input entry",
+          "term": "service user",
           "heading": false
         },
         {
@@ -788,7 +788,11 @@
           "heading": false
         },
         {
-          "term": "service user",
+          "term": "user requirements",
+          "heading": false
+        },
+        {
+          "term": "decision-support table",
           "heading": false
         },
         {
@@ -796,11 +800,7 @@
           "heading": false
         },
         {
-          "term": "source code",
-          "heading": false
-        },
-        {
-          "term": "decision-support table",
+          "term": "input entry",
           "heading": false
         }
       ],
@@ -831,18 +831,6 @@
           "heading": false
         },
         {
-          "term": "gartner glossary",
-          "heading": false
-        },
-        {
-          "term": "home-based records",
-          "heading": false
-        },
-        {
-          "term": "transformational journey",
-          "heading": false
-        },
-        {
           "term": "paper-based records",
           "heading": false
         },
@@ -851,7 +839,19 @@
           "heading": false
         },
         {
-          "term": "phc",
+          "term": "gartner glossary",
+          "heading": false
+        },
+        {
+          "term": "transformational journey",
+          "heading": false
+        },
+        {
+          "term": "home-based records",
+          "heading": false
+        },
+        {
+          "term": "digital transformation",
           "heading": false
         }
       ],
@@ -886,15 +886,11 @@
           "heading": false
         },
         {
-          "term": "clinical decision",
+          "term": "record systems",
           "heading": false
         },
         {
           "term": "clinical care",
-          "heading": false
-        },
-        {
-          "term": "clinical records",
           "heading": false
         },
         {
@@ -904,6 +900,10 @@
         {
           "term": "point",
           "heading": true
+        },
+        {
+          "term": "paper-based systems",
+          "heading": false
         }
       ],
       "extract": "A person-centered point of service system (PCPOSS), digital in nature, facilitates the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of care. A PCPOSS includes software capabilities that enable health- care providers to access, record and update individuals’ health information as well as interactively communicate with them. The term",
@@ -941,6 +941,10 @@
           "heading": false
         },
         {
+          "term": "digital adaptation",
+          "heading": false
+        },
+        {
           "term": "localised",
           "heading": false
         },
@@ -950,10 +954,6 @@
         },
         {
           "term": "dynamic",
-          "heading": false
-        },
-        {
-          "term": "recommendations",
           "heading": false
         }
       ],
@@ -976,11 +976,15 @@
       },
       "keywords": [
         {
+          "term": "establish people-first",
+          "heading": false
+        },
+        {
           "term": "handbook",
           "heading": true
         },
         {
-          "term": "establish people-first",
+          "term": "user requirements",
           "heading": false
         },
         {
@@ -988,11 +992,7 @@
           "heading": false
         },
         {
-          "term": "contributors",
-          "heading": false
-        },
-        {
-          "term": "user requirements",
+          "term": "information systems",
           "heading": false
         },
         {
@@ -1000,7 +1000,7 @@
           "heading": false
         },
         {
-          "term": "updating",
+          "term": "contributors",
           "heading": false
         },
         {
@@ -1039,6 +1039,10 @@
           "heading": false
         },
         {
+          "term": "digital system",
+          "heading": false
+        },
+        {
           "term": "readiness",
           "heading": true
         },
@@ -1048,10 +1052,6 @@
         },
         {
           "term": "pcposs",
-          "heading": false
-        },
-        {
-          "term": "starting",
           "heading": false
         }
       ],
@@ -1074,15 +1074,11 @@
       },
       "keywords": [
         {
-          "term": "written",
-          "heading": false
-        },
-        {
           "term": "pcposs",
           "heading": false
         },
         {
-          "term": "involved",
+          "term": "written",
           "heading": false
         },
         {
@@ -1090,16 +1086,20 @@
           "heading": true
         },
         {
-          "term": "handbook",
+          "term": "involved",
           "heading": false
         },
         {
-          "term": "role",
+          "term": "requirements",
           "heading": false
         },
         {
           "term": "adaptation",
           "heading": false
+        },
+        {
+          "term": "users",
+          "heading": true
         }
       ],
       "extract": "This handbook is aimed at individuals and teams seeking to gather and optimize the content and functional requirements for either adapting a PCPOSS or developing one bespoke. It is written for those with a public health and/or clinical background who have a baseline understanding of health information systems but may not be technologists themselves. In essence, this handbook is written for those who will fill the",
@@ -1129,15 +1129,11 @@
           "heading": false
         },
         {
-          "term": "telecommunications union",
-          "heading": false
-        },
-        {
           "term": "unique identifiers",
           "heading": false
         },
         {
-          "term": "international telecommunications",
+          "term": "telecommunications union",
           "heading": false
         },
         {
@@ -1145,11 +1141,15 @@
           "heading": false
         },
         {
+          "term": "international telecommunications",
+          "heading": false
+        },
+        {
           "term": "scope creep",
           "heading": false
         },
         {
-          "term": "strategy toolkit",
+          "term": "implementing digital",
           "heading": false
         }
       ],
@@ -1172,6 +1172,10 @@
       },
       "keywords": [
         {
+          "term": "train users",
+          "heading": false
+        },
+        {
           "term": "handbook recognizing",
           "heading": false
         },
@@ -1180,7 +1184,7 @@
           "heading": false
         },
         {
-          "term": "train users",
+          "term": "user requirements",
           "heading": false
         },
         {
@@ -1188,19 +1192,15 @@
           "heading": false
         },
         {
+          "term": "user feedback",
+          "heading": false
+        },
+        {
           "term": "leading practices",
           "heading": false
         },
         {
-          "term": "user requirements",
-          "heading": false
-        },
-        {
-          "term": "adapt design",
-          "heading": false
-        },
-        {
-          "term": "user feedback",
+          "term": "end users",
           "heading": false
         }
       ],
@@ -1223,6 +1223,10 @@
       },
       "keywords": [
         {
+          "term": "user requirements",
+          "heading": false
+        },
+        {
           "term": "matrix template",
           "heading": false
         },
@@ -1235,15 +1239,7 @@
           "heading": false
         },
         {
-          "term": "user requirements",
-          "heading": false
-        },
-        {
           "term": "understand user",
-          "heading": false
-        },
-        {
-          "term": "worker occupational",
           "heading": false
         },
         {
@@ -1251,8 +1247,12 @@
           "heading": false
         },
         {
-          "term": "decision table",
+          "term": "worker occupational",
           "heading": false
+        },
+        {
+          "term": "software",
+          "heading": true
         }
       ],
       "extract": "Implementation teams using this handbook are not expected to use any specific software applications during the requirements-gathering and detailed design processes. Regardless of the chosen technology used, the only strong recommendation would be to ensure robust, high-quality documentation of the requirements of the system and its design. Collaboration tools such as project management and file sharing tools (e.g.",
@@ -1278,11 +1278,11 @@
           "heading": false
         },
         {
-          "term": "requirements-gathering workshops",
+          "term": "follow-up interviews",
           "heading": false
         },
         {
-          "term": "follow-up interviews",
+          "term": "requirements-gathering workshops",
           "heading": false
         },
         {
@@ -1294,15 +1294,15 @@
           "heading": false
         },
         {
+          "term": "user requirements",
+          "heading": false
+        },
+        {
           "term": "hawthorne effect",
           "heading": false
         },
         {
-          "term": "try",
-          "heading": false
-        },
-        {
-          "term": "fill out",
+          "term": "adaptation kits",
           "heading": false
         }
       ],
@@ -1325,19 +1325,23 @@
       },
       "keywords": [
         {
-          "term": "user stories",
-          "heading": false
-        },
-        {
           "term": "user personas",
           "heading": false
         },
         {
-          "term": "nurse midwife",
+          "term": "user stories",
           "heading": false
         },
         {
           "term": "personas along",
+          "heading": false
+        },
+        {
+          "term": "user requirements",
+          "heading": false
+        },
+        {
+          "term": "nurse midwife",
           "heading": false
         },
         {
@@ -1347,10 +1351,6 @@
         {
           "term": "know",
           "heading": true
-        },
-        {
-          "term": "user requirements",
-          "heading": false
         },
         {
           "term": "end user",
@@ -1376,15 +1376,15 @@
       },
       "keywords": [
         {
-          "term": "swim lane",
-          "heading": false
-        },
-        {
           "term": "business processes",
           "heading": true
         },
         {
-          "term": "gateway symbol",
+          "term": "workflows",
+          "heading": true
+        },
+        {
+          "term": "swim lane",
           "heading": false
         },
         {
@@ -1396,15 +1396,15 @@
           "heading": false
         },
         {
-          "term": "symbol name",
+          "term": "update client",
           "heading": false
         },
         {
-          "term": "another swim",
+          "term": "client health-care",
           "heading": false
         },
         {
-          "term": "depict split",
+          "term": "client record",
           "heading": false
         }
       ],
@@ -1431,11 +1431,11 @@
           "heading": false
         },
         {
-          "term": "collection forms",
+          "term": "remove duplicated",
           "heading": false
         },
         {
-          "term": "remove duplicated",
+          "term": "collection forms",
           "heading": false
         },
         {
@@ -1443,7 +1443,11 @@
           "heading": false
         },
         {
-          "term": "aggregate indicators",
+          "term": "elements across",
+          "heading": false
+        },
+        {
+          "term": "immunization card",
           "heading": false
         },
         {
@@ -1451,11 +1455,7 @@
           "heading": false
         },
         {
-          "term": "collection instruments",
-          "heading": false
-        },
-        {
-          "term": "immunization card",
+          "term": "worker occupational",
           "heading": false
         }
       ],
@@ -1486,11 +1486,15 @@
           "heading": false
         },
         {
+          "term": "elements",
+          "heading": false
+        },
+        {
           "term": "standardized concepts",
           "heading": false
         },
         {
-          "term": "elements",
+          "term": "adaptation kits",
           "heading": false
         },
         {
@@ -1502,11 +1506,7 @@
           "heading": false
         },
         {
-          "term": "adaptation kits",
-          "heading": false
-        },
-        {
-          "term": "indicator reporting",
+          "term": "mappings",
           "heading": false
         }
       ],
@@ -1537,19 +1537,19 @@
           "heading": false
         },
         {
-          "term": "hiv prevention",
-          "heading": false
-        },
-        {
-          "term": "hiv infection",
-          "heading": false
-        },
-        {
           "term": "decision-support tables",
           "heading": false
         },
         {
-          "term": "hiv acquisition",
+          "term": "decision logic",
+          "heading": false
+        },
+        {
+          "term": "pathway decision-support",
+          "heading": false
+        },
+        {
+          "term": "hiv prevention",
           "heading": false
         },
         {
@@ -1557,7 +1557,7 @@
           "heading": false
         },
         {
-          "term": "pathway decision-support",
+          "term": "hiv acquisition",
           "heading": false
         }
       ],
@@ -1643,7 +1643,15 @@
           "heading": false
         },
         {
-          "term": "concept dictionary",
+          "term": "user story",
+          "heading": false
+        },
+        {
+          "term": "service user",
+          "heading": false
+        },
+        {
+          "term": "user stories",
           "heading": false
         },
         {
@@ -1651,15 +1659,7 @@
           "heading": false
         },
         {
-          "term": "user story",
-          "heading": false
-        },
-        {
-          "term": "water bottle",
-          "heading": false
-        },
-        {
-          "term": "user stories",
+          "term": "concept dictionary",
           "heading": false
         }
       ],
@@ -1698,11 +1698,11 @@
           "heading": false
         },
         {
-          "term": "undertake design",
+          "term": "business requirements",
           "heading": false
         },
         {
-          "term": "source code",
+          "term": "undertake design",
           "heading": false
         },
         {
@@ -1710,8 +1710,8 @@
           "heading": false
         },
         {
-          "term": "finalize",
-          "heading": true
+          "term": "obtain evidence",
+          "heading": false
         }
       ],
       "extract": "After the requirements are defined and prioritized, the implementation team must first select and finalize a software and software vendor that can successfully achieve all necessary business requirements. The implementation team must conduct an objective software selection process comprising a landscape analysis to review tools that are already available in the market. A scorecard can be developed to compare",
@@ -1741,11 +1741,11 @@
           "heading": true
         },
         {
-          "term": "breaks",
+          "term": "digitize",
           "heading": false
         },
         {
-          "term": "digitize",
+          "term": "pcposs",
           "heading": false
         },
         {
@@ -1792,16 +1792,16 @@
           "heading": false
         },
         {
+          "term": "allow testing",
+          "heading": false
+        },
+        {
+          "term": "incorporate feedback",
+          "heading": false
+        },
+        {
           "term": "design",
           "heading": true
-        },
-        {
-          "term": "user-centred design",
-          "heading": false
-        },
-        {
-          "term": "final product",
-          "heading": false
         }
       ],
       "extract": "Creating mock-ups of a user interface (UI) and prototyping of the product helps to evaluate the layout, flow and usability of the intended digital application prior to coding and development. These design mock-ups and prototypes will prove useful when the engineers start to build the system, as they will help the engineers to visualize how the functional requirements being built into the system will be used. There",
@@ -1823,19 +1823,11 @@
       },
       "keywords": [
         {
+          "term": "system architecture",
+          "heading": true
+        },
+        {
           "term": "syntactic interoperability",
-          "heading": false
-        },
-        {
-          "term": "fhir standard",
-          "heading": false
-        },
-        {
-          "term": "classification standards",
-          "heading": false
-        },
-        {
-          "term": "terminology standards",
           "heading": false
         },
         {
@@ -1843,15 +1835,23 @@
           "heading": false
         },
         {
-          "term": "common standards",
-          "heading": false
-        },
-        {
-          "term": "communication standards",
+          "term": "fhir standard",
           "heading": false
         },
         {
           "term": "organizational interoperability",
+          "heading": false
+        },
+        {
+          "term": "terminology standards",
+          "heading": false
+        },
+        {
+          "term": "classification standards",
+          "heading": false
+        },
+        {
+          "term": "legal interoperability",
           "heading": false
         }
       ],
@@ -1902,7 +1902,7 @@
           "heading": false
         },
         {
-          "term": "targeted end-users",
+          "term": "user requirements",
           "heading": false
         }
       ],
@@ -1968,6 +1968,10 @@
           "heading": false
         },
         {
+          "term": "design flaws",
+          "heading": false
+        },
+        {
           "term": "conduct training",
           "heading": false
         },
@@ -1980,11 +1984,7 @@
           "heading": false
         },
         {
-          "term": "trainers",
-          "heading": false
-        },
-        {
-          "term": "bugs",
+          "term": "local technology",
           "heading": false
         }
       ],
@@ -2015,11 +2015,11 @@
           "heading": false
         },
         {
-          "term": "production environment",
+          "term": "expected diagnosis",
           "heading": false
         },
         {
-          "term": "expected diagnosis",
+          "term": "production environment",
           "heading": false
         },
         {
@@ -2027,15 +2027,15 @@
           "heading": false
         },
         {
+          "term": "system",
+          "heading": true
+        },
+        {
           "term": "technology partner",
           "heading": false
         },
         {
-          "term": "onto",
-          "heading": false
-        },
-        {
-          "term": "testing",
+          "term": "digital technologies",
           "heading": false
         }
       ],
@@ -2058,11 +2058,11 @@
       },
       "keywords": [
         {
-          "term": "phasing out",
+          "term": "legacy systems",
           "heading": false
         },
         {
-          "term": "out paper",
+          "term": "phasing out",
           "heading": false
         },
         {
@@ -2070,7 +2070,7 @@
           "heading": true
         },
         {
-          "term": "legacy",
+          "term": "out paper",
           "heading": false
         },
         {
@@ -2078,15 +2078,15 @@
           "heading": false
         },
         {
-          "term": "pcposs",
-          "heading": false
-        },
-        {
           "term": "scale-up",
           "heading": false
         },
         {
-          "term": "phase-out",
+          "term": "pcposs",
+          "heading": false
+        },
+        {
+          "term": "user requirements",
           "heading": false
         }
       ],
@@ -2109,11 +2109,11 @@
       },
       "keywords": [
         {
-          "term": "out paper",
+          "term": "legacy systems",
           "heading": false
         },
         {
-          "term": "legacy",
+          "term": "out paper",
           "heading": false
         },
         {
@@ -2140,7 +2140,7 @@
       },
       "keywords": [
         {
-          "term": "legacy",
+          "term": "legacy system",
           "heading": true
         },
         {
@@ -2152,15 +2152,15 @@
           "heading": true
         },
         {
-          "term": "countrywide coverage",
-          "heading": false
-        },
-        {
           "term": "service user",
           "heading": false
         },
         {
-          "term": "reference period",
+          "term": "countrywide coverage",
+          "heading": false
+        },
+        {
+          "term": "paper system",
           "heading": false
         },
         {
@@ -2168,7 +2168,7 @@
           "heading": false
         },
         {
-          "term": "metric area",
+          "term": "user requirements",
           "heading": false
         }
       ],
@@ -2191,20 +2191,20 @@
       },
       "keywords": [
         {
-          "term": "policy-makers",
-          "heading": false
-        },
-        {
           "term": "progress",
           "heading": true
         },
         {
-          "term": "stepwise",
+          "term": "evaluating",
           "heading": false
         },
         {
           "term": "objectives",
           "heading": true
+        },
+        {
+          "term": "interventions",
+          "heading": false
         }
       ],
       "extract": "With clear objectives and indicators to measure progress towards them, it is crucial that the PCPOSS has a clear and robust monitoring and evaluation plan and methodology. WHO offers a practical guide, Monitoring and evaluating digital health interventions (99), with detailed stepwise guidance that is beyond the scope of this handbook. The guidance helps with improving the quality and value of monitoring and",
@@ -2238,8 +2238,8 @@
           "heading": false
         },
         {
-          "term": "phase-out",
-          "heading": true
+          "term": "paper systems",
+          "heading": false
         }
       ],
       "extract": "Strategically, it is advised to not wait until the entire country is ready to phase out paper systems and/or legacy systems and instead phase out those systems in a staged, or step-wise, manner. For example, if one region or province is ready to phase out paper systems completely, but other provinces are still in the process of adopting PCPOSSs, it might be better to begin the phase out of the paper system in the",
@@ -2265,6 +2265,10 @@
           "heading": true
         },
         {
+          "term": "paper system",
+          "heading": false
+        },
+        {
           "term": "phasing out",
           "heading": false
         },
@@ -2277,19 +2281,15 @@
           "heading": false
         },
         {
-          "term": "paper",
-          "heading": false
-        },
-        {
           "term": "big",
           "heading": false
         },
         {
-          "term": "behaviour",
+          "term": "digital systems",
           "heading": false
         },
         {
-          "term": "smart",
+          "term": "behaviour",
           "heading": false
         }
       ],
@@ -2336,11 +2336,11 @@
           "heading": false
         },
         {
-          "term": "press release",
+          "term": "adaptation kit",
           "heading": false
         },
         {
-          "term": "website",
+          "term": "agile modelling",
           "heading": false
         }
       ],
@@ -2367,15 +2367,11 @@
           "heading": false
         },
         {
-          "term": "typical day",
-          "heading": false
-        },
-        {
           "term": "busy day",
           "heading": false
         },
         {
-          "term": "nurse midwife",
+          "term": "typical day",
           "heading": false
         },
         {
@@ -2383,11 +2379,15 @@
           "heading": false
         },
         {
+          "term": "nurse midwife",
+          "heading": false
+        },
+        {
           "term": "user requirements",
           "heading": false
         },
         {
-          "term": "duties",
+          "term": "people-first",
           "heading": false
         },
         {
@@ -2418,10 +2418,6 @@
           "heading": true
         },
         {
-          "term": "facility",
-          "heading": false
-        },
-        {
           "term": "service user",
           "heading": false
         },
@@ -2430,7 +2426,7 @@
           "heading": false
         },
         {
-          "term": "observed",
+          "term": "facility",
           "heading": false
         },
         {
@@ -2438,7 +2434,11 @@
           "heading": false
         },
         {
-          "term": "completed",
+          "term": "observed",
+          "heading": false
+        },
+        {
+          "term": "roll-out",
           "heading": false
         }
       ],
@@ -2473,12 +2473,12 @@
           "heading": false
         },
         {
-          "term": "occupational group",
-          "heading": false
-        },
-        {
           "term": "user",
           "heading": true
+        },
+        {
+          "term": "occupational group",
+          "heading": false
         },
         {
           "term": "photo",
@@ -2489,7 +2489,7 @@
           "heading": false
         },
         {
-          "term": "professional",
+          "term": "kind",
           "heading": false
         }
       ],
@@ -2512,7 +2512,7 @@
       },
       "keywords": [
         {
-          "term": "non-functional requirements",
+          "term": "gynaecology department",
           "heading": false
         },
         {
@@ -2520,7 +2520,7 @@
           "heading": true
         },
         {
-          "term": "obstetrics",
+          "term": "non-functional requirements",
           "heading": false
         },
         {
@@ -2551,7 +2551,7 @@
           "heading": true
         },
         {
-          "term": "letter",
+          "term": "service user",
           "heading": false
         },
         {
@@ -2559,11 +2559,15 @@
           "heading": false
         },
         {
-          "term": "service user",
-          "heading": false
+          "term": "matrix",
+          "heading": true
         },
         {
           "term": "counselling",
+          "heading": false
+        },
+        {
+          "term": "letter",
           "heading": false
         },
         {
@@ -2571,11 +2575,7 @@
           "heading": false
         },
         {
-          "term": "matrix",
-          "heading": true
-        },
-        {
-          "term": "involved",
+          "term": "overview",
           "heading": false
         }
       ],
@@ -2618,16 +2618,16 @@
           "heading": false
         },
         {
-          "term": "reporting purposes",
-          "heading": false
-        },
-        {
           "term": "working language",
           "heading": false
         },
         {
-          "term": "column",
+          "term": "reporting purposes",
           "heading": false
+        },
+        {
+          "term": "inventory",
+          "heading": true
         }
       ],
       "extract": "The following explains the information needed for each paper or digital form, which should be logged in separate rows in a table. For each row of the inventory, the following columns should be filled out. This helps organize what data will need to be collected to reflect existing data collection workflows. Inventory column Description of information entered Form ID If the form or register has an existing",
@@ -2704,19 +2704,7 @@
           "heading": false
         },
         {
-          "term": "indicator",
-          "heading": true
-        },
-        {
           "term": "decision-support table",
-          "heading": false
-        },
-        {
-          "term": "decision name",
-          "heading": false
-        },
-        {
-          "term": "indicator here",
           "heading": false
         },
         {
@@ -2724,11 +2712,23 @@
           "heading": false
         },
         {
+          "term": "adaptation kit",
+          "heading": false
+        },
+        {
           "term": "rule order",
           "heading": false
         },
         {
-          "term": "indicator applies",
+          "term": "indicator",
+          "heading": true
+        },
+        {
+          "term": "element label",
+          "heading": false
+        },
+        {
+          "term": "noted here",
           "heading": false
         }
       ],
@@ -2759,11 +2759,11 @@
           "heading": false
         },
         {
-          "term": "input expression",
+          "term": "adaptation kit",
           "heading": false
         },
         {
-          "term": "adaptation kit",
+          "term": "input expression",
           "heading": false
         },
         {
@@ -2771,15 +2771,15 @@
           "heading": false
         },
         {
-          "term": "blood pressure",
-          "heading": false
-        },
-        {
           "term": "operational requirements",
           "heading": false
         },
         {
-          "term": "activity number",
+          "term": "digital adaptation",
+          "heading": false
+        },
+        {
+          "term": "blood pressure",
           "heading": false
         }
       ],
@@ -2806,7 +2806,7 @@
           "heading": false
         },
         {
-          "term": "hepatitis birth",
+          "term": "expiration date",
           "heading": false
         },
         {
@@ -2814,11 +2814,15 @@
           "heading": false
         },
         {
-          "term": "expiration date",
+          "term": "hepatitis birth",
           "heading": false
         },
         {
           "term": "overdue date",
+          "heading": false
+        },
+        {
+          "term": "service schedule",
           "heading": false
         },
         {
@@ -2827,10 +2831,6 @@
         },
         {
           "term": "due date",
-          "heading": false
-        },
-        {
-          "term": "service schedule",
           "heading": false
         }
       ],
@@ -2869,11 +2869,11 @@
           "heading": true
         },
         {
-          "term": "priority",
+          "term": "pcposs",
           "heading": false
         },
         {
-          "term": "pcposs",
+          "term": "priority",
           "heading": false
         },
         {
@@ -2881,7 +2881,7 @@
           "heading": false
         },
         {
-          "term": "medium",
+          "term": "feature",
           "heading": false
         }
       ],
@@ -2924,15 +2924,15 @@
           "heading": false
         },
         {
+          "term": "fhir implementation",
+          "heading": false
+        },
+        {
           "term": "accessed october",
           "heading": false
         },
         {
           "term": "healthit",
-          "heading": false
-        },
-        {
-          "term": "national coordinator",
           "heading": false
         }
       ],
@@ -2948,6 +2948,14 @@
       "heading": true
     },
     {
+      "term": "digital adaptation",
+      "heading": false
+    },
+    {
+      "term": "service user",
+      "heading": false
+    },
+    {
       "term": "design testing",
       "heading": false
     },
@@ -2956,11 +2964,19 @@
       "heading": false
     },
     {
-      "term": "service user",
+      "term": "system requirements",
       "heading": false
     },
     {
       "term": "pcposs improve",
+      "heading": false
+    },
+    {
+      "term": "business requirements",
+      "heading": false
+    },
+    {
+      "term": "software requirements",
       "heading": false
     },
     {
@@ -2973,22 +2989,6 @@
     },
     {
       "term": "pcposs encompasses",
-      "heading": false
-    },
-    {
-      "term": "adaptation kits",
-      "heading": false
-    },
-    {
-      "term": "transformation handbook",
-      "heading": false
-    },
-    {
-      "term": "hiv testing",
-      "heading": false
-    },
-    {
-      "term": "adaptation kit",
       "heading": false
     }
   ],

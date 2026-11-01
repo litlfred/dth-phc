@@ -2004,18 +2004,18 @@
         },
         {
           "path": "dth-phc/front-matter/p-fm-publication-metadata.jsonld",
-          "bytes": 2438,
+          "bytes": 2418,
           "size": "2.4 KB"
         },
         {
           "path": "dth-phc/front-matter/p-fm-publication-metadata.md",
-          "bytes": 14093,
-          "size": "13.8 KB"
+          "bytes": 3480,
+          "size": "3.4 KB"
         },
         {
           "path": "dth-phc/front-matter/p-fm-publication-metadata.ts",
-          "bytes": 1703,
-          "size": "1.7 KB"
+          "bytes": 1683,
+          "size": "1.6 KB"
         },
         {
           "path": "dth-phc/front-matter/t-fm-abbreviations.jsonld",

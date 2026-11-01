@@ -32,11 +32,11 @@
           "heading": false
         },
         {
-          "term": "rwt techniques",
+          "term": "true quantitative",
           "heading": false
         },
         {
-          "term": "true quantitative",
+          "term": "rwt techniques",
           "heading": false
         },
         {
@@ -83,11 +83,15 @@
           "heading": false
         },
         {
+          "term": "phantom study",
+          "heading": false
+        },
+        {
           "term": "quantitative imaging",
           "heading": false
         },
         {
-          "term": "phantom study",
+          "term": "true value",
           "heading": false
         },
         {
@@ -95,15 +99,11 @@
           "heading": false
         },
         {
-          "term": "quantitative value",
+          "term": "patient",
           "heading": false
         },
         {
-          "term": "measured value",
-          "heading": false
-        },
-        {
-          "term": "certain quantitative",
+          "term": "ground truth",
           "heading": false
         }
       ],
@@ -154,7 +154,7 @@
           "heading": false
         },
         {
-          "term": "known-ground-truth data",
+          "term": "true values",
           "heading": false
         }
       ],
@@ -205,7 +205,7 @@
           "heading": false
         },
         {
-          "term": "motivate further",
+          "term": "ground-truth known",
           "heading": false
         }
       ],
@@ -312,19 +312,19 @@
       "heading": false
     },
     {
-      "term": "rwt technique",
-      "heading": false
-    },
-    {
       "term": "true quantitative",
       "heading": false
     },
     {
-      "term": "quantitative spect",
+      "term": "rwt technique",
       "heading": false
     },
     {
       "term": "patient samples",
+      "heading": false
+    },
+    {
+      "term": "quantitative spect",
       "heading": false
     },
     {
@@ -348,7 +348,7 @@
       "heading": false
     },
     {
-      "term": "evaluating quantitative",
+      "term": "known-ground-truth samples",
       "heading": false
     }
   ],

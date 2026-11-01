@@ -1,0 +1,6 @@
+digraph "DTH-PHC overlay on the DPI-H reference architecture — data model" {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=11, nodesep=0.5, ranksep=1.1];
+  node [shape=box, style="filled", fontname="Helvetica", fontsize=10, margin="0.14,0.08"];
+  edge [fontname="Helvetica", fontsize=9, color="#555555", fontcolor="#333333"];
+  "id-f180ad44b2e94e2a9ee8523ffc900264" [label="«Business Object»\nShared Health Record\n[SharedHealthRecord]\n—\n• patient: Reference(Patient) 1..1\n• encounters: Reference(Encounter) 0..*\n• clinicalSummary: Composition 0..*", fillcolor="#ffffb5", URL="../../en/dth-phc/archimate/0.1.0-draft.1/elements/shared-health-record/", target="_top", tooltip="Shared Health Record (Business Object)"];
+}

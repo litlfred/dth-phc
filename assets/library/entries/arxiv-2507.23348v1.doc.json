@@ -447,7 +447,7 @@
           "heading": false
         },
         {
-          "term": "reasoning",
+          "term": "agents",
           "heading": false
         }
       ],
@@ -521,11 +521,11 @@
       },
       "keywords": [
         {
-          "term": "individual exploration",
+          "term": "architectural trade-offs",
           "heading": false
         },
         {
-          "term": "architectural trade-offs",
+          "term": "individual exploration",
           "heading": false
         },
         {
@@ -549,7 +549,7 @@
           "heading": false
         },
         {
-          "term": "approaches fail",
+          "term": "get foo",
           "heading": false
         }
       ],
@@ -669,7 +669,7 @@
           "heading": false
         },
         {
-          "term": "employ",
+          "term": "localization",
           "heading": false
         }
       ],
@@ -747,19 +747,19 @@
           "heading": false
         },
         {
-          "term": "search tree",
-          "heading": false
-        },
-        {
           "term": "mcts process",
           "heading": false
         },
         {
-          "term": "exploration",
+          "term": "search tree",
           "heading": false
         },
         {
           "term": "codebase",
+          "heading": false
+        },
+        {
+          "term": "exploration",
           "heading": false
         },
         {
@@ -903,12 +903,12 @@
           "heading": false
         },
         {
-          "term": "metrics",
-          "heading": true
-        },
-        {
           "term": "modification",
           "heading": false
+        },
+        {
+          "term": "metrics",
+          "heading": true
         },
         {
           "term": "grained",
@@ -942,11 +942,11 @@
           "heading": false
         },
         {
-          "term": "breadth",
+          "term": "unsuccessful",
           "heading": false
         },
         {
-          "term": "unsuccessful",
+          "term": "breadth",
           "heading": false
         }
       ],
@@ -1024,12 +1024,12 @@
           "heading": false
         },
         {
-          "term": "effectiveness",
-          "heading": true
-        },
-        {
           "term": "gpt-4o",
           "heading": false
+        },
+        {
+          "term": "effectiveness",
+          "heading": true
         }
       ],
       "extract": "Table 1 presents the main experimental results comparing SWE- Debate with state-of-the-art baselines on the SWE-Bench-Verified dataset. We observe that SWE-Debate is able to solve 207 out of 500 problems, achieving 41.4% success rate. While individual baseline approaches show varying performance across different language models, SWE-Debate demonstrates consistent superiority over ex- isting methods. Specifically,",
@@ -1079,7 +1079,7 @@
           "heading": false
         },
         {
-          "term": "exploration",
+          "term": "component",
           "heading": false
         }
       ],
@@ -1169,12 +1169,12 @@
           "heading": false
         },
         {
-          "term": "impact",
-          "heading": true
-        },
-        {
           "term": "debate process",
           "heading": false
+        },
+        {
+          "term": "impact",
+          "heading": true
         },
         {
           "term": "acc",
@@ -1542,11 +1542,11 @@
           "heading": false
         },
         {
-          "term": "analytical",
+          "term": "competing",
           "heading": false
         },
         {
-          "term": "competing",
+          "term": "analytical",
           "heading": false
         },
         {
@@ -1644,7 +1644,7 @@
           "heading": false
         },
         {
-          "term": "international conference",
+          "term": "select entities",
           "heading": false
         }
       ],
@@ -1690,23 +1690,23 @@
       "heading": false
     },
     {
-      "term": "issue resolution",
-      "heading": true
-    },
-    {
       "term": "debate framework",
       "heading": false
+    },
+    {
+      "term": "issue resolution",
+      "heading": true
     },
     {
       "term": "localization through",
       "heading": false
     },
     {
-      "term": "agent debate",
+      "term": "debate process",
       "heading": false
     },
     {
-      "term": "structured debate",
+      "term": "agent debate",
       "heading": false
     }
   ],

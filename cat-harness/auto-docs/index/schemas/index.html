@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=6071ae228cf3">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=18eb22b50395">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=a0806788c1f5">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=e905de88eeeb">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -640,12 +640,12 @@
 <!-- BEFORE docs-ui.js and work-plan.js: both read window.faRender. -->
 <script src="../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
-<script src="../../../../assets/js/navbar-row.js?v=7dce6a7e2ab0" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=c7e8e0ebcddb" defer></script>
+<script src="../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=52e4c68c64c7" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../assets/js/edit-links.js?v=81bb303b6bc2" defer></script>
+<script src="../../../../assets/js/edit-links.js?v=4f82faf45c35" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -932,8 +932,16 @@
   <td>The ArchiMate harness's shapes: what an instance declares, and how an Archi model becomes nodes — the model, each of its views, elements and relationships — with an IRI each.</td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/diagrams.ts"><code>diagrams</code></a><br><span class="p">cat-harness-tools/archimate/schemas/diagrams.ts</span></td>
+  <td>Derived UML data class diagrams and sequence diagrams from an ArchiMate model (and optional FSH Logical Models and BPMN processes): smart-ra#166 D5.</td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/metamodel.ts"><code>metamodel</code></a><br><span class="p">cat-harness-tools/archimate/schemas/metamodel.ts</span></td>
   <td>The metamodel a model actually uses, derived from the model and checked against ArchiMate's relationship table.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>rules</code></a><br><span class="p">cat-harness-tools/archimate/schemas/rules.ts</span></td>
+  <td><code>archimate-relationship-rules/v1</code>: the relationships a reference architecture's authors allow between element types, written once as data.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/slugs.ts"><code>slugs</code></a><br><span class="p">cat-harness-tools/archimate/schemas/slugs.ts</span></td>
@@ -1528,8 +1536,16 @@
   <td>The change-size rule: thresholds, basis, and prose/KG versus code weighting.</td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/gates-report.ts"><code>gates-report</code></a><br><span class="p">cat-harness-tools/schemas/sdlc/gates-report.ts</span></td>
+  <td>The typed reports of <code>bun run cat gates</code> and <code>bun run cat check:merged</code> (issue litlfred/cat-harness-tools#1259, group 2; owner card Q-DS-14 A).</td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/git-corpus.ts"><code>git-corpus</code></a><br><span class="p">cat-harness-tools/schemas/sdlc/git-corpus.ts</span></td>
   <td>What files this REPOSITORY contains — asked of git, never of the disk.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/harness-state.ts"><code>harness-state</code></a><br><span class="p">cat-harness-tools/schemas/sdlc/harness-state.ts</span></td>
+  <td>One harness's state as <code>harness:state</code> publishes it (<code>folio-harness-state/v1</code>).</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/health-report.ts"><code>health-report</code></a><br><span class="p">cat-harness-tools/schemas/sdlc/health-report.ts</span></td>
@@ -1570,6 +1586,10 @@
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/qa-review.ts"><code>qa-review</code></a><br><span class="p">cat-harness-tools/schemas/sdlc/qa-review.ts</span></td>
   <td>QA review — findings, decisions, and the audit notes that justify them.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/read-projections.ts"><code>read-projections</code></a><br><span class="p">cat-harness-tools/schemas/sdlc/read-projections.ts</span></td>
+  <td>Projected reads: a reader that uses only part of a file says so, and a writer's record keeps only that part (owner card Q-SPD-9b A, 2026-11-01).</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/red-flag.ts"><code>red-flag</code></a><br><span class="p">cat-harness-tools/schemas/sdlc/red-flag.ts</span></td>
@@ -1660,6 +1680,10 @@
   <td>The cat-harness instance's Tool nodes — its <code>tools</code> graph.</td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/tools/store-tool-results.ts"><code>store-tool-results</code></a><br><span class="p">cat-harness-tools/schemas/tools/store-tool-results.ts</span></td>
+  <td>Typed results of the tools that read and write the harness's data stores — the work plan, the activity log and the session record (owner, 2026-11-01, Q-DS-10 A: &quot;store tools first&quot;).</td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/tools/tool-folders.ts"><code>tool-folders</code></a><br><span class="p">cat-harness-tools/schemas/tools/tool-folders.ts</span></td>
   <td>One Tool per folder: <code>&lt;tools dir&gt;/&lt;id&gt;/&lt;id&gt;.ts</code>, and the loader that reads them.</td>
 </tr>
@@ -1694,6 +1718,10 @@
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/tools/tool.ts"><code>tool</code></a><br><span class="p">cat-harness-tools/schemas/tools/tool.ts</span></td>
   <td>What a Tool is.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/tools/workflow-tool-results.ts"><code>workflow-tool-results</code></a><br><span class="p">cat-harness-tools/schemas/tools/workflow-tool-results.ts</span></td>
+  <td>Typed results of the workflow engine's tools (issue litlfred/cat-harness-tools#1259, group 2 of the tool-output plan, owner card Q-DS-10 A).</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/types.ts"><code>types</code></a><br><span class="p">cat-harness-tools/schemas/types.ts</span></td>

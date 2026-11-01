@@ -93,11 +93,11 @@
           "heading": false
         },
         {
-          "term": "visual",
+          "term": "rules",
           "heading": false
         },
         {
-          "term": "gemini",
+          "term": "visual",
           "heading": false
         }
       ],
@@ -181,7 +181,7 @@
           "heading": false
         },
         {
-          "term": "background",
+          "term": "commands",
           "heading": false
         }
       ],
@@ -222,11 +222,11 @@
       "heading": false
     },
     {
-      "term": "implementation plan",
+      "term": "content copy",
       "heading": false
     },
     {
-      "term": "content copy",
+      "term": "implementation plan",
       "heading": false
     },
     {

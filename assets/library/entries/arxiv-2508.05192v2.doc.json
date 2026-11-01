@@ -169,10 +169,6 @@
           "heading": true
         },
         {
-          "term": "data integration",
-          "heading": false
-        },
-        {
           "term": "biochemistry",
           "heading": false
         },
@@ -186,6 +182,10 @@
         },
         {
           "term": "uekermann",
+          "heading": false
+        },
+        {
+          "term": "data integration",
           "heading": false
         }
       ],
@@ -297,15 +297,15 @@
           "heading": false
         },
         {
-          "term": "furthermore",
-          "heading": false
-        },
-        {
           "term": "services",
           "heading": false
         },
         {
-          "term": "exist",
+          "term": "llms",
+          "heading": false
+        },
+        {
+          "term": "furthermore",
           "heading": false
         }
       ],

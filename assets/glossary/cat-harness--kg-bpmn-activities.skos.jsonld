@@ -3286,7 +3286,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Regenerate every derived reference from its source before building: skill schema and instruction pages, content-backed docs pages, the graph projections and viewers, the handler and translation indexes, and the rendered BPMN diagrams. The published site is built from sources, never from committed copies that may be stale."
+          "@value": "Regenerate every derived reference from its source before building: skill schema and instruction pages, content-backed docs pages, the graph projections and viewers, the handler and translation indexes, and the rendered BPMN diagrams. The published site is built from sources, never from committed copies that may be stale. After a main deploy, a side job (writer-records) runs every writer, and every step of the QA working copy, again under strace. It records what each one READ and keeps what it wrote, so a preview can rerun only the writers and QA steps whose reads changed (owner card Q-CONE-2 B, 2026-11-01). The main deploy itself still runs everything."
         }
       ],
       "skos:notation": "Task_Regenerate",
@@ -3366,7 +3366,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Build the preview from the PR's head: regenerate the generated docs, trim what this preview does not need, render the BPMN diagrams, then Jekyll, TypeDoc and the knowledge-graph export, with the staging banner and SEO identity claims stripped."
+          "@value": "Build the preview from the PR's head: regenerate the generated docs, trim what this preview does not need, render the BPMN diagrams, then Jekyll, TypeDoc and the knowledge-graph export, with the staging banner and SEO identity claims stripped. A PREVIEW REBUILDS ONLY ITS DEPENDENCY CONE (owner cards Q-CONE-1 C and Q-CONE-2 B, 2026-11-01): main's writer records say what each derive:publish writer and each step of the QA working copy READ. A writer or QA step whose recorded reads all match is not run, and main's outputs for it are put back. Every other one runs. QA is not left out of a preview, only narrowed to what the change can reach. Inside a preview's QA build, `skill:register` also leaves to derive:publish the two pages that derive:publish builds anyway and that no later QA step reads (`skills:docs` and `lsi:viz`), so they are built once."
         }
       ],
       "skos:notation": "Task_Build",
@@ -5461,7 +5461,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "The first matching pattern decides: take-base, generated-regions, qa-sidecar, or refuse. A path no pattern names refuses."
+          "@value": "The first matching pattern decides: take-base, owned-tree, generated-regions, or refuse. A path no pattern names refuses."
         }
       ],
       "skos:notation": "Task_Classify",
@@ -5556,7 +5556,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "qa-sidecar paths first, through `qa:resolve-conflicts`; take-base paths take the base's copy; generated-regions files take the base's side of each hunk, which lies inside a generated region by construction."
+          "@value": "take-base paths take the base's copy; generated-regions files take the base's side of each hunk, which lies inside a generated region by construction."
         }
       ],
       "skos:notation": "Task_Resolve",

@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=6071ae228cf3">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=18eb22b50395">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=a0806788c1f5">
+<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=e905de88eeeb">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -640,12 +640,12 @@
 <!-- BEFORE docs-ui.js and work-plan.js: both read window.faRender. -->
 <script src="../../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
-<script src="../../../../../assets/js/navbar-row.js?v=7dce6a7e2ab0" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=c7e8e0ebcddb" defer></script>
+<script src="../../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=52e4c68c64c7" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../../assets/js/edit-links.js?v=81bb303b6bc2" defer></script>
+<script src="../../../../../assets/js/edit-links.js?v=4f82faf45c35" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -849,11 +849,11 @@
 
 <p>Candidate terms extracted from every schema field with a doc comment: <code class="language-plaintext highlighter-rouge">&lt;Declaration&gt;.&lt;field&gt;</code> as the label, the comment’s first paragraph as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2251 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 141 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 182 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2293 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 141 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 182 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 7 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/schema-fields/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 504 terms and is 295 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 519 terms and is 303 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
@@ -868,7 +868,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">504</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">519</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-P">P</a> <a href="#letter-Q">Q</a> <a href="#letter-R">R</a></nav>
 <h2 id="letter-P">
@@ -2916,6 +2916,20 @@ RefWindowObjectSchema.heldBy <span class="fa-gloss-status">candidate, extracted<
 <p>Who holds the window — a session URL, <code>owner</code>, or an actor id.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/ref-window.ts"><code>cat-harness-tools/schemas/sdlc/ref-window.ts#RefWindowObjectSchema.heldBy</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.relationshipruleschema.note" data-fa-state="extracted" data-fa-gloss="">
+RelationshipRuleSchema.note <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Why the rule is there, in the document's words.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RelationshipRuleSchema.note</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.relationshiprulesschema.source" data-fa-state="extracted" data-fa-gloss="">
+RelationshipRulesSchema.source <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Where the rules were taken from: a document block, an IRI.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RelationshipRulesSchema.source</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--metamodel.relationshiptableschema.allowed" data-fa-state="extracted" data-fa-gloss="">
 RelationshipTableSchema.allowed <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2936,6 +2950,41 @@ RelationshipTableSchema.keys <span class="fa-gloss-status">candidate, extracted<
 <dd>
 <p>Key letter → Archi relationship type, e.g. <code>r</code> → <code>RealizationRelationship</code>.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/metamodel.ts"><code>cat-harness-tools/archimate/schemas/metamodel.ts#RelationshipTableSchema.keys</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.relationshiptypeentryschema.icon" data-fa-state="extracted" data-fa-gloss="">
+RelationshipTypeEntrySchema.icon <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The notation picture, relative to the block, shown in the relationship-types table.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RelationshipTypeEntrySchema.icon</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.relationshiptypeentryschema.meaning" data-fa-state="extracted" data-fa-gloss="">
+RelationshipTypeEntrySchema.meaning <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What it represents, in the document's words (Markdown). Only entries with a meaning are rows of the relationship-types table; a type the rules use with no meaning is reported, since the document then uses a relationship it never explains.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RelationshipTypeEntrySchema.meaning</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.relationshiptypeentryschema.name" data-fa-state="extracted" data-fa-gloss="">
+RelationshipTypeEntrySchema.name <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What the document calls it in a rule: <code>Realisation</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RelationshipTypeEntrySchema.name</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.relationshiptypeentryschema.type" data-fa-state="extracted" data-fa-gloss="">
+RelationshipTypeEntrySchema.type <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The ArchiMate relationship type, without <code>Relationship</code>: <code>Realization</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RelationshipTypeEntrySchema.type</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.relationshiptypeentryschema.verb" data-fa-state="extracted" data-fa-gloss="">
+RelationshipTypeEntrySchema.verb <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The verb the relationship-types table shows: <code>Realises</code>. Default: <code>name</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RelationshipTypeEntrySchema.verb</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--binary-release.releaseassetschema.bytes" data-fa-state="extracted" data-fa-gloss="">
 ReleaseAssetSchema.bytes <span class="fa-gloss-status">candidate, extracted</span>
@@ -4281,6 +4330,13 @@ RoleDef.skills <span class="fa-gloss-status">candidate, extracted</span>
 <p>Skills available to an actor in this role, before inheritance.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#RoleDef.skills</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.roledef.store" data-fa-state="extracted" data-fa-gloss="">
+RoleDef.store <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Present when this role is a DATA STORE: a place where things are kept, played by a mechanical actor (owner, 2026-11-01, Q-DS-1 A). It stays a Role, so its <code>skills</code> are still its contract (owner, 2026-10-16), and the role id is the store id a diagram's <code>dataStoreReference</code> points at (Q-DS-3 A). See &#123;@link StoreDef}.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#RoleDef.store</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--role-graph.roledef.title" data-fa-state="extracted" data-fa-gloss="">
 RoleDef.title <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -4392,6 +4448,55 @@ RouteManifestSchema.writer <span class="fa-gloss-status">candidate, extracted</s
 <dd>
 <p>The ONE generator that writes it.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/state-manifest.ts"><code>cat-harness-tools/schemas/kg/state-manifest.ts#RouteManifestSchema.writer</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.rulepattern.relationships" data-fa-state="extracted" data-fa-gloss="">
+RulePattern.relationships <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The relationships' ids.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RulePattern.relationships</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.rulescheck.checked" data-fa-state="extracted" data-fa-gloss="">
+RulesCheck.checked <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Relationships counted (those between two elements, Grouping's left out).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RulesCheck.checked</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.rulescheck.notallowed" data-fa-state="extracted" data-fa-gloss="">
+RulesCheck.notAllowed <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Rules ArchiMate's own relationship table does not allow.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RulesCheck.notAllowed</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.rulescheck.uncovered" data-fa-state="extracted" data-fa-gloss="">
+RulesCheck.uncovered <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Model patterns no rule covers, most used first.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RulesCheck.uncovered</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.rulescheck.uncoveredcount" data-fa-state="extracted" data-fa-gloss="">
+RulesCheck.uncoveredCount <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>How many relationships those patterns hold.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RulesCheck.uncoveredCount</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.rulescheck.unexplained" data-fa-state="extracted" data-fa-gloss="">
+RulesCheck.unexplained <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Relationship types a rule uses that have no <code>meaning</code>, so the document never explains them.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RulesCheck.unexplained</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--rules.rulescheck.used" data-fa-state="extracted" data-fa-gloss="">
+RulesCheck.used <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Each rule and how often the model follows it; a count of 0 is a rule the model never uses.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/archimate/schemas/rules.ts"><code>cat-harness-tools/archimate/schemas/rules.ts#RulesCheck.used</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--run-context.runcontextschema.profile" data-fa-state="extracted" data-fa-gloss="">
 RunContextSchema.profile <span class="fa-gloss-status">candidate, extracted</span>

@@ -254,11 +254,11 @@
           "heading": false
         },
         {
-          "term": "agent behaviour",
+          "term": "bundled files",
           "heading": false
         },
         {
-          "term": "bundled files",
+          "term": "agent behaviour",
           "heading": false
         },
         {
@@ -266,19 +266,19 @@
           "heading": false
         },
         {
-          "term": "usual sense",
-          "heading": false
-        },
-        {
           "term": "static form",
           "heading": false
         },
         {
-          "term": "class style",
+          "term": "usual sense",
           "heading": false
         },
         {
           "term": "model selects",
+          "heading": false
+        },
+        {
+          "term": "class style",
           "heading": false
         }
       ],
@@ -394,11 +394,11 @@
           "heading": false
         },
         {
-          "term": "cutting",
+          "term": "deserves",
           "heading": false
         },
         {
-          "term": "deserves",
+          "term": "disable",
           "heading": false
         }
       ],
@@ -526,15 +526,15 @@
           "heading": false
         },
         {
-          "term": "session start",
-          "heading": false
-        },
-        {
           "term": "shell command",
           "heading": false
         },
         {
-          "term": "during session",
+          "term": "session start",
+          "heading": false
+        },
+        {
+          "term": "runtime controls",
           "heading": false
         },
         {
@@ -542,7 +542,7 @@
           "heading": false
         },
         {
-          "term": "runtime controls",
+          "term": "during session",
           "heading": false
         }
       ],
@@ -570,10 +570,6 @@
           "heading": false
         },
         {
-          "term": "instance",
-          "heading": false
-        },
-        {
           "term": "file",
           "heading": false
         },
@@ -586,7 +582,11 @@
           "heading": false
         },
         {
-          "term": "observe",
+          "term": "instance",
+          "heading": false
+        },
+        {
+          "term": "write",
           "heading": false
         }
       ],
@@ -618,12 +618,12 @@
           "heading": false
         },
         {
-          "term": "patterns",
-          "heading": true
-        },
-        {
           "term": "output",
           "heading": false
+        },
+        {
+          "term": "patterns",
+          "heading": true
         },
         {
           "term": "run",
@@ -698,11 +698,11 @@
           "heading": false
         },
         {
-          "term": "belongs",
+          "term": "anthropic",
           "heading": false
         },
         {
-          "term": "anthropic",
+          "term": "belongs",
           "heading": false
         },
         {
@@ -762,8 +762,8 @@
       "heading": false
     },
     {
-      "term": "agent behaviour",
-      "heading": false
+      "term": "agent skills",
+      "heading": true
     }
   ],
   "links": {

@@ -33,11 +33,11 @@
           "heading": false
         },
         {
-          "term": "phrase",
+          "term": "rfcs",
           "heading": false
         },
         {
-          "term": "rfcs",
+          "term": "phrase",
           "heading": false
         },
         {
@@ -192,11 +192,11 @@
   "pagesCovered": 6,
   "keywords": [
     {
-      "term": "levels rfc",
+      "term": "rfc editor",
       "heading": false
     },
     {
-      "term": "rfc editor",
+      "term": "levels rfc",
       "heading": false
     },
     {
@@ -228,11 +228,11 @@
       "heading": false
     },
     {
-      "term": "phrase",
+      "term": "bradner",
       "heading": false
     },
     {
-      "term": "bradner",
+      "term": "phrase",
       "heading": false
     },
     {
