@@ -13,10 +13,10 @@
   ],
   "label": "prose:fm-publication-metadata",
   "kind": "prose",
-  "title": "Publication metadata, licensing and contents",
+  "title": "Publication metadata and licensing",
   "text": "p-fm-publication-metadata.md",
   "meta": {
-    "title": "Publication metadata, licensing and contents",
+    "title": "Publication metadata and licensing",
     "source": {
       "library": "9789240093362-eng",
       "section": "sec-front-matter",
