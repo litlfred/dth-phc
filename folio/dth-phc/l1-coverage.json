@@ -4,11 +4,11 @@
   "matchMethod": "normalised-substring",
   "totals": {
     "normative": 274,
-    "captured": 269,
+    "captured": 274,
     "excluded": 0,
-    "unaccounted": 5,
-    "capturedPct": 98.18,
-    "accountedForPct": 98.18
+    "unaccounted": 0,
+    "capturedPct": 100,
+    "accountedForPct": 100
   },
   "pages": [
     {
@@ -45,11 +45,11 @@
       "sectionId": "sec-002-glossary",
       "page": 4,
       "normative": 5,
-      "captured": 4,
+      "captured": 5,
       "excluded": 0,
-      "unaccounted": 1,
-      "capturedPct": 80,
-      "accountedForPct": 80
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
     },
     {
       "sectionId": "sec-003-introduction",
@@ -435,11 +435,11 @@
       "sectionId": "sec-041-form-data-mapping-guide",
       "page": 43,
       "normative": 18,
-      "captured": 17,
+      "captured": 18,
       "excluded": 0,
-      "unaccounted": 1,
-      "capturedPct": 94.44,
-      "accountedForPct": 94.44
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
@@ -465,11 +465,11 @@
       "sectionId": "sec-044-scheduling-logic-table-guide",
       "page": 46,
       "normative": 13,
-      "captured": 10,
+      "captured": 13,
       "excluded": 0,
-      "unaccounted": 3,
-      "capturedPct": 76.92,
-      "accountedForPct": 76.92
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
     },
     {
       "sectionId": "sec-045-prioritization-of-requirements-guide",
@@ -600,8 +600,8 @@
       "markers": [
         "obligation"
       ],
-      "state": "unaccounted",
-      "proposedReason": "background-fact"
+      "state": "captured",
+      "node": "front-matter/t-fm-glossary"
     },
     {
       "sectionId": "sec-002-glossary",
@@ -645,7 +645,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "references/p-references-main"
+      "node": "front-matter/t-fm-glossary"
     },
     {
       "sectionId": "sec-003-introduction",
@@ -987,7 +987,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "ch01-introduction/f-ch01-fig-3"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
@@ -1108,7 +1108,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-013-personas"
+      "node": "annexes/t-annex-10-decision-and-scheduling-matrix"
     },
     {
       "sectionId": "sec-013-32-get-to-know-the-users",
@@ -1207,7 +1207,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-014-workflows"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
@@ -1229,7 +1229,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-014-workflows"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
@@ -1548,7 +1548,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-014-workflows"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
@@ -1647,7 +1647,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-015-streamline-data-and-indicators"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-015-34-streamline-data-collection-and-indicator-repo",
@@ -1890,7 +1890,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-017-decision-support-logic"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-018-37-map-health-service-schedules",
@@ -2055,7 +2055,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-017-decision-support-logic"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-020-41-finalize-software-and-vendor-selection",
@@ -2616,7 +2616,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch01-introduction/f-ch01-fig-3"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
@@ -2660,7 +2660,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "references/p-references-main"
+      "node": "front-matter/t-fm-glossary"
     },
     {
       "sectionId": "sec-034-references",
@@ -2814,7 +2814,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "annexes/t-annex-07-form-inventory-guide"
+      "node": "annexes/t-annex-04-user-persona-worksheet"
     },
     {
       "sectionId": "sec-040-form-inventory-guide",
@@ -2846,8 +2846,8 @@
       "markers": [
         "obligation"
       ],
-      "state": "unaccounted",
-      "proposedReason": "editorial"
+      "state": "captured",
+      "node": "annexes/t-annex-08-form-data-mapping-guide"
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
@@ -3136,7 +3136,7 @@
         "obligation"
       ],
       "state": "captured",
-      "node": "annexes/t-annex-10-decision-and-scheduling-matrix"
+      "node": "annexes/dt-annex-11-decision-support-table-template"
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
@@ -3323,7 +3323,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "annexes/t-annex-12-scheduling-logic-guide"
+      "node": "annexes/t-annex-10-decision-and-scheduling-matrix"
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
@@ -3355,8 +3355,8 @@
       "markers": [
         "obligation"
       ],
-      "state": "unaccounted",
-      "proposedReason": "background-fact"
+      "state": "captured",
+      "node": "annexes/t-annex-12-scheduling-logic-guide"
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
@@ -3443,8 +3443,8 @@
       "markers": [
         "recommendation"
       ],
-      "state": "unaccounted",
-      "proposedReason": "editorial"
+      "state": "captured",
+      "node": "annexes/t-annex-12-scheduling-logic-guide"
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
@@ -3454,8 +3454,8 @@
       "markers": [
         "recommendation"
       ],
-      "state": "unaccounted",
-      "proposedReason": "editorial"
+      "state": "captured",
+      "node": "annexes/t-annex-12-scheduling-logic-guide"
     },
     {
       "sectionId": "sec-045-prioritization-of-requirements-guide",
