@@ -79,7 +79,8 @@ def flow_xml(f, ind):
     return f'{ind}<bpmn:sequenceFlow id="{f[0]}" sourceRef="{f[1]}" targetRef="{f[2]}"' + (f' name="{f[3]}"' if f[3] else "") + "/>\n"
 
 client_nodes = ["Start", "T1"]
-hw_nodes = [i for i, v in nodes.items() if v[6] == "P" and i not in client_nodes] + ["Sub8"]
+# Every flow node, the sub-process's own included, sits in a lane.
+hw_nodes = [i for i in nodes if i not in client_nodes] + ["Sub8"]
 
 x = []
 x.append('<?xml version="1.0" encoding="UTF-8"?>\n')
@@ -90,8 +91,8 @@ x.append('  <bpmn:collaboration id="Collaboration_AncRegistrationWorkflowA">\n  
 x.append('  <bpmn:process id="Process_AncRegistrationWorkflowA" name="Workflow A: Registration business process" isExecutable="false">\n')
 x.append('    <bpmn:documentation>Fig. 10 of WHO 9789240093362 (PDF page 38), rebuilt as BPMN in the figure\'s own words. Source: WHO (29), the WHO Digital adaptation kit for antenatal care (ANC.A). Notes and annotations for each activity: Fig. 11 (tbl:fig-11).</bpmn:documentation>\n')
 x.append('    <bpmn:laneSet id="LaneSet_AncRegistrationWorkflowA">\n')
-x.append('      <bpmn:lane id="Lane_Client" name="Client" partitionElementRef="pers:health-service-user">\n' + "".join(f"        <bpmn:flowNodeRef>{i}</bpmn:flowNodeRef>\n" for i in client_nodes) + "      </bpmn:lane>\n")
-x.append('      <bpmn:lane id="Lane_HealthWorkerOrClerk" name="Health worker or Clerk" partitionElementRef="pers:health-worker">\n' + "".join(f"        <bpmn:flowNodeRef>{i}</bpmn:flowNodeRef>\n" for i in hw_nodes) + "      </bpmn:lane>\n")
+x.append('      <bpmn:lane id="Lane_Client" name="Client" partitionElementRef="pers:health-service-user">\n        <bpmn:documentation>Client: the woman who arrives at the facility for antenatal care (Fig. 10 lane; persona pers:health-service-user).</bpmn:documentation>\n' + "".join(f"        <bpmn:flowNodeRef>{i}</bpmn:flowNodeRef>\n" for i in client_nodes) + "      </bpmn:lane>\n")
+x.append('      <bpmn:lane id="Lane_HealthWorkerOrClerk" name="Health worker or Clerk" partitionElementRef="pers:health-worker">\n        <bpmn:documentation>Health worker or Clerk: the registration clerk or the first health worker the woman encounters, who carries out activities 2 to 9 (Fig. 10 lane; Fig. 11 notes; persona pers:health-worker).</bpmn:documentation>\n' + "".join(f"        <bpmn:flowNodeRef>{i}</bpmn:flowNodeRef>\n" for i in hw_nodes) + "      </bpmn:lane>\n")
 x.append('    </bpmn:laneSet>\n')
 for i, v in nodes.items():
     if v[6] == "P": x.append(node_xml(i, "    "))

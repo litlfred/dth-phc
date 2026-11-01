@@ -9,16 +9,23 @@
     <bpmn:documentation>Fig. 10 of WHO 9789240093362 (PDF page 38), rebuilt as BPMN in the figure's own words. Source: WHO (29), the WHO Digital adaptation kit for antenatal care (ANC.A). Notes and annotations for each activity: Fig. 11 (tbl:fig-11).</bpmn:documentation>
     <bpmn:laneSet id="LaneSet_AncRegistrationWorkflowA">
       <bpmn:lane id="Lane_Client" name="Client" partitionElementRef="pers:health-service-user">
+        <bpmn:documentation>Client: the woman who arrives at the facility for antenatal care (Fig. 10 lane; persona pers:health-service-user).</bpmn:documentation>
         <bpmn:flowNodeRef>Start</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>T1</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="Lane_HealthWorkerOrClerk" name="Health worker or Clerk" partitionElementRef="pers:health-worker">
+        <bpmn:documentation>Health worker or Clerk: the registration clerk or the first health worker the woman encounters, who carries out activities 2 to 9 (Fig. 10 lane; Fig. 11 notes; persona pers:health-worker).</bpmn:documentation>
         <bpmn:flowNodeRef>T2</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>G3</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>EndC</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>T4</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>T5</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>G6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>S8Start</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T81</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G82</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T83</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>S8End</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>T7</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>T9</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>EndB</bpmn:flowNodeRef>
