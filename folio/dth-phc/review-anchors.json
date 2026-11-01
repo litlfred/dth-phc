@@ -995,6 +995,19 @@
    "method": "folio-snapshot"
   },
   {
+   "label": "tbl:fig-8",
+   "kind": "table",
+   "chapter": "ch03-user-requirements",
+   "root": "t-ch03-fig-8",
+   "sections": [
+    "sec:3-1"
+   ],
+   "caption": "Fig. 8. Example prompts and questions for starting broad and narrowing down",
+   "hash": "d3ffccae5971",
+   "excerpt": "Fig. 8 Example prompts and questions for starting broad and narrowing down Stage (broad, start here, to narrow, end here) Prompt Example --- --- --- Trust bump ",
+   "method": "folio-snapshot"
+  },
+  {
    "label": "fig:8",
    "kind": "figure",
    "chapter": "ch03-user-requirements",

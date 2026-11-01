@@ -27,7 +27,16 @@
       "pdfPages": [
         17
       ],
-      "method": "l1-vector-figure"
+      "method": "archimate-view",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p017.png",
+      "rebuilt": {
+        "model": "archimate/0.1.0-draft.1/dth-phc-overlay.archimate",
+        "view": "id-ad0f062a4ea2429f7ee98665aea95a6d",
+        "generator": "scripts/archimate/add_fig3_view.py",
+        "renderer": "cat-harness-tools/archimate/scripts/gen-archimate-pages.ts",
+        "decision": "owner card Q-PHC-R4 A, 2026-11-01 10:54Z",
+        "issue": "litlfred/dth-phc#1 R4"
+      }
     },
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/primary-health-care",
@@ -72,6 +81,11 @@
         "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-ad0f062a4ea2429f7ee98665aea95a6d.jsonld",
+        "id": "id-ad0f062a4ea2429f7ee98665aea95a6d",
+        "name": "PHC digital ecosystem (Fig. 3)"
       }
     ],
     "archimate": {
@@ -109,7 +123,14 @@
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]
-    }
+    },
+    "figureViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-ad0f062a4ea2429f7ee98665aea95a6d.jsonld",
+        "id": "id-ad0f062a4ea2429f7ee98665aea95a6d",
+        "name": "PHC digital ecosystem (Fig. 3)"
+      }
+    ]
   },
   "provenance": "authored"
 }
