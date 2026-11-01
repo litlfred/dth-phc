@@ -9,7 +9,7 @@ A core member of the PCPOSS implementing team (section 2.2) who translates healt
 ## Three-way linkage
 
 1. **BPMN lanes performed:**
-   - [`understand-user-requirements.bpmn#Lane-Ch3-BA`](../../../processes/understand-user-requirements.bpmn) (*Business Analyst & User Researcher*)
-   - [`design-and-adaptation.bpmn#Lane-Ch4-Designer`](../../../processes/design-and-adaptation.bpmn) (*Business Analyst, Designer & User Researcher*)
+   - [`understand-user-requirements.bpmn#Lane-Ch3-BA`](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.bpmn) (*Business Analyst & User Researcher*)
+   - [`design-and-adaptation.bpmn#Lane-Ch4-Designer`](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.bpmn) (*Business Analyst, Designer & User Researcher*)
 2. **Concepts:** [Business Analyst](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/business-analyst), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:business-analyst`.

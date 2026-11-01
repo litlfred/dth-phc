@@ -603,7 +603,7 @@
    "sections": [
     "sec:2-1"
    ],
-   "hash": "2b71e7894356",
+   "hash": "f5170ae66d7c",
    "excerpt": "Starting-scenario classification decision table (section 2.1) Formal DMN 1.5 decision table ( Decision StartingScenario , hitPolicy=\"FIRST\" ) derived from secti",
    "method": "folio-snapshot"
   },
@@ -627,7 +627,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "9f404ae77071",
+   "hash": "a79f3f72fdf7",
    "excerpt": "Business analyst A core member of the PCPOSS implementing team (section 2.2) who translates health service delivery needs, clinical guidelines and operational w",
    "method": "folio-snapshot"
   },
@@ -639,7 +639,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "481e23ae8767",
+   "hash": "8a274a749f2c",
    "excerpt": "Health informatician A core member of the PCPOSS implementing team (section 2.2) responsible for health data dictionaries, terminology bindings, indicator mappi",
    "method": "folio-snapshot"
   },
@@ -651,7 +651,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "fbb4ede5e290",
+   "hash": "57840c15ac50",
    "excerpt": "Software engineer A core member of the PCPOSS implementing team or technology partner (section 2.2) who builds, configures, integrates and tests the PCPOSS soft",
    "method": "folio-snapshot"
   },
@@ -663,7 +663,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "1b2ed27e7b5d",
+   "hash": "eceb0dce38e6",
    "excerpt": "Solutions architect A core member of the PCPOSS implementing team (section 2.2) who designs the end-to-end technical architecture and enterprise integration of ",
    "method": "folio-snapshot"
   },
@@ -675,7 +675,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "261a6a52a4fc",
+   "hash": "8d2383816094",
    "excerpt": "Designer A core member of the PCPOSS implementing team (section 2.2) responsible for human-centred interface design and prototyping: - Role summary (agent draft",
    "method": "folio-snapshot"
   },
@@ -687,7 +687,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "f405e71c4014",
+   "hash": "90d7474fad04",
    "excerpt": "User researcher A core member of the PCPOSS implementing team (section 2.2) who studies end-users in their real clinical and community environments: - Role summ",
    "method": "folio-snapshot"
   },
@@ -699,7 +699,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "497bf20491bb",
+   "hash": "f26807607f0c",
    "excerpt": "Technology partner (vendor) An external or internal software development organization contracted or designated to configure, build, deploy and maintain the PCPO",
    "method": "folio-snapshot"
   },
@@ -711,7 +711,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "a61a4d72006c",
+   "hash": "9d2541594254",
    "excerpt": "Implementing team The multidisciplinary team formed in section 2.2 ( sec-008 ) that coordinates and executes all four phases of the PCPOSS implementation lifecy",
    "method": "folio-snapshot"
   },
@@ -723,7 +723,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "7dc5cfc0df44",
+   "hash": "48314b0be4d0",
    "excerpt": "Monitoring and evaluation (M&E) specialist A specialist Named in the Phase 1 ( sec-011 ) and Phase 4 ( sec-029 ) \"Who should be involved\" panels who defines agg",
    "method": "folio-snapshot"
   },
@@ -735,7 +735,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "963c9bf27d8a",
+   "hash": "b17dd0393303",
    "excerpt": "Public health authority / Ministry of Health (MoH) The primary target audience and governing authority of the handbook (section 1.3, sec-006 ; Phase 1–4 panels)",
    "method": "folio-snapshot"
   },
@@ -747,7 +747,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "4f54e3ae3ae0",
+   "hash": "ca207f4f3b68",
    "excerpt": "Health worker (clinician, nurse, midwife, community health worker) The primary point-of-service end-user of a PCPOSS (section 1.1, sec-004 ; Phase 1–4 panels): ",
    "method": "folio-snapshot"
   },
@@ -759,7 +759,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "1fc4df462b86",
+   "hash": "e5535a8bb411",
    "excerpt": "Clerk (facility registration and records staff) Health facility registration, reception and medical records staff who check in clients, verify identity in the c",
    "method": "folio-snapshot"
   },
@@ -771,7 +771,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "786826896e69",
+   "hash": "68b286d3e768",
    "excerpt": "Supervisor / health facility manager Health facility in-charges, clinical supervisors and district PHC supervisors who oversee service delivery, data quality, s",
    "method": "folio-snapshot"
   },
@@ -783,7 +783,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "0b313d387e00",
+   "hash": "390b0457536c",
    "excerpt": "Health service user (patient / client) Any person receiving or seeking primary health care services, as well as their family members or caregivers, and the dire",
    "method": "folio-snapshot"
   },
@@ -795,7 +795,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "89001ab5feda",
+   "hash": "08e154655734",
    "excerpt": "Electronic health record (EHR) system One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a longitudinal ",
    "method": "folio-snapshot"
   },
@@ -807,7 +807,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "f413bd3be46d",
+   "hash": "52ada20c6843",
    "excerpt": "Decision-support system (DSS) One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — the clinical and operat",
    "method": "folio-snapshot"
   },
@@ -819,7 +819,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "74b75f1f1c8b",
+   "hash": "5a5b9016be05",
    "excerpt": "Community-based information system (CBIS) One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a mobile or",
    "method": "folio-snapshot"
   },
@@ -831,7 +831,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "1fe2538865d0",
+   "hash": "70f654c8dd62",
    "excerpt": "Personal health record (PHR) system One of the four core application types that make up a PCPOSS (section 1.1, sec-004 ; Glossary, sec-003 ) — a client-facing d",
    "method": "folio-snapshot"
   },
@@ -843,7 +843,7 @@
    "sections": [
     "sec:2-2"
    ],
-   "hash": "ccbf36f3cdf8",
+   "hash": "09b60146b2e1",
    "excerpt": "Donors, development partners and implementing partners International and domestic funding agencies, multilateral organizations, technical assistance partners an",
    "method": "folio-snapshot"
   },
@@ -917,7 +917,7 @@
    "sections": [
     "sec:2-4"
    ],
-   "hash": "84874356c08c",
+   "hash": "394d12c6758c",
    "excerpt": "PCPOSS four-phase implementation lifecycle and agile iteration loop Formal BPMN 2.0 model of the handbook's top-level four-step approach (section 2.4, Fig. 7, s",
    "method": "folio-snapshot"
   },
@@ -966,7 +966,7 @@
    "sections": [
     "sec:ch03-lead"
    ],
-   "hash": "5bfa335bf9f7",
+   "hash": "6f0df51af3c0",
    "excerpt": "Phase 1: Understanding user requirements (Chapter 3) Formal BPMN 2.0 model of Chapter 3 (sections 3.1 to 3.8, sec-011 – sec-019 ), in which each step produces a",
    "method": "folio-snapshot"
   },
@@ -1116,7 +1116,7 @@
    "sections": [
     "sec:3-3"
    ],
-   "hash": "8a054971ea8e",
+   "hash": "68e22dedf048",
    "excerpt": "Figs. 10 and 11. Workflow A: ANC Registration business process and annotations (reproduces WHO ANC DAK) Section 3.3.2 ( sec-014 , PDF pages 33–34, Figs. 10 and ",
    "method": "folio-snapshot"
   },
@@ -1166,7 +1166,7 @@
    "sections": [
     "sec:3-4"
    ],
-   "hash": "ff780b78330a",
+   "hash": "b291b61d2e78",
    "excerpt": "Data-element minimization decision table (section 3.4.4, Fig. 12) Formal DMN 1.5 decision table ( Decision KeepDataElement , hitPolicy=\"FIRST\" ) encoding the Fi",
    "method": "folio-snapshot"
   },
@@ -1215,7 +1215,7 @@
    "sections": [
     "sec:3-6"
    ],
-   "hash": "6f0c6565f9d7",
+   "hash": "1ec20ba4bcc1",
    "excerpt": "Fig. 13. Illustrative HIV decision-support logic matrix (reproduces WHO HIV DAK) Section 3.6.1 ( sec-017 , PDF pages 43–44, Fig. 13) reproduces an illustrative ",
    "method": "folio-snapshot"
   },
@@ -1240,7 +1240,7 @@
    "sections": [
     "sec:3-6"
    ],
-   "hash": "8348f6f2f63e",
+   "hash": "495afdd112e7",
    "excerpt": "Fig. 14. Illustrative ANC HIV-testing decision tree (reproduces WHO ANC DAK) Section 3.6.1 ( sec-017 , PDF page 45, Fig. 14) reproduces an illustrative clinical",
    "method": "folio-snapshot"
   },
@@ -1276,7 +1276,7 @@
    "sections": [
     "sec:3-8"
    ],
-   "hash": "002d66de5ca8",
+   "hash": "0ce5c86a2847",
    "excerpt": "Requirement prioritization decision table (section 3.8 and Annex 13) Formal DMN 1.5 decision table ( Decision RequirementPriority , hitPolicy=\"FIRST\" ) encoding",
    "method": "folio-snapshot"
   },
@@ -1583,7 +1583,7 @@
    "sections": [
     "sec:ch06-lead"
    ],
-   "hash": "7b7d43ca2b10",
+   "hash": "06414ff96ea4",
    "excerpt": "Phase 4: Scale-up (Chapter 6) Formal BPMN 2.0 model of Chapter 6 (sections 6.1 to 6.5, sec-029 – sec-033 ), governing readiness assessment, SMART objectives and",
    "method": "folio-snapshot"
   },
@@ -1607,7 +1607,7 @@
    "sections": [
     "sec:6-1"
    ],
-   "hash": "b62288135ec9",
+   "hash": "525373edddf5",
    "excerpt": "Scale-up readiness decision table (sections 6.1 and 6.2, Table 5) Formal DMN 1.5 decision table ( Decision ReadyToScaleUp , hitPolicy=\"FIRST\" ) encoding the rea",
    "method": "folio-snapshot"
   },
@@ -1834,7 +1834,7 @@
    "sections": [
     "sec:annex-11"
    ],
-   "hash": "3a9703871678",
+   "hash": "dc73dea9affd",
    "excerpt": "Annex 11: Decision-support table template and DMN 1.5 column mapping Formal mapping of the handbook's Annex 11 Decision-support table template ( sec-043 , secti",
    "method": "folio-snapshot"
   },
@@ -1859,7 +1859,7 @@
    "sections": [
     "sec:annex-12"
    ],
-   "hash": "d0c6d0df7918",
+   "hash": "8a44ad6fa6c1",
    "excerpt": "Annex 12: Scheduling-logic template mapping to smart-base:SchedulingLogic Formal mapping of the handbook's Annex 12 Scheduling-logic template ( sec-044 , sectio",
    "method": "folio-snapshot"
   },
@@ -1871,7 +1871,7 @@
    "sections": [
     "sec:annex-12"
    ],
-   "hash": "203917169134",
+   "hash": "435b8c16635b",
    "excerpt": "Annex 12 worked example: Hepatitis B birth-dose vaccination schedule (reproduces WHO Immunization DAK) Annex 12 ( sec-044 , PDF page 99, and section 3.7 sec-018",
    "method": "folio-snapshot"
   },

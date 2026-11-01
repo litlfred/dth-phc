@@ -9,7 +9,7 @@ A core member of the PCPOSS implementing team (section 2.2) who designs the end-
 ## Three-way linkage
 
 1. **BPMN lanes performed:**
-   - [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](../../../processes/design-and-adaptation.bpmn) (*Solutions Architect & Health Informatician*)
-   - [`scale-up.bpmn#Lane-Ch6-ME`](../../../processes/scale-up.bpmn) (*M&E Specialist & Solutions Architect*)
+   - [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.bpmn) (*Solutions Architect & Health Informatician*)
+   - [`scale-up.bpmn#Lane-Ch6-ME`](https://github.com/litlfred/dth-phc/blob/main/processes/scale-up.bpmn) (*M&E Specialist & Solutions Architect*)
 2. **Concepts:** [Solutions Architect](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/solutions-architect), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:solutions-architect`.
