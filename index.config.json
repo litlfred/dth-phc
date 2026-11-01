@@ -14,7 +14,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "7314adf11291a1e66db31a0b9e8e484094f0183e",
+          "ref": "60040aaca860fd515252a8e35f6e776f801af8b8",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -39,8 +39,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-01",
-              "ref": "7314adf11291a1e66db31a0b9e8e484094f0183e",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "ref": "60040aaca860fd515252a8e35f6e776f801af8b8",
+              "evidence": "Owner litlfred merged who-iris#161 (PHC Fig. 13 cells as a table, fixes who-iris#157) on 2026-11-01 21:18Z, inside the MVP merge window to 2026-11-02 02:40Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NdqkvnprnzAj2kus7uVRD1); repin to who-iris main so dth-phc reads the fixed Fig. 13."
             }
           }
         }
