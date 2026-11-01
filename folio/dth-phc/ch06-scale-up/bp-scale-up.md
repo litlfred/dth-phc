@@ -2,7 +2,7 @@
 
 Formal BPMN 2.0 model of Chapter 6 (sections 6.1 to 6.5, `sec-029`–`sec-033`), governing readiness assessment, SMART objectives and Table 5 benchmarks, progress monitoring, staged phase-out of legacy paper systems with paper backup SOPs, and long-term change management and electronic data-use culture.
 
-![Phase 4: Scale-up](https://github.com/litlfred/dth-phc/blob/main/processes/scale-up.svg)
+![Phase 4: Scale-up](media/bp-scale-up.svg)
 
 ## Structure of the model (`Process_ScaleUp`)
 

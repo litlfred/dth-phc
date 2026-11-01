@@ -2,7 +2,7 @@
 
 Formal BPMN 2.0 model of the handbook's top-level four-step approach (section 2.4, Fig. 7, `sec-010`), starting-scenario assessment (section 2.1, `sec-007`), team formation (section 2.2, `sec-008`), and alignment with the broader digital health context (section 2.3, `sec-009`).
 
-![PCPOSS four-phase implementation lifecycle](https://github.com/litlfred/dth-phc/blob/main/processes/pcposs-implementation-lifecycle.svg)
+![PCPOSS four-phase implementation lifecycle](media/bp-pcposs-implementation-lifecycle.svg)
 
 ## Structure of the model (`Process_PcpossImplementationLifecycle`)
 

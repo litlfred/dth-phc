@@ -2,7 +2,7 @@
 
 Formal BPMN 2.0 model of Chapter 3 (sections 3.1 to 3.8, `sec-011`–`sec-019`), in which each step produces a WHO SMART Guidelines Digital Adaptation Kit (DAK) component (`smart-base` DAK block kind).
 
-![Phase 1: Understanding user requirements](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.svg)
+![Phase 1: Understanding user requirements](media/bp-understand-user-requirements.svg)
 
 ## Steps and DAK artefacts produced (`Process_UnderstandUserRequirements`)
 
