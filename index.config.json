@@ -148,7 +148,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "1b2228331caf3d3b5a8a3f0d289d69f584f4b8a4",
+          "ref": "b79da33932892f823a5ced4d18a395eadc19cdaf",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -164,8 +164,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-01",
-              "ref": "1b2228331caf3d3b5a8a3f0d289d69f584f4b8a4",
-              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A 'Ready it, merge when green' (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) for cat-harness#927, inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); repin to main to publish the figure controls."
+              "ref": "b79da33932892f823a5ced4d18a395eadc19cdaf",
+              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A 'Ready it, merge when green' (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) for cat-harness#927, inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); repin to main to publish the figure controls; moved onto cat-harness#933 per card Q-PHC19 B (2026-11-01 20:49Z)."
             }
           }
         }
@@ -176,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "f92092eb95e01386b834c659eae8082ce1bb9431",
+          "ref": "6f431f09d8755bd95d21b3d0e49f872cc6a71d53",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -189,8 +189,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-01",
-              "ref": "f92092eb95e01386b834c659eae8082ce1bb9431",
-              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv), inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); re-pinned with cat-harness, whose archimate-blocks tool needs cat-harness-tools' archimate:blocks script."
+              "ref": "6f431f09d8755bd95d21b3d0e49f872cc6a71d53",
+              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv), inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); re-pinned with cat-harness, whose archimate-blocks tool needs cat-harness-tools' archimate:blocks script; moved onto tools#1326 per card Q-PHC19 B (2026-11-01 20:49Z)."
             }
           }
         }
