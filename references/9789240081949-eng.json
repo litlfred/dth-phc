@@ -1,0 +1,20 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "9789240081949-eng",
+  "type": "book",
+  "title": "Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, second edition",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "ISBN": "9789240081949",
+  "URL": "https://iris.who.int/handle/10665/373581",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 3 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, second edition. Geneva: World Health Organization; 2023 (https://iris.who.int/handle/10665/373581). ISBN added from the who-iris catalogue record who-iris/catalogue/records/9789240081949-eng.dc.json; the chapter text is unchanged."
+}

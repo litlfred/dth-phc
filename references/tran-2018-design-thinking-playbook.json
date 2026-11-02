@@ -1,0 +1,34 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "tran-2018-design-thinking-playbook",
+  "type": "document",
+  "title": "Design thinking playbook for change management in K–12 schools",
+  "author": [
+    {
+      "family": "Tran",
+      "given": "N"
+    }
+  ],
+  "publisher-place": "Stanford (CA)",
+  "publisher": "Hasso Plattner Institute of Design at Stanford University",
+  "issued": {
+    "date-parts": [
+      [
+        2018
+      ]
+    ]
+  },
+  "URL": "https://dschool.stanford.edu/resources/design-thinking-playbook-from-design-tech-high-school",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 35 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Tran N. Design thinking playbook for change management in K–12 schools. Stanford (CA): Hasso Plattner Institute of Design at Stanford University; 2018 (https://dschool.stanford.edu/resources/design-thinking-playbook-from-design-tech-high-school, accessed 10 January 2020)."
+}

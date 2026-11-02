@@ -1,0 +1,50 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "taylor-2012-common-requirements-maternal",
+  "type": "document",
+  "title": "Common requirements for maternal health information systems: produced with the collaborative requirements development methodology",
+  "author": [
+    {
+      "family": "Taylor",
+      "given": "C"
+    },
+    {
+      "family": "Luchitsky",
+      "given": "A"
+    },
+    {
+      "family": "Lubinski",
+      "given": "D"
+    },
+    {
+      "family": "Peloso",
+      "given": "L"
+    },
+    {
+      "family": "Wilson",
+      "given": "K"
+    }
+  ],
+  "publisher-place": "Seattle (WA)",
+  "publisher": "PATH",
+  "issued": {
+    "date-parts": [
+      [
+        2012
+      ]
+    ]
+  },
+  "URL": "https://www.path.org/resources/common-requirements-for-maternal-health-information-systems-produced-with-the-collaborative-requirements-development-methodology",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 50 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Taylor C, Luchitsky A, Lubinski D, Peloso L, Wilson K. Common requirements for maternal health information systems: produced with the collaborative requirements development methodology. Seattle (WA): PATH; 2012 (https://www.path.org/resources/common-requirements-for-maternal-health-information-systems-produced-with-the-collaborative-requirements-development-methodology, accessed 10 January 2020)."
+}

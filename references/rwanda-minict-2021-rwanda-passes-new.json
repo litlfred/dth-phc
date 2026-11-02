@@ -1,0 +1,27 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "rwanda-minict-2021-rwanda-passes-new",
+  "type": "document",
+  "title": "Rwanda passes new law protecting personal data",
+  "publisher": "Republic of Rwanda Ministry of ICR and Innovation",
+  "issued": {
+    "date-parts": [
+      [
+        2021
+      ]
+    ]
+  },
+  "URL": "https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Press_Release/211021_PRESS_RELEASE_Rwanda_s_New_Data_Protection_Law_ENGLISH.pdf",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 93 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Rwanda passes new law protecting personal data. Republic of Rwanda Ministry of ICR and Innovation; 2021. (https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Press_Release/211021_PRESS_RELEASE_Rwanda_s_New_Data_Protection_Law_ENGLISH.pdf, accessed 10 January 2024)."
+}

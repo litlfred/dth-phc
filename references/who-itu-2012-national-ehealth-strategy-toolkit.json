@@ -1,0 +1,26 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-itu-2012-national-ehealth-strategy-toolkit",
+  "type": "book",
+  "title": "National eHealth strategy toolkit",
+  "author": [
+    {
+      "literal": "World Health Organization"
+    },
+    {
+      "literal": "International Telecommunication Union"
+    }
+  ],
+  "publisher": "International Telecommunication Union",
+  "issued": {
+    "date-parts": [
+      [
+        2012
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/75211",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 24 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: World Health Organization and International Telecommunication Union. National eHealth strategy toolkit. International Telecommunication Union; 2012 (https://iris.who.int/handle/10665/75211)."
+}

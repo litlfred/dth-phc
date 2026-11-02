@@ -1,0 +1,23 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "lapkin-2005-gartners-enterprise-architecture",
+  "type": "webpage",
+  "title": "Gartner’s enterprise architecture process and framework help meet 21st century challenges [online]",
+  "author": [
+    {
+      "family": "Lapkin",
+      "given": "A"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2005
+      ]
+    ]
+  },
+  "URL": "https://www.gartner.com/resources/133100/133132/gartners_enterprise_architec_133132.pdf",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 70 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Lapkin A. 2005. Gartner’s enterprise architecture process and framework help meet 21st century challenges [online] (https://www.gartner.com/resources/133100/133132/gartners_enterprise_architec_133132.pdf)."
+}

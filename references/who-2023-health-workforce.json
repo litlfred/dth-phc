@@ -1,0 +1,29 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2023-health-workforce",
+  "type": "webpage",
+  "title": "Health workforce",
+  "container-title": "World Health Organization [website]",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "URL": "https://www.who.int/health-topics/health-workforce",
+  "accessed": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        11
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 11 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Health workforce. In: World Health Organization [website]. Geneva: World Health Organization; 2023 (https://www.who.int/health-topics/health-workforce, accessed 11 October 2023)."
+}

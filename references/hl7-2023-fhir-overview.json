@@ -1,0 +1,28 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "hl7-2023-fhir-overview",
+  "type": "webpage",
+  "title": "Overview - FHIR v4.3.0 (hl7.org) FHIR Overview",
+  "container-title": "HL7 FHIR Release 5 [website]",
+  "publisher": "HL7.org",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "URL": "https://www.hl7.org/fhir/overview.html",
+  "accessed": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        12
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 87 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Overview - FHIR v4.3.0 (hl7.org) FHIR Overview. In: HL7 FHIR Release 5 [website]. HL7.org; 2023 (https://www.hl7.org/fhir/overview.html, accessed 12 October 2023)."
+}

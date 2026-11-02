@@ -1,0 +1,26 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "icd-11-2022",
+  "type": "document",
+  "title": "International Classification of Diseases 11th Revision",
+  "issued": {
+    "date-parts": [
+      [
+        2022
+      ]
+    ]
+  },
+  "URL": "https://icd.who.int/en",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 55 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: International Classification of Diseases 11th Revision; 2022 (https://icd.who.int/en, accessed 9 January 2024)."
+}

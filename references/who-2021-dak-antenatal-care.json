@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2021-dak-antenatal-care",
+  "type": "book",
+  "title": "Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2021
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/339745",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 29 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/339745)."
+}

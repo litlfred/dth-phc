@@ -1,0 +1,22 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "bcg-change-management-solutions-tools",
+  "type": "webpage",
+  "title": "Solutions and tools for change management success",
+  "container-title": "BCG [website]",
+  "publisher-place": "Boston (MA)",
+  "publisher": "Boston Consulting Group",
+  "URL": "https://www.bcg.com/en-ch/capabilities/change-management/solutions.aspx",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 104 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Solutions and tools for change management success. In: BCG [website]. Boston (MA): Boston Consulting Group; no date (https://www.bcg.com/en-ch/capabilities/change-management/solutions.aspx, accessed 10 January 2020)."
+}

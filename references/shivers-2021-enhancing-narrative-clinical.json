@@ -1,0 +1,42 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "shivers-2021-enhancing-narrative-clinical",
+  "type": "article-journal",
+  "title": "Enhancing narrative clinical guidance with computer-readable artifacts: Authoring FHIR implementation guides based on WHO recommendations",
+  "author": [
+    {
+      "family": "Shivers",
+      "given": "J"
+    },
+    {
+      "family": "Amlung",
+      "given": "J"
+    },
+    {
+      "family": "Ratanaprayul",
+      "given": "N"
+    },
+    {
+      "family": "Rhodes",
+      "given": "B"
+    },
+    {
+      "family": "Biondich",
+      "given": "P"
+    }
+  ],
+  "container-title": "J Biomedical Informatics",
+  "volume": "122",
+  "page": "103891",
+  "issued": {
+    "date-parts": [
+      [
+        2021
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.jbi.2021.103891",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 53 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Shivers J, Amlung J, Ratanaprayul N, Rhodes B, Biondich P. Enhancing narrative clinical guidance with computer-readable artifacts: Authoring FHIR implementation guides based on WHO recommendations. J Biomedical Informatics. 2021;122:103891. https://doi.org/10.1016/j.jbi.2021.103891"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "camunda-bpmn-2-0-implementation-reference",
+  "type": "webpage",
+  "title": "BPMN 2.0 implementation reference",
+  "container-title": "The Camunda BPM manual [website]",
+  "publisher-place": "Berlin",
+  "publisher": "Camunda Services",
+  "URL": "https://www.omg.org/spec/BPMN/2.0",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 48 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: BPMN 2.0 implementation reference. In: The Camunda BPM manual [website]. Berlin: Camunda Services; undated (https://www.omg.org/spec/BPMN/2.0, accessed 10 January 2020)."
+}

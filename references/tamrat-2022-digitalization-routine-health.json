@@ -1,0 +1,48 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "tamrat-2022-digitalization-routine-health",
+  "type": "article-journal",
+  "title": "Digitalization of routine health information systems: Bangladesh, Indonesia, Pakistan",
+  "author": [
+    {
+      "family": "Tamrat",
+      "given": "T"
+    },
+    {
+      "family": "Chandir",
+      "given": "S"
+    },
+    {
+      "family": "Alland",
+      "given": "K"
+    },
+    {
+      "family": "Pedrana",
+      "given": "A"
+    },
+    {
+      "family": "Shah",
+      "given": "MT"
+    },
+    {
+      "family": "Footitt",
+      "given": "C"
+    }
+  ],
+  "container-title": "Bull World Health Organ",
+  "volume": "100",
+  "issue": "10",
+  "page": "590–600",
+  "issued": {
+    "date-parts": [
+      [
+        2022
+      ]
+    ]
+  },
+  "DOI": "10.2471/BLT.22.287816",
+  "note": "The author list is printed ending “et al.”",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 12 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Tamrat T, Chandir S, Alland K, Pedrana A, Shah MT, Footitt C et al. Digitalization of routine health information systems: Bangladesh, Indonesia, Pakistan. Bull World Health Organ. 2022;100(10):590–600. doi:10.2471/BLT.22.287816."
+}

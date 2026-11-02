@@ -1,0 +1,34 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "sanchez-2007-enterprise-architectures-enabling",
+  "type": "paper-conference",
+  "title": "Enterprise Architectures – Enabling Interoperability Between Organizations",
+  "author": [
+    {
+      "family": "Sanchez",
+      "given": "A"
+    }
+  ],
+  "event-title": "8th Argentinean Symposium on Software Engineering (ASSE 2007), 36 JAIIO",
+  "issued": {
+    "date-parts": [
+      [
+        2007
+      ]
+    ]
+  },
+  "URL": "http://www0.unsl.edu.ar/~asanchez/papers/SBJO07.pdf",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        10
+      ]
+    ]
+  },
+  "note": "The author list is printed ending “et al.”",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 63 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Sanchez, A et al. (2007) Enterprise Architectures – Enabling Interoperability Between Organizations. Conference: 8th Argentinean Symposium on Software Engineering (ASSE 2007), 36 JAIIO. (http://www0.unsl.edu.ar/~asanchez/papers/SBJO07.pdf, accessed 10 January 2024)"
+}

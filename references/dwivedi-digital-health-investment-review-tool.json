@@ -1,0 +1,48 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "dwivedi-digital-health-investment-review-tool",
+  "type": "document",
+  "title": "Digital health investment review tool",
+  "author": [
+    {
+      "family": "Dwivedi",
+      "given": "V"
+    },
+    {
+      "family": "Sitjar",
+      "given": "M"
+    },
+    {
+      "family": "Waugaman",
+      "given": "A"
+    },
+    {
+      "family": "Weiss",
+      "given": "B"
+    },
+    {
+      "family": "Schaefer",
+      "given": "M"
+    },
+    {
+      "family": "Ollis",
+      "given": "S"
+    }
+  ],
+  "publisher-place": "Washington (DC)",
+  "publisher": "United States Agency for International Development, Bureau for Global Health, Maternal and Child Survival Program",
+  "URL": "https://www.mcsprogram.org/wp-content/uploads/dlm_uploads/2019/05/DHIRT-Tool-HANDOUT-May2019-Printable.pdf",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "note": "p16",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 107 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Dwivedi V, Sitjar M, Waugaman A, Weiss B, Schaefer M, Ollis S. Digital health investment review tool. Washington (DC): United States Agency for International Development, Bureau for Global Health, Maternal and Child Survival Program; no date (https://www.mcsprogram.org/wp-content/uploads/dlm_uploads/2019/05/DHIRT-Tool-HANDOUT-May2019-Printable.pdf, accessed 10 January 2020: p16)."
+}
