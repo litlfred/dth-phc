@@ -1,0 +1,48 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "tamrat-2022-transitioning-digital-systems",
+  "type": "article-journal",
+  "title": "Transitioning to digital systems: the role of world health organization’s digital adaptation kits in operationalizing recommendations and interoperability standards",
+  "author": [
+    {
+      "family": "Tamrat",
+      "given": "T"
+    },
+    {
+      "family": "Ratanaprayul",
+      "given": "N"
+    },
+    {
+      "family": "Barreix",
+      "given": "M"
+    },
+    {
+      "family": "Tuncalp",
+      "given": "O"
+    },
+    {
+      "family": "Lowrance",
+      "given": "D"
+    },
+    {
+      "family": "Thompson",
+      "given": "J"
+    }
+  ],
+  "container-title": "Global Health: Science and Practice",
+  "volume": "10",
+  "issue": "1",
+  "page": "e2100320",
+  "issued": {
+    "date-parts": [
+      [
+        2022
+      ]
+    ]
+  },
+  "DOI": "10.9745/GHSP-D-21-00320",
+  "note": "The author list is printed ending “et al.”",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 32 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Tamrat T, Ratanaprayul N, Barreix M, Tuncalp O, Lowrance D, Thompson J et al. Transitioning to digital systems: the role of world health organization’s digital adaptation kits in operationalizing recommendations and interoperability standards. Global Health: Science and Practice. 2022;10(1):e2100320. doi:10.9745/GHSP-D-21-00320."
+}

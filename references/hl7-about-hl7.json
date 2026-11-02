@@ -1,0 +1,22 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "hl7-about-hl7",
+  "type": "webpage",
+  "title": "About HL7",
+  "container-title": "HL7 International [website]",
+  "publisher-place": "Ann Arbor (MI)",
+  "publisher": "Health Level Seven International",
+  "URL": "http://www.hl7.org/about/index.cfm",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 85 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: About HL7. In: HL7 International [website]. Ann Arbor (MI): Health Level Seven International; undated (http://www.hl7.org/about/index.cfm, accessed 10 January 2024)."
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "bid-initiative-2014-product-vision-better",
+  "type": "document",
+  "title": "Product vision for the Better Immunization Data (BID) Initiative",
+  "author": [
+    {
+      "literal": "BID Initiative"
+    }
+  ],
+  "publisher-place": "Seattle (WA)",
+  "publisher": "PATH",
+  "issued": {
+    "date-parts": [
+      [
+        2014
+      ]
+    ]
+  },
+  "URL": "https://path.org/resources/product-vision-for-the-better-immunization-data-bid-initiative",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 51 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: BID Initiative. Product vision for the Better Immunization Data (BID) Initiative. Seattle (WA): PATH; 2014 (https://path.org/resources/product-vision-for-the-better-immunization-data-bid-initiative, accessed 10 January 2020)."
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "barton-2011-demonstrating-collect-once",
+  "type": "article-journal",
+  "title": "Demonstrating “collect once, use many”: assimilating public health secondary data use requirements into an existing Domain Analysis Model",
+  "author": [
+    {
+      "family": "Barton",
+      "given": "C"
+    },
+    {
+      "family": "Kallem",
+      "given": "C"
+    },
+    {
+      "family": "Van Dyke",
+      "given": "P"
+    },
+    {
+      "family": "Mon",
+      "given": "D"
+    },
+    {
+      "family": "Richesson",
+      "given": "R"
+    }
+  ],
+  "container-title": "AMIA Annu Symp Proc",
+  "page": "98–107",
+  "issued": {
+    "date-parts": [
+      [
+        2011
+      ]
+    ]
+  },
+  "URL": "https://pubmed.ncbi.nlm.nih.gov/22195060/",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 14 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Barton C, Kallem C, Van Dyke P, Mon D, Richesson R. Demonstrating “collect once, use many”: assimilating public health secondary data use requirements into an existing Domain Analysis Model. AMIA Annu Symp Proc. 2011:98–107 (https://pubmed.ncbi.nlm.nih.gov/22195060/)."
+}

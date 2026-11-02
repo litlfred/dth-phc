@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "paho-2017-electronic-immunization-registry",
+  "type": "document",
+  "title": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation",
+  "publisher-place": "Washington (DC)",
+  "publisher": "Pan American Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2017
+      ]
+    ]
+  },
+  "URL": "https://iris.paho.org/handle/10665.2/34865",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 27 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Electronic immunization registry: practical considerations for planning, development, implementation and evaluation. Washington (DC): Pan American Health Organization; 2017 (https://iris.paho.org/handle/10665.2/34865)."
+}

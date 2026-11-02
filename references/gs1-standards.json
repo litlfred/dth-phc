@@ -1,0 +1,20 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "gs1-standards",
+  "type": "webpage",
+  "title": "GS1 Standards",
+  "container-title": "GS1 [website]",
+  "URL": "https://www.gs1.org/standards",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 90 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: GS1 Standards. In: GS1 [website]. (https://www.gs1.org/standards, accessed 9 January 2024)."
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "grevendonk-2013-planning-information-systems",
+  "type": "document",
+  "title": "Planning an information systems project: a toolkit for public health managers",
+  "author": [
+    {
+      "family": "Grevendonk",
+      "given": "J"
+    },
+    {
+      "family": "Taliesin",
+      "given": "B"
+    },
+    {
+      "family": "Brigden",
+      "given": "D"
+    }
+  ],
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization. Seattle (WA): PATH",
+  "issued": {
+    "date-parts": [
+      [
+        2013
+      ]
+    ]
+  },
+  "URL": "https://path.org/resources/planning-an-information-systems-project-a-toolkit-for-public-health-managers",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 52 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Grevendonk J, Taliesin B, Brigden D. Planning an information systems project: a toolkit for public health managers. Geneva: World Health Organization. Seattle (WA): PATH; 2013 (https://path.org/resources/planning-an-information-systems-project-a-toolkit-for-public-health-managers, accessed 10 January 2020)."
+}

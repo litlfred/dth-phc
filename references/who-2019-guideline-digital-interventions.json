@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2019-guideline-digital-interventions",
+  "type": "book",
+  "title": "WHO guideline: recommendations on digital interventions for health system strengthening",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2019
+      ]
+    ]
+  },
+  "URL": "https://apps.who.int/iris/handle/10665/311941",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 2 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: WHO guideline: recommendations on digital interventions for health system strengthening. Geneva: World Health Organization; 2019 (https://apps.who.int/iris/handle/10665/311941)."
+}

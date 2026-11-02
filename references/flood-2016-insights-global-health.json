@@ -1,0 +1,54 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "flood-2016-insights-global-health",
+  "type": "article-journal",
+  "title": "Insights into Global Health Practice from the Agile Software Development Movement",
+  "author": [
+    {
+      "family": "Flood",
+      "given": "D"
+    },
+    {
+      "family": "Chary",
+      "given": "A"
+    },
+    {
+      "family": "Austad",
+      "given": "K"
+    },
+    {
+      "family": "Diaz",
+      "given": "AK"
+    },
+    {
+      "family": "García",
+      "given": "P"
+    },
+    {
+      "family": "Martinez",
+      "given": "B"
+    },
+    {
+      "family": "Canú",
+      "given": "WL"
+    },
+    {
+      "family": "Rohloff",
+      "given": "P"
+    }
+  ],
+  "container-title": "Glob Health Action",
+  "volume": "9",
+  "page": "29836",
+  "issued": {
+    "date-parts": [
+      [
+        2016
+      ]
+    ]
+  },
+  "DOI": "10.3402/gha.v9.29836",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 28 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Flood D, Chary A, Austad K, Diaz AK, García P, Martinez B, Canú WL, Rohloff P. Insights into Global Health Practice from the Agile Software Development Movement. Glob Health Action. 2016;9:29836. doi:10.3402/gha.v9.29836."
+}

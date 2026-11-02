@@ -1,0 +1,28 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "regenstrief-2024-what-loinc-is",
+  "type": "webpage",
+  "title": "What LOINC is",
+  "container-title": "LOINC from Regenstrief [website]",
+  "publisher": "Regenstrief Institute",
+  "issued": {
+    "date-parts": [
+      [
+        2024
+      ]
+    ]
+  },
+  "URL": "https://loinc.org/get-started/what-loinc-is/",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 78 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: What LOINC is. In: LOINC from Regenstrief [website]. Regenstrief Institute; 2024 (https://loinc.org/get-started/what-loinc-is/, accessed 9 January 2024)."
+}

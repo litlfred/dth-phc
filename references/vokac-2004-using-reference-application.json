@@ -1,0 +1,43 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "vokac-2004-using-reference-application",
+  "type": "chapter",
+  "title": "Using a reference application with design patterns to produce industrial software",
+  "author": [
+    {
+      "family": "Vokáč",
+      "given": "M"
+    },
+    {
+      "family": "Jensen",
+      "given": "O"
+    }
+  ],
+  "editor": [
+    {
+      "family": "Bomarius",
+      "given": "F"
+    },
+    {
+      "family": "Iida",
+      "given": "H"
+    }
+  ],
+  "container-title": "Product focused software process improvement. PROFES 2004",
+  "collection-title": "Lecture Notes in Computer Science",
+  "volume": "3009",
+  "page": "343–7",
+  "publisher-place": "Berlin, Heidelberg",
+  "publisher": "Springer",
+  "issued": {
+    "date-parts": [
+      [
+        2004
+      ]
+    ]
+  },
+  "DOI": "10.1007/978-3-540-24659-6_24",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 58 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Vokáč M, Jensen O. Using a reference application with design patterns to produce industrial software. In: Bomarius F, Iida H, editors. Product focused software process improvement. PROFES 2004. Lecture Notes in Computer Science, Vol. 3009. Berlin, Heidelberg: Springer; 2004:343–7. https://doi.org/10.1007/978-3-540-24659-6_24"
+}

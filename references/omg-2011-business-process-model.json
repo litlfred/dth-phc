@@ -1,0 +1,29 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "omg-2011-business-process-model",
+  "type": "webpage",
+  "title": "Business Process Model And Notation",
+  "container-title": "Object Management Group [website]",
+  "publisher-place": "Needham (MA)",
+  "publisher": "Object Management Group",
+  "issued": {
+    "date-parts": [
+      [
+        2011
+      ]
+    ]
+  },
+  "URL": "https://www.omg.org/spec/BPMN/2.0",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 47 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Business Process Model And Notation. In: Object Management Group [website]. Needham (MA): Object Management Group; 2011 (https://www.omg.org/spec/BPMN/2.0, accessed 10 January 2020)."
+}

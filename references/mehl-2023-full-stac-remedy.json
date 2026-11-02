@@ -1,0 +1,42 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "mehl-2023-full-stac-remedy",
+  "type": "article-journal",
+  "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+  "author": [
+    {
+      "family": "Mehl",
+      "given": "G"
+    },
+    {
+      "family": "Seneviratne",
+      "given": "M"
+    },
+    {
+      "family": "Berg",
+      "given": "M"
+    },
+    {
+      "family": "Bidani",
+      "given": "S"
+    },
+    {
+      "family": "Distler",
+      "given": "R"
+    }
+  ],
+  "container-title": "Oxford Open Digital Health",
+  "number": "oqad018",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "DOI": "10.1093/oodh/oqad018",
+  "note": "The author list is printed ending “et al.”",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 16 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Mehl G, Seneviratne M, Berg M, Bidani S, Distler R et al. A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content. Oxford Open Digital Health. 2023;oqad018. https://doi.org/10.1093/oodh/oqad018."
+}
