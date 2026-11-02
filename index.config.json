@@ -14,7 +14,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "60040aaca860fd515252a8e35f6e776f801af8b8",
+          "ref": "4e0a4e5272e786ef7956d7ae65fcf85df9dfa602",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -38,9 +38,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "60040aaca860fd515252a8e35f6e776f801af8b8",
-              "evidence": "Owner litlfred merged who-iris#161 (PHC Fig. 13 cells as a table, fixes who-iris#157) on 2026-11-01 21:18Z, inside the MVP merge window to 2026-11-02 02:40Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NdqkvnprnzAj2kus7uVRD1); repin to who-iris main so dth-phc reads the fixed Fig. 13."
+              "on": "2026-11-02",
+              "ref": "4e0a4e5272e786ef7956d7ae65fcf85df9dfa602",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
@@ -51,7 +51,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "ce2ee66927070af85bc030ed180adcd0a761791d",
+          "ref": "b3500414e40fdb729c3497aaa1afb27d970eefb5",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -85,9 +85,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "ce2ee66927070af85bc030ed180adcd0a761791d",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "on": "2026-11-02",
+              "ref": "b3500414e40fdb729c3497aaa1afb27d970eefb5",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
@@ -98,7 +98,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "0f3fd6c21a02e7ae51dee640c81c1c3bddb628df",
+          "ref": "a5e07932a24c331d20c99203e2ccb94aae13facd",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -107,9 +107,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "0f3fd6c21a02e7ae51dee640c81c1c3bddb628df",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "on": "2026-11-02",
+              "ref": "a5e07932a24c331d20c99203e2ccb94aae13facd",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
@@ -120,7 +120,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "ed68f04c2e1b6d51e98750b40c55bacda624d193",
+          "ref": "b2d596676777f8e4481668e04d022ebe15347f69",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -135,9 +135,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "ed68f04c2e1b6d51e98750b40c55bacda624d193",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "on": "2026-11-02",
+              "ref": "b2d596676777f8e4481668e04d022ebe15347f69",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
@@ -148,7 +148,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "b79da33932892f823a5ced4d18a395eadc19cdaf",
+          "ref": "9c8fc67c5037d1ca69e261b69b6fe2660dc809cd",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -163,9 +163,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "b79da33932892f823a5ced4d18a395eadc19cdaf",
-              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A 'Ready it, merge when green' (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv) for cat-harness#927, inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); repin to main to publish the figure controls; moved onto cat-harness#933 per card Q-PHC19 B (2026-11-01 20:49Z)."
+              "on": "2026-11-02",
+              "ref": "9c8fc67c5037d1ca69e261b69b6fe2660dc809cd",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
@@ -176,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "6f431f09d8755bd95d21b3d0e49f872cc6a71d53",
+          "ref": "a8f46f0ec211fff5078385254c888067f0e2e74b",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -188,9 +188,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "6f431f09d8755bd95d21b3d0e49f872cc6a71d53",
-              "evidence": "Owner litlfred, 2026-11-01 18:56:11Z card Q-PHC17 A (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv), inside the '+3hrs' merge + repin window of 17:27Z (cmsg_017WNUkNK8kdDziPK58Pv6G9NvMGGKmpGA95ekCsPZLSdn); re-pinned with cat-harness, whose archimate-blocks tool needs cat-harness-tools' archimate:blocks script; moved onto tools#1326 per card Q-PHC19 B (2026-11-01 20:49Z)."
+              "on": "2026-11-02",
+              "ref": "a8f46f0ec211fff5078385254c888067f0e2e74b",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
@@ -223,7 +223,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "c5b291b6e9bfd71c4f8d99b08d8f6634a5bdfd9e",
+          "ref": "ed547a9ab77e8445f13f52fe2152d6e82776bcaf",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -235,9 +235,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "c5b291b6e9bfd71c4f8d99b08d8f6634a5bdfd9e",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb); repin to main for dth-phc#1 R10."
+              "on": "2026-11-02",
+              "ref": "ed547a9ab77e8445f13f52fe2152d6e82776bcaf",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
@@ -248,7 +248,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-ra",
-          "ref": "7aaec92b0ec4afafdf95aa6504e32550e3e6aa6d",
+          "ref": "da2d90cbb578374b9d612e22c61ea848429e6a07",
           "overrides": {
             "dpi-h-ra": {
               "directories": [
@@ -284,9 +284,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "7aaec92b0ec4afafdf95aa6504e32550e3e6aa6d",
-              "evidence": "Owner litlfred, 2026-11-01 07:27Z '+3hrs merge + repin' (project chat, cmsg_017WNUkNK8kdDziPK58Pv6G92W78ADzSET47eYvbvZpMfb), and 08:20Z card Q-RA1 'A. Move to DTH overlays' (thread cmsg_017WNUkNK8kdDziPK58Pv6G98jEs947XS3tzNUm5hHaHxv): repin to smart-ra main so the dth-phc overlay's reference copies are checked against smart-ra's own ArchiMate 0.3.0-draft.1 (dth-phc#8)."
+              "on": "2026-11-02",
+              "ref": "da2d90cbb578374b9d612e22c61ea848429e6a07",
+              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread cmsg_017WNUkNK8kdDziPK58Pv6G991qa3xg86ZCWdyH2spZ7FS): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.'"
             }
           }
         }
