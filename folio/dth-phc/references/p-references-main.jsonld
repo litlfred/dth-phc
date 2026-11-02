@@ -125,6 +125,10 @@
   ],
   "text": "p-references-main.md",
   "meta": {
+    "referenceList": {
+      "style": "who",
+      "list": "numbered"
+    },
     "title": "References (107 numbered references)",
     "source": {
       "library": "9789240093362-eng",
