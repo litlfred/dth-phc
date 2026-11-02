@@ -1,0 +1,20 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "dicom-about-overview",
+  "type": "webpage",
+  "title": "About DICOM: Overview",
+  "container-title": "DICOM Digital Imaging and Communications in Medicine [website]",
+  "URL": "https://www.dicomstandard.org/about-home",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 89 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: About DICOM: Overview. In: DICOM Digital Imaging and Communications in Medicine [website]. (https://www.dicomstandard.org/about-home, accessed 9 January 2024)."
+}

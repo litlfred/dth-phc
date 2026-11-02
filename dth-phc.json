@@ -120,6 +120,14 @@
         "keyedBy": "tip"
       },
       "description": "The trashcan that is kept: deprecated and removed content, each node declaring itself `folio-fsh-guts/v1` with where it came from. Never rendered."
+    },
+    {
+      "id": "references",
+      "path": "references/",
+      "description": "dth-phc's bibliography: one folio-reference/v1 CSL-JSON node per entry of the document's References chapter (`folio/dth-phc/references/p-references-main.md`), `<key>.json`, in the KG at `references/<key>` (owner, 2026-11-02: \"each document should have a bibliography pages which includes refrenced content in the document\"). Committee content, wording kept: each node's fields are taken word for word from its entry, and `_comment` holds the entry as printed. The References chapter's block names every node in `cites`, in chapter order, so the chapter and the KG Bibliography (`en/folio-assistant-core/bibliography/`) list the same works. A key shared with the who-iris catalogue, a library asset or another folio's bibliography names the same work there.",
+      "graphTypologies": [
+        "references"
+      ]
     }
   ],
   "description": "WHO Digital transformation handbook for primary health care: optimizing person-centred point of service systems (ISBN 978-92-4-009336-2), as an L2 DTH on smart-ra and smart-base: the working document folio seeded from its L1 entry in who-iris (9789240093362-eng), and its SKOS glossary linked to the smart-ra glossary (dpi-h-ra / full-stac) and smart-base DAK vocabulary.",

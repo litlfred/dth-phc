@@ -1,0 +1,21 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "rm-odp-odp-standards",
+  "type": "webpage",
+  "title": "3. ODP Standards",
+  "container-title": "RM-ODP [website]",
+  "publisher": "ISO, IEC, ITU",
+  "URL": "https://rm-odp-new.lcc.uma.es/#Standards",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 71 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: 3. ODP Standards. In: RM-ODP [website]. ISO, IEC, ITU. (https://rm-odp-new.lcc.uma.es/#Standards, accessed 10 January 2024)."
+}

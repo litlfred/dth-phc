@@ -1,0 +1,20 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "9789241511766-eng",
+  "type": "book",
+  "title": "Monitoring and evaluating digital health interventions: a practical guide to conducting research and assessment",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2016
+      ]
+    ]
+  },
+  "ISBN": "9789241511766",
+  "URL": "https://iris.who.int/handle/10665/252183",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 99 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Monitoring and evaluating digital health interventions: a practical guide to conducting research and assessment. Geneva: World Health Organization; 2016 (https://iris.who.int/handle/10665/252183). ISBN added from the who-iris catalogue record who-iris/catalogue/records/9789241511766-eng.dc.json; the chapter text is unchanged."
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "himss-2024-interoperability-healthcare",
+  "type": "webpage",
+  "title": "Interoperability in Healthcare",
+  "container-title": "HIMMS [website]",
+  "publisher-place": "Chicago (IL)",
+  "publisher": "HIMMS",
+  "issued": {
+    "date-parts": [
+      [
+        2024
+      ]
+    ]
+  },
+  "URL": "https://www.himss.org/resources/interoperability-healthcare",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 75 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Interoperability in Healthcare. In: HIMMS [website]. Chicago (IL): HIMMS; 2024 (https://www.himss.org/resources/interoperability-healthcare, accessed 9 January 2024)."
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-digital-health-atlas",
+  "type": "webpage",
+  "title": "Digital Health Atlas [website]",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "URL": "https://digitalhealthatlas.org",
+  "accessed": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        13
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 101 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Digital Health Atlas [website]. Geneva: World Health Organization; undated (https://digitalhealthatlas.org, accessed 13 October 2023)."
+}

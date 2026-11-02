@@ -1,0 +1,28 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "phii-2023-collaborative-requirements-development",
+  "type": "webpage",
+  "title": "Collaborative Requirements Development Methodology (CRDM)",
+  "container-title": "Public Health Informatics Institute (PHII) [website]",
+  "publisher": "PHII",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "URL": "https://phii.org/crdm/",
+  "accessed": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        11
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 20 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Collaborative Requirements Development Methodology (CRDM). In: Public Health Informatics Institute (PHII) [website]. PHII; 2023 (https://phii.org/crdm/, accessed 11 October 2023)."
+}

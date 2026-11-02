@@ -1,0 +1,26 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "zachman-1997-enterprise-architecture-issue",
+  "type": "article-journal",
+  "title": "Enterprise architecture: the issue of the century",
+  "author": [
+    {
+      "family": "Zachman",
+      "given": "JA"
+    }
+  ],
+  "container-title": "Database programming and design",
+  "volume": "10",
+  "issue": "3",
+  "page": "44–53",
+  "issued": {
+    "date-parts": [
+      [
+        1997
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 68 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Zachman JA. Enterprise architecture: the issue of the century. Database programming and design. 1997;10(3):44–53."
+}

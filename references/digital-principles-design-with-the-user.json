@@ -1,0 +1,22 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "digital-principles-design-with-the-user",
+  "type": "webpage",
+  "title": "Design with the user",
+  "container-title": "Principles for Digital Development [website]",
+  "publisher-place": "New York (NY)",
+  "publisher": "United Nations Foundation",
+  "URL": "https://digitalprinciples.org/",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        16
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 21 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Design with the user. In: Principles for Digital Development [website]. New York (NY): United Nations Foundation; undated (https://digitalprinciples.org/, accessed 16 August 2024).."
+}

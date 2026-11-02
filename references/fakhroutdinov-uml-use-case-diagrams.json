@@ -1,0 +1,28 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "fakhroutdinov-uml-use-case-diagrams",
+  "type": "webpage",
+  "title": "UML use case diagrams",
+  "author": [
+    {
+      "family": "Fakhroutdinov",
+      "given": "K"
+    }
+  ],
+  "container-title": "The Unified Modeling Language [website]",
+  "publisher-place": "Burlington (MA)",
+  "publisher": "Kirill Fakhroutdinov",
+  "URL": "https://www.uml-diagrams.org/use-case-diagrams.html",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 42 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Fakhroutdinov K. UML use case diagrams. In: The Unified Modeling Language [website]. Burlington (MA): Kirill Fakhroutdinov; undated (https://www.uml-diagrams.org/use-case-diagrams.html, accessed 10 January 2020)."
+}

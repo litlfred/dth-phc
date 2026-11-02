@@ -1,0 +1,41 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "basford-2016-four-building-blocks",
+  "type": "webpage",
+  "title": "The four building blocks of change",
+  "author": [
+    {
+      "family": "Basford",
+      "given": "T"
+    },
+    {
+      "family": "Schaninger",
+      "given": "B"
+    }
+  ],
+  "container-title": "McKinsey & Company [website]",
+  "collection-title": "McKinsey Quarterly",
+  "publisher-place": "New York (NY)",
+  "publisher": "McKinsey & Company",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        4
+      ]
+    ]
+  },
+  "URL": "https://www.mckinsey.com/business-functions/organization/our-insights/the-four-building-blocks--of-change",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 106 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Basford T, Schaninger B. The four building blocks of change. McKinsey Quarterly. In: McKinsey & Company [website]. New York (NY): McKinsey & Company; April 2016 (https://www.mckinsey.com/business-functions/organization/our-insights/the-four-building-blocks--of-change, accessed 10 January 2020)."
+}

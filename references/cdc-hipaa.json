@@ -1,0 +1,20 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "cdc-hipaa",
+  "type": "webpage",
+  "title": "Health Insurance Portability and Accountability Act of 1996 (HIPAA)",
+  "container-title": "CDC Center for Disease Control and Prevention [website]",
+  "URL": "https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html?CDC_AAref_Val=https://www.cdc.gov/phlp/publications/topic/hipaa.html",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 91 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Health Insurance Portability and Accountability Act of 1996 (HIPAA). In: CDC Center for Disease Control and Prevention [website]. (https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html?CDC_AAref_Val=https://www.cdc.gov/phlp/publications/topic/hipaa.html, accessed 9 January 2024)."
+}

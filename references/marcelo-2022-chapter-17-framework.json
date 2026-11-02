@@ -1,0 +1,42 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "marcelo-2022-chapter-17-framework",
+  "type": "chapter",
+  "title": "Chapter 17 - A framework for regional health information systems interoperability: The Asia eHealth Information Network (AeHIN) experience",
+  "author": [
+    {
+      "family": "Marcelo",
+      "given": "A B"
+    },
+    {
+      "family": "Pascual",
+      "given": "K C"
+    },
+    {
+      "family": "Udayasankaran",
+      "given": "J G"
+    },
+    {
+      "family": "Allaudin",
+      "given": "F S"
+    },
+    {
+      "family": "Kijsanayotin",
+      "given": "B"
+    }
+  ],
+  "container-title": "Roadmap to Successful Digital Health Ecosystems",
+  "page": "399-414",
+  "publisher": "Academic Press",
+  "issued": {
+    "date-parts": [
+      [
+        2022
+      ]
+    ]
+  },
+  "DOI": "10.1016/B978-0-12-823413-6.00005-7",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 64 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Marcelo A B, Pascual K C, Udayasankaran J G, Allaudin F S, Kijsanayotin B. Chapter 17 - A framework for regional health information systems interoperability: The Asia eHealth Information Network (AeHIN) experience. Roadmap to Successful Digital Health Ecosystems, Academic Press, 2022;399-414. https://doi.org/10.1016/B978-0-12-823413-6.00005-7."
+}

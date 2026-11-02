@@ -1,0 +1,35 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "gothelf-2012-using-proto-personas",
+  "type": "webpage",
+  "title": "Using proto-personas for executive alignment",
+  "author": [
+    {
+      "family": "Gothelf",
+      "given": "J"
+    }
+  ],
+  "container-title": "UX Magazine [website]",
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        5,
+        1
+      ]
+    ]
+  },
+  "URL": "https://uxmag.com/articles/using-proto-personas-for-executive-alignment",
+  "accessed": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        11
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 41 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Gothelf J. Using proto-personas for executive alignment. In: UX Magazine [website], 1 May 2012 (https://uxmag.com/articles/using-proto-personas-for-executive-alignment, accessed 11 October 2023)."
+}

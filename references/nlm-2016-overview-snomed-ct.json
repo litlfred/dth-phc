@@ -1,0 +1,28 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "nlm-2016-overview-snomed-ct",
+  "type": "webpage",
+  "title": "Overview of SNOMED CT",
+  "container-title": "National Library of Medicine [website]",
+  "publisher-place": "Bethesda (MD)",
+  "issued": {
+    "date-parts": [
+      [
+        2016
+      ]
+    ]
+  },
+  "URL": "https://www.nlm.nih.gov/healthit/snomedct/snomed_overview.html",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 79 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Overview of SNOMED CT. In: National Library of Medicine [website]. Bethesda (MD); 2016. (https://www.nlm.nih.gov/healthit/snomedct/snomed_overview.html, accessed 9 January 2024)."
+}

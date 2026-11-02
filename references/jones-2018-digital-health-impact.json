@@ -1,0 +1,51 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "jones-2018-digital-health-impact",
+  "type": "report",
+  "title": "Digital health impact framework user manual",
+  "author": [
+    {
+      "family": "Jones",
+      "given": "T"
+    },
+    {
+      "family": "Drury",
+      "given": "P"
+    },
+    {
+      "family": "Zuniga",
+      "given": "P"
+    },
+    {
+      "family": "Roth",
+      "given": "S"
+    }
+  ],
+  "collection-title": "ADB sustainable development working paper series",
+  "number": "57",
+  "publisher-place": "National Capital Region, Philippines",
+  "publisher": "Asian Development Bank",
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        11
+      ]
+    ]
+  },
+  "DOI": "10.22617/WPS189214-2",
+  "URL": "https://www.adb.org/sites/default/files/publication/465611/sdwp-057-digital-health-impact-framework-manual.pdf",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "note": "Appendix 4: Seven change management methodologies for sustained improved performance",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 102 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Jones T, Drury P, Zuniga P, Roth S. Digital health impact framework user manual. ADB sustainable development working paper series, number 57. National Capital Region, Philippines: Asian Development Bank; November 2018 (Appendix 4: Seven change management methodologies for sustained improved performance; https://www.adb.org/sites/default/files/publication/465611/sdwp-057-digital-health-impact-framework-manual.pdf, accessed 10 January 2020). doi:10.22617/WPS189214-2."
+}

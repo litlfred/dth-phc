@@ -1,0 +1,36 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "hashemi-pour-2023-definition-workflow",
+  "type": "webpage",
+  "title": "Definition workflow",
+  "author": [
+    {
+      "family": "Hashemi-Pour",
+      "given": "C"
+    }
+  ],
+  "container-title": "TechTarget [website]",
+  "publisher-place": "Newton (MA)",
+  "publisher": "TechTarget Inc.",
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        11
+      ]
+    ]
+  },
+  "URL": "https://www.techtarget.com/searchcio/definition/workflow",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 45 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Hashemi-Pour C. Definition workflow. In: TechTarget [website]. Newton (MA): TechTarget Inc.; November 2023 (https://www.techtarget.com/searchcio/definition/workflow, accessed 10 September 2024)."
+}

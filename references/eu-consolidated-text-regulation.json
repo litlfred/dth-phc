@@ -1,0 +1,20 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "eu-consolidated-text-regulation",
+  "type": "legislation",
+  "title": "Consolidated text: Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (Text with EEA relevance)",
+  "publisher": "European Union",
+  "URL": "http://data.europa.eu/eli/reg/2016/679/2016-05-04",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 94 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Consolidated text: Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (Text with EEA relevance). European Union. (http://data.europa.eu/eli/reg/2016/679/2016-05-04, accessed 10 January 2024)."
+}

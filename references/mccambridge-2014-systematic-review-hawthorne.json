@@ -1,0 +1,35 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "mccambridge-2014-systematic-review-hawthorne",
+  "type": "article-journal",
+  "title": "Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects",
+  "author": [
+    {
+      "family": "McCambridge",
+      "given": "J"
+    },
+    {
+      "family": "Witton",
+      "given": "J"
+    },
+    {
+      "family": "Elbourne",
+      "given": "DR"
+    }
+  ],
+  "container-title": "J Clin Epidemiol",
+  "volume": "67",
+  "issue": "3",
+  "page": "267–77",
+  "issued": {
+    "date-parts": [
+      [
+        2014
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.jclinepi.2013.08.015",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 34 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: McCambridge J, Witton J, Elbourne DR. Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects. J Clin Epidemiol. 2014;67(3):267–77. doi:10.1016/j.jclinepi.2013.08.015."
+}
