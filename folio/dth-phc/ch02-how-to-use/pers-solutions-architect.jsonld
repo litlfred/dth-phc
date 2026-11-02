@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/pers-solutions-architect",
@@ -96,8 +96,8 @@
     ],
     "roleId": "PHC-R-04",
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/solutions-architect",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/solutions-architect",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
     ]
   },
   "provenance": "authored"

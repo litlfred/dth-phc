@@ -11,5 +11,5 @@ The primary target audience and governing authority of the handbook (section 1.3
    - [`understand-user-requirements.bpmn#Lane-Ch3-PHA`](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.bpmn) (*Public Health Authority / Programme Lead*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-PHA`](https://github.com/litlfred/dth-phc/blob/main/processes/training-testing-and-roll-out.bpmn) (*Public Health Authority / Governance*)
    - [`scale-up.bpmn#Lane-Ch6-PHA`](https://github.com/litlfred/dth-phc/blob/main/processes/scale-up.bpmn) (*Public Health Authority / MoH*)
-2. **Concepts:** [Public Health Authority](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/public-health-authority), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
+2. **Concepts:** [Public Health Authority](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/public-health-authority), [User Persona](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona)
 3. **Glossary term:** `dpi-h-ra:ministry-of-health`.

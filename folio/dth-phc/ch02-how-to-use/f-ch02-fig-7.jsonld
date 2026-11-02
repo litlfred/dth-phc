@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/fig-7",
@@ -38,10 +38,10 @@
       }
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/minimum-viable-product",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/build",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/deploy"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred-point-of-service-system",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/minimum-viable-product",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/build",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/deploy"
     ],
     "archimateElements": [
       {

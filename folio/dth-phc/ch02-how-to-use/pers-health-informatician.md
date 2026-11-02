@@ -11,5 +11,5 @@ A core member of the PCPOSS implementing team (section 2.2) responsible for heal
 1. **BPMN lanes performed:**
    - [`understand-user-requirements.bpmn#Lane-Ch3-HI`](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.bpmn) (*Health Informatician & M&E Specialist*)
    - [`design-and-adaptation.bpmn#Lane-Ch4-Architect`](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.bpmn) (*Solutions Architect & Health Informatician*)
-2. **Concepts:** [Health Informatician](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-informatician), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
+2. **Concepts:** [Health Informatician](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-informatician), [User Persona](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:health-informatician`.
