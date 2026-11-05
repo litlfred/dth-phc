@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/tbl-annex-04",
@@ -27,10 +27,10 @@
       "method": "l1-template-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/end-user",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-service-users",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/pain-point"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/end-user",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-service-users",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/pain-point"
     ],
     "archimateElements": [
       {

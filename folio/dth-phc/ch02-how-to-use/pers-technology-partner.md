@@ -10,5 +10,5 @@ An external or internal software development organization contracted or designat
    - [`pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Tech`](https://github.com/litlfred/dth-phc/blob/main/processes/pcposs-implementation-lifecycle.bpmn) (*Technology Partner & Software Engineer*)
    - [`design-and-adaptation.bpmn#Lane-Ch4-Engineer`](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.bpmn) (*Software Engineer & Technology Partner*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Engineer`](https://github.com/litlfred/dth-phc/blob/main/processes/training-testing-and-roll-out.bpmn) (*Technology Partner & Software Engineer*)
-2. **Concepts:** [Technology Partner](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/technology-partner), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
+2. **Concepts:** [Technology Partner](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/technology-partner), [User Persona](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:technology-partner`.

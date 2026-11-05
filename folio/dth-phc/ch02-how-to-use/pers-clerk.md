@@ -10,5 +10,5 @@ Health facility registration, reception and medical records staff who check in c
    - [`understand-user-requirements.bpmn#Lane-Ch3-Users`](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.bpmn) (*Health Workers, Clerks, Supervisors & Service Users*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Users`](https://github.com/litlfred/dth-phc/blob/main/processes/training-testing-and-roll-out.bpmn) (*Health Workers, Clerks & Supervisors*)
    - [`scale-up.bpmn#Lane-Ch6-Users`](https://github.com/litlfred/dth-phc/blob/main/processes/scale-up.bpmn) (*Health Workers & Clerks*)
-2. **Concepts:** [Clerk](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/clerk)
+2. **Concepts:** [Clerk](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/clerk)
 3. **Glossary term:** `dth-phc:clerk`.

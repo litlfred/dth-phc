@@ -12,5 +12,5 @@ A core member of the PCPOSS implementing team or technology partner (section 2.2
    - [`design-and-adaptation.bpmn#Lane-Ch4-Engineer`](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.bpmn) (*Software Engineer & Technology Partner*)
    - [`pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Tech`](https://github.com/litlfred/dth-phc/blob/main/processes/pcposs-implementation-lifecycle.bpmn) (*Technology Partner & Software Engineer*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Engineer`](https://github.com/litlfred/dth-phc/blob/main/processes/training-testing-and-roll-out.bpmn) (*Technology Partner & Software Engineer*)
-2. **Concepts:** [Software Engineer](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/software-engineer), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
+2. **Concepts:** [Software Engineer](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/software-engineer), [User Persona](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:software-engineer`.

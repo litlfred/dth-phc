@@ -10,5 +10,5 @@ Health facility in-charges, clinical supervisors and district PHC supervisors wh
    - [`understand-user-requirements.bpmn#Lane-Ch3-Users`](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.bpmn) (*Health Workers, Clerks, Supervisors & Service Users*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Users`](https://github.com/litlfred/dth-phc/blob/main/processes/training-testing-and-roll-out.bpmn) (*Health Workers, Clerks & Supervisors*)
    - [`scale-up.bpmn#Lane-Ch6-Users`](https://github.com/litlfred/dth-phc/blob/main/processes/scale-up.bpmn) (*Health Facility Manager & Supervisor*)
-2. **Concepts:** [Supervisor](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/supervisor)
+2. **Concepts:** [Supervisor](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/supervisor)
 3. **Glossary term:** `dth-phc:supervisor`.

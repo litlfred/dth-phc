@@ -13,5 +13,5 @@ The multidisciplinary team formed in section 2.2 (`sec-008`) that coordinates an
    - [`design-and-adaptation.bpmn#Lane-Ch4-BA`](https://github.com/litlfred/dth-phc/blob/main/processes/design-and-adaptation.bpmn) (*Implementing Team*)
    - [`training-testing-and-roll-out.bpmn#Lane-Ch5-Impl`](https://github.com/litlfred/dth-phc/blob/main/processes/training-testing-and-roll-out.bpmn) (*Implementing Team & Trainers*)
    - [`scale-up.bpmn#Lane-Ch6-Impl`](https://github.com/litlfred/dth-phc/blob/main/processes/scale-up.bpmn) (*Implementing Team*)
-2. **Concepts:** [Implementing Team](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/implementing-team), [User Persona](https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona)
+2. **Concepts:** [Implementing Team](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/implementing-team), [User Persona](https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona)
 3. **Glossary term:** `dth-phc:implementing-team`.
