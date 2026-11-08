@@ -7,6 +7,8 @@
  * check:dth-glossary`, folio-assistant-core glossary-validate.ts), and L1
  * coverage from core's folio-l1-coverage.ts (bean cysv). This file stays only
  * until the block checks move to kg-audit (bean lo3p); then it is deleted.
+ * It keeps its old path, so the ratcheted gates that count per file
+ * (`check:foreign-paths`) see the same file and no new finding.
  *
  * Originally:
  * Validate `dth-phc.json`, `glossary/*.glossary.json`, and all 123 blocks in
