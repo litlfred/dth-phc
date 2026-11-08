@@ -18,7 +18,7 @@
  "chapters": [
   {
    "dir": "front-matter",
-   "title": "Front matter, acknowledgements, abbreviations and glossary",
+   "title": "Front matter and acknowledgements",
    "label": "chap:front-matter"
   },
   {
@@ -58,14 +58,19 @@
    "label": "chap:ch06-scale-up"
   },
   {
-   "dir": "references",
-   "title": "References",
-   "label": "chap:references"
-  },
-  {
    "dir": "annexes",
    "title": "Annexes",
    "label": "chap:annexes"
+  },
+  {
+   "dir": "glossary",
+   "title": "Glossary",
+   "label": "chap:glossary"
+  },
+  {
+   "dir": "references",
+   "title": "References",
+   "label": "chap:references"
   }
  ],
  "sections": [
@@ -77,16 +82,6 @@
   {
    "label": "sec:fm-acknowledgements",
    "title": "Acknowledgements",
-   "chapter": "front-matter"
-  },
-  {
-   "label": "sec:fm-abbreviations",
-   "title": "Abbreviations",
-   "chapter": "front-matter"
-  },
-  {
-   "label": "sec:fm-glossary",
-   "title": "Glossary",
    "chapter": "front-matter"
   },
   {
@@ -295,11 +290,6 @@
    "chapter": "ch06-scale-up"
   },
   {
-   "label": "sec:references-main",
-   "title": "References",
-   "chapter": "references"
-  },
-  {
    "label": "sec:annex-01",
    "title": "Annex 1. Principles for digital development",
    "chapter": "annexes"
@@ -368,6 +358,21 @@
    "label": "sec:annex-14",
    "title": "Annex 14. HL7 FHIR standard components",
    "chapter": "annexes"
+  },
+  {
+   "label": "sec:fm-glossary",
+   "title": "Glossary",
+   "chapter": "glossary"
+  },
+  {
+   "label": "sec:fm-abbreviations",
+   "title": "Abbreviations",
+   "chapter": "glossary"
+  },
+  {
+   "label": "sec:references-main",
+   "title": "References",
+   "chapter": "references"
   }
  ],
  "blocks": [
@@ -393,32 +398,6 @@
    ],
    "hash": "63124131fadb",
    "excerpt": "The World Health Organization (WHO) is grateful for the contributions made by many individuals and organizations in the development of this handbook. This handb",
-   "method": "folio-snapshot"
-  },
-  {
-   "label": "tbl:abbreviations",
-   "kind": "table",
-   "chapter": "front-matter",
-   "root": "t-fm-abbreviations",
-   "sections": [
-    "sec:fm-abbreviations"
-   ],
-   "caption": "Abbreviations",
-   "hash": "5563c5eb1aad",
-   "excerpt": "Abbreviation Definition --- --- ANC antenatal care API application programming interface BPMN Business Process Model and Notation CRDM Collaborative Requirement",
-   "method": "folio-snapshot"
-  },
-  {
-   "label": "tbl:glossary",
-   "kind": "table",
-   "chapter": "front-matter",
-   "root": "t-fm-glossary",
-   "sections": [
-    "sec:fm-glossary"
-   ],
-   "caption": "Glossary (59 defined terms and 24 glossary references)",
-   "hash": "0c5b5172e1f3",
-   "excerpt": "Term Definition --- --- Algorithm A specification of how a computer shall solve a problem, perform a calculation and execute a task. Annotation In a decision ta",
    "method": "folio-snapshot"
   },
   {
@@ -1749,18 +1728,6 @@
    "method": "folio-snapshot"
   },
   {
-   "label": "prose:references-main",
-   "kind": "prose",
-   "chapter": "references",
-   "root": "p-references-main",
-   "sections": [
-    "sec:references-main"
-   ],
-   "hash": "e8be7800ddaf",
-   "excerpt": "1. Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact. Geneva: World Health Organization; 2022 (https://",
-   "method": "folio-snapshot"
-  },
-  {
    "label": "prose:annex-01-principles",
    "kind": "prose",
    "chapter": "annexes",
@@ -1974,6 +1941,44 @@
    ],
    "hash": "5806a089d160",
    "excerpt": "ANNEX 14. HL7 FHIR standard components Resources A “FHIR Resource” is a modular component that serves as the basic data exchange format in the HL7 FHIR standard",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:glossary",
+   "kind": "table",
+   "chapter": "glossary",
+   "root": "t-fm-glossary",
+   "sections": [
+    "sec:fm-glossary"
+   ],
+   "caption": "Glossary (59 defined terms and 24 glossary references)",
+   "hash": "0c5b5172e1f3",
+   "excerpt": "Term Definition --- --- Algorithm A specification of how a computer shall solve a problem, perform a calculation and execute a task. Annotation In a decision ta",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "tbl:abbreviations",
+   "kind": "table",
+   "chapter": "glossary",
+   "root": "t-fm-abbreviations",
+   "sections": [
+    "sec:fm-abbreviations"
+   ],
+   "caption": "Abbreviations",
+   "hash": "5563c5eb1aad",
+   "excerpt": "Abbreviation Definition --- --- ANC antenatal care API application programming interface BPMN Business Process Model and Notation CRDM Collaborative Requirement",
+   "method": "folio-snapshot"
+  },
+  {
+   "label": "prose:references-main",
+   "kind": "prose",
+   "chapter": "references",
+   "root": "p-references-main",
+   "sections": [
+    "sec:references-main"
+   ],
+   "hash": "e8be7800ddaf",
+   "excerpt": "1. Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact. Geneva: World Health Organization; 2022 (https://",
    "method": "folio-snapshot"
   }
  ]
