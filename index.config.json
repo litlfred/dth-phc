@@ -176,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "42cc850e43e4d798126ee8fe456b72118e128112",
+          "ref": "553cef51005027a509163e25be03622dd8dc77f4",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -188,9 +188,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "42cc850e43e4d798126ee8fe456b72118e128112",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-08",
+              "ref": "553cef51005027a509163e25be03622dd8dc77f4",
+              "evidence": "Owner litlfred, 2026-11-08 12:50Z: card Q-LO-3 'A. Yes, re-pin now' — re-pin dth-phc#7's cat-harness-tools to main 553cef5 (tools#1705), thread Clear small platform leftovers."
             }
           }
         }
