@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/tbl-annex-07",
@@ -27,9 +27,9 @@
       "method": "l1-template-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/register",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-element",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/workflow"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/register",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/workflow"
     ],
     "archimateElements": [
       {

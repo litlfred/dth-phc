@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/pers-donors-and-development-partners",
@@ -88,7 +88,7 @@
     ],
     "roleId": "PHC-R-19",
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/donors-and-development-partners"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/donors-and-development-partners"
     ]
   },
   "provenance": "authored"

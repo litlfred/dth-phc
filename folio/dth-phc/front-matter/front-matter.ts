@@ -1,7 +1,7 @@
 import { chapter, section } from "../../schema/builders";
 
 export default chapter({
-  title: "Front matter, acknowledgements, abbreviations and glossary",
+  title: "Front matter and acknowledgements",
   label: "chap:front-matter",
   sections: [
     section({
@@ -14,16 +14,6 @@ export default chapter({
       title: "Acknowledgements",
       label: "sec:fm-acknowledgements",
       blocks: ["p-fm-acknowledgements"],
-    }),
-    section({
-      title: "Abbreviations",
-      label: "sec:fm-abbreviations",
-      blocks: ["t-fm-abbreviations"],
-    }),
-    section({
-      title: "Glossary",
-      label: "sec:fm-glossary",
-      blocks: ["t-fm-glossary"],
     }),
   ],
 });

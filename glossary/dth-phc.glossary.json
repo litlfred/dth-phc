@@ -28,8 +28,8 @@
         "decision-support-logic",
         "decision-support-system",
         "rule",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/clinical-quality-language"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/clinical-quality-language"
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
@@ -47,7 +47,7 @@
         "rule",
         "decision-support-logic",
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic",
-        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable"
+        "https://litlfred.github.io/smart-base/v0/ns/DecisionTable"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -91,8 +91,8 @@
         "architecture-building-blocks"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The fundamental structure of a digital system or ecosystem, encompassing its components, their relationships, and the principles and guidelines governing their design and evolution.",
       "status": "candidate"
@@ -114,9 +114,9 @@
         "capability"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/reference-architecture",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-service"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-component",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-service"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Reusable architectural components defining functional and technical capabilities within a reference or enterprise architecture for digital health systems.",
       "status": "candidate"
@@ -226,8 +226,8 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who helps bridge the gap between what users need and how the technology should work. They help translate health requirements into technical plans (section 2.2).",
       "status": "candidate"
@@ -245,8 +245,8 @@
         "workflow"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/goal",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/outcome"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/goal",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/outcome"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -267,7 +267,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
-        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
+        "https://litlfred.github.io/smart-base/v0/ns/BusinessProcess"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -322,7 +322,7 @@
         "digital-health-intervention"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/capability"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/capability"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An ability that an organization, person, or system possesses to achieve a specific health or operational outcome.",
       "status": "candidate"
@@ -343,7 +343,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/HealthInterventions",
-        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+        "https://litlfred.github.io/smart-base/v0/ns/HealthIntervention"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -368,8 +368,8 @@
         "international-classification-of-diseases",
         "terminologies",
         "interoperability-standards",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Standardized systems of categories used to group health conditions, interventions, and related health concepts for statistical reporting, clinical documentation, and semantic interoperability.",
       "status": "candidate"
@@ -394,7 +394,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health facility registration, reception and medical records staff who register clients, verify client identity and maintain facility registers (sections 3.1, 3.3.2 Figs. 10–11, 5.1, 6.4).",
       "status": "candidate"
@@ -415,7 +415,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/HealthInterventions",
-        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+        "https://litlfred.github.io/smart-base/v0/ns/HealthIntervention"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -429,8 +429,8 @@
         "terminologies",
         "international-classification-of-diseases",
         "data-element",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Formal sets of codes and rules assigning unique identifiers to clinical concepts, data elements, and classifications to support unambiguous data capture and exchange.",
       "status": "candidate"
@@ -467,8 +467,8 @@
         "digital-health-intervention"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate",
@@ -513,9 +513,9 @@
         "interoperability"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/data-object",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-object",
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
-        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+        "https://litlfred.github.io/smart-base/v0/ns/DataElement"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -536,10 +536,10 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
-        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+        "https://litlfred.github.io/smart-base/v0/ns/DataElement"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/data-object"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-object"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -554,8 +554,8 @@
         "fast-healthcare-interoperability-resources"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-information-exchange",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The structured transmission and sharing of health and administrative data between digital systems using agreed syntactic and semantic interoperability standards.",
       "status": "candidate"
@@ -592,7 +592,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic",
-        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable"
+        "https://litlfred.github.io/smart-base/v0/ns/DecisionTable"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -619,8 +619,8 @@
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate",
@@ -646,7 +646,7 @@
         "annotation"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable"
+        "https://litlfred.github.io/smart-base/v0/ns/DecisionTable"
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
@@ -689,7 +689,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who focuses on how the software looks and feels to the user, making sure it is easy to understand and navigate (section 2.2).",
       "status": "candidate"
@@ -726,7 +726,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
-        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+        "https://litlfred.github.io/smart-base/v0/ns/DataElement"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Diastolic blood pressure (DBP): arterial blood pressure measured between heartbeats, captured as a core clinical data element and used in clinical decision support rules (such as antenatal care hypertension screening).",
       "status": "candidate"
@@ -760,7 +760,7 @@
         "http://smart.who.int/base/StructureDefinition/DAK"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -780,7 +780,7 @@
         "digital-health-intervention"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -809,7 +809,7 @@
         "enterprise-architecture"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The interconnected network of digital health applications, shared infrastructure services, standards, governance policies, and stakeholders operating within a health system.",
       "status": "candidate"
@@ -831,9 +831,9 @@
         "person-centred-point-of-service-system"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application",
         "http://smart.who.int/base/StructureDefinition/HealthInterventions",
-        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+        "https://litlfred.github.io/smart-base/v0/ns/HealthIntervention"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -874,8 +874,8 @@
         "enterprise-architecture"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -891,7 +891,7 @@
         "business-process"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -904,8 +904,8 @@
       "related": [
         "digitalization",
         "digital-transformation",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-health",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/data-object"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-health",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/data-object"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -941,9 +941,9 @@
         "digital-health-ecosystem"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder",
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Funding agencies, multilateral organizations, technical assistance partners and non-governmental implementing partners that co-finance and support digital health implementation in alignment with national strategies (sections 1.3, 2.3, 3.1, 6.1).",
       "status": "candidate"
@@ -957,7 +957,7 @@
         "interoperability"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): A complex network of interacting systems, services, organizations, and users that exchange data and coordinate activities within a shared environment.",
       "status": "candidate"
@@ -980,11 +980,11 @@
         "longitudinal-tracking"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/repository"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/repository"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1004,10 +1004,10 @@
         "person-centred-point-of-service-system"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Electronic medical record (EMR): digital version of a health service user's clinical chart maintained within a health care facility or point-of-service system to support diagnosis, treatment, and longitudinal clinical care.",
       "status": "candidate"
@@ -1028,9 +1028,9 @@
         "user-acceptance-testing"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder",
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1049,7 +1049,7 @@
         "interoperability"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate",
@@ -1085,7 +1085,7 @@
         "smart-guidelines"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/fast-healthcare-interoperability-resources"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Fast Healthcare Interoperability Resources (FHIR): HL7 open interoperability standard specifying data formats, resources, and application programming interfaces (APIs) for exchanging electronic health information.",
       "status": "candidate"
@@ -1104,8 +1104,8 @@
         "user-story"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/capability",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-service"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/capability",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-service"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1163,7 +1163,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
-        "https://litlfred.github.io/smart-base/v0/ns#FunctionalRequirement"
+        "https://litlfred.github.io/smart-base/v0/ns/FunctionalRequirement"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1181,8 +1181,8 @@
         "functional-requirements"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/capability",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-service"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/capability",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-service"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1202,7 +1202,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
-        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
+        "https://litlfred.github.io/smart-base/v0/ns/BusinessProcess"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Standardized L2 Digital Adaptation Kit (DAK) component representing clinical and operational activities, roles, and task sequences (typically modelled in BPMN) that a digital system supports across care encounters.",
       "status": "candidate"
@@ -1237,8 +1237,8 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who understands both health care and information systems. They help make sure the system captures and uses health data in a meaningful and standardized way (section 2.2).",
       "status": "candidate"
@@ -1260,7 +1260,7 @@
         "digital-health-ecosystem"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-digital-public-infrastructure"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health information system (HIS): socio-technical system that integrates data collection, processing, reporting, and use of health information to improve health service delivery and management across levels of the health system.",
       "status": "candidate"
@@ -1287,7 +1287,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/HealthInterventions",
-        "https://litlfred.github.io/smart-base/v0/ns#HealthIntervention"
+        "https://litlfred.github.io/smart-base/v0/ns/HealthIntervention"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component summarizing the normative WHO clinical and public health interventions and recommendations that the digital system is designed to operationalize.",
       "status": "candidate"
@@ -1322,7 +1322,7 @@
         "person-centred-point-of-service-system"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health management information system (HMIS): information system specially designed to assist in the management and planning of health programmes and aggregate routine health facility reporting, distinct from individual point-of-service care systems.",
       "status": "candidate"
@@ -1345,9 +1345,9 @@
         "register"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/client",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client",
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1368,7 +1368,7 @@
         "register"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1394,9 +1394,9 @@
         "community-based-information-system"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder",
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Primary point-of-service clinical and community health care providers (doctors, clinical officers, nurses, midwives, community health workers) who use the PCPOSS to deliver primary health care services (sections 1.1, 3.1, 3.2).",
       "status": "candidate"
@@ -1467,7 +1467,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): The multidisciplinary team formed in section 2.2 (comprising business analysts, health informaticians, software engineers, solutions architects, designers, user researchers and clinical/M&E experts) that plans, designs, tests, rolls out and scales up the PCPOSS.",
       "status": "candidate"
@@ -1483,7 +1483,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/ProgramIndicator",
-        "https://litlfred.github.io/smart-base/v0/ns#Indicator"
+        "https://litlfred.github.io/smart-base/v0/ns/Indicator"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component specifying numerator, denominator, and calculation logic for programme indicators and performance metrics derived from routine point-of-service data elements.",
       "status": "candidate"
@@ -1497,7 +1497,7 @@
         "systems-architecture"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-component"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An integrated set of components for collecting, storing, processing, and communicating data and information to support operations and decision-making.",
       "status": "candidate"
@@ -1523,7 +1523,7 @@
         "rule",
         "decision-support-table",
         "data-element",
-        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable",
+        "https://litlfred.github.io/smart-base/v0/ns/DecisionTable",
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1581,11 +1581,11 @@
         "terminologies",
         "snomed-ct",
         "logical-observation-identifiers-names-and-codes",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): International Classification of Diseases (ICD): WHO international standard diagnostic classification for epidemiology, clinical care, and health management.",
       "status": "candidate"
@@ -1679,7 +1679,7 @@
         "data-dictionary"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Glossary entry (p. xi) is the primary definition; Section 4.4 body (HIMSS) and Section 4.4.2 (IEEE 1990) provide two additional definitions in the handbook. Section 4.4 body definition (p. 41), citing Healthcare Information and Management Systems Society (HIMSS). Alternative definition (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md): \"Interoperability ensures that all digital systems within the healthcare ecosystem work together harmoniously. It refers to the ability of different systems, devices, applications or products to connect and communicate in a coordinated way, without effort from the end user (14).\" Section 4.4.2 definition (p. 42), citing IEEE Standard Computer Dictionary (1990). Alternative definition (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md): \"The ability of two or more systems or components to exchange information and to use the information that has been exchanged\"",
       "status": "candidate"
@@ -1702,7 +1702,7 @@
         "terminologies"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Agreed technical and semantic specifications (including transport protocols, data exchange formats such as HL7 FHIR, and terminologies/classifications such as ICD, LOINC, and SNOMED-CT) that enable health information systems to exchange and interpret shared data consistently.",
       "status": "candidate"
@@ -1754,7 +1754,7 @@
         "interoperability"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-component"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1777,7 +1777,7 @@
         "coding-schemes"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Logical Observation Identifiers Names and Codes (LOINC): international standard terminology and coding system for identifying laboratory tests and clinical observations.",
       "status": "candidate"
@@ -1798,7 +1798,7 @@
         "person-centred-point-of-service-system"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/longitudinal-health-record"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/longitudinal-health-record"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -1813,7 +1813,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
-        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+        "https://litlfred.github.io/smart-base/v0/ns/DataElement"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage a data element or information resource (such as data type, coding scheme, validation rules, and provenance in a data dictionary).",
       "status": "candidate"
@@ -1931,7 +1931,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Specialist responsible for mapping aggregate health indicators to point-of-service data elements (section 3.4.3) and assessing scale-up readiness and SMART objective benchmarks (sections 6.1–6.3).",
       "status": "candidate"
@@ -1952,7 +1952,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
-        "https://litlfred.github.io/smart-base/v0/ns#NonFunctionalRequirement"
+        "https://litlfred.github.io/smart-base/v0/ns/NonFunctionalRequirement"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate",
@@ -2005,8 +2005,8 @@
         "software-platform"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-content"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-content"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2039,7 +2039,7 @@
         "smart-guidelines"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-standards"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-standards"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2055,7 +2055,7 @@
         "decision-support-table",
         "flag",
         "pop-up-message",
-        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable",
+        "https://litlfred.github.io/smart-base/v0/ns/DecisionTable",
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2104,7 +2104,7 @@
         "care-pathway"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/person-focused-health"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2130,7 +2130,7 @@
         "longitudinal-tracking"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Section 1.1 and the Glossary note that PCPOSS encompasses 4 service/application types (community-based information systems, decision support systems, electronic medical/health record systems, and personal health records), while Annex 1 maps PCPOSS functional requirements across 13 WHO Classification of Digital Health Interventions (DHIs): 1.1.1, 1.4.1, 2.1.1, 2.2.1, 2.2.2, 2.2.4, 2.3.1, 2.3.2, 2.4.3, 2.7.1, 2.7.2, 2.8.1, and 2.9.1. Section 1.1 and Annex 1 synthesis contrasting the 4 application types with the 13 DHIs delivered by PCPOSS. Alternative definition (who-iris/library/9789240093362-eng/sections/sec-004-11-person-centred-point-of-service-systems.md): \"Person-centred point of service systems (PCPOSS) encompass four primary application types (community-based information systems, decision support systems, electronic medical/health record systems, and personal health records) and operationalize 13 WHO Digital Health Interventions (DHIs) across Annex 1.\"",
       "status": "candidate"
@@ -2152,8 +2152,8 @@
         "electronic-health-record-system"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/functional-application"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/functional-application"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An application used by a health service user to access, manage and share their own health information, receive targeted client communications and appointment reminders, and interact with the health system (section 1.1).",
       "status": "candidate"
@@ -2173,7 +2173,7 @@
         "health-service-users"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Point of service (POS): the setting and care encounter where health workers and health service users interact and where clinical and administrative data are captured and used in real time.",
       "status": "candidate"
@@ -2256,8 +2256,8 @@
         "antenatal-care"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/health-programme",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/person-focused-health"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-programme",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/person-focused-health"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Primary health care (PHC): whole-of-society approach to health that aims to ensure the highest possible level of health and well-being and their equitable distribution by focusing on people's needs and as early as possible along the continuum from health promotion and disease prevention to treatment, rehabilitation and palliative care, and as close as feasible to people's everyday environment.",
       "status": "candidate"
@@ -2294,9 +2294,9 @@
         "primary-health-care"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder",
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): National or subnational government health authority (such as the Ministry of Health) that governs digital health strategy alignment, policy, resource allocation and scale-up of the PCPOSS (sections 1.3, 2.3, 5.0, 6.1).",
       "status": "candidate"
@@ -2374,11 +2374,11 @@
         "open-source"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/open-technologies"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/open-technologies"
       ],
       "broadMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/product",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-component"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2407,7 +2407,7 @@
         "interoperability"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/registry"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/registry"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Rule register-is-not-registry: Registry refers to a governed, authoritative centralized information system (HIE master index of facilities, health service users, products, or health workforce) and matches dpi-h-ra/registry, distinct from a clinical cohort Register.",
       "status": "candidate"
@@ -2435,8 +2435,8 @@
       "narrowMatch": [
         "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
         "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
-        "https://litlfred.github.io/smart-base/v0/ns#FunctionalRequirement",
-        "https://litlfred.github.io/smart-base/v0/ns#NonFunctionalRequirement"
+        "https://litlfred.github.io/smart-base/v0/ns/FunctionalRequirement",
+        "https://litlfred.github.io/smart-base/v0/ns/NonFunctionalRequirement"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Documented statements of system capabilities, behaviours, and quality attributes needed by stakeholders and end-users, comprising both functional requirements and non-functional requirements.",
       "status": "candidate"
@@ -2454,7 +2454,7 @@
         "output",
         "annotation",
         "decision-support-logic",
-        "https://litlfred.github.io/smart-base/v0/ns#DecisionTable",
+        "https://litlfred.github.io/smart-base/v0/ns/DecisionTable",
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2470,7 +2470,7 @@
         "longitudinal-tracking"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-base/v0/ns#SchedulingLogic"
+        "https://litlfred.github.io/smart-base/v0/ns/SchedulingLogic"
       ],
       "broadMatch": [
         "http://smart.who.int/base/StructureDefinition/DecisionSupportLogic"
@@ -2512,7 +2512,7 @@
         "clinical-protocol"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate",
@@ -2543,7 +2543,7 @@
         "coding-schemes"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
       "status": "candidate"
@@ -2562,7 +2562,7 @@
         "snomed-ct"
       ],
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-gps"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-gps"
       ],
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
       "status": "candidate"
@@ -2587,8 +2587,8 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): A technical expert who creates and adapts software solutions. Sometimes referred to as a developer (section 2.2).",
       "status": "candidate"
@@ -2606,8 +2606,8 @@
         "systems-architecture"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/digital-infrastructure",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/application-component"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-infrastructure",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-component"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2631,8 +2631,8 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who designs the overall technical structure of the system, making sure all the parts fit together and can connect with other digital health systems (section 2.2).",
       "status": "candidate"
@@ -2685,8 +2685,8 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Health facility in-charge, clinical supervisor or district primary health care manager who oversees service delivery, data quality, staff training, legacy system phase-out and electronic data-use culture (sections 1.1, 3.1, 5.1, 6.4, 6.5).",
       "status": "candidate"
@@ -2718,8 +2718,8 @@
         "technical-debt"
       ],
       "closeMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2741,7 +2741,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/CoreDataElement",
-        "https://litlfred.github.io/smart-base/v0/ns#DataElement"
+        "https://litlfred.github.io/smart-base/v0/ns/DataElement"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Systolic blood pressure (SBP): peak arterial blood pressure during cardiac contraction, captured as a core clinical data element and evaluated alongside diastolic blood pressure (DBP) in clinical decision support rules.",
       "status": "candidate"
@@ -2757,8 +2757,8 @@
       "related": [
         "legacy-system",
         "systems-architecture",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2783,8 +2783,8 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): An internal or external software development team or vendor organization responsible for configuring, building, testing, deploying and maintaining the PCPOSS software (sections 2.2, 4.1, 5.1.2).",
       "status": "candidate"
@@ -2800,8 +2800,8 @@
         "snomed-ct",
         "logical-observation-identifiers-names-and-codes",
         "international-classification-of-diseases",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
-        "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Structured vocabularies of clinical and health terms (such as SNOMED-CT and LOINC) that provide standardized meaning to concepts recorded and exchanged across digital health systems.",
       "status": "candidate"
@@ -2852,8 +2852,8 @@
         "workflow",
         "pop-up-message",
         "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
-        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess",
-        "https://litlfred.github.io/smart-base/v0/ns#SchedulingLogic"
+        "https://litlfred.github.io/smart-base/v0/ns/BusinessProcess",
+        "https://litlfred.github.io/smart-base/v0/ns/SchedulingLogic"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2944,7 +2944,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/UserScenario",
-        "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
+        "https://litlfred.github.io/smart-base/v0/ns/UserScenario"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -2967,7 +2967,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/TestScenario",
-        "https://litlfred.github.io/smart-base/v0/ns#TestScenario"
+        "https://litlfred.github.io/smart-base/v0/ns/TestScenario"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -3014,8 +3014,8 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona",
-        "https://litlfred.github.io/smart-base/v0/ns#ActorDefinition"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona",
+        "https://litlfred.github.io/smart-base/v0/ns/ActorDefinition"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -3039,7 +3039,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/GenericPersona",
-        "https://litlfred.github.io/smart-base/v0/ns#Persona"
+        "https://litlfred.github.io/smart-base/v0/ns/Persona"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): Someone who studies how health workers and other users actually work, through interviews and observations, to make sure the system fits their real-world context (section 2.2).",
       "status": "candidate"
@@ -3056,7 +3056,7 @@
       ],
       "exactMatch": [
         "http://smart.who.int/base/StructureDefinition/UserScenario",
-        "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
+        "https://litlfred.github.io/smart-base/v0/ns/UserScenario"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) narrative component describing how generic personas interact with the digital system during a specific care encounter or workflow.",
       "status": "candidate"
@@ -3078,9 +3078,9 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
-        "https://litlfred.github.io/smart-base/v0/ns#FunctionalRequirement",
+        "https://litlfred.github.io/smart-base/v0/ns/FunctionalRequirement",
         "http://smart.who.int/base/StructureDefinition/UserScenario",
-        "https://litlfred.github.io/smart-base/v0/ns#UserScenario"
+        "https://litlfred.github.io/smart-base/v0/ns/UserScenario"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"
@@ -3155,7 +3155,7 @@
       ],
       "closeMatch": [
         "http://smart.who.int/base/StructureDefinition/BusinessProcessWorkflow",
-        "https://litlfred.github.io/smart-base/v0/ns#BusinessProcess"
+        "https://litlfred.github.io/smart-base/v0/ns/BusinessProcess"
       ],
       "scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
       "status": "candidate"

@@ -3,8 +3,8 @@
   "definitionVersion": "smart-kg/docs/COVERAGE.md (markers §1, reasons §2) — folio-assistant-core l1-coverage v1",
   "matchMethod": "normalised-substring",
   "totals": {
-    "normative": 274,
-    "captured": 274,
+    "normative": 260,
+    "captured": 260,
     "excluded": 0,
     "unaccounted": 0,
     "capturedPct": 100,
@@ -44,8 +44,8 @@
     {
       "sectionId": "sec-002-glossary",
       "page": 4,
-      "normative": 5,
-      "captured": 5,
+      "normative": 7,
+      "captured": 7,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -54,8 +54,8 @@
     {
       "sectionId": "sec-003-introduction",
       "page": 5,
-      "normative": 8,
-      "captured": 8,
+      "normative": 6,
+      "captured": 6,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -134,8 +134,8 @@
     {
       "sectionId": "sec-011-25-choices-for-software-and-digital-applications",
       "page": 13,
-      "normative": 6,
-      "captured": 6,
+      "normative": 2,
+      "captured": 2,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -144,8 +144,8 @@
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
       "page": 14,
-      "normative": 10,
-      "captured": 10,
+      "normative": 12,
+      "captured": 12,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -164,8 +164,8 @@
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
       "page": 16,
-      "normative": 35,
-      "captured": 35,
+      "normative": 34,
+      "captured": 34,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -214,8 +214,8 @@
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
       "page": 21,
-      "normative": 13,
-      "captured": 13,
+      "normative": 10,
+      "captured": 10,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -224,8 +224,8 @@
     {
       "sectionId": "sec-020-41-finalize-software-and-vendor-selection",
       "page": 22,
-      "normative": 3,
-      "captured": 3,
+      "normative": 5,
+      "captured": 5,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -264,36 +264,6 @@
     {
       "sectionId": "sec-024-45-build-and-quality-assurance",
       "page": 26,
-      "normative": 9,
-      "captured": 9,
-      "excluded": 0,
-      "unaccounted": 0,
-      "capturedPct": 100,
-      "accountedForPct": 100
-    },
-    {
-      "sectionId": "sec-025-51-develop-and-conduct-training",
-      "page": 27,
-      "normative": 2,
-      "captured": 2,
-      "excluded": 0,
-      "unaccounted": 0,
-      "capturedPct": 100,
-      "accountedForPct": 100
-    },
-    {
-      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "page": 28,
-      "normative": 9,
-      "captured": 9,
-      "excluded": 0,
-      "unaccounted": 0,
-      "capturedPct": 100,
-      "accountedForPct": 100
-    },
-    {
-      "sectionId": "sec-027-53-deploy-the-system",
-      "page": 29,
       "normative": 5,
       "captured": 5,
       "excluded": 0,
@@ -302,10 +272,40 @@
       "accountedForPct": 100
     },
     {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "page": 27,
+      "normative": 12,
+      "captured": 12,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
+      "page": 28,
+      "normative": 6,
+      "captured": 6,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-027-53-deploy-the-system",
+      "page": 29,
+      "normative": 1,
+      "captured": 1,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
       "sectionId": "sec-028-54-manage-feedback-and-system-maintenance",
       "page": 30,
-      "normative": 3,
-      "captured": 3,
+      "normative": 1,
+      "captured": 1,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -314,12 +314,12 @@
     {
       "sectionId": "sec-029-61-determine-readiness-for-scaling-up",
       "page": 31,
-      "normative": 0,
-      "captured": 0,
+      "normative": 1,
+      "captured": 1,
       "excluded": 0,
       "unaccounted": 0,
-      "capturedPct": null,
-      "accountedForPct": null
+      "capturedPct": 100,
+      "accountedForPct": 100
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
@@ -434,8 +434,8 @@
     {
       "sectionId": "sec-041-form-data-mapping-guide",
       "page": 43,
-      "normative": 18,
-      "captured": 18,
+      "normative": 15,
+      "captured": 15,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -444,8 +444,8 @@
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
       "page": 44,
-      "normative": 21,
-      "captured": 21,
+      "normative": 17,
+      "captured": 17,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -454,8 +454,8 @@
     {
       "sectionId": "sec-043-template-for-a-decision-support-table",
       "page": 45,
-      "normative": 5,
-      "captured": 5,
+      "normative": 7,
+      "captured": 7,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -464,8 +464,8 @@
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
       "page": 46,
-      "normative": 13,
-      "captured": 13,
+      "normative": 10,
+      "captured": 10,
       "excluded": 0,
       "unaccounted": 0,
       "capturedPct": 100,
@@ -563,7 +563,7 @@
       "sectionId": "sec-front-matter",
       "location": "p1:s31",
       "page": 1,
-      "text": "In no event shall WHO be liable for damages arising from its use. iii Contents Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iv Abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . v Glossary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vi 1.",
+      "text": "In no event shall WHO be liable for damages arising from its use.",
       "markers": [
         "obligation"
       ],
@@ -574,18 +574,18 @@
       "sectionId": "sec-002-glossary",
       "location": "p4:s1",
       "page": 4,
-      "text": "Algorithm A specification of how a computer shall solve a problem, perform a calculation and execute a task.",
+      "text": "| Term | Definition | | --- | --- | | Algorithm | A specification of how a computer shall solve a problem, perform a calculation and execute a task. | | Annotation | In a decision table, an annotation simply provides further details and explanation to the rule, for those working on and working from the decision table. | | As-is | The current state of things (also see to-be). | | Beta version | The initial version of the software, after prototyping, that is available for testing among a limited group of people. | | Build | In the context of developing a person-centred point of service system (PCPOSS), build is when a software engineer is writing the necessary code or programming the software. | | Business objective | A time-targeted and measurable output or outcome of a routine health system function.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "front-matter/t-fm-glossary"
+      "node": "glossary/t-fm-abbreviations"
     },
     {
       "sectionId": "sec-002-glossary",
-      "location": "p4:s45",
+      "location": "p4:s15",
       "page": 4,
-      "text": "Functional requirements Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with).",
+      "text": "“calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS). | | Functional requirements | Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with). | | Health service users | Also known as patients, clients or beneficiaries, these are individuals who receive formal and/or informal health services. | | Health service user’s health records | The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker.",
       "markers": [
         "obligation"
       ],
@@ -594,29 +594,29 @@
     },
     {
       "sectionId": "sec-002-glossary",
-      "location": "p4:s65",
+      "location": "p4:s25",
       "page": 4,
-      "text": "An opensource software must have a license approved by the Open Source Initiative (19).",
+      "text": "An open- source software must have a license approved by the Open Source Initiative (19). | | Open standards | Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "front-matter/t-fm-glossary"
+      "node": "glossary/t-fm-glossary"
     },
     {
       "sectionId": "sec-002-glossary",
-      "location": "p4:s88",
+      "location": "p4:s36",
       "page": 4,
-      "text": "SMART Guidelines Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations.",
+      "text": "If each input entry (condition) is satisfied, then the rule is satisfied, and the decision result contains the output entries (conclusion) of this rule (22). | | SMART Guidelines | Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "front-matter/t-fm-glossary"
+      "node": "glossary/t-fm-glossary"
     },
     {
       "sectionId": "sec-002-glossary",
-      "location": "p4:s89",
+      "location": "p4:s37",
       "page": 4,
       "text": "They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity.",
       "markers": [
@@ -626,9 +626,9 @@
       "node": "ch03-user-requirements/p-ch03-sec-016-data-dictionary"
     },
     {
-      "sectionId": "sec-003-introduction",
-      "location": "p5:s24",
-      "page": 5,
+      "sectionId": "sec-002-glossary",
+      "location": "p4:s70",
+      "page": 4,
       "text": "WHO guideline: recommendations on digital interventions for health system strengthening.",
       "markers": [
         "recommendation"
@@ -637,19 +637,19 @@
       "node": "ch01-introduction/f-ch01-fig-2"
     },
     {
-      "sectionId": "sec-003-introduction",
-      "location": "p5:s80",
-      "page": 5,
-      "text": "WHO SMART Guidelines: optimising countrylevel use of guideline recommendations in the digital age.",
+      "sectionId": "sec-002-glossary",
+      "location": "p4:s126",
+      "page": 4,
+      "text": "WHO SMART Guidelines: optimising country- level use of guideline recommendations in the digital age.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "front-matter/t-fm-glossary"
+      "node": "glossary/t-fm-glossary"
     },
     {
       "sectionId": "sec-003-introduction",
-      "location": "p5:s97",
+      "location": "p5:s11",
       "page": 5,
       "text": "In response to requests from Member States for normative guidance on digital health, the World Health Organization (WHO) launched WHO guideline: recommendations on digital interventions for health system strengthening in 2019 (2).",
       "markers": [
@@ -660,7 +660,7 @@
     },
     {
       "sectionId": "sec-003-introduction",
-      "location": "p5:s98",
+      "location": "p5:s12",
       "page": 5,
       "text": "Those evidence-based recommendations provide guidance to countries and regions looking to adopt digital health interventions as part of health system strengthening, and in support of universal health coverage or other health sector objectives.",
       "markers": [
@@ -671,7 +671,7 @@
     },
     {
       "sectionId": "sec-003-introduction",
-      "location": "p5:s99",
+      "location": "p5:s13",
       "page": 5,
       "text": "WHO recommends (recommendation 8) the use of digital tracking of clients’ health status and services, combined with decision support (see Fig.",
       "markers": [
@@ -682,7 +682,7 @@
     },
     {
       "sectionId": "sec-003-introduction",
-      "location": "p5:s101",
+      "location": "p5:s15",
       "page": 5,
       "text": "To support implementation of this recommendation, a person-centred point of service system (PCPOSS) is needed to improve effective coverage and increase accountability at the point of service or point of care.",
       "markers": [
@@ -693,7 +693,7 @@
     },
     {
       "sectionId": "sec-003-introduction",
-      "location": "p5:s125",
+      "location": "p5:s31",
       "page": 5,
       "text": "2 The 2019 WHO guideline: recommendations on digital interventions for health system strengthening Expected Contribution to universal health coverage (UHC) Digital health intervention (accessible at a minimum via mobile devices) Recommendation Effective coverage Accountability coverage Digital tracking of clients’ health status and services (digital tracking) combined with decision support Recommendation 8: WHO recommends digital tracking of clients’ health status and services, combined with decision support under these conditions: • in settings where the health system can support the implementation of these intervention components in an integrated manner; and • for tasks that are already defined as within the scope of practice for the health worker.",
       "markers": [
@@ -704,7 +704,7 @@
     },
     {
       "sectionId": "sec-003-introduction",
-      "location": "p5:s126",
+      "location": "p5:s32",
       "page": 5,
       "text": "(Recommended only in specific contexts or conditions) Source: WHO, 2019 (2).",
       "markers": [
@@ -726,7 +726,7 @@
     },
     {
       "sectionId": "sec-004-11-person-centred-point-of-service-systems",
-      "location": "p6:s20",
+      "location": "p6:s11",
       "page": 6,
       "text": "It should be noted that community-based information systems, decision support systems, electronic health record systems and personal health records may exist separately.",
       "markers": [
@@ -737,7 +737,7 @@
     },
     {
       "sectionId": "sec-004-11-person-centred-point-of-service-systems",
-      "location": "p6:s30",
+      "location": "p6:s21",
       "page": 6,
       "text": "WHO is software agnostic and does not provide recommendations on specific digital health tools, software or platforms.",
       "markers": [
@@ -816,7 +816,7 @@
       "sectionId": "sec-005-12-smart-guidelines",
       "location": "p7:s11",
       "page": 7,
-      "text": "5 WHO SMART Guidelines approach L1 Narrative Guideline and data recommendations: L2 Operational Semi-structured documentation of operational and functional requirments: L3 \u0007Machine readable Structured, software-neutral specifications, code, terminology and interoperability standards: L4 \u0007Executable Software that is able to execute static algorithms and interoperable digital components and deliver operational and functional requirements: L5 Dynamic Executable dynamic algorithms that are trained and optimised with advance analytics to achieve prioritise outcomes: Data, evidence, and impact Research and evidence base Enhanced guidelines Digital adaptation kits Machine-readable recommendations Reference software Precision health models Localisation Evidence from digital implementations Knowledge layers and associated products Country implementation L1 L1 Adaptation National policies, guidelines, data, and operational procedures L1 Adaptation Localised requirements L1 Adaptation Localised machine readable code and standards L1 Adaptation Localised static digital services and applications within a digital health enterprise L1 Adaptation Dynamic digital applications and services trained and optimised for prioritised local outcomes L2 L2 L3 L3 L4 L4 L5 L5 L1 Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Introduction 9",
+      "text": "5 WHO SMART Guidelines approach L1 Narrative Guideline and data recommendations: L2 Operational Semi-structured documentation of operational and functional requirments: L3 \u0007Machine readable Structured, software-neutral specifications, code, terminology and interoperability standards: L4 \u0007Executable Software that is able to execute static algorithms and interoperable digital components and deliver operational and functional requirements: L5 Dynamic Executable dynamic algorithms that are trained and optimised with advance analytics to achieve prioritise outcomes: Data, evidence, and impact Research and evidence base Enhanced guidelines Digital adaptation kits Machine-readable recommendations Reference software Precision health models Localisation Evidence from digital implementations Knowledge layers and associated products Country implementation L1 L1 Adaptation National policies, guidelines, data, and operational procedures L1 Adaptation Localised requirements L1 Adaptation Localised machine readable code and standards L1 Adaptation Localised static digital services and applications within a digital health enterprise L1 Adaptation Dynamic digital applications and services trained and optimised for prioritised local outcomes L2 L2 L3 L3 L4 L4 L5 L5 L1",
       "markers": [
         "recommendation"
       ],
@@ -894,7 +894,7 @@
       "sectionId": "sec-009-23-before-using-this-resource",
       "location": "p11:s15",
       "page": 11,
-      "text": "WHO core indicator sets Global digital health index WHO digital health atlas Digital health investment review tool HIS stages of continuous improvement + Conduct an inventory of existing or previously used software applications, ICT systems and other tools to better understand the requirements for reuse and interoperability + Develop a national digital health strategy outlining overarching needs, desired activities and outcomes + Define a vision for how the health system will be strengthened through the use of digital technology + Formulate a digital health investment roadmap to support the national digital health strategy + Plan and identify appropriate digital interventions, alongside the health and data content, to improve health system processes and address programmatic needs + Review the current state and develop an architecture blueprint for the design of the digital health implementations + Identify validated open standards to ensure data exchange, systems integration and future-proofing of digital health implementations + Monitor implementation to ensure digital implementations are functioning as intended and having the desired effect + Foster data-driven adaptive change management within the overall health system + Identify validated health content appropriate for the implementation context + Ensure use of content aligned with identified standards for the future state + Maintain and sustain digital health implementations + Identify risks and appropriate mitigations ASSESSING THE CURRENT STATE AND ENABLING ENVIRONMENT PHASE 01 DEFINING THE FUTURE STATE PHASE 03 M&E OF DIGITAL HEALTH IMPLEMENTATIONS AND FOSTERING DATA USE PHASE 06 DETERMINING HEALTH CONTENT REQUIREMENTS PHASE 05 ESTABLISHING A SHARED UNDERSTANDING AND STRATEGIC PLANNING PHASE 02 IMPLEMENTING, MAINTAINING AND SCALING PHASE 07 PLANNING THE ENTERPRISE ARCHITECTURE PHASE 04 WHO–ITU national eHealth strategy toolkit WHO classification of digital health interventions WHO guideline: recommendations on digital interventions for health system strengthening ITU digital health platform handbook UNICEF humancentred design toolkit World Bank digital identity toolkit WHO digital clearinghouse Digital implementation investment guide (DIIG) DIIG Quick deployment guide Asian Development Bank total cost of ownership tool Handbook on approaches to implementing standardized national product catalog WHO MAPS toolkit: mHealth assessment and planning for scale Handbook on approaches to implementing digital health supply chain WHO handbook for digitalizing primary health care (this document) Be He@lthy, Be Mobile handbooks for noncommunicable diseases WHO FIC ICD-11 HL7 FHIR LOINC PATH Defining and building a data use culture MEASURE Tools for Data Demand and Use in the Health Sector WHO SCORE for health data technical package Ethics and governance of artificial intelligence for health WHO M&E digital health interventions ITU SDG digital investment framework (eGov) Open Health Information Exchange (Open HIE) PDF for print Online environment The Open Group Architecture Framework (TOGAF) Terminology Service Global Digital Health Certification Network (GDHCN) Digital Square global goods guidebook Principles for donor alignment Principles for digital development Training Planning National Systems course Machinereadable recommendations Digital adaptation kits WHO SMART guidelines STEPS Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes How to use this handbook 13 A further assumption is that users of this handbook have already considered the feasibility of implementing a PCPOSS in terms of some key foundational elements that are needed.",
+      "text": "WHO core indicator sets Global digital health index WHO digital health atlas Digital health investment review tool HIS stages of continuous improvement + Conduct an inventory of existing or previously used software applications, ICT systems and other tools to better understand the requirements for reuse and interoperability + Develop a national digital health strategy outlining overarching needs, desired activities and outcomes + Define a vision for how the health system will be strengthened through the use of digital technology + Formulate a digital health investment roadmap to support the national digital health strategy + Plan and identify appropriate digital interventions, alongside the health and data content, to improve health system processes and address programmatic needs + Review the current state and develop an architecture blueprint for the design of the digital health implementations + Identify validated open standards to ensure data exchange, systems integration and future-proofing of digital health implementations + Monitor implementation to ensure digital implementations are functioning as intended and having the desired effect + Foster data-driven adaptive change management within the overall health system + Identify validated health content appropriate for the implementation context + Ensure use of content aligned with identified standards for the future state + Maintain and sustain digital health implementations + Identify risks and appropriate mitigations ASSESSING THE CURRENT STATE AND ENABLING ENVIRONMENT PHASE 01 DEFINING THE FUTURE STATE PHASE 03 M&E OF DIGITAL HEALTH IMPLEMENTATIONS AND FOSTERING DATA USE PHASE 06 DETERMINING HEALTH CONTENT REQUIREMENTS PHASE 05 ESTABLISHING A SHARED UNDERSTANDING AND STRATEGIC PLANNING PHASE 02 IMPLEMENTING, MAINTAINING AND SCALING PHASE 07 PLANNING THE ENTERPRISE ARCHITECTURE PHASE 04 WHO–ITU national eHealth strategy toolkit WHO classification of digital health interventions WHO guideline: recommendations on digital interventions for health system strengthening ITU digital health platform handbook UNICEF humancentred design toolkit World Bank digital identity toolkit WHO digital clearinghouse Digital implementation investment guide (DIIG) DIIG Quick deployment guide Asian Development Bank total cost of ownership tool Handbook on approaches to implementing standardized national product catalog WHO MAPS toolkit: mHealth assessment and planning for scale Handbook on approaches to implementing digital health supply chain WHO handbook for digitalizing primary health care (this document) Be He@lthy, Be Mobile handbooks for noncommunicable diseases WHO FIC ICD-11 HL7 FHIR LOINC PATH Defining and building a data use culture MEASURE Tools for Data Demand and Use in the Health Sector WHO SCORE for health data technical package Ethics and governance of artificial intelligence for health WHO M&E digital health interventions ITU SDG digital investment framework (eGov) Open Health Information Exchange (Open HIE) PDF for print Online environment The Open Group Architecture Framework (TOGAF) Terminology Service Global Digital Health Certification Network (GDHCN) Digital Square global goods guidebook Principles for donor alignment Principles for digital development Training Planning National Systems course Machinereadable recommendations Digital adaptation kits WHO SMART guidelines STEPS A further assumption is that users of this handbook have already considered the feasibility of implementing a PCPOSS in terms of some key foundational elements that are needed.",
       "markers": [
         "recommendation"
       ],
@@ -946,9 +946,9 @@
       "node": "ch02-how-to-use/p-ch02-sec-011-software-choices"
     },
     {
-      "sectionId": "sec-011-25-choices-for-software-and-digital-applications",
-      "location": "p13:s12",
-      "page": 13,
+      "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
+      "location": "p14:s5",
+      "page": 14,
       "text": "By the end of this chapter, the implementation team should have a clear understanding of the scope of the system, how the workflows and data flow may need to be optimized, and the relevant data that will need to be collected and accounted for at individual and aggregate levels.",
       "markers": [
         "obligation"
@@ -957,41 +957,19 @@
       "node": "ch03-user-requirements/p-ch03-overview"
     },
     {
-      "sectionId": "sec-011-25-choices-for-software-and-digital-applications",
-      "location": "p13:s13",
-      "page": 13,
-      "text": "If a digital system already exists, the team should also have a clear understanding of the key functionalities and features of the present system, and how a PCPOSS would complement or upgrade the present system.",
+      "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
+      "location": "p14:s6",
+      "page": 14,
+      "text": "If a digital system already exists, the team should also have a clear understanding of the key functionalities and features of the present system, and how a PCPOSS would complement or upgrade the present system. | Component | Details | | --- | --- | | **Who should be involved?** | • Targeted health worker occupational groups (e.g. physicians, nurses, midwives and community health workers), health service users and any other intended end-users, should guide the requirements for a PCPOSS.<br>• Business analysts, health informaticians and people trained in user research should lead the process of gathering requirements and ensuring that the solution will adhere to interoperability standards.<br>• Software engineers should be engaged so they understand the context of the solution they will be responsible for building.<br>• The public health authority should preferably be responsible for these tasks, or at least be consulted and involved throughout the entire process. | | **Inputs** | • National health strategy, digital health strategy, health policies, and a strategic direction and scope for the PCPOSS<br>• Health information system, privacy, security and data use policies<br>• Digital health architecture blueprint and high-level requirements for meeting interoperability standards<br>• Infrastructure readiness assessment<br>• Unique identifier method<br>• List of anticipated outcomes against which to measure success<br>• World Health Organization (WHO) and national guidelines for the health area targeted, in addition to the standard operating procedures for care delivery, data and indicator definitions<br>• Existing paper records and register forms<br>• End user and key stakeholder interviews and insights | | **Tools** | • Observation templates (Annex 3)<br>• User persona template (Annex 4)<br>• User stories template (Annex 5)<br>• Business process matrix template (Annex 6)<br>• WHO’s Digital adaptation kits<br>• Forms inventory template (Annex 7)<br>• Form data mapping template (Annex 8)<br>• Aggregate indicator mapping template (Annex 9)<br>• Decision table and scheduling matrix template (Annex 10)<br>• Decision table template (Annex 11)<br>• Service schedule template (Annex 12)<br>• Prioritization of requirements template (Annex 13) | | **Outputs** | Requirements documentation that includes:<br>• User personas<br>• Use cases<br>• User stories<br>• As-is and to-be business processes<br>• Data dictionary and data model<br>• Documented health service schedule<br>• Documented decision logic algorithms<br>• List of indicators and calculation method<br>• Prioritized functional and non-functional requirements | A combination of methods can be used to corroborate information and better guide the process outlined in this chapter for assessing needs and gathering requirements.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-overview"
-    },
-    {
-      "sectionId": "sec-011-25-choices-for-software-and-digital-applications",
-      "location": "p13:s14",
-      "page": 13,
-      "text": "Who should be involved?",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch03-user-requirements/t-ch03-phase-panel"
-    },
-    {
-      "sectionId": "sec-011-25-choices-for-software-and-digital-applications",
-      "location": "p13:s15",
-      "page": 13,
-      "text": "Understand user requirements • Targeted health worker occupational groups (e.g. physicians, nurses, midwives and community health workers), health service users and any other intended end-users, should guide the requirements for a PCPOSS. • Business analysts, health informaticians and people trained in user research should lead the process of gathering requirements and ensuring that the solution will adhere to interoperability standards. • Software engineers should be engaged so they understand the context of the solution they will be responsible for building. • The public health authority should preferably be responsible for these tasks, or at least be consulted and involved throughout the entire process.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-04-user-persona-worksheet"
+      "node": "annexes/p-annex-14-fhir-components"
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s4",
+      "location": "p14:s9",
       "page": 14,
       "text": "The desk review should prioritize national and context-specific guidelines.",
       "markers": [
@@ -1002,20 +980,9 @@
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s6",
+      "location": "p14:s11",
       "page": 14,
       "text": "Global resources that have previously documented health worker workflows should also be consulted since they provide valuable examples that may be applicable to other contexts.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-sec-012-methods"
-    },
-    {
-      "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s12",
-      "page": 14,
-      "text": "Note that strict health service user confidentiality must always be respected while observing interactions between health workers and health service users, and all the necessary consent should also be obtained.",
       "markers": [
         "obligation"
       ],
@@ -1035,7 +1002,18 @@
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s18",
+      "location": "p14:s20",
+      "page": 14,
+      "text": "Note that strict health service user confidentiality must always be respected while observing interactions between health workers and health service users, and all the necessary consent should also be obtained.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-user-requirements/p-ch03-sec-012-methods"
+    },
+    {
+      "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
+      "location": "p14:s26",
       "page": 14,
       "text": "Interviewers should agree on a minimum set of questions to provide structure, but this should neither limit possible follow-up nor further questions being asked for clarification.",
       "markers": [
@@ -1046,7 +1024,7 @@
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s19",
+      "location": "p14:s27",
       "page": 14,
       "text": "Interviews should ideally take place at the end-user’s place of work (e.g. in the health-care facilities and external locations where health services are provided), to allow the team to have an in-depth understanding of the context in which systems will be implemented.",
       "markers": [
@@ -1057,7 +1035,7 @@
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s27",
+      "location": "p14:s32",
       "page": 14,
       "text": "Interviews are not for confirming our biases or preconceived hypotheses of what a system should do, and questions should be structured accordingly. • Start interviews with broad questions to build rapport and gain trust.",
       "markers": [
@@ -1068,7 +1046,7 @@
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s44",
+      "location": "p14:s49",
       "page": 14,
       "text": "After the health workers have been shadowed, follow-up interviews with the same health workers should follow.",
       "markers": [
@@ -1079,7 +1057,7 @@
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s45",
+      "location": "p14:s50",
       "page": 14,
       "text": "Questions should cover any issues about: • inconsistencies noted in workflows; • irregularities or deviations from the set schedule; • the manner and frequency with which data were recorded; • supervisory functions; • any special circumstances that led to variations in workflow, scheduling, reporting, etc.; • any workload redundancy, or overlap or integration with other health workers; and • any other issues relevant to understanding the health worker roles.",
       "markers": [
@@ -1090,7 +1068,7 @@
     },
     {
       "sectionId": "sec-012-31-follow-key-requirement-gathering-methods",
-      "location": "p14:s48",
+      "location": "p14:s53",
       "page": 14,
       "text": "3.1.4 Requirements-gathering workshops The size of a requirements-gathering workshop will depend on the scale of the solution, but workshops should include key stakeholders, including the end-users and secondary users (such as supervisors), to gather the necessary requirements for the system, such as whether the solution will be deployed on mobile devices, desktop computers, or both; and whether the platform operates online, offline, or both.",
       "markers": [
@@ -1213,12 +1191,12 @@
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
       "location": "p16:s13",
       "page": 16,
-      "text": "Family planning counselling can happen alongside other health services (e.g. nutrition counselling, child immunizations) • Take client history • Conduct a risk assessment • Discuss issues and concerns if a returning client or a client already on a method • Counsel on possible family planning methods and reproductive intentions • Check medical eligibility criteria • Select method • Check stock and skills for delivering method • If facility is not equipped to provide the method, refer C Service provision FP.C • Client • Health-care provider To provide the method(s) or service(s) the client requires, if the client is medically eligible for them Starting point: Client has selected a method and is medically eligible or eligible with clinical judgment • Obtain informed consent • Determine when to start method • Provide method and/or explain how to use method • Discuss dual protection • Determine follow-up requirements and schedule follow-up, if needed Source: WHO (30) Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Digital transformation handbook for primary health care 24 3.3.1 Workflow mapping conventions Once the requirements-gathering team has taken an inventory of the key business processes using the business process matrix, the relevant workflows should be created.",
+      "text": "Family planning counselling can happen alongside other health services (e.g. nutrition counselling, child immunizations)<br>• Take client history<br>• Conduct a risk assessment<br>• Discuss issues and concerns if a returning client or a client already on a method<br>• Counsel on possible family planning methods and reproductive intentions<br>• Check medical eligibility criteria<br>• Select method<br>• Check stock and skills for delivering method<br>• If facility is not equipped to provide the method, refer | | **C** | Service provision | FP.C | • Client<br>• Health-care provider | To provide the method(s) or service(s) the client requires, if the client is medically eligible for them | Starting point: Client has selected a method and is medically eligible or eligible with clinical judgment<br>• Obtain informed consent<br>• Determine when to start method<br>• Provide method and/or explain how to use method<br>• Discuss dual protection<br>• Determine follow-up requirements and schedule follow-up, if needed | Source: WHO (30) 3.3.1 Workflow mapping conventions Once the requirements-gathering team has taken an inventory of the key business processes using the business process matrix, the relevant workflows should be created.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-9"
+      "node": "ch03-user-requirements/p-ch03-sec-014-workflows"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
@@ -1299,9 +1277,9 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s33",
+      "location": "p16:s31",
       "page": 16,
-      "text": "Start event or trigger event The workflow diagram should contain both a start and an end event, defining the beginning and completion of the task, respectively.",
+      "text": "For example, a nurse may have one swim lane; the supervisor would be in another swim lane; the health service users would be classified in another swim lane. | | Thin circle | **Start event or trigger event** | The workflow diagram should contain both a start and an end event, defining the beginning and completion of the task, respectively. | | Thin circle with envelope | **Start event message** | This is a type of start event.",
       "markers": [
         "obligation"
       ],
@@ -1310,9 +1288,9 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s39",
+      "location": "p16:s35",
       "page": 16,
-      "text": "However, for diagram clarity, there should only be one end event per swim lane.",
+      "text": "However, for diagram clarity, there should only be one end event per swim lane. | | Rounded rectangle | **Activity, process, step or task** | Each activity should start with a verb, for example, “register client”, “calculate risk”.",
       "markers": [
         "obligation"
       ],
@@ -1321,18 +1299,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s40",
-      "page": 16,
-      "text": "Activity, process, step or task Each activity should start with a verb, for example, “register client”, “calculate risk”.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch03-user-requirements/t-ch03-table-1"
-    },
-    {
-      "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s41",
+      "location": "p16:s36",
       "page": 16,
       "text": "Between the start and end of a workflow, there should be a series of activities noting the successive actions performed by the actor in that swim lane.",
       "markers": [
@@ -1343,9 +1310,9 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s44",
+      "location": "p16:s38",
       "page": 16,
-      "text": "If the diagram starts to become too complex and unhelpful, the subprocess symbol should be used to reference another process depicted on another page.",
+      "text": "If the diagram starts to become too complex and unhelpful, the subprocess symbol should be used to reference another process depicted on another page. | | Rounded rectangle with table icon | **Activity with business rule** | This denotes a decision-making activity that requires the business rule, or decision-support logic, to be detailed in a decision-support table.",
       "markers": [
         "obligation"
       ],
@@ -1354,7 +1321,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s51",
+      "location": "p16:s42",
       "page": 16,
       "text": "One or more tasks in this shape should be performed, and they can be performed in any order.",
       "markers": [
@@ -1365,7 +1332,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s54",
+      "location": "p16:s44",
       "page": 16,
       "text": "The end event should not have any output arrows.",
       "markers": [
@@ -1376,7 +1343,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s56",
+      "location": "p16:s46",
       "page": 16,
       "text": "All symbols (except for end event and gateway) should have one and only one output arrow, leading to a new symbol, looping back to a previously used symbol or to the end event symbol.",
       "markers": [
@@ -1387,9 +1354,9 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s57",
+      "location": "p16:s47",
       "page": 16,
-      "text": "Connecting arrows should not intersect (cross) each other.",
+      "text": "Connecting arrows should not intersect (cross) each other. | | Dashed arrow | **Message flow** | This denotes the flow of data or information from one process to another.",
       "markers": [
         "negation"
       ],
@@ -1398,7 +1365,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s61",
+      "location": "p16:s49",
       "page": 16,
       "text": "There should only be two different outputs that originate from the decision point.",
       "markers": [
@@ -1409,9 +1376,9 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s63",
+      "location": "p16:s51",
       "page": 16,
-      "text": "This should be depicted as an activity with business rule (above) instead.",
+      "text": "This should be depicted as an activity with business rule (above) instead. | | Diamond with `+` | **Parallel gateway** | The parallel gateway symbol is used to depict a split in the workflow into more than one concurrent activities and pathways in a workflow.",
       "markers": [
         "obligation"
       ],
@@ -1420,7 +1387,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s74",
+      "location": "p16:s58",
       "page": 16,
       "text": "The above selection of symbols should be sufficient, though, for the purposes of illustrating the business process workflows in a clear, standardized way.",
       "markers": [
@@ -1431,7 +1398,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s76",
+      "location": "p16:s60",
       "page": 16,
       "text": "Each workflow diagram should be clearly named with the service title and given a process ID number – for example, “1.",
       "markers": [
@@ -1442,7 +1409,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s81",
+      "location": "p16:s65",
       "page": 16,
       "text": "Additionally, each task, or activity, should be numbered with an activity ID, and consistent language should be used across processes.",
       "markers": [
@@ -1453,51 +1420,51 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s103",
+      "location": "p16:s87",
       "page": 16,
       "text": "For example, if it is known that a certain activity requires 1 hour of the health worker’s time every day, that should be recorded as an annotation.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-11"
+      "node": "ch03-user-requirements/p-ch03-sec-014-annotations"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s104",
+      "location": "p16:s88",
       "page": 16,
       "text": "Activities that cannot be digitized should also be labelled as such.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-11"
+      "node": "ch03-user-requirements/p-ch03-sec-014-annotations"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s105",
+      "location": "p16:s89",
       "page": 16,
       "text": "Annotations are also a useful way to take note of any national or global guidelines and recommendations that might have shaped a specific workflow.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-11"
+      "node": "ch03-user-requirements/p-ch03-sec-014-annotations"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s142",
+      "location": "p16:s126",
       "page": 16,
-      "text": "Source: WHO (29) Source: WHO (29) Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Understand user requirements 27 3.3.3 As-is and to-be analysis When developing the as-is workflow for each of the relevant processes, it should become clear which activities are redundant (as they are unnecessarily repeated across multiple workflows).",
+      "text": "Source: WHO (29) Source: WHO (29) 3.3.3 As-is and to-be analysis When developing the as-is workflow for each of the relevant processes, it should become clear which activities are redundant (as they are unnecessarily repeated across multiple workflows).",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-11"
+      "node": "ch03-user-requirements/p-ch03-sec-014-workflows"
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s144",
+      "location": "p16:s128",
       "page": 16,
       "text": "If a health service user has already registered (i.e. provided their name, age, address and other demographic information) for the purposes of immunization, they should not have to give the same information again for the purposes of ANC.",
       "markers": [
@@ -1508,7 +1475,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s147",
+      "location": "p16:s131",
       "page": 16,
       "text": "An initial set of pain points should already have been gathered through observations and interviews, but this analysis will systematically depict them.",
       "markers": [
@@ -1519,7 +1486,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s148",
+      "location": "p16:s132",
       "page": 16,
       "text": "Once the as-is workflows are mapped, the to-be workflows should be mapped to depict how the PCPOSS can automate certain activities, remove redundancies and improve the overall workflow, by increasing efficiencies, or improving effectiveness and overall quality of care.",
       "markers": [
@@ -1530,7 +1497,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s150",
+      "location": "p16:s134",
       "page": 16,
       "text": "If the as-is workflows reveal persistent gaps in adhering to service-delivery protocols, for example, the to-be workflows should address those gaps by either providing a more usable solution (e.g. a pre-filled form or facilitated calculation) or simply eliminating the need to follow that specific step (e.g. through an automated functionality in the system).",
       "markers": [
@@ -1541,7 +1508,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s151",
+      "location": "p16:s135",
       "page": 16,
       "text": "Using the same BPMN standard described in section 3.3.1 (workflow mapping conventions), the to-be workflows should: • eliminate redundant tasks; • eliminate unnecessary data collection; • reduce bottlenecks; • consolidate related tasks if possible; • create more linkages to data across health worker occupational groups; • attempt to improve the quality-of-service delivery and the accountability mechanisms overall; and • integrate service delivery across different levels of the health system along care pathways.",
       "markers": [
@@ -1552,7 +1519,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s153",
+      "location": "p16:s137",
       "page": 16,
       "text": "Furthermore, because the workflows (both manual and digital) will affect the usability of the digital system, it is important to gain consensus among the key stakeholder groups on what the to-be workflows should be.",
       "markers": [
@@ -1563,7 +1530,7 @@
     },
     {
       "sectionId": "sec-014-33-map-business-processes-and-workflows",
-      "location": "p16:s154",
+      "location": "p16:s138",
       "page": 16,
       "text": "At the end of this exercise, there should be: ❑ an inventory of business processes ❑ as-is workflows for each business process with points of data collection, bottlenecks and redundancies clearly labelled ❑ to-be workflows for each business process, clearly labelling where the PCPOSS would facilitate or entirely replace certain tasks.",
       "markers": [
@@ -1587,7 +1554,7 @@
       "sectionId": "sec-015-34-streamline-data-collection-and-indicator-repo",
       "location": "p17:s15",
       "page": 17,
-      "text": "CHECKPOINT WARNING Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Digital transformation handbook for primary health care 28 3.4.1 Create an inventory of paper forms The implementation team should begin the data mapping exercise by collating all the data collection instruments used by the targeted health worker for routine service delivery and reporting.",
+      "text": "CHECKPOINT WARNING 3.4.1 Create an inventory of paper forms The implementation team should begin the data mapping exercise by collating all the data collection instruments used by the targeted health worker for routine service delivery and reporting.",
       "markers": [
         "obligation"
       ],
@@ -1695,7 +1662,7 @@
     },
     {
       "sectionId": "sec-016-35-create-a-data-dictionary",
-      "location": "p18:s23",
+      "location": "p18:s9",
       "page": 18,
       "text": "As a result of the work already completed, all the data elements included in the data dictionary should now serve only the essential purposes of service delivery and accountability.",
       "markers": [
@@ -1706,7 +1673,7 @@
     },
     {
       "sectionId": "sec-016-35-create-a-data-dictionary",
-      "location": "p18:s33",
+      "location": "p18:s19",
       "page": 18,
       "text": "This type of data dictionary may be used to create the prototype and mock-up design, ultimately creating a well-defined and effective UI during the early stages of system development.",
       "markers": [
@@ -1717,7 +1684,7 @@
     },
     {
       "sectionId": "sec-016-35-create-a-data-dictionary",
-      "location": "p18:s41",
+      "location": "p18:s27",
       "page": 18,
       "text": "Engaging individuals with expertise in health informatics, classifications and terminologies in order to map data elements to standardized concepts is highly recommended.",
       "markers": [
@@ -1728,7 +1695,7 @@
     },
     {
       "sectionId": "sec-016-35-create-a-data-dictionary",
-      "location": "p18:s45",
+      "location": "p18:s31",
       "page": 18,
       "text": "If any widely used mappings already exist, it is highly recommended to simply adopt these.",
       "markers": [
@@ -1786,56 +1753,56 @@
       "sectionId": "sec-017-36-determine-decision-support-logic",
       "location": "p19:s43",
       "page": 19,
-      "text": "Check for signs of serious illness HIV.DT.01 Check for serious illness Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach (2021) (27) Table 5.1.",
+      "text": "Check for signs of serious illness | HIV.DT.01 | Check for serious illness | Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health<br>approach (2021) (27) Table 5.1.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-13"
+      "node": "ch03-user-requirements/t-ch03-fig-13"
     },
     {
       "sectionId": "sec-017-36-determine-decision-support-logic",
-      "location": "p19:s56",
+      "location": "p19:s53",
       "page": 19,
-      "text": "WHO recommended testing strategy for dual detection of HIV and syphilis in ANC settings.",
+      "text": "WHO recommended testing strategy for dual detection of HIV and syphilis in ANC settings.<br>Fig.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-13"
+      "node": "ch03-user-requirements/t-ch03-fig-13"
     },
     {
       "sectionId": "sec-017-36-determine-decision-support-logic",
-      "location": "p19:s60",
+      "location": "p19:s55",
       "page": 19,
-      "text": "Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach (2021) (27).",
+      "text": "WHO HIV testing strategy for early infant diagnosis.<br>Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health<br>approach (2021) (27).<br>Fig.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-13"
+      "node": "ch03-user-requirements/t-ch03-fig-13"
     },
     {
       "sectionId": "sec-017-36-determine-decision-support-logic",
-      "location": "p19:s65",
+      "location": "p19:s58",
       "page": 19,
-      "text": "Determine recommended services HIV.DT.03 Determine retest recommendation Consolidated guidelines on HIV testing services (2019) (22).",
+      "text": "Determine recommended services | HIV.DT.03 | Determine retest recommendation | Consolidated guidelines on HIV testing services (2019) (22).<br>7.2.4 Retesting – when and who?<br>7.2.5 Testing pregnant and breastfeeding women. | | HIV.C8.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-13"
+      "node": "ch03-user-requirements/t-ch03-fig-13"
     },
     {
       "sectionId": "sec-017-36-determine-decision-support-logic",
-      "location": "p19:s79",
+      "location": "p19:s67",
       "page": 19,
-      "text": "HIV.C.24 Prescribe HIV.DT.05 Determine PEP or PrEP regimen Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach (2021) (27) Chapter 3: HIV prevention.",
+      "text": "Technical brief<br>(2017) (29). | | HIV.C.24 Prescribe | HIV.DT.05 | Determine PEP or PrEP regimen | Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health<br>approach (2021) (27) Chapter 3: HIV prevention. | | HIV.D4.",
       "markers": [
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/f-ch03-fig-13"
+      "node": "ch03-user-requirements/t-ch03-fig-13"
     },
     {
       "sectionId": "sec-018-37-map-health-service-schedules",
@@ -1938,9 +1905,9 @@
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s8",
+      "location": "p21:s5",
       "page": 21,
-      "text": "CHECKPOINT Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Digital transformation handbook for primary health care 36 For the user story, “As a nurse/midwife, I want to know which health service users I need to follow up with today, so that I may plan my workday,” the functional requirements that would support health service user follow-up and workday planning could be that the system shall: • collect a list or register of the health worker’s health service users; • have a list of health service users that is filterable by risk stratification and overdue services; • automatically schedule (daily) health service users based on the health worker’s availability and the service(s) needed.",
+      "text": "For the user story, “As a nurse/midwife, I want to know which health service users I need to follow up with today, so that I may plan my workday,” the functional requirements that would support health service user follow-up and workday planning could be that the system shall: • collect a list or register of the health worker’s health service users; • have a list of health service users that is filterable by risk stratification and overdue services; • automatically schedule (daily) health service users based on the health worker’s availability and the service(s) needed.",
       "markers": [
         "obligation"
       ],
@@ -1949,7 +1916,7 @@
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s9",
+      "location": "p21:s6",
       "page": 21,
       "text": "The functional requirements for, “As a nurse/midwife, I want to know what to do in situations when I cannot ask my supervisor, so that I can still provide quality care,” could be that the system shall: • automatically calculate the total number of services provided daily, weekly, monthly and annually; • generate and push reports to a national monitoring and evaluation system.",
       "markers": [
@@ -1960,7 +1927,7 @@
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s12",
+      "location": "p21:s9",
       "page": 21,
       "text": "For example, if there is a point in a workflow where health service users must be triaged, there can be risk-stratification functionality built into the system to support decision-making by the health worker.",
       "markers": [
@@ -1971,7 +1938,7 @@
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s13",
+      "location": "p21:s10",
       "page": 21,
       "text": "The functional requirements for this could be that the system shall: • flag health service users as high-risk in accordance with WHO care guidelines • provide a suggested plan of action (including referrals).",
       "markers": [
@@ -1982,7 +1949,7 @@
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s14",
+      "location": "p21:s11",
       "page": 21,
       "text": "Other examples of functional requirements (which may be context dependent) include that the system shall: • adhere to Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) standards (54) • use a shared concept dictionary (e.g.",
       "markers": [
@@ -1993,7 +1960,7 @@
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s17",
+      "location": "p21:s14",
       "page": 21,
       "text": "Non-functional requirements are context dependent and some examples include that the system shall: • allow access (i.e. user permissions) based on the type of user (e.g. nurse-midwife versus community health worker); • have encrypted data exchange across systems; • have an easy-to-understand and intuitive UI, with colour coding and minimal text; • enhance the rights and privileges of the user (e.g. ensuring health worker control over digital requests and notifications outside of work hours or during rest or vacation periods); • use the local language; and • work on a tablet and mobile phone.",
       "markers": [
@@ -2004,18 +1971,18 @@
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s26",
+      "location": "p21:s23",
       "page": 21,
-      "text": "Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Understand user requirements 37 After finishing the processes outlined in previous sections, there should be answers to all of the following questions.",
+      "text": "After finishing the processes outlined in previous sections, there should be answers to all of the following questions.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/p-ch03-overview"
+      "node": "ch03-user-requirements/p-ch03-sec-019-requirements"
     },
     {
       "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s42",
+      "location": "p21:s39",
       "page": 21,
       "text": "The Institute of Electrical and Electronics Engineers has outlined eight characteristics of good software requirements specifications (56): • correct: accurately reflects actual needs; • unambiguous: precise with only one interpretation; • complete: contains all significant requirements that must be met by the PCPOSS; • consistent: internal consistency without conflicting requirements; • ranked for importance and/or stability: prioritized based on the importance of the requirement to the uptake of the system and/or the functioning of the system; • verifiable: has a definitive way to determine if that requirement is met; • modifiable: the list of requirements should be “living” and allow for modifications; and • traceable: references the origin or source of the requirement.",
       "markers": [
@@ -2025,10 +1992,10 @@
       "node": "ch03-user-requirements/p-ch03-sec-019-requirements"
     },
     {
-      "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s46",
-      "page": 21,
-      "text": "TIP Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes 4 The steps of undertaking detailed design and adaptation should be led primarily by a technology partner.",
+      "sectionId": "sec-020-41-finalize-software-and-vendor-selection",
+      "location": "p22:s1",
+      "page": 22,
+      "text": "CHAPTER 4 Undertake design and adaptation The steps of undertaking detailed design and adaptation should be led primarily by a technology partner.",
       "markers": [
         "obligation"
       ],
@@ -2036,21 +2003,10 @@
       "node": "ch04-design-and-adaptation/p-ch04-overview"
     },
     {
-      "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s51",
-      "page": 21,
-      "text": "Who should be involved?",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch03-user-requirements/t-ch03-phase-panel"
-    },
-    {
-      "sectionId": "sec-019-38-gather-and-prioritize-requirements",
-      "location": "p21:s52",
-      "page": 21,
-      "text": "Undertake design and adaptation • Software engineers and solutions architects should lead this work. • Business analysts and designers should provide meaningful and constant feedback to the engineering team to ensure proper translation of the system requirements into implementation. • Health informaticians should be involved to provide expert guidance as needed to ensure the system is able to operate using standards such as Fast Healthcare Interoperability Resources (FHIR). • The targeted health worker occupational groups and end-users should provide feedback as different versions of the person-centred point of service system (PCPOSS) are created.",
+      "sectionId": "sec-020-41-finalize-software-and-vendor-selection",
+      "location": "p22:s5",
+      "page": 22,
+      "text": "Active, successful collaboration between implementers and technology partners helps to ensure that the solution being built or adapted matches the needs of end-users. | Component | Details | | --- | --- | | **Who should be involved?** | • Software engineers and solutions architects should lead this work.<br>• Business analysts and designers should provide meaningful and constant feedback to the engineering team to ensure proper translation of the system requirements into implementation.<br>• Health informaticians should be involved to provide expert guidance as needed to ensure the system is able to operate using standards such as Fast Healthcare Interoperability Resources (FHIR).<br>• The targeted health worker occupational groups and end-users should provide feedback as different versions of the person-centred point of service system (PCPOSS) are created. | | **Inputs** | • Scope for PCPOSSᵃ<br>• Project team governance structureᵃ<br>• Budget, timeline, and risk and mitigations planᵃ<br>• Digital adaptation kitsᵇ<br>Requirements documentation that includes:<br>• User personasᶜ<br>• Use casesᶜ<br>• User storiesᶜ<br>• As-is and to-be business processesᶜ<br>• Data dictionaryᶜ<br>• Data model inclusive of semantic classifications and terminology standards and syntactic interoperability standards<br>• Documented decision logic algorithmsᶜ<br>• Documented health service scheduleᶜ<br>• Prioritized functional and non-functional requirementsᶜ | | **Tools** | • Design software tools for prototype creation<br>• Design tools for depicting system architecture<br>• Concept dictionary or terminology service<br>• Coding environment (depending on software)<br>As these tools will vary greatly from solution to solution, it will be up to the technology partner to determine which tools work best for them.",
       "markers": [
         "obligation"
       ],
@@ -2059,18 +2015,18 @@
     },
     {
       "sectionId": "sec-020-41-finalize-software-and-vendor-selection",
-      "location": "p22:s1",
+      "location": "p22:s6",
       "page": 22,
-      "text": "After the requirements are defined and prioritized, the implementation team must first select and finalize a software and software vendor that can successfully achieve all necessary business requirements.",
+      "text": "It will also be critical for the wider team to determine the best tools for collaboration. | | **Outputs** | • Selected software and software vendor<br>• System architecture<br>• User interface design<br>• Product documentation<br>• Beta version of the PCPOSS | ᵃ Guidance on generating these inputs can be found in the *Digital implementation investment guide (DIIG): integrating digital interventions into health programmes* (22) ᵇ If available for the scoped health domain ᶜ Chapter 1 After the requirements are defined and prioritized, the implementation team must first select and finalize a software and software vendor that can successfully achieve all necessary business requirements.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch04-design-and-adaptation/p-ch04-sec-020-vendor-selection"
+      "node": "ch02-how-to-use/p-ch02-sec-009-prerequisites"
     },
     {
       "sectionId": "sec-020-41-finalize-software-and-vendor-selection",
-      "location": "p22:s2",
+      "location": "p22:s7",
       "page": 22,
       "text": "The implementation team must conduct an objective software selection process comprising a landscape analysis to review tools that are already available in the market.",
       "markers": [
@@ -2081,7 +2037,7 @@
     },
     {
       "sectionId": "sec-020-41-finalize-software-and-vendor-selection",
-      "location": "p22:s9",
+      "location": "p22:s14",
       "page": 22,
       "text": "WHO’s Digital ANC module is an example of a fully functional application that is an executable reference software, which incorporates decision support and person-centred tracking based on WHO ANC recommendations, addresses the needs of the users and health systems, and has been tested in multiple countries (59).",
       "markers": [
@@ -2180,9 +2136,9 @@
     },
     {
       "sectionId": "sec-023-44-design-system-architecture",
-      "location": "p25:s69",
+      "location": "p25:s54",
       "page": 25,
-      "text": "WHO guidelines and normative guidance documents are information products developed by WHO that contain WHO recommendations for clinical practice or public health policy.",
+      "text": "WHO-FIC includes: the International Statistical Classification of Diseases and Related Health Problems (ICD), the International Classification of Functioning, Disability and Health (ICF), and the International Classification of Health Interventions (ICHI) (76).<br>**The International classification of diseases, 11th revision (ICD-11)** is a medical classification list developed by WHO that contains codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances and external causes of injury or diseases (77).<br>**Logical Observation Identifiers Names and Codes (LOINC)** is a universal code system created by Regenstrief Institute and used for laboratory and clinical tests, measurements, and observations (78).<br>**Systematized Nomenclature of Medicine-Global Patient Set (SNOMED-GPS)** is a clinical health terminology product owned by SNOMED International that supports the sharing of health service user’s health information coded with SNOMED GPS (79). | | **Organizational** | Health Content standards | Health content standards are based on clinical and public health evidence-based best practice, representing potential areas of integrated care. | **Digital adaptation kits (DAKs)** outline key workflows and user personas that highlight areas for integration across the different health domains.<br>**WHO guidelines and normative guidance documents** are information products developed by WHO that contain WHO recommendations for clinical practice or public health policy.",
       "markers": [
         "recommendation"
       ],
@@ -2215,12 +2171,12 @@
       "sectionId": "sec-024-45-build-and-quality-assurance",
       "location": "p26:s13",
       "page": 26,
-      "text": "Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Undertake design and adaptation 49 4.5.2 Testing for quality assurance A test plan must be established as soon as the requirements are finalized.",
+      "text": "4.5.2 Testing for quality assurance A test plan must be established as soon as the requirements are finalized.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch04-design-and-adaptation/p-ch04-overview"
+      "node": "ch04-design-and-adaptation/p-ch04-sec-024-build-and-qa"
     },
     {
       "sectionId": "sec-024-45-build-and-quality-assurance",
@@ -2245,21 +2201,10 @@
       "node": "ch04-design-and-adaptation/p-ch04-sec-024-build-and-qa"
     },
     {
-      "sectionId": "sec-024-45-build-and-quality-assurance",
-      "location": "p26:s21",
-      "page": 26,
-      "text": "Who should be involved?",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch03-user-requirements/t-ch03-phase-panel"
-    },
-    {
-      "sectionId": "sec-024-45-build-and-quality-assurance",
-      "location": "p26:s22",
-      "page": 26,
-      "text": "Conduct training, testing and roll-out • Implementing teams should be responsible for training and interfacing with the targeted end-users. • Software engineers should take feedback and make changes to the PCPOSS accordingly.",
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s3",
+      "page": 27,
+      "text": "End-user training is necessary to help improve the likelihood of adoption, and quality assurance tests need to be conducted prior to deployment. | Component | Details | | --- | --- | | **Who should be involved?** | • Implementing teams should be responsible for training and interfacing with the targeted end-users.<br>• Software engineers should take feedback and make changes to the PCPOSS accordingly.",
       "markers": [
         "obligation"
       ],
@@ -2267,21 +2212,10 @@
       "node": "ch05-training-testing-rollout/p-ch05-overview"
     },
     {
-      "sectionId": "sec-024-45-build-and-quality-assurance",
-      "location": "p26:s23",
-      "page": 26,
-      "text": "It would also be valuable for the engineering team to receive feedback directly from end-users to minimize any potential miscommunication in the feedback management process. • The public health authority should be involved in change management, pushing for adoption of the solution at the local level and providing any political support needed.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/t-ch05-phase-panel"
-    },
-    {
-      "sectionId": "sec-024-45-build-and-quality-assurance",
-      "location": "p26:s24",
-      "page": 26,
-      "text": "Further, the public health authority needs to implement any policies surrounding cybersecurity, privacy, confidentiality, acceptability of electronic signatures, data use, identification management and content management, as relevant. • End-users should be involved in providing feedback and using the tool itself.",
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s4",
+      "page": 27,
+      "text": "It would also be valuable for the engineering team to receive feedback directly from end-users to minimize any potential miscommunication in the feedback management process.<br>• The public health authority should be involved in change management, pushing for adoption of the solution at the local level and providing any political support needed.",
       "markers": [
         "obligation"
       ],
@@ -2290,7 +2224,18 @@
     },
     {
       "sectionId": "sec-025-51-develop-and-conduct-training",
-      "location": "p27:s2",
+      "location": "p27:s5",
+      "page": 27,
+      "text": "Further, the public health authority needs to implement any policies surrounding cybersecurity, privacy, confidentiality, acceptability of electronic signatures, data use, identification management and content management, as relevant.<br>• End-users should be involved in providing feedback and using the tool itself. | | **Inputs** | • Beta version of the person-centred point of service system (PCPOSS) | | **Tools** | • Testing checklist | | **Outputs** | • Training materials<br>• A deployed and rolled-out PCPOSS | Three categories of training will be needed: (i) training on use of the PCPOSS; (ii) training on maintenance of the PCPOSS; and (iii) training related to any potential changes to service delivery and quality of care.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s6",
       "page": 27,
       "text": "This Handbook will only address the first two types of training as the third type of training should be addressed by the national health programme managers.",
       "markers": [
@@ -2301,9 +2246,86 @@
     },
     {
       "sectionId": "sec-025-51-develop-and-conduct-training",
-      "location": "p27:s3",
+      "location": "p27:s7",
       "page": 27,
       "text": "The training curriculum should be tested at a small scale prior to training larger groups of stakeholders.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s10",
+      "page": 27,
+      "text": "The training curriculum must be highly tailored and culturally sensitive to the local community.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s11",
+      "page": 27,
+      "text": "Training should be given in the local language (if possible) and should be cognizant of health workers’ familiarity with mobile or web technologies in general.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s12",
+      "page": 27,
+      "text": "For example, if targeted health workers have never used a smartphone or tablet before, they should be given the opportunity to explore the various functionalities of a smartphone or tablet (e.g. camera application, calculators, timers) before being trained on the PCPOSS.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s14",
+      "page": 27,
+      "text": "Training of trainers should be provided so that there is firstline support for any health workers having difficulty using the PCPOSS.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s15",
+      "page": 27,
+      "text": "The training of trainers should begin once finalized prototypes can be used, so health workers are prepared to use the PCPOSS as soon as it is deployed.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s18",
+      "page": 27,
+      "text": "They should be available to do this whenever health workers and implementation partners are unable to troubleshoot technical problems themselves.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
+    },
+    {
+      "sectionId": "sec-025-51-develop-and-conduct-training",
+      "location": "p27:s20",
+      "page": 27,
+      "text": "The training on system maintenance should be carried out throughout the entirety of the project.",
       "markers": [
         "obligation"
       ],
@@ -2334,85 +2356,8 @@
     },
     {
       "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "location": "p28:s12",
+      "location": "p28:s11",
       "page": 28,
-      "text": "The training curriculum must be highly tailored and culturally sensitive to the local community.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
-    },
-    {
-      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "location": "p28:s13",
-      "page": 28,
-      "text": "Training should be given in the local language (if possible) and should be cognizant of health workers’ familiarity with mobile or web technologies in general.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
-    },
-    {
-      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "location": "p28:s14",
-      "page": 28,
-      "text": "For example, if targeted health workers have never used a smartphone or tablet before, they should be given the opportunity to explore the various functionalities of a smartphone or tablet (e.g. camera application, calculators, timers) before being trained on the PCPOSS.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
-    },
-    {
-      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "location": "p28:s16",
-      "page": 28,
-      "text": "Training of trainers should be provided so that there is firstline support for any health workers having difficulty using the PCPOSS.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
-    },
-    {
-      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "location": "p28:s17",
-      "page": 28,
-      "text": "The training of trainers should begin once finalized prototypes can be used, so health workers are prepared to use the PCPOSS as soon as it is deployed.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
-    },
-    {
-      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "location": "p28:s20",
-      "page": 28,
-      "text": "They should be available to do this whenever health workers and implementation partners are unable to troubleshoot technical problems themselves.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
-    },
-    {
-      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
-      "location": "p28:s22",
-      "page": 28,
-      "text": "The training on system maintenance should be carried out throughout the entirety of the project.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch05-training-testing-rollout/p-ch05-sec-025-training"
-    },
-    {
-      "sectionId": "sec-027-53-deploy-the-system",
-      "location": "p29:s3",
-      "page": 29,
       "text": "Test cases outline how the system should be used and the expected outcomes to test key functionality.",
       "markers": [
         "obligation"
@@ -2421,9 +2366,9 @@
       "node": "ch05-training-testing-rollout/p-ch05-sec-026-uat"
     },
     {
-      "sectionId": "sec-027-53-deploy-the-system",
-      "location": "p29:s4",
-      "page": 29,
+      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
+      "location": "p28:s12",
+      "page": 28,
       "text": "For example, to test clinical decision logic, a test case can outline what symptoms the tester should be inputting into the system and the expected diagnosis based on those inputs.",
       "markers": [
         "obligation"
@@ -2432,9 +2377,9 @@
       "node": "ch05-training-testing-rollout/p-ch05-sec-026-uat"
     },
     {
-      "sectionId": "sec-027-53-deploy-the-system",
-      "location": "p29:s7",
-      "page": 29,
+      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
+      "location": "p28:s15",
+      "page": 28,
       "text": "Test data should be curated with data that closely reflects real-time settings and must include some scenarios that might occur but are not routinely expected (i.e. edge cases).",
       "markers": [
         "obligation"
@@ -2443,9 +2388,9 @@
       "node": "ch05-training-testing-rollout/p-ch05-sec-026-uat"
     },
     {
-      "sectionId": "sec-027-53-deploy-the-system",
-      "location": "p29:s9",
-      "page": 29,
+      "sectionId": "sec-026-52-test-user-acceptance-and-deployment-readiness",
+      "location": "p28:s17",
+      "page": 28,
       "text": "Typically, test cases should be designed using the use cases developed during the needs assessment phase (see Section 3.2.2) and/or the use cases for testing developed during the design testing phase (see Section 4.3.2).",
       "markers": [
         "obligation"
@@ -2455,7 +2400,7 @@
     },
     {
       "sectionId": "sec-027-53-deploy-the-system",
-      "location": "p29:s13",
+      "location": "p29:s5",
       "page": 29,
       "text": "This deployment and roll-out phase should be led by the technology partner, as every software and context will be different.",
       "markers": [
@@ -2476,26 +2421,15 @@
       "node": "ch05-training-testing-rollout/p-ch05-sec-028-maintenance"
     },
     {
-      "sectionId": "sec-028-54-manage-feedback-and-system-maintenance",
-      "location": "p30:s12",
-      "page": 30,
-      "text": "Who should be involved?",
+      "sectionId": "sec-029-61-determine-readiness-for-scaling-up",
+      "location": "p31:s4",
+      "page": 31,
+      "text": "Every country and context will be moving at a different pace due to a variety of factors, that include but are not limited to: funding and resources available domestically or externally from donors; political buy-in; culture of change at all levels; the context in which the PCPOSS fits into the national health and digital health strategy overall; as well as the information and communication technology infrastructure and connectivity planned in countries. | Component | Details | | --- | --- | | **Who should be involved?** | • The leading public health authority, such as a ministry of health, should be leading this phase to ensure scale-up and widespread adoption, that the necessary policies are in place to allow for phase-out of paper and/or legacy systems.<br>• Implementing teams should be assist the public health authority throughout the scale-up phases, with the addition of monitoring and evaluation specialists.<br>• Monitoring and evaluation specialists are critical during this stage to determine whether the PCPOSS is meeting the required metrics so that the public health authority is comfortable with phasing out paper and/or legacy systems.<br>• Technology partners will need to continue to be a part of this phase to maintain and update the system as the number of users and functionality increase through scale-up.<br>• End-users will continue to provide feedback as well as adopt the tool itself. | | **Inputs** | • Live version of your PCPOSS being used | | **Tools** | • *Monitoring and evaluating digital health interventions* (99)<br>• *The MAPS toolkit* (100) | | **Outputs** | • Set of objectives and benchmarks the PCPOSS will need to meet before phasing out paper and/or legacy systems<br>• Strategic plan for phasing out paper and/or legacy systems | Before scaling up and phasing out paper and legacy systems, it is important to determine both that the PCPOSS is ready to be scaled up and that the existing health system is ready to phase out paper and legacy systems.",
       "markers": [
         "obligation"
       ],
       "state": "captured",
-      "node": "ch03-user-requirements/t-ch03-phase-panel"
-    },
-    {
-      "sectionId": "sec-028-54-manage-feedback-and-system-maintenance",
-      "location": "p30:s13",
-      "page": 30,
-      "text": "Prepare for scale-up • The leading public health authority, such as a ministry of health, should be leading this phase to ensure scale-up and widespread adoption, that the necessary policies are in place to allow for phase-out of paper and/or legacy systems. • Implementing teams should be assist the public health authority throughout the scale-up phases, with the addition of monitoring and evaluation specialists. • Monitoring and evaluation specialists are critical during this stage to determine whether the PCPOSS is meeting the required metrics so that the public health authority is comfortable with phasing out paper and/or legacy systems. • Technology partners will need to continue to be a part of this phase to maintain and update the system as the number of users and functionality increase through scale-up. • End-users will continue to provide feedback as well as adopt the tool itself.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "ch06-scale-up/t-ch06-phase-panel"
+      "node": "ch06-scale-up/p-ch06-overview"
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
@@ -2545,7 +2479,7 @@
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
       "location": "p32:s6",
       "page": 32,
-      "text": "Furthermore, these objectives should be based on indicators that would answer the following questions (99): • Does the PCPOSS work as intended? • Has all necessary data been migrated from paper and legacy systems to the PCPOSS? • Do health workers use the system as intended?",
+      "text": "Furthermore, these objectives should be based on indicators that would answer the following questions (99): • Does the PCPOSS work as intended? • Has all necessary data been migrated from paper and legacy systems to the PCPOSS? • Do health workers use the system as intended? • Does the PCPOSS improve processes for service delivery and accountability? • How do these improvements in service delivery and accountability affect health outcomes?",
       "markers": [
         "obligation"
       ],
@@ -2554,7 +2488,7 @@
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
-      "location": "p32:s15",
+      "location": "p32:s7",
       "page": 32,
       "text": "Key objectives and indicators that are of critical managerial importance for phasing out paper systems should be prioritized.",
       "markers": [
@@ -2565,7 +2499,7 @@
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
-      "location": "p32:s19",
+      "location": "p32:s11",
       "page": 32,
       "text": "However, there should always be a paper system available as a backup system in instances of network downtime, blackouts, etc., even if the system has been deployed in 100% of health-care facilities.",
       "markers": [
@@ -2576,7 +2510,7 @@
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
-      "location": "p32:s20",
+      "location": "p32:s12",
       "page": 32,
       "text": "Downtime or offline standard operating procedures must be developed to ensure continuity of care.",
       "markers": [
@@ -2587,7 +2521,7 @@
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
-      "location": "p32:s22",
+      "location": "p32:s14",
       "page": 32,
       "text": "Indicators should not be too burdensome to monitor.",
       "markers": [
@@ -2598,7 +2532,7 @@
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
-      "location": "p32:s23",
+      "location": "p32:s15",
       "page": 32,
       "text": "In fact, indicators that can be taken directly from the PCPOSS should also be leveraged.",
       "markers": [
@@ -2609,9 +2543,9 @@
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
-      "location": "p32:s30",
+      "location": "p32:s19",
       "page": 32,
-      "text": "Efficiency Change in time health workers need for registering new health service users Change in time health workers need for reporting Change in number of health service users per day health workers are able to see Change in time health workers need for recording health service user data Change in time community health workers need to transmit individual health service user data to a health facility Quality % of health workers adhering to national or global guidelines % of health service users who receive services according to recommended care plan % of health service users reporting adverse health events % loss to follow-up among health service users Use % of health facilities using PCPOSS % or number of health workers (disaggregated by health worker occupational group) using PCPOSS % of referrals conducted via PCPOSS Costsb % change in costs to health workers for reporting-related expenses (e.g. transport, notebooks, pens) % change in costs of human resources for data entry % change in costs associated with appropriateness and timeliness of illness management % change in reported health service user out-of-pocket payments for management of illness How do these improvements in service delivery and accountability affect health outcomes?",
+      "text": "Key indicators of whether a digital system meets its objectives | Questions for assessment | Metric area | Indicator | | --- | --- | --- | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Connectivity | • Percent (%) of target population with internet connectivity (whether through mobile broadband or Wi-Fi)<br>• % of health workers with internet connectivity (whether through broadband or Wi-Fi) | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Power | • % of health workers with current access to a power source for recharging a mobile device<br>• Number of hours per day health workers have access to power | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Availability of technical support | • % of health workers with access to local technical support systems for troubleshooting | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Maintenance | • % of devices (mobile, tablet or otherwise) given to health workers that are currently operational | | **Does the person-centred point of service system (PCPOSS) work as intended?** | Functionality | • % of data fields from the paper-based system that are captured by the PCPOSS<br>• % of prioritized functionsᵃ achieved by the PCPOSS | | **Do health workers use the PCPOSS as intended?** | User adoption | • % of health workers who demonstrate proficiency in routine use the PCPOSS<br>• % of health workers observed using the PCPOSS for intended purpose over reference period<br>• % of data fields/forms left incomplete over a reference period<br>• % of total reports sent via the PCPOSS over reference period | | **Do health workers use the PCPOSS as intended?** | User response | • % of health workers who rate the PCPOSS as easier to use than the paper and/or legacy system<br>• % of health workers who are satisfied with using the PCPOSS | | **Do health workers use the PCPOSS as intended?** | Health service user coverage | • % of health service users uniquely registered on the PCPOSS | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Efficiency | • Change in time health workers need for registering new health service users<br>• Change in time health workers need for reporting<br>• Change in number of health service users per day health workers are able to see<br>• Change in time health workers need for recording health service user data<br>• Change in time community health workers need to transmit individual health service user data to a health facility | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Quality | • % of health workers adhering to national or global guidelines<br>• % of health service users who receive services according to recommended care plan<br>• % of health service users reporting adverse health events<br>• % loss to follow-up among health service users | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Use | • % of health facilities using PCPOSS<br>• % or number of health workers (disaggregated by health worker occupational group) using PCPOSS<br>• % of referrals conducted via PCPOSS | | **Does the PCPOSS improve processes for service delivery and accountability (compared with current processes)?** | Costsᵇ | • % change in costs to health workers for reporting-related expenses (e.g. transport, notebooks, pens)<br>• % change in costs of human resources for data entry<br>• % change in costs associated with appropriateness and timeliness of illness management<br>• % change in reported health service user out-of-pocket payments for management of illness | | **How do these improvements in service delivery and accountability affect health outcomes?** | Health outcomes | Programmatic indicators or outcomes will vary by health programme area.",
       "markers": [
         "recommendation"
       ],
@@ -2620,9 +2554,9 @@
     },
     {
       "sectionId": "sec-030-62-plan-for-phase-out-of-legacy-systems",
-      "location": "p32:s32",
+      "location": "p32:s20",
       "page": 32,
-      "text": "Some examples include: • % of pregnant women receiving recommended minimum of eight antenatal care contacts • % change in drop-out rates for immunizations • % of women receiving family planning method of choice • % coverage of case-based surveillance for HIV PCPOSS: Person-centred point of service system. a Priority functions set by following section 3.8 to understand user requirements, and section 4.2 to validate functional requirements b Over a reference period, the percentage changes in costs are from costs using the PCPOSS compared with those using the paper and/or legacy system.",
+      "text": "Some examples include:<br>• % of pregnant women receiving recommended minimum of eight antenatal care contacts<br>• % change in drop-out rates for immunizations<br>• % of women receiving family planning method of choice<br>• % coverage of case-based surveillance for HIV | PCPOSS: Person-centred point of service system. ᵃ Priority functions set by following section 3.8 to understand user requirements, and section 4.2 to validate functional requirements ᵇ Over a reference period, the percentage changes in costs are from costs using the PCPOSS compared with those using the paper and/or legacy system.",
       "markers": [
         "recommendation"
       ],
@@ -2660,7 +2594,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "front-matter/t-fm-glossary"
+      "node": "glossary/t-fm-glossary"
     },
     {
       "sectionId": "sec-034-references",
@@ -2730,9 +2664,9 @@
     },
     {
       "sectionId": "sec-035-principles-for-digital-development",
-      "location": "p37:s14",
+      "location": "p37:s7",
       "page": 37,
-      "text": "Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Digital transformation handbook for primary health care 66 This example interview guide is intended to provide guidance on what key information the team should be collecting to gain insights on the day-to-day life of the end-users, in this case a health worker.",
+      "text": "Worksheet for semi-structured interviews This example interview guide is intended to provide guidance on what key information the team should be collecting to gain insights on the day-to-day life of the end-users, in this case a health worker.",
       "markers": [
         "obligation"
       ],
@@ -2741,9 +2675,9 @@
     },
     {
       "sectionId": "sec-037-user-persona-worksheet",
-      "location": "p39:s1",
+      "location": "p39:s2",
       "page": 39,
-      "text": "A user persona worksheet that summarizes each and every type of end-user (e.g. community health worker, district health officer, health service user) should be completed.",
+      "text": "User persona worksheet A user persona worksheet that summarizes each and every type of end-user (e.g. community health worker, district health officer, health service user) should be completed. | Section | Prompts | | --- | --- | | **Persona title (e.g. nurse)** | | | **Name, photo and type of persona** | • Name (real or illustrative)<br>• Photo or illustration of persona (helps with visualization and storytelling)<br>• Health worker occupational group | | **Demographics** | • Gender<br>• Age<br>• Community of origin<br>• Language(s) used | | **Expected roles and responsibilities** | • Daily<br>• Weekly<br>• Monthly | | **Actual roles and responsibilities** | • Daily, weekly, monthly<br>• How does this person spend their time?<br>• What is a typical day | | **Context description** | • Do they own their own mobile device?",
       "markers": [
         "obligation"
       ],
@@ -2752,9 +2686,9 @@
     },
     {
       "sectionId": "sec-039-business-process-matrix-guide",
-      "location": "p41:s3",
+      "location": "p41:s4",
       "page": 41,
-      "text": "Each row should describe an individual business process with the following information needed for each row, under separate columns.",
+      "text": "Each row should describe an individual business process with the following information needed for each row, under separate columns. | What to note | Description | | --- | --- | | **Business process number** | This is a running number or letter for each business process, to help with organization and references. | | **Process name** | What is the short title of this process?<br>• Examples: health service user registration, counselling, service provision, aggregate reporting | | **Process ID** | Important for referencing the other components required for requirements gathering (e.g. data dictionary, decision support logic).<br>• An example used in the Digital adaptation kits (DAKs) is “abbreviated health domain name”, “number or letter”.",
       "markers": [
         "obligation"
       ],
@@ -2763,9 +2697,9 @@
     },
     {
       "sectionId": "sec-039-business-process-matrix-guide",
-      "location": "p41:s7",
+      "location": "p41:s5",
       "page": 41,
-      "text": "Personas Which groups of people or key functions and roles are involved in completing the process? • Examples: nurse, head nurse, community health worker, district health office, health service user, specialist physician • Note: These are the groups that should be reflected in each swim lane of the workflow diagram.",
+      "text": "For the DAK for family planning, “FP.B” refers to “Family planning counselling”. | | **Personas** | Which groups of people or key functions and roles are involved in completing the process?<br>• Examples: nurse, head nurse, community health worker, district health office, health service user, specialist physician<br>• Note: These are the groups that should be reflected in each swim lane of the workflow diagram. | | **Objectives** | What is the purpose of the process?",
       "markers": [
         "obligation"
       ],
@@ -2774,9 +2708,9 @@
     },
     {
       "sectionId": "sec-040-form-inventory-guide",
-      "location": "p42:s1",
+      "location": "p42:s2",
       "page": 42,
-      "text": "The following explains the information needed for each paper or digital form, which should be logged in separate rows in a table.",
+      "text": "Form inventory guide The following explains the information needed for each paper or digital form, which should be logged in separate rows in a table.",
       "markers": [
         "obligation"
       ],
@@ -2785,7 +2719,7 @@
     },
     {
       "sectionId": "sec-040-form-inventory-guide",
-      "location": "p42:s2",
+      "location": "p42:s3",
       "page": 42,
       "text": "For each row of the inventory, the following columns should be filled out.",
       "markers": [
@@ -2796,7 +2730,7 @@
     },
     {
       "sectionId": "sec-040-form-inventory-guide",
-      "location": "p42:s8",
+      "location": "p42:s6",
       "page": 42,
       "text": "That should also be listed here.",
       "markers": [
@@ -2807,9 +2741,9 @@
     },
     {
       "sectionId": "sec-040-form-inventory-guide",
-      "location": "p42:s17",
+      "location": "p42:s9",
       "page": 42,
-      "text": "Submission frequency For any forms that are given to another health worker occupational group for supervisory and/or reporting purposes, indicate how often this is (or should be) done.",
+      "text": "If the form is kept with the worker who fills it out, mark this column with “not applicable” or “N/A”. | | **Submission frequency** | For any forms that are given to another health worker occupational group for supervisory and/or reporting purposes, indicate how often this is (or should be) done.",
       "markers": [
         "obligation"
       ],
@@ -2818,9 +2752,9 @@
     },
     {
       "sectionId": "sec-040-form-inventory-guide",
-      "location": "p42:s20",
+      "location": "p42:s11",
       "page": 42,
-      "text": "This should align with the activity IDs in the business process matrix (Annex 6).",
+      "text": "This should align with the activity IDs in the business process matrix (Annex 6). | | **Source** | Who “owns” this form?",
       "markers": [
         "obligation"
       ],
@@ -2829,7 +2763,7 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s2",
+      "location": "p43:s3",
       "page": 43,
       "text": "A spreadsheet should be created to document this information.",
       "markers": [
@@ -2840,9 +2774,9 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s3",
+      "location": "p43:s4",
       "page": 43,
-      "text": "Each data element should be noted in a in separate row in the spreadsheet.",
+      "text": "Each data element should be noted in a separate row in the spreadsheet.",
       "markers": [
         "obligation"
       ],
@@ -2851,7 +2785,7 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s4",
+      "location": "p43:s5",
       "page": 43,
       "text": "For each row, the following columns should be filled out.",
       "markers": [
@@ -2864,7 +2798,7 @@
       "sectionId": "sec-041-form-data-mapping-guide",
       "location": "p43:s7",
       "page": 43,
-      "text": "This should align with the Activity ID that is provided during form mapping (see Annex 7).",
+      "text": "This should align with the Activity ID that is provided during form mapping (see Annex 7). | | **Form ID** | The Form ID should be from the Form ID listed in the forms inventory spreadsheet (Annex 7).",
       "markers": [
         "obligation"
       ],
@@ -2873,10 +2807,11 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s8",
+      "location": "p43:s14",
       "page": 43,
-      "text": "Form ID The Form ID should be from the Form ID listed in the forms inventory spreadsheet (Annex 7).",
+      "text": "The data element label in this column is what will be used in the digital form as the digital register should not simply replace the paper registers, but it should also streamline processes and link duplicated data elements. | | **Description and definition** | The description and definition of the data element, including any units that define the field (e.g. weight in kilograms [kg]).",
       "markers": [
+        "negation",
         "obligation"
       ],
       "state": "captured",
@@ -2886,7 +2821,29 @@
       "sectionId": "sec-041-form-data-mapping-guide",
       "location": "p43:s18",
       "page": 43,
-      "text": "The data element label in this column is what will be used in the digital form as the digital register should not simply replace the paper registers, but it should also streamline processes and link duplicated data elements.",
+      "text": "This would require a change in the data element labels so that data entry is done accurately. | | **Data type** | The data types are:²<br>• Boolean (i.e. true/false, yes/no)<br>• String (i.e. a sequence of Unicode characters – e.g. name)<br>• Date (e.g. date of birth) – used when only the date is recorded<br>• Time (e.g. time of delivery) – used when only the time is recorded<br>• DateTime (e.g. appointment) – used when the date and time are recorded<br>• ID (e.g. unique identifier assigned to the health service user)<br>• Quantity – a number that is associated with a unit of measure outlined in the standard for Unified Code for Units of Measure (UCUM);³ quantities include any number that is associated with a unit, such as “number of past pregnancies”, where “past pregnancies” is the unit of measure (if the data type is a Quantity there should be an associated sub-type listed in the Quantity sub-type column)<br>• Signature (e.g. supervisor’s approval) – an electronic representation of a signature that is either cryptographic or a graphical image that represents a signature or a signature process<br>• Attachment (e.g. image) – additional data content defined in other formats<br>• List - select one (e.g.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "annexes/t-annex-08-form-data-mapping-guide"
+    },
+    {
+      "sectionId": "sec-041-form-data-mapping-guide",
+      "location": "p43:s25",
+      "page": 43,
+      "text": "However, there are many subtypes of the Quantity data type that should be listed here:<br>• Integer quantity – a whole number (e.g. number of past pregnancies, pulse, systolic blood pressure, diastolic blood pressure)<br>• Decimal quantity – rational numbers that have a decimal representation (e.g. exact weight in kilograms, exact height in centimetres, location coordinates, percentages, temperature)<br>• Duration – duration of time associated with time units (e.g. number of minutes, number of hours, number of days) | | **Calculation** | If a calculation is needed to define the data element, write the formula here.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "annexes/t-annex-08-form-data-mapping-guide"
+    },
+    {
+      "sectionId": "sec-041-form-data-mapping-guide",
+      "location": "p43:s27",
+      "page": 43,
+      "text": "Write the formula using standard mathematical symbols and the Data element label included in the formula (e.g. for the body mass index [BMI] calculation, “weight/(height2)”). | | **Optionality** | Note whether this field is:<br>Required – R<br>Optional – O<br>Conditional on answers from other data fields – C | | **Reason for requiring data** | If this field is required (R), state the reason here – whether for:<br>• accountability for global or national-level reporting<br>• service delivery or clinical decision-making<br>• health service user identification.<br>The PCPOSS should not simply replace paper registers, but should also streamline processes; thus, it is important to understand why a certain data field is required.",
       "markers": [
         "negation",
         "obligation"
@@ -2896,9 +2853,9 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s28",
+      "location": "p43:s32",
       "page": 43,
-      "text": "Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Annexes 75 Data type (cont’d) • Quantity – a number that is associated with a unit of measure outlined in the standard for Unified Code for Units of Measure (UCUM); quantities include any number that is associated with a unit, such as “number of past pregnancies”, where “past pregnancies” is the unit of measure (if the data type is a Quantity there should be an associated sub-type listed in the Quantity sub-type column) • Signature (e.g. supervisor’s approval) – an electronic representation of a signature that is either cryptographic or a graphical image that represents a signature or a signature process • Attachment (e.g. image) – additional data content defined in other formats • List - select one (e.g.",
+      "text": "If not, indicate “No”.<br>All duplicated data elements should have the same “Data element name”.",
       "markers": [
         "obligation"
       ],
@@ -2907,41 +2864,7 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s37",
-      "page": 43,
-      "text": "However, there are many subtypes of the Quantity data type that should be listed here: • Integer quantity – a whole number (e.g. number of past pregnancies, pulse, systolic blood pressure, diastolic blood pressure) • Decimal quantity – rational numbers that have a decimal representation (e.g. exact weight in kilograms, exact height in centimetres, location coordinates, percentages, temperature) • Duration – duration of time associated with time units (e.g. number of minutes, number of hours, number of days) Calculation If a calculation is needed to define the data element, write the formula here.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-08-form-data-mapping-guide"
-    },
-    {
-      "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s43",
-      "page": 43,
-      "text": "Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Digital transformation handbook for primary health care 76 The PCPOSS should not simply replace paper registers, but should also streamline processes; thus, it is important to understand why a certain data field is required.",
-      "markers": [
-        "negation",
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-08-form-data-mapping-guide"
-    },
-    {
-      "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s51",
-      "page": 43,
-      "text": "All duplicated data elements should have the same “Data element name”.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-08-form-data-mapping-guide"
-    },
-    {
-      "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s52",
+      "location": "p43:s33",
       "page": 43,
       "text": "The PCPOSS should not simply replace paper systems, but it should also streamline processes and remove duplicated data entry.",
       "markers": [
@@ -2953,9 +2876,9 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s69",
+      "location": "p43:s42",
       "page": 43,
-      "text": "This column should also be used for any other notes, annotations, or communication messages within the team.",
+      "text": "This column should also be used for any other notes, annotations, or communication messages within the team. | | **Mapping(s) to standardized classifications and terminologies** | A column should be added to each classification or terminology code system (e.g.",
       "markers": [
         "obligation"
       ],
@@ -2964,18 +2887,7 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s70",
-      "page": 43,
-      "text": "Mapping(s) to standardized classifications and terminologies A column should be added to each classification or terminology code system (e.g.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-08-form-data-mapping-guide"
-    },
-    {
-      "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s72",
+      "location": "p43:s44",
       "page": 43,
       "text": "The code used for each data element should be logged in these columns.",
       "markers": [
@@ -2986,7 +2898,7 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s74",
+      "location": "p43:s46",
       "page": 43,
       "text": "Any existing standardized code systems that can be used, should be used for the purposes of interoperability so data can be exchanged with any other critical health information systems (e.g. lab systems, supply chain systems).",
       "markers": [
@@ -2997,9 +2909,9 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s76",
+      "location": "p43:s47",
       "page": 43,
-      "text": "Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Annexes 77 Mapping comments and considerations Any comments and considerations related to the mapping of data elements to standardized classification and terminology code systems should be noted here.",
+      "text": "This part can also be done through a terminology service. | | **Mapping comments and considerations** | Any comments and considerations related to the mapping of data elements to standardized classification and terminology code systems should be noted here. | | **Mapping Relationship⁴** | For each classification and terminology code system that a data element that can be mapped to, this column should be used to identify the relationship between the original intent of the data element (i.e.",
       "markers": [
         "obligation"
       ],
@@ -3008,20 +2920,9 @@
     },
     {
       "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s77",
+      "location": "p43:s50",
       "page": 43,
-      "text": "Mapping Relationship4 For each classification and terminology code system that a data element that can be mapped to, this column should be used to identify the relationship between the original intent of the data element (i.e.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-08-form-data-mapping-guide"
-    },
-    {
-      "sectionId": "sec-041-form-data-mapping-guide",
-      "location": "p43:s80",
-      "page": 43,
-      "text": "The field should indicate: • Related to – The concepts are related to each other, but the exact relationship is not known. • Equivalent – The definitions of the concepts mean the same thing. • Source is narrower than target – The source concept is narrower in meaning than the target concept. • Source is broader than target – The source concept is broader in meaning than the target concept.",
+      "text": "The field should indicate:<br>• Related to – The concepts are related to each other, but the exact relationship is not known.<br>• Equivalent – The definitions of the concepts mean the same thing.<br>• Source is narrower than target – The source concept is narrower in meaning than the target concept.<br>• Source is broader than target – The source concept is broader in meaning than the target concept. | ² Datatypes.",
       "markers": [
         "obligation"
       ],
@@ -3030,9 +2931,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s1",
+      "location": "p44:s2",
       "page": 44,
-      "text": "A spreadsheet should be created to document the indicators that can be calculated from the individual level data that is collected from the PCPOSS.",
+      "text": "Aggregate indicator mapping guide A spreadsheet should be created to document the indicators that can be calculated from the individual level data that is collected from the PCPOSS.",
       "markers": [
         "obligation"
       ],
@@ -3043,7 +2944,7 @@
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
       "location": "p44:s3",
       "page": 44,
-      "text": "What to note Description Indicator ID The Indicator ID should be a running number or letter that would facilitate organization and references.",
+      "text": "This guide provides a way to consolidate and organize this list of indicators. | What to note | Description | | --- | --- | | **Indicator ID** | The Indicator ID should be a running number or letter that would facilitate organization and references. | | **Indicator name** | Brief name of the indicator. | | **Definition** | Provide a narrative description of the indicator to provide additional context. | | **Numerator description** | Note the narrative definition of the numerator used to calculate the indicator here. | | **Numerator computation** | Note how the numerator is calculated in a formula format.<br>Any specific data elements noted here should align directly with the individual-level Data element label in the data dictionary to realize the benefit of one-time data entry.",
       "markers": [
         "obligation"
       ],
@@ -3052,9 +2953,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s8",
+      "location": "p44:s4",
       "page": 44,
-      "text": "Any specific data elements noted here should align directly with the individual-level Data element label in the data dictionary to realize the benefit of one-time data entry.",
+      "text": "Using the same Data element labels that are listed in the data dictionary will help with the linkage of primary data elements to the generation of aggregate indicators for reporting. | | **Denominator description** | Note the narrative definition of the denominator used to calculate the indicator here. | | **Denominator computation** | Note how the denominator is calculated in a formula format.<br>Any specific data elements noted here should align directly with the individual-level Data element label to realize the benefit of one-time data entry.",
       "markers": [
         "obligation"
       ],
@@ -3063,18 +2964,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s12",
-      "page": 44,
-      "text": "Any specific data elements noted here should align directly with the individual-level Data element label to realize the benefit of one-time data entry.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-09-indicator-mapping-guide"
-    },
-    {
-      "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s21",
+      "location": "p44:s9",
       "page": 44,
       "text": "WHO guidelines) that dictate how and why this indicator should be calculated or reported, it should be noted here.",
       "markers": [
@@ -3085,9 +2975,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s22",
+      "location": "p44:s10",
       "page": 44,
-      "text": "If any guidelines or recommendations change, having a clear reference listed would help in updating or restructuring data and indicators.",
+      "text": "If any guidelines or recommendations change, having a clear reference listed would help in updating or restructuring data and indicators. | ANNEX 10.",
       "markers": [
         "recommendation"
       ],
@@ -3096,7 +2986,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s24",
+      "location": "p44:s11",
       "page": 44,
       "text": "Decision-support logic and scheduling matrix guide This table should provide an overview and inventory of all the decision-support logic that will be elaborated in decision trees and/or decision-support tables.",
       "markers": [
@@ -3107,7 +2997,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s25",
+      "location": "p44:s12",
       "page": 44,
       "text": "Each decision-support logic should be noted in a separate row in a table.",
       "markers": [
@@ -3118,9 +3008,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s26",
+      "location": "p44:s13",
       "page": 44,
-      "text": "For each row, the following columns should be filled out.",
+      "text": "For each row, the following columns should be filled out. | What to note | Description | | --- | --- | | **Activity ID and activity name** | What is the associated “Activity” from your workflow diagram for which this decision is necessary?",
       "markers": [
         "obligation"
       ],
@@ -3129,9 +3019,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s29",
+      "location": "p44:s14",
       "page": 44,
-      "text": "Decisionsupport table ID This should be a running number of decision-support logic that needs to be documented.",
+      "text": "For example, during the family planning counselling process, one decision that needs to be made is the family planning method. | | **Decision-support table ID** | This should be a running number of decision-support logic that needs to be documented.",
       "markers": [
         "obligation"
       ],
@@ -3140,9 +3030,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s33",
+      "location": "p44:s15",
       "page": 44,
-      "text": "This table should provide an overview and inventory of all the service schedules that will be elaborated in a scheduling logic table.",
+      "text": "This helps ensure linkages and facilitated cross references to the data dictionary. | | **Decision name** | Briefly describes the decision for which the decision table provides the decision logic | | **Description** | Give a description of what decision needs to be made. | | **References** | What global and/or national guidelines inform this decision-making process? | This table should provide an overview and inventory of all the service schedules that will be elaborated in a scheduling logic table.",
       "markers": [
         "obligation"
       ],
@@ -3151,7 +3041,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s34",
+      "location": "p44:s16",
       "page": 44,
       "text": "Each health service schedule should be noted in a separate row in a table.",
       "markers": [
@@ -3162,9 +3052,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s35",
+      "location": "p44:s17",
       "page": 44,
-      "text": "For each row, the following columns should be filled out.",
+      "text": "For each row, the following columns should be filled out. | What to note | Description | | --- | --- | | **Scheduling logic ID** | This should be a running number of health service schedules.",
       "markers": [
         "obligation"
       ],
@@ -3173,20 +3063,9 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s36",
+      "location": "p44:s18",
       "page": 44,
-      "text": "What to note Description Scheduling logic ID This should be a running number of health service schedules.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-10-decision-and-scheduling-matrix"
-    },
-    {
-      "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s40",
-      "page": 44,
-      "text": "An example of this can be found in the following resources: • Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems.",
+      "text": "This helps ensure linkages and facilitated cross references to the data dictionary. | | **Scheduling logic description** | Provide the description of the health service or care plan being outlined, e.g. measles vaccination schedule, antenatal care schedule. | | **References** | What global and/or national guidelines inform this? | An example of this can be found in the following resources: • Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
         "recommendation"
       ],
@@ -3195,7 +3074,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s41",
+      "location": "p44:s19",
       "page": 44,
       "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/339745). • Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
@@ -3206,7 +3085,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s42",
+      "location": "p44:s20",
       "page": 44,
       "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/341997). • Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations and standards within digital systems, 2nd edition.",
       "markers": [
@@ -3217,7 +3096,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s43",
+      "location": "p44:s21",
       "page": 44,
       "text": "Geneva: World Health Organization; 2023 (https://iris.who.int/handle/10665/375230). • Digital adaptation kit for tuberculosis: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
@@ -3228,7 +3107,7 @@
     },
     {
       "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s44",
+      "location": "p44:s22",
       "page": 44,
       "text": "Geneva: World Health Organization; 2024 (https://iris.who.int/handle/10665/376631). • Digital adaptation kit for child health (0-59 months) in humanitarian emergencies: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
@@ -3238,10 +3117,10 @@
       "node": "annexes/p-annex-14-fhir-components"
     },
     {
-      "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s48",
-      "page": 44,
-      "text": "Decision-support table ID The Decision support table ID should correspond to the number in the overview matrix (Annex 10).",
+      "sectionId": "sec-043-template-for-a-decision-support-table",
+      "location": "p45:s3",
+      "page": 45,
+      "text": "It has been adapted from the Decision Model and Notation (DMN) standard. | Field | Description | | --- | --- | | **Decision-support table ID** | The Decision support table ID should correspond to the number in the overview matrix (Annex 10). | | **Decision name** | The name of the “decision” describing what algorithm or logic is represented (e.g. pre-eclampsia risk counselling). | | **Business rule** | The description of the decision that needs to be made based on IF/THEN statements with the appropriate data element name for the variables.",
       "markers": [
         "obligation"
       ],
@@ -3249,10 +3128,10 @@
       "node": "annexes/dt-annex-11-decision-support-table-template"
     },
     {
-      "sectionId": "sec-042-aggregate-indicator-mapping-guide",
-      "location": "p44:s51",
-      "page": 44,
-      "text": "The rule demonstrates the relationship between the input variables and the expected outputs and actions within the decision-support logic, for example, if blood pressure is higher than 140 SBP/90 DBP for a pregnant client, then the client is flagged as a high-risk pregnancy Trigger The event that would indicate when this decision-support logic should appear within the workflow, such as the activity that would trigger this decision to be made Hit Policy Indicator Displays the hit policy selected for the table.",
+      "sectionId": "sec-043-template-for-a-decision-support-table",
+      "location": "p45:s4",
+      "page": 45,
+      "text": "The rule demonstrates the relationship between the input variables and the expected outputs and actions within the decision-support logic, for example, if blood pressure is higher than 140 SBP/90 DBP for a pregnant client, then the client is flagged as a high-risk pregnancy | | **Trigger** | The event that would indicate when this decision-support logic should appear within the workflow, such as the activity that would trigger this decision to be made | | **Hit Policy Indicator** | Displays the hit policy selected for the table.",
       "markers": [
         "obligation"
       ],
@@ -3261,9 +3140,9 @@
     },
     {
       "sectionId": "sec-043-template-for-a-decision-support-table",
-      "location": "p45:s8",
+      "location": "p45:s12",
       "page": 45,
-      "text": "Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Annexes 81 Detailed examples of a decision-support table can be found in the following resources: • Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems.",
+      "text": "Detailed examples of a decision-support table can be found in the following resources: • Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
         "recommendation"
       ],
@@ -3272,7 +3151,7 @@
     },
     {
       "sectionId": "sec-043-template-for-a-decision-support-table",
-      "location": "p45:s9",
+      "location": "p45:s13",
       "page": 45,
       "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/339745). • Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
@@ -3283,7 +3162,7 @@
     },
     {
       "sectionId": "sec-043-template-for-a-decision-support-table",
-      "location": "p45:s10",
+      "location": "p45:s14",
       "page": 45,
       "text": "Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/341997). • Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations and standards within digital systems, 2nd edition.",
       "markers": [
@@ -3294,7 +3173,7 @@
     },
     {
       "sectionId": "sec-043-template-for-a-decision-support-table",
-      "location": "p45:s11",
+      "location": "p45:s15",
       "page": 45,
       "text": "Geneva: World Health Organization; 2023 (https://iris.who.int/handle/10665/375230). • Digital adaptation kit for tuberculosis: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
@@ -3305,7 +3184,7 @@
     },
     {
       "sectionId": "sec-043-template-for-a-decision-support-table",
-      "location": "p45:s12",
+      "location": "p45:s16",
       "page": 45,
       "text": "Geneva: World Health Organization; 2024 (https://iris.who.int/handle/10665/376631). • Digital adaptation kit for child health (0-59 months) in humanitarian emergencies: operational requirements for implementing WHO recommendations in digital systems.",
       "markers": [
@@ -3316,9 +3195,9 @@
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s5",
+      "location": "p46:s6",
       "page": 46,
-      "text": "The service schedule for antenatal care, for example, can be found in WHO’s 2021 Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems (https://iris.who.int/handle/10665/339745).",
+      "text": "The service schedule for antenatal care, for example, can be found in WHO’s 2021 *Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems* (https://iris.who.int/handle/10665/339745). | What to note | Description | Example | | --- | --- | --- | | **Service name** | What is the shorthand name of the service? | Hepatitis B birth dose | | **Service description** | What is the longer description of the service?",
       "markers": [
         "recommendation"
       ],
@@ -3327,9 +3206,9 @@
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s9",
+      "location": "p46:s7",
       "page": 46,
-      "text": "As part of the recommended routine immunizations for children, WHO recommends at least three doses of hepatitis B vaccine.",
+      "text": "In 1–2 sentences, describe the service and when it’s given. | As part of the recommended routine immunizations for children, WHO recommends at least three doses of hepatitis B vaccine.",
       "markers": [
         "recommendation"
       ],
@@ -3338,11 +3217,33 @@
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s13",
+      "location": "p46:s8",
       "page": 46,
-      "text": "Child’s birthdate Create condition Are there any conditions that specify when a service should be given?",
+      "text": "This is the first vaccine in the series. | | **Trigger event** | What event signals the start of the service schedule? | Child’s birth | | **Trigger date** | What is the date of the signalling event that will be used to determine a service’s due date? | Child’s birthdate | | **Create condition** | Are there any conditions that specify when a service should be given?",
       "markers": [
         "obligation"
+      ],
+      "state": "captured",
+      "node": "annexes/t-annex-12-scheduling-logic-guide"
+    },
+    {
+      "sectionId": "sec-044-scheduling-logic-table-guide",
+      "location": "p46:s10",
+      "page": 46,
+      "text": "If no, write “Not applicable” or “N/A”. | Since perinatal or early postnatal transmission is the most important source of chronic HBV infection globally, all infants (including low-birth-weight and premature infants) should receive their first dose of hepatitis B vaccine as soon as possible after birth, ideally within 24 hours. | | **Due date** | How is the service due date calculated?",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "annexes/t-annex-12-scheduling-logic-guide"
+    },
+    {
+      "sectionId": "sec-044-scheduling-logic-table-guide",
+      "location": "p46:s15",
+      "page": 46,
+      "text": "If no, write “No expiration date”. | No expiration date | | **Completion** | How does the health worker complete the service? | Provide the vaccination | | **Potential risks and alternative schedules** | What are the potential risks to health service user safety if service is not delivered according to the recommended schedule?",
+      "markers": [
+        "recommendation"
       ],
       "state": "captured",
       "node": "annexes/t-annex-12-scheduling-logic-guide"
@@ -3351,7 +3252,7 @@
       "sectionId": "sec-044-scheduling-logic-table-guide",
       "location": "p46:s16",
       "page": 46,
-      "text": "Since perinatal or early postnatal transmission is the most important source of chronic HBV infection globally, all infants (including low-birthweight and premature infants) should receive their first dose of hepatitis B vaccine as soon as possible after birth, ideally within 24 hours.",
+      "text": "What are the possible alternative service schedules? | Hepatitis B vaccination should include a birth dose followed by 2 or 3 additional doses to complete the primary series.",
       "markers": [
         "obligation"
       ],
@@ -3360,62 +3261,19 @@
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s26",
+      "location": "p46:s19",
       "page": 46,
-      "text": "Provide the vaccination Potential risks and alternative schedules What are the potential risks to health service user safety if service is not delivered according to the recommended schedule?",
+      "text": "The interval between doses should be at least 4 weeks. | | **Comments** | Any narrative or additional information that needs to be added by the implementation team should be written here. | Hepatitis B vaccine schedule in country varies slightly from WHO’s recommended immunization schedule. | | **References** | If there are any national or global guidelines (e.g.",
       "markers": [
+        "obligation",
         "recommendation"
       ],
       "state": "captured",
-      "node": "annexes/t-annex-12-scheduling-logic-guide"
+      "node": "annexes/t-annex-09-indicator-mapping-guide"
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s28",
-      "page": 46,
-      "text": "Hepatitis B vaccination should include a birth dose followed by 2 or 3 additional doses to complete the primary series.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-12-scheduling-logic-guide"
-    },
-    {
-      "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s31",
-      "page": 46,
-      "text": "The interval between doses should be at least 4 weeks.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-12-scheduling-logic-guide"
-    },
-    {
-      "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s32",
-      "page": 46,
-      "text": "Comments Any narrative or additional information that needs to be added by the implementation team should be written here.",
-      "markers": [
-        "obligation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-12-scheduling-logic-guide"
-    },
-    {
-      "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s33",
-      "page": 46,
-      "text": "Hepatitis B vaccine schedule in country varies slightly from WHO’s recommended immunization schedule.",
-      "markers": [
-        "recommendation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-12-scheduling-logic-guide"
-    },
-    {
-      "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s35",
+      "location": "p46:s20",
       "page": 46,
       "text": "WHO guidelines) that dictate the health service schedule noted here, then it should be noted.",
       "markers": [
@@ -3426,9 +3284,9 @@
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s36",
+      "location": "p46:s21",
       "page": 46,
-      "text": "If any guidelines or recommendations change, having a clear reference listed would help in updating or restructuring the service schedule(s).",
+      "text": "If any guidelines or recommendations change, having a clear reference listed would help in updating or restructuring the service schedule(s). | WHO recommendations for routine immunization – summary tables (e.g.",
       "markers": [
         "recommendation"
       ],
@@ -3437,20 +3295,9 @@
     },
     {
       "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s37",
+      "location": "p46:s22",
       "page": 46,
-      "text": "WHO recommendations for routine immunization –summary tables (e.g.",
-      "markers": [
-        "recommendation"
-      ],
-      "state": "captured",
-      "node": "annexes/t-annex-12-scheduling-logic-guide"
-    },
-    {
-      "sectionId": "sec-044-scheduling-logic-table-guide",
-      "location": "p46:s38",
-      "page": 46,
-      "text": "Table 1 for all ages and Table 2 for children) are available at: https:// www.who.int/teams/immunization-vaccines-andbiologicals/policies/who-recommendations-forroutine-immunization---summary-tables Introduction How to use this handbook User requirements Design and adaptation Training, testing and roll-out Scale-up Annexes Annexes 83 ANNEX 13.",
+      "text": "Table 1 for all ages and Table 2 for children) are available at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables |",
       "markers": [
         "recommendation"
       ],
@@ -3459,9 +3306,9 @@
     },
     {
       "sectionId": "sec-045-prioritization-of-requirements-guide",
-      "location": "p47:s3",
+      "location": "p47:s4",
       "page": 47,
-      "text": "Each requirement should be documented in a separate row with each of the following columns filled out What to note Description Requirement ID This could be a running number list so the team can ensure that they are referring to the same functional requirement when discussing requirements.",
+      "text": "Each requirement should be documented in a separate row with each of the following columns filled out. | What to note | Description | | --- | --- | | **Requirement ID** | This could be a running number list so the team can ensure that they are referring to the same functional requirement when discussing requirements. | | **Requirement description** | Describe the requirement here, e.g.",
       "markers": [
         "obligation"
       ],
@@ -3470,9 +3317,9 @@
     },
     {
       "sectionId": "sec-045-prioritization-of-requirements-guide",
-      "location": "p47:s8",
+      "location": "p47:s6",
       "page": 47,
-      "text": "In essence, if the PCPOSS does not have this function or feature, then the system would be considered incomplete. • Medium priority: This requirement would be a “should-have”.",
+      "text": "In essence, if the PCPOSS does not have this function or feature, then the system would be considered incomplete.<br>• **Medium priority**: This requirement would be a “should-have”.",
       "markers": [
         "obligation"
       ],
@@ -3481,9 +3328,9 @@
     },
     {
       "sectionId": "sec-045-prioritization-of-requirements-guide",
-      "location": "p47:s12",
+      "location": "p47:s9",
       "page": 47,
-      "text": "Sources The source of this requirement should be noted here, as there will likely be discussion on why this requirement was added to facilitate the prioritization process. • Who is the source of this requirement?",
+      "text": "This exercise can also help to frame a roadmap for future developments and updates to the system. | | **Sources** | The source of this requirement should be noted here, as there will likely be discussion on why this requirement was added to facilitate the prioritization process.<br>• Who is the source of this requirement?",
       "markers": [
         "obligation"
       ],
@@ -3492,7 +3339,7 @@
     },
     {
       "sectionId": "sec-046-hl7-fhir-standard-components",
-      "location": "p48:s7",
+      "location": "p48:s8",
       "page": 48,
       "text": "Implementation guide A “FHIR Implementation guide” is a standards-based technical guide that outlines how the FHIR Resources should be used for a given use case (4).",
       "markers": [
@@ -3503,7 +3350,7 @@
     },
     {
       "sectionId": "sec-046-hl7-fhir-standard-components",
-      "location": "p48:s18",
+      "location": "p48:s19",
       "page": 48,
       "text": "This interface defines the interactions between applications (e.g. how data can be searched across applications) and how that data must be formatted.",
       "markers": [

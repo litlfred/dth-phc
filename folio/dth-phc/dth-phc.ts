@@ -31,7 +31,8 @@ export default paper({
     chapterRef({ dir: "ch04-design-and-adaptation" }),
     chapterRef({ dir: "ch05-training-testing-rollout" }),
     chapterRef({ dir: "ch06-scale-up" }),
-    chapterRef({ dir: "references" }),
     chapterRef({ dir: "annexes" }),
+    chapterRef({ dir: "glossary" }),
+    chapterRef({ dir: "references" }),
   ],
 });

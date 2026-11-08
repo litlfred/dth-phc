@@ -1,3 +1,5 @@
-![Fig. 10. Workflow A: Registration business process](media/vfig-p038.png)
+![Fig. 10. Workflow A: Registration business process](media/bp-anc-registration-workflow-a.svg)
 
-*Source: WHO Digital adaptation kit for antenatal care, 2021 (ref. 29).*
+Fig. 10	 Workflow A: Registration business process
+
+Source: WHO (29)

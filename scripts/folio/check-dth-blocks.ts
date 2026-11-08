@@ -59,12 +59,12 @@ const DECLARATION_PATH = join(ROOT, "dth-phc.json");
 const DPI_GLOSSARY_PATH = join(ROOT, "dpi-h-ra/glossary/dpi-h-ra.glossary.json");
 const FULL_STAC_GLOSSARY_PATH = join(ROOT, "dpi-h-ra/glossary/full-stac.glossary.json");
 
-const ARCHIMATE_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#archimate/";
-const DPI_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/";
-const FULL_STAC_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/";
-const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/";
+const ARCHIMATE_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns/archimate/";
+const DPI_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/";
+const FULL_STAC_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/";
+const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/";
 const SMART_BASE_STRUCT_PREFIX = "http://smart.who.int/base/StructureDefinition/";
-const SMART_BASE_NS_PREFIX = "https://litlfred.github.io/smart-base/v0/ns#";
+const SMART_BASE_NS_PREFIX = "https://litlfred.github.io/smart-base/v0/ns/";
 
 const VALID_SMART_BASE_MODELS = new Set([
   "DAK",
@@ -176,7 +176,7 @@ for (const file of glossaryFiles) {
   }
 
   const g = parsed.data;
-  const schemePrefix = `https://litlfred.github.io/dth-phc/v0/ns#glossary/${g.id}/`;
+  const schemePrefix = `https://litlfred.github.io/dth-phc/v0/ns/glossary/${g.id}/`;
   const localIds = new Set(g.terms.map((t) => t.id));
   const localIris = new Set(g.terms.map((t) => `${schemePrefix}${t.id}`));
 

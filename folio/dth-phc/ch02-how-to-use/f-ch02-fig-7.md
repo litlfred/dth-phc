@@ -1,4 +1,4 @@
-![Fig. 7. Steps in this handbook to optimize a person-centred point of service system (PCPOSS)](media/vfig-p026.png)
+![Fig. 7. Steps in this handbook to optimize a person-centred point of service system (PCPOSS)](media/bp-pcposs-implementation-lifecycle.svg)
 
 Fig. 7  	
 Iterative and agile approach
