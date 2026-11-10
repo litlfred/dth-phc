@@ -11,7 +11,7 @@
       "participants": [
         {
           "id": "id-350840520ae44f658b6ad3b3762e382e",
-          "name": "DPI-H Health Workforce Registry (HWR)",
+          "name": "Health Workforce Registry",
           "type": "ApplicationComponent",
           "elementId": "id-350840520ae44f658b6ad3b3762e382e"
         },
@@ -29,7 +29,7 @@
         },
         {
           "id": "id-4e0767822dcf46409554156a133fbc67",
-          "name": "DPI-H: Facility Registry",
+          "name": "Health Facility Registry",
           "type": "ApplicationComponent",
           "elementId": "id-4e0767822dcf46409554156a133fbc67"
         },
@@ -94,14 +94,14 @@
         {
           "from": "id-3c5d846710034c4595e206e748d65e36",
           "to": "id-4e0767822dcf46409554156a133fbc67",
-          "label": "flows to DPI-H: Facility Registry",
+          "label": "flows to Health Facility Registry",
           "kind": "flow",
           "relationshipId": "id-50329fe8597d46f6a4d491ff05452bd4"
         },
         {
           "from": "id-3c5d846710034c4595e206e748d65e36",
           "to": "id-350840520ae44f658b6ad3b3762e382e",
-          "label": "flows to DPI-H Health Workforce Registry (HWR)",
+          "label": "flows to Health Workforce Registry",
           "kind": "flow",
           "relationshipId": "id-bb7f9716a2674341a2b93e31fc597849"
         },
@@ -185,7 +185,7 @@
       "participants": [
         {
           "id": "id-350840520ae44f658b6ad3b3762e382e",
-          "name": "DPI-H Health Workforce Registry (HWR)",
+          "name": "Health Workforce Registry",
           "type": "ApplicationComponent",
           "elementId": "id-350840520ae44f658b6ad3b3762e382e"
         },
@@ -238,7 +238,7 @@
         {
           "from": "id-3c5d846710034c4595e206e748d65e36",
           "to": "id-350840520ae44f658b6ad3b3762e382e",
-          "label": "flows to DPI-H Health Workforce Registry (HWR)",
+          "label": "flows to Health Workforce Registry",
           "kind": "flow",
           "relationshipId": "id-bb7f9716a2674341a2b93e31fc597849"
         },
@@ -478,7 +478,7 @@
         },
         {
           "id": "id-539b04ae45f147258d8253ae5cb87402",
-          "name": "Decision Support Engine",
+          "name": "Computable Decision Support Engine",
           "type": "ApplicationComponent",
           "elementId": "id-539b04ae45f147258d8253ae5cb87402"
         }
@@ -487,7 +487,7 @@
         {
           "from": "id-8104985f0f0e4f4cbe3bdf032ea20759",
           "to": "id-539b04ae45f147258d8253ae5cb87402",
-          "label": "flows to Decision Support Engine",
+          "label": "flows to Computable Decision Support Engine",
           "kind": "flow",
           "relationshipId": "id-faf6be2646934a6ca29255888b25aeda"
         }

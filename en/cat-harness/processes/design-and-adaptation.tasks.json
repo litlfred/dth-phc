@@ -1,0 +1,342 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_DesignAndAdaptation",
+ "markers": [
+  {
+   "id": "Task_4_1_SelectSoftwareVendor",
+   "name": "4.1 Finalize software & vendor selection (bespoke, COTS or reference software)",
+   "left": 25.36,
+   "top": 48.33,
+   "box": {
+    "left": 18.04,
+    "top": 54.89,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_2_ValidateRequirements",
+   "name": "4.2 Validate functional requirements in stakeholder workshops & design test use cases (4.3.2)",
+   "left": 39.64,
+   "top": 46.89,
+   "box": {
+    "left": 32.32,
+    "top": 56.44,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_3_Wireframe",
+   "name": "4.3.1 Draw low-fidelity sketches and wireframes",
+   "left": 38.57,
+   "top": 28.67,
+   "box": {
+    "left": 32.32,
+    "top": 35.22,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_3_TestWireframe",
+   "name": "4.3.2 Test wireframe structure & data-entry flow with end-users",
+   "left": 39.64,
+   "top": 7.22,
+   "box": {
+    "left": 32.32,
+    "top": 13.78,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_3_Mockup",
+   "name": "4.3.1 Create moderate-fidelity visual mock-ups",
+   "left": 63.21,
+   "top": 28.67,
+   "box": {
+    "left": 56.96,
+    "top": 35.22,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_3_TestMockup",
+   "name": "4.3.2 Test mock-ups (look, feel & language) with end-users",
+   "left": 63.21,
+   "top": 7.22,
+   "box": {
+    "left": 56.96,
+    "top": 13.78,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_3_Prototype",
+   "name": "4.3.1 Build higher-fidelity clickable prototype",
+   "left": 87.5,
+   "top": 28.67,
+   "box": {
+    "left": 81.25,
+    "top": 35.22,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_3_TestPrototype",
+   "name": "4.3.2 Validate clickable prototype via end-user role play",
+   "left": 87.5,
+   "top": 7.22,
+   "box": {
+    "left": 81.25,
+    "top": 13.78,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_4_Architecture",
+   "name": "4.4 Design system architecture & interoperability standards (FHIR, HIE)",
+   "left": 56.07,
+   "top": 65.56,
+   "box": {
+    "left": 48.75,
+    "top": 72.11,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_5_BuildAndDocument",
+   "name": "4.5 Establish test plan, build beta PCPOSS & product documentation",
+   "left": 56.07,
+   "top": 83.89,
+   "box": {
+    "left": 48.75,
+    "top": 90.44,
+    "width": 1.71,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Task_4_5_RunQaTests",
+   "name": "4.5 Execute installation, stress, security, UI, integration, QA & accessibility tests",
+   "left": 71.79,
+   "top": 82.44,
+   "box": {
+    "left": 64.46,
+    "top": 92,
+    "width": 1.71,
+    "height": 2.67
+   }
+  }
+ ],
+ "processHref": "design-and-adaptation.html",
+ "tasks": {
+  "Task_4_1_SelectSoftwareVendor": {
+   "id": "Task_4_1_SelectSoftwareVendor",
+   "name": "4.1 Finalize software & vendor selection (bespoke, COTS or reference software)",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_1_SelectSoftwareVendor",
+   "lane": "Business analyst & implementing team",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-BA",
+   "skills": [
+    {
+     "name": "l2-dependency-choice",
+     "href": "../../../en/cat-harness/processes/skills/l2-dependency-choice.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_2_ValidateRequirements": {
+   "id": "Task_4_2_ValidateRequirements",
+   "name": "4.2 Validate functional requirements in stakeholder workshops & design test use cases (4.3.2)",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_2_ValidateRequirements",
+   "lane": "Business analyst & implementing team",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-BA",
+   "skills": [
+    {
+     "name": "content-review",
+     "href": "../../../en/cat-harness/processes/skills/content-review.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_3_Wireframe": {
+   "id": "Task_4_3_Wireframe",
+   "name": "4.3.1 Draw low-fidelity sketches and wireframes",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_3_Wireframe",
+   "lane": "Designer",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Designer",
+   "skills": [
+    {
+     "name": "wireframe-design-review",
+     "href": "../../../en/cat-harness/processes/skills/wireframe-design-review.html",
+     "methodologies": [
+      {
+       "name": "wiregen",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/wiregen/"
+      }
+     ]
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_3_TestWireframe": {
+   "id": "Task_4_3_TestWireframe",
+   "name": "4.3.2 Test wireframe structure & data-entry flow with end-users",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_3_TestWireframe",
+   "lane": "Targeted health worker occupational groups & end-users",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Users",
+   "skills": [
+    {
+     "name": "wireframe-design-review",
+     "href": "../../../en/cat-harness/processes/skills/wireframe-design-review.html",
+     "methodologies": [
+      {
+       "name": "wiregen",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/wiregen/"
+      }
+     ]
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_3_Mockup": {
+   "id": "Task_4_3_Mockup",
+   "name": "4.3.1 Create moderate-fidelity visual mock-ups",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_3_Mockup",
+   "lane": "Designer",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Designer",
+   "skills": [
+    {
+     "name": "wireframe-design-review",
+     "href": "../../../en/cat-harness/processes/skills/wireframe-design-review.html",
+     "methodologies": [
+      {
+       "name": "wiregen",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/wiregen/"
+      }
+     ]
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_3_TestMockup": {
+   "id": "Task_4_3_TestMockup",
+   "name": "4.3.2 Test mock-ups (look, feel & language) with end-users",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_3_TestMockup",
+   "lane": "Targeted health worker occupational groups & end-users",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Users",
+   "skills": [
+    {
+     "name": "wireframe-design-review",
+     "href": "../../../en/cat-harness/processes/skills/wireframe-design-review.html",
+     "methodologies": [
+      {
+       "name": "wiregen",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/wiregen/"
+      }
+     ]
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_3_Prototype": {
+   "id": "Task_4_3_Prototype",
+   "name": "4.3.1 Build higher-fidelity clickable prototype",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_3_Prototype",
+   "lane": "Designer",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Designer",
+   "skills": [
+    {
+     "name": "wireframe-design-review",
+     "href": "../../../en/cat-harness/processes/skills/wireframe-design-review.html",
+     "methodologies": [
+      {
+       "name": "wiregen",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/wiregen/"
+      }
+     ]
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_3_TestPrototype": {
+   "id": "Task_4_3_TestPrototype",
+   "name": "4.3.2 Validate clickable prototype via end-user role play",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_3_TestPrototype",
+   "lane": "Targeted health worker occupational groups & end-users",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Users",
+   "skills": [
+    {
+     "name": "wireframe-design-review",
+     "href": "../../../en/cat-harness/processes/skills/wireframe-design-review.html",
+     "methodologies": [
+      {
+       "name": "wiregen",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/wiregen/"
+      }
+     ]
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_4_Architecture": {
+   "id": "Task_4_4_Architecture",
+   "name": "4.4 Design system architecture & interoperability standards (FHIR, HIE)",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_4_Architecture",
+   "lane": "Solutions architect & health informatician",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Architect",
+   "skills": [
+    {
+     "name": "archimate-models",
+     "href": "../../../en/cat-harness/processes/skills/archimate-models.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_5_BuildAndDocument": {
+   "id": "Task_4_5_BuildAndDocument",
+   "name": "4.5 Establish test plan, build beta PCPOSS & product documentation",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_5_BuildAndDocument",
+   "lane": "Software engineer / technology partner",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Engineer",
+   "skills": [
+    {
+     "name": "l4-application-build",
+     "href": "../../../en/cat-harness/processes/skills/l4-application-build.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_4_5_RunQaTests": {
+   "id": "Task_4_5_RunQaTests",
+   "name": "4.5 Execute installation, stress, security, UI, integration, QA & accessibility tests",
+   "type": "bpmn:Task",
+   "stepHref": "design-and-adaptation.html#step-Task_4_5_RunQaTests",
+   "lane": "Software engineer / technology partner",
+   "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Engineer",
+   "skills": [
+    {
+     "name": "content-test",
+     "href": "../../../en/cat-harness/processes/skills/content-test.html"
+    }
+   ],
+   "binding": "dangling"
+  }
+ }
+}

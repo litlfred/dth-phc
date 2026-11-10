@@ -69,7 +69,7 @@
       "accessedBy": [
         {
           "elementId": "id-350840520ae44f658b6ad3b3762e382e",
-          "name": "DPI-H Health Workforce Registry (HWR)",
+          "name": "Health Workforce Registry",
           "type": "ApplicationComponent",
           "relationshipId": "id-82a19dce8ad94edead787664c3af59f6",
           "kind": "write"
@@ -91,7 +91,7 @@
       "accessedBy": [
         {
           "elementId": "id-4e0767822dcf46409554156a133fbc67",
-          "name": "DPI-H: Facility Registry",
+          "name": "Health Facility Registry",
           "type": "ApplicationComponent",
           "relationshipId": "id-c4a4adb63b16424ea40b2762a0598b0b",
           "kind": "write"
@@ -115,7 +115,7 @@
       "accessedBy": [
         {
           "elementId": "id-350840520ae44f658b6ad3b3762e382e",
-          "name": "DPI-H Health Workforce Registry (HWR)",
+          "name": "Health Workforce Registry",
           "type": "ApplicationComponent",
           "relationshipId": "id-ba37954c9c86400a8b71c5cdb1058441",
           "kind": "write"
@@ -153,7 +153,7 @@
       "accessedBy": [
         {
           "elementId": "id-0e6d89398fff4f20994a31b4de58e7d7",
-          "name": "SHR Repository",
+          "name": "Lifelong Health Record",
           "type": "ApplicationComponent",
           "relationshipId": "id-36c426f94fdb4cacbcf583f6896d4232",
           "kind": "readwrite"
@@ -241,7 +241,7 @@
         },
         {
           "elementId": "id-c0d39bf67fe64f54b07fbeb9bf37d404",
-          "name": "Logical Information Model Registry",
+          "name": "Logical Information Model Repository",
           "type": "ApplicationComponent",
           "relationshipId": "id-93d197f1da8b4fad940330387ea9a797",
           "kind": "readwrite"

@@ -2,10 +2,10 @@
 ' 1. Central Health Workforce Registry (id-007936f8c2424b96ad1893ef0ff66059): sequence diagram, derived by archimate-diagrams. Do not edit.
 title 1. Central Health Workforce Registry
 hide footbox
-participant "DPI-H Health Workforce Registry (HWR)" as id_350840520ae44f658b6ad3b3762e382e <<ApplicationComponent>>
+participant "Health Workforce Registry" as id_350840520ae44f658b6ad3b3762e382e <<ApplicationComponent>>
 participant "DPI-F Information Mediator" as id_3c5d846710034c4595e206e748d65e36 <<ApplicationComponent>>
 participant "DPI-F Security & Consent Module" as id_d79aa0eec0584b0792b44bca408afeb6 <<ApplicationComponent>>
-participant "DPI-H: Facility Registry" as id_4e0767822dcf46409554156a133fbc67 <<ApplicationComponent>>
+participant "Health Facility Registry" as id_4e0767822dcf46409554156a133fbc67 <<ApplicationComponent>>
 participant "Reporting Module" as id_bbd18f65be45490fbbaf02346511ae5e <<ApplicationComponent>>
 database "CDE-HWR: Core Data Elements for the Health Workforce Registry" as id_e162b2223da4440983514be5854b654d <<DataObject>>
 database "Health Worker" as id_702c24bbd73341be9afc11c7e11e9810 <<DataObject>>
@@ -15,8 +15,8 @@ database "Facility" as id_ad969289cb774307aa678037c56fdd3f <<DataObject>>
 participant "Generate Reports" as id_b3a5209e0e88419382a678964bed91f9 <<ApplicationFunction>>
 id_350840520ae44f658b6ad3b3762e382e ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
 id_d79aa0eec0584b0792b44bca408afeb6 ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
-id_3c5d846710034c4595e206e748d65e36 ->> id_4e0767822dcf46409554156a133fbc67 : flows to DPI-H: Facility Registry
-id_3c5d846710034c4595e206e748d65e36 ->> id_350840520ae44f658b6ad3b3762e382e : flows to DPI-H Health Workforce Registry (HWR)
+id_3c5d846710034c4595e206e748d65e36 ->> id_4e0767822dcf46409554156a133fbc67 : flows to Health Facility Registry
+id_3c5d846710034c4595e206e748d65e36 ->> id_350840520ae44f658b6ad3b3762e382e : flows to Health Workforce Registry
 id_3c5d846710034c4595e206e748d65e36 ->> id_bbd18f65be45490fbbaf02346511ae5e : flows to Reporting Module
 id_3c5d846710034c4595e206e748d65e36 ->> id_d79aa0eec0584b0792b44bca408afeb6 : flows to DPI-F Security & Consent Module
 id_4e0767822dcf46409554156a133fbc67 ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
@@ -33,7 +33,7 @@ id_b3a5209e0e88419382a678964bed91f9 -> id_145e885489634e469e8a6734f56b7df5 : rea
 ' SUB-GOAL 1. Central Health Workforce Registry (id-6702871f89b641d4823ad05fbd2a4bdb): sequence diagram, derived by archimate-diagrams. Do not edit.
 title SUB-GOAL 1. Central Health Workforce Registry
 hide footbox
-participant "DPI-H Health Workforce Registry (HWR)" as id_350840520ae44f658b6ad3b3762e382e <<ApplicationComponent>>
+participant "Health Workforce Registry" as id_350840520ae44f658b6ad3b3762e382e <<ApplicationComponent>>
 participant "DPI-F Information Mediator" as id_3c5d846710034c4595e206e748d65e36 <<ApplicationComponent>>
 participant "DPI-F Security & Consent Module" as id_d79aa0eec0584b0792b44bca408afeb6 <<ApplicationComponent>>
 participant "Reporting Module" as id_bbd18f65be45490fbbaf02346511ae5e <<ApplicationComponent>>
@@ -41,7 +41,7 @@ database "Terminology" as id_301912f3fcaf4648b0ebc3cbbfc3b447 <<DataObject>>
 database "Health Worker" as id_702c24bbd73341be9afc11c7e11e9810 <<DataObject>>
 id_350840520ae44f658b6ad3b3762e382e ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
 id_d79aa0eec0584b0792b44bca408afeb6 ->> id_3c5d846710034c4595e206e748d65e36 : flows to DPI-F Information Mediator
-id_3c5d846710034c4595e206e748d65e36 ->> id_350840520ae44f658b6ad3b3762e382e : flows to DPI-H Health Workforce Registry (HWR)
+id_3c5d846710034c4595e206e748d65e36 ->> id_350840520ae44f658b6ad3b3762e382e : flows to Health Workforce Registry
 id_3c5d846710034c4595e206e748d65e36 ->> id_bbd18f65be45490fbbaf02346511ae5e : flows to Reporting Module
 id_3c5d846710034c4595e206e748d65e36 ->> id_d79aa0eec0584b0792b44bca408afeb6 : flows to DPI-F Security & Consent Module
 id_350840520ae44f658b6ad3b3762e382e -> id_301912f3fcaf4648b0ebc3cbbfc3b447 : writes Terminology
@@ -87,8 +87,8 @@ id_bc68171ed2615dad80e6f7d8199f4057 --> id_03e28af10b8f5b099e271461c8a99f21 : se
 title CDS
 hide footbox
 participant "Clinical Guideline package" as id_8104985f0f0e4f4cbe3bdf032ea20759 <<Product>>
-participant "Decision Support Engine" as id_539b04ae45f147258d8253ae5cb87402 <<ApplicationComponent>>
-id_8104985f0f0e4f4cbe3bdf032ea20759 ->> id_539b04ae45f147258d8253ae5cb87402 : flows to Decision Support Engine
+participant "Computable Decision Support Engine" as id_539b04ae45f147258d8253ae5cb87402 <<ApplicationComponent>>
+id_8104985f0f0e4f4cbe3bdf032ea20759 ->> id_539b04ae45f147258d8253ae5cb87402 : flows to Computable Decision Support Engine
 @enduml
 
 @startuml

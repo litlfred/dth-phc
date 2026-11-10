@@ -1,0 +1,147 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/tbl-glossary",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:glossary",
+  "kind": "table",
+  "title": "Glossary and glossary references",
+  "text": "t-fm-glossary.md",
+  "meta": {
+    "title": "Glossary and glossary references",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-002-glossary",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
+      "pdfPages": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "method": "l1-table-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred-point-of-service-system",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/register",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/registry",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/business-process",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/functional-requirements",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/non-functional-requirements",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/registry",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "id": "id-808925f4d2075d7b95e0651ebae00fcf",
+        "name": "Point-of-service application"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+        "id": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+        "name": "Electronic health record system"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+        "name": "Decision support system"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+        "id": "id-3acafd57e8cc5d4198ffcb29d39c1184",
+        "name": "Community-based information system"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+        "id": "id-9a31cf86a4685fb0ae0c460d973e2031",
+        "name": "Personal health record"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+        "id": "id-f180ad44b2e94e2a9ee8523ffc900264",
+        "name": "Shared Health Record"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+        "id": "id-539b04ae45f147258d8253ae5cb87402",
+        "name": "Decision Support Engine"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+        "id": "id-3f41de2b51c24041b08243bf72b140d1",
+        "name": "Terminology Service"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-a9de9d3bebca5852b7b9c55519e7ab2d.jsonld",
+          "name": "Electronic health record system"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "name": "Decision support system"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-3acafd57e8cc5d4198ffcb29d39c1184.jsonld",
+          "name": "Community-based information system"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-9a31cf86a4685fb0ae0c460d973e2031.jsonld",
+          "name": "Personal health record"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+          "name": "Shared Health Record"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+          "name": "Decision Support Engine"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+          "name": "Terminology Service"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        }
+      ]
+    }
+  },
+  "provenance": "authored"
+}

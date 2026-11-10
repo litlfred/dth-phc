@@ -2815,7 +2815,9 @@
     if (window.innerWidth < AUTO_MIN_VIEWPORT_PX) return false;
     var column = scope.clientWidth;
     if (!column) return false;
-    var natural = intrinsicWidth(scope);
+    // The width the drawing will be drawn at: its text-fitted width when it
+    // has one, else its own coordinate width.
+    var natural = parseFloat(scope.style.getPropertyValue("--fa-natural")) || intrinsicWidth(scope);
     if (!natural) return false;
     return natural / column >= AUTO_MIN_RATIO;
   }
@@ -3153,7 +3155,7 @@
    *
    * Since bean `g196` (2026-10-23) a Jekyll page writes its same-site links
    * relative to itself, so a page that did not change is byte-identical in
-   * every STAGING preview and on the live site; `fa-baseurl` and
+   * every branches/ preview and on the live site; `fa-baseurl` and
    * `fa-todo-src` are relative too. Resolving here, once, keeps every
    * consumer's arithmetic as it was (`withBase`, `baseurlResolved`'s
    * prefix guard, `navKey`'s strip).
@@ -3176,9 +3178,9 @@
     }
   }
 
-  /* ── Is this a STAGING preview? ──────────────────────────────────────
+  /* ── Is this a branches/ preview? ──────────────────────────────────────
    *
-   * Non-empty `fa-staging` means a `STAGING/<slug>/` preview; empty means the
+   * Non-empty `fa-staging` means a `branches/<slug>/` preview; empty means the
    * canonical deploy, a local build, or a page whose `_data/build.yml` was
    * never written. All three of those are treated as canonical, which is the
    * SAFE direction: a build that cannot say it is a preview hides the tile
@@ -4045,7 +4047,7 @@
    * Every backdrop in the todo index was arriving as `/assets/img/...` —
    * site-ROOT-absolute with no baseurl — and this site is served from
    * `/folio-assistant/` on the canonical deploy and
-   * `/folio-assistant/STAGING/<branch>/` on a preview. So every one of them
+   * `/folio-assistant/branches/<branch>/` on a preview. So every one of them
    * 404'd, and the owner saw todo cards with a broken-image placeholder
    * beside landing stickies that had their art: *"i want the theme on the
    * lower ones too. why are they dispalyed differently."*
@@ -5465,9 +5467,93 @@
       // `avatars.css` already declares — so the glass can draw the kind avatar
       // when there is no picture, or when the reader chose kind avatars.
       kind: (meta && meta.kind) || (all[key] && all[key].kind) || "library",
+      // A PINNED BLOCK's graph kind (`glossary`, `bpmn`, `fhir-instance`, ...)
+      // and the page or document it came from (#982). Only a kind-shaped word
+      // is kept: it reaches a `data-` attribute and picks a kind avatar.
+      nodeKind: kindWord((meta && meta.nodeKind) || (all[key] && all[key].nodeKind)),
+      source: String((meta && meta.source) || (all[key] && all[key].source) || "").replace(/\s+/g, " ").trim(),
     };
     setFolioAssets(all);
     announceFolio(key, "glass");
+  }
+
+  /** A graph kind as a safe word, or "" (it reaches an attribute and a CSS selector). */
+  function kindWord(v) {
+    var w = String(v || "").trim().toLowerCase();
+    return /^[a-z0-9][a-z0-9:_-]{0,63}$/.test(w) ? w : "";
+  }
+
+  /**
+   * LIVE WINDOWS FOR PINNED BLOCKS, ONE LAZY VIEWER PER GRAPH KIND (#985).
+   *
+   * Owner, 2026-11-02 (bean `fbmk`): *"lazy load all visualizers ... can be a
+   * lot if lots of different item types"*.
+   *
+   * Each graph kind registers `{ load, render }` with
+   * `window.faFolio.viewer(kind, { load: () => import(url), render(node, el) })`.
+   * Registering NEVER calls `load()`. When the reader opens a pinned block's
+   * window on the glass (and only while that card is not zoomed to its avatar),
+   * `load()` runs at most once for that kind and its promise is shared across
+   * every open card of the same kind. Closed link cards and avatar-zoomed cards
+   * load nothing.
+   */
+  var folioViewers = {};
+  var folioViewerLoads = {};
+
+  function defaultFolioRender(node, host) {
+    var dl = el("dl", { class: "fa-glass-window-meta" });
+    function row(k, v) {
+      if (!v) return;
+      dl.appendChild(el("dt", null, k));
+      dl.appendChild(el("dd", null, v));
+    }
+    row("Title", node.title);
+    row("Kind", node.nodeKind || node.kind);
+    row("Source", node.source);
+    row("ID", node.id);
+    host.appendChild(dl);
+    if (node.href) {
+      host.appendChild(el("p", { class: "fa-glass-window-link" },
+        el("a", { href: safeHref(node.href) }, "Open on page \u2192")));
+    }
+  }
+  folioViewers["*"] = { load: null, render: defaultFolioRender };
+
+  function registerFolioViewer(kind, spec) {
+    var k = kind === "*" ? "*" : kindWord(kind);
+    if (!k || !spec || typeof spec.render !== "function") return;
+    folioViewers[k] = {
+      load: typeof spec.load === "function" ? spec.load : null,
+      render: spec.render,
+    };
+    delete folioViewerLoads[k];
+    if (glassLayer && glassLayer.isConnected) {
+      Array.prototype.forEach.call(
+        glassLayer.querySelectorAll('.fa-glass-asset[data-fa-window="open"]'),
+        function (card) {
+          var ck = card.getAttribute("data-fa-node-kind") || card.getAttribute("data-fa-asset-kind") || "";
+          if ((k === "*" || ck === k) && typeof card.__faOpenWindow === "function") {
+            card.__faOpenWindow();
+          }
+        }
+      );
+    }
+  }
+
+  function loadFolioViewer(kind) {
+    var k = kindWord(kind);
+    var cacheKey = k && folioViewers[k] ? k : "*";
+    var v = folioViewers[cacheKey];
+    if (!v) return Promise.resolve(null);
+    if (!folioViewerLoads[cacheKey]) {
+      folioViewerLoads[cacheKey] = Promise.resolve()
+        .then(function () { return v.load ? v.load() : null; })
+        .then(
+          function (mod) { return { viewer: v, mod: mod }; },
+          function (err) { delete folioViewerLoads[cacheKey]; throw err; }
+        );
+    }
+    return folioViewerLoads[cacheKey];
   }
 
   /**
@@ -5832,7 +5918,10 @@
       });
       box.appendChild(img);
     } else {
-      box.appendChild(fallbackAvatar(a.kind));
+      // A pinned block with no picture draws ITS GRAPH KIND's avatar.
+      // A bookmark with no cover draws the `docs` kind: it marks a place in a document.
+      box.appendChild(fallbackAvatar(a.kind === "pin" && kindWord(a.nodeKind) ? kindWord(a.nodeKind)
+        : a.kind === "bookmark" ? "docs" : a.kind));
     }
     return box;
   }
@@ -6210,7 +6299,9 @@
       // square sticky avatar"*. A todo is a sticky note everywhere else on
       // this site, and a sticky note is square; the wide 152px strip it used
       // to pop out as read as a list row, not as the note.
-      var h = zoomKindOf(a) === "library" && prefs.avatars !== "text"
+      // A BOOKMARK with its document's cover is portrait like the book it marks.
+      var portrait = zoomKindOf(a) === "library" || (a.kind === "bookmark" && a.avatar);
+      var h = portrait && prefs.avatars !== "text"
         ? Math.round(w * 4 / 3) : zoomKindOf(a) === "todo" ? w : GLASS_CARD_H;
       return { width: w, height: h };
     }
@@ -6895,6 +6986,12 @@
         return { kind: "library", name: libName, href: safeHref(lib.library), entry: safeHref(lib.entry),
                  heading: "Back to the library?", tip: "Back in " + libName };
       }
+      if (a && PIN_KINDS[a.kind]) {
+        var from = String(a.source || "").replace(/\s+/g, " ").trim();
+        var fromName = from ? "its page, " + from : "the page it came from";
+        return { kind: "sticky", name: fromName, href: safeHref(a.href) || safeHref(withBase("/")),
+                 heading: "Back on its page?", tip: "Back on " + fromName };
+      }
       if (a && a.kind === "sticky") {
         var page = String(a.label || "").replace(/\s+/g, " ").trim();
         var pageName = page ? "its page, " + page : "the page it came from";
@@ -6970,12 +7067,15 @@
       var href = place ? place.entry : safeHref(a.href);
       // WHERE A PRESS GOES: the entry page until the index names a visualizer,
       // or the external URL for a linked document (R28).
-      var opens = place ? place.entry : (isLibrary ? href || "" : "");
+      var isPin = !!PIN_KINDS[a.kind];
+      var opens = place ? place.entry : (isLibrary || isPin ? href || "" : "");
       var card = el("article", {
         class: "fa-glass-asset",
         "data-fa-asset": key,
         "data-fa-asset-kind": a.kind || "library",
         "data-fa-zoom-kind": zoomKindOf(a),
+        "data-fa-node-kind": isPin ? kindWord(a.nodeKind) : "",
+        "data-fa-source": isPin ? String(a.source || "") : "",
         "aria-label": label,
         // A library card OPENS (issue #1900), so it is a stop in the tab
         // order: zoomed to its cover the title link is not drawn, and Enter on
@@ -6991,6 +7091,15 @@
         ? el("a", { class: "fa-glass-asset-name", href: href }, a.title)
         : el("span", { class: "fa-glass-asset-name" }, a.title));
       card.appendChild(face);
+      // A BOOKMARK wears a ribbon and a PINNED BLOCK a pin, on the CARD's top
+      // corner rather than inside the avatar: the avatar fills the card under
+      // the title strip, which would cover a badge drawn in it. Decorative:
+      // the card's name says what it is.
+      if (isPin) {
+        card.setAttribute("data-fa-badged", "");
+        card.appendChild(el("span", { class: "fa-glass-badge", "data-fa-badge": a.kind, "aria-hidden": "true" },
+          a.kind === "bookmark" ? "\uD83D\uDD16" : "\uD83D\uDCCC"));
+      }
       // What the card shows once it is its avatar (`gistOf`). Drawn only in
       // that state — the CSS hides it at full size, where the title and the
       // body already say it — and a <p>, so it is read as text when shown.
@@ -7112,10 +7221,86 @@
       close.addEventListener("click", function () {
         confirmShelve(key, a, label, close);
       });
+      var winBtn = null;
+      var winBox = null;
+      if (isPin) {
+        winBtn = el("button", {
+          type: "button",
+          class: "fa-glass-asset-tool",
+          "data-fa-control": "window",
+          "aria-expanded": "false",
+          "aria-label": "Open " + label + " in a window on the glass",
+          title: "Open live window",
+        }, "\u29c9");
+        winBox = el("div", {
+          class: "fa-glass-window",
+          "data-fa-window-body": "",
+          hidden: "",
+        });
+        function closeCardWindow() {
+          card.removeAttribute("data-fa-window");
+          winBtn.setAttribute("aria-expanded", "false");
+          winBtn.setAttribute("aria-label", "Open " + label + " in a window on the glass");
+          winBtn.title = "Open live window";
+          winBox.setAttribute("hidden", "");
+          live.textContent = "Closed live window of " + label + ".";
+        }
+        function openCardWindow() {
+          if (card.getAttribute("data-fa-zoom") === "avatar") return Promise.resolve(false);
+          card.setAttribute("data-fa-window", "open");
+          winBtn.setAttribute("aria-expanded", "true");
+          winBtn.setAttribute("aria-label", "Close live window of " + label);
+          winBtn.title = "Close live window";
+          winBox.removeAttribute("hidden");
+          var g = geometryOf(card);
+          if (g.height <= GLASS_CARD_H) {
+            g.width = Math.max(g.width, 340);
+            g.height = Math.max(g.height, 240);
+            applyGeometry(card, g);
+            fitShelf();
+          }
+          var nk = kindWord(a.nodeKind) || a.kind || "*";
+          var rawId = key.replace(/^(bookmark|pin):/, "");
+          var node = {
+            "@id": rawId,
+            id: rawId,
+            key: key,
+            title: a.title || rawId,
+            href: href || "",
+            kind: nk,
+            nodeKind: kindWord(a.nodeKind) || "",
+            source: a.source || "",
+          };
+          return loadFolioViewer(nk).then(function (loaded) {
+            if (!loaded || card.getAttribute("data-fa-window") !== "open" || card.getAttribute("data-fa-zoom") === "avatar") {
+              return false;
+            }
+            while (winBox.firstChild) winBox.removeChild(winBox.firstChild);
+            loaded.viewer.render(node, winBox, loaded.mod);
+            live.textContent = "Opened live window of " + label + ".";
+            return true;
+          }).catch(function (err) {
+            while (winBox.firstChild) winBox.removeChild(winBox.firstChild);
+            winBox.appendChild(el("p", { class: "fa-glass-window-error" },
+              "Viewer failed to load: " + (err && err.message ? err.message : String(err))));
+            return false;
+          });
+        }
+        card.__faOpenWindow = openCardWindow;
+        card.__faCloseWindow = closeCardWindow;
+        winBtn.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
+          if (card.getAttribute("data-fa-window") === "open") closeCardWindow();
+          else openCardWindow();
+        });
+        tools.appendChild(winBtn);
+      }
       tools.appendChild(moveBtn);
       tools.appendChild(smaller);
       tools.appendChild(larger);
       tools.appendChild(close);
+      if (winBox) card.appendChild(winBox);
       card.appendChild(tools);
       card.appendChild(live);
       wireCardMeta(card);
@@ -7129,8 +7314,9 @@
       card.addEventListener("pointerdown", function (e) { pressAt = { x: e.clientX, y: e.clientY }; });
       card.addEventListener("click", function (e) {
         if (!opens) return;
+        if (card.getAttribute("data-fa-window") === "open") return;
         if (e.button !== 0 || e.defaultPrevented) return;
-        if (e.target.closest && e.target.closest("button, a, [data-fa-control], input, select, textarea")) return;
+        if (e.target.closest && e.target.closest("button, a, [data-fa-control], [data-fa-window-body], input, select, textarea")) return;
         if (card.getAttribute("data-fa-moving") === "true") return;
         var p = pressAt;
         pressAt = null;
@@ -8094,19 +8280,21 @@
         // read here with the rest — there is no second, floating list.
         var todo = kind === "todos";
         var sticky = kind === "sticky";
+        var pinned = kind === "bookmark" || kind === "pin";
         out.push({
           el: c,
           key: key,
           title: c.getAttribute("aria-label") || key,
-          kind: todo ? "todo" : sticky ? "sticky" : "book",
+          kind: todo ? "todo" : sticky ? "sticky" : pinned ? kind : "book",
           from: todo ? "Todo board" : sticky ? (c.getAttribute("data-fa-home-label") || "Home page")
+            : pinned ? (c.getAttribute("data-fa-source") || c.getAttribute("data-fa-node-kind") || "Pinned")
             : key.split("/")[0] + " library",
         });
       });
       return out;
     }
 
-    var KIND_LABELS = { book: "Books", todo: "Todos", sticky: "Stickies" };
+    var KIND_LABELS = { book: "Books", todo: "Todos", sticky: "Stickies", bookmark: "Bookmarks", pin: "Pinned blocks" };
 
     /** Show or hide each item; say so when a filter hides everything. */
     function applyGlassFilter() {
@@ -10486,6 +10674,58 @@
     return attempt.catch(function (e) { return "Could not copy: " + e.message; });
   }
 
+  /* A BPMN FIGURE'S LABELS READ AT THE SIZE OF THE TEXT AROUND IT (owner,
+     2026-11-02: "bpmn diagrams should be scaled so the text size matches
+     narrative text size"). The drawing used to fill the column with a 1200px
+     floor, so a small process came out with labels bigger than the prose and
+     a wide one with labels a third of its size. Now 100% means: the label
+     size the drawing's task names use, scaled to 80% of the body text's size. A
+     drawing wider than its card scrolls (and pans) inside it, and zoom still
+     multiplies from there. The label size is read from the inlined SVG, so a
+     figure that stayed an <img> keeps the old sizing. */
+  // The size the task names use. bpmn-js draws a task name a step larger
+  // than the "yes"/"no" and event labels beside it, and those labels can
+  // carry more characters between them, so the most common size would be the
+  // wrong one. So: the LARGEST size that carries at least a quarter of the
+  // drawing's characters, which skips a lone title and keeps the task names.
+  function labelFontPx(svg) {
+    var chars = {}, total = 0;
+    [].forEach.call(svg.querySelectorAll("text"), function (t) {
+      var n = (t.textContent || "").replace(/\s+/g, "").length;
+      if (!n) return;
+      var px = Math.round(parseFloat(getComputedStyle(t).fontSize) * 10) / 10;
+      if (!(px > 0)) return;
+      chars[px] = (chars[px] || 0) + n;
+      total += n;
+    });
+    var best = 0;
+    Object.keys(chars).forEach(function (k) {
+      var px = parseFloat(k);
+      if (chars[k] >= total / 4 && px > best) best = px;
+    });
+    return best;
+  }
+
+  function bodyFontPx(scope) {
+    var main = (scope.closest && scope.closest(".main-content")) || document.body;
+    var p = main.querySelector("p");
+    return parseFloat(getComputedStyle(p || main).fontSize) || 16;
+  }
+
+  // Owner, 2026-11-02 (follow-up): "make it 80% same size" -- the task names
+  // are drawn at 80% of the body text size, a little quieter than the prose.
+  var FIGURE_TEXT_RATIO = 0.8;
+
+  function fitTextToBody(scope) {
+    var svg = scope.querySelector("svg");
+    var width = intrinsicWidth(scope);
+    if (!svg || !width) return;
+    var label = labelFontPx(svg);
+    if (!label) return;
+    scope.classList.add("fa-textfit");
+    scope.style.setProperty("--fa-natural", (width * FIGURE_TEXT_RATIO * bodyFontPx(scope) / label).toFixed(1) + "px");
+  }
+
   function mountFigure(scope, isPlain) {
     if (scope.dataset.faTools === "1") return;
     scope.dataset.faTools = "1";
@@ -10502,6 +10742,8 @@
         (art0 && art0.tagName.toLowerCase() === "img" ? art0.naturalWidth : 0) ||
         (art0 ? parseFloat(art0.getAttribute("width") || "") || 0 : 0);
       if (natural > 0) scope.style.setProperty("--fa-natural", natural + "px");
+    } else {
+      fitTextToBody(scope);
     }
 
     var step = DEFAULT_STEP;
@@ -10827,6 +11069,56 @@
     scope.parentNode.insertBefore(host, scope);
     host.appendChild(tools);
     host.appendChild(scope);
+
+    // Drag the bottom edge down to make the figure longer (owner,
+    // 2026-11-01: "you should also be able to drag bottom of figure down to
+    // make longer"). The card is as tall as its drawing, so a longer card is
+    // a bigger drawing: the handle sets the zoom so the drawing's height
+    // follows the pointer, and up makes it shorter again. A full-width bar,
+    // not the browser's corner grip, so it is easy to hit; focusable, so the
+    // arrow keys do the same in zoom steps.
+    var grip = el("div", {
+      class: "fa-figure-grip", role: "separator", tabindex: "0",
+      "aria-orientation": "horizontal", "aria-label": "Drag down to make the figure longer, up to make it shorter",
+      title: "Drag down to make the figure longer",
+    });
+    host.appendChild(grip);
+    var sizing = null;
+    function setZoom(z) {
+      z = Math.max(ZOOM_STEPS[0], Math.min(ZOOM_STEPS[ZOOM_STEPS.length - 1], z));
+      scope.style.setProperty("--fa-zoom", String(z));
+      level.textContent = Math.round(z * 100) + "%";
+      step = 0;
+      while (step < ZOOM_STEPS.length - 1 && ZOOM_STEPS[step + 1] <= z + 1e-9) step++;
+      out.disabled = z <= ZOOM_STEPS[0];
+      into.disabled = z >= ZOOM_STEPS[ZOOM_STEPS.length - 1];
+      markPannable();
+    }
+    grip.addEventListener("pointerdown", function (e) {
+      if (e.button !== 0) return;
+      var art = scope.querySelector("svg, img, object");
+      var h = art ? art.getBoundingClientRect().height : scope.clientHeight;
+      if (!(h > 0)) return;
+      var cur = parseFloat(scope.style.getPropertyValue("--fa-zoom")) || ZOOM_STEPS[step];
+      sizing = { y: e.clientY, h: h, z: cur };
+      try { grip.setPointerCapture(e.pointerId); } catch (_e) { /* not captureable */ }
+      grip.classList.add("is-sizing");
+      e.preventDefault();
+    });
+    grip.addEventListener("pointermove", function (e) {
+      if (!sizing) return;
+      setZoom(sizing.z * Math.max(0.1, sizing.h + (e.clientY - sizing.y)) / sizing.h);
+      e.preventDefault();
+    });
+    function endSizing() { sizing = null; grip.classList.remove("is-sizing"); }
+    grip.addEventListener("pointerup", endSizing);
+    grip.addEventListener("pointercancel", endSizing);
+    grip.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown" && step < ZOOM_STEPS.length - 1) { step++; apply(); }
+      else if (e.key === "ArrowUp" && step > 0) { step--; apply(); }
+      else return;
+      e.preventDefault();
+    });
     apply();
 
     // After insertion, so `clientWidth` is the real column width rather than 0.
@@ -12035,6 +12327,61 @@
     return row;
   }
 
+  /**
+   * The tree-to-commit index, fetched once per page and only when a witness
+   * card with a tree is built (bean 69lr; owner card Q5, 2026-11-05). `null`
+   * when it is absent or unreadable: the tree then stays plain text.
+   */
+  var treeCommitsPromise = null;
+  function treeCommits() {
+    if (!treeCommitsPromise) {
+      treeCommitsPromise = fetch(siteBaseurl() + "/assets/qa/tree-commits.json")
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) {
+          return j && j.$schema === "folio-qa-tree-commits/v1" && j.commits ? j : null;
+        })
+        .catch(function () { return null; });
+    }
+    return treeCommitsPromise;
+  }
+
+  /** Turn a "repo tree at review" value into a link to main's commit with that tree, when the index has one. */
+  function linkTreeToCommit(row, tree) {
+    treeCommits().then(function (idx) {
+      var commit = idx && idx.commits[tree];
+      if (!commit || !/^[0-9a-f]{40}$/.test(commit) || typeof idx.repo !== "string") return;
+      var href = safeHref(idx.repo + "/commit/" + commit);
+      var v = row.querySelector(".fa-qa-field-value");
+      if (!href || !v || !/^https:\/\/github\.com\//.test(href)) return;
+      var a = el("a", { href: href, class: "fa-qa-mono", title: "The commit on main where tree " + tree +
+        " first landed: " + commit }, shortSha(tree) + " (commit " + shortSha(commit) + ")");
+      v.textContent = "";
+      v.appendChild(a);
+    });
+  }
+
+  /**
+   * Date a "when" row from the reviewed tree (owner rulings 2026-11-06: card
+   * "QA dates", option 1, and card "Date source", option 1, derive the date ON
+   * READ). Writers no longer stamp a clock in a verdict, so the same verdict
+   * over the same tree is the same bytes on a PR and on main; its date is the
+   * commit date of the commit on main carrying that tree, from the index's
+   * `dates`. A tree the index does not date leaves the row as it was: the
+   * witness's own legacy date, or "not recorded" -- never now.
+   */
+  function dateRowFromTree(row, tree) {
+    treeCommits().then(function (idx) {
+      var iso = idx && idx.dates && idx.dates[tree];
+      var when = typeof iso === "string" ? qaWhen(iso) : null;
+      var v = row.querySelector(".fa-qa-field-value");
+      if (!when || !v) return;
+      v.textContent = when.text;
+      v.className = v.className.replace(/\s*fa-qa-absent\b/, "");
+      v.setAttribute("title", "The commit date of the commit on main carrying the reviewed tree " +
+        tree + ": " + when.title);
+    });
+  }
+
   function qaWitnessCard(w) {
     var card = el("div", { class: "fa-qa-witness fa-qa-kind-" + (w.kind || "script") });
 
@@ -12079,9 +12426,31 @@
 
     var when = qaWhen(w.at);
     var grid = el("div", { class: "fa-qa-field-grid" });
-    grid.appendChild(qaField("when", when && when.text, { title: when && when.title }));
-    grid.appendChild(qaField("repo SHA at review", shortSha(w.sha),
-      { mono: true, title: w.sha || undefined }));
+    var whenRow = qaField("when", when && when.text, { title: when && when.title });
+    grid.appendChild(whenRow);
+    if (w.tree) dateRowFromTree(whenRow, w.tree);
+    // A verdict records the TREE it reviewed, not HEAD's commit (folio-assistant
+    // bean 69lr; owner card Q4, 2026-11-05: "the tree is the identity"). On a
+    // pull_request run HEAD is the synthetic refs/pull/<n>/merge commit, which
+    // can vanish; the commit that lands on main has the same tree. Sidecars
+    // written before that still carry only `sha`, so it is shown when there is
+    // no tree. GitHub has no tree-to-commit lookup, so the link comes from
+    // `assets/qa/tree-commits.json`, which the deploy writes from main's
+    // first-parent history beside the evidence (owner card Q5, 2026-11-05,
+    // option 1: a separate index, so the cached pages stay a function of the
+    // tree). A tree the index does not hold, an index that is absent, or a
+    // non-GitHub origin (`repo: null`) leaves the tree as plain text: absent,
+    // never a dead link.
+    if (w.tree) {
+      var treeRow = qaField("repo tree at review", shortSha(w.tree),
+        { mono: true, title: "Git tree id of the reviewed checkout: " + w.tree +
+          ". Every commit with this tree has exactly these inputs." });
+      grid.appendChild(treeRow);
+      linkTreeToCommit(treeRow, w.tree);
+    } else {
+      grid.appendChild(qaField("repo SHA at review", shortSha(w.sha),
+        { mono: true, title: w.sha || undefined }));
+    }
     if (w.kind === "script" || w.scriptHash) {
       grid.appendChild(qaField("checker source hash", shortSha(w.scriptHash),
         { mono: true, title: w.scriptHash || undefined }));
@@ -12852,6 +13221,17 @@
         applyNavPref(null);
         label();
       });
+      /* A PIN LIFTS WHEN THE MOUSE LEAVES -- owner, 2026-11-02 (Q-FMR-11 A).
+       * Since an open bar's avatar goes home, nothing on the bar closes a
+       * pin, so a bar pinned open stayed open until the reader left the page.
+       * Now the mouse leaving the bar unpins it, and the bar goes back to the
+       * hover peek. Only a MOUSE: a finger's pointerleave fires as it lifts,
+       * which would undo the tap that pinned the bar. Nothing is stored. */
+      bar.addEventListener("pointerleave", function (e) {
+        if (e.pointerType !== "mouse" || !box.checked) return;
+        box.checked = false;
+        label();
+      });
     }
   }
 
@@ -12959,6 +13339,135 @@
       .catch(function () { p.setAttribute("title", "build details unavailable"); });
   }
 
+  /*
+   * PIN ANY BLOCK, OF ANY GRAPH KIND, TO THE FOLIO — issue #982. Owner,
+   * 2026-11-02: a bookmark icon in the block gutter puts *"a bookmark kind
+   * [item] to the folio which is a link to the document at that point"*, and
+   * *"user should also be able to add content blocks in general to folio so
+   * they can return to them (e.g. glossary of a harness or ingested library,
+   * a BPMN diagram, a FHIR resource instance, etc.)"* — *"any graph kind
+   * really"*, *"core infra of the viewer/graph kind"*.
+   *
+   * So there is ONE contract, the same shape a library row uses, and no
+   * per-kind code. Any rendered block declares itself:
+   *
+   *     <div data-fa-pin="<node IRI or page URL#anchor>"
+   *          data-fa-pin-title="Health worker"
+   *          data-fa-pin-href="<where opening it goes>"
+   *          data-fa-pin-kind="bookmark | pin"          (default pin)
+   *          data-fa-pin-node-kind="glossary"           (its graph kind)
+   *          data-fa-pin-avatar="<the document's cover>"
+   *          data-fa-pin-source="DTH-HRH">
+   *       ... <button data-fa-pin-control>🔖</button> ...
+   *
+   * and a press on any `[data-fa-pin-control]` inside it toggles it on the
+   * glass. A viewer that builds its controls in script (the block panel)
+   * calls `window.faFolio.pin(key, meta)` instead of growing a second store.
+   *
+   * ON THE GLASS IT IS A LINK CARD (Q-BMK-1 = C): the avatar, the title and
+   * where it came from, opening to `href`. Nothing of the block's own viewer
+   * is loaded for it, so a glass holding many items of many kinds costs one
+   * small card each (owner, 2026-11-02: *"lazy load all visualizers ... can
+   * be a lot if lots of different item types"*).
+   */
+  var PIN_KINDS = { bookmark: 1, pin: 1 };
+
+  function pinMetaOf(host) {
+    var kind = host.getAttribute("data-fa-pin-kind");
+    var key = host.getAttribute("data-fa-pin") || "";
+    return {
+      key: key,
+      title: host.getAttribute("data-fa-pin-title") || key,
+      href: safeHref(host.getAttribute("data-fa-pin-href") || undefined) || "",
+      avatar: safeHref(host.getAttribute("data-fa-pin-avatar") || undefined) || "",
+      kind: PIN_KINDS[kind] ? kind : "pin",
+      nodeKind: host.getAttribute("data-fa-pin-node-kind") || "",
+      source: host.getAttribute("data-fa-pin-source") || "",
+    };
+  }
+
+  /** The store key of a pinned item: kind-prefixed, so it can never be read as a library `<instance>/<id>`. */
+  function pinKeyOf(kind, key) {
+    var k = String(key || "");
+    return /^(bookmark|pin):/.test(k) ? k : (PIN_KINDS[kind] ? kind : "pin") + ":" + k;
+  }
+
+  /** Put it on the glass, or take it off when it is already there. Returns the new state. */
+  function togglePin(key, meta) {
+    var m = meta || {};
+    if (!key) return "library";
+    var k = pinKeyOf(m.kind, key);
+    if (folioStateOf(k) === "glass") { shelveFromGlass(k); return "folio"; }
+    displayInFolio(k, {
+      title: m.title || key,
+      href: safeHref(m.href || undefined) || "",
+      avatar: safeHref(m.avatar || undefined) || "",
+      kind: PIN_KINDS[m.kind] ? m.kind : "pin",
+      nodeKind: m.nodeKind,
+      source: m.source,
+    });
+    return "glass";
+  }
+
+  /** Every pin control shows its block's state, read from the store. */
+  function paintBlockPins(root) {
+    var r = root && root.querySelectorAll ? root : document;
+    Array.prototype.forEach.call(r.querySelectorAll("[data-fa-pin-control]"), function (btn) {
+      var host = btn.closest("[data-fa-pin]");
+      var m = host ? pinMetaOf(host) : null;
+      if (!m || !m.key) return;
+      var on = folioStateOf(pinKeyOf(m.kind, m.key)) === "glass";
+      var what = m.kind === "bookmark" ? "bookmark" : "pin";
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.setAttribute("aria-label", (on ? "Remove the " + what + " of " : (what === "bookmark" ? "Bookmark " : "Pin ")) +
+        m.title + (on ? " from your folio glass" : " to your folio glass"));
+      btn.title = on ? "On your folio glass (press to take it off)" : (what === "bookmark" ? "Bookmark on your folio" : "Pin to your folio");
+    });
+  }
+
+  function mountBlockPins() {
+    if (document.__faPinsMounted) return;
+    document.__faPinsMounted = true;
+    // ONE delegated listener, for the same reason as the pull-outs (`ebvl`):
+    // lazy pages and viewers fill their blocks after this runs.
+    document.addEventListener("click", function (ev) {
+      var btn = ev.target && ev.target.closest && ev.target.closest("[data-fa-pin-control]");
+      if (!btn) return;
+      var host = btn.closest("[data-fa-pin]");
+      if (!host) return;
+      ev.preventDefault();
+      ev.stopPropagation();
+      var m = pinMetaOf(host);
+      togglePin(m.key, m);
+    });
+    document.addEventListener("fa:folio-changed", function () { paintBlockPins(); });
+    paintBlockPins();
+    function findPinCard(kindOrKey, maybeKey) {
+      if (!glassLayer || !glassLayer.isConnected) return null;
+      var k = maybeKey !== undefined ? pinKeyOf(kindOrKey, maybeKey) : String(kindOrKey || "");
+      var cards = glassLayer.querySelectorAll(".fa-glass-asset");
+      for (var i = 0; i < cards.length; i++) {
+        var ak = cards[i].getAttribute("data-fa-asset") || "";
+        if (ak === k || ak === "pin:" + k || ak === "bookmark:" + k) return cards[i];
+      }
+      return null;
+    }
+    window.faFolio = {
+      pin: togglePin,
+      stateOf: function (kind, key) { return folioStateOf(pinKeyOf(kind, key)); },
+      paint: paintBlockPins,
+      viewer: registerFolioViewer,
+      openWindow: function (kindOrKey, maybeKey) {
+        var c = findPinCard(kindOrKey, maybeKey);
+        return c && typeof c.__faOpenWindow === "function" ? c.__faOpenWindow() : Promise.resolve(false);
+      },
+      closeWindow: function (kindOrKey, maybeKey) {
+        var c = findPinCard(kindOrKey, maybeKey);
+        if (c && typeof c.__faCloseWindow === "function") c.__faCloseWindow();
+      },
+    };
+  }
+
   function init() {
     // RTL detection — Arabic pages get dir="rtl" on <html> which
     // triggers the CSS rules in docs-ui.css for smooth sidebar slide.
@@ -13012,6 +13521,7 @@
     mountGlass();
     mountLandingHomes();
     mountLibraryPullouts();
+    mountBlockPins();
     mountTodoStickies();
     mountPageLanguageBar();
     mountTableFilters();

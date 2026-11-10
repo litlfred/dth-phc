@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/prose-ch03-sec-013-personas",
@@ -34,12 +34,12 @@
       "method": "l1-section-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/end-user",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/health-service-users",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/pain-point",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/workflow",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/stakeholder"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/end-user",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-service-users",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/pain-point",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/workflow",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/stakeholder"
     ],
     "archimateElements": [
       {

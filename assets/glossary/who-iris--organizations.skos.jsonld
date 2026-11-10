@@ -10,7 +10,7 @@
   "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
   "@graph": [
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations",
       "@type": "skos:ConceptScheme",
       "skos:prefLabel": "Organizations named in the Digital Transformation Handbooks",
       "skos:definition": "Organizations that several handbooks (dth-pc, dth-sc, dth-hrh, dth-phc, dth-sfp) name, held once here as SKOS concepts with a foaf:focus to a W3C ORG organization (owner, 2026-10-31, option B; litlfred/folio-assistant-core#411). The concept carries the name and the acronym (notation); the organization carries its ORG type, homepage and parent. A handbook lists these under members and never copies them. An organization only one handbook names, such as a national regulator, stays in that handbook's glossary. Every term is a candidate: only a person adopts a definition.",
@@ -19,10 +19,10 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/"
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/un",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/un",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -33,11 +33,11 @@
       "skos:scopeNote": "The parent of the UN bodies below. Not named in dth-pc's abbreviations; added so subOrganizationOf has a target.",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/un/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/un/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/un/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/un/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -49,10 +49,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/who",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/who",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -64,11 +64,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-007.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/who/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/who/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/who/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/who/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -80,10 +80,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/paho",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/paho",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -95,11 +95,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/paho/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/paho/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/paho/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/paho/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -111,15 +111,15 @@
       },
       "org:subOrganizationOf": [
         {
-          "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/who/_focus"
+          "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/who/_focus"
         }
       ]
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/unicef",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/unicef",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -131,11 +131,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/unicef/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/unicef/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/unicef/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/unicef/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -147,15 +147,15 @@
       },
       "org:subOrganizationOf": [
         {
-          "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/un/_focus"
+          "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/un/_focus"
         }
       ]
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/unido",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/unido",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -167,11 +167,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-055.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/unido/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/unido/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/unido/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/unido/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -183,10 +183,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/itu",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/itu",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -198,11 +198,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-013.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/itu/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/itu/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/itu/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/itu/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -214,10 +214,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/iso",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/iso",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -229,11 +229,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-006.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/iso/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/iso/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/iso/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/iso/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -245,10 +245,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/hl7",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/hl7",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -264,11 +264,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-006.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/hl7/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/hl7/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/hl7/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/hl7/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -280,10 +280,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gs1",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gs1",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -295,11 +295,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gs1/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gs1/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gs1/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gs1/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -311,10 +311,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/usaid",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/usaid",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -326,11 +326,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-007.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/usaid/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/usaid/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/usaid/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/usaid/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -339,10 +339,10 @@
       ]
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/umc",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/umc",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -354,11 +354,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-007.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/umc/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/umc/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/umc/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/umc/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -370,10 +370,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/global-fund",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/global-fund",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -388,11 +388,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/global-fund/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/global-fund/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/global-fund/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/global-fund/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -404,10 +404,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gavi",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gavi",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -422,11 +422,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gavi/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gavi/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gavi/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gavi/_focus",
       "@type": "org:OrganizationalCollaboration",
       "rdfs:label": [
         {
@@ -438,10 +438,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/giz",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/giz",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -453,11 +453,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/giz/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/giz/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/giz/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/giz/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -469,10 +469,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/path",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/path",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -484,11 +484,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/path/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/path/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/path/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/path/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {
@@ -500,10 +500,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/openhie",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/openhie",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -515,11 +515,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-006.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/openhie/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/openhie/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/openhie/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/openhie/_focus",
       "@type": "org:OrganizationalCollaboration",
       "rdfs:label": [
         {
@@ -531,10 +531,10 @@
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gates-foundation",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gates-foundation",
       "@type": "skos:Concept",
       "skos:inScheme": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations"
       },
       "skos:prefLabel": [
         {
@@ -548,11 +548,11 @@
       "dcterms:source": "who-iris/library/9789240116191-eng/sections/page-005.md",
       "skos:note": "candidate",
       "foaf:focus": {
-        "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gates-foundation/_focus"
+        "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gates-foundation/_focus"
       }
     },
     {
-      "@id": "https://litlfred.github.io/who-iris/v0/ns#glossary/organizations/gates-foundation/_focus",
+      "@id": "https://litlfred.github.io/who-iris/v0/ns/glossary/organizations/gates-foundation/_focus",
       "@type": "org:FormalOrganization",
       "rdfs:label": [
         {

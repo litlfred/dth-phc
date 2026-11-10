@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/tbl-4",
@@ -32,22 +32,22 @@
       "method": "l1-table-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/interoperability-standards",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/terminologies",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/classifications",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/coding-schemes",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/fast-healthcare-interoperability-resources",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/international-classification-of-diseases",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/logical-observation-identifiers-names-and-codes",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/snomed-ct",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-ct",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/snomed-gps",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability-standards",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/terminologies",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/classifications",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/coding-schemes",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/logical-observation-identifiers-names-and-codes",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-ct",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-gps",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
     ],
     "archimateElements": [
       {

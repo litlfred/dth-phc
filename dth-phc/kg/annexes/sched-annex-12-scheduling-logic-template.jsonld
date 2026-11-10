@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/sched-annex-12-scheduling-logic-template",
@@ -85,8 +85,8 @@
       ]
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-system",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/rule"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/rule"
     ]
   },
   "provenance": "authored"

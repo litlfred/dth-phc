@@ -1,0 +1,223 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_TrainingTestingAndRollOut",
+ "markers": [
+  {
+   "id": "Task_5_0_Policies",
+   "name": "5.0 Implement cybersecurity, privacy, e-signature, data-use & ID policies",
+   "left": 29.64,
+   "top": 5.89,
+   "box": {
+    "left": 22.32,
+    "top": 13.97,
+    "width": 1.71,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_5_1_1_TrainUsers",
+   "name": "5.1.1 Develop tailored curriculum & conduct training of trainers and end-users",
+   "left": 29.64,
+   "top": 33.29,
+   "box": {
+    "left": 22.32,
+    "top": 41.37,
+    "width": 1.71,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_5_1_2_TrainMaintenance",
+   "name": "5.1.2 Train local technology partner(s) on system maintenance & troubleshooting",
+   "left": 29.64,
+   "top": 56.85,
+   "box": {
+    "left": 22.32,
+    "top": 68.63,
+    "width": 1.71,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_5_2_1_CurateTestCases",
+   "name": "5.2.1 Create UAT test cases & curate realistic and edge-case test data",
+   "left": 46.07,
+   "top": 33.29,
+   "box": {
+    "left": 38.75,
+    "top": 41.37,
+    "width": 1.71,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_5_2_RunUat",
+   "name": "5.2 Execute user acceptance testing (UAT) in existing workflows",
+   "left": 45,
+   "top": 82.6,
+   "box": {
+    "left": 38.75,
+    "top": 90.68,
+    "width": 1.71,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_5_2_UpdatePcposs",
+   "name": "5.2 & 5.4 Address feedback, fix bugs & update PCPOSS release",
+   "left": 56.79,
+   "top": 58.63,
+   "box": {
+    "left": 50.54,
+    "top": 66.71,
+    "width": 1.71,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_5_3_DeploySystem",
+   "name": "5.3 Install site infrastructure/hardware, migrate data, configure & deploy to production",
+   "left": 73.21,
+   "top": 56.85,
+   "box": {
+    "left": 65.89,
+    "top": 68.49,
+    "width": 1.71,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_5_4_FeedbackAndMaintenance",
+   "name": "5.4 Operate feedback SOP, hardware/software maintenance & impact M&E",
+   "left": 73.21,
+   "top": 31.51,
+   "box": {
+    "left": 65.89,
+    "top": 43.15,
+    "width": 1.71,
+    "height": 3.29
+   }
+  }
+ ],
+ "processHref": "training-testing-and-roll-out.html",
+ "tasks": {
+  "Task_5_0_Policies": {
+   "id": "Task_5_0_Policies",
+   "name": "5.0 Implement cybersecurity, privacy, e-signature, data-use & ID policies",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_0_Policies",
+   "lane": "Public health authority",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-PHA",
+   "skills": [
+    {
+     "name": "methodology-adoption",
+     "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_5_1_1_TrainUsers": {
+   "id": "Task_5_1_1_TrainUsers",
+   "name": "5.1.1 Develop tailored curriculum & conduct training of trainers and end-users",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_1_1_TrainUsers",
+   "lane": "Implementing team",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Impl",
+   "skills": [
+    {
+     "name": "methodology-adoption",
+     "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_5_1_2_TrainMaintenance": {
+   "id": "Task_5_1_2_TrainMaintenance",
+   "name": "5.1.2 Train local technology partner(s) on system maintenance & troubleshooting",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_1_2_TrainMaintenance",
+   "lane": "Software engineer / technology partner",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Engineer",
+   "skills": [
+    {
+     "name": "methodology-adoption",
+     "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_5_2_1_CurateTestCases": {
+   "id": "Task_5_2_1_CurateTestCases",
+   "name": "5.2.1 Create UAT test cases & curate realistic and edge-case test data",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_2_1_CurateTestCases",
+   "lane": "Implementing team",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Impl",
+   "skills": [
+    {
+     "name": "test-data-curation"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_5_2_RunUat": {
+   "id": "Task_5_2_RunUat",
+   "name": "5.2 Execute user acceptance testing (UAT) in existing workflows",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_2_RunUat",
+   "lane": "Targeted health workers & UAT end-users",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Users",
+   "skills": [
+    {
+     "name": "test-plan-execution"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_5_2_UpdatePcposs": {
+   "id": "Task_5_2_UpdatePcposs",
+   "name": "5.2 & 5.4 Address feedback, fix bugs & update PCPOSS release",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_2_UpdatePcposs",
+   "lane": "Software engineer / technology partner",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Engineer",
+   "skills": [
+    {
+     "name": "l4-application-build",
+     "href": "../../../en/cat-harness/processes/skills/l4-application-build.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_5_3_DeploySystem": {
+   "id": "Task_5_3_DeploySystem",
+   "name": "5.3 Install site infrastructure/hardware, migrate data, configure & deploy to production",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_3_DeploySystem",
+   "lane": "Software engineer / technology partner",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Engineer",
+   "skills": [
+    {
+     "name": "methodology-adoption",
+     "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
+    }
+   ],
+   "binding": "dangling"
+  },
+  "Task_5_4_FeedbackAndMaintenance": {
+   "id": "Task_5_4_FeedbackAndMaintenance",
+   "name": "5.4 Operate feedback SOP, hardware/software maintenance & impact M&E",
+   "type": "bpmn:Task",
+   "stepHref": "training-testing-and-roll-out.html#step-Task_5_4_FeedbackAndMaintenance",
+   "lane": "Implementing team",
+   "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Impl",
+   "skills": [
+    {
+     "name": "content-feedback",
+     "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+    }
+   ],
+   "binding": "dangling"
+  }
+ }
+}

@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/tbl-fig-13",
@@ -33,9 +33,9 @@
       "verbatimCheck": "every word is on PDF page 45 (who-iris vector-labels.json)"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-logic",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-table",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-table",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits"
     ],
     "archimateElements": [
       {

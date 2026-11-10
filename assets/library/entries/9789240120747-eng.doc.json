@@ -684,7 +684,40 @@
         "text": "Front matter of the Digital transformation handbook for reporting substandard and falsified medical products (ISBN 978-92-4-012074-7 electronic, 978-92-4-012075-4 print; © WHO 2026, CC BY-NC-SA 3.0 IGO), including suggested citation, CIP data, licensing terms, general disclaimers, and the table of contents.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "reporting substandard",
+          "heading": false
+        },
+        {
+          "term": "creative commons",
+          "heading": false
+        },
+        {
+          "term": "medical products",
+          "heading": false
+        },
+        {
+          "term": "suggested citation",
+          "heading": false
+        },
+        {
+          "term": "transformation handbook",
+          "heading": false
+        },
+        {
+          "term": "licence",
+          "heading": false
+        },
+        {
+          "term": "igo",
+          "heading": false
+        }
+      ],
       "extract": "# Digital transformation handbook for reporting substandard and falsified medical products ISBN 978-92-4-012074-7 (electronic version) ISBN 978-92-4-012075-4 (print version) © World Health Organization 2026 Some rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence (CC BY-NC-SA 3.0 IGO; https://creativecommons.org/licenses/by-nc-sa/3.0/igo). Under the",
       "extractCut": true
     },
@@ -702,7 +735,40 @@
         "text": "Acknowledges the handbook's authors (Swaroop Jayaprakash, Natschja Nash-Mendez, Rutendo Kuwana, Leticia Megias, Christian Moretti Anfossi), technical reviewers and contributors (WHO headquarters, United Health Futures, independent experts), national regulatory authorities in Chile (ISP) and South Africa (SAHPRA), and funding from the Gates Foundation and the UK Fleming Fund.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "uhf",
+          "heading": false
+        },
+        {
+          "term": "independent expert",
+          "heading": false
+        },
+        {
+          "term": "headquarters",
+          "heading": false
+        },
+        {
+          "term": "acknowledges",
+          "heading": false
+        },
+        {
+          "term": "acknowledgements",
+          "heading": true
+        },
+        {
+          "term": "contributions",
+          "heading": false
+        },
+        {
+          "term": "department",
+          "heading": false
+        },
+        {
+          "term": "innovations",
+          "heading": false
+        }
+      ],
       "extract": "# Acknowledgements The World Health Organization (WHO) gratefully acknowledges the contributions of many individuals and organizations to the development of this document. This handbook was authored by Swaroop Jayaprakash and Natschja Nash-Mendez (Department of Digital Health and Innovations, WHO headquarters) and Rutendo Kuwana and Leticia Megias (Department of Regulation and Prequalification, WHO headquarters) in",
       "extractCut": true
     },
@@ -720,7 +786,28 @@
         "text": "Structured table of 19 abbreviations and acronyms used across the handbook, including BPMN, DIIG, FHIR, GSMS, HL7, ICT, ID, ITU, LMICs, M&E, NMRA, PMS, RACI, Rb-PMS, SaaS, SMART, UAT, UHF, and WHO.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "post-market surveillance",
+          "heading": false
+        },
+        {
+          "term": "acronyms",
+          "heading": true
+        },
+        {
+          "term": "abbreviations",
+          "heading": true
+        },
+        {
+          "term": "uhf",
+          "heading": false
+        },
+        {
+          "term": "rb-pms",
+          "heading": false
+        }
+      ],
       "extract": "# Abbreviations and acronyms | Abbreviation | Definition | | --- | --- | | BPMN | Business Process Model and Notation | | DIIG | Digital implementation investment guide (WHO) | | FHIR | Fast Healthcare Interoperability Resources® | | GSMS | Global Surveillance and Monitoring System (WHO) | | HL7 | Health Level Seven® | | ICT | information and communication technology | | ID | identity/identification/identifier | |",
       "extractCut": true
     },
@@ -738,7 +825,40 @@
         "text": "Structured glossary defining 35 key terms used in the handbook, including active and passive pharmacovigilance, adverse drug reactions, business process, data element, digitization, digitalization, digital transformation, enabling environment, enterprise architecture, falsified and substandard medical products, functional and non-functional requirements, interoperability, Member State Mechanism (MSM), polypharmacy, post-market surveillance (PMS), registry, SMART Guidelines, trade item, unregistered product, user acceptance testing (UAT), and workflow.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "generic product",
+          "heading": false
+        },
+        {
+          "term": "medical product",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "open-source software",
+          "heading": false
+        },
+        {
+          "term": "adverse effects",
+          "heading": false
+        },
+        {
+          "term": "business process",
+          "heading": false
+        },
+        {
+          "term": "open standards",
+          "heading": false
+        },
+        {
+          "term": "intellectual property",
+          "heading": false
+        }
+      ],
       "extract": "# Glossary | Term | Definition | | --- | --- | | Active pharmacovigilance | Proactive measures that are taken to detect adverse events (1). | | Adverse drug reactions | Harmful, unintended reactions to medicines that occur at doses normally used for treatment (2). | | Business process | A set of related activities or tasks performed together to achieve the objectives of the health programme area, such as",
       "extractCut": true
     },
@@ -756,7 +876,40 @@
         "text": "Introduces the public health, antimicrobial resistance, and socioeconomic threats posed by substandard and falsified medical products, states the agreed WHO/Member State definitions, explains how supply chain complexity and procurement pressures increase risk in LMICs, and highlights the role of risk-based post-market surveillance (Rb-PMS) and NMRAs.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "medical products",
+          "heading": false
+        },
+        {
+          "term": "post-market surveillance",
+          "heading": false
+        },
+        {
+          "term": "substandard",
+          "heading": false
+        },
+        {
+          "term": "rb-pms",
+          "heading": false
+        },
+        {
+          "term": "prices",
+          "heading": false
+        },
+        {
+          "term": "medicines",
+          "heading": false
+        },
+        {
+          "term": "lmics",
+          "heading": false
+        }
+      ],
       "extract": "# Introduction Substandard and falsified medical products pose a multilayered threat to the stability of health systems. They endanger health, through either therapeutic failure or adverse effects, and they undermine public trust in health care. They also risk jeopardizing global efforts working to suppress antimicrobial resistance, threatening the long-term efficacy of key life-saving medicines. Further to their",
       "extractCut": true
     },
@@ -774,7 +927,40 @@
         "text": "Explains how reporting suspected substandard and falsified medical products enables NMRA investigation, market removal, and global surveillance via the WHO Global Surveillance and Monitoring System (GSMS), notes the frontline role and under-reporting of health care professionals, and motivates transitioning from paper-based reporting to standards-based digital solutions such as smartphone applications piloted in Indonesia and the United Republic of Tanzania.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified medical",
+          "heading": true
+        },
+        {
+          "term": "medical products",
+          "heading": true
+        },
+        {
+          "term": "substandard",
+          "heading": true
+        },
+        {
+          "term": "care professionals",
+          "heading": false
+        },
+        {
+          "term": "reporting",
+          "heading": true
+        },
+        {
+          "term": "nmras",
+          "heading": false
+        },
+        {
+          "term": "reporting systems",
+          "heading": false
+        },
+        {
+          "term": "smartphone applications",
+          "heading": false
+        }
+      ],
       "extract": "## Reporting of substandard and falsified medical products Reporting suspected substandard and falsified medical products allows NMRAs to investigate them more thoroughly than the reporter. When a case of a substandard and falsified medical product is confirmed, relevant authorities can quickly remove the product from the supply chain and market, impose sanctions and address system weaknesses. In the long term, this",
       "extractCut": true
     },
@@ -792,7 +978,40 @@
         "text": "Defines the target audience for the handbook and presents Table 1 mapping each of the seven handbook chapters/phases to illustrative target organizations, target user teams and roles, and section purpose.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "pharmacovigilance teams",
+          "heading": false
+        },
+        {
+          "term": "enterprise architects",
+          "heading": false
+        },
+        {
+          "term": "leaders regulatory",
+          "heading": false
+        },
+        {
+          "term": "monitoring pharmacovigilance",
+          "heading": false
+        },
+        {
+          "term": "nmra digital",
+          "heading": false
+        },
+        {
+          "term": "industry representatives",
+          "heading": false
+        },
+        {
+          "term": "association representatives",
+          "heading": false
+        },
+        {
+          "term": "associations senior",
+          "heading": false
+        }
+      ],
       "extract": "## Who this handbook is for This handbook has been developed for countries, organizations and teams seeking to plan and implement digital solutions for reporting substandard and falsified medical products by health care professionals and aims to provide guidance to the various target audiences across the different implementation phases and areas, as outlined in Table 1. **Table 1. Intended audience for the",
       "extractCut": true
     },
@@ -810,7 +1029,40 @@
         "text": "Outlines four implementation scenarios for using the handbook, prerequisites around national digital health and supply chain strategies, alignment with the WHO Digital implementation investment guide (DIIG) across seven enterprise phases (Fig. 1), and alignment with WHO SMART Guidelines knowledge layers L1–L5 (Fig. 2).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "machine-readable recommendations",
+          "heading": false
+        },
+        {
+          "term": "smart guidelines",
+          "heading": false
+        },
+        {
+          "term": "digital adaptation",
+          "heading": false
+        },
+        {
+          "term": "interoperable digital",
+          "heading": false
+        },
+        {
+          "term": "adaptation kits",
+          "heading": false
+        },
+        {
+          "term": "digital investment",
+          "heading": false
+        },
+        {
+          "term": "sdg digital",
+          "heading": false
+        },
+        {
+          "term": "comprehensive digital",
+          "heading": false
+        }
+      ],
       "extract": "## How to use this handbook This handbook provides guidance to countries on how to adopt digital solutions for reporting of substandard and falsified medical products. It outlines various steps to ensure a comprehensive approach that aligns with existing digital health guidance and other intersecting strategies and architectures. This handbook can be a useful resource in the following scenarios: - When moving from a",
       "extractCut": true
     },
@@ -828,7 +1080,28 @@
         "text": "Describes the development of the handbook through global consultations with health care professionals, NMRAs, and Member States, pilot implementations in Indonesia and the United Republic of Tanzania, and alignment with the Principles for Digital Development, DIIG, and the WHO/ITU National eHealth strategy toolkit.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "handbook",
+          "heading": true
+        },
+        {
+          "term": "medical product",
+          "heading": false
+        },
+        {
+          "term": "product reporting",
+          "heading": false
+        },
+        {
+          "term": "templates",
+          "heading": false
+        }
+      ],
       "extract": "## How this handbook was developed This handbook draws on the knowledge of health care professionals and NMRAs globally and has collated the lessons learned from their experiences. It builds on insights from a pilot phase, benchmarking exercises with national authorities, consultations with Member States on substandard and falsified medical product reporting barriers, public feedback on a drafted version of the",
       "extractCut": true
     },
@@ -846,7 +1119,32 @@
         "text": "Chapter 1 opener outlining the inputs, outputs (situational analysis report and stakeholder matrix), and reference resources required to assess the current state and enabling environment before implementing a digital reporting system.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "enabling environment",
+          "heading": true
+        },
+        {
+          "term": "current state",
+          "heading": true
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "medical products",
+          "heading": false
+        },
+        {
+          "term": "substandard",
+          "heading": false
+        },
+        {
+          "term": "chain",
+          "heading": false
+        }
+      ],
       "extract": "# 1. Assess the current state and enabling environment A comprehensive assessment of the current state and the enabling environment is necessary before implementing a digital reporting system for substandard and falsified medical products. This chapter outlines the areas that should be analysed and the factors to consider. The inputs needed to inform this step and the anticipated outputs of this phase are listed",
       "extractCut": true
     },
@@ -864,7 +1162,40 @@
         "text": "Guides stakeholder identification and analysis across government, health care providers, funders, industry, implementers, and civil society, and presents Table 2 with sample stakeholder analysis questions across six dimensions (roles and responsibilities, information flows, influence and power, interests and expectations, engagement and collaboration, and capacity and resources).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified reporting",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "stakeholder analysis",
+          "heading": false
+        },
+        {
+          "term": "digital substandard",
+          "heading": false
+        },
+        {
+          "term": "civil society",
+          "heading": false
+        },
+        {
+          "term": "analyse",
+          "heading": true
+        },
+        {
+          "term": "sample questions",
+          "heading": false
+        },
+        {
+          "term": "medical products",
+          "heading": false
+        }
+      ],
       "extract": "## 1.1 Analyse key stakeholders To implement an effective digital substandard and falsified reporting solution, it is essential to identify and analyse stakeholders. Stakeholders include government officials, health care providers, funding organizations, the medical product industry, technology vendors and implementers, civil society and other partners. The analysis should outline their roles in substandard and",
       "extractCut": true
     },
@@ -882,7 +1213,40 @@
         "text": "Outlines the six areas of a country digital readiness assessment (national digital health strategy, enabling policy and regulatory environment, governance framework, human resources, technology infrastructure, and security and privacy protection) and presents Table 3 on assessing network coverage, hardware/software availability, infrastructure, security, privacy, and data ownership.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "digital readiness",
+          "heading": true
+        },
+        {
+          "term": "privacy rights",
+          "heading": false
+        },
+        {
+          "term": "existing infrastructure",
+          "heading": false
+        },
+        {
+          "term": "country digital",
+          "heading": false
+        },
+        {
+          "term": "technology infrastructure",
+          "heading": false
+        },
+        {
+          "term": "network coverage",
+          "heading": false
+        },
+        {
+          "term": "national digital",
+          "heading": false
+        },
+        {
+          "term": "digital reporting",
+          "heading": false
+        }
+      ],
       "extract": "## 1.2 Assess the digital readiness Different levels of preparedness for deploying digital technologies will influence the design, implementation and adoption of reporting apps. As one of the first steps, a digital readiness assessment should be conducted to ensure solutions are tailored to the existing infrastructure, capacity and context. The outputs from the assessment should inform the necessary resources,",
       "extractCut": true
     },
@@ -900,7 +1264,40 @@
         "text": "Provides guidance on evaluating current substandard and falsified reporting practices, data collection forms, digital tools, and reporting barriers, presenting Table 4 (assessing pharmacovigilance and SF reporting practices and data usage), Table 5 (common challenges and barriers across seven categories with potential solutions, including anonymous reporting considerations), and the Chapter 1 checklist.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified reporting",
+          "heading": true
+        },
+        {
+          "term": "reporting substandard",
+          "heading": true
+        },
+        {
+          "term": "current substandard",
+          "heading": true
+        },
+        {
+          "term": "reporting practices",
+          "heading": true
+        },
+        {
+          "term": "adverse reaction",
+          "heading": false
+        },
+        {
+          "term": "drug reaction",
+          "heading": false
+        },
+        {
+          "term": "suspected substandard",
+          "heading": false
+        },
+        {
+          "term": "pharmacovigilance reporting",
+          "heading": false
+        }
+      ],
       "extract": "## 1.3 Assess current substandard and falsified reporting practices **Current practices.** Conduct an analysis of current practices, challenges and barriers faced in reporting substandard and falsified medical products. The outputs of the analysis should be used to develop optimal business processes and workflows within the application. It is important to examine substandard and falsified reporting procedures and",
       "extractCut": true
     },
@@ -918,7 +1315,32 @@
         "text": "Chapter 2 opener summarizing the inputs, outputs (new/amended regulatory policies, governance structures, and strategic goals), and resources for establishing a shared understanding and governance framework.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "establish shared",
+          "heading": true
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "medical products",
+          "heading": false
+        },
+        {
+          "term": "governance",
+          "heading": true
+        },
+        {
+          "term": "regulatory policies",
+          "heading": false
+        },
+        {
+          "term": "substandard",
+          "heading": false
+        }
+      ],
       "extract": "# 2. Establish a shared understanding and governance framework Implementing digital reporting systems requires more than just technology. It calls for a clear, strategic and participatory approach that aligns regulatory policy, governance and leadership. This section explores how countries can establish a shared understanding of the challenges and opportunities surrounding substandard and falsified medical products",
       "extractCut": true
     },
@@ -936,7 +1358,32 @@
         "text": "Guides the review of national regulatory frameworks supporting digital reporting of substandard and falsified medical products, covering pharmacovigilance and quality surveillance integration, mandatory and voluntary reporting obligations, and enforcement mechanisms.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified medical",
+          "heading": true
+        },
+        {
+          "term": "regulatory policies",
+          "heading": true
+        },
+        {
+          "term": "products reporting",
+          "heading": true
+        },
+        {
+          "term": "substandard",
+          "heading": true
+        },
+        {
+          "term": "enforcement mechanisms",
+          "heading": false
+        },
+        {
+          "term": "pharmacovigilance",
+          "heading": false
+        }
+      ],
       "extract": "## 2.1 Review regulatory policies for substandard and falsified medical products reporting The regulatory framework is the backbone for any substandard and falsified medical products reporting system, shaping data flow, privacy, liability and enforcement mechanisms. Before implementing a digital reporting system, countries should evaluate existing regulatory policies, identify gaps and determine whether new",
       "extractCut": true
     },
@@ -954,7 +1401,28 @@
         "text": "Describes multisectoral policy alignment across law enforcement and customs, health financing and procurement agencies, innovation and ICT ministries, and regional and global regulatory authorities.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "law enforcement",
+          "heading": false
+        },
+        {
+          "term": "medicines agency",
+          "heading": false
+        },
+        {
+          "term": "align",
+          "heading": true
+        },
+        {
+          "term": "customs",
+          "heading": false
+        },
+        {
+          "term": "policy",
+          "heading": true
+        }
+      ],
       "extract": "## 2.2 Align policy with stakeholders Tackling substandard and falsified medical products requires more than a single institution. Effective policy depends on multisectoral collaboration across: - **Law enforcement and customs.** Align policies to enable swift data sharing with customs officers and law enforcement, who often spearhead investigations and border control. - **Health financing and procurement",
       "extractCut": true
     },
@@ -972,7 +1440,40 @@
         "text": "Defines a three-tier governance structure (national steering committee, technical working group, and advisory council) and key leadership roles (ministry of health/NMRA, project champion, and digital health coordinator/project manager).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "steering committee",
+          "heading": false
+        },
+        {
+          "term": "leadership",
+          "heading": true
+        },
+        {
+          "term": "governance",
+          "heading": true
+        },
+        {
+          "term": "national steering",
+          "heading": false
+        },
+        {
+          "term": "governance structure",
+          "heading": false
+        },
+        {
+          "term": "professional associations",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "working group",
+          "heading": false
+        }
+      ],
       "extract": "## 2.3 Establish governance and leadership Establish a robust governance structure for coordinating the multiple stakeholders involved in substandard and falsified medical product reporting. Define clear roles and responsibilities to avoid duplication of effort, enhance transparency and create a stable platform for decision-making. A governance structure often includes: - **National steering committee.** Led by the",
       "extractCut": true
     },
@@ -990,7 +1491,28 @@
         "text": "Explains how to set SMART (Specific, Measurable, Achievable, Relevant, Time-bound) strategic goals for the substandard and falsified medical product reporting application.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "strategic goals",
+          "heading": true
+        },
+        {
+          "term": "months post-launch",
+          "heading": false
+        },
+        {
+          "term": "regulatory action",
+          "heading": false
+        },
+        {
+          "term": "falsified",
+          "heading": false
+        },
+        {
+          "term": "substandard",
+          "heading": false
+        }
+      ],
       "extract": "## 2.4 Set the strategic goals Define strategic goals for the substandard and falsified reporting application so that it is built to appropriately address prioritized needs. These goals should be: - **Specific.** For instance, reduce the average detection-to-notification time for suspected substandard and falsified medical products from 14 days to 2 days. - **Measurable.** Use indicators like the number of detected",
       "extractCut": true
     },
@@ -1008,7 +1530,36 @@
         "text": "Categorizes technical, financial, and political/stakeholder risks in digital transformation, references the risk management template in Annex 7, and concludes Chapter 2 with the end-of-chapter checklist.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "risk",
+          "heading": true
+        },
+        {
+          "term": "medical products",
+          "heading": false
+        },
+        {
+          "term": "mitigate",
+          "heading": true
+        },
+        {
+          "term": "substandard",
+          "heading": false
+        },
+        {
+          "term": "analyse",
+          "heading": true
+        },
+        {
+          "term": "political",
+          "heading": false
+        }
+      ],
       "extract": "## 2.5 Analyse and mitigate risk Digital transformations often face multiple risks – technical, financial or political. Conduct a risk analysis early in the strategic planning process to allow for appropriate mitigation measures to be put in place. Examples of risk include: - **Technical risks.** System failures, cybersecurity threats, interoperability challenges. - **Financial risks.** Funding shortfalls, changes",
       "extractCut": true
     },
@@ -1026,7 +1577,28 @@
         "text": "Chapter 3 opener detailing the inputs, outputs (digital investment roadmap and new or revised digital health enterprise architecture), and resources for defining the future state of the reporting solution.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "future state",
+          "heading": true
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "reporting solution",
+          "heading": false
+        },
+        {
+          "term": "digital transformation",
+          "heading": false
+        },
+        {
+          "term": "investment roadmap",
+          "heading": false
+        }
+      ],
       "extract": "# 3. Define the future state Building upon the previous sections, this section delves into the critical aspects of defining the future state for the reporting solution. In transitioning from identifying and establishing governance structures and regulatory policies, it becomes essential to strategically map out the envisioned state of digital transformation in substandard and falsified medical product reporting.",
       "extractCut": true
     },
@@ -1044,7 +1616,40 @@
         "text": "Guides the development of a phased digital investment roadmap across short-term (1–2 years), medium-term (3–5 years), and long-term (5+ years) horizons, accompanied by Table 6 mapping 22 system attributes across five categories to short-, medium-, and long-term priorities.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "investment roadmap",
+          "heading": true
+        },
+        {
+          "term": "core functionality",
+          "heading": false
+        },
+        {
+          "term": "user experience",
+          "heading": false
+        },
+        {
+          "term": "regulatory compliance",
+          "heading": false
+        },
+        {
+          "term": "analytical capabilities",
+          "heading": false
+        },
+        {
+          "term": "falsified reporting",
+          "heading": false
+        },
+        {
+          "term": "reporting solution",
+          "heading": false
+        },
+        {
+          "term": "medium-term",
+          "heading": false
+        }
+      ],
       "extract": "## 3.1 Develop a digital investment roadmap To ensure the successful implementation and sustainability of the substandard and falsified reporting solution, develop a structured investment roadmap detailing priorities across short-, medium- and long-term horizons, focusing on foundational infrastructure, functional enhancements and the integration of advanced technologies. The investment roadmap will help guarantee",
       "extractCut": true
     },
@@ -1062,7 +1667,40 @@
         "text": "Explains how to situate the substandard and falsified reporting application as a point-of-service application within the DIIG digital health enterprise architecture framework (Fig. 3), emphasizing open standards and interoperability (TOGAF, HL7 FHIR), cybersecurity and data protection, and the Chapter 3 checklist.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "enterprise architecture",
+          "heading": true
+        },
+        {
+          "term": "pos application",
+          "heading": false
+        },
+        {
+          "term": "falsified reporting",
+          "heading": false
+        },
+        {
+          "term": "datasets sourced",
+          "heading": false
+        },
+        {
+          "term": "non-digital datasets",
+          "heading": false
+        },
+        {
+          "term": "diig framework",
+          "heading": false
+        },
+        {
+          "term": "registry services",
+          "heading": false
+        },
+        {
+          "term": "software capabilities",
+          "heading": false
+        }
+      ],
       "extract": "## 3.2 Link to the enterprise architecture The DIIG provides an enterprise architecture framework for digital health interventions (Fig. 3). > “A digital health enterprise architecture, if available in the country, outlines current and planned business processes, data, systems and technologies and provides an overview of the standards, information exchange and interoperability profiles that can be optimized across",
       "extractCut": true
     },
@@ -1080,7 +1718,40 @@
         "text": "Chapter 4 opener listing the inputs, documentation outputs (user personas, user scenarios, as-is and to-be business processes, data dictionary, decision logic algorithms, functional and non-functional requirements, and indicators), and resources for determining system requirements.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "requirements",
+          "heading": true
+        },
+        {
+          "term": "user personas",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "medical products",
+          "heading": false
+        },
+        {
+          "term": "substandard",
+          "heading": false
+        },
+        {
+          "term": "analysis report",
+          "heading": false
+        },
+        {
+          "term": "business",
+          "heading": false
+        },
+        {
+          "term": "determine",
+          "heading": true
+        }
+      ],
       "extract": "# 4. Determine the requirements It is essential to thoroughly understand how users will engage with the system, the processes they will execute, and the data they will handle within the application before proceeding with the development and implementation of the digital reporting system. This section provides an overview of the key considerations for developing comprehensive requirements that will facilitate",
       "extractCut": true
     },
@@ -1098,7 +1769,40 @@
         "text": "Defines user personas for skilled health care professionals and related individuals, presenting Table 7 (examples of key user personas: Doctor, Nurse, Community health worker, Laboratory technician, and Pharmacist with descriptions, alternative titles, and ISCO codes) and Table 8 (related user persona: Individual).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "user personas",
+          "heading": true
+        },
+        {
+          "term": "laboratory technician",
+          "heading": false
+        },
+        {
+          "term": "medical doctor",
+          "heading": false
+        },
+        {
+          "term": "registered nurse",
+          "heading": false
+        },
+        {
+          "term": "medical practitioner",
+          "heading": false
+        },
+        {
+          "term": "pathology laboratory",
+          "heading": false
+        },
+        {
+          "term": "practice nurse",
+          "heading": false
+        },
+        {
+          "term": "pharmacist",
+          "heading": false
+        }
+      ],
       "extract": "## 4.1 Identify user personas Identify key user personas and related user personas. A user persona is a generic depiction of a relevant stakeholder or end user who would be interacting with the reporting system. Personas help identify the wants, needs and constraints of the end users. User personas can be based on real individuals or a fictional character that represents a combination of real individuals and",
       "extractCut": true
     },
@@ -1116,7 +1820,40 @@
         "text": "Explains how user scenarios translate personas into practical use cases and presents Table 9 detailing typical end-to-end reporting scenarios (discovery, initial action, accessing reporting app, completing the report, submitting the report, and follow-up/feedback) across nine health care professions.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "receives confirmation",
+          "heading": false
+        },
+        {
+          "term": "suspect medication",
+          "heading": false
+        },
+        {
+          "term": "user scenarios",
+          "heading": true
+        },
+        {
+          "term": "receives updates",
+          "heading": false
+        },
+        {
+          "term": "medication packaging",
+          "heading": false
+        },
+        {
+          "term": "receives tracking",
+          "heading": false
+        },
+        {
+          "term": "administers medication",
+          "heading": false
+        },
+        {
+          "term": "uploads photos",
+          "heading": false
+        }
+      ],
       "extract": "## 4.2 Define user scenarios Define clear user scenarios for each identified persona (see Table 9). These scenarios help translate roles into specific, practical use cases, ensuring that solutions are tailored to local workflows, digital readiness and user capacities. A good user scenario should describe the context, the user’s objective, the challenges they face and how the tool addresses them. This approach",
       "extractCut": true
     },
@@ -1134,7 +1871,40 @@
         "text": "Describes how to inventory business processes and map as-is and to-be workflows using BPMN 2.0 conventions, presenting Table 10 (business process matrix example SF-REP-001 for suspect product detection and reporting by a pharmacist) and Fig. 4 (example BPMN workflow for reporting substandard and falsified medical products).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "business processes",
+          "heading": true
+        },
+        {
+          "term": "falsified branch",
+          "heading": false
+        },
+        {
+          "term": "substandard branch",
+          "heading": false
+        },
+        {
+          "term": "workflows",
+          "heading": true
+        },
+        {
+          "term": "business process",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "reporting substandard",
+          "heading": false
+        },
+        {
+          "term": "care professional",
+          "heading": false
+        }
+      ],
       "extract": "## 4.3 Develop business processes and workflows A business process is a set of related activities or tasks performed together to achieve specific objectives, such as reporting substandard and falsified medical products in this case (35). Workflows are a visual representation of the progression of activities (tasks, interactions, decision points) that are performed within the business process (35). The activities in",
       "extractCut": true
     },
@@ -1152,7 +1922,40 @@
         "text": "Explains the role of a standards-based data dictionary (ICD-11, SNOMED-GPS, HL7 FHIR) and presents Table 11 defining 10 illustrative data elements (SFR.A1.DE1 to SFR.A1.DE10) for activity SFR.A1 (Report substandard or falsified product).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "product sfr",
+          "heading": false
+        },
+        {
+          "term": "falsified product",
+          "heading": false
+        },
+        {
+          "term": "report substandard",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "product package",
+          "heading": false
+        },
+        {
+          "term": "identification number",
+          "heading": false
+        },
+        {
+          "term": "elements",
+          "heading": false
+        },
+        {
+          "term": "dictionary",
+          "heading": false
+        }
+      ],
       "extract": "## 4.4 Outline data requirements A data dictionary is a repository of information about the data elements such as description, data type and other characteristics. A data dictionary will be a useful input to designing the solution and facilitating understanding across multiple stakeholders. Data dictionaries should utilize terminology standards (e.g. International Classification of Diseases [ICD-11], SNOMED-GPS) and",
       "extractCut": true
     },
@@ -1170,7 +1973,40 @@
         "text": "Presents illustrative functional and non-functional requirements for the reporting application in Table 12 (7 user-story functional requirements under SFR.FXNREQ.001–002) and Table 13 (97 non-functional requirements across security, system requirements, scalability, usability, configuration, interoperability, hardware/connectivity, and delivery), followed by the Chapter 4 checklist.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "security confidentiality",
+          "heading": false
+        },
+        {
+          "term": "security authentication",
+          "heading": false
+        },
+        {
+          "term": "security audit",
+          "heading": false
+        },
+        {
+          "term": "audit trail",
+          "heading": false
+        },
+        {
+          "term": "requirements",
+          "heading": true
+        },
+        {
+          "term": "requirements usability",
+          "heading": false
+        },
+        {
+          "term": "security general",
+          "heading": false
+        },
+        {
+          "term": "security user",
+          "heading": false
+        }
+      ],
       "extract": "## 4.5 Gather requirements Functional and non-functional requirements outline what the reporting application needs to do and how it should perform. These requirements guide developers and stakeholders in designing, developing and deploying the application. They define the application's purpose, features, functionality and behaviour. Illustrative functional and non-functional requirements are provided in Tables 12",
       "extractCut": true
     },
@@ -1188,7 +2024,40 @@
         "text": "Chapter 5 covering implementation planning and budgeting, including the chapter opener (inputs, outputs, resources), Table 14 (steps across implementation planning, budget development, and execution), evaluation of deployment and software options, Table 15 (advantages, considerations, and challenges of five software options), and the Chapter 5 checklist.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "implementation plan",
+          "heading": true
+        },
+        {
+          "term": "falsified reporting",
+          "heading": false
+        },
+        {
+          "term": "reporting application",
+          "heading": false
+        },
+        {
+          "term": "steps outlined",
+          "heading": false
+        },
+        {
+          "term": "substandard",
+          "heading": false
+        },
+        {
+          "term": "enterprise architecture",
+          "heading": false
+        },
+        {
+          "term": "total cost",
+          "heading": false
+        },
+        {
+          "term": "cost-effective",
+          "heading": false
+        }
+      ],
       "extract": "# 5. Plan the implementation Once you have defined the future state and the requirements for the substandard and falsified reporting application, the next step is to implement the system. This chapter provides guidance on planning the implementation, including the creation of a detailed budget. | Inputs | Outputs | Resources (see page 50) | | --- | --- | --- | | • Requirements documentation<br>• Digital investment",
       "extractCut": true
     },
@@ -1206,7 +2075,20 @@
         "text": "Chapter 6 opener outlining the inputs, outputs (M&E plan and operations and sustainability plan), and reference resources for monitoring, evaluating, and scaling the reporting application.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "evaluate",
+          "heading": true
+        },
+        {
+          "term": "monitor",
+          "heading": true
+        },
+        {
+          "term": "scale",
+          "heading": true
+        }
+      ],
       "extract": "# 6. Monitor, evaluate and scale | Inputs | Outputs | Resources (see page 50) | | --- | --- | --- | | • Historical and/or baseline data and analysis on substandard and falsified reporting<br>• Project management plan<br>• Stakeholder matrix | • M&E plan<br>• Operations and sustainability planp | • Digital implementation investment guide (DIIG)<br>• Monitoring and evaluating digital health interventions: a practical",
       "extractCut": true
     },
@@ -1224,7 +2106,40 @@
         "text": "Distinguishes intrinsic monitoring from extrinsic evaluation across the digital health maturity life cycle (Fig. 5 and Fig. 6), and provides Table 16 (sample evaluation questions across usability, efficacy, effectiveness, and cost), Table 17 (six steps in developing a comprehensive M&E plan), and Table 18 (reference measures across quality, fidelity, stability, functionality, and investment).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "falsified reporting",
+          "heading": false
+        },
+        {
+          "term": "falsified report",
+          "heading": false
+        },
+        {
+          "term": "application changed",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "application maturity",
+          "heading": false
+        },
+        {
+          "term": "application life",
+          "heading": false
+        },
+        {
+          "term": "life cycle",
+          "heading": false
+        },
+        {
+          "term": "evaluation",
+          "heading": true
+        }
+      ],
       "extract": "## 6.1 Develop a monitoring and evaluation plan To define the goals of M&E activities and create a detailed plan, it is important to understand the distinctions and connections between monitoring and evaluation. As explained in WHO’s *Monitoring and evaluating digital health interventions: a practical guide to conducting research and assessment* (8), monitoring focuses on measuring properties that are intrinsic",
       "extractCut": true
     },
@@ -1242,7 +2157,40 @@
         "text": "Guides the development of an operations, continuous improvement, and sustainability plan covering stakeholder ownership, infrastructure and maintenance resources, recurring knowledge management and training, financial planning, backups and redundancy, and change management, concluding with the Chapter 6 checklist.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "operations plan",
+          "heading": true
+        },
+        {
+          "term": "continuous improvement",
+          "heading": true
+        },
+        {
+          "term": "job rotations",
+          "heading": false
+        },
+        {
+          "term": "sustainability plan",
+          "heading": false
+        },
+        {
+          "term": "updating job",
+          "heading": false
+        },
+        {
+          "term": "job aids",
+          "heading": false
+        },
+        {
+          "term": "system redundancy",
+          "heading": false
+        },
+        {
+          "term": "reporting application",
+          "heading": false
+        }
+      ],
       "extract": "## 6.2 Develop an operations and continuous improvement plan Develop an operations plan to sustain the ongoing operations and continuous improvement of the reporting application, ensuring its reliability and efficiency. The operations plan addresses strategies to scale the application, including expanding the user base and adding new features; as well as the maintenance and update strategy to support continued usage",
       "extractCut": true
     },
@@ -1260,7 +2208,40 @@
         "text": "Chapter 7 presenting the WHO-coordinated pilot case study in Indonesia and the United Republic of Tanzania (36 reports of 27 medical products), including the 4-step reporting workflow, offline and multilingual app functions, and a structured evaluation table of successes and areas requiring improvement across application/reporting and feasibility.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "smartphone app",
+          "heading": false
+        },
+        {
+          "term": "professionals appreciated",
+          "heading": false
+        },
+        {
+          "term": "nmra staff",
+          "heading": false
+        },
+        {
+          "term": "care professionals",
+          "heading": false
+        },
+        {
+          "term": "pilot study",
+          "heading": false
+        },
+        {
+          "term": "suspected substandard",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "united republic",
+          "heading": false
+        }
+      ],
       "extract": "# 7. Share implementation experiences ## Case study: Indonesia and and the United Republic of Tanzania A smartphone app was developed and piloted in Indonesia and the United Republic of Tanzania to help health care professionals report a suspected substandard and falsified medical product to the NMRA. The pilot study focused on providing a reporting app that was easy, simple to use, reliable and fast. | Step |",
       "extractCut": true
     },
@@ -1278,7 +2259,40 @@
         "text": "Lists the 37 numbered bibliographic references cited throughout the handbook, with footnote 1 noting that all references were accessed on 23 April 2026.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "bmj glob",
+          "heading": false
+        },
+        {
+          "term": "geneva",
+          "heading": false
+        },
+        {
+          "term": "telecommunication union",
+          "heading": false
+        },
+        {
+          "term": "digital transformation",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        },
+        {
+          "term": "by-nc-sa",
+          "heading": false
+        },
+        {
+          "term": "website",
+          "heading": false
+        },
+        {
+          "term": "igo",
+          "heading": false
+        }
+      ],
       "extract": "# References 1. A practical handbook on the pharmacovigilance of antimalarial medicines. Geneva: World Health Organization; 2007 (https://iris.who.int/handle/10665/43914). 2. Briefing note: safety of medicines – adverse drug reactions. Geneva: World Health Organization; 2018 (https://www.who.int/docs/default-source/medicines/safety-of-medicines--adverse-drug-reactions-jun18.pdf?sfvrsn=4fcaf40_2). 3. Digital",
       "extractCut": true
     },
@@ -1296,7 +2310,40 @@
         "text": "Lists 17 key WHO, ITU, UNICEF, MEASURE Evaluation, HL7 FHIR, and Open Group reference resources and toolkits supporting digital health transformation and substandard and falsified medical product reporting.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "by-nc-sa",
+          "heading": false
+        },
+        {
+          "term": "igo",
+          "heading": false
+        },
+        {
+          "term": "geneva",
+          "heading": false
+        },
+        {
+          "term": "licence",
+          "heading": false
+        },
+        {
+          "term": "website",
+          "heading": false
+        },
+        {
+          "term": "digital transformation",
+          "heading": false
+        },
+        {
+          "term": "transformation handbook",
+          "heading": false
+        },
+        {
+          "term": "world",
+          "heading": false
+        }
+      ],
       "extract": "# Resources - Addressing future cybersecurity threats in digital health: report of the technical consultation, Geneva, Switzerland, 12-14 December 2023. Geneva: World Health Organization; 2024 (https://iris.who.int/handle/10665/379097). Licence: CC BY-NC-SA 3.0 IGO. - Cybersecurity and privacy maturity assessment and strengthening for digital health information systems. Copenhagen: World Health Organization Regional",
       "extractCut": true
     },
@@ -1314,7 +2361,20 @@
         "text": "Part divider introducing Annexes 1–7 of the handbook.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "annexes",
+          "heading": true
+        },
+        {
+          "term": "template",
+          "heading": false
+        },
+        {
+          "term": "annex",
+          "heading": false
+        }
+      ],
       "extract": "# Annexes This section contains Annexes 1–7 supporting the implementation of digital solutions for reporting substandard and falsified medical products: - **Annex 1.** Principles for Digital Development - **Annex 2.** User persona template - **Annex 3.** Business Process Model and Notation (BPMN) symbols - **Annex 4.** Stakeholder RACI matrix - **Annex 5.** Template for assessing current software applications -",
       "extractCut": true
     },
@@ -1332,7 +2392,40 @@
         "text": "Annex 1 presenting the nine Principles for Digital Development (Understand the existing ecosystem; Share, reuse and improve; Design with people; Design for inclusion; Build for sustainability; Establish people-first data practices; Create open and transparent practices; Anticipate and mitigate harms; Use evidence to improve outcomes) and their definitions.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "digital development",
+          "heading": true
+        },
+        {
+          "term": "people-first",
+          "heading": false
+        },
+        {
+          "term": "principles",
+          "heading": true
+        },
+        {
+          "term": "starts",
+          "heading": false
+        },
+        {
+          "term": "harm",
+          "heading": false
+        },
+        {
+          "term": "mitigate",
+          "heading": false
+        },
+        {
+          "term": "build",
+          "heading": false
+        },
+        {
+          "term": "works",
+          "heading": false
+        }
+      ],
       "extract": "## Annex 1. Principles for Digital Development | Principle | Description | | --- | --- | | **Understand the existing ecosystem** | Trust starts with a thorough understanding of the dynamic cultural, social and economic context in which you are operating. | | **Share, reuse and improve** | Build on what works, improve what works and share so that others can do the same. | | **Design with people** | Good design starts",
       "extractCut": true
     },
@@ -1350,7 +2443,40 @@
         "text": "Annex 2 providing a structured user persona template and worksheet covering persona occupation, demographics, expected daily/weekly/monthly roles and responsibilities, behaviour patterns, context description, challenges/pain points, and definition of success.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "user persona",
+          "heading": true
+        },
+        {
+          "term": "persona template",
+          "heading": true
+        },
+        {
+          "term": "technicians",
+          "heading": false
+        },
+        {
+          "term": "medications",
+          "heading": false
+        },
+        {
+          "term": "pharmacy",
+          "heading": false
+        },
+        {
+          "term": "success",
+          "heading": false
+        },
+        {
+          "term": "professional",
+          "heading": false
+        },
+        {
+          "term": "kind",
+          "heading": false
+        }
+      ],
       "extract": "## Annex 2. User persona template A user persona template/worksheet that summarizes each and every type of end user (e.g. pharmacists, doctors, nurses, dentists, midwives, paramedics, laboratory technicians, public health workers, veterinarians and pharmacy technicians) should be completed. | Section | Prompts and sample entries | | --- | --- | | **Persona occupation (e.g. nurse)** | — | | **Demographics** | •",
       "extractCut": true
     },
@@ -1368,7 +2494,40 @@
         "text": "Annex 3 defining 15 key Business Process Model and Notation (BPMN 2.0) symbols (Pool, Swim lane, Start event, Start event message, End event, Activity/task, Activity with subprocess, Activity with a business rule, Sequence flow, Message flow, Exclusive gateway, Parallel gateway, Throw – link event, Catch – link event, Ad hoc subprocess, and Loop activity).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "business process",
+          "heading": true
+        },
+        {
+          "term": "swim lane",
+          "heading": false
+        },
+        {
+          "term": "rounded rectangle",
+          "heading": false
+        },
+        {
+          "term": "process model",
+          "heading": true
+        },
+        {
+          "term": "another swim",
+          "heading": false
+        },
+        {
+          "term": "different swim",
+          "heading": false
+        },
+        {
+          "term": "start event",
+          "heading": false
+        },
+        {
+          "term": "hoc subprocess",
+          "heading": false
+        }
+      ],
       "extract": "## Annex 3. Key Business Process Model and Notation symbols | Symbol | Symbol name | Description | | --- | --- | --- | | Pool (Lane 1, Lane 2, Lane 3) | **Pool** | The pool assumes process control and assigns tasks. A pool consists of one or more “swim lanes” that depict all the individuals or types of users involved in carrying out the business process or workflow. Diagrams should be clear, neat and easy for all",
       "extractCut": true
     },
@@ -1386,7 +2545,24 @@
         "text": "Annex 4 providing a sample stakeholder RACI (Responsible, Accountable, Consulted, Informed) matrix template mapping project activities (Define project scope, Gather requirements, Design UI/UX) across NMRA, Ministry of health, Implementation partner, Medical product industry, Health care professionals, and other stakeholders.",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "raci matrix",
+          "heading": true
+        },
+        {
+          "term": "stakeholder raci",
+          "heading": true
+        },
+        {
+          "term": "consulted",
+          "heading": false
+        },
+        {
+          "term": "approves",
+          "heading": false
+        }
+      ],
       "extract": "## Annex 4. Stakeholder RACI matrix A sample template for a stakeholder RACI matrix. This can be adjusted to include stakeholders and activities relevant to the country’s context. | Activities | NMRA | Ministry of health | Implementation partner | Medical product industry | Health care professionals | Others... | Others... | | --- | --- | --- | --- | --- | --- | --- | --- | | Define project scope | A | R | C | I | I",
       "extractCut": true
     },
@@ -1404,7 +2580,32 @@
         "text": "Annex 5 providing a matrix template for assessing the current software applications landscape across 12 supply chain and regulatory domains and 7 health system actors, illustrating deployed systems (Planning system, OpenLMIS, ERP, RapidSMS, OpenClinic, NPC, Registration system) and in-progress tools (Health analytics platform, Pharmacovigilance mobile app, NPC mobile app).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "deployed",
+          "heading": false
+        },
+        {
+          "term": "openlmis",
+          "heading": false
+        },
+        {
+          "term": "mobile app",
+          "heading": false
+        },
+        {
+          "term": "template",
+          "heading": true
+        },
+        {
+          "term": "assessing",
+          "heading": true
+        },
+        {
+          "term": "npc",
+          "heading": false
+        }
+      ],
       "extract": "## Annex 5. Template for assessing the current software applications This table is a template for assessing the current information systems landscape and identifying systems and gaps. | Domain / Function | Ministry of health | Regulatory authority | Central warehouse | Branch warehouse | Service delivery point | Community health worker | Individuals | | --- | --- | --- | --- | --- | --- | --- | --- | | Forecasting",
       "extractCut": true
     },
@@ -1422,7 +2623,40 @@
         "text": "Annex 6 presenting an example barrier analysis mapping 15 barriers across 7 barrier categories (Health care, NMRA-related, Technology, Economic, Social, Education and knowledge, and Capacity barriers) to the affected stakeholders (Health care professionals, NMRA, and Consumer).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "barrier lack",
+          "heading": false
+        },
+        {
+          "term": "care barrier",
+          "heading": false
+        },
+        {
+          "term": "knowledge barrier",
+          "heading": false
+        },
+        {
+          "term": "economic barrier",
+          "heading": false
+        },
+        {
+          "term": "social barrier",
+          "heading": false
+        },
+        {
+          "term": "technology barrier",
+          "heading": false
+        },
+        {
+          "term": "care professionals",
+          "heading": false
+        },
+        {
+          "term": "falsified medical",
+          "heading": false
+        }
+      ],
       "extract": "## Annex 6. Barriers to reporting An example analysis showing the barriers to reporting substandard and falsified medical products. | Barrier category | Barrier | Affected stakeholders | | --- | --- | --- | | Health care barrier | Self-medication and polypharmacy: can't pinpoint the effects of single medicines | Consumer, Health care professionals | | Health care barrier | Lack of medical precision: can't pinpoint",
       "extractCut": true
     },
@@ -1440,7 +2674,24 @@
         "text": "Annex 7 providing a risk management template illustrated with sample risk 001 (Inadequate training: IF/THEN description, priority Low, impact Major, probability Medium, status Mitigate, three mitigation steps, and raised/reviewed dates).",
         "status": "draft"
       },
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "template",
+          "heading": true
+        },
+        {
+          "term": "mitigation steps",
+          "heading": false
+        },
+        {
+          "term": "risk",
+          "heading": true
+        },
+        {
+          "term": "training",
+          "heading": false
+        }
+      ],
       "extract": "## Annex 7. Risk management template The following table is a template for ranking risks and identifying mitigation steps. ### Risk 001 | Risk title | Description | Priority | Impact | Probability | Status | | --- | --- | --- | --- | --- | --- | | Inadequate training | IF system training is not delivered with appropriate content for the audience, THEN the adoption and use of the system may fail. | Low | Major |",
       "extractCut": true
     }
@@ -1470,19 +2721,19 @@
   "keywords": [
     {
       "term": "falsified medical",
-      "heading": false
+      "heading": true
     },
     {
       "term": "falsified reporting",
-      "heading": false
-    },
-    {
-      "term": "falsified products",
-      "heading": false
+      "heading": true
     },
     {
       "term": "reporting substandard",
-      "heading": false
+      "heading": true
+    },
+    {
+      "term": "falsified products",
+      "heading": true
     },
     {
       "term": "digital substandard",
@@ -1498,6 +2749,10 @@
     },
     {
       "term": "current substandard",
+      "heading": true
+    },
+    {
+      "term": "identify substandard",
       "heading": false
     },
     {
@@ -1505,15 +2760,11 @@
       "heading": false
     },
     {
-      "term": "identify substandard",
+      "term": "falsified branch",
       "heading": false
     },
     {
       "term": "tackling substandard",
-      "heading": false
-    },
-    {
-      "term": "surrounding substandard",
       "heading": false
     }
   ],

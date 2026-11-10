@@ -1,0 +1,141 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_AncRegistrationWorkflowA",
+ "markers": [
+  {
+   "id": "T1",
+   "name": "1. Arrive at facility",
+   "left": 20.38,
+   "top": 2.84,
+   "box": {
+    "left": 14.81,
+    "top": 13.64,
+    "width": 1.85,
+    "height": 2.73
+   }
+  },
+  {
+   "id": "T2",
+   "name": "2. Rapid assessment and management (RAM)",
+   "left": 20.38,
+   "top": 22.16,
+   "box": {
+    "left": 14.81,
+    "top": 32.95,
+    "width": 1.85,
+    "height": 2.73
+   }
+  },
+  {
+   "id": "T4",
+   "name": "4. Gather client details",
+   "left": 30.38,
+   "top": 41.48,
+   "box": {
+    "left": 24.81,
+    "top": 52.27,
+    "width": 1.85,
+    "height": 2.73
+   }
+  },
+  {
+   "id": "T5",
+   "name": "5. Search for client",
+   "left": 30.38,
+   "top": 61.93,
+   "box": {
+    "left": 24.81,
+    "top": 72.73,
+    "width": 1.85,
+    "height": 2.73
+   }
+  },
+  {
+   "id": "T7",
+   "name": "7. Create client record",
+   "left": 55,
+   "top": 84.66,
+   "box": {
+    "left": 49.42,
+    "top": 95.45,
+    "width": 1.85,
+    "height": 2.73
+   }
+  },
+  {
+   "id": "T9",
+   "name": "9. Check-in client",
+   "left": 90.38,
+   "top": 61.93,
+   "box": {
+    "left": 84.81,
+    "top": 72.73,
+    "width": 1.85,
+    "height": 2.73
+   }
+  }
+ ],
+ "processHref": "anc-registration-workflow-a.html",
+ "tasks": {
+  "T1": {
+   "id": "T1",
+   "name": "1. Arrive at facility",
+   "type": "bpmn:Task",
+   "stepHref": "anc-registration-workflow-a.html#step-T1",
+   "lane": "Client",
+   "laneHref": "anc-registration-workflow-a.html#lane-Lane_Client",
+   "skills": [],
+   "binding": "dangling"
+  },
+  "T2": {
+   "id": "T2",
+   "name": "2. Rapid assessment and management (RAM)",
+   "type": "bpmn:Task",
+   "stepHref": "anc-registration-workflow-a.html#step-T2",
+   "lane": "Health worker or Clerk",
+   "laneHref": "anc-registration-workflow-a.html#lane-Lane_HealthWorkerOrClerk",
+   "skills": [],
+   "binding": "dangling"
+  },
+  "T4": {
+   "id": "T4",
+   "name": "4. Gather client details",
+   "type": "bpmn:Task",
+   "stepHref": "anc-registration-workflow-a.html#step-T4",
+   "lane": "Health worker or Clerk",
+   "laneHref": "anc-registration-workflow-a.html#lane-Lane_HealthWorkerOrClerk",
+   "skills": [],
+   "binding": "dangling"
+  },
+  "T5": {
+   "id": "T5",
+   "name": "5. Search for client",
+   "type": "bpmn:Task",
+   "stepHref": "anc-registration-workflow-a.html#step-T5",
+   "lane": "Health worker or Clerk",
+   "laneHref": "anc-registration-workflow-a.html#lane-Lane_HealthWorkerOrClerk",
+   "skills": [],
+   "binding": "dangling"
+  },
+  "T7": {
+   "id": "T7",
+   "name": "7. Create client record",
+   "type": "bpmn:Task",
+   "stepHref": "anc-registration-workflow-a.html#step-T7",
+   "lane": "Health worker or Clerk",
+   "laneHref": "anc-registration-workflow-a.html#lane-Lane_HealthWorkerOrClerk",
+   "skills": [],
+   "binding": "dangling"
+  },
+  "T9": {
+   "id": "T9",
+   "name": "9. Check-in client",
+   "type": "bpmn:Task",
+   "stepHref": "anc-registration-workflow-a.html#step-T9",
+   "lane": "Health worker or Clerk",
+   "laneHref": "anc-registration-workflow-a.html#lane-Lane_HealthWorkerOrClerk",
+   "skills": [],
+   "binding": "dangling"
+  }
+ }
+}

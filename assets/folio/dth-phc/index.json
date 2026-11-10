@@ -1974,7 +1974,7 @@
         },
         {
           "path": "dth-phc/dth-phc.ts",
-          "bytes": 1489,
+          "bytes": 1526,
           "size": "1.5 KB"
         },
         {
@@ -1984,8 +1984,8 @@
         },
         {
           "path": "dth-phc/front-matter/front-matter.ts",
-          "bytes": 750,
-          "size": "750 B"
+          "bytes": 486,
+          "size": "486 B"
         },
         {
           "path": "dth-phc/front-matter/p-fm-acknowledgements.jsonld",
@@ -2018,33 +2018,38 @@
           "size": "1.6 KB"
         },
         {
-          "path": "dth-phc/front-matter/t-fm-abbreviations.jsonld",
+          "path": "dth-phc/glossary/glossary.ts",
+          "bytes": 493,
+          "size": "493 B"
+        },
+        {
+          "path": "dth-phc/glossary/t-fm-abbreviations.jsonld",
           "bytes": 5022,
           "size": "4.9 KB"
         },
         {
-          "path": "dth-phc/front-matter/t-fm-abbreviations.md",
+          "path": "dth-phc/glossary/t-fm-abbreviations.md",
           "bytes": 1707,
           "size": "1.7 KB"
         },
         {
-          "path": "dth-phc/front-matter/t-fm-abbreviations.ts",
-          "bytes": 4364,
+          "path": "dth-phc/glossary/t-fm-abbreviations.ts",
+          "bytes": 4442,
           "size": "4.3 KB"
         },
         {
-          "path": "dth-phc/front-matter/t-fm-glossary.jsonld",
+          "path": "dth-phc/glossary/t-fm-glossary.jsonld",
           "bytes": 6643,
           "size": "6.5 KB"
         },
         {
-          "path": "dth-phc/front-matter/t-fm-glossary.md",
+          "path": "dth-phc/glossary/t-fm-glossary.md",
           "bytes": 21419,
           "size": "20.9 KB"
         },
         {
-          "path": "dth-phc/front-matter/t-fm-glossary.ts",
-          "bytes": 5400,
+          "path": "dth-phc/glossary/t-fm-glossary.ts",
+          "bytes": 5478,
           "size": "5.3 KB"
         },
         {
@@ -2054,8 +2059,13 @@
         },
         {
           "path": "dth-phc/l1-coverage.json",
-          "bytes": 165528,
-          "size": "161.6 KB"
+          "bytes": 165560,
+          "size": "161.7 KB"
+        },
+        {
+          "path": "dth-phc/l1-coverage.quotes.json",
+          "bytes": 440,
+          "size": "440 B"
         },
         {
           "path": "dth-phc/l1-exclusions.json",
@@ -2219,7 +2229,7 @@
         },
         {
           "path": "dth-phc/review-anchors.json",
-          "bytes": 66722,
+          "bytes": 66764,
           "size": "65.2 KB"
         },
         {

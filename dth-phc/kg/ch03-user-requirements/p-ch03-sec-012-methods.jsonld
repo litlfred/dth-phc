@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/prose-ch03-sec-012-methods",
@@ -32,12 +32,12 @@
       "method": "l1-section-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/collaborative-requirements-development-methodology",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/requirements",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/end-user",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/register",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/clinical-protocol",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/collaborative-requirements-development-methodology",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/requirements",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/end-user",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/register",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/clinical-protocol",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
     ],
     "archimateElements": [
       {

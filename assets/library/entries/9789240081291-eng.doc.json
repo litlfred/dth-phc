@@ -1040,11 +1040,11 @@
           "heading": false
         },
         {
-          "term": "suggested citation",
+          "term": "training capacity",
           "heading": false
         },
         {
-          "term": "training capacity",
+          "term": "suggested citation",
           "heading": false
         }
       ],
@@ -1142,11 +1142,11 @@
           "heading": false
         },
         {
-          "term": "workforce department",
+          "term": "tobago",
           "heading": false
         },
         {
-          "term": "tobago",
+          "term": "workforce department",
           "heading": false
         }
       ],
@@ -1313,11 +1313,11 @@
           "heading": false
         },
         {
-          "term": "sdgs",
+          "term": "action plan",
           "heading": false
         },
         {
-          "term": "action plan",
+          "term": "sdgs",
           "heading": false
         }
       ],
@@ -1858,11 +1858,11 @@
           "heading": false
         },
         {
-          "term": "total expenditure",
+          "term": "total number",
           "heading": false
         },
         {
-          "term": "total number",
+          "term": "total expenditure",
           "heading": false
         },
         {
@@ -1913,11 +1913,11 @@
           "heading": false
         },
         {
-          "term": "nhwa version",
+          "term": "maintained",
           "heading": false
         },
         {
-          "term": "maintained",
+          "term": "nhwa version",
           "heading": false
         }
       ],
@@ -2029,11 +2029,11 @@
           "heading": false
         },
         {
-          "term": "densities",
+          "term": "reporting frameworks",
           "heading": false
         },
         {
-          "term": "reporting frameworks",
+          "term": "densities",
           "heading": false
         },
         {
@@ -2115,11 +2115,11 @@
           "heading": true
         },
         {
-          "term": "active",
+          "term": "reporting frameworks",
           "heading": false
         },
         {
-          "term": "reporting frameworks",
+          "term": "active",
           "heading": false
         },
         {
@@ -2162,11 +2162,11 @@
           "heading": true
         },
         {
-          "term": "active",
+          "term": "reporting frameworks",
           "heading": false
         },
         {
-          "term": "reporting frameworks",
+          "term": "active",
           "heading": false
         },
         {
@@ -2221,11 +2221,11 @@
           "heading": false
         },
         {
-          "term": "active",
+          "term": "reporting frameworks",
           "heading": false
         },
         {
-          "term": "reporting frameworks",
+          "term": "active",
           "heading": false
         }
       ],
@@ -2272,7 +2272,7 @@
           "heading": false
         },
         {
-          "term": "occupation",
+          "term": "information system",
           "heading": false
         }
       ],
@@ -2303,11 +2303,11 @@
           "heading": true
         },
         {
-          "term": "active",
+          "term": "reporting frameworks",
           "heading": false
         },
         {
-          "term": "reporting frameworks",
+          "term": "active",
           "heading": false
         },
         {
@@ -2354,11 +2354,11 @@
           "heading": false
         },
         {
-          "term": "active",
+          "term": "reporting frameworks",
           "heading": false
         },
         {
-          "term": "reporting frameworks",
+          "term": "active",
           "heading": false
         },
         {
@@ -2901,7 +2901,7 @@
           "heading": false
         },
         {
-          "term": "education plans",
+          "term": "subnational standards",
           "heading": false
         }
       ],
@@ -3040,19 +3040,19 @@
           "heading": false
         },
         {
-          "term": "ministry",
-          "heading": false
-        },
-        {
           "term": "reporting frameworks",
           "heading": false
         },
         {
-          "term": "defence",
+          "term": "ministry",
           "heading": false
         },
         {
           "term": "training programme",
+          "heading": false
+        },
+        {
+          "term": "defence",
           "heading": false
         }
       ],
@@ -3667,8 +3667,8 @@
           "heading": false
         },
         {
-          "term": "oecd countries",
-          "heading": false
+          "term": "gender",
+          "heading": true
         }
       ],
       "extract": "One feature that characterizes the health and care sector in many countries is that it is a highly feminized sector. Across the world women represent 67% of wage workers in the health and care sector (103). One widespread feature of the health and care sector is a significant degree of occupational segregation by gender, both across health and care occupations and within them. Data is needed to better understand",
@@ -3718,7 +3718,7 @@
           "heading": false
         },
         {
-          "term": "rania kawar",
+          "term": "nhwa handbook",
           "heading": false
         }
       ],
@@ -3745,11 +3745,11 @@
           "heading": true
         },
         {
-          "term": "prosthetic technicians",
+          "term": "technicians medical",
           "heading": false
         },
         {
-          "term": "technicians medical",
+          "term": "prosthetic technicians",
           "heading": false
         },
         {

@@ -3,19 +3,19 @@ digraph "DTH-PHC overlay on the DPI-H reference architecture — metamodel in us
   node [shape=box, style="filled", fontname="Helvetica", fontsize=11, margin="0.14,0.08"];
   edge [fontname="Helvetica", fontsize=9, color="#555555", fontcolor="#333333"];
   subgraph cluster_0 {
-    label="Motivation"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    label="Motivation"; class="mm-layer-motivation"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
     rank=same;
     "Stakeholder" [label="Stakeholder
 8 element(s)", class="mm-layer-motivation", fillcolor="#ccccff", URL="../../en/dth-phc/archimate/0.1.0-draft.1/metamodel/#type-Stakeholder", target="_top", tooltip="Stakeholder: its elements"];
   }
   subgraph cluster_1 {
-    label="Strategy"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    label="Strategy"; class="mm-layer-strategy"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
     rank=same;
     "Capability" [label="Capability
 1 element(s)", class="mm-layer-strategy", fillcolor="#f5deaa", URL="../../en/dth-phc/archimate/0.1.0-draft.1/metamodel/#type-Capability", target="_top", tooltip="Capability: its elements"];
   }
   subgraph cluster_2 {
-    label="Business"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    label="Business"; class="mm-layer-business"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
     rank=same;
     "BusinessActor" [label="Business Actor
 2 element(s)
@@ -27,7 +27,7 @@ digraph "DTH-PHC overlay on the DPI-H reference architecture — metamodel in us
 (to itself: serves ×10, aggregates ×2)", class="mm-layer-business", fillcolor="#ffffb5", URL="../../en/dth-phc/archimate/0.1.0-draft.1/metamodel/#type-BusinessRole", target="_top", tooltip="Business Role: its elements"];
   }
   subgraph cluster_3 {
-    label="Application"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
+    label="Application"; class="mm-layer-application"; labeljust=l; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb"; fontcolor="#666666";
     rank=same;
     "ApplicationComponent" [label="Application Component
 26 element(s)
