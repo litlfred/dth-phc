@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/prose-annex-12-hepb-schedule-reproduces",
@@ -46,8 +46,8 @@
       "pers:system-dss"
     ],
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-adaptation-kits",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines"
     ],
     "archimate": {
       "model": "smart-ra 0.3.0-draft.1",

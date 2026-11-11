@@ -42,8 +42,8 @@ L1_ID = "9789240093362-eng"
 L1_DIR = ROOT / "who-iris" / "library" / L1_ID
 TITLE = "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems"
 
-PHC_TERM_NS = "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/"
-RA_TERM_NS = "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/"
+PHC_TERM_NS = "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/"
+RA_TERM_NS = "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/"
 RA_ARCHI_NS = "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/"
 
 # Known ArchiMate elements in smart-ra (0.2.0 + 0.3.0-draft.1 from #133)
@@ -162,6 +162,73 @@ def slice_lines(lines, start_1based=1, end_1based=None):
     s = max(0, start_1based - 1)
     e = len(lines) if end_1based is None else end_1based
     return "\n".join(lines[s:e]).strip() + "\n"
+
+
+DOT_LEADER = re.compile(r"(?:\.\s{0,2}){6,}\s*[0-9ivxlc]*\s*$")
+TERMINAL = ("." , "”", ")", ".”", ":")
+
+
+def clean_front_matter(lines):
+    """Turn the L1 front-matter section into readable prose.
+
+    The L1 section is the PDF's raw text, one PDF line per line. Three things
+    in it are page furniture, not content, and each was rendered as one run-on
+    paragraph before this cleaner existed:
+      - the cover text, printed twice (front and inside cover);
+      - the printed table of contents, with dot leaders and page numbers.
+        The site builds its own contents from the document's structure, and
+        the L1 entry keeps the printed one in structure.json;
+      - hard line wraps inside paragraphs.
+    Nothing is reworded: the cleaner drops the cover repeat and the printed
+    contents, and joins wrapped lines into paragraphs.
+    """
+    lines = [l.rstrip() for l in lines]
+    # Cover text: everything before the title line that precedes the first ISBN.
+    isbn = next((i for i, l in enumerate(lines) if l.startswith("ISBN")), None)
+    if isbn:
+        title = isbn - 1
+        while title > 0 and not lines[title].strip():
+            title -= 1
+        lines = lines[title:]
+    # Printed contents: from a "Contents" line that is followed by dot leaders.
+    for i, l in enumerate(lines):
+        if l.strip().lower() in ("contents", "table of contents") and any(
+            DOT_LEADER.search(x) for x in lines[i + 1 : i + 8]
+        ):
+            lines = lines[:i]
+            break
+    # Running page numbers ("iii", "12") on a line of their own.
+    lines = [l for l in lines if not re.fullmatch(r"\s*(?:[ivxlc]+|[0-9]+)\s*", l)]
+    width = max((len(l) for l in lines), default=0)
+    paras = []
+    prev = ""
+    for l in lines:
+        t = l.strip()
+        if not t:
+            prev = ""
+            continue
+        p = prev.strip()
+        new = (
+            not paras
+            or not prev
+            or t.startswith(("ISBN", "©"))
+            or p.startswith(("ISBN", "©"))
+            or (p.endswith(TERMINAL) and len(prev) < 0.8 * width)
+        )
+        if new:
+            paras.append(t)
+        else:
+            paras[-1] += " " + t
+        prev = l
+    out = []
+    for x in paras:
+        if x.startswith("ISBN") and out and out[-1].startswith("ISBN"):
+            out[-1] += "  \n" + x
+        else:
+            out.append(x)
+    if out:
+        out[0] = "**" + out[0] + "**"
+    return "\n\n".join(out) + "\n"
 
 
 def make_meta(
@@ -2654,9 +2721,9 @@ def build_front_matter(folio_dir: Path):
         ch_dir,
         "p-fm-publication-metadata",
         "prose:fm-publication-metadata",
-        slice_lines(lfm, 1, None),
+        clean_front_matter(lfm),
         make_meta(
-            "Publication metadata, licensing and contents",
+            "Publication metadata and licensing",
             "sec-front-matter.md",
             pfm,
             method="l1-front-matter",

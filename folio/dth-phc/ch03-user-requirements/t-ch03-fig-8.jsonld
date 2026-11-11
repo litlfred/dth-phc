@@ -1,0 +1,81 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/tbl-fig-8",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:fig-8",
+  "kind": "table",
+  "title": "Fig. 8 as a table: example prompts and questions, broad to narrow",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch03-sec-012-interviews-and-workshops"
+  ],
+  "text": "t-ch03-fig-8.md",
+  "meta": {
+    "title": "Fig. 8 as a table: example prompts and questions, broad to narrow",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-012-31-follow-key-requirement-gathering-methods",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-012-31-follow-key-requirement-gathering-methods.md",
+      "pdfPages": [
+        32
+      ],
+      "method": "l1-table-formalized",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p032.png",
+      "decision": "owner card Q-PHC-R4 A, 2026-11-01 10:54Z (dth-phc#1 R4)"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/end-user",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/pain-point",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/requirements"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld",
+        "id": "id-b003f851903c557fa2b020e234e850e0",
+        "name": "User researcher"
+      },
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+        "id": "id-b1a348e9848f50e19a46bf2226dc2f08",
+        "name": "Business analyst"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+        "id": "id-eac6523c694c551b968166656af2b2e6",
+        "name": "Shared DTH Roles and Actors"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b003f851903c557fa2b020e234e850e0.jsonld",
+          "name": "User researcher"
+        },
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-b1a348e9848f50e19a46bf2226dc2f08.jsonld",
+          "name": "Business analyst"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "licence": "CC BY-NC-SA 4.0 (Tran, 2018, ref. 35, as adapted by WHO): the table keeps the figure's words and attribution"
+  },
+  "provenance": "authored"
+}

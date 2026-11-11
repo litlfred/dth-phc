@@ -1,6 +1,6 @@
 # Requirement prioritization decision table (section 3.8 and Annex 13)
 
-Formal DMN 1.5 decision table (`Decision_RequirementPriority`, `hitPolicy="FIRST"`) encoding the three-tier requirement prioritization criteria in section 3.8 (`sec-019`) and Annex 13 (*Requirements prioritization worksheet*, `sec-045`), evaluated at gateway `GW_RequirementPriority` in [`understand-user-requirements.bpmn`](../../../processes/understand-user-requirements.bpmn).
+Formal DMN 1.5 decision table (`Decision_RequirementPriority`, `hitPolicy="FIRST"`) encoding the three-tier requirement prioritization criteria in section 3.8 (`sec-019`) and Annex 13 (*Requirements prioritization worksheet*, `sec-045`), evaluated at gateway `GW_RequirementPriority` in [`understand-user-requirements.bpmn`](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.bpmn).
 
 ## Alignment with RFC 2119 / RFC 8174 and CRDM
 

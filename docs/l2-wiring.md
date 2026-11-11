@@ -37,7 +37,7 @@ A DTH term links to a smart-ra concept with a SKOS match on the term in the
 DTH's consolidated scheme, never by copying a definition:
 
 ```json
-"broadMatch": ["https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/registry"]
+"broadMatch": ["https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/registry"]
 ```
 
 The namespace is `instanceNs` of the mounted declaration. Use `broadMatch`

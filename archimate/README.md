@@ -13,4 +13,4 @@ Each element carries one of two tags:
 
 `overlay:shared-candidate` marks the shared DTH roles, whose home is open ([dth-phc#9](https://github.com/litlfred/dth-phc/issues/9)).
 
-`bun run check:archimate-links` fails when a copy names something smart-ra does not hold, when an owned element is already in smart-ra, or when a folio link does not resolve in the pinned model. `scripts/archimate/extract_overlay.py` built 0.1.0-draft.1 from the PHC work that was once in smart-ra#182.
+`bun run check:archimate-links` fails when a copy names something smart-ra does not hold, when an owned element is already in smart-ra, or when a folio link does not resolve in the pinned model. `scripts/archimate/extract_overlay.py` built 0.1.0-draft.1 from the PHC work that was once in smart-ra#182, and `scripts/archimate/add_fig3_view.py` then adds the handbook's Fig. 3 (PHC digital ecosystem) as the view "PHC digital ecosystem (Fig. 3)" (owner card Q-PHC-R4 A). Run them in that order to rebuild the file.

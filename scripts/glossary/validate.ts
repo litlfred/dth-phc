@@ -1,5 +1,16 @@
 #!/usr/bin/env bun
 /**
+ * `bun run check:dth-blocks`: dth-phc's declaration, block, persona, BPMN and
+ * DMN checks (P6), with the glossary checks they grew up beside.
+ *
+ * The glossary and link checks now run from core (`bun run
+ * check:dth-glossary`, folio-assistant-core glossary-validate.ts), and L1
+ * coverage from core's folio-l1-coverage.ts (bean cysv). This file stays only
+ * until the block checks move to kg-audit (bean lo3p); then it is deleted.
+ * It keeps its old path, so the ratcheted gates that count per file
+ * (`check:foreign-paths`) see the same file and no new finding.
+ *
+ * Originally:
  * Validate `dth-phc.json`, `glossary/*.glossary.json`, and all 123 blocks in
  * `folio/dth-phc` (Step P6 of litlfred/dth-phc#1):
  *
@@ -50,12 +61,12 @@ const DECLARATION_PATH = join(ROOT, "dth-phc.json");
 const DPI_GLOSSARY_PATH = join(ROOT, "dpi-h-ra/glossary/dpi-h-ra.glossary.json");
 const FULL_STAC_GLOSSARY_PATH = join(ROOT, "dpi-h-ra/glossary/full-stac.glossary.json");
 
-const ARCHIMATE_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#archimate/";
-const DPI_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/";
-const FULL_STAC_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns#glossary/full-stac/";
-const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/";
+const ARCHIMATE_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns/archimate/";
+const DPI_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/";
+const FULL_STAC_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/";
+const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/";
 const SMART_BASE_STRUCT_PREFIX = "http://smart.who.int/base/StructureDefinition/";
-const SMART_BASE_NS_PREFIX = "https://litlfred.github.io/smart-base/v0/ns#";
+const SMART_BASE_NS_PREFIX = "https://litlfred.github.io/smart-base/v0/ns/";
 
 const VALID_SMART_BASE_MODELS = new Set([
   "DAK",
@@ -167,7 +178,7 @@ for (const file of glossaryFiles) {
   }
 
   const g = parsed.data;
-  const schemePrefix = `https://litlfred.github.io/dth-phc/v0/ns#glossary/${g.id}/`;
+  const schemePrefix = `https://litlfred.github.io/dth-phc/v0/ns/glossary/${g.id}/`;
   const localIds = new Set(g.terms.map((t) => t.id));
   const localIris = new Set(g.terms.map((t) => `${schemePrefix}${t.id}`));
 

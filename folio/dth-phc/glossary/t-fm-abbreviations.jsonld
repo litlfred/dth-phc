@@ -1,0 +1,75 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/tbl-abbreviations",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "label": "tbl:abbreviations",
+  "kind": "table",
+  "title": "Abbreviations (35 acronyms)",
+  "text": "t-fm-abbreviations.md",
+  "meta": {
+    "title": "Abbreviations (35 acronyms)",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-001-abbreviations",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
+      "pdfPages": [
+        7
+      ],
+      "method": "l1-table-formalized"
+    },
+    "glossaryTerms": [
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/antenatal-care",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/application-programming-interface",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/business-process-model-and-notation",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/collaborative-requirements-development-methodology",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/diastolic-blood-pressure",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-health-atlas",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-imaging-and-communications-in-medicine",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-implementation-investment-guide",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-level-seven",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/identity-identification",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/information-technology",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/integrating-the-healthcare-enterprise",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases-11",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-functioning-disability-and-health",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-health-interventions",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-telecommunications-union",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/javascript-object-notation",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/logical-observation-identifiers-names-and-codes",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/mhealth-assessment-and-planning-for-scale",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/minimum-viable-product",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/open-health-information-exchange",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred-point-of-service-system",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/point-of-service",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/primary-health-care",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-ct",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-gps",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/special-programme-of-research-in-human-reproduction",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/systolic-blood-pressure",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-acceptance-testing",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-interface",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/who-family-of-international-classifications",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/world-health-organization",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-gps"
+    ]
+  },
+  "provenance": "authored"
+}

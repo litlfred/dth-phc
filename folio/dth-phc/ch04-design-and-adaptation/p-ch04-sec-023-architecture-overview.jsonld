@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/prose-ch04-sec-023-architecture-overview",
@@ -34,20 +34,20 @@
       "method": "l1-section-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/systems-architecture",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/enterprise-architecture",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/architecture",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/architecture-building-blocks",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/interoperability",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/interoperability-standards",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/smart-guidelines",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/fast-healthcare-interoperability-resources",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/solution-architecture",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/reference-architecture",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/smart-guidelines"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/systems-architecture",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/architecture",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/architecture-building-blocks",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability-standards",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
     ],
     "archimateElements": [
       {
