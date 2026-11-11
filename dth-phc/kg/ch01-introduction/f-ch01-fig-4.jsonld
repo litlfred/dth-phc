@@ -27,7 +27,12 @@
       "pdfPages": [
         19
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p019.png",
+      "data": "figure-data/fig-4-collect-once.json",
+      "generator": "scripts/figures/fig4_collect_once.py",
+      "decision": "owner 2026-11-11 11:36Z: make the figures computable (dth-phc#38)",
+      "verbatimCheck": "every label is on PDF page 19 (who-iris vector-labels.json)"
     },
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred-point-of-service-system",

@@ -284,33 +284,33 @@
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-1.jsonld",
-          "bytes": 2374,
-          "size": "2.3 KB"
+          "bytes": 2861,
+          "size": "2.8 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-1.md",
-          "bytes": 416,
-          "size": "416 B"
+          "bytes": 509,
+          "size": "509 B"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-1.ts",
-          "bytes": 1788,
-          "size": "1.7 KB"
+          "bytes": 2252,
+          "size": "2.2 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-2.jsonld",
-          "bytes": 3149,
-          "size": "3.1 KB"
+          "bytes": 3553,
+          "size": "3.5 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-2.md",
-          "bytes": 1009,
-          "size": "1009 B"
+          "bytes": 436,
+          "size": "436 B"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-2.ts",
-          "bytes": 2512,
-          "size": "2.5 KB"
+          "bytes": 2908,
+          "size": "2.8 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-3.jsonld",
@@ -329,18 +329,18 @@
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-4.jsonld",
-          "bytes": 4331,
-          "size": "4.2 KB"
+          "bytes": 4689,
+          "size": "4.6 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-4.md",
-          "bytes": 769,
-          "size": "769 B"
+          "bytes": 428,
+          "size": "428 B"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-4.ts",
-          "bytes": 3468,
-          "size": "3.4 KB"
+          "bytes": 3805,
+          "size": "3.7 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-5.jsonld",
@@ -484,8 +484,8 @@
         },
         {
           "path": "dth-phc/ch01-introduction/t-ch01-fig-2.md",
-          "bytes": 916,
-          "size": "916 B"
+          "bytes": 967,
+          "size": "967 B"
         },
         {
           "path": "dth-phc/ch01-introduction/t-ch01-fig-2.ts",
@@ -1024,48 +1024,48 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.jsonld",
-          "bytes": 2978,
-          "size": "2.9 KB"
+          "bytes": 3389,
+          "size": "3.3 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.md",
-          "bytes": 197,
-          "size": "197 B"
+          "bytes": 423,
+          "size": "423 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-11.ts",
-          "bytes": 2351,
-          "size": "2.3 KB"
+          "bytes": 2746,
+          "size": "2.7 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-12.jsonld",
-          "bytes": 2367,
-          "size": "2.3 KB"
+          "bytes": 2762,
+          "size": "2.7 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-12.md",
-          "bytes": 186,
-          "size": "186 B"
+          "bytes": 381,
+          "size": "381 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-12.ts",
-          "bytes": 1783,
-          "size": "1.7 KB"
+          "bytes": 2165,
+          "size": "2.1 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.jsonld",
-          "bytes": 4067,
-          "size": "4.0 KB"
+          "bytes": 4478,
+          "size": "4.4 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.md",
-          "bytes": 171,
-          "size": "171 B"
+          "bytes": 347,
+          "size": "347 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-13.ts",
-          "bytes": 3225,
-          "size": "3.1 KB"
+          "bytes": 3629,
+          "size": "3.5 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-14.jsonld",
@@ -1099,18 +1099,18 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.jsonld",
-          "bytes": 2867,
-          "size": "2.8 KB"
+          "bytes": 3276,
+          "size": "3.2 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.md",
-          "bytes": 173,
-          "size": "173 B"
+          "bytes": 346,
+          "size": "346 B"
         },
         {
           "path": "dth-phc/ch03-user-requirements/f-ch03-fig-9.ts",
-          "bytes": 2250,
-          "size": "2.2 KB"
+          "bytes": 2652,
+          "size": "2.6 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/p-ch03-overview.jsonld",
@@ -1359,8 +1359,8 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-11.md",
-          "bytes": 3100,
-          "size": "3.0 KB"
+          "bytes": 4038,
+          "size": "3.9 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-11.ts",
@@ -1374,7 +1374,7 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-12.md",
-          "bytes": 1606,
+          "bytes": 1681,
           "size": "1.6 KB"
         },
         {
@@ -1389,8 +1389,8 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-13.md",
-          "bytes": 2936,
-          "size": "2.9 KB"
+          "bytes": 3342,
+          "size": "3.3 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-13.ts",
@@ -1419,8 +1419,8 @@
         },
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-9.md",
-          "bytes": 2295,
-          "size": "2.2 KB"
+          "bytes": 2466,
+          "size": "2.4 KB"
         },
         {
           "path": "dth-phc/ch03-user-requirements/t-ch03-fig-9.ts",
@@ -1979,8 +1979,8 @@
         },
         {
           "path": "dth-phc/figure-exclusions.json",
-          "bytes": 474,
-          "size": "474 B"
+          "bytes": 1019,
+          "size": "1019 B"
         },
         {
           "path": "dth-phc/front-matter/front-matter.ts",
@@ -2059,8 +2059,8 @@
         },
         {
           "path": "dth-phc/l1-coverage.json",
-          "bytes": 165560,
-          "size": "161.7 KB"
+          "bytes": 165653,
+          "size": "161.8 KB"
         },
         {
           "path": "dth-phc/l1-coverage.quotes.json",
@@ -2113,6 +2113,26 @@
           "size": "33.6 KB"
         },
         {
+          "path": "dth-phc/media/fig-1-paper-to-digital.svg",
+          "bytes": 28768,
+          "size": "28.1 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-11-workflow-a-notes.svg",
+          "bytes": 24240,
+          "size": "23.7 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-12-data-element-needed.svg",
+          "bytes": 8445,
+          "size": "8.2 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-13-hiv-decision-logic-matrix.svg",
+          "bytes": 21245,
+          "size": "20.7 KB"
+        },
+        {
           "path": "dth-phc/media/fig-14-anc-hiv-decision-tree.json",
           "bytes": 3357,
           "size": "3.3 KB"
@@ -2123,14 +2143,29 @@
           "size": "9.3 KB"
         },
         {
+          "path": "dth-phc/media/fig-2-who-2019-recommendation-8.svg",
+          "bytes": 6431,
+          "size": "6.3 KB"
+        },
+        {
           "path": "dth-phc/media/fig-3-phc-digital-ecosystem.svg",
           "bytes": 14766,
           "size": "14.4 KB"
         },
         {
+          "path": "dth-phc/media/fig-4-collect-once.svg",
+          "bytes": 5138,
+          "size": "5.0 KB"
+        },
+        {
           "path": "dth-phc/media/fig-5-smart-guidelines-approach.svg",
           "bytes": 10238,
           "size": "10.0 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-9-fp-business-process-matrix.svg",
+          "bytes": 19910,
+          "size": "19.4 KB"
         },
         {
           "path": "dth-phc/media/vfig-p014.png",
@@ -2229,8 +2264,8 @@
         },
         {
           "path": "dth-phc/review-anchors.json",
-          "bytes": 66764,
-          "size": "65.2 KB"
+          "bytes": 67057,
+          "size": "65.5 KB"
         },
         {
           "path": "schema/builders.ts",
