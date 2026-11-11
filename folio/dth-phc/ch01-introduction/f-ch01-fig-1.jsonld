@@ -27,7 +27,13 @@
       "pdfPages": [
         15
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p015.png",
+      "data": "figure-data/fig-1-paper-to-digital.json",
+      "rows": "folio/dth-phc/ch01-introduction/t-ch01-fig-1.md",
+      "generator": "scripts/figures/fig1_paper_to_digital.py",
+      "decision": "owner 2026-11-11 11:36Z: make Fig. 1 computable (dth-phc#38)",
+      "verbatimCheck": "every label is on PDF page 15 (who-iris vector-labels.json); the comparison rows are read from the table block tbl:fig-1"
     },
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization",
