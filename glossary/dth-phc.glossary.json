@@ -2,7 +2,7 @@
   "$schema": "folio-glossary/v1",
   "id": "dth-phc",
   "title": "Glossary of the Digital Transformation Handbook for Primary Health Care",
-  "description": "SKOS concept scheme of terms and abbreviations defined in the WHO Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems (2024, ISBN 978-92-4-009336-2), cross-linked to the WHO/ITU DPI-H Reference Architecture (smart-ra: dpi-h-ra and full-stac schemes) and the WHO SMART Guidelines DAK vocabulary (smart-base). Acronyms (owner, 2026-10-31): every acronym the handbook uses in its abbreviations table and chapters is a term here with the acronym as notation and a source pointing to its L1 section (litlfred/folio-assistant-core#412).",
+  "description": "SKOS concept scheme of terms and abbreviations defined in the WHO Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems (2024, ISBN 978-92-4-009336-2), cross-linked to the WHO/ITU DPI-H Reference Architecture (smart-ra: dpi-h-ra and full-stac schemes) and the WHO SMART Guidelines DAK vocabulary (smart-base). Acronyms (owner, 2026-10-31): every acronym the handbook uses in its abbreviations table and chapters is a term here with the acronym as notation and a source pointing to its L1 section (litlfred/folio-assistant-core#412). Organizations several handbooks name live once in smart-ra's organizations scheme (litlfred/smart-ra#198) and are listed under members; organization terms here carry a foaf:focus to a W3C ORG organization (litlfred/folio-assistant-core#411).",
   "source": "dth-phc.json#who-iris/library/9789240093362-eng",
   "terms": [
     {
@@ -160,7 +160,11 @@
       "notation": "AeHIN",
       "scopeNote": "Expanded in the text (section 4.4), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "OrganizationalCollaboration",
+        "homepage": "https://www.aehin.org/"
+      }
     },
     {
       "id": "beta-version",
@@ -1133,7 +1137,11 @@
       "notation": "FCDO",
       "scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office"
+      }
     },
     {
       "id": "full-standards-and-architecture-catalogue",
@@ -1216,7 +1224,11 @@
       "notation": "GS1",
       "scopeNote": "Named in Table 4 (section 4.4 interoperability standards). A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.gs1.org/"
+      }
     },
     {
       "id": "health-informatician",
@@ -1304,7 +1316,11 @@
         "fast-healthcare-interoperability-resources"
       ],
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.hl7.org/"
+      }
     },
     {
       "id": "health-management-information-system",
@@ -1538,7 +1554,11 @@
       "notation": "IEEE",
       "scopeNote": "Used in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.ieee.org/"
+      }
     },
     {
       "id": "integrating-the-healthcare-enterprise",
@@ -1549,7 +1569,11 @@
       "notation": "IHE",
       "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.ihe.net/"
+      }
     },
     {
       "id": "interactive-research-and-development",
@@ -1560,7 +1584,11 @@
       "notation": "IRD",
       "scopeNote": "Named in the acknowledgements; expansion supplied for review. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://ird.global/"
+      }
     },
     {
       "id": "international-classification-of-diseases",
@@ -1641,7 +1669,11 @@
       "notation": "IEC",
       "scopeNote": "Used in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.iec.ch/"
+      }
     },
     {
       "id": "international-organization-for-standardization",
@@ -1652,7 +1684,11 @@
       "notation": "ISO",
       "scopeNote": "Used in the handbook references and standards tables; expansion supplied for review. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.iso.org/"
+      }
     },
     {
       "id": "international-telecommunications-union",
@@ -1665,7 +1701,14 @@
       "notation": "ITU",
       "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.itu.int/",
+        "subOrganizationOf": [
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
+        ]
+      }
     },
     {
       "id": "interoperability",
@@ -1727,7 +1770,14 @@
       "notation": "UNAIDS",
       "scopeNote": "Expanded in the text (section 2.3), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-009-23-before-using-this-resource.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.unaids.org/",
+        "subOrganizationOf": [
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
+        ]
+      }
     },
     {
       "id": "lateral-flow-urine-lipoarabinomannan-assay",
@@ -1863,7 +1913,7 @@
         "MOH"
       ],
       "notation": "MoH",
-      "scopeNote": "Expanded in section 2.2, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
+      "scopeNote": "Expanded in section 2.2, which gives the expansion used as prefLabel. A candidate: no definition has been written. A kind of organization (each country has one), so it has no focus.",
       "broader": [
         "public-health-authority"
       ],
@@ -1967,7 +2017,11 @@
       "notation": "OMG",
       "scopeNote": "Used in the handbook text and annexes (BPMN/DMN standards body); expansion supplied for review. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-017-36-determine-decision-support-logic.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.omg.org/"
+      }
     },
     {
       "id": "open-health-information-exchange",
@@ -1978,7 +2032,11 @@
       "notation": "OpenHIE",
       "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "OrganizationalCollaboration",
+        "homepage": "https://ohie.org/"
+      }
     },
     {
       "id": "open-smart-register-platform",
@@ -2023,7 +2081,11 @@
         "open-source"
       ],
       "source": "who-iris/library/9789240093362-eng/sections/sec-002-glossary.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://opensource.org/"
+      }
     },
     {
       "id": "open-standards",
@@ -2087,7 +2149,14 @@
       "notation": "PAHO",
       "scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.paho.org/",
+        "subOrganizationOf": [
+          "world-health-organization"
+        ]
+      }
     },
     {
       "id": "person-centred",
@@ -2313,7 +2382,11 @@
         "collaborative-requirements-development-methodology"
       ],
       "source": "who-iris/library/9789240093362-eng/sections/sec-006-13-how-this-handbook-was-developed.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://phii.org/"
+      }
     },
     {
       "id": "quality-assurance",
@@ -2652,7 +2725,14 @@
         "antenatal-care"
       ],
       "scopeNote": "Not in the handbook text. A candidate: no handbook definition has been found. Agent draft for review (dth-phc#1): UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction (HRP): co-sponsoring programme within WHO contributing to SMART Guidelines and Digital Adaptation Kits for sexual, reproductive, maternal and newborn health.",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "OrganizationalCollaboration",
+        "homepage": "https://www.who.int/teams/sexual-and-reproductive-health-and-research-(srh)/human-reproduction-programme",
+        "subOrganizationOf": [
+          "world-health-organization"
+        ]
+      }
     },
     {
       "id": "standard-operating-procedure",
@@ -2878,7 +2958,14 @@
       "notation": "UNICEF",
       "scopeNote": "Named in the acknowledgements and text; expansion supplied for review. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.unicef.org/",
+        "subOrganizationOf": [
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
+        ]
+      }
     },
     {
       "id": "unified-code-for-units-of-measure",
@@ -2911,7 +2998,14 @@
       "notation": "UNFPA",
       "scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-000-acknowledgements.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.unfpa.org/",
+        "subOrganizationOf": [
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
+        ]
+      }
     },
     {
       "id": "universal-health-coverage",
@@ -3094,7 +3188,14 @@
       "notation": "WAI",
       "scopeNote": "Expanded in the references, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-034-references.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "OrganizationalUnit",
+        "homepage": "https://www.w3.org/WAI/",
+        "subOrganizationOf": [
+          "world-wide-web-consortium"
+        ]
+      }
     },
     {
       "id": "who-family-of-international-classifications",
@@ -3169,7 +3270,14 @@
       "notation": "WHO",
       "scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-001-abbreviations.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.who.int/",
+        "subOrganizationOf": [
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
+        ]
+      }
     },
     {
       "id": "world-wide-web-consortium",
@@ -3180,9 +3288,28 @@
       "notation": "W3C",
       "scopeNote": "Named in Table 4 (section 4.4); expansion supplied for review. A candidate: no definition has been written.",
       "source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
-      "status": "candidate"
+      "status": "candidate",
+      "focus": {
+        "type": "FormalOrganization",
+        "homepage": "https://www.w3.org/"
+      }
     }
   ],
   "modified": "2026-10-31",
-  "license": "CC-BY-NC-SA-3.0-IGO"
+  "license": "CC-BY-NC-SA-3.0-IGO",
+  "members": [
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/who",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/paho",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/unicef",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/unido",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/itu",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/iso",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/hl7",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/gs1",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/usaid",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/gavi",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/path",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/openhie"
+  ]
 }
