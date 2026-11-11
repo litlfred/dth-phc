@@ -7,7 +7,8 @@ never here.
 What a block holds and how it is drawn:
 - lines before the table (other than the "Fig. N" caption line) are drawn above it;
 - the table: header row, then body rows; `<br>` breaks a cell, `•` and `»` start bullets,
-  `*italic*` and `**bold**` keep their style;
+  `*italic*` and `**bold**` keep their style; `[text](url "note")` is a link whose
+  note shows on hover;
 - lines after the table (the "Source: ..." line) are drawn below it.
 
 Usage: table_figure.py [--check] [fig ...]   (default: every figure in STYLES)
@@ -60,15 +61,15 @@ def esc(s: str) -> str:
 def runs(text: str, href: str = "") -> list[tuple[str, bool, bool, str]]:
     """Split markdown into (text, bold, italic, link) runs; [text](url) becomes a link."""
     out = []
-    for m in re.finditer(r"\[([^\]]+)\]\(([^)\s]+)\)|\*\*(.+?)\*\*|\*(.+?)\*|([^*\[]+|[*\[])", text):
+    for m in re.finditer(r'\[([^\]]+)\]\(([^)\s]+)(?: "([^"]*)")?\)|\*\*(.+?)\*\*|\*(.+?)\*|([^*\[]+|[*\[])', text):
         if m.group(1) is not None:
-            out += runs(m.group(1), m.group(2))
-        elif m.group(3) is not None:
-            out += [(t, True, i, h) for t, _, i, h in runs(m.group(3), href)]
+            out += runs(m.group(1), m.group(2) + ("\n" + m.group(3) if m.group(3) else ""))
         elif m.group(4) is not None:
-            out += [(t, b, True, h) for t, b, _, h in runs(m.group(4), href)]
+            out += [(t, True, i, h) for t, _, i, h in runs(m.group(4), href)]
+        elif m.group(5) is not None:
+            out += [(t, b, True, h) for t, b, _, h in runs(m.group(5), href)]
         else:
-            out.append((m.group(5), False, False, href))
+            out.append((m.group(6), False, False, href))
     return out
 
 
@@ -112,7 +113,9 @@ def tspans(line) -> str:
                 if lead and prev != h:            # a space before a link is not part of it
                     out.append(f"<tspan>{lead}</tspan>")
                     lead = ""
-                out.append(f'<a href="{esc(h)}"><tspan{attrs} text-decoration="underline">{esc(lead + t)}</tspan></a>')
+                url, _, note = h.partition("\n")     # a link title becomes a hover note
+                tip = f"<title>{esc(note)}</title>" if note else ""
+                out.append(f'<a href="{esc(url)}">{tip}<tspan{attrs} text-decoration="underline">{esc(lead + t)}</tspan></a>')
             else:
                 out.append(f"<tspan{attrs}>{esc(lead + t)}</tspan>")
             prev = h

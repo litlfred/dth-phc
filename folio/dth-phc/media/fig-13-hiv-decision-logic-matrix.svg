@@ -103,7 +103,7 @@
 <rect x="20" y="715.4000000000001" width="150" height="70.7" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
 <text x="29" y="738.4000000000001" font-size="13" fill="#1A1A1A"><tspan>HIV.C.24</tspan><tspan> Prescribe</tspan></text>
 <rect x="170" y="715.4000000000001" width="82" height="70.7" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
-<text x="179" y="738.4000000000001" font-size="13" fill="#1A1A1A"><tspan>HIV.DT.05</tspan></text>
+<text x="179" y="738.4000000000001" font-size="13" fill="#1A1A1A"><a href="https://litlfred.github.io/smart-hiv/artifact/PlanDefinition-HIVC23DT.html"><title>Same description in smart-hiv, which numbers the activity HIV.C23; this handbook says HIV.C.24</title><tspan text-decoration="underline">HIV.DT.05</tspan></a></text>
 <rect x="252" y="715.4000000000001" width="118" height="70.7" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
 <text x="261" y="738.4000000000001" font-size="13" fill="#1A1A1A"><tspan>Determine</tspan><tspan> PEP</tspan></text>
 <text x="261" y="755.3000000000001" font-size="13" fill="#1A1A1A"><tspan>or</tspan><tspan> PrEP</tspan></text>
