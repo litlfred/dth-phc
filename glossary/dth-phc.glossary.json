@@ -1706,7 +1706,7 @@
         "type": "FormalOrganization",
         "homepage": "https://www.itu.int/",
         "subOrganizationOf": [
-          "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/un/_focus"
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
         ]
       }
     },
@@ -1775,7 +1775,7 @@
         "type": "FormalOrganization",
         "homepage": "https://www.unaids.org/",
         "subOrganizationOf": [
-          "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/un/_focus"
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
         ]
       }
     },
@@ -2963,7 +2963,7 @@
         "type": "FormalOrganization",
         "homepage": "https://www.unicef.org/",
         "subOrganizationOf": [
-          "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/un/_focus"
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
         ]
       }
     },
@@ -3003,7 +3003,7 @@
         "type": "FormalOrganization",
         "homepage": "https://www.unfpa.org/",
         "subOrganizationOf": [
-          "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/un/_focus"
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
         ]
       }
     },
@@ -3275,7 +3275,7 @@
         "type": "FormalOrganization",
         "homepage": "https://www.who.int/",
         "subOrganizationOf": [
-          "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/un/_focus"
+          "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un/_focus"
         ]
       }
     },
@@ -3298,18 +3298,18 @@
   "modified": "2026-10-31",
   "license": "CC-BY-NC-SA-3.0-IGO",
   "members": [
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/un",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/who",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/paho",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/unicef",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/unido",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/itu",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/iso",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/hl7",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/gs1",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/usaid",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/gavi",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/path",
-    "https://litlfred.github.io/smart-ra/v0/ns#glossary/organizations/openhie"
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/un",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/who",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/paho",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/unicef",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/unido",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/itu",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/iso",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/hl7",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/gs1",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/usaid",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/gavi",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/path",
+    "https://litlfred.github.io/smart-ra/v0/ns/glossary/organizations/openhie"
   ]
 }
