@@ -4,7 +4,8 @@
 block folio/dth-phc/ch03-user-requirements/t-ch03-fig-12.md, so the words have one source.
 
 Each row is a question, its explanation and the action to be taken, joined by arrows; each
-action leads on to the next question, as on PDF page 42.
+action leads on to the next question, as on PDF page 42. A question that the table block
+links (to the DMN decision dt:keep-data-element) is a link in the drawing too.
 
 Usage: fig12_data_element_needed.py [--check]
 """
@@ -58,6 +59,8 @@ def draw() -> str:
     gap = 52
     prev_action = None
     for r, (question, explanation, action) in enumerate(rows):
+        link = re.match(r"^\[(.+)\]\(([^)]+)\)$", question)
+        question, href = (link.group(1), link.group(2)) if link else (question, "")
         m = re.match(r"(\d+\.)\s*(.*)", question)
         num, qtext = (m.group(1), m.group(2)) if m else ("", question)
         q_lines = [num] + wrap(qtext, COLS[0][1] - COLS[0][0] - 20, 21)
@@ -70,13 +73,17 @@ def draw() -> str:
             qx = COLS[0][0] + 66
             a(f'<path d="M{px} {py}V{py + gap / 2}H{qx}V{y - 3}" fill="none" stroke="{BLUE}" stroke-width="4" marker-end="url(#arrow)"/>\n')
         (q0, q1), (e0, e1), (x0, x1) = COLS
+        if href:                                     # the question box links to its DMN decision
+            a(f'<a href="{esc(href)}">')
         a(f'<rect x="{q0}" y="{y}" width="{q1 - q0}" height="{h}" fill="{BLUE}"/>\n')
         ty = y + h / 2 - (len(q_lines) - 1) * 13 + 7
         for t in q_lines:
-            words = esc(t).replace("data element", f'<a href="{DATA_ELEMENT}">data element</a>')
+            words = esc(t) if href else esc(t).replace("data element", f'<a href="{DATA_ELEMENT}">data element</a>')
             a(f'<text x="{(q0 + q1) / 2}" y="{ty}" text-anchor="middle" font-size="21" fill="#FFFFFF"'
               f'{" font-weight=\"700\"" if t == num else ""}>{words}</text>\n')
             ty += 26
+        if href:
+            a("</a>\n")
         a(f'<rect x="{e0}" y="{y + 4}" width="{e1 - e0}" height="{h - 8}" fill="#FFFFFF" stroke="{BLUE}" stroke-width="2"/>\n')
         ty = y + h / 2 - (len(e_lines) - 1) * 10 + 5
         for t in e_lines:

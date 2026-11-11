@@ -459,7 +459,7 @@
     "sec:1-0"
    ],
    "caption": "Fig. 2. The 2019 WHO guideline: recommendations on digital interventions for health system strengthening",
-   "hash": "f1ed9299209f",
+   "hash": "a5178e1e1926",
    "excerpt": "Fig. 2 The 2019 WHO guideline: recommendations on digital interventions for health system strengthening Expected Contribution to universal health coverage (UHC)",
    "method": "folio-snapshot"
   },
@@ -1070,7 +1070,7 @@
     "sec:3-3"
    ],
    "caption": "Fig. 9. Example business process matrix from family planning DAK",
-   "hash": "b56b3b60036f",
+   "hash": "2787476e9149",
    "excerpt": "Fig. 9 Example business process matrix from family planning DAK Process name Process ID Personas Objectives Task set --- --- --- --- --- --- — Title ID used to ",
    "method": "folio-snapshot"
   },
@@ -1109,7 +1109,7 @@
     "sec:3-3"
    ],
    "caption": "Fig. 11. Notes and annotations for Workflow A: Registration business process",
-   "hash": "b03729ffa00c",
+   "hash": "1ff2f48da701",
    "excerpt": "Fig. 11 Notes and annotations for Workflow A: Registration business process REGISTRATION BUSINESS PROCESS NOTES AND ANNOTATIONS General note: Registration may b",
    "method": "folio-snapshot"
   },
@@ -1171,8 +1171,8 @@
     "sec:3-4"
    ],
    "caption": "Fig. 12. Is each and every data element collected truly needed? (Decision criteria for keeping or removing a data element)",
-   "hash": "19c51e8fb9fc",
-   "excerpt": "Fig. 12 Is each and every data element collected truly needed? Question Explanation Action to be taken --- --- --- 1. Is the data element duplicated? Duplicates",
+   "hash": "1fdc0fab9a28",
+   "excerpt": "Fig. 12 Is each and every data element collected truly needed? Question Explanation Action to be taken --- --- --- [1. Is the data element duplicated?]( dt:keep",
    "method": "folio-snapshot"
   },
   {
@@ -1233,7 +1233,7 @@
     "sec:3-6"
    ],
    "caption": "Fig. 13. Example decision-support logic matrix from DAK for HIV",
-   "hash": "a32ab363250a",
+   "hash": "4f88fcfbec49",
    "excerpt": "Fig. 13 Example decision-support logic matrix from DAK for HIV Activity ID & activity name Decision table ID Decision table description Reference/source --- ---",
    "method": "folio-snapshot"
   },

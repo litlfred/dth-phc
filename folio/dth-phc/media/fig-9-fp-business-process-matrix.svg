@@ -45,10 +45,10 @@
 <rect x="140" y="185.45" width="112" height="125.3" fill="#DCDDDE" stroke="#2B9BD8" stroke-width="1"/>
 <text x="149" y="208.95" font-size="13.5" fill="#1A1A1A"><tspan>FP.A</tspan></text>
 <rect x="252" y="185.45" width="132" height="125.3" fill="#DCDDDE" stroke="#2B9BD8" stroke-width="1"/>
-<text x="261" y="208.95" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="208.95" font-size="13.5" fill="#1A1A1A"><tspan>Client</tspan></text>
-<text x="261" y="226.5" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="226.5" font-size="13.5" fill="#1A1A1A"><tspan>Clerk</tspan><tspan> or</tspan></text>
-<text x="275" y="244.05" font-size="13.5" fill="#1A1A1A"><tspan>health-care</tspan></text>
-<text x="275" y="261.6" font-size="13.5" fill="#1A1A1A"><tspan>provider</tspan></text>
+<text x="261" y="208.95" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="208.95" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-service-user"><tspan text-decoration="underline">Client</tspan></a></text>
+<text x="261" y="226.5" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="226.5" font-size="13.5" fill="#1A1A1A"><a href="#pers:clerk"><tspan text-decoration="underline">Clerk</tspan></a><tspan> or</tspan></text>
+<text x="275" y="244.05" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-worker"><tspan text-decoration="underline">health-care</tspan></a></text>
+<text x="275" y="261.6" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-worker"><tspan text-decoration="underline">provider</tspan></a></text>
 <rect x="384" y="185.45" width="222" height="125.3" fill="#DCDDDE" stroke="#2B9BD8" stroke-width="1"/>
 <text x="393" y="208.95" font-size="13.5" fill="#1A1A1A"><tspan>To</tspan><tspan> ensure</tspan><tspan> client</tspan><tspan> is</tspan><tspan> located</tspan></text>
 <text x="393" y="226.5" font-size="13.5" fill="#1A1A1A"><tspan>in</tspan><tspan> the</tspan><tspan> system</tspan><tspan> with</tspan><tspan> updated</tspan></text>
@@ -71,9 +71,9 @@
 <rect x="140" y="310.75" width="112" height="371.0" fill="#FFFFFF" stroke="#2B9BD8" stroke-width="1"/>
 <text x="149" y="334.25" font-size="13.5" fill="#1A1A1A"><tspan>FP.B</tspan></text>
 <rect x="252" y="310.75" width="132" height="371.0" fill="#FFFFFF" stroke="#2B9BD8" stroke-width="1"/>
-<text x="261" y="334.25" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="334.25" font-size="13.5" fill="#1A1A1A"><tspan>Client</tspan></text>
-<text x="261" y="351.8" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="351.8" font-size="13.5" fill="#1A1A1A"><tspan>Health-care</tspan></text>
-<text x="275" y="369.35" font-size="13.5" fill="#1A1A1A"><tspan>provider</tspan></text>
+<text x="261" y="334.25" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="334.25" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-service-user"><tspan text-decoration="underline">Client</tspan></a></text>
+<text x="261" y="351.8" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="351.8" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-worker"><tspan text-decoration="underline">Health-care</tspan></a></text>
+<text x="275" y="369.35" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-worker"><tspan text-decoration="underline">provider</tspan></a></text>
 <text x="275" y="386.90000000000003" font-size="13.5" fill="#1A1A1A"><tspan>(clinician,</tspan></text>
 <text x="275" y="404.45000000000005" font-size="13.5" fill="#1A1A1A"><tspan>nurse</tspan><tspan> midwife</tspan></text>
 <text x="275" y="422.00000000000006" font-size="13.5" fill="#1A1A1A"><tspan>or</tspan><tspan> community</tspan></text>
@@ -113,9 +113,9 @@
 <rect x="140" y="681.75" width="112" height="195.5" fill="#DCDDDE" stroke="#2B9BD8" stroke-width="1"/>
 <text x="149" y="705.25" font-size="13.5" fill="#1A1A1A"><tspan>FP.C</tspan></text>
 <rect x="252" y="681.75" width="132" height="195.5" fill="#DCDDDE" stroke="#2B9BD8" stroke-width="1"/>
-<text x="261" y="705.25" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="705.25" font-size="13.5" fill="#1A1A1A"><tspan>Client</tspan></text>
-<text x="261" y="722.8" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="722.8" font-size="13.5" fill="#1A1A1A"><tspan>Health-care</tspan></text>
-<text x="275" y="740.3499999999999" font-size="13.5" fill="#1A1A1A"><tspan>provider</tspan></text>
+<text x="261" y="705.25" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="705.25" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-service-user"><tspan text-decoration="underline">Client</tspan></a></text>
+<text x="261" y="722.8" font-size="13.5" fill="#1A1A1A">•</text><text x="275" y="722.8" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-worker"><tspan text-decoration="underline">Health-care</tspan></a></text>
+<text x="275" y="740.3499999999999" font-size="13.5" fill="#1A1A1A"><a href="#pers:health-worker"><tspan text-decoration="underline">provider</tspan></a></text>
 <rect x="384" y="681.75" width="222" height="195.5" fill="#DCDDDE" stroke="#2B9BD8" stroke-width="1"/>
 <text x="393" y="705.25" font-size="13.5" fill="#1A1A1A"><tspan>To</tspan><tspan> provide</tspan><tspan> the</tspan><tspan> method(s)</tspan><tspan> or</tspan></text>
 <text x="393" y="722.8" font-size="13.5" fill="#1A1A1A"><tspan>service(s)</tspan><tspan> the</tspan><tspan> client</tspan></text>

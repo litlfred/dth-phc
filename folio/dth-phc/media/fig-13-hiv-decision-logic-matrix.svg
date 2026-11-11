@@ -22,7 +22,7 @@
 <text x="29" y="168.3" font-size="13" fill="#1A1A1A"><tspan>Check</tspan><tspan> for</tspan><tspan> signs</tspan><tspan> of</tspan></text>
 <text x="29" y="185.20000000000002" font-size="13" fill="#1A1A1A"><tspan>serious</tspan><tspan> illness</tspan></text>
 <rect x="170" y="94.6" width="82" height="104.5" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
-<text x="179" y="117.6" font-size="13" fill="#1A1A1A"><tspan>HIV.DT.01</tspan></text>
+<text x="179" y="117.6" font-size="13" fill="#1A1A1A"><a href="https://litlfred.github.io/smart-hiv/artifact/PlanDefinition-HIVB2DT.html"><tspan text-decoration="underline">HIV.DT.01</tspan></a></text>
 <rect x="252" y="94.6" width="118" height="104.5" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
 <text x="261" y="117.6" font-size="13" fill="#1A1A1A"><tspan>Check</tspan><tspan> for</tspan></text>
 <text x="261" y="134.5" font-size="13" fill="#1A1A1A"><tspan>serious</tspan></text>
@@ -40,13 +40,13 @@
 <text x="29" y="289.7" font-size="13" fill="#1A1A1A"><tspan>HIV.D.11.</tspan><tspan> Retest</tspan></text>
 <text x="29" y="306.59999999999997" font-size="13" fill="#1A1A1A"><tspan>using</tspan><tspan> HIV</tspan><tspan> strategy,</tspan></text>
 <text x="29" y="323.49999999999994" font-size="13" fill="#1A1A1A"><tspan>HIV.E4.</tspan><tspan> Test</tspan></text>
-<text x="29" y="340.3999999999999" font-size="13" fill="#1A1A1A"><tspan>[mother]</tspan><tspan> for</tspan><tspan> HIV</tspan></text>
+<text x="29" y="340.3999999999999" font-size="13" fill="#1A1A1A"><tspan>[</tspan><tspan>mother]</tspan><tspan> for</tspan><tspan> HIV</tspan></text>
 <text x="29" y="357.2999999999999" font-size="13" fill="#1A1A1A"><tspan>using</tspan><tspan> HIV</tspan><tspan> testing</tspan></text>
 <text x="29" y="374.1999999999999" font-size="13" fill="#1A1A1A"><tspan>algorithm,</tspan><tspan> HIV.E12.</tspan></text>
-<text x="29" y="391.09999999999985" font-size="13" fill="#1A1A1A"><tspan>Test</tspan><tspan> [infant]</tspan><tspan> for</tspan></text>
+<text x="29" y="391.09999999999985" font-size="13" fill="#1A1A1A"><tspan>Test</tspan><tspan> [</tspan><tspan>infant]</tspan><tspan> for</tspan></text>
 <text x="29" y="407.99999999999983" font-size="13" fill="#1A1A1A"><tspan>HIV</tspan><tspan> using</tspan><tspan> testing</tspan></text>
 <text x="29" y="424.8999999999998" font-size="13" fill="#1A1A1A"><tspan>algorithm,</tspan><tspan> HIV.F8.</tspan></text>
-<text x="29" y="441.7999999999998" font-size="13" fill="#1A1A1A"><tspan>Test</tspan><tspan> [infant]</tspan><tspan> for</tspan></text>
+<text x="29" y="441.7999999999998" font-size="13" fill="#1A1A1A"><tspan>Test</tspan><tspan> [</tspan><tspan>infant]</tspan><tspan> for</tspan></text>
 <text x="29" y="458.69999999999976" font-size="13" fill="#1A1A1A"><tspan>HIV</tspan><tspan> using</tspan><tspan> HIV</tspan></text>
 <text x="29" y="475.59999999999974" font-size="13" fill="#1A1A1A"><tspan>testing</tspan><tspan> algorithm</tspan></text>
 <rect x="170" y="199.1" width="82" height="290.40000000000003" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
@@ -72,7 +72,7 @@
 <text x="29" y="529.4" font-size="13" fill="#1A1A1A"><tspan>recommended</tspan></text>
 <text x="29" y="546.3" font-size="13" fill="#1A1A1A"><tspan>services</tspan></text>
 <rect x="170" y="489.5" width="82" height="70.7" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
-<text x="179" y="512.5" font-size="13" fill="#1A1A1A"><tspan>HIV.DT.03</tspan></text>
+<text x="179" y="512.5" font-size="13" fill="#1A1A1A"><a href="https://litlfred.github.io/smart-hiv/artifact/PlanDefinition-HIVB9DT.html"><tspan text-decoration="underline">HIV.DT.03</tspan></a></text>
 <rect x="252" y="489.5" width="118" height="70.7" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
 <text x="261" y="512.5" font-size="13" fill="#1A1A1A"><tspan>Determine</tspan></text>
 <text x="261" y="529.4" font-size="13" fill="#1A1A1A"><tspan>retest</tspan></text>
@@ -116,7 +116,7 @@
 <text x="29" y="809.1000000000001" font-size="13" fill="#1A1A1A"><tspan>HIV.D4.</tspan><tspan> Screen</tspan><tspan> for</tspan></text>
 <text x="29" y="826.0000000000001" font-size="13" fill="#1A1A1A"><tspan>TB</tspan></text>
 <rect x="170" y="786.1000000000001" width="82" height="87.60000000000001" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
-<text x="179" y="809.1000000000001" font-size="13" fill="#1A1A1A"><tspan>HIV.DT.06</tspan></text>
+<text x="179" y="809.1000000000001" font-size="13" fill="#1A1A1A"><a href="https://litlfred.github.io/smart-hiv/artifact/PlanDefinition-HIVD4DT.html"><tspan text-decoration="underline">HIV.DT.06</tspan></a></text>
 <rect x="252" y="786.1000000000001" width="118" height="87.60000000000001" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>
 <text x="261" y="809.1000000000001" font-size="13" fill="#1A1A1A"><tspan>Screen</tspan><tspan> for</tspan><tspan> TB</tspan></text>
 <rect x="370" y="786.1000000000001" width="540" height="87.60000000000001" fill="#FFFFFF" stroke="#9A9EA6" stroke-width="1"/>

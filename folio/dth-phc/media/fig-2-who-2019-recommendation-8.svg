@@ -30,7 +30,7 @@
 <text x="199" y="289.0" font-size="18" fill="#1B4F72"><tspan>combined</tspan><tspan> with</tspan></text>
 <text x="199" y="312.4" font-size="18" fill="#1B4F72"><tspan>decision</tspan><tspan> support</tspan></text>
 <rect x="370" y="144.0" width="430" height="221.5" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
-<text x="379" y="169.5" font-size="15.5" fill="#1A1A1A"><tspan font-weight="700">Recommendation</tspan><tspan font-weight="700"> 8:</tspan><tspan> WHO</tspan><tspan> recommends</tspan><tspan> digital</tspan><tspan> tracking</tspan></text>
+<text x="379" y="169.5" font-size="15.5" fill="#1A1A1A"><a href="#rec:who-2019-digital-tracking-decision-support"><tspan font-weight="700" text-decoration="underline">Recommendation</tspan></a><a href="#rec:who-2019-digital-tracking-decision-support"><tspan font-weight="700" text-decoration="underline"> 8</tspan></a><tspan font-weight="700">:</tspan><tspan> WHO</tspan><tspan> recommends</tspan><tspan> digital</tspan><tspan> tracking</tspan></text>
 <text x="379" y="189.65" font-size="15.5" fill="#1A1A1A"><tspan>of</tspan><tspan> clients’</tspan><tspan> health</tspan><tspan> status</tspan><tspan> and</tspan><tspan> services,</tspan><tspan> combined</tspan></text>
 <text x="379" y="209.8" font-size="15.5" fill="#1A1A1A"><tspan>with</tspan><tspan> decision</tspan><tspan> support</tspan><tspan> under</tspan><tspan> these</tspan><tspan> conditions:</tspan></text>
 <text x="379" y="229.95000000000002" font-size="15.5" fill="#1A1A1A">•</text><text x="393" y="229.95000000000002" font-size="15.5" fill="#1A1A1A"><tspan>in</tspan><tspan> settings</tspan><tspan> where</tspan><tspan> the</tspan><tspan> health</tspan><tspan> system</tspan><tspan> can</tspan><tspan> support</tspan></text>

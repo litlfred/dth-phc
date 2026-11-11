@@ -57,23 +57,25 @@ def esc(s: str) -> str:
     return escape(s, {'"': "&quot;"})
 
 
-def runs(text: str) -> list[tuple[str, bool, bool]]:
-    """Split markdown into (text, bold, italic) runs."""
+def runs(text: str, href: str = "") -> list[tuple[str, bool, bool, str]]:
+    """Split markdown into (text, bold, italic, link) runs; [text](url) becomes a link."""
     out = []
-    for m in re.finditer(r"\*\*(.+?)\*\*|\*(.+?)\*|([^*]+|\*)", text):
+    for m in re.finditer(r"\[([^\]]+)\]\(([^)\s]+)\)|\*\*(.+?)\*\*|\*(.+?)\*|([^*\[]+|[*\[])", text):
         if m.group(1) is not None:
-            out += [(t, True, i) for t, _, i in runs(m.group(1))]
-        elif m.group(2) is not None:
-            out += [(t, b, True) for t, b, _ in runs(m.group(2))]
+            out += runs(m.group(1), m.group(2))
+        elif m.group(3) is not None:
+            out += [(t, True, i, h) for t, _, i, h in runs(m.group(3), href)]
+        elif m.group(4) is not None:
+            out += [(t, b, True, h) for t, b, _, h in runs(m.group(4), href)]
         else:
-            out.append((m.group(3), False, False))
+            out.append((m.group(5), False, False, href))
     return out
 
 
-def wrap(text: str, width: float, size: float) -> list[list[list[tuple[str, bool, bool]]]]:
+def wrap(text: str, width: float, size: float) -> list:
     """Wrap styled text to width. A line is a list of words; a word is a list of styled pieces."""
     words, cur, space = [], [], True
-    for t, b, i in runs(text):
+    for t, b, i, h in runs(text):
         for tok in re.split(r"(\s+)", t):
             if not tok:
                 continue
@@ -83,12 +85,12 @@ def wrap(text: str, width: float, size: float) -> list[list[list[tuple[str, bool
             if space or not cur:
                 cur = []
                 words.append(cur)
-            cur.append((tok, b, i))
+            cur.append((tok, b, i, h))
             space = False
     limit = width / (0.52 * size)
     lines, line, n = [], [], 0.0
     for w in words:
-        wl = sum(len(t) * (1.08 if b else 1.0) for t, b, _ in w)
+        wl = sum(len(t) * (1.08 if b else 1.0) for t, b, _, _ in w)
         if line and n + 1 + wl > limit:
             lines.append(line)
             line, n = [], 0.0
@@ -100,11 +102,20 @@ def wrap(text: str, width: float, size: float) -> list[list[list[tuple[str, bool
 
 
 def tspans(line) -> str:
-    out = []
+    """One line of styled words as tspans; linked words are wrapped in <a> and underlined."""
+    out, prev = [], ""
     for k, word in enumerate(line):
-        for j, (t, b, i) in enumerate(word):
+        for j, (t, b, i, h) in enumerate(word):
+            lead = " " if k and not j else ""
             attrs = (' font-weight="700"' if b else "") + (' font-style="italic"' if i else "")
-            out.append(f'<tspan{attrs}>{esc((" " if k and not j else "") + t)}</tspan>')
+            if h:
+                if lead and prev != h:            # a space before a link is not part of it
+                    out.append(f"<tspan>{lead}</tspan>")
+                    lead = ""
+                out.append(f'<a href="{esc(h)}"><tspan{attrs} text-decoration="underline">{esc(lead + t)}</tspan></a>')
+            else:
+                out.append(f"<tspan{attrs}>{esc(lead + t)}</tspan>")
+            prev = h
     return "".join(out)
 
 

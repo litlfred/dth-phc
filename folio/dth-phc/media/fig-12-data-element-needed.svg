@@ -8,11 +8,12 @@
 <text x="418.5" y="56" text-anchor="middle" font-weight="700" font-size="22" fill="#1B2A55">Explanation</text>
 <text x="759.5" y="56" text-anchor="middle" font-weight="700" font-size="22" fill="#5B2C83">Action to be taken</text>
 <g id="question-1">
-<rect x="34" y="76" width="196" height="210" fill="#0B8FD2"/>
+<a href="#dt:keep-data-element"><rect x="34" y="76" width="196" height="210" fill="#0B8FD2"/>
 <text x="132.0" y="149.0" text-anchor="middle" font-size="21" fill="#FFFFFF" font-weight="700">1.</text>
 <text x="132.0" y="175.0" text-anchor="middle" font-size="21" fill="#FFFFFF">Is the data</text>
 <text x="132.0" y="201.0" text-anchor="middle" font-size="21" fill="#FFFFFF">element</text>
 <text x="132.0" y="227.0" text-anchor="middle" font-size="21" fill="#FFFFFF">duplicated?</text>
+</a>
 <rect x="291" y="80" width="255" height="202" fill="#FFFFFF" stroke="#0B8FD2" stroke-width="2"/>
 <text x="307" y="106.0" font-size="15.5" fill="#1B2A55">Duplicates could include</text>
 <text x="307" y="126.0" font-size="15.5" fill="#1B2A55">data elements that have the</text>
@@ -36,13 +37,14 @@
 </g>
 <g id="question-2">
 <path d="M849.5 286V312.0H100V335" fill="none" stroke="#0B8FD2" stroke-width="4" marker-end="url(#arrow)"/>
-<rect x="34" y="338" width="196" height="250" fill="#0B8FD2"/>
+<a href="#dt:keep-data-element"><rect x="34" y="338" width="196" height="250" fill="#0B8FD2"/>
 <text x="132.0" y="405.0" text-anchor="middle" font-size="21" fill="#FFFFFF" font-weight="700">2.</text>
 <text x="132.0" y="431.0" text-anchor="middle" font-size="21" fill="#FFFFFF">Is the data</text>
 <text x="132.0" y="457.0" text-anchor="middle" font-size="21" fill="#FFFFFF">element needed</text>
 <text x="132.0" y="483.0" text-anchor="middle" font-size="21" fill="#FFFFFF">for service</text>
 <text x="132.0" y="509.0" text-anchor="middle" font-size="21" fill="#FFFFFF">delivery or</text>
 <text x="132.0" y="535.0" text-anchor="middle" font-size="21" fill="#FFFFFF">accountability?</text>
+</a>
 <rect x="291" y="342" width="255" height="242" fill="#FFFFFF" stroke="#0B8FD2" stroke-width="2"/>
 <text x="307" y="368.0" font-size="15.5" fill="#1B2A55">Does the data element</text>
 <text x="307" y="388.0" font-size="15.5" fill="#1B2A55">support the health worker</text>
@@ -69,11 +71,12 @@
 </g>
 <g id="question-3">
 <path d="M849.5 588V614.0H100V637" fill="none" stroke="#0B8FD2" stroke-width="4" marker-end="url(#arrow)"/>
-<rect x="34" y="640" width="196" height="170" fill="#0B8FD2"/>
+<a href="#dt:keep-data-element"><rect x="34" y="640" width="196" height="170" fill="#0B8FD2"/>
 <text x="132.0" y="693.0" text-anchor="middle" font-size="21" fill="#FFFFFF" font-weight="700">3.</text>
 <text x="132.0" y="719.0" text-anchor="middle" font-size="21" fill="#FFFFFF">Is the data</text>
 <text x="132.0" y="745.0" text-anchor="middle" font-size="21" fill="#FFFFFF">element</text>
 <text x="132.0" y="771.0" text-anchor="middle" font-size="21" fill="#FFFFFF">orphaned?</text>
+</a>
 <rect x="291" y="644" width="255" height="162" fill="#FFFFFF" stroke="#0B8FD2" stroke-width="2"/>
 <text x="307" y="680.0" font-size="15.5" fill="#1B2A55">Orphaned data will be</text>
 <text x="307" y="700.0" font-size="15.5" fill="#1B2A55">difficult to use in a</text>
