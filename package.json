@@ -17,6 +17,7 @@
     "check:l1-coverage": "bun run folio-assistant-core/scripts/folio-l1-coverage.ts --document dth-phc --l1 who-iris/library/9789240093362-eng --check",
     "check:l1-coverage:warn": "bun run check:l1-coverage || echo 'WARN: L1 coverage is OPEN; the site publish continues (owner, Q-PHC13 A). The PR gate runs check:l1-coverage strictly.'",
     "check:page-furniture": "bun run scripts/folio/check_page_furniture.ts",
+    "check:figures": "python3 scripts/figures/fig1_paper_to_digital.py --check && python3 scripts/figures/fig4_collect_once.py --check && python3 scripts/figures/fig12_data_element_needed.py --check",
     "review:anchors": "bun run folio-assistant-core/scripts/review-anchors-from-folio.ts --document dth-phc --library 9789240093362-eng --source who-iris/library/9789240093362-eng/structure.json --source-label \"the WHO IRIS L1 entry it was seeded from\"",
     "check:review-anchors": "bun run folio-assistant-core/scripts/review-anchors-from-folio.ts --document dth-phc --library 9789240093362-eng --source who-iris/library/9789240093362-eng/structure.json --source-label \"the WHO IRIS L1 entry it was seeded from\" --check",
     "l1:coverage:write": "bun run folio-assistant-core/scripts/folio-l1-coverage.ts --document dth-phc --l1 who-iris/library/9789240093362-eng"
