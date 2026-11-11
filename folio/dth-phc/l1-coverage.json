@@ -667,7 +667,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch01-introduction/f-ch01-fig-2"
+      "node": "ch01-introduction/p-ch01-sec-003-introduction"
     },
     {
       "sectionId": "sec-003-introduction",
@@ -678,7 +678,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch01-introduction/f-ch01-fig-2"
+      "node": "ch01-introduction/p-ch01-sec-003-introduction"
     },
     {
       "sectionId": "sec-003-introduction",
@@ -700,7 +700,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch01-introduction/f-ch01-fig-2"
+      "node": "ch01-introduction/p-ch01-sec-003-introduction"
     },
     {
       "sectionId": "sec-003-introduction",
@@ -711,7 +711,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch01-introduction/f-ch01-fig-2"
+      "node": "ch01-introduction/rec-who-2019-digital-tracking-decision-support"
     },
     {
       "sectionId": "sec-004-11-person-centred-point-of-service-systems",
@@ -877,7 +877,7 @@
         "recommendation"
       ],
       "state": "captured",
-      "node": "ch01-introduction/f-ch01-fig-2"
+      "node": "ch02-how-to-use/p-ch02-sec-009-prerequisites"
     },
     {
       "sectionId": "sec-009-23-before-using-this-resource",

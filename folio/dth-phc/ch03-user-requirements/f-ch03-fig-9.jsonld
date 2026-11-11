@@ -27,7 +27,12 @@
       "pdfPages": [
         35
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p035.png",
+      "data": "folio/dth-phc/ch03-user-requirements/t-ch03-fig-9.md",
+      "generator": "scripts/figures/table_figure.py",
+      "decision": "owner 2026-11-11 11:53Z (Q-PHCFIG-3 = A): draw the table-shaped figures from their table blocks (dth-phc#38)",
+      "verbatimCheck": "the words are read from the table block t-ch03-fig-9.md"
     },
     "glossaryTerms": [
       "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/business-process",
