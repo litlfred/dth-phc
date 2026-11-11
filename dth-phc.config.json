@@ -36,9 +36,11 @@
       ],
       "pre": [
         "check:dth-glossary",
+        "check:dth-blocks",
         "check:kg-blocks",
         "check:library-kg",
-        "check:l1-coverage"
+        "check:l1-coverage:warn",
+        "check:page-furniture"
       ],
       "keep": [
         "ns"

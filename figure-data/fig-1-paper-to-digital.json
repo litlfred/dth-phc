@@ -1,0 +1,63 @@
+{
+  "$schema": "dth-phc-paper-to-digital-figure/v1",
+  "$comment": "Fig. 1 as data: the staircase of four stages, the step labels between them and the two axes, in the figure's own words (who-iris vector-labels.json, PDF page 15). The comparison rows under the staircase are NOT repeated here: scripts/figures/fig1_paper_to_digital.py reads them from the table block folio/dth-phc/ch01-introduction/t-ch01-fig-1.md, so each word has one source.",
+  "figure": "Fig. 1",
+  "title": "Fig. 1. From paper to digital: a transformational journey",
+  "source": {
+    "library": "9789240093362-eng",
+    "pdfPage": 15,
+    "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p015.png",
+    "labels": "who-iris/library/9789240093362-eng/vector-labels.json"
+  },
+  "rows": "folio/dth-phc/ch01-introduction/t-ch01-fig-1.md",
+  "axes": {
+    "y": {
+      "label": ["Data", "use"],
+      "high": ["Greater data", "use with greater", "adoption of", "interoperability", "standards"],
+      "low": ["Limited data use with", "little to no interoperability", "standards adopted"]
+    },
+    "x": {
+      "label": "Process Optimization"
+    }
+  },
+  "stages": [
+    {
+      "id": "paper",
+      "column": "Paper",
+      "heading": ["PAPER"],
+      "colour": "#F5A623",
+      "tint": "#FCEBCF",
+      "icon": "document"
+    },
+    {
+      "id": "digitization",
+      "column": "Digitization",
+      "heading": ["DIGITIZATION"],
+      "colour": "#7AC143",
+      "tint": "#DDEBC9",
+      "icon": "scan",
+      "glossary": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization",
+      "step": ["From paper", "to digital"]
+    },
+    {
+      "id": "digitalization",
+      "column": "Digitalization",
+      "heading": ["DIGITALIZATION"],
+      "colour": "#0B9BD7",
+      "tint": "#C9E2F2",
+      "icon": "network",
+      "glossary": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization",
+      "step": ["Improve", "existing", "processes"]
+    },
+    {
+      "id": "digital-transformation",
+      "column": "Digital transformation",
+      "heading": ["DIGITAL", "TRANSFORMATION"],
+      "colour": "#5B2C83",
+      "tint": "#DCD7EA",
+      "icon": "hub",
+      "glossary": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation",
+      "step": ["Fundamentally", "change", "healthcare", "delivery"]
+    }
+  ]
+}

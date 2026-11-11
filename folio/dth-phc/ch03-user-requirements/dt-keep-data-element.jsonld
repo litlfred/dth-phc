@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "smart-base": "https://litlfred.github.io/smart-base/v0/ns#"
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/dt-keep-data-element",
@@ -72,9 +72,9 @@
       ]
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-element",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-dictionary",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/indicators-and-performance-metrics"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics"
     ]
   },
   "provenance": "authored"

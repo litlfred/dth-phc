@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/tbl-annex-11",
@@ -28,13 +28,13 @@
       "method": "l1-template-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-table",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-logic",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/rule",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/input",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/output",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/annotation",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/trigger-event"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-table",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/rule",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/input",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/output",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/annotation",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/trigger-event"
     ],
     "archimateElements": [
       {

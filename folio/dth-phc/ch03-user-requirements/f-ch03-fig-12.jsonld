@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/fig-12",
@@ -28,11 +28,16 @@
         41,
         42
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p042.png",
+      "data": "folio/dth-phc/ch03-user-requirements/t-ch03-fig-12.md",
+      "generator": "scripts/figures/fig12_data_element_needed.py",
+      "decision": "owner 2026-11-11 11:36Z: make the figures computable (dth-phc#38)",
+      "verbatimCheck": "the words are read from the table block tbl:fig-12 (PDF pages 41–42)"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-element",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/data-dictionary"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary"
     ],
     "archimateElements": [
       {

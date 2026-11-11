@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/prose-ch06-sec-031-monitoring",
@@ -30,9 +30,9 @@
       "method": "l1-section-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/indicators-and-performance-metrics",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-health-intervention",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-health-intervention",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred-point-of-service-system"
     ],
     "archimateElements": [
       {

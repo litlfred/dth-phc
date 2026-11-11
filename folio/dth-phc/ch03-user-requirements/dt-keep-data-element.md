@@ -1,6 +1,6 @@
 # Data-element minimization decision table (section 3.4.4, Fig. 12)
 
-Formal DMN 1.5 decision table (`Decision_KeepDataElement`, `hitPolicy="FIRST"`) encoding the Fig. 12 decision tree in section 3.4.4 (*Determine which data elements are needed*, `sec-015`), evaluated at gateway `GW_KeepDataElement` in [`understand-user-requirements.bpmn`](../../../processes/understand-user-requirements.bpmn).
+Formal DMN 1.5 decision table (`Decision_KeepDataElement`, `hitPolicy="FIRST"`) encoding the Fig. 12 decision tree in section 3.4.4 (*Determine which data elements are needed*, `sec-015`), evaluated at gateway `GW_KeepDataElement` in [`understand-user-requirements.bpmn`](https://github.com/litlfred/dth-phc/blob/main/processes/understand-user-requirements.bpmn).
 
 ## Decision structure
 

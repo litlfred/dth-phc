@@ -14,7 +14,7 @@ export default chapter({
     section({
       title: "3.1 Follow key requirement-gathering methods",
       label: "sec:3-1",
-      blocks: ["p-ch03-sec-012-methods", "p-ch03-sec-012-interviews-and-workshops", "f-ch03-fig-8"],
+      blocks: ["p-ch03-sec-012-methods", "p-ch03-sec-012-interviews-and-workshops", "t-ch03-fig-8", "f-ch03-fig-8"],
     }),
     section({
       title: "3.2 Get to know the users",
@@ -24,7 +24,7 @@ export default chapter({
     section({
       title: "3.3 Map business processes and workflows",
       label: "sec:3-3",
-      blocks: ["p-ch03-sec-014-workflows", "t-ch03-table-1", "f-ch03-fig-9", "f-ch03-fig-10", "f-ch03-fig-11", "p-fig-10-11-anc-registration-reproduces"],
+      blocks: ["p-ch03-sec-014-workflows", "t-ch03-table-1", "t-ch03-fig-9", "f-ch03-fig-9", "f-ch03-fig-10", "t-ch03-fig-11", "f-ch03-fig-11", "p-ch03-sec-014-annotations", "p-fig-10-11-anc-registration-reproduces"],
     }),
     section({
       title: "3.4 Streamline data collection and indicator reporting",
@@ -39,7 +39,7 @@ export default chapter({
     section({
       title: "3.6 Determine decision-support logic",
       label: "sec:3-6",
-      blocks: ["p-ch03-sec-017-decision-support-logic", "f-ch03-fig-13", "p-fig-13-hiv-decision-matrix-reproduces", "f-ch03-fig-14", "p-fig-14-anc-hiv-decision-tree-reproduces"],
+      blocks: ["p-ch03-sec-017-decision-support-logic", "t-ch03-fig-13", "f-ch03-fig-13", "p-fig-13-hiv-decision-matrix-reproduces", "f-ch03-fig-14", "p-fig-14-anc-hiv-decision-tree-reproduces", "p-ch03-sec-017-decision-support-tables"],
     }),
     section({
       title: "3.7 Map health service schedules",

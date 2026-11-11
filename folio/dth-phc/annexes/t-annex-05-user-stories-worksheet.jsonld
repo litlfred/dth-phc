@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/tbl-annex-05",
@@ -27,12 +27,12 @@
       "method": "l1-template-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-story",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/use-case",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-scenario",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/user-persona",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/functional-requirements",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/non-functional-requirements"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-story",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/use-case",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-scenario",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/functional-requirements",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/non-functional-requirements"
     ],
     "archimateElements": [
       {

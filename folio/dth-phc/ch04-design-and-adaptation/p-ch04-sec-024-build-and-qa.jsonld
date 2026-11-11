@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/prose-ch04-sec-024-build-and-qa",
@@ -36,13 +36,13 @@
       "method": "l1-section-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/build",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/beta-version",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/minimum-viable-product",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/devsecops",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/technical-debt",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/prototype",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/build",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/beta-version",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/minimum-viable-product",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/devsecops",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/technical-debt",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/prototype",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
     ],
     "archimateElements": [
       {

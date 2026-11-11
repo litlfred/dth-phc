@@ -1,0 +1,67 @@
+{
+  "$schema": "dth-phc-data-use-layers-figure/v1",
+  "$comment": "Fig. 4 as data: five stacked layers of data use, bottom to top, grouped as primary and secondary data use, in the figure's own words (who-iris vector-labels.json, PDF page 19). Drawn by scripts/figures/fig4_collect_once.py.",
+  "figure": "Fig. 4",
+  "title": "Fig. 4. The added value of “collect once, use for many purposes” principle",
+  "source": {
+    "library": "9789240093362-eng",
+    "pdfPage": 19,
+    "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p019.png",
+    "labels": "who-iris/library/9789240093362-eng/vector-labels.json",
+    "adaptedFrom": "WHO, 2020 (15)"
+  },
+  "groups": [
+    { "id": "secondary", "label": "Secondary data use", "layers": ["programme-management", "health-system-monitoring", "global-monitoring"], "colour": "#1B2A55" },
+    { "id": "primary", "label": "Primary data use", "layers": ["primary-data-collection", "person-centred-service-delivery"], "colour": "#7AB648" }
+  ],
+  "layers": [
+    {
+      "id": "primary-data-collection",
+      "title": ["Primary, individual", "data collection"],
+      "items": ["Clinical, lab, pharmacy,", "registries, and ID data"],
+      "fill": "#8DC34F",
+      "chevron": "#C7DFAA",
+      "person": true
+    },
+    {
+      "id": "person-centred-service-delivery",
+      "title": ["Person-centred health", "service delivery"],
+      "items": ["Clinical decision support", "Scheduling", "Case  management"],
+      "fill": "#B9D891",
+      "chevron": "#A9CF7E",
+      "links": {
+        "Clinical decision support": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system",
+        "Scheduling": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic"
+      }
+    },
+    {
+      "id": "programme-management",
+      "title": ["Programme management"],
+      "items": ["Operational decision support", "Quality improvement", "Facility management", "Process optimization"],
+      "fill": "#8DBEE6",
+      "chevron": "#6FAEDF"
+    },
+    {
+      "id": "health-system-monitoring",
+      "title": ["Health system monitoring"],
+      "items": ["Inform national strategic plans", "and health policies", "Calculation of national indicators", "Accountability mechanism"],
+      "fill": "#47A4DD",
+      "chevron": "#1D8ED2",
+      "links": {
+        "Calculation of national indicators": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics"
+      }
+    },
+    {
+      "id": "global-monitoring",
+      "title": ["Global monitoring"],
+      "items": ["Accountability towards SDGs"],
+      "fill": "#363E6B",
+      "chevron": "#1B2A55",
+      "light": true,
+      "links": {
+        "Accountability towards SDGs": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals"
+      }
+    }
+  ],
+  "note": "SDGs: Sustainable Development Goals."
+}

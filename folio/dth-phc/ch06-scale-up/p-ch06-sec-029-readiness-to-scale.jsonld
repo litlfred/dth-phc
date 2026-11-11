@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/prose-ch06-sec-029-readiness-to-scale",
@@ -32,13 +32,13 @@
       "method": "l1-section-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/mhealth-assessment-and-planning-for-scale",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/person-centred-point-of-service-system",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/interoperability",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/enterprise-architecture",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/enterprise-architecture",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/interoperability",
-      "https://litlfred.github.io/smart-ra/v0/ns#glossary/dpi-h-ra/point-of-service-applications"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/mhealth-assessment-and-planning-for-scale",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred-point-of-service-system",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
     ],
     "archimateElements": [
       {

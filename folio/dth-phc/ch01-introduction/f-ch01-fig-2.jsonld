@@ -3,7 +3,7 @@
     "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
-      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns#"
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
     }
   ],
   "@id": "papers/dth-phc/blocks/fig-2",
@@ -27,12 +27,17 @@
       "pdfPages": [
         16
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p016.png",
+      "data": "folio/dth-phc/ch01-introduction/t-ch01-fig-2.md",
+      "generator": "scripts/figures/table_figure.py",
+      "decision": "owner 2026-11-11 11:53Z (Q-PHCFIG-3 = A): draw the table-shaped figures from their table blocks (dth-phc#38)",
+      "verbatimCheck": "the words are read from the table block t-ch01-fig-2.md"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/digital-health-intervention",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/longitudinal-tracking",
-      "https://litlfred.github.io/dth-phc/v0/ns#glossary/dth-phc/decision-support-system"
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-health-intervention",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/longitudinal-tracking",
+      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system"
     ],
     "archimateElements": [
       {

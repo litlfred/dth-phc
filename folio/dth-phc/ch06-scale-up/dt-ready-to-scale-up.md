@@ -1,6 +1,6 @@
 # Scale-up readiness decision table (sections 6.1 and 6.2, Table 5)
 
-Formal DMN 1.5 decision table (`Decision_ReadyToScaleUp`, `hitPolicy="FIRST"`) encoding the readiness criteria in section 6.1 (*Assess readiness for scale-up*, `sec-029`) and the SMART objective benchmark checks in section 6.2 (*Set SMART objectives for scale-up*, Table 5, `sec-030`), evaluated at gateway `GW_ReadyToScaleUp` in [`scale-up.bpmn`](../../../processes/scale-up.bpmn).
+Formal DMN 1.5 decision table (`Decision_ReadyToScaleUp`, `hitPolicy="FIRST"`) encoding the readiness criteria in section 6.1 (*Assess readiness for scale-up*, `sec-029`) and the SMART objective benchmark checks in section 6.2 (*Set SMART objectives for scale-up*, Table 5, `sec-030`), evaluated at gateway `GW_ReadyToScaleUp` in [`scale-up.bpmn`](https://github.com/litlfred/dth-phc/blob/main/processes/scale-up.bpmn).
 
 ## Decision structure
 
