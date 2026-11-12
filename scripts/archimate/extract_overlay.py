@@ -46,7 +46,7 @@ for v in views:
                     shared.add(n.get(a))
 for f in glob.glob(f"{folio}/**/*.ts", recursive=True):
     # folio links to smart-ra's own items stay smart-ra links; only the rest come here
-    want |= set(re.findall(r"smart-ra/archimate/[^/]+/(?:elements|views)/([^/\"]+)\.jsonld", open(f).read())) - base_ids
+    want |= {next(g for g in hit if g) for hit in re.findall(r"smart-ra/archimate/[^/]+/(?:elements/([^/\"]+)\.jsonld|views/([^/\"]+)\.jsonld|element/([^/\"]+)|view/([^/\"]+))\"", open(f).read())} - base_ids
 # a relationship needs both ends
 for i in list(want):
     e = by_id.get(i)
@@ -66,13 +66,15 @@ for top in src.findall("folder"):
     f = ET.SubElement(model, "folder", {"name": top.get("name"), "id": top.get("id"), "type": top.get("type")})
     folders[top.get("type")] = (f, ET.SubElement(f, "folder", {"name": "smart-ra (base, reference copies)",
                                                                "id": top.get("id") + "-base"}))
+# The node kind in a slash IRI, …/archimate/<model>/<kind>/<id> (cat-harness-tools Q-THIN-2 A; owner Q-RAL-2 C).
+kind_of = lambda e: "view" if e.get(T).endswith("DiagramModel") else "relationship" if e.get(T).endswith("Relationship") else "element"
 counts = {"owned": 0, "base": 0}
 for i in sorted(want, key=lambda i: (by_id[i].get(T), by_id[i].get("name") or "", i)):
     e = copy.deepcopy(by_id[i])
     owned_f, base_f = folders[top_type[i]]
     is_base = i in base_ids
     props = [ET.Element("property", {"key": "overlay:base", "value":
-              f"https://litlfred.github.io/smart-ra/archimate/{base_ver}/{'views' if e.get(T).endswith('DiagramModel') else 'elements'}/{i}.jsonld"})] \
+              f"https://litlfred.github.io/smart-ra/archimate/{base_ver}/{kind_of(e)}/{i}"})] \
         if is_base else [ET.Element("property", {"key": "overlay:owner", "value": "dth-phc"})]
     if not is_base and i in shared:
         props.append(ET.Element("property", {"key": "overlay:shared-candidate", "value": "shared DTH roles (dth-phc#9)"}))
