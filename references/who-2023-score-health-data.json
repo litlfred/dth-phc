@@ -1,0 +1,28 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2023-score-health-data",
+  "type": "webpage",
+  "title": "SCORE for health data technical package",
+  "container-title": "World Health Organization (WHO) [website]",
+  "publisher": "WHO",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "URL": "https://www.who.int/data/data-collection-tools/score",
+  "accessed": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        11
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 33 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: SCORE for health data technical package. In: World Health Organization (WHO) [website]. WHO; 2023 (https://www.who.int/data/data-collection-tools/score, accessed 11 October 2023)."
+}

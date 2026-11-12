@@ -1,0 +1,24 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "au-hie-task-force-2023-african-union-health",
+  "type": "document",
+  "title": "African Union Health Information Exchange guidelines and standards",
+  "author": [
+    {
+      "literal": "Health Information Exchange Task Force"
+    }
+  ],
+  "publisher-place": "Addis Ababa",
+  "publisher": "African Union and Africa CDC",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "URL": "https://africacdc.org/download/african-union-health-information-exchange-guidelines-and-standards/",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 83 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Health Information Exchange Task Force. African Union Health Information Exchange guidelines and standards. Addis Ababa: African Union and Africa CDC; 2023 (https://africacdc.org/download/african-union-health-information-exchange-guidelines-and-standards/)."
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2018-continuity-coordination-care",
+  "type": "book",
+  "title": "Continuity and coordination of care: a practice brief to support implementation of the WHO Framework on integrated people-centred health services",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2018
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/274628",
+  "note": "The References chapter prints the date as “2018;43”.",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 10 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Continuity and coordination of care: a practice brief to support implementation of the WHO Framework on integrated people-centred health services. World Health Organization; 2018;43 (https://iris.who.int/handle/10665/274628)."
+}

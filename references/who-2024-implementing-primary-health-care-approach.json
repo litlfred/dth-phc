@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2024-implementing-primary-health-care-approach",
+  "type": "book",
+  "title": "Implementing the primary health care approach: a primer",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2024
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/376777",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 5 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Implementing the primary health care approach: a primer. Geneva: World Health Organization; 2024 (https://iris.who.int/handle/10665/376777)."
+}

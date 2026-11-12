@@ -1,0 +1,21 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "ambysoft-system-use-cases",
+  "type": "webpage",
+  "title": "System use cases: an Agile introduction",
+  "container-title": "Agile modelling [website]",
+  "publisher": "Ambysoft",
+  "URL": "http://www.agilemodeling.com/artifacts/systemUseCase.htm",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 44 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: System use cases: an Agile introduction. In: Agile modelling [website]. Ambysoft; undated (http://www.agilemodeling.com/artifacts/systemUseCase.htm, accessed 10 January 2020)."
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "ihe-2024-profiles",
+  "type": "webpage",
+  "title": "Profiles",
+  "container-title": "IHE International Integrating the Healthcare Enterprise [website]",
+  "publisher-place": "Madison (WI)",
+  "publisher": "IHE International",
+  "issued": {
+    "date-parts": [
+      [
+        2024
+      ]
+    ]
+  },
+  "URL": "https://www.ihe.net/resources/profiles/",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        9
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 88 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Profiles. In: IHE International Integrating the Healthcare Enterprise [website]. Madison (WI): IHE International; 2024 (https://www.ihe.net/resources/profiles/, accessed 9 January 2024)."
+}

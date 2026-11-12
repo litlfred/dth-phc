@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2022-person-centred-hiv-strategic-information",
+  "type": "book",
+  "title": "Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2022
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/360948",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 1 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact. Geneva: World Health Organization; 2022 (https://iris.who.int/handle/10665/360948)."
+}

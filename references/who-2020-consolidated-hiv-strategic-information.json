@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2020-consolidated-hiv-strategic-information",
+  "type": "book",
+  "title": "Consolidated HIV strategic information guidelines: driving impact through programme monitoring and management",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2020
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/331697",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 15 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Consolidated HIV strategic information guidelines: driving impact through programme monitoring and management. Geneva: World Health Organization; 2020 (https://iris.who.int/handle/10665/331697)."
+}

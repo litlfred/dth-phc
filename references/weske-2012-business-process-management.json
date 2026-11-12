@@ -1,0 +1,24 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "weske-2012-business-process-management",
+  "type": "document",
+  "title": "Business process management: concepts, languages, architectures, second edition",
+  "author": [
+    {
+      "family": "Weske",
+      "given": "M"
+    }
+  ],
+  "publisher-place": "Berlin and Heidelberg",
+  "publisher": "Springer-Verlag",
+  "issued": {
+    "date-parts": [
+      [
+        2012
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 8 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Weske M. Business process management: concepts, languages, architectures, second edition. Berlin and Heidelberg: Springer-Verlag; 2012."
+}

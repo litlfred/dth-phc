@@ -1,0 +1,33 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "henry-2023-wcag",
+  "type": "webpage",
+  "title": "Web Content Accessibility Guidelines (WCAG)",
+  "author": [
+    {
+      "family": "Henry",
+      "given": "S L"
+    }
+  ],
+  "container-title": "W3C Web Accessibility Initiative (WAI). [website]",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "URL": "https://www.w3.org/WAI/standards-guidelines/wcag/#intro",
+  "accessed": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 95 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Henry, S L. Web Content Accessibility Guidelines (WCAG). In: W3C Web Accessibility Initiative (WAI). [website]; 2023. (https://www.w3.org/WAI/standards-guidelines/wcag/#intro, accessed 10 January 2024)."
+}

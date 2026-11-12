@@ -1,0 +1,20 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "idf-personas",
+  "type": "webpage",
+  "title": "Personas",
+  "container-title": "Interaction Design Foundation [website]",
+  "URL": "https://www.interaction-design.org/literature/topics/personas",
+  "accessed": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        10
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 38 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Personas. In: Interaction Design Foundation [website]; undated (https://www.interaction-design.org/literature/topics/personas, accessed 10 January 2020)."
+}

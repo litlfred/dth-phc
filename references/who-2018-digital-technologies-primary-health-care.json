@@ -1,0 +1,19 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2018-digital-technologies-primary-health-care",
+  "type": "book",
+  "title": "Digital technologies: shaping the future of primary health care",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2018
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/326573",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 4 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Digital technologies: shaping the future of primary health care. Geneva: World Health Organization; 2018 (https://iris.who.int/handle/10665/326573)."
+}

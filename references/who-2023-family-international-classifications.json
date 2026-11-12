@@ -1,0 +1,29 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2023-family-international-classifications",
+  "type": "webpage",
+  "title": "WHO Family of International Classifications (FIC)",
+  "container-title": "WHO Classifications and terminologies [website]",
+  "publisher-place": "Geneva",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "URL": "https://www.who.int/standards/classifications",
+  "accessed": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        12
+      ]
+    ]
+  },
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 76 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: WHO Family of International Classifications (FIC). In: WHO Classifications and terminologies [website]. Geneva: World Health Organization; 2023 (https://www.who.int/standards/classifications, accessed 12 October 2023)."
+}

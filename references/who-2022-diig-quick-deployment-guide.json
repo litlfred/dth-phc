@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-2022-diig-quick-deployment-guide",
+  "type": "book",
+  "title": "Digital implementation investment guide (‎DIIG)‎: quick deployment guide",
+  "publisher": "World Health Organization",
+  "issued": {
+    "date-parts": [
+      [
+        2022
+      ]
+    ]
+  },
+  "URL": "https://iris.who.int/handle/10665/363577",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 23 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: Digital implementation investment guide (‎DIIG)‎: quick deployment guide. World Health Organization; 2022 (https://iris.who.int/handle/10665/363577)."
+}

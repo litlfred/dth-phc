@@ -1,0 +1,39 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "mcleroy-1988-ecological-perspective-health",
+  "type": "article-journal",
+  "title": "An ecological perspective on health promotion programs",
+  "author": [
+    {
+      "family": "McLeroy",
+      "given": "KR"
+    },
+    {
+      "family": "Bibeau",
+      "given": "D"
+    },
+    {
+      "family": "Steckler",
+      "given": "A"
+    },
+    {
+      "family": "Glanz",
+      "given": "K"
+    }
+  ],
+  "container-title": "Health education quarterly",
+  "volume": "15",
+  "issue": "4",
+  "page": "351–377",
+  "issued": {
+    "date-parts": [
+      [
+        1988
+      ]
+    ]
+  },
+  "DOI": "10.1177/109019818801500401",
+  "provenance": "authored",
+  "derivedFrom": "folio/dth-phc/references/p-references-main.md",
+  "_comment": "Entry 103 of the References chapter (folio/dth-phc/references/p-references-main.md), as printed: McLeroy KR, Bibeau D, Steckler A, Glanz K. An ecological perspective on health promotion programs. Health education quarterly. 1988;15(4):351–377. https://doi.org/10.1177/109019818801500401"
+}
