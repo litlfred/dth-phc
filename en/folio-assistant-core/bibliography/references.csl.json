@@ -1,5 +1,111 @@
 [
   {
+    "id": "hl7-2023-introducing-fhir",
+    "type": "webpage",
+    "title": "2.1.20 Introducing HL7 FHIR",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "HL7 FHIR release 5 [website]",
+    "publisher": "Health Level Seven International",
+    "URL": "https://www.hl7.org/fhir/summary.html",
+    "publisher-place": "Ann Arbor (MI)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rm-odp-odp-standards",
+    "type": "webpage",
+    "title": "3. ODP Standards",
+    "container-title": "RM-ODP [website]",
+    "publisher": "ISO, IEC, ITU",
+    "URL": "https://rm-odp-new.lcc.uma.es/#Standards",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dicom-about-overview",
+    "type": "webpage",
+    "title": "About DICOM: Overview",
+    "container-title": "DICOM Digital Imaging and Communications in Medicine [website]",
+    "URL": "https://www.dicomstandard.org/about-home",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hl7-about-hl7",
+    "type": "webpage",
+    "title": "About HL7",
+    "container-title": "HL7 International [website]",
+    "publisher": "Health Level Seven International",
+    "URL": "http://www.hl7.org/about/index.cfm",
+    "publisher-place": "Ann Arbor (MI)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "accenture-2012-change-management-workbench",
+    "type": "webpage",
+    "title": "Change management workbench [presentation]",
+    "author": [
+      {
+        "literal": "Accenture"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          1
+        ]
+      ]
+    },
+    "container-title": "SlidePlayer [website]",
+    "publisher": "SlidePlayer.com Inc./Joshua Curtis",
+    "URL": "https://slideplayer.com/slide/6396682",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
     "id": "10665-117378",
     "type": "document",
     "title": "[Pilot study of antiretroviral therapy in Djibouti]",
@@ -25,6 +131,22 @@
     "URL": "https://iris.who.int/handle/10665/117378",
     "language": "fr",
     "abstract": "A cross-sectional survey was conducted among 112 HIV positive patients who had received antiretroviral therapy for > 3 months to assess the efficacy of treatment [viral load < 400 copies/mL]. The median age at enrolment was 36 years, 90% of patients were at the AIDS stage and median CD4 rate was 118/mm[3]. Patients received a combined treatment of 2 NRTI +1 NNRTI [51%], 3 NRTI [45%] and 2 NRTI+1 PI [4%]. Virological efficacy was seen in 74% of the patients, irrespective of the prescribed protocol and the initial clinical and immunological profile. Mean improvements measured were 20% on the Karnofsky index [KI], 2.1 kg/m[2] in body mass index and 82 cells/mm[3] in CD4. The prevalence of side effects was 84%. The predictors for treatment success were quality of care and KI > 70%"
+  },
+  {
+    "id": "who-antenatal-care-tools",
+    "type": "book",
+    "title": "Antenatal care",
+    "publisher": "World Health Organization",
+    "URL": "https://www.srhr.org/antenatalcare/#Tools",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
   },
   {
     "id": "10665-22470",
@@ -75,6 +197,103 @@
     "publisher": "Organisation mondiale de la Santé",
     "URL": "https://iris.who.int/handle/10665/83270",
     "language": "fr"
+  },
+  {
+    "id": "baird-2009-government-role-interoperability",
+    "type": "article-journal",
+    "title": "Government Role and the Interoperability Ecosystem",
+    "author": [
+      {
+        "family": "Baird",
+        "given": "S A"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "I/S: A Journal of Law and Policy for the Information Society",
+    "volume": "5",
+    "issue": "2",
+    "page": "219",
+    "URL": "https://ssrn.com/abstract=1482752"
+  },
+  {
+    "id": "barton-2011-demonstrating-collect-once",
+    "type": "article-journal",
+    "title": "Demonstrating “collect once, use many”: assimilating public health secondary data use requirements into an existing Domain Analysis Model",
+    "author": [
+      {
+        "family": "Barton",
+        "given": "C"
+      },
+      {
+        "family": "Kallem",
+        "given": "C"
+      },
+      {
+        "family": "Van Dyke",
+        "given": "P"
+      },
+      {
+        "family": "Mon",
+        "given": "D"
+      },
+      {
+        "family": "Richesson",
+        "given": "R"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "AMIA Annu Symp Proc",
+    "page": "98–107",
+    "URL": "https://pubmed.ncbi.nlm.nih.gov/22195060/"
+  },
+  {
+    "id": "basford-2016-four-building-blocks",
+    "type": "webpage",
+    "title": "The four building blocks of change",
+    "author": [
+      {
+        "family": "Basford",
+        "given": "T"
+      },
+      {
+        "family": "Schaninger",
+        "given": "B"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4
+        ]
+      ]
+    },
+    "container-title": "McKinsey & Company [website]",
+    "publisher": "McKinsey & Company",
+    "URL": "https://www.mckinsey.com/business-functions/organization/our-insights/the-four-building-blocks--of-change",
+    "collection-title": "McKinsey Quarterly",
+    "publisher-place": "New York (NY)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
   },
   {
     "id": "10665-37864",
@@ -134,6 +353,96 @@
     "publisher": "Organisation mondiale de la santé",
     "URL": "https://iris.who.int/handle/10665/67518",
     "language": "Français"
+  },
+  {
+    "id": "bid-initiative-2014-product-vision-better",
+    "type": "document",
+    "title": "Product vision for the Better Immunization Data (BID) Initiative",
+    "author": [
+      {
+        "literal": "BID Initiative"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "publisher": "PATH",
+    "URL": "https://path.org/resources/product-vision-for-the-better-immunization-data-bid-initiative",
+    "publisher-place": "Seattle (WA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "camunda-bpmn-2-0-implementation-reference",
+    "type": "webpage",
+    "title": "BPMN 2.0 implementation reference",
+    "container-title": "The Camunda BPM manual [website]",
+    "publisher": "Camunda Services",
+    "URL": "https://www.omg.org/spec/BPMN/2.0",
+    "publisher-place": "Berlin",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "camunda-bpmn-tutorial",
+    "type": "webpage",
+    "title": "BPMN tutorial",
+    "container-title": "Camunda [website]",
+    "publisher": "Camunda Services",
+    "URL": "https://camunda.com/bpmn",
+    "publisher-place": "Berlin",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "omg-2011-business-process-model",
+    "type": "webpage",
+    "title": "Business Process Model And Notation",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Object Management Group [website]",
+    "publisher": "Object Management Group",
+    "URL": "https://www.omg.org/spec/BPMN/2.0",
+    "publisher-place": "Needham (MA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
   },
   {
     "id": "10665-44118",
@@ -257,6 +566,46 @@
     "DOI": "10.2471/BLT.07.050120",
     "URL": "https://iris.who.int/handle/10665/270347",
     "language": "en"
+  },
+  {
+    "id": "9789240081949-eng",
+    "type": "book",
+    "title": "Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, second edition",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "ISBN": "9789240081949",
+    "URL": "https://iris.who.int/handle/10665/373581",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "phii-2023-collaborative-requirements-development",
+    "type": "webpage",
+    "title": "Collaborative Requirements Development Methodology (CRDM)",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Public Health Informatics Institute (PHII) [website]",
+    "publisher": "PHII",
+    "URL": "https://phii.org/crdm/",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          11
+        ]
+      ]
+    }
   },
   {
     "id": "10665-266214",
@@ -420,6 +769,119 @@
     "language": "es"
   },
   {
+    "id": "who-2022-person-centred-hiv-strategic-information",
+    "type": "book",
+    "title": "Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/360948",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "who-2022-person-centred-hiv-strategic-information-ref80",
+    "type": "book",
+    "title": "Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/360948"
+  },
+  {
+    "id": "who-2020-consolidated-hiv-strategic-information",
+    "type": "book",
+    "title": "Consolidated HIV strategic information guidelines: driving impact through programme monitoring and management",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/331697",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "eu-consolidated-text-regulation",
+    "type": "legislation",
+    "title": "Consolidated text: Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (Text with EEA relevance)",
+    "publisher": "European Union",
+    "URL": "http://data.europa.eu/eli/reg/2016/679/2016-05-04",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "who-2018-continuity-coordination-care",
+    "type": "book",
+    "title": "Continuity and coordination of care: a practice brief to support implementation of the WHO Framework on integrated people-centred health services",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/274628",
+    "note": "The References chapter prints the date as “2018;43”."
+  },
+  {
+    "id": "phii-2012-defining-functional-requirements",
+    "type": "document",
+    "title": "Defining functional requirements for immunization information systems",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "publisher": "Public Health Informatics Institute",
+    "URL": "https://www.technet-21.org/en/resources/report/defining-functional-requirements-for-immunization-information-systems",
+    "publisher-place": "Decatur, Georgia (USA)"
+  },
+  {
+    "id": "suse-2024-definition-production-environment",
+    "type": "webpage",
+    "title": "Definition: Production Environment",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "SUSE [website]",
+    "URL": "https://www.suse.com/suse-defines/definition/production-environment/",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
     "id": "10665-266751",
     "type": "document",
     "title": "Possibilités d'amélioration des vaccins anticholériques et méthodes d'évaluation de leur efficacité",
@@ -441,6 +903,274 @@
     "publisher": "Organisation mondiale de la santé",
     "URL": "https://iris.who.int/handle/10665/266751",
     "language": "fr"
+  },
+  {
+    "id": "digital-principles-design-with-the-user",
+    "type": "webpage",
+    "title": "Design with the user",
+    "container-title": "Principles for Digital Development [website]",
+    "publisher": "United Nations Foundation",
+    "URL": "https://digitalprinciples.org/",
+    "publisher-place": "New York (NY)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "id": "who-2021-dak-antenatal-care",
+    "type": "book",
+    "title": "Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/339745",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "who-2021-dak-family-planning",
+    "type": "book",
+    "title": "Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/341997"
+  },
+  {
+    "id": "9789240085138-eng",
+    "type": "book",
+    "title": "Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations in digital systems, second edition",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "ISBN": "9789240085138",
+    "URL": "https://iris.who.int/handle/10665/375230",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng",
+    "type": "book",
+    "title": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/343361",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "who-digital-health-atlas",
+    "type": "webpage",
+    "title": "Digital Health Atlas [website]",
+    "publisher": "World Health Organization",
+    "URL": "https://digitalhealthatlas.org",
+    "publisher-place": "Geneva",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "9789240010567-eng",
+    "type": "book",
+    "title": "Digital implementation investment guide (DIIG): integrating digital interventions into health programmes",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "ISBN": "9789240010567",
+    "URL": "https://iris.who.int/handle/10665/334306",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "who-2022-diig-quick-deployment-guide",
+    "type": "book",
+    "title": "Digital implementation investment guide (‎DIIG)‎: quick deployment guide",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/363577"
+  },
+  {
+    "id": "who-2018-digital-technologies-primary-health-care",
+    "type": "book",
+    "title": "Digital technologies: shaping the future of primary health care",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/326573",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "un-2022-disability-inclusive-communications",
+    "type": "document",
+    "title": "Disability-Inclusive Communications Guidelines",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "United Nations",
+    "URL": "https://www.un.org/sites/un2.un.org/files/un_disability-inclusive_communication_guidelines.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "doorley-2018-design-thinking-bootleg",
+    "type": "document",
+    "title": "Design thinking bootleg",
+    "author": [
+      {
+        "family": "Doorley",
+        "given": "S"
+      },
+      {
+        "family": "Holcomb",
+        "given": "S"
+      },
+      {
+        "family": "Klebahn",
+        "given": "P"
+      },
+      {
+        "family": "Segovia",
+        "given": "K"
+      },
+      {
+        "family": "Utley",
+        "given": "J"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher": "Hasso Plattner Institute of Design at Stanford University",
+    "URL": "https://dschool.stanford.edu/resources/design-thinking-bootleg",
+    "publisher-place": "Stanford (CA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dwivedi-digital-health-investment-review-tool",
+    "type": "document",
+    "title": "Digital health investment review tool",
+    "author": [
+      {
+        "family": "Dwivedi",
+        "given": "V"
+      },
+      {
+        "family": "Sitjar",
+        "given": "M"
+      },
+      {
+        "family": "Waugaman",
+        "given": "A"
+      },
+      {
+        "family": "Weiss",
+        "given": "B"
+      },
+      {
+        "family": "Schaefer",
+        "given": "M"
+      },
+      {
+        "family": "Ollis",
+        "given": "S"
+      }
+    ],
+    "publisher": "United States Agency for International Development, Bureau for Global Health, Maternal and Child Survival Program",
+    "URL": "https://www.mcsprogram.org/wp-content/uploads/dlm_uploads/2019/05/DHIRT-Tool-HANDOUT-May2019-Printable.pdf",
+    "publisher-place": "Washington (DC)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    },
+    "note": "p16"
+  },
+  {
+    "id": "paho-2017-electronic-immunization-registry",
+    "type": "document",
+    "title": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Pan American Health Organization",
+    "URL": "https://iris.paho.org/handle/10665.2/34865",
+    "publisher-place": "Washington (DC)"
   },
   {
     "id": "10665-20231",
@@ -534,6 +1264,54 @@
     "language": "en"
   },
   {
+    "id": "fakhroutdinov-uml-use-case-diagrams",
+    "type": "webpage",
+    "title": "UML use case diagrams",
+    "author": [
+      {
+        "family": "Fakhroutdinov",
+        "given": "K"
+      }
+    ],
+    "container-title": "The Unified Modeling Language [website]",
+    "publisher": "Kirill Fakhroutdinov",
+    "URL": "https://www.uml-diagrams.org/use-case-diagrams.html",
+    "publisher-place": "Burlington (MA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "omb-2013-federal-enterprise-architecture",
+    "type": "webpage",
+    "title": "Federal Enterprise Architecture Framework Version 2",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "The White House President Barack Obama [website]",
+    "publisher": "Office of Management and Budget",
+    "URL": "https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/egov_docs/fea_v2.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
     "id": "hl7-2023-fhir-r5-testplan",
     "type": "document",
     "title": "FHIR R5 (5.0.0) — TestPlan resource",
@@ -545,6 +1323,56 @@
       ]
     },
     "URL": "https://github.com/HL7/fhir/tree/v5.0.0/source/testplan/"
+  },
+  {
+    "id": "flood-2016-insights-global-health",
+    "type": "article-journal",
+    "title": "Insights into Global Health Practice from the Agile Software Development Movement",
+    "author": [
+      {
+        "family": "Flood",
+        "given": "D"
+      },
+      {
+        "family": "Chary",
+        "given": "A"
+      },
+      {
+        "family": "Austad",
+        "given": "K"
+      },
+      {
+        "family": "Diaz",
+        "given": "AK"
+      },
+      {
+        "family": "García",
+        "given": "P"
+      },
+      {
+        "family": "Martinez",
+        "given": "B"
+      },
+      {
+        "family": "Canú",
+        "given": "WL"
+      },
+      {
+        "family": "Rohloff",
+        "given": "P"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Glob Health Action",
+    "volume": "9",
+    "page": "29836",
+    "DOI": "10.3402/gha.v9.29836"
   },
   {
     "id": "cucumber-2024-gherkin-reference",
@@ -586,6 +1414,36 @@
     "language": "ru"
   },
   {
+    "id": "who-global-strategy-digital-health-2020-2025",
+    "type": "book",
+    "title": "Global strategy on digital health 2020-2025",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/344249",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "who-global-strategy-digital-health-2020-2025-ref84",
+    "type": "book",
+    "title": "Global strategy on digital health 2020–2025",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/344249",
+    "publisher-place": "Geneva"
+  },
+  {
     "id": "10665-67839",
     "type": "document",
     "title": "Second meeting of the Global Working Group on TB/HIV : 14-16 June 2002, Durban, South Africa",
@@ -610,6 +1468,123 @@
     "publisher": "World Health Organization",
     "URL": "https://iris.who.int/handle/10665/67839",
     "language": "en"
+  },
+  {
+    "id": "gothelf-2012-using-proto-personas",
+    "type": "webpage",
+    "title": "Using proto-personas for executive alignment",
+    "author": [
+      {
+        "family": "Gothelf",
+        "given": "J"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          5,
+          1
+        ]
+      ]
+    },
+    "container-title": "UX Magazine [website]",
+    "URL": "https://uxmag.com/articles/using-proto-personas-for-executive-alignment",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "grevendonk-2013-planning-information-systems",
+    "type": "document",
+    "title": "Planning an information systems project: a toolkit for public health managers",
+    "author": [
+      {
+        "family": "Grevendonk",
+        "given": "J"
+      },
+      {
+        "family": "Taliesin",
+        "given": "B"
+      },
+      {
+        "family": "Brigden",
+        "given": "D"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "publisher": "World Health Organization. Seattle (WA): PATH",
+    "URL": "https://path.org/resources/planning-an-information-systems-project-a-toolkit-for-public-health-managers",
+    "publisher-place": "Geneva",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gs1-standards",
+    "type": "webpage",
+    "title": "GS1 Standards",
+    "container-title": "GS1 [website]",
+    "URL": "https://www.gs1.org/standards",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hashemi-pour-2023-definition-workflow",
+    "type": "webpage",
+    "title": "Definition workflow",
+    "author": [
+      {
+        "family": "Hashemi-Pour",
+        "given": "C"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "container-title": "TechTarget [website]",
+    "publisher": "TechTarget Inc.",
+    "URL": "https://www.techtarget.com/searchcio/definition/workflow",
+    "publisher-place": "Newton (MA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          10
+        ]
+      ]
+    }
   },
   {
     "id": "10665-72254",
@@ -664,6 +1639,251 @@
     },
     "URL": "https://iris.who.int/handle/10665/72254",
     "language": "fr"
+  },
+  {
+    "id": "au-hie-task-force-2023-african-union-health",
+    "type": "document",
+    "title": "African Union Health Information Exchange guidelines and standards",
+    "author": [
+      {
+        "literal": "Health Information Exchange Task Force"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "African Union and Africa CDC",
+    "URL": "https://africacdc.org/download/african-union-health-information-exchange-guidelines-and-standards/",
+    "publisher-place": "Addis Ababa"
+  },
+  {
+    "id": "cdc-hipaa",
+    "type": "webpage",
+    "title": "Health Insurance Portability and Accountability Act of 1996 (HIPAA)",
+    "container-title": "CDC Center for Disease Control and Prevention [website]",
+    "URL": "https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html?CDC_AAref_Val=https://www.cdc.gov/phlp/publications/topic/hipaa.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "who-2023-health-workforce",
+    "type": "webpage",
+    "title": "Health workforce",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "World Health Organization [website]",
+    "publisher": "World Health Organization",
+    "URL": "https://www.who.int/health-topics/health-workforce",
+    "publisher-place": "Geneva",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "henry-2023-wcag",
+    "type": "webpage",
+    "title": "Web Content Accessibility Guidelines (WCAG)",
+    "author": [
+      {
+        "family": "Henry",
+        "given": "S L"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "W3C Web Accessibility Initiative (WAI). [website]",
+    "URL": "https://www.w3.org/WAI/standards-guidelines/wcag/#intro",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hl7-2023-fhir-release-5",
+    "type": "webpage",
+    "title": "HL7 FHIR Release 5 [website]",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "HL7.org",
+    "URL": "https://www.hl7.org/fhir/",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "who-2024-implementing-primary-health-care-approach",
+    "type": "book",
+    "title": "Implementing the primary health care approach: a primer",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/376777",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "un-2021-inclusive-communications-guide",
+    "type": "document",
+    "title": "Inclusive Communications: A guide for communication with, about and for people with disabilities",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "United Nations",
+    "URL": "https://www.un.org/sites/un2.un.org/files/2021/10/un_disability_inclusion_strategy_communication_guidelines_etr.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "icd-11-2022",
+    "type": "document",
+    "title": "International Classification of Diseases 11th Revision",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "URL": "https://icd.who.int/en",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "who-2023-icd-11",
+    "type": "webpage",
+    "title": "International Statistical Classification of Diseases and Related Health Problems (ICD), 11th revision [website]",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://www.who.int/standards/classifications/classification-of-diseases",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "world-bank-2024-interoperability-frameworks",
+    "type": "webpage",
+    "title": "Interoperability frameworks",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Identification for development, Practitioner’s Guide [website]",
+    "publisher": "The World Bank",
+    "URL": "https://id4d.worldbank.org/guide/interoperability-frameworks",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "himss-2024-interoperability-healthcare",
+    "type": "webpage",
+    "title": "Interoperability in Healthcare",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "HIMMS [website]",
+    "publisher": "HIMMS",
+    "URL": "https://www.himss.org/resources/interoperability-healthcare",
+    "publisher-place": "Chicago (IL)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
   },
   {
     "id": "isaitb-2026-interoperability-test-bed-readme",
@@ -760,6 +1980,53 @@
     "language": "en"
   },
   {
+    "id": "jones-2018-digital-health-impact",
+    "type": "report",
+    "title": "Digital health impact framework user manual",
+    "author": [
+      {
+        "family": "Jones",
+        "given": "T"
+      },
+      {
+        "family": "Drury",
+        "given": "P"
+      },
+      {
+        "family": "Zuniga",
+        "given": "P"
+      },
+      {
+        "family": "Roth",
+        "given": "S"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11
+        ]
+      ]
+    },
+    "publisher": "Asian Development Bank",
+    "DOI": "10.22617/WPS189214-2",
+    "URL": "https://www.adb.org/sites/default/files/publication/465611/sdwp-057-digital-health-impact-framework-manual.pdf",
+    "collection-title": "ADB sustainable development working paper series",
+    "number": "57",
+    "publisher-place": "National Capital Region, Philippines",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    },
+    "note": "Appendix 4: Seven change management methodologies for sustained improved performance"
+  },
+  {
     "id": "10665-385346",
     "type": "document",
     "title": "Cost-effectiveness of introducing the pneumococcal conjugate vaccine for children under 5 years in the Islamic Republic of Iran",
@@ -805,6 +2072,93 @@
     "abstract": "Background:\nPneumococcal disease caused by Streptococcus pneumoniae results in considerable mortality and morbidity. Pneumococcal conjugate vaccines (PCV), such as PCV-13, can prevent invasive pneumococcal disease and avoid disability and death. The cost of introducing PCV-13 in childhood immunization schedules should be assessed against the cost of pneumococcal diseases for each community.\nAims:\nThis study aimed to evaluate the cost–effectiveness of introducing PCV-13 in the national immunization programme for children under 5 years in the Islamic Republic of Iran.\nMethods:\nThe TRIVAC decision support model was used to estimate total costs of introducing PCV-13 and the disability-adjusted life years (DALYs)averted. The main pneumococcal diseases were considered—pneumonia, meningitis, acute otitis media, and non-pneumonia, non-meningitis infections—in terms of hospital admissions, outpatient visits and deaths. Local data were used to estimate costs.\nResults:\nPneumococcal disease is estimated to affect 18 713 211 children under 5 years (519 412 pneumonia, 18 148 116 acute otitis media, 6884 meningitis, and 38 799 non-pneumonia, non-meningitis)in 10 years (2014–2023)without use of the vaccine. Introduction of PCV-13 would prevent 4 900 084 cases of pneumococcal disease (190 849 pneumonia, 4 692 450 acute otitis media, 2529 meningitis, and 14 256 non-pneumonia, non-meningitis). Pneumococcal infection would cause 287 950 hospital admissions and 29 399 deaths; vaccination could avert 105 802 hospital admissions and 9997 deaths. The incremental cost–effectiveness was estimated to be US$ 1890 and US$ 1538 per averted DALY for the government and society respectively.\nConclusion:\nAccording to WHO-recommended thresholds for interpreting cost–effectiveness, introduction of PCV-13 for children under 5 years in the Islamic Republic of Iran would be cost-effective"
   },
   {
+    "id": "kirchmer-2017-high-performance-through",
+    "type": "document",
+    "title": "High performance through business process management: strategic execution in a digital world, third edition",
+    "author": [
+      {
+        "family": "Kirchmer",
+        "given": "M"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Springer International Publishing AG",
+    "DOI": "10.1007/978-3-319-51259-4",
+    "publisher-place": "Cham, Switzerland"
+  },
+  {
+    "id": "krsicka-2012-how-design-integration",
+    "type": "article-journal",
+    "title": "How to Design an Integration Platform for Interoperable EHR?",
+    "author": [
+      {
+        "family": "Krsička",
+        "given": "D"
+      },
+      {
+        "family": "Šárek",
+        "given": "M"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "container-title": "European Journal of Biomedical Informatics",
+    "volume": "8",
+    "issue": "5",
+    "page": "9-18",
+    "URL": "https://www.ejbi.org/scholarly-articles/how-to-design-an-integration-platform-for-interoperableehr.pdf"
+  },
+  {
+    "id": "lapkin-2005-gartners-enterprise-architecture",
+    "type": "webpage",
+    "title": "Gartner’s enterprise architecture process and framework help meet 21st century challenges [online]",
+    "author": [
+      {
+        "family": "Lapkin",
+        "given": "A"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "URL": "https://www.gartner.com/resources/133100/133132/gartners_enterprise_architec_133132.pdf"
+  },
+  {
+    "id": "ieee-1998-ieee-recommended-practice",
+    "type": "document",
+    "title": "IEEE recommended practice for software requirements specifications",
+    "author": [
+      {
+        "literal": "Life Cycle Data Harmonization Working Group of the Software Engineering Standards Committee of the IEEE Computer Society"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "publisher": "The Institute of Electrical and Electronics Engineers",
+    "URL": "http://www.cse.msu.edu/~cse870/IEEEXplore-SRS-template.pdf",
+    "publisher-place": "New York (NY)"
+  },
+  {
     "id": "10665-350543",
     "type": "report",
     "title": "Лечение и уход в связи с ВИЧ/СПИДом в Беларуси: отчет оценочной миссии: январь 2014 г.",
@@ -841,6 +2195,44 @@
     "abstract": "Оценка лечения и ухода в связи с ВИЧ/СПИДом выполнена с учетом стратегии или концепции ВОЗ/ЮНЭЙДС «Лечение 2.0», где указаны пять приоритетных областей: оптимизация лекарственных схем, обеспечение доступа к диагностике в местах оказания помощи, снижение стоимости, адаптация систем оказания услуг и мобилизация сообществ или гражданского общества. Для оценки использованы результаты анализа существующих документов и отчетов и страновой миссии, которая состоялась 11-14 ноября 2013 года в гор. Минске и Солигорске, Беларусь. Особое внимание было уделено практике тестирования на ВИЧ, поскольку именно здесь начинается лечение и уход в связи с ВИЧ, а также уязвимым группам и обеспечению доступа к лечению и уходу. Кроме того, была проанализирована устойчивость программ в свете используемых в настоящее время и будущих международных и национальных схем финансирования."
   },
   {
+    "id": "marcelo-2022-chapter-17-framework",
+    "type": "chapter",
+    "title": "Chapter 17 - A framework for regional health information systems interoperability: The Asia eHealth Information Network (AeHIN) experience",
+    "author": [
+      {
+        "family": "Marcelo",
+        "given": "A B"
+      },
+      {
+        "family": "Pascual",
+        "given": "K C"
+      },
+      {
+        "family": "Udayasankaran",
+        "given": "J G"
+      },
+      {
+        "family": "Allaudin",
+        "given": "F S"
+      },
+      {
+        "family": "Kijsanayotin",
+        "given": "B"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Roadmap to Successful Digital Health Ecosystems",
+    "publisher": "Academic Press",
+    "page": "399-414",
+    "DOI": "10.1016/B978-0-12-823413-6.00005-7"
+  },
+  {
     "id": "10665-268219",
     "type": "document",
     "title": "Adverse events monitoring as a routine component of vaccine clinical trials: evidence from the WHO Vaccine Trial Registry.",
@@ -870,6 +2262,37 @@
     "publisher": "World Health Organization",
     "URL": "https://iris.who.int/handle/10665/268219",
     "language": "en"
+  },
+  {
+    "id": "mccambridge-2014-systematic-review-hawthorne",
+    "type": "article-journal",
+    "title": "Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects",
+    "author": [
+      {
+        "family": "McCambridge",
+        "given": "J"
+      },
+      {
+        "family": "Witton",
+        "given": "J"
+      },
+      {
+        "family": "Elbourne",
+        "given": "DR"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "J Clin Epidemiol",
+    "volume": "67",
+    "issue": "3",
+    "page": "267–77",
+    "DOI": "10.1016/j.jclinepi.2013.08.015"
   },
   {
     "id": "10665-97885",
@@ -908,6 +2331,139 @@
     "ISBN": "9789241500661",
     "URL": "https://iris.who.int/handle/10665/97885",
     "language": "en"
+  },
+  {
+    "id": "mcleroy-1988-ecological-perspective-health",
+    "type": "article-journal",
+    "title": "An ecological perspective on health promotion programs",
+    "author": [
+      {
+        "family": "McLeroy",
+        "given": "KR"
+      },
+      {
+        "family": "Bibeau",
+        "given": "D"
+      },
+      {
+        "family": "Steckler",
+        "given": "A"
+      },
+      {
+        "family": "Glanz",
+        "given": "K"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1988
+        ]
+      ]
+    },
+    "container-title": "Health education quarterly",
+    "volume": "15",
+    "issue": "4",
+    "page": "351–377",
+    "DOI": "10.1177/109019818801500401"
+  },
+  {
+    "id": "mehl-2021-who-smart-guidelines",
+    "type": "article-journal",
+    "title": "WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age",
+    "author": [
+      {
+        "family": "Mehl",
+        "given": "G"
+      },
+      {
+        "family": "Tunçalp",
+        "given": "Ö"
+      },
+      {
+        "family": "Ratanaprayul",
+        "given": "N"
+      },
+      {
+        "family": "Tamrat",
+        "given": "T"
+      },
+      {
+        "family": "Barreix",
+        "given": "M"
+      },
+      {
+        "family": "Lowrance",
+        "given": "D"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Lancet Digital Health",
+    "volume": "3",
+    "issue": "4",
+    "page": "e213-e216",
+    "DOI": "10.1016/S2589-7500(21)00038-8",
+    "note": "The author list is printed ending “et al.”"
+  },
+  {
+    "id": "mehl-2023-full-stac-remedy",
+    "type": "article-journal",
+    "title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+    "author": [
+      {
+        "family": "Mehl",
+        "given": "G"
+      },
+      {
+        "family": "Seneviratne",
+        "given": "M"
+      },
+      {
+        "family": "Berg",
+        "given": "M"
+      },
+      {
+        "family": "Bidani",
+        "given": "S"
+      },
+      {
+        "family": "Distler",
+        "given": "R"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Oxford Open Digital Health",
+    "DOI": "10.1093/oodh/oqad018",
+    "number": "oqad018",
+    "note": "The author list is printed ending “et al.”"
+  },
+  {
+    "id": "9789241511766-eng",
+    "type": "book",
+    "title": "Monitoring and evaluating digital health interventions: a practical guide to conducting research and assessment",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "ISBN": "9789241511766",
+    "URL": "https://iris.who.int/handle/10665/252183",
+    "publisher-place": "Geneva"
   },
   {
     "id": "10665-264857",
@@ -961,6 +2517,20 @@
     "language": "fr"
   },
   {
+    "id": "india-nha-2020-national-digital-health",
+    "type": "document",
+    "title": "National Digital Health Mission Strategy Overview Making India a Digital Health Nation Enabling Digital Healthcare for all",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "National Health Authority",
+    "URL": "https://www.niti.gov.in/sites/default/files/2021-09/ndhm_strategy_overview.pdf"
+  },
+  {
     "id": "mehl-2021-who-smart-guidelines",
     "type": "document",
     "title": "WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age",
@@ -972,6 +2542,44 @@
     ],
     "issued": {
       "raw": "D:20210311"
+    }
+  },
+  {
+    "id": "openhie-framework",
+    "type": "webpage",
+    "title": "OpenHIE [website]",
+    "URL": "https://ohie.org/framework/",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "opensrp-2022-opensrp-client-anc",
+    "type": "document",
+    "title": "Opensrp-client-anc",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "OpenSRP",
+    "URL": "https://github.com/opensrp/opensrp-client-anc",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
     }
   },
   {
@@ -1108,6 +2716,167 @@
     "language": "es"
   },
   {
+    "id": "hl7-2023-fhir-overview",
+    "type": "webpage",
+    "title": "Overview - FHIR v4.3.0 (hl7.org) FHIR Overview",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "HL7 FHIR Release 5 [website]",
+    "publisher": "HL7.org",
+    "URL": "https://www.hl7.org/fhir/overview.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "nlm-2016-overview-snomed-ct",
+    "type": "webpage",
+    "title": "Overview of SNOMED CT",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "National Library of Medicine [website]",
+    "URL": "https://www.nlm.nih.gov/healthit/snomedct/snomed_overview.html",
+    "publisher-place": "Bethesda (MD)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "who-wpro-2007-people-centred-health",
+    "type": "book",
+    "title": "People-centred health care : a policy framework",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "publisher": "World Health Organization Regional Office for the Western Pacific",
+    "URL": "https://iris.who.int/handle/10665/206971"
+  },
+  {
+    "id": "idf-personas",
+    "type": "webpage",
+    "title": "Personas",
+    "container-title": "Interaction Design Foundation [website]",
+    "URL": "https://www.interaction-design.org/literature/topics/personas",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "usability-gov-personas",
+    "type": "webpage",
+    "title": "Personas",
+    "container-title": "usability.gov [website]",
+    "publisher": "Office of the Assistant Secretary for Public Affairs, US Department of Health and Human Services",
+    "URL": "https://www.usability.gov/how-to-and-tools/methods/personas.html",
+    "publisher-place": "Washington (DC)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pratt-2023-definition-business-process",
+    "type": "webpage",
+    "title": "Definition business process",
+    "author": [
+      {
+        "family": "Pratt",
+        "given": "M"
+      },
+      {
+        "family": "Roy",
+        "given": "M"
+      },
+      {
+        "family": "McLaughlin",
+        "given": "E"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "container-title": "TechTarget [website]",
+    "publisher": "TechTarget Inc.",
+    "URL": "https://www.techtarget.com/searchcio/definition/business-process",
+    "publisher-place": "Newton (MA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ihe-2024-profiles",
+    "type": "webpage",
+    "title": "Profiles",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "IHE International Integrating the Healthcare Enterprise [website]",
+    "publisher": "IHE International",
+    "URL": "https://www.ihe.net/resources/profiles/",
+    "publisher-place": "Madison (WI)",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
     "id": "10665-249224",
     "type": "report",
     "title": "Programme élargi de vaccination (résolution)",
@@ -1182,6 +2951,59 @@
     "language": "en"
   },
   {
+    "id": "rwanda-minict-2021-rwanda-passes-new",
+    "type": "document",
+    "title": "Rwanda passes new law protecting personal data",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "Republic of Rwanda Ministry of ICR and Innovation",
+    "URL": "https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Press_Release/211021_PRESS_RELEASE_Rwanda_s_New_Data_Protection_Law_ENGLISH.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "sanchez-2007-enterprise-architectures-enabling",
+    "type": "paper-conference",
+    "title": "Enterprise Architectures – Enabling Interoperability Between Organizations",
+    "author": [
+      {
+        "family": "Sanchez",
+        "given": "A"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "URL": "http://www0.unsl.edu.ar/~asanchez/papers/SBJO07.pdf",
+    "event-title": "8th Argentinean Symposium on Software Engineering (ASSE 2007), 36 JAIIO",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    },
+    "note": "The author list is printed ending “et al.”"
+  },
+  {
     "id": "10665-47547",
     "type": "document",
     "title": "HIV : to test or not to test?",
@@ -1244,6 +3066,107 @@
     "language": "en"
   },
   {
+    "id": "who-2023-score-health-data",
+    "type": "webpage",
+    "title": "SCORE for health data technical package",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "World Health Organization (WHO) [website]",
+    "publisher": "WHO",
+    "URL": "https://www.who.int/data/data-collection-tools/score",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "itu-2019-sdg-digital-investment",
+    "type": "document",
+    "title": "SDG Digital Investment Framework: a whole-of-government approach to investing in digital technologies to achieve the SDGs",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "International Telecommunication Union (ITU)",
+    "URL": "https://www.itu.int/pub/D-STR-DIGITAL.02-2019"
+  },
+  {
+    "id": "shivers-2021-enhancing-narrative-clinical",
+    "type": "article-journal",
+    "title": "Enhancing narrative clinical guidance with computer-readable artifacts: Authoring FHIR implementation guides based on WHO recommendations",
+    "author": [
+      {
+        "family": "Shivers",
+        "given": "J"
+      },
+      {
+        "family": "Amlung",
+        "given": "J"
+      },
+      {
+        "family": "Ratanaprayul",
+        "given": "N"
+      },
+      {
+        "family": "Rhodes",
+        "given": "B"
+      },
+      {
+        "family": "Biondich",
+        "given": "P"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "J Biomedical Informatics",
+    "volume": "122",
+    "page": "103891",
+    "DOI": "10.1016/j.jbi.2021.103891"
+  },
+  {
+    "id": "who-smart-guidelines",
+    "type": "webpage",
+    "title": "SMART Guidelines",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "World Health Organization [website]",
+    "publisher": "World Health Organization",
+    "URL": "https://www.who.int/teams/digital-health-and-innovation/smart-guidelines",
+    "publisher-place": "Geneva",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          11
+        ]
+      ]
+    }
+  },
+  {
     "id": "10665-261545",
     "type": "document",
     "title": "WHO international quality assessment scheme for HIV antibody testing: results from the second distribution of sera.",
@@ -1273,6 +3196,41 @@
     "publisher": "World Health Organization",
     "URL": "https://iris.who.int/handle/10665/261545",
     "language": "en"
+  },
+  {
+    "id": "bcg-change-management-solutions-tools",
+    "type": "webpage",
+    "title": "Solutions and tools for change management success",
+    "container-title": "BCG [website]",
+    "publisher": "Boston Consulting Group",
+    "URL": "https://www.bcg.com/en-ch/capabilities/change-management/solutions.aspx",
+    "publisher-place": "Boston (MA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ambysoft-system-use-cases",
+    "type": "webpage",
+    "title": "System use cases: an Agile introduction",
+    "container-title": "Agile modelling [website]",
+    "publisher": "Ambysoft",
+    "URL": "http://www.agilemodeling.com/artifacts/systemUseCase.htm",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
   },
   {
     "id": "10665-72461",
@@ -1335,6 +3293,210 @@
     "language": "fr"
   },
   {
+    "id": "tamrat-2022-digitalization-routine-health",
+    "type": "article-journal",
+    "title": "Digitalization of routine health information systems: Bangladesh, Indonesia, Pakistan",
+    "author": [
+      {
+        "family": "Tamrat",
+        "given": "T"
+      },
+      {
+        "family": "Chandir",
+        "given": "S"
+      },
+      {
+        "family": "Alland",
+        "given": "K"
+      },
+      {
+        "family": "Pedrana",
+        "given": "A"
+      },
+      {
+        "family": "Shah",
+        "given": "MT"
+      },
+      {
+        "family": "Footitt",
+        "given": "C"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Bull World Health Organ",
+    "volume": "100",
+    "issue": "10",
+    "page": "590–600",
+    "DOI": "10.2471/BLT.22.287816",
+    "note": "The author list is printed ending “et al.”"
+  },
+  {
+    "id": "tamrat-2022-transitioning-digital-systems",
+    "type": "article-journal",
+    "title": "Transitioning to digital systems: the role of world health organization’s digital adaptation kits in operationalizing recommendations and interoperability standards",
+    "author": [
+      {
+        "family": "Tamrat",
+        "given": "T"
+      },
+      {
+        "family": "Ratanaprayul",
+        "given": "N"
+      },
+      {
+        "family": "Barreix",
+        "given": "M"
+      },
+      {
+        "family": "Tuncalp",
+        "given": "O"
+      },
+      {
+        "family": "Lowrance",
+        "given": "D"
+      },
+      {
+        "family": "Thompson",
+        "given": "J"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Global Health: Science and Practice",
+    "volume": "10",
+    "issue": "1",
+    "page": "e2100320",
+    "DOI": "10.9745/GHSP-D-21-00320",
+    "note": "The author list is printed ending “et al.”"
+  },
+  {
+    "id": "taylor-2012-common-requirements-maternal",
+    "type": "document",
+    "title": "Common requirements for maternal health information systems: produced with the collaborative requirements development methodology",
+    "author": [
+      {
+        "family": "Taylor",
+        "given": "C"
+      },
+      {
+        "family": "Luchitsky",
+        "given": "A"
+      },
+      {
+        "family": "Lubinski",
+        "given": "D"
+      },
+      {
+        "family": "Peloso",
+        "given": "L"
+      },
+      {
+        "family": "Wilson",
+        "given": "K"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "publisher": "PATH",
+    "URL": "https://www.path.org/resources/common-requirements-for-maternal-health-information-systems-produced-with-the-collaborative-requirements-development-methodology",
+    "publisher-place": "Seattle (WA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ita-2022-thailand-personal-data-protection-act",
+    "type": "document",
+    "title": "Thailand Personal Data Protection Act",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Department of Commerce United States of America International Trade Administration",
+    "URL": "https://www.trade.gov/market-intelligence/thailand-personal-data-protection-act",
+    "publisher-place": "Washington DC",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "9789241509510-eng",
+    "type": "book",
+    "title": "The MAPS toolkit: mHealth assessment and planning for scale",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "ISBN": "9789241509510",
+    "URL": "https://iris.who.int/handle/10665/185238",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "opengroup-togaf-standard-10th-edition",
+    "type": "webpage",
+    "title": "The TOGAF Standard, 10th edition [website]",
+    "URL": "https://www.opengroup.org/togaf",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "opengroup-togaf-standard-10th-edition-core-concepts",
+    "type": "webpage",
+    "title": "The TOGAF Standard, 10th edition. 3: Core Concepts [website]",
+    "URL": "https://pubs.opengroup.org/togaf-standard/introduction/chap03.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          26
+        ]
+      ]
+    }
+  },
+  {
     "id": "10665-47160",
     "type": "document",
     "title": "Les maladies transmissibles / Giorgio Torrigiani et William Parra",
@@ -1358,6 +3520,84 @@
       ]
     },
     "URL": "https://iris.who.int/handle/10665/47160"
+  },
+  {
+    "id": "tran-2018-design-thinking-playbook",
+    "type": "document",
+    "title": "Design thinking playbook for change management in K–12 schools",
+    "author": [
+      {
+        "family": "Tran",
+        "given": "N"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher": "Hasso Plattner Institute of Design at Stanford University",
+    "URL": "https://dschool.stanford.edu/resources/design-thinking-playbook-from-design-tech-high-school",
+    "publisher-place": "Stanford (CA)",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ambysoft-uml-2-use-case-diagrams",
+    "type": "webpage",
+    "title": "UML 2 use case diagrams: an Agile introduction",
+    "container-title": "Agile modelling [website]",
+    "publisher": "Ambysoft",
+    "URL": "http://www.agilemodeling.com/artifacts/useCaseDiagram.htm",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "veal-2019-how-define-user",
+    "type": "webpage",
+    "title": "How to define a user persona",
+    "author": [
+      {
+        "family": "Veal",
+        "given": "RL"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "CareerFoundry [website]",
+    "publisher": "CareerFoundry",
+    "URL": "https://careerfoundry.com/en/blog/ux-design/how-to-define-a-user-persona",
+    "publisher-place": "Berlin",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          10
+        ]
+      ]
+    }
   },
   {
     "id": "10665-266967",
@@ -1385,6 +3625,74 @@
     "publisher": "World Health Organization",
     "URL": "https://iris.who.int/handle/10665/266967",
     "language": "en"
+  },
+  {
+    "id": "vokac-2004-using-reference-application",
+    "type": "chapter",
+    "title": "Using a reference application with design patterns to produce industrial software",
+    "author": [
+      {
+        "family": "Vokáč",
+        "given": "M"
+      },
+      {
+        "family": "Jensen",
+        "given": "O"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Bomarius",
+        "given": "F"
+      },
+      {
+        "family": "Iida",
+        "given": "H"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "container-title": "Product focused software process improvement. PROFES 2004",
+    "publisher": "Springer",
+    "volume": "3009",
+    "page": "343–7",
+    "DOI": "10.1007/978-3-540-24659-6_24",
+    "collection-title": "Lecture Notes in Computer Science",
+    "publisher-place": "Berlin, Heidelberg"
+  },
+  {
+    "id": "von-rosing-2015-complete-business-process",
+    "type": "document",
+    "title": "The complete business process handbook: body of knowledge from business process modeling to BPM",
+    "author": [
+      {
+        "family": "von Rosing",
+        "given": "M"
+      },
+      {
+        "family": "Scheer",
+        "given": "A-W"
+      },
+      {
+        "family": "von Scheel",
+        "given": "H"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "Elsevier",
+    "volume": "1",
+    "publisher-place": "Waltham (MA)"
   },
   {
     "id": "10665-270157",
@@ -1451,6 +3759,73 @@
     }
   },
   {
+    "id": "weske-2012-business-process-management",
+    "type": "document",
+    "title": "Business process management: concepts, languages, architectures, second edition",
+    "author": [
+      {
+        "family": "Weske",
+        "given": "M"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "publisher": "Springer-Verlag",
+    "publisher-place": "Berlin and Heidelberg"
+  },
+  {
+    "id": "regenstrief-2024-what-loinc-is",
+    "type": "webpage",
+    "title": "What LOINC is",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "LOINC from Regenstrief [website]",
+    "publisher": "Regenstrief Institute",
+    "URL": "https://loinc.org/get-started/what-loinc-is/",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "who-2019-smart-anc-fhir-ig",
+    "type": "book",
+    "title": "WHO Antenatal Care Guideline Implementation Guide (FHIR R4 (4.0.1))",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://github.com/WorldHealthOrganization/smart-anc",
+    "accessed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ]
+    }
+  },
+  {
     "id": "10665-37905",
     "type": "book",
     "title": "Accélération des activités de vaccination : principes de planification / déclaration conjointe OMS/FISE",
@@ -1477,6 +3852,31 @@
     "language": "en"
   },
   {
+    "id": "who-2023-family-international-classifications",
+    "type": "webpage",
+    "title": "WHO Family of International Classifications (FIC)",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "WHO Classifications and terminologies [website]",
+    "publisher": "World Health Organization",
+    "URL": "https://www.who.int/standards/classifications",
+    "publisher-place": "Geneva",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "10665-58534",
     "type": "document",
     "title": "Counselling for HIV/AIDS : a key to caring, for policy-makers, planners and implementors of counselling activities",
@@ -1497,6 +3897,45 @@
     "publisher": "World Health Organization",
     "URL": "https://iris.who.int/handle/10665/58534",
     "language": "en"
+  },
+  {
+    "id": "who-2019-guideline-digital-interventions",
+    "type": "book",
+    "title": "WHO guideline: recommendations on digital interventions for health system strengthening",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://apps.who.int/iris/handle/10665/311941",
+    "publisher-place": "Geneva"
+  },
+  {
+    "id": "who-2023-who-outbreak-toolkit",
+    "type": "webpage",
+    "title": "WHO Outbreak toolkit [website]",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://www.who.int/emergencies/outbreak-toolkit",
+    "publisher-place": "Geneva",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          12
+        ]
+      ]
+    }
   },
   {
     "id": "9789241549912-webannexes-eng",
@@ -2178,6 +4617,28 @@
     "language": "en"
   },
   {
+    "id": "who-itu-2012-national-ehealth-strategy-toolkit",
+    "type": "book",
+    "title": "National eHealth strategy toolkit",
+    "author": [
+      {
+        "literal": "World Health Organization"
+      },
+      {
+        "literal": "International Telecommunication Union"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "publisher": "International Telecommunication Union",
+    "URL": "https://iris.who.int/handle/10665/75211"
+  },
+  {
     "id": "10665-77764",
     "type": "book",
     "title": "WHO recommendations: optimizing health worker roles to improve access to key maternal and newborn health interventions through task shifting",
@@ -2740,6 +5201,29 @@
     "abstract": "This WHO guideline provides evidence-based recommendations on the use of home-based records for maternal, newborn and child health (MNCH). Home-based records, whether paper or electronic, are household-held documents that complement facility-based records by documenting health services received and supporting continuity of care. Developed through the WHO guideline development process using systematic reviews, GRADE and GRADE-CERQual approaches, the guideline evaluates the effects of home-based records on MNCH outcomes, health service delivery, acceptability, feasibility and equity, addressing an important evidence gap despite their widespread use in at least 163 countries.\n\nThe guideline recommends the use of home-based records alongside facility-based records for pregnant women, mothers, newborns and children to improve care-seeking behaviours, household support and male involvement, maternal and child home care practices, infant and child feeding, and communication between health providers and women or caregivers. It concludes that current evidence is insufficient to identify a superior record type, format or design, and advises policy-makers to engage stakeholders when determining record content and implementation. The publication also discusses implementation considerations, highlights privacy and sustainability issues, identifies research gaps, and outlines priorities for future evidence generation and guideline updates."
   },
   {
+    "id": "who-itu-2019-be-healthy-be-mobile-personas-toolkit",
+    "type": "book",
+    "title": "Be He@lthy, Be Mobile: personas toolkit",
+    "author": [
+      {
+        "literal": "World Health Organization"
+      },
+      {
+        "literal": "International Telecommunication Union"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://iris.who.int/handle/10665/329947",
+    "publisher-place": "Geneva"
+  },
+  {
     "id": "10665-325892",
     "type": "report",
     "title": "Policy brief: update of recommendations on first- and second-line antiretroviral regimens",
@@ -2875,6 +5359,51 @@
     "URL": "https://iris.who.int/handle/10665/336323",
     "language": "en",
     "abstract": "This guideline provides comprehensive, evidence-based recommendations to support countries in delivering high-quality, person-centred HIV testing services (HTS) across diverse populations and settings. Updating and consolidating previous WHO guidance issued in 2015 and 2016, it incorporates new evidence on HIV self-testing, social network-based HIV testing approaches, western blotting, and strategic service delivery to strengthen progress towards global HIV targets. Developed using the GRADE methodology and informed by systematic reviews, modelling studies and expert consultation, the guideline aims to improve the effectiveness, efficiency and quality of HIV testing while promoting timely linkage to prevention, treatment and care.\n\nThe publication addresses the full continuum of HIV testing services, including demand creation, pre- and post-test services, facility- and community-based testing, implementation considerations for priority populations, strategic planning, diagnostic testing strategies, quality assurance and programme monitoring. It provides updated recommendations on HIV self-testing, provider-assisted referral, social network-based approaches and the use of dual HIV/syphilis rapid diagnostic tests, while emphasizing the WHO 5Cs of HIV testing services: consent, confidentiality, counselling, correct results and connection. Intended for policy-makers, national programme managers, health-care providers and implementing partners, the guideline supports the expansion of equitable, evidence-informed HIV testing services to improve diagnosis and strengthen national HIV responses."
+  },
+  {
+    "id": "who-itu-2020-digital-health-platform-handbook",
+    "type": "book",
+    "title": "Digital health platform handbook: building a digital information infrastructure (‎infostructure)‎ for health",
+    "author": [
+      {
+        "literal": "World Health Organization"
+      },
+      {
+        "literal": "International Telecommunication Union"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://apps.who.int/iris/handle/10665/337449"
+  },
+  {
+    "id": "who-itu-2020-digital-health-platform-handbook-ref66",
+    "type": "book",
+    "title": "Digital health platform handbook: building a digital information infrastructure (‎infostructure)‎ for health",
+    "author": [
+      {
+        "literal": "World Health Organization"
+      },
+      {
+        "literal": "International Telecommunication Union"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "World Health Organization",
+    "URL": "https://apps.who.int/iris/handle/10665/337449",
+    "publisher-place": "Geneva"
   },
   {
     "id": "9789240010567-eng",
@@ -4676,6 +7205,28 @@
     "ISBN": "8872660203 (ita)",
     "URL": "https://iris.who.int/handle/10665/36842",
     "language": "en"
+  },
+  {
+    "id": "zachman-1997-enterprise-architecture-issue",
+    "type": "article-journal",
+    "title": "Enterprise architecture: the issue of the century",
+    "author": [
+      {
+        "family": "Zachman",
+        "given": "JA"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "container-title": "Database programming and design",
+    "volume": "10",
+    "issue": "3",
+    "page": "44–53"
   },
   {
     "id": "10665-111245",

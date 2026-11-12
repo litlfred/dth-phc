@@ -1,0 +1,1103 @@
+TY  - ELEC
+ID  - hl7-2023-introducing-fhir
+TI  - 2.1.20 Introducing HL7 FHIR
+T2  - HL7 FHIR release 5 [website]
+PY  - 2023
+DA  - 2023
+PB  - Health Level Seven International
+UR  - https://www.hl7.org/fhir/summary.html
+ER  - 
+
+TY  - ELEC
+ID  - rm-odp-odp-standards
+TI  - 3. ODP Standards
+T2  - RM-ODP [website]
+PB  - ISO, IEC, ITU
+UR  - https://rm-odp-new.lcc.uma.es/#Standards
+ER  - 
+
+TY  - ELEC
+ID  - dicom-about-overview
+TI  - About DICOM: Overview
+T2  - DICOM Digital Imaging and Communications in Medicine [website]
+UR  - https://www.dicomstandard.org/about-home
+ER  - 
+
+TY  - ELEC
+ID  - hl7-about-hl7
+TI  - About HL7
+T2  - HL7 International [website]
+PB  - Health Level Seven International
+UR  - http://www.hl7.org/about/index.cfm
+ER  - 
+
+TY  - ELEC
+ID  - accenture-2012-change-management-workbench
+AU  - Accenture
+TI  - Change management workbench [presentation]
+T2  - SlidePlayer [website]
+PY  - 2012
+DA  - 2012/01
+PB  - SlidePlayer.com Inc./Joshua Curtis
+UR  - https://slideplayer.com/slide/6396682
+ER  - 
+
+TY  - BOOK
+ID  - who-antenatal-care-tools
+TI  - Antenatal care
+PB  - World Health Organization
+UR  - https://www.srhr.org/antenatalcare/#Tools
+ER  - 
+
+TY  - JOUR
+ID  - baird-2009-government-role-interoperability
+AU  - Baird, S A
+TI  - Government Role and the Interoperability Ecosystem
+T2  - I/S: A Journal of Law and Policy for the Information Society
+PY  - 2009
+DA  - 2009
+VL  - 5
+IS  - 2
+SP  - 219
+UR  - https://ssrn.com/abstract=1482752
+ER  - 
+
+TY  - JOUR
+ID  - barton-2011-demonstrating-collect-once
+AU  - Barton, C
+AU  - Kallem, C
+AU  - Van Dyke, P
+AU  - Mon, D
+AU  - Richesson, R
+TI  - Demonstrating “collect once, use many”: assimilating public health secondary data use requirements into an existing Domain Analysis Model
+T2  - AMIA Annu Symp Proc
+PY  - 2011
+DA  - 2011
+SP  - 98
+EP  - 107
+UR  - https://pubmed.ncbi.nlm.nih.gov/22195060/
+ER  - 
+
+TY  - ELEC
+ID  - basford-2016-four-building-blocks
+AU  - Basford, T
+AU  - Schaninger, B
+TI  - The four building blocks of change
+T2  - McKinsey & Company [website]
+PY  - 2016
+DA  - 2016/04
+PB  - McKinsey & Company
+UR  - https://www.mckinsey.com/business-functions/organization/our-insights/the-four-building-blocks--of-change
+ER  - 
+
+TY  - GEN
+ID  - bid-initiative-2014-product-vision-better
+AU  - BID Initiative
+TI  - Product vision for the Better Immunization Data (BID) Initiative
+PY  - 2014
+DA  - 2014
+PB  - PATH
+UR  - https://path.org/resources/product-vision-for-the-better-immunization-data-bid-initiative
+ER  - 
+
+TY  - ELEC
+ID  - camunda-bpmn-2-0-implementation-reference
+TI  - BPMN 2.0 implementation reference
+T2  - The Camunda BPM manual [website]
+PB  - Camunda Services
+UR  - https://www.omg.org/spec/BPMN/2.0
+ER  - 
+
+TY  - ELEC
+ID  - camunda-bpmn-tutorial
+TI  - BPMN tutorial
+T2  - Camunda [website]
+PB  - Camunda Services
+UR  - https://camunda.com/bpmn
+ER  - 
+
+TY  - ELEC
+ID  - omg-2011-business-process-model
+TI  - Business Process Model And Notation
+T2  - Object Management Group [website]
+PY  - 2011
+DA  - 2011
+PB  - Object Management Group
+UR  - https://www.omg.org/spec/BPMN/2.0
+ER  - 
+
+TY  - BOOK
+ID  - 9789240081949-eng
+TI  - Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, second edition
+PY  - 2023
+DA  - 2023
+PB  - World Health Organization
+SN  - 9789240081949
+UR  - https://iris.who.int/handle/10665/373581
+ER  - 
+
+TY  - ELEC
+ID  - phii-2023-collaborative-requirements-development
+TI  - Collaborative Requirements Development Methodology (CRDM)
+T2  - Public Health Informatics Institute (PHII) [website]
+PY  - 2023
+DA  - 2023
+PB  - PHII
+UR  - https://phii.org/crdm/
+ER  - 
+
+TY  - BOOK
+ID  - who-2022-person-centred-hiv-strategic-information
+TI  - Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact
+PY  - 2022
+DA  - 2022
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/360948
+ER  - 
+
+TY  - BOOK
+ID  - who-2022-person-centred-hiv-strategic-information-ref80
+TI  - Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact
+PY  - 2022
+DA  - 2022
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/360948
+ER  - 
+
+TY  - BOOK
+ID  - who-2020-consolidated-hiv-strategic-information
+TI  - Consolidated HIV strategic information guidelines: driving impact through programme monitoring and management
+PY  - 2020
+DA  - 2020
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/331697
+ER  - 
+
+TY  - GEN
+ID  - eu-consolidated-text-regulation
+TI  - Consolidated text: Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (Text with EEA relevance)
+PB  - European Union
+UR  - http://data.europa.eu/eli/reg/2016/679/2016-05-04
+ER  - 
+
+TY  - BOOK
+ID  - who-2018-continuity-coordination-care
+TI  - Continuity and coordination of care: a practice brief to support implementation of the WHO Framework on integrated people-centred health services
+PY  - 2018
+DA  - 2018
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/274628
+ER  - 
+
+TY  - GEN
+ID  - phii-2012-defining-functional-requirements
+TI  - Defining functional requirements for immunization information systems
+PY  - 2012
+DA  - 2012
+PB  - Public Health Informatics Institute
+UR  - https://www.technet-21.org/en/resources/report/defining-functional-requirements-for-immunization-information-systems
+ER  - 
+
+TY  - ELEC
+ID  - suse-2024-definition-production-environment
+TI  - Definition: Production Environment
+T2  - SUSE [website]
+PY  - 2024
+DA  - 2024
+UR  - https://www.suse.com/suse-defines/definition/production-environment/
+ER  - 
+
+TY  - ELEC
+ID  - digital-principles-design-with-the-user
+TI  - Design with the user
+T2  - Principles for Digital Development [website]
+PB  - United Nations Foundation
+UR  - https://digitalprinciples.org/
+ER  - 
+
+TY  - BOOK
+ID  - who-2021-dak-antenatal-care
+TI  - Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems
+PY  - 2021
+DA  - 2021
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/339745
+ER  - 
+
+TY  - BOOK
+ID  - who-2021-dak-family-planning
+TI  - Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems
+PY  - 2021
+DA  - 2021
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/341997
+ER  - 
+
+TY  - BOOK
+ID  - 9789240085138-eng
+TI  - Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations in digital systems, second edition
+PY  - 2023
+DA  - 2023
+PB  - World Health Organization
+SN  - 9789240085138
+UR  - https://iris.who.int/handle/10665/375230
+ER  - 
+
+TY  - BOOK
+ID  - WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng
+TI  - Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021
+PY  - 2021
+DA  - 2021
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/343361
+ER  - 
+
+TY  - ELEC
+ID  - who-digital-health-atlas
+TI  - Digital Health Atlas [website]
+PB  - World Health Organization
+UR  - https://digitalhealthatlas.org
+ER  - 
+
+TY  - BOOK
+ID  - 9789240010567-eng
+TI  - Digital implementation investment guide (DIIG): integrating digital interventions into health programmes
+PY  - 2020
+DA  - 2020
+PB  - World Health Organization
+SN  - 9789240010567
+UR  - https://iris.who.int/handle/10665/334306
+ER  - 
+
+TY  - BOOK
+ID  - who-2022-diig-quick-deployment-guide
+TI  - Digital implementation investment guide (‎DIIG)‎: quick deployment guide
+PY  - 2022
+DA  - 2022
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/363577
+ER  - 
+
+TY  - BOOK
+ID  - who-2018-digital-technologies-primary-health-care
+TI  - Digital technologies: shaping the future of primary health care
+PY  - 2018
+DA  - 2018
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/326573
+ER  - 
+
+TY  - GEN
+ID  - un-2022-disability-inclusive-communications
+TI  - Disability-Inclusive Communications Guidelines
+PY  - 2022
+DA  - 2022
+PB  - United Nations
+UR  - https://www.un.org/sites/un2.un.org/files/un_disability-inclusive_communication_guidelines.pdf
+ER  - 
+
+TY  - GEN
+ID  - doorley-2018-design-thinking-bootleg
+AU  - Doorley, S
+AU  - Holcomb, S
+AU  - Klebahn, P
+AU  - Segovia, K
+AU  - Utley, J
+TI  - Design thinking bootleg
+PY  - 2018
+DA  - 2018
+PB  - Hasso Plattner Institute of Design at Stanford University
+UR  - https://dschool.stanford.edu/resources/design-thinking-bootleg
+ER  - 
+
+TY  - GEN
+ID  - dwivedi-digital-health-investment-review-tool
+AU  - Dwivedi, V
+AU  - Sitjar, M
+AU  - Waugaman, A
+AU  - Weiss, B
+AU  - Schaefer, M
+AU  - Ollis, S
+TI  - Digital health investment review tool
+PB  - United States Agency for International Development, Bureau for Global Health, Maternal and Child Survival Program
+UR  - https://www.mcsprogram.org/wp-content/uploads/dlm_uploads/2019/05/DHIRT-Tool-HANDOUT-May2019-Printable.pdf
+ER  - 
+
+TY  - GEN
+ID  - paho-2017-electronic-immunization-registry
+TI  - Electronic immunization registry: practical considerations for planning, development, implementation and evaluation
+PY  - 2017
+DA  - 2017
+PB  - Pan American Health Organization
+UR  - https://iris.paho.org/handle/10665.2/34865
+ER  - 
+
+TY  - ELEC
+ID  - fakhroutdinov-uml-use-case-diagrams
+AU  - Fakhroutdinov, K
+TI  - UML use case diagrams
+T2  - The Unified Modeling Language [website]
+PB  - Kirill Fakhroutdinov
+UR  - https://www.uml-diagrams.org/use-case-diagrams.html
+ER  - 
+
+TY  - ELEC
+ID  - omb-2013-federal-enterprise-architecture
+TI  - Federal Enterprise Architecture Framework Version 2
+T2  - The White House President Barack Obama [website]
+PY  - 2013
+DA  - 2013
+PB  - Office of Management and Budget
+UR  - https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/egov_docs/fea_v2.pdf
+ER  - 
+
+TY  - JOUR
+ID  - flood-2016-insights-global-health
+AU  - Flood, D
+AU  - Chary, A
+AU  - Austad, K
+AU  - Diaz, AK
+AU  - García, P
+AU  - Martinez, B
+AU  - Canú, WL
+AU  - Rohloff, P
+TI  - Insights into Global Health Practice from the Agile Software Development Movement
+T2  - Glob Health Action
+PY  - 2016
+DA  - 2016
+VL  - 9
+SP  - 29836
+DO  - 10.3402/gha.v9.29836
+ER  - 
+
+TY  - BOOK
+ID  - who-global-strategy-digital-health-2020-2025
+TI  - Global strategy on digital health 2020-2025
+PY  - 2021
+DA  - 2021
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/344249
+ER  - 
+
+TY  - BOOK
+ID  - who-global-strategy-digital-health-2020-2025-ref84
+TI  - Global strategy on digital health 2020–2025
+PY  - 2021
+DA  - 2021
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/344249
+ER  - 
+
+TY  - ELEC
+ID  - gothelf-2012-using-proto-personas
+AU  - Gothelf, J
+TI  - Using proto-personas for executive alignment
+T2  - UX Magazine [website]
+PY  - 2012
+DA  - 2012/05/01
+UR  - https://uxmag.com/articles/using-proto-personas-for-executive-alignment
+ER  - 
+
+TY  - GEN
+ID  - grevendonk-2013-planning-information-systems
+AU  - Grevendonk, J
+AU  - Taliesin, B
+AU  - Brigden, D
+TI  - Planning an information systems project: a toolkit for public health managers
+PY  - 2013
+DA  - 2013
+PB  - World Health Organization. Seattle (WA): PATH
+UR  - https://path.org/resources/planning-an-information-systems-project-a-toolkit-for-public-health-managers
+ER  - 
+
+TY  - ELEC
+ID  - gs1-standards
+TI  - GS1 Standards
+T2  - GS1 [website]
+UR  - https://www.gs1.org/standards
+ER  - 
+
+TY  - ELEC
+ID  - hashemi-pour-2023-definition-workflow
+AU  - Hashemi-Pour, C
+TI  - Definition workflow
+T2  - TechTarget [website]
+PY  - 2023
+DA  - 2023/11
+PB  - TechTarget Inc.
+UR  - https://www.techtarget.com/searchcio/definition/workflow
+ER  - 
+
+TY  - GEN
+ID  - au-hie-task-force-2023-african-union-health
+AU  - Health Information Exchange Task Force
+TI  - African Union Health Information Exchange guidelines and standards
+PY  - 2023
+DA  - 2023
+PB  - African Union and Africa CDC
+UR  - https://africacdc.org/download/african-union-health-information-exchange-guidelines-and-standards/
+ER  - 
+
+TY  - ELEC
+ID  - cdc-hipaa
+TI  - Health Insurance Portability and Accountability Act of 1996 (HIPAA)
+T2  - CDC Center for Disease Control and Prevention [website]
+UR  - https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html?CDC_AAref_Val=https://www.cdc.gov/phlp/publications/topic/hipaa.html
+ER  - 
+
+TY  - ELEC
+ID  - who-2023-health-workforce
+TI  - Health workforce
+T2  - World Health Organization [website]
+PY  - 2023
+DA  - 2023
+PB  - World Health Organization
+UR  - https://www.who.int/health-topics/health-workforce
+ER  - 
+
+TY  - ELEC
+ID  - henry-2023-wcag
+AU  - Henry, S L
+TI  - Web Content Accessibility Guidelines (WCAG)
+T2  - W3C Web Accessibility Initiative (WAI). [website]
+PY  - 2023
+DA  - 2023
+UR  - https://www.w3.org/WAI/standards-guidelines/wcag/#intro
+ER  - 
+
+TY  - ELEC
+ID  - hl7-2023-fhir-release-5
+TI  - HL7 FHIR Release 5 [website]
+PY  - 2023
+DA  - 2023
+PB  - HL7.org
+UR  - https://www.hl7.org/fhir/
+ER  - 
+
+TY  - BOOK
+ID  - who-2024-implementing-primary-health-care-approach
+TI  - Implementing the primary health care approach: a primer
+PY  - 2024
+DA  - 2024
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/376777
+ER  - 
+
+TY  - GEN
+ID  - un-2021-inclusive-communications-guide
+TI  - Inclusive Communications: A guide for communication with, about and for people with disabilities
+PY  - 2021
+DA  - 2021
+PB  - United Nations
+UR  - https://www.un.org/sites/un2.un.org/files/2021/10/un_disability_inclusion_strategy_communication_guidelines_etr.pdf
+ER  - 
+
+TY  - GEN
+ID  - icd-11-2022
+TI  - International Classification of Diseases 11th Revision
+PY  - 2022
+DA  - 2022
+UR  - https://icd.who.int/en
+ER  - 
+
+TY  - ELEC
+ID  - who-2023-icd-11
+TI  - International Statistical Classification of Diseases and Related Health Problems (ICD), 11th revision [website]
+PY  - 2023
+DA  - 2023
+PB  - World Health Organization
+UR  - https://www.who.int/standards/classifications/classification-of-diseases
+ER  - 
+
+TY  - ELEC
+ID  - world-bank-2024-interoperability-frameworks
+TI  - Interoperability frameworks
+T2  - Identification for development, Practitioner’s Guide [website]
+PY  - 2024
+DA  - 2024
+PB  - The World Bank
+UR  - https://id4d.worldbank.org/guide/interoperability-frameworks
+ER  - 
+
+TY  - ELEC
+ID  - himss-2024-interoperability-healthcare
+TI  - Interoperability in Healthcare
+T2  - HIMMS [website]
+PY  - 2024
+DA  - 2024
+PB  - HIMMS
+UR  - https://www.himss.org/resources/interoperability-healthcare
+ER  - 
+
+TY  - RPRT
+ID  - jones-2018-digital-health-impact
+AU  - Jones, T
+AU  - Drury, P
+AU  - Zuniga, P
+AU  - Roth, S
+TI  - Digital health impact framework user manual
+PY  - 2018
+DA  - 2018/11
+PB  - Asian Development Bank
+DO  - 10.22617/WPS189214-2
+UR  - https://www.adb.org/sites/default/files/publication/465611/sdwp-057-digital-health-impact-framework-manual.pdf
+ER  - 
+
+TY  - GEN
+ID  - kirchmer-2017-high-performance-through
+AU  - Kirchmer, M
+TI  - High performance through business process management: strategic execution in a digital world, third edition
+PY  - 2017
+DA  - 2017
+PB  - Springer International Publishing AG
+DO  - 10.1007/978-3-319-51259-4
+ER  - 
+
+TY  - JOUR
+ID  - krsicka-2012-how-design-integration
+AU  - Krsička, D
+AU  - Šárek, M
+TI  - How to Design an Integration Platform for Interoperable EHR?
+T2  - European Journal of Biomedical Informatics
+PY  - 2012
+DA  - 2012
+VL  - 8
+IS  - 5
+SP  - 9
+EP  - 18
+UR  - https://www.ejbi.org/scholarly-articles/how-to-design-an-integration-platform-for-interoperableehr.pdf
+ER  - 
+
+TY  - ELEC
+ID  - lapkin-2005-gartners-enterprise-architecture
+AU  - Lapkin, A
+TI  - Gartner’s enterprise architecture process and framework help meet 21st century challenges [online]
+PY  - 2005
+DA  - 2005
+UR  - https://www.gartner.com/resources/133100/133132/gartners_enterprise_architec_133132.pdf
+ER  - 
+
+TY  - GEN
+ID  - ieee-1998-ieee-recommended-practice
+AU  - Life Cycle Data Harmonization Working Group of the Software Engineering Standards Committee of the IEEE Computer Society
+TI  - IEEE recommended practice for software requirements specifications
+PY  - 1998
+DA  - 1998
+PB  - The Institute of Electrical and Electronics Engineers
+UR  - http://www.cse.msu.edu/~cse870/IEEEXplore-SRS-template.pdf
+ER  - 
+
+TY  - CHAP
+ID  - marcelo-2022-chapter-17-framework
+AU  - Marcelo, A B
+AU  - Pascual, K C
+AU  - Udayasankaran, J G
+AU  - Allaudin, F S
+AU  - Kijsanayotin, B
+TI  - Chapter 17 - A framework for regional health information systems interoperability: The Asia eHealth Information Network (AeHIN) experience
+T2  - Roadmap to Successful Digital Health Ecosystems
+PY  - 2022
+DA  - 2022
+PB  - Academic Press
+SP  - 399
+EP  - 414
+DO  - 10.1016/B978-0-12-823413-6.00005-7
+ER  - 
+
+TY  - JOUR
+ID  - mccambridge-2014-systematic-review-hawthorne
+AU  - McCambridge, J
+AU  - Witton, J
+AU  - Elbourne, DR
+TI  - Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects
+T2  - J Clin Epidemiol
+PY  - 2014
+DA  - 2014
+VL  - 67
+IS  - 3
+SP  - 267
+EP  - 77
+DO  - 10.1016/j.jclinepi.2013.08.015
+ER  - 
+
+TY  - JOUR
+ID  - mcleroy-1988-ecological-perspective-health
+AU  - McLeroy, KR
+AU  - Bibeau, D
+AU  - Steckler, A
+AU  - Glanz, K
+TI  - An ecological perspective on health promotion programs
+T2  - Health education quarterly
+PY  - 1988
+DA  - 1988
+VL  - 15
+IS  - 4
+SP  - 351
+EP  - 377
+DO  - 10.1177/109019818801500401
+ER  - 
+
+TY  - JOUR
+ID  - mehl-2021-who-smart-guidelines
+AU  - Mehl, G
+AU  - Tunçalp, Ö
+AU  - Ratanaprayul, N
+AU  - Tamrat, T
+AU  - Barreix, M
+AU  - Lowrance, D
+TI  - WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age
+T2  - Lancet Digital Health
+PY  - 2021
+DA  - 2021
+VL  - 3
+IS  - 4
+SP  - e213
+EP  - e216
+DO  - 10.1016/S2589-7500(21)00038-8
+ER  - 
+
+TY  - JOUR
+ID  - mehl-2023-full-stac-remedy
+AU  - Mehl, G
+AU  - Seneviratne, M
+AU  - Berg, M
+AU  - Bidani, S
+AU  - Distler, R
+TI  - A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content
+T2  - Oxford Open Digital Health
+PY  - 2023
+DA  - 2023
+DO  - 10.1093/oodh/oqad018
+ER  - 
+
+TY  - BOOK
+ID  - 9789241511766-eng
+TI  - Monitoring and evaluating digital health interventions: a practical guide to conducting research and assessment
+PY  - 2016
+DA  - 2016
+PB  - World Health Organization
+SN  - 9789241511766
+UR  - https://iris.who.int/handle/10665/252183
+ER  - 
+
+TY  - GEN
+ID  - india-nha-2020-national-digital-health
+TI  - National Digital Health Mission Strategy Overview Making India a Digital Health Nation Enabling Digital Healthcare for all
+PY  - 2020
+DA  - 2020
+PB  - National Health Authority
+UR  - https://www.niti.gov.in/sites/default/files/2021-09/ndhm_strategy_overview.pdf
+ER  - 
+
+TY  - ELEC
+ID  - openhie-framework
+TI  - OpenHIE [website]
+UR  - https://ohie.org/framework/
+ER  - 
+
+TY  - GEN
+ID  - opensrp-2022-opensrp-client-anc
+TI  - Opensrp-client-anc
+PY  - 2022
+DA  - 2022
+PB  - OpenSRP
+UR  - https://github.com/opensrp/opensrp-client-anc
+ER  - 
+
+TY  - ELEC
+ID  - hl7-2023-fhir-overview
+TI  - Overview - FHIR v4.3.0 (hl7.org) FHIR Overview
+T2  - HL7 FHIR Release 5 [website]
+PY  - 2023
+DA  - 2023
+PB  - HL7.org
+UR  - https://www.hl7.org/fhir/overview.html
+ER  - 
+
+TY  - ELEC
+ID  - nlm-2016-overview-snomed-ct
+TI  - Overview of SNOMED CT
+T2  - National Library of Medicine [website]
+PY  - 2016
+DA  - 2016
+UR  - https://www.nlm.nih.gov/healthit/snomedct/snomed_overview.html
+ER  - 
+
+TY  - BOOK
+ID  - who-wpro-2007-people-centred-health
+TI  - People-centred health care : a policy framework
+PY  - 2007
+DA  - 2007
+PB  - World Health Organization Regional Office for the Western Pacific
+UR  - https://iris.who.int/handle/10665/206971
+ER  - 
+
+TY  - ELEC
+ID  - idf-personas
+TI  - Personas
+T2  - Interaction Design Foundation [website]
+UR  - https://www.interaction-design.org/literature/topics/personas
+ER  - 
+
+TY  - ELEC
+ID  - usability-gov-personas
+TI  - Personas
+T2  - usability.gov [website]
+PB  - Office of the Assistant Secretary for Public Affairs, US Department of Health and Human Services
+UR  - https://www.usability.gov/how-to-and-tools/methods/personas.html
+ER  - 
+
+TY  - ELEC
+ID  - pratt-2023-definition-business-process
+AU  - Pratt, M
+AU  - Roy, M
+AU  - McLaughlin, E
+TI  - Definition business process
+T2  - TechTarget [website]
+PY  - 2023
+DA  - 2023/09
+PB  - TechTarget Inc.
+UR  - https://www.techtarget.com/searchcio/definition/business-process
+ER  - 
+
+TY  - ELEC
+ID  - ihe-2024-profiles
+TI  - Profiles
+T2  - IHE International Integrating the Healthcare Enterprise [website]
+PY  - 2024
+DA  - 2024
+PB  - IHE International
+UR  - https://www.ihe.net/resources/profiles/
+ER  - 
+
+TY  - GEN
+ID  - rwanda-minict-2021-rwanda-passes-new
+TI  - Rwanda passes new law protecting personal data
+PY  - 2021
+DA  - 2021
+PB  - Republic of Rwanda Ministry of ICR and Innovation
+UR  - https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Press_Release/211021_PRESS_RELEASE_Rwanda_s_New_Data_Protection_Law_ENGLISH.pdf
+ER  - 
+
+TY  - CPAPER
+ID  - sanchez-2007-enterprise-architectures-enabling
+AU  - Sanchez, A
+TI  - Enterprise Architectures – Enabling Interoperability Between Organizations
+PY  - 2007
+DA  - 2007
+UR  - http://www0.unsl.edu.ar/~asanchez/papers/SBJO07.pdf
+ER  - 
+
+TY  - ELEC
+ID  - who-2023-score-health-data
+TI  - SCORE for health data technical package
+T2  - World Health Organization (WHO) [website]
+PY  - 2023
+DA  - 2023
+PB  - WHO
+UR  - https://www.who.int/data/data-collection-tools/score
+ER  - 
+
+TY  - GEN
+ID  - itu-2019-sdg-digital-investment
+TI  - SDG Digital Investment Framework: a whole-of-government approach to investing in digital technologies to achieve the SDGs
+PY  - 2019
+DA  - 2019
+PB  - International Telecommunication Union (ITU)
+UR  - https://www.itu.int/pub/D-STR-DIGITAL.02-2019
+ER  - 
+
+TY  - JOUR
+ID  - shivers-2021-enhancing-narrative-clinical
+AU  - Shivers, J
+AU  - Amlung, J
+AU  - Ratanaprayul, N
+AU  - Rhodes, B
+AU  - Biondich, P
+TI  - Enhancing narrative clinical guidance with computer-readable artifacts: Authoring FHIR implementation guides based on WHO recommendations
+T2  - J Biomedical Informatics
+PY  - 2021
+DA  - 2021
+VL  - 122
+SP  - 103891
+DO  - 10.1016/j.jbi.2021.103891
+ER  - 
+
+TY  - ELEC
+ID  - who-smart-guidelines
+TI  - SMART Guidelines
+T2  - World Health Organization [website]
+PY  - 2023
+DA  - 2023
+PB  - World Health Organization
+UR  - https://www.who.int/teams/digital-health-and-innovation/smart-guidelines
+ER  - 
+
+TY  - ELEC
+ID  - bcg-change-management-solutions-tools
+TI  - Solutions and tools for change management success
+T2  - BCG [website]
+PB  - Boston Consulting Group
+UR  - https://www.bcg.com/en-ch/capabilities/change-management/solutions.aspx
+ER  - 
+
+TY  - ELEC
+ID  - ambysoft-system-use-cases
+TI  - System use cases: an Agile introduction
+T2  - Agile modelling [website]
+PB  - Ambysoft
+UR  - http://www.agilemodeling.com/artifacts/systemUseCase.htm
+ER  - 
+
+TY  - JOUR
+ID  - tamrat-2022-digitalization-routine-health
+AU  - Tamrat, T
+AU  - Chandir, S
+AU  - Alland, K
+AU  - Pedrana, A
+AU  - Shah, MT
+AU  - Footitt, C
+TI  - Digitalization of routine health information systems: Bangladesh, Indonesia, Pakistan
+T2  - Bull World Health Organ
+PY  - 2022
+DA  - 2022
+VL  - 100
+IS  - 10
+SP  - 590
+EP  - 600
+DO  - 10.2471/BLT.22.287816
+ER  - 
+
+TY  - JOUR
+ID  - tamrat-2022-transitioning-digital-systems
+AU  - Tamrat, T
+AU  - Ratanaprayul, N
+AU  - Barreix, M
+AU  - Tuncalp, O
+AU  - Lowrance, D
+AU  - Thompson, J
+TI  - Transitioning to digital systems: the role of world health organization’s digital adaptation kits in operationalizing recommendations and interoperability standards
+T2  - Global Health: Science and Practice
+PY  - 2022
+DA  - 2022
+VL  - 10
+IS  - 1
+SP  - e2100320
+DO  - 10.9745/GHSP-D-21-00320
+ER  - 
+
+TY  - GEN
+ID  - taylor-2012-common-requirements-maternal
+AU  - Taylor, C
+AU  - Luchitsky, A
+AU  - Lubinski, D
+AU  - Peloso, L
+AU  - Wilson, K
+TI  - Common requirements for maternal health information systems: produced with the collaborative requirements development methodology
+PY  - 2012
+DA  - 2012
+PB  - PATH
+UR  - https://www.path.org/resources/common-requirements-for-maternal-health-information-systems-produced-with-the-collaborative-requirements-development-methodology
+ER  - 
+
+TY  - GEN
+ID  - ita-2022-thailand-personal-data-protection-act
+TI  - Thailand Personal Data Protection Act
+T2  - Department of Commerce United States of America International Trade Administration
+PY  - 2022
+DA  - 2022
+UR  - https://www.trade.gov/market-intelligence/thailand-personal-data-protection-act
+ER  - 
+
+TY  - BOOK
+ID  - 9789241509510-eng
+TI  - The MAPS toolkit: mHealth assessment and planning for scale
+PY  - 2015
+DA  - 2015
+PB  - World Health Organization
+SN  - 9789241509510
+UR  - https://iris.who.int/handle/10665/185238
+ER  - 
+
+TY  - ELEC
+ID  - opengroup-togaf-standard-10th-edition
+TI  - The TOGAF Standard, 10th edition [website]
+UR  - https://www.opengroup.org/togaf
+ER  - 
+
+TY  - ELEC
+ID  - opengroup-togaf-standard-10th-edition-core-concepts
+TI  - The TOGAF Standard, 10th edition. 3: Core Concepts [website]
+UR  - https://pubs.opengroup.org/togaf-standard/introduction/chap03.html
+ER  - 
+
+TY  - GEN
+ID  - tran-2018-design-thinking-playbook
+AU  - Tran, N
+TI  - Design thinking playbook for change management in K–12 schools
+PY  - 2018
+DA  - 2018
+PB  - Hasso Plattner Institute of Design at Stanford University
+UR  - https://dschool.stanford.edu/resources/design-thinking-playbook-from-design-tech-high-school
+ER  - 
+
+TY  - ELEC
+ID  - ambysoft-uml-2-use-case-diagrams
+TI  - UML 2 use case diagrams: an Agile introduction
+T2  - Agile modelling [website]
+PB  - Ambysoft
+UR  - http://www.agilemodeling.com/artifacts/useCaseDiagram.htm
+ER  - 
+
+TY  - ELEC
+ID  - veal-2019-how-define-user
+AU  - Veal, RL
+TI  - How to define a user persona
+T2  - CareerFoundry [website]
+PY  - 2019
+DA  - 2019
+PB  - CareerFoundry
+UR  - https://careerfoundry.com/en/blog/ux-design/how-to-define-a-user-persona
+ER  - 
+
+TY  - CHAP
+ID  - vokac-2004-using-reference-application
+AU  - Vokáč, M
+AU  - Jensen, O
+ED  - Bomarius, F
+ED  - Iida, H
+TI  - Using a reference application with design patterns to produce industrial software
+T2  - Product focused software process improvement. PROFES 2004
+PY  - 2004
+DA  - 2004
+PB  - Springer
+VL  - 3009
+SP  - 343
+EP  - 7
+DO  - 10.1007/978-3-540-24659-6_24
+ER  - 
+
+TY  - GEN
+ID  - von-rosing-2015-complete-business-process
+AU  - von Rosing, M
+AU  - Scheer, A-W
+AU  - von Scheel, H
+TI  - The complete business process handbook: body of knowledge from business process modeling to BPM
+PY  - 2015
+DA  - 2015
+PB  - Elsevier
+VL  - 1
+ER  - 
+
+TY  - GEN
+ID  - weske-2012-business-process-management
+AU  - Weske, M
+TI  - Business process management: concepts, languages, architectures, second edition
+PY  - 2012
+DA  - 2012
+PB  - Springer-Verlag
+ER  - 
+
+TY  - ELEC
+ID  - regenstrief-2024-what-loinc-is
+TI  - What LOINC is
+T2  - LOINC from Regenstrief [website]
+PY  - 2024
+DA  - 2024
+PB  - Regenstrief Institute
+UR  - https://loinc.org/get-started/what-loinc-is/
+ER  - 
+
+TY  - BOOK
+ID  - who-2019-smart-anc-fhir-ig
+TI  - WHO Antenatal Care Guideline Implementation Guide (FHIR R4 (4.0.1))
+PY  - 2019
+DA  - 2019
+PB  - World Health Organization
+UR  - https://github.com/WorldHealthOrganization/smart-anc
+ER  - 
+
+TY  - ELEC
+ID  - who-2023-family-international-classifications
+TI  - WHO Family of International Classifications (FIC)
+T2  - WHO Classifications and terminologies [website]
+PY  - 2023
+DA  - 2023
+PB  - World Health Organization
+UR  - https://www.who.int/standards/classifications
+ER  - 
+
+TY  - BOOK
+ID  - who-2019-guideline-digital-interventions
+TI  - WHO guideline: recommendations on digital interventions for health system strengthening
+PY  - 2019
+DA  - 2019
+PB  - World Health Organization
+UR  - https://apps.who.int/iris/handle/10665/311941
+ER  - 
+
+TY  - ELEC
+ID  - who-2023-who-outbreak-toolkit
+TI  - WHO Outbreak toolkit [website]
+PY  - 2023
+DA  - 2023
+PB  - World Health Organization
+UR  - https://www.who.int/emergencies/outbreak-toolkit
+ER  - 
+
+TY  - BOOK
+ID  - who-itu-2012-national-ehealth-strategy-toolkit
+AU  - World Health Organization
+AU  - International Telecommunication Union
+TI  - National eHealth strategy toolkit
+PY  - 2012
+DA  - 2012
+PB  - International Telecommunication Union
+UR  - https://iris.who.int/handle/10665/75211
+ER  - 
+
+TY  - BOOK
+ID  - who-itu-2019-be-healthy-be-mobile-personas-toolkit
+AU  - World Health Organization
+AU  - International Telecommunication Union
+TI  - Be He@lthy, Be Mobile: personas toolkit
+PY  - 2019
+DA  - 2019
+PB  - World Health Organization
+UR  - https://iris.who.int/handle/10665/329947
+ER  - 
+
+TY  - BOOK
+ID  - who-itu-2020-digital-health-platform-handbook
+AU  - World Health Organization
+AU  - International Telecommunication Union
+TI  - Digital health platform handbook: building a digital information infrastructure (‎infostructure)‎ for health
+PY  - 2020
+DA  - 2020
+PB  - World Health Organization
+UR  - https://apps.who.int/iris/handle/10665/337449
+ER  - 
+
+TY  - BOOK
+ID  - who-itu-2020-digital-health-platform-handbook-ref66
+AU  - World Health Organization
+AU  - International Telecommunication Union
+TI  - Digital health platform handbook: building a digital information infrastructure (‎infostructure)‎ for health
+PY  - 2020
+DA  - 2020
+PB  - World Health Organization
+UR  - https://apps.who.int/iris/handle/10665/337449
+ER  - 
+
+TY  - JOUR
+ID  - zachman-1997-enterprise-architecture-issue
+AU  - Zachman, JA
+TI  - Enterprise architecture: the issue of the century
+T2  - Database programming and design
+PY  - 1997
+DA  - 1997
+VL  - 10
+IS  - 3
+SP  - 44
+EP  - 53
+ER  - 

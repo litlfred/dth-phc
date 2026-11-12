@@ -2261,18 +2261,18 @@
         },
         {
           "path": "dth-phc/references/p-references-main.jsonld",
-          "bytes": 2403,
-          "size": "2.3 KB"
+          "bytes": 8172,
+          "size": "8.0 KB"
         },
         {
           "path": "dth-phc/references/p-references-main.md",
-          "bytes": 23288,
-          "size": "22.7 KB"
+          "bytes": 22164,
+          "size": "21.6 KB"
         },
         {
           "path": "dth-phc/references/p-references-main.ts",
-          "bytes": 1738,
-          "size": "1.7 KB"
+          "bytes": 6525,
+          "size": "6.4 KB"
         },
         {
           "path": "dth-phc/references/references.ts",

@@ -1,0 +1,1535 @@
+{
+  "@context": {
+    "@base": "https://litlfred.github.io/folio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms:source": {
+      "@type": "@id"
+    },
+    "dcterms:hasVersion": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "references/hl7-2023-introducing-fhir",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "2.1.20 Introducing HL7 FHIR",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "Health Level Seven International",
+      "dcterms:isPartOf": "HL7 FHIR release 5 [website]",
+      "dcterms:identifier": "https://www.hl7.org/fhir/summary.html",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/rm-odp-odp-standards",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "3. ODP Standards",
+      "dcterms:publisher": "ISO, IEC, ITU",
+      "dcterms:isPartOf": "RM-ODP [website]",
+      "dcterms:identifier": "https://rm-odp-new.lcc.uma.es/#Standards",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/dicom-about-overview",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "About DICOM: Overview",
+      "dcterms:isPartOf": "DICOM Digital Imaging and Communications in Medicine [website]",
+      "dcterms:identifier": "https://www.dicomstandard.org/about-home",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/hl7-about-hl7",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "About HL7",
+      "dcterms:publisher": "Health Level Seven International",
+      "dcterms:isPartOf": "HL7 International [website]",
+      "dcterms:identifier": "http://www.hl7.org/about/index.cfm",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/accenture-2012-change-management-workbench",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Change management workbench [presentation]",
+      "dcterms:creator": [
+        "Accenture"
+      ],
+      "dcterms:issued": "2012-01",
+      "dcterms:publisher": "SlidePlayer.com Inc./Joshua Curtis",
+      "dcterms:isPartOf": "SlidePlayer [website]",
+      "dcterms:identifier": "https://slideplayer.com/slide/6396682",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-antenatal-care-tools",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Antenatal care",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://www.srhr.org/antenatalcare/#Tools",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/baird-2009-government-role-interoperability",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Government Role and the Interoperability Ecosystem",
+      "dcterms:creator": [
+        "Baird, S A"
+      ],
+      "dcterms:issued": "2009",
+      "dcterms:isPartOf": "I/S: A Journal of Law and Policy for the Information Society",
+      "bibo:volume": "5",
+      "bibo:issue": "2",
+      "bibo:pages": "219",
+      "dcterms:identifier": "https://ssrn.com/abstract=1482752",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/barton-2011-demonstrating-collect-once",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Demonstrating “collect once, use many”: assimilating public health secondary data use requirements into an existing Domain Analysis Model",
+      "dcterms:creator": [
+        "Barton, C",
+        "Kallem, C",
+        "Van Dyke, P",
+        "Mon, D",
+        "Richesson, R"
+      ],
+      "dcterms:issued": "2011",
+      "dcterms:isPartOf": "AMIA Annu Symp Proc",
+      "bibo:pages": "98–107",
+      "dcterms:identifier": "https://pubmed.ncbi.nlm.nih.gov/22195060/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/basford-2016-four-building-blocks",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "The four building blocks of change",
+      "dcterms:creator": [
+        "Basford, T",
+        "Schaninger, B"
+      ],
+      "dcterms:issued": "2016-04",
+      "dcterms:publisher": "McKinsey & Company",
+      "dcterms:isPartOf": "McKinsey & Company [website]",
+      "dcterms:identifier": "https://www.mckinsey.com/business-functions/organization/our-insights/the-four-building-blocks--of-change",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/bid-initiative-2014-product-vision-better",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Product vision for the Better Immunization Data (BID) Initiative",
+      "dcterms:creator": [
+        "BID Initiative"
+      ],
+      "dcterms:issued": "2014",
+      "dcterms:publisher": "PATH",
+      "dcterms:identifier": "https://path.org/resources/product-vision-for-the-better-immunization-data-bid-initiative",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/camunda-bpmn-2-0-implementation-reference",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "BPMN 2.0 implementation reference",
+      "dcterms:publisher": "Camunda Services",
+      "dcterms:isPartOf": "The Camunda BPM manual [website]",
+      "dcterms:identifier": "https://www.omg.org/spec/BPMN/2.0",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/camunda-bpmn-tutorial",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "BPMN tutorial",
+      "dcterms:publisher": "Camunda Services",
+      "dcterms:isPartOf": "Camunda [website]",
+      "dcterms:identifier": "https://camunda.com/bpmn",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/omg-2011-business-process-model",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Business Process Model And Notation",
+      "dcterms:issued": "2011",
+      "dcterms:publisher": "Object Management Group",
+      "dcterms:isPartOf": "Object Management Group [website]",
+      "dcterms:identifier": "https://www.omg.org/spec/BPMN/2.0",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/9789240081949-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, second edition",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789240081949",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/373581",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/phii-2023-collaborative-requirements-development",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Collaborative Requirements Development Methodology (CRDM)",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "PHII",
+      "dcterms:isPartOf": "Public Health Informatics Institute (PHII) [website]",
+      "dcterms:identifier": "https://phii.org/crdm/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2022-person-centred-hiv-strategic-information",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact",
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/360948",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2022-person-centred-hiv-strategic-information-ref80",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact",
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/360948",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2020-consolidated-hiv-strategic-information",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Consolidated HIV strategic information guidelines: driving impact through programme monitoring and management",
+      "dcterms:issued": "2020",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/331697",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/eu-consolidated-text-regulation",
+      "@type": [
+        "fabio:Work",
+        "bibo:Legislation"
+      ],
+      "dcterms:title": "Consolidated text: Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (Text with EEA relevance)",
+      "dcterms:publisher": "European Union",
+      "dcterms:identifier": "http://data.europa.eu/eli/reg/2016/679/2016-05-04",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2018-continuity-coordination-care",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Continuity and coordination of care: a practice brief to support implementation of the WHO Framework on integrated people-centred health services",
+      "dcterms:issued": "2018",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/274628",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/phii-2012-defining-functional-requirements",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Defining functional requirements for immunization information systems",
+      "dcterms:issued": "2012",
+      "dcterms:publisher": "Public Health Informatics Institute",
+      "dcterms:identifier": "https://www.technet-21.org/en/resources/report/defining-functional-requirements-for-immunization-information-systems",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/suse-2024-definition-production-environment",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Definition: Production Environment",
+      "dcterms:issued": "2024",
+      "dcterms:isPartOf": "SUSE [website]",
+      "dcterms:identifier": "https://www.suse.com/suse-defines/definition/production-environment/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/digital-principles-design-with-the-user",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Design with the user",
+      "dcterms:publisher": "United Nations Foundation",
+      "dcterms:isPartOf": "Principles for Digital Development [website]",
+      "dcterms:identifier": "https://digitalprinciples.org/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2021-dak-antenatal-care",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems",
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/339745",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2021-dak-family-planning",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital adaptation kit for family planning: operational requirements for implementing WHO recommendations in digital systems",
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/341997",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/9789240085138-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital adaptation kit for HIV: operational requirements for implementing WHO recommendations in digital systems, second edition",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789240085138",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/375230",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021",
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/343361",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-digital-health-atlas",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Digital Health Atlas [website]",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://digitalhealthatlas.org",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/9789240010567-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital implementation investment guide (DIIG): integrating digital interventions into health programmes",
+      "dcterms:issued": "2020",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789240010567",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/334306",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2022-diig-quick-deployment-guide",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital implementation investment guide (‎DIIG)‎: quick deployment guide",
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/363577",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2018-digital-technologies-primary-health-care",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital technologies: shaping the future of primary health care",
+      "dcterms:issued": "2018",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/326573",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/un-2022-disability-inclusive-communications",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Disability-Inclusive Communications Guidelines",
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "United Nations",
+      "dcterms:identifier": "https://www.un.org/sites/un2.un.org/files/un_disability-inclusive_communication_guidelines.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/doorley-2018-design-thinking-bootleg",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Design thinking bootleg",
+      "dcterms:creator": [
+        "Doorley, S",
+        "Holcomb, S",
+        "Klebahn, P",
+        "Segovia, K",
+        "Utley, J"
+      ],
+      "dcterms:issued": "2018",
+      "dcterms:publisher": "Hasso Plattner Institute of Design at Stanford University",
+      "dcterms:identifier": "https://dschool.stanford.edu/resources/design-thinking-bootleg",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/dwivedi-digital-health-investment-review-tool",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Digital health investment review tool",
+      "dcterms:creator": [
+        "Dwivedi, V",
+        "Sitjar, M",
+        "Waugaman, A",
+        "Weiss, B",
+        "Schaefer, M",
+        "Ollis, S"
+      ],
+      "dcterms:publisher": "United States Agency for International Development, Bureau for Global Health, Maternal and Child Survival Program",
+      "dcterms:identifier": "https://www.mcsprogram.org/wp-content/uploads/dlm_uploads/2019/05/DHIRT-Tool-HANDOUT-May2019-Printable.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/paho-2017-electronic-immunization-registry",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation",
+      "dcterms:issued": "2017",
+      "dcterms:publisher": "Pan American Health Organization",
+      "dcterms:identifier": "https://iris.paho.org/handle/10665.2/34865",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/fakhroutdinov-uml-use-case-diagrams",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "UML use case diagrams",
+      "dcterms:creator": [
+        "Fakhroutdinov, K"
+      ],
+      "dcterms:publisher": "Kirill Fakhroutdinov",
+      "dcterms:isPartOf": "The Unified Modeling Language [website]",
+      "dcterms:identifier": "https://www.uml-diagrams.org/use-case-diagrams.html",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/omb-2013-federal-enterprise-architecture",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Federal Enterprise Architecture Framework Version 2",
+      "dcterms:issued": "2013",
+      "dcterms:publisher": "Office of Management and Budget",
+      "dcterms:isPartOf": "The White House President Barack Obama [website]",
+      "dcterms:identifier": "https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/egov_docs/fea_v2.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/flood-2016-insights-global-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Insights into Global Health Practice from the Agile Software Development Movement",
+      "dcterms:creator": [
+        "Flood, D",
+        "Chary, A",
+        "Austad, K",
+        "Diaz, AK",
+        "García, P",
+        "Martinez, B",
+        "Canú, WL",
+        "Rohloff, P"
+      ],
+      "dcterms:issued": "2016",
+      "dcterms:isPartOf": "Glob Health Action",
+      "bibo:volume": "9",
+      "bibo:pages": "29836",
+      "bibo:doi": "10.3402/gha.v9.29836",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-global-strategy-digital-health-2020-2025",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Global strategy on digital health 2020-2025",
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/344249",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-global-strategy-digital-health-2020-2025-ref84",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Global strategy on digital health 2020–2025",
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/344249",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/gothelf-2012-using-proto-personas",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Using proto-personas for executive alignment",
+      "dcterms:creator": [
+        "Gothelf, J"
+      ],
+      "dcterms:issued": "2012-05-01",
+      "dcterms:isPartOf": "UX Magazine [website]",
+      "dcterms:identifier": "https://uxmag.com/articles/using-proto-personas-for-executive-alignment",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/grevendonk-2013-planning-information-systems",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Planning an information systems project: a toolkit for public health managers",
+      "dcterms:creator": [
+        "Grevendonk, J",
+        "Taliesin, B",
+        "Brigden, D"
+      ],
+      "dcterms:issued": "2013",
+      "dcterms:publisher": "World Health Organization. Seattle (WA): PATH",
+      "dcterms:identifier": "https://path.org/resources/planning-an-information-systems-project-a-toolkit-for-public-health-managers",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/gs1-standards",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "GS1 Standards",
+      "dcterms:isPartOf": "GS1 [website]",
+      "dcterms:identifier": "https://www.gs1.org/standards",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/hashemi-pour-2023-definition-workflow",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Definition workflow",
+      "dcterms:creator": [
+        "Hashemi-Pour, C"
+      ],
+      "dcterms:issued": "2023-11",
+      "dcterms:publisher": "TechTarget Inc.",
+      "dcterms:isPartOf": "TechTarget [website]",
+      "dcterms:identifier": "https://www.techtarget.com/searchcio/definition/workflow",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/au-hie-task-force-2023-african-union-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "African Union Health Information Exchange guidelines and standards",
+      "dcterms:creator": [
+        "Health Information Exchange Task Force"
+      ],
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "African Union and Africa CDC",
+      "dcterms:identifier": "https://africacdc.org/download/african-union-health-information-exchange-guidelines-and-standards/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/cdc-hipaa",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Health Insurance Portability and Accountability Act of 1996 (HIPAA)",
+      "dcterms:isPartOf": "CDC Center for Disease Control and Prevention [website]",
+      "dcterms:identifier": "https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html?CDC_AAref_Val=https://www.cdc.gov/phlp/publications/topic/hipaa.html",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2023-health-workforce",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Health workforce",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:isPartOf": "World Health Organization [website]",
+      "dcterms:identifier": "https://www.who.int/health-topics/health-workforce",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/henry-2023-wcag",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Web Content Accessibility Guidelines (WCAG)",
+      "dcterms:creator": [
+        "Henry, S L"
+      ],
+      "dcterms:issued": "2023",
+      "dcterms:isPartOf": "W3C Web Accessibility Initiative (WAI). [website]",
+      "dcterms:identifier": "https://www.w3.org/WAI/standards-guidelines/wcag/#intro",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/hl7-2023-fhir-release-5",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "HL7 FHIR Release 5 [website]",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "HL7.org",
+      "dcterms:identifier": "https://www.hl7.org/fhir/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2024-implementing-primary-health-care-approach",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Implementing the primary health care approach: a primer",
+      "dcterms:issued": "2024",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/376777",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/un-2021-inclusive-communications-guide",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Inclusive Communications: A guide for communication with, about and for people with disabilities",
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "United Nations",
+      "dcterms:identifier": "https://www.un.org/sites/un2.un.org/files/2021/10/un_disability_inclusion_strategy_communication_guidelines_etr.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/icd-11-2022",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "International Classification of Diseases 11th Revision",
+      "dcterms:issued": "2022",
+      "dcterms:identifier": "https://icd.who.int/en",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2023-icd-11",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "International Statistical Classification of Diseases and Related Health Problems (ICD), 11th revision [website]",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://www.who.int/standards/classifications/classification-of-diseases",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/world-bank-2024-interoperability-frameworks",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Interoperability frameworks",
+      "dcterms:issued": "2024",
+      "dcterms:publisher": "The World Bank",
+      "dcterms:isPartOf": "Identification for development, Practitioner’s Guide [website]",
+      "dcterms:identifier": "https://id4d.worldbank.org/guide/interoperability-frameworks",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/himss-2024-interoperability-healthcare",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Interoperability in Healthcare",
+      "dcterms:issued": "2024",
+      "dcterms:publisher": "HIMMS",
+      "dcterms:isPartOf": "HIMMS [website]",
+      "dcterms:identifier": "https://www.himss.org/resources/interoperability-healthcare",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/jones-2018-digital-health-impact",
+      "@type": [
+        "fabio:Work",
+        "bibo:Report"
+      ],
+      "dcterms:title": "Digital health impact framework user manual",
+      "dcterms:creator": [
+        "Jones, T",
+        "Drury, P",
+        "Zuniga, P",
+        "Roth, S"
+      ],
+      "dcterms:issued": "2018-11",
+      "dcterms:publisher": "Asian Development Bank",
+      "bibo:doi": "10.22617/WPS189214-2",
+      "dcterms:identifier": "https://www.adb.org/sites/default/files/publication/465611/sdwp-057-digital-health-impact-framework-manual.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/kirchmer-2017-high-performance-through",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "High performance through business process management: strategic execution in a digital world, third edition",
+      "dcterms:creator": [
+        "Kirchmer, M"
+      ],
+      "dcterms:issued": "2017",
+      "dcterms:publisher": "Springer International Publishing AG",
+      "bibo:doi": "10.1007/978-3-319-51259-4",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/krsicka-2012-how-design-integration",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "How to Design an Integration Platform for Interoperable EHR?",
+      "dcterms:creator": [
+        "Krsička, D",
+        "Šárek, M"
+      ],
+      "dcterms:issued": "2012",
+      "dcterms:isPartOf": "European Journal of Biomedical Informatics",
+      "bibo:volume": "8",
+      "bibo:issue": "5",
+      "bibo:pages": "9-18",
+      "dcterms:identifier": "https://www.ejbi.org/scholarly-articles/how-to-design-an-integration-platform-for-interoperableehr.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/lapkin-2005-gartners-enterprise-architecture",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Gartner’s enterprise architecture process and framework help meet 21st century challenges [online]",
+      "dcterms:creator": [
+        "Lapkin, A"
+      ],
+      "dcterms:issued": "2005",
+      "dcterms:identifier": "https://www.gartner.com/resources/133100/133132/gartners_enterprise_architec_133132.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/ieee-1998-ieee-recommended-practice",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "IEEE recommended practice for software requirements specifications",
+      "dcterms:creator": [
+        "Life Cycle Data Harmonization Working Group of the Software Engineering Standards Committee of the IEEE Computer Society"
+      ],
+      "dcterms:issued": "1998",
+      "dcterms:publisher": "The Institute of Electrical and Electronics Engineers",
+      "dcterms:identifier": "http://www.cse.msu.edu/~cse870/IEEEXplore-SRS-template.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/marcelo-2022-chapter-17-framework",
+      "@type": [
+        "fabio:Work",
+        "bibo:Chapter"
+      ],
+      "dcterms:title": "Chapter 17 - A framework for regional health information systems interoperability: The Asia eHealth Information Network (AeHIN) experience",
+      "dcterms:creator": [
+        "Marcelo, A B",
+        "Pascual, K C",
+        "Udayasankaran, J G",
+        "Allaudin, F S",
+        "Kijsanayotin, B"
+      ],
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "Academic Press",
+      "dcterms:isPartOf": "Roadmap to Successful Digital Health Ecosystems",
+      "bibo:pages": "399-414",
+      "bibo:doi": "10.1016/B978-0-12-823413-6.00005-7",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/mccambridge-2014-systematic-review-hawthorne",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects",
+      "dcterms:creator": [
+        "McCambridge, J",
+        "Witton, J",
+        "Elbourne, DR"
+      ],
+      "dcterms:issued": "2014",
+      "dcterms:isPartOf": "J Clin Epidemiol",
+      "bibo:volume": "67",
+      "bibo:issue": "3",
+      "bibo:pages": "267–77",
+      "bibo:doi": "10.1016/j.jclinepi.2013.08.015",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/mcleroy-1988-ecological-perspective-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "An ecological perspective on health promotion programs",
+      "dcterms:creator": [
+        "McLeroy, KR",
+        "Bibeau, D",
+        "Steckler, A",
+        "Glanz, K"
+      ],
+      "dcterms:issued": "1988",
+      "dcterms:isPartOf": "Health education quarterly",
+      "bibo:volume": "15",
+      "bibo:issue": "4",
+      "bibo:pages": "351–377",
+      "bibo:doi": "10.1177/109019818801500401",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/mehl-2021-who-smart-guidelines",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age",
+      "dcterms:creator": [
+        "Mehl, G",
+        "Tunçalp, Ö",
+        "Ratanaprayul, N",
+        "Tamrat, T",
+        "Barreix, M",
+        "Lowrance, D"
+      ],
+      "dcterms:issued": "2021",
+      "dcterms:isPartOf": "Lancet Digital Health",
+      "bibo:volume": "3",
+      "bibo:issue": "4",
+      "bibo:pages": "e213-e216",
+      "bibo:doi": "10.1016/S2589-7500(21)00038-8",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/mehl-2023-full-stac-remedy",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "A full-STAC remedy for global digital health transformation: open standards, technologies, architectures and content",
+      "dcterms:creator": [
+        "Mehl, G",
+        "Seneviratne, M",
+        "Berg, M",
+        "Bidani, S",
+        "Distler, R"
+      ],
+      "dcterms:issued": "2023",
+      "dcterms:isPartOf": "Oxford Open Digital Health",
+      "bibo:doi": "10.1093/oodh/oqad018",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/9789241511766-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Monitoring and evaluating digital health interventions: a practical guide to conducting research and assessment",
+      "dcterms:issued": "2016",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789241511766",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/252183",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/india-nha-2020-national-digital-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "National Digital Health Mission Strategy Overview Making India a Digital Health Nation Enabling Digital Healthcare for all",
+      "dcterms:issued": "2020",
+      "dcterms:publisher": "National Health Authority",
+      "dcterms:identifier": "https://www.niti.gov.in/sites/default/files/2021-09/ndhm_strategy_overview.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/openhie-framework",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "OpenHIE [website]",
+      "dcterms:identifier": "https://ohie.org/framework/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/opensrp-2022-opensrp-client-anc",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Opensrp-client-anc",
+      "dcterms:issued": "2022",
+      "dcterms:publisher": "OpenSRP",
+      "dcterms:identifier": "https://github.com/opensrp/opensrp-client-anc",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/hl7-2023-fhir-overview",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Overview - FHIR v4.3.0 (hl7.org) FHIR Overview",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "HL7.org",
+      "dcterms:isPartOf": "HL7 FHIR Release 5 [website]",
+      "dcterms:identifier": "https://www.hl7.org/fhir/overview.html",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/nlm-2016-overview-snomed-ct",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Overview of SNOMED CT",
+      "dcterms:issued": "2016",
+      "dcterms:isPartOf": "National Library of Medicine [website]",
+      "dcterms:identifier": "https://www.nlm.nih.gov/healthit/snomedct/snomed_overview.html",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-wpro-2007-people-centred-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "People-centred health care : a policy framework",
+      "dcterms:issued": "2007",
+      "dcterms:publisher": "World Health Organization Regional Office for the Western Pacific",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/206971",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/idf-personas",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Personas",
+      "dcterms:isPartOf": "Interaction Design Foundation [website]",
+      "dcterms:identifier": "https://www.interaction-design.org/literature/topics/personas",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/usability-gov-personas",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Personas",
+      "dcterms:publisher": "Office of the Assistant Secretary for Public Affairs, US Department of Health and Human Services",
+      "dcterms:isPartOf": "usability.gov [website]",
+      "dcterms:identifier": "https://www.usability.gov/how-to-and-tools/methods/personas.html",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/pratt-2023-definition-business-process",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Definition business process",
+      "dcterms:creator": [
+        "Pratt, M",
+        "Roy, M",
+        "McLaughlin, E"
+      ],
+      "dcterms:issued": "2023-09",
+      "dcterms:publisher": "TechTarget Inc.",
+      "dcterms:isPartOf": "TechTarget [website]",
+      "dcterms:identifier": "https://www.techtarget.com/searchcio/definition/business-process",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/ihe-2024-profiles",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Profiles",
+      "dcterms:issued": "2024",
+      "dcterms:publisher": "IHE International",
+      "dcterms:isPartOf": "IHE International Integrating the Healthcare Enterprise [website]",
+      "dcterms:identifier": "https://www.ihe.net/resources/profiles/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/rwanda-minict-2021-rwanda-passes-new",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Rwanda passes new law protecting personal data",
+      "dcterms:issued": "2021",
+      "dcterms:publisher": "Republic of Rwanda Ministry of ICR and Innovation",
+      "dcterms:identifier": "https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Press_Release/211021_PRESS_RELEASE_Rwanda_s_New_Data_Protection_Law_ENGLISH.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/sanchez-2007-enterprise-architectures-enabling",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Enterprise Architectures – Enabling Interoperability Between Organizations",
+      "dcterms:creator": [
+        "Sanchez, A"
+      ],
+      "dcterms:issued": "2007",
+      "dcterms:identifier": "http://www0.unsl.edu.ar/~asanchez/papers/SBJO07.pdf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2023-score-health-data",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "SCORE for health data technical package",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "WHO",
+      "dcterms:isPartOf": "World Health Organization (WHO) [website]",
+      "dcterms:identifier": "https://www.who.int/data/data-collection-tools/score",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/itu-2019-sdg-digital-investment",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "SDG Digital Investment Framework: a whole-of-government approach to investing in digital technologies to achieve the SDGs",
+      "dcterms:issued": "2019",
+      "dcterms:publisher": "International Telecommunication Union (ITU)",
+      "dcterms:identifier": "https://www.itu.int/pub/D-STR-DIGITAL.02-2019",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/shivers-2021-enhancing-narrative-clinical",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Enhancing narrative clinical guidance with computer-readable artifacts: Authoring FHIR implementation guides based on WHO recommendations",
+      "dcterms:creator": [
+        "Shivers, J",
+        "Amlung, J",
+        "Ratanaprayul, N",
+        "Rhodes, B",
+        "Biondich, P"
+      ],
+      "dcterms:issued": "2021",
+      "dcterms:isPartOf": "J Biomedical Informatics",
+      "bibo:volume": "122",
+      "bibo:pages": "103891",
+      "bibo:doi": "10.1016/j.jbi.2021.103891",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-smart-guidelines",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "SMART Guidelines",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:isPartOf": "World Health Organization [website]",
+      "dcterms:identifier": "https://www.who.int/teams/digital-health-and-innovation/smart-guidelines",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/bcg-change-management-solutions-tools",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Solutions and tools for change management success",
+      "dcterms:publisher": "Boston Consulting Group",
+      "dcterms:isPartOf": "BCG [website]",
+      "dcterms:identifier": "https://www.bcg.com/en-ch/capabilities/change-management/solutions.aspx",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/ambysoft-system-use-cases",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "System use cases: an Agile introduction",
+      "dcterms:publisher": "Ambysoft",
+      "dcterms:isPartOf": "Agile modelling [website]",
+      "dcterms:identifier": "http://www.agilemodeling.com/artifacts/systemUseCase.htm",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/tamrat-2022-digitalization-routine-health",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Digitalization of routine health information systems: Bangladesh, Indonesia, Pakistan",
+      "dcterms:creator": [
+        "Tamrat, T",
+        "Chandir, S",
+        "Alland, K",
+        "Pedrana, A",
+        "Shah, MT",
+        "Footitt, C"
+      ],
+      "dcterms:issued": "2022",
+      "dcterms:isPartOf": "Bull World Health Organ",
+      "bibo:volume": "100",
+      "bibo:issue": "10",
+      "bibo:pages": "590–600",
+      "bibo:doi": "10.2471/BLT.22.287816",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/tamrat-2022-transitioning-digital-systems",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Transitioning to digital systems: the role of world health organization’s digital adaptation kits in operationalizing recommendations and interoperability standards",
+      "dcterms:creator": [
+        "Tamrat, T",
+        "Ratanaprayul, N",
+        "Barreix, M",
+        "Tuncalp, O",
+        "Lowrance, D",
+        "Thompson, J"
+      ],
+      "dcterms:issued": "2022",
+      "dcterms:isPartOf": "Global Health: Science and Practice",
+      "bibo:volume": "10",
+      "bibo:issue": "1",
+      "bibo:pages": "e2100320",
+      "bibo:doi": "10.9745/GHSP-D-21-00320",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/taylor-2012-common-requirements-maternal",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Common requirements for maternal health information systems: produced with the collaborative requirements development methodology",
+      "dcterms:creator": [
+        "Taylor, C",
+        "Luchitsky, A",
+        "Lubinski, D",
+        "Peloso, L",
+        "Wilson, K"
+      ],
+      "dcterms:issued": "2012",
+      "dcterms:publisher": "PATH",
+      "dcterms:identifier": "https://www.path.org/resources/common-requirements-for-maternal-health-information-systems-produced-with-the-collaborative-requirements-development-methodology",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/ita-2022-thailand-personal-data-protection-act",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Thailand Personal Data Protection Act",
+      "dcterms:issued": "2022",
+      "dcterms:isPartOf": "Department of Commerce United States of America International Trade Administration",
+      "dcterms:identifier": "https://www.trade.gov/market-intelligence/thailand-personal-data-protection-act",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/9789241509510-eng",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "The MAPS toolkit: mHealth assessment and planning for scale",
+      "dcterms:issued": "2015",
+      "dcterms:publisher": "World Health Organization",
+      "bibo:isbn": "9789241509510",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/185238",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/opengroup-togaf-standard-10th-edition",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "The TOGAF Standard, 10th edition [website]",
+      "dcterms:identifier": "https://www.opengroup.org/togaf",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/opengroup-togaf-standard-10th-edition-core-concepts",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "The TOGAF Standard, 10th edition. 3: Core Concepts [website]",
+      "dcterms:identifier": "https://pubs.opengroup.org/togaf-standard/introduction/chap03.html",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/tran-2018-design-thinking-playbook",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Design thinking playbook for change management in K–12 schools",
+      "dcterms:creator": [
+        "Tran, N"
+      ],
+      "dcterms:issued": "2018",
+      "dcterms:publisher": "Hasso Plattner Institute of Design at Stanford University",
+      "dcterms:identifier": "https://dschool.stanford.edu/resources/design-thinking-playbook-from-design-tech-high-school",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/ambysoft-uml-2-use-case-diagrams",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "UML 2 use case diagrams: an Agile introduction",
+      "dcterms:publisher": "Ambysoft",
+      "dcterms:isPartOf": "Agile modelling [website]",
+      "dcterms:identifier": "http://www.agilemodeling.com/artifacts/useCaseDiagram.htm",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/veal-2019-how-define-user",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "How to define a user persona",
+      "dcterms:creator": [
+        "Veal, RL"
+      ],
+      "dcterms:issued": "2019",
+      "dcterms:publisher": "CareerFoundry",
+      "dcterms:isPartOf": "CareerFoundry [website]",
+      "dcterms:identifier": "https://careerfoundry.com/en/blog/ux-design/how-to-define-a-user-persona",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/vokac-2004-using-reference-application",
+      "@type": [
+        "fabio:Work",
+        "bibo:Chapter"
+      ],
+      "dcterms:title": "Using a reference application with design patterns to produce industrial software",
+      "dcterms:creator": [
+        "Vokáč, M",
+        "Jensen, O"
+      ],
+      "bibo:editor": [
+        "Bomarius, F",
+        "Iida, H"
+      ],
+      "dcterms:issued": "2004",
+      "dcterms:publisher": "Springer",
+      "dcterms:isPartOf": "Product focused software process improvement. PROFES 2004",
+      "bibo:volume": "3009",
+      "bibo:pages": "343–7",
+      "bibo:doi": "10.1007/978-3-540-24659-6_24",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/von-rosing-2015-complete-business-process",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "The complete business process handbook: body of knowledge from business process modeling to BPM",
+      "dcterms:creator": [
+        "von Rosing, M",
+        "Scheer, A-W",
+        "von Scheel, H"
+      ],
+      "dcterms:issued": "2015",
+      "dcterms:publisher": "Elsevier",
+      "bibo:volume": "1",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/weske-2012-business-process-management",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Business process management: concepts, languages, architectures, second edition",
+      "dcterms:creator": [
+        "Weske, M"
+      ],
+      "dcterms:issued": "2012",
+      "dcterms:publisher": "Springer-Verlag",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/regenstrief-2024-what-loinc-is",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "What LOINC is",
+      "dcterms:issued": "2024",
+      "dcterms:publisher": "Regenstrief Institute",
+      "dcterms:isPartOf": "LOINC from Regenstrief [website]",
+      "dcterms:identifier": "https://loinc.org/get-started/what-loinc-is/",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2019-smart-anc-fhir-ig",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "WHO Antenatal Care Guideline Implementation Guide (FHIR R4 (4.0.1))",
+      "dcterms:issued": "2019",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-anc",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2023-family-international-classifications",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "WHO Family of International Classifications (FIC)",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:isPartOf": "WHO Classifications and terminologies [website]",
+      "dcterms:identifier": "https://www.who.int/standards/classifications",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2019-guideline-digital-interventions",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "WHO guideline: recommendations on digital interventions for health system strengthening",
+      "dcterms:issued": "2019",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://apps.who.int/iris/handle/10665/311941",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-2023-who-outbreak-toolkit",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "WHO Outbreak toolkit [website]",
+      "dcterms:issued": "2023",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://www.who.int/emergencies/outbreak-toolkit",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-itu-2012-national-ehealth-strategy-toolkit",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "National eHealth strategy toolkit",
+      "dcterms:creator": [
+        "World Health Organization",
+        "International Telecommunication Union"
+      ],
+      "dcterms:issued": "2012",
+      "dcterms:publisher": "International Telecommunication Union",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/75211",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-itu-2019-be-healthy-be-mobile-personas-toolkit",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Be He@lthy, Be Mobile: personas toolkit",
+      "dcterms:creator": [
+        "World Health Organization",
+        "International Telecommunication Union"
+      ],
+      "dcterms:issued": "2019",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://iris.who.int/handle/10665/329947",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-itu-2020-digital-health-platform-handbook",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital health platform handbook: building a digital information infrastructure (‎infostructure)‎ for health",
+      "dcterms:creator": [
+        "World Health Organization",
+        "International Telecommunication Union"
+      ],
+      "dcterms:issued": "2020",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://apps.who.int/iris/handle/10665/337449",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/who-itu-2020-digital-health-platform-handbook-ref66",
+      "@type": [
+        "fabio:Work",
+        "bibo:Book"
+      ],
+      "dcterms:title": "Digital health platform handbook: building a digital information infrastructure (‎infostructure)‎ for health",
+      "dcterms:creator": [
+        "World Health Organization",
+        "International Telecommunication Union"
+      ],
+      "dcterms:issued": "2020",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://apps.who.int/iris/handle/10665/337449",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    },
+    {
+      "@id": "references/zachman-1997-enterprise-architecture-issue",
+      "@type": [
+        "fabio:Work",
+        "bibo:AcademicArticle"
+      ],
+      "dcterms:title": "Enterprise architecture: the issue of the century",
+      "dcterms:creator": [
+        "Zachman, JA"
+      ],
+      "dcterms:issued": "1997",
+      "dcterms:isPartOf": "Database programming and design",
+      "bibo:volume": "10",
+      "bibo:issue": "3",
+      "bibo:pages": "44–53",
+      "dcterms:source": "folio/dth-phc/references/p-references-main.md"
+    }
+  ]
+}
