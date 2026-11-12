@@ -98,7 +98,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "0ec7fa69b2ed1315b1b59f8d3bef196f3185a8b6",
+          "ref": "d14158f0d5f8b020cc51f02f150ef26c42e911a5",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -107,9 +107,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-10",
-              "ref": "0ec7fa69b2ed1315b1b59f8d3bef196f3185a8b6",
-              "evidence": "Owner litlfred, 2026-11-10 19:54:37Z, first-hand tap on decision card \"Bring the gutter fix to the DTH sites how?\" in thread \"Remove left gutter on DTH sites\" (cmsg_017WNUkNK8kdDziPK58Pv6G9A4FVReTMWQNcJHJWxMVMtd): \"B: every layer to main\" (re-pin dth-hrh, dth-sc, dth-phc to every layer main)."
+              "on": "2026-11-12",
+              "ref": "d14158f0d5f8b020cc51f02f150ef26c42e911a5",
+              "evidence": "litlfred, 2026-11-12: Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C), owner 'fix reds'; re-pin platform layers so check:dth-glossary accepts slash ArchiMate IRIs (core#764). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
             }
           }
         }
@@ -120,7 +120,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "05f5525758184b4be66e7f1a4cd84107b210ec47",
+          "ref": "19208f3f878ce4debc05c33d20f8019844002df4",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -135,9 +135,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-10",
-              "ref": "05f5525758184b4be66e7f1a4cd84107b210ec47",
-              "evidence": "Owner litlfred, 2026-11-10 19:54:37Z, first-hand tap on decision card \"Bring the gutter fix to the DTH sites how?\" in thread \"Remove left gutter on DTH sites\" (cmsg_017WNUkNK8kdDziPK58Pv6G9A4FVReTMWQNcJHJWxMVMtd): \"B: every layer to main\" (re-pin dth-hrh, dth-sc, dth-phc to every layer main)."
+              "on": "2026-11-12",
+              "ref": "19208f3f878ce4debc05c33d20f8019844002df4",
+              "evidence": "litlfred, 2026-11-12: Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C), owner 'fix reds'; re-pin platform layers so check:dth-glossary accepts slash ArchiMate IRIs (core#764). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
             }
           }
         }
@@ -148,7 +148,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "df6a3c05e78c7e72aca044daecfcfeffc2b3d3dc",
+          "ref": "fbe255e126f4d4e0ce25812e3e5b133cf393a7cc",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -163,9 +163,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-10",
-              "ref": "df6a3c05e78c7e72aca044daecfcfeffc2b3d3dc",
-              "evidence": "Owner litlfred, 2026-11-10 19:54:37Z, first-hand tap on decision card \"Bring the gutter fix to the DTH sites how?\" in thread \"Remove left gutter on DTH sites\" (cmsg_017WNUkNK8kdDziPK58Pv6G9A4FVReTMWQNcJHJWxMVMtd): \"B: every layer to main\" (re-pin dth-hrh, dth-sc, dth-phc to every layer main)."
+              "on": "2026-11-12",
+              "ref": "fbe255e126f4d4e0ce25812e3e5b133cf393a7cc",
+              "evidence": "litlfred, 2026-11-12: Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C), owner 'fix reds'; re-pin platform layers so check:dth-glossary accepts slash ArchiMate IRIs (core#764). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
             }
           }
         }
@@ -176,7 +176,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "ba1af6f2ca64c48c0393e4f6a99cc44a5b53287f",
+          "ref": "fe72e745cf83aa31e6f82d14cc0cc9826e166cf6",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -188,9 +188,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-10",
-              "ref": "ba1af6f2ca64c48c0393e4f6a99cc44a5b53287f",
-              "evidence": "Owner litlfred, 2026-11-10 19:54:37Z, first-hand tap on decision card \"Bring the gutter fix to the DTH sites how?\" in thread \"Remove left gutter on DTH sites\" (cmsg_017WNUkNK8kdDziPK58Pv6G9A4FVReTMWQNcJHJWxMVMtd): \"B: every layer to main\"; 20:07:47Z \"try again... i cant run\" (move tools to main ba1af6f with the sandbox layers publish, tools#1784)."
+              "on": "2026-11-12",
+              "ref": "fe72e745cf83aa31e6f82d14cc0cc9826e166cf6",
+              "evidence": "litlfred, 2026-11-12: Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C), owner 'fix reds'; re-pin platform layers so check:dth-glossary accepts slash ArchiMate IRIs (core#764). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
             }
           }
         }
@@ -201,7 +201,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
+          "ref": "531a96d2adddec62c2363e125c19d6648a07fc11",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -210,9 +210,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-10",
-              "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
-              "evidence": "Owner litlfred, 2026-11-10 19:54:37Z, first-hand tap on decision card \"Bring the gutter fix to the DTH sites how?\" in thread \"Remove left gutter on DTH sites\" (cmsg_017WNUkNK8kdDziPK58Pv6G9A4FVReTMWQNcJHJWxMVMtd): \"B: every layer to main\" (re-pin dth-hrh, dth-sc, dth-phc to every layer main)."
+              "on": "2026-11-12",
+              "ref": "531a96d2adddec62c2363e125c19d6648a07fc11",
+              "evidence": "litlfred, 2026-11-12: Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C), owner 'fix reds'; re-pin platform layers so check:dth-glossary accepts slash ArchiMate IRIs (core#764). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
             }
           }
         }
@@ -223,7 +223,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
+          "ref": "b31c5346b0b2803354423511b6d18b599b7bdc41",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -235,9 +235,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-10",
-              "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
-              "evidence": "Owner litlfred, 2026-11-10 19:54:37Z, first-hand tap on decision card \"Bring the gutter fix to the DTH sites how?\" in thread \"Remove left gutter on DTH sites\" (cmsg_017WNUkNK8kdDziPK58Pv6G9A4FVReTMWQNcJHJWxMVMtd): \"B: every layer to main\" (re-pin dth-hrh, dth-sc, dth-phc to every layer main)."
+              "on": "2026-11-12",
+              "ref": "b31c5346b0b2803354423511b6d18b599b7bdc41",
+              "evidence": "litlfred, 2026-11-12: Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C), owner 'fix reds'; re-pin platform layers so check:dth-glossary accepts slash ArchiMate IRIs (core#764). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
             }
           }
         }
