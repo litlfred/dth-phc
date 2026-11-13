@@ -183,8 +183,7 @@
    "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Engineer",
    "skills": [
     {
-     "name": "l4-application-build",
-     "href": "../../../en/cat-harness/processes/skills/l4-application-build.html"
+     "name": "l4-application-build"
     }
    ],
    "binding": "dangling"

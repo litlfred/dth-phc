@@ -1,6 +1,6 @@
 {
  "$schema": "site-link-report/v1",
- "pages": 39597,
+ "pages": 1181,
  "unresolved": [],
  "selfAddress": [
   {
@@ -128,106 +128,6 @@
    "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-researcher"
   },
   {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/antenatal-care/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/antenatal-care--who-anc-2016"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/architecture/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/enterprise-architecture--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/classifications/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/terminology-and-classification-systems--who-cdisah-2023"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/data-exchange/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/data-interchange-and-interoperability--who-cdisah-2023"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-health-ecosystem/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/digital-health-ecosystem--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/donors-and-development-partners/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/funder--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/ecosystem/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/digital-health-ecosystem--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/electronic-medical-record/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/electronic-medical-record-systems--who-cdisah-2023"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/generic-business-processes-and-workflows/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/generic-business-processes-and-workflows--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-information-system/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-information-system/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-interventions-and-recommendations/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-interventions-and-recommendations--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-management-information-system/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-system--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-management-information-system/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-system--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-management-information-system/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-systems--who-cdisah-2023"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/indicators-and-performance-metrics/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/indicators-and-performance-metrics--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/information-system/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/interoperability-standards/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/open-standards--who-dth-product-catalogue-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/interoperability-standards/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/standard--who-diig-2020"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/personal-health-record/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/personal-health-records--who-cdisah-2023"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/point-of-service/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/point-of-service--who-cdisah-2023"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/requirements/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/functional-and-non-functional-requirements--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/scheduling-logic/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/scheduling-logic--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/terminologies/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/terminologies--who-dak-immz-2024"
-  },
-  {
-   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-scenario/index.html",
-   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/user-scenarios--who-dak-immz-2024"
-  },
-  {
    "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
    "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/antenatal-care--who-anc-2016"
   },
@@ -329,7 +229,7 @@
   }
  ],
  "content": [],
- "diagrams": 357,
+ "diagrams": 38,
  "inDiagrams": [
   {
    "page": "en/dth-phc/media/fig-1-paper-to-digital.svg",

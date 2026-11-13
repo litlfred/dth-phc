@@ -146,8 +146,7 @@
    "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-BA",
    "skills": [
     {
-     "name": "l2-dependency-choice",
-     "href": "../../../en/cat-harness/processes/skills/l2-dependency-choice.html"
+     "name": "l2-dependency-choice"
     }
    ],
    "binding": "dangling"
@@ -317,8 +316,7 @@
    "laneHref": "design-and-adaptation.html#lane-Lane-Ch4-Engineer",
    "skills": [
     {
-     "name": "l4-application-build",
-     "href": "../../../en/cat-harness/processes/skills/l4-application-build.html"
+     "name": "l4-application-build"
     }
    ],
    "binding": "dangling"
