@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-ad0f062a4ea2429f7ee98665aea95a6d",
+  "@type": "archimate:Diagram",
+  "schema:identifier": "id-ad0f062a4ea2429f7ee98665aea95a6d",
+  "schema:name": "PHC digital ecosystem (Fig. 3)",
+  "schema:description": "Fig. 3. Delivering an integrated ecosystem of information systems and digital health solutions supports the PHC approach. Notes: The different information systems and digital solutions can cover more than one layer of the figure, or domain, as they are cross-cutting. However, for illustrative purposes, they have been allocated to only layer.",
+  "schema:image": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-ad0f062a4ea2429f7ee98665aea95a6d.svg",
+  "schema:about": [
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-ee40de4391598b534eac5e8d56bea92f"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-7cafc859c8a08c43588ba06b239dcbee"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-b30d869f9ebbc635942476869aa5a608"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-78b68512c281117dff979f9a5649cd92"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-4ac61bfc165a1d88910e2e2300a140d4"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-0e312c6afc23ccad03e4d4273c4dc771"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-c1828d1712d41499f0700ea0212bca12"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-7e2d5f0c273f74192dcaa4ea29a0e72d"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-6a50f512b2fa73c786c163bf707e7575"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-231e8a69ecc37e3a10e7f7368a3a34be"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-8810f35620fd4bd1bde7baf5ada085d0"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-3b00c008fe9ffff1d0be095c93b16fb5"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-27b71213bc25d5adf0dbf3b0191af355"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-141ad21fddfbbbc863f8c7b6bdf69ac6"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-97d03a0f5b7feb157f35af23a295b44c"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-809d7ef4829bf876f33095cf30a48461"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-8fc925d9f3c3c19c86f09950f658f3b9"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-2d44df3f11f4d5390586d6486c08feb8"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-7f6d7d62804c7f74f8d38f6eae4d49a2"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-1fa83a115853e4b28f4f84754fee4a3d"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-48accc51eb0c33c8c7cad78503f53b28"
+    },
+    {
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-d1e988d35cc563b8fca0d97c3ba4ca48"
+    }
+  ],
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

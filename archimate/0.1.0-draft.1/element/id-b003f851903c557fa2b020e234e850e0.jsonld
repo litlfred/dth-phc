@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-b003f851903c557fa2b020e234e850e0",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-b003f851903c557fa2b020e234e850e0",
+  "schema:name": "User researcher",
+  "schema:description": "Person trained in user research who leads the process of understanding end-users, conducting contextual observations and interviews, and gathering user requirements alongside business analysts and health informaticians. (Ch. 3 panel, Sections 3.1-3.2, PDF 30-35)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

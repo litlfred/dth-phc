@@ -1,0 +1,463 @@
+{
+ "$schema": "site-link-report/v1",
+ "pages": 39597,
+ "unresolved": [],
+ "selfAddress": [
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/business-analyst"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/clerk"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/community-based-information-system"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/designer"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/donors-and-development-partners"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/electronic-health-record-system"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-informatician"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-service-users"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-worker"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/implementing-team"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/monitoring-and-evaluation-specialist"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/personal-health-record"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/public-health-authority"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/software-engineer"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/solutions-architect"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/supervisor"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/technology-partner"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+  },
+  {
+   "page": "en/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-researcher"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/antenatal-care/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/antenatal-care--who-anc-2016"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/architecture/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/enterprise-architecture--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/classifications/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/terminology-and-classification-systems--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/data-exchange/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/data-interchange-and-interoperability--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-health-ecosystem/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/digital-health-ecosystem--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/donors-and-development-partners/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/funder--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/ecosystem/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/digital-health-ecosystem--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/electronic-medical-record/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/electronic-medical-record-systems--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/generic-business-processes-and-workflows/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/generic-business-processes-and-workflows--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-information-system/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-information-system/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-interventions-and-recommendations/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-interventions-and-recommendations--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-management-information-system/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-system--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-management-information-system/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-system--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-management-information-system/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-systems--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/indicators-and-performance-metrics/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/indicators-and-performance-metrics--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/information-system/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/interoperability-standards/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/open-standards--who-dth-product-catalogue-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/interoperability-standards/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/standard--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/personal-health-record/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/personal-health-records--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/point-of-service/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/point-of-service--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/requirements/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/functional-and-non-functional-requirements--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/scheduling-logic/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/scheduling-logic--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/terminologies/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/terminologies--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-scenario/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/user-scenarios--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/antenatal-care--who-anc-2016"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/data-interchange-and-interoperability--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/digital-health-ecosystem--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/digital-health-ecosystem--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/electronic-medical-record-systems--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/enterprise-architecture--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/functional-and-non-functional-requirements--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/funder--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/generic-business-processes-and-workflows--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-information-system--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-interventions-and-recommendations--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-system--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-system--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/health-management-information-systems--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/indicators-and-performance-metrics--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/open-standards--who-dth-product-catalogue-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/personal-health-records--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/point-of-service--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/scheduling-logic--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/standard--who-diig-2020"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/terminologies--who-dak-immz-2024"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/terminology-and-classification-systems--who-cdisah-2023"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/dth-phc/index.html",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/source-candidates/user-scenarios--who-dak-immz-2024"
+  }
+ ],
+ "content": [],
+ "diagrams": 357,
+ "inDiagrams": [
+  {
+   "page": "en/dth-phc/media/fig-1-paper-to-digital.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation"
+  },
+  {
+   "page": "en/dth-phc/media/fig-1-paper-to-digital.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation"
+  },
+  {
+   "page": "en/dth-phc/media/fig-1-paper-to-digital.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization"
+  },
+  {
+   "page": "en/dth-phc/media/fig-1-paper-to-digital.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization"
+  },
+  {
+   "page": "en/dth-phc/media/fig-1-paper-to-digital.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization"
+  },
+  {
+   "page": "en/dth-phc/media/fig-1-paper-to-digital.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/ai-risk-assessment/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/an-electronic-health-record/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/capacity-building/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/care-seeker/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/chw-job-aid/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/civil-registration-vital-statistics/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/clinical-job-aids/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/community-health-workers-care-seekers/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/community-linkages-and-engagement/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/dashboard/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/defining-a-target-population-and-understanding-their-needs/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/disease-surveillance/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/health-system-decision-makers/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/management-information-systems/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/organization-and-management/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/patient-portal/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/policy-makers/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/primary-care-providers/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/referral-coordination/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/selection-design-and-planning-of-services/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/self-monitoring-devices/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",
+   "href": "../../../en/dth-phc/archimate/0.1.0-draft.1/elements/targeted-messaging/"
+  },
+  {
+   "page": "en/dth-phc/media/fig-4-collect-once.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system"
+  },
+  {
+   "page": "en/dth-phc/media/fig-4-collect-once.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics"
+  },
+  {
+   "page": "en/dth-phc/media/fig-4-collect-once.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic"
+  },
+  {
+   "page": "en/dth-phc/media/fig-4-collect-once.svg",
+   "href": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals"
+  }
+ ]
+}

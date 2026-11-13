@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-5d55040d3ed75347b5d30553fda6f40c",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-5d55040d3ed75347b5d30553fda6f40c",
+  "schema:name": "Designer",
+  "schema:description": "Develops and tests prototype designs (mock-ups, wireframes, interactive prototypes) and provides continuous feedback with business analysts to the engineering team to translate user requirements into user interface design. (Section 2.2, Ch. 4 panel, Section 4.3, PDF 24, 52, 54-55)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

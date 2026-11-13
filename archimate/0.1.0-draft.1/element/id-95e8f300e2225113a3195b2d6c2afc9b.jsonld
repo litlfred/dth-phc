@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-95e8f300e2225113a3195b2d6c2afc9b",
+  "@type": "archimate:BusinessActor",
+  "schema:identifier": "id-95e8f300e2225113a3195b2d6c2afc9b",
+  "schema:name": "Implementing team",
+  "schema:description": "Multidisciplinary project and implementation team commissioning and coordinating requirements gathering, software and vendor selection, design and adaptation, end-user training, user acceptance testing, deployment, and scale-up in collaboration with the public health authority and technology partners. (Section 2.2, Ch. 3-6 panels, PDF 24, 30, 52, 64, 68)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

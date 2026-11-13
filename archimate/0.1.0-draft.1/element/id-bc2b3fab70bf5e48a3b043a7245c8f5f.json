@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
+  "schema:name": "Decision support system",
+  "schema:description": "A digital job aid that combines an individual's health information with the health worker's knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions. (PDF 8, 18)",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

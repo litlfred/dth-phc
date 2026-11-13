@@ -4,7 +4,7 @@
     "schema": "https://schema.org/",
     "dcterms": "http://purl.org/dc/terms/"
   },
-  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1.jsonld",
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1",
   "@type": "archimate:Model",
   "schema:identifier": "0.1.0-draft.1",
   "schema:name": "DTH-PHC overlay 0.1.0-draft.1",
@@ -13,17 +13,17 @@
   "schema:contentUrl": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/dth-phc-overlay.archimate",
   "schema:hasPart": [
     {
-      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-bcf04de52bb05c3a932bbfdd36d7ae4f",
       "@type": "archimate:Diagram",
       "schema:name": "Person-centred point of service (PCPOSS)"
     },
     {
-      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-eac6523c694c551b968166656af2b2e6",
       "@type": "archimate:Diagram",
       "schema:name": "Shared DTH Roles and Actors"
     },
     {
-      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-ad0f062a4ea2429f7ee98665aea95a6d.jsonld",
+      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-ad0f062a4ea2429f7ee98665aea95a6d",
       "@type": "archimate:Diagram",
       "schema:name": "PHC digital ecosystem (Fig. 3)"
     }

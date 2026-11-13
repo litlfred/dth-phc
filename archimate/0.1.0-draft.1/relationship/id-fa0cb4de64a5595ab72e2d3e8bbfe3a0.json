@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/relationship/id-fa0cb4de64a5595ab72e2d3e8bbfe3a0",
+  "@type": "archimate:Serving",
+  "schema:identifier": "id-fa0cb4de64a5595ab72e2d3e8bbfe3a0",
+  "archimate:source": {
+    "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-8074acfb0a065da4b9b36ad88fc2a0d5"
+  },
+  "archimate:target": {
+    "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-ffa13a71f7575bd1ab3bf9496433cdcf"
+  },
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

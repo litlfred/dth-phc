@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-6f87fe9ac64b5deca8c2ed5c96641485",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-6f87fe9ac64b5deca8c2ed5c96641485",
+  "schema:name": "Software engineer",
+  "schema:description": "Engaged during requirements gathering to understand the operational context, leads solution design, adaptation, build and quality assurance alongside solutions architects, and incorporates end-user feedback during training, testing and roll-out. (Ch. 3-5 panels, PDF 30, 52, 64)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

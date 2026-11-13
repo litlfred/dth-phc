@@ -1,0 +1,97 @@
+{
+  "$schema": "document-export/v1",
+  "document": "dth-phc",
+  "title": "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems",
+  "commit": "bc560f320250879a3b636e1556c6c17c37109c92",
+  "dirty": false,
+  "commitDate": "2026-11-13",
+  "date": "2026-11-13",
+  "blocks": 130,
+  "tools": {
+    "pandoc": "pandoc 3.1.3",
+    "soffice": "LibreOffice 24.2.7.2 420(Build:2)"
+  },
+  "files": [
+    {
+      "kind": "review-docx",
+      "file": "dth-phc-public-comment-bc560f3-2026-11-13.docx",
+      "latest": "dth-phc-public-comment-latest.docx",
+      "format": "Word (.docx)",
+      "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "purpose": "The public-comment draft as Word, with the same pages and line numbers as the PDF.",
+      "filters": [
+        "assembled from folio/dth-phc (one Markdown, as document_render_md writes it)",
+        "18 SVG figure(s) rasterised to PNG at 2×",
+        "pandoc with document-export.lua: one Word bookmark per chapter, section and block",
+        "styled from document-export-reference.docx (sha256 cdd45966a6ec…: Cambria body, Calibri headings)",
+        "Word line numbering"
+      ],
+      "parameters": {
+        "document": "dth-phc",
+        "export kind": "release",
+        "source commit": "bc560f3",
+        "date": "2026-11-13",
+        "line numbers": "on",
+        "track changes": "off"
+      },
+      "sha256": "b05e6822001e1f2dc3f7d93ceb549268e8ee17c076f84d9936c546efbdc81162",
+      "bytes": 5248386,
+      "bookmarks": 194
+    },
+    {
+      "kind": "pdf",
+      "file": "dth-phc-public-comment-bc560f3-2026-11-13.pdf",
+      "latest": "dth-phc-public-comment-latest.pdf",
+      "format": "PDF",
+      "mediaType": "application/pdf",
+      "purpose": "The frozen, line-numbered draft for public comment. Cite page and line.",
+      "filters": [
+        "assembled from folio/dth-phc (one Markdown, as document_render_md writes it)",
+        "18 SVG figure(s) rasterised to PNG at 2×",
+        "pandoc with document-export.lua: one Word bookmark per chapter, section and block",
+        "styled from document-export-reference.docx (sha256 cdd45966a6ec…: Cambria body, Calibri headings)",
+        "Word line numbering",
+        "LibreOffice: .docx laid out as PDF"
+      ],
+      "parameters": {
+        "document": "dth-phc",
+        "export kind": "release",
+        "source commit": "bc560f3",
+        "date": "2026-11-13",
+        "line numbers": "on",
+        "laid out from": "dth-phc-public-comment-bc560f3-2026-11-13.docx"
+      },
+      "sha256": "c7e7aaa4fa60a790b06c92cf65894f16021595b017507fd707eaa9ada4fc5a39",
+      "bytes": 6455709,
+      "pages": 174,
+      "lines": 3271
+    },
+    {
+      "kind": "offline-docx",
+      "file": "dth-phc-offline-bc560f3.docx",
+      "latest": "dth-phc-offline-latest.docx",
+      "format": "Word (.docx)",
+      "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "purpose": "The offline editing copy. Edit with Track Changes on and send it back; the changes merge into the source.",
+      "filters": [
+        "assembled from folio/dth-phc (one Markdown, as document_render_md writes it)",
+        "18 SVG figure(s) rasterised to PNG at 2×",
+        "pandoc with document-export.lua: one Word bookmark per chapter, section and block",
+        "styled from document-export-reference.docx (sha256 cdd45966a6ec…: Cambria body, Calibri headings)",
+        "Word line numbering",
+        "Track Changes switched on"
+      ],
+      "parameters": {
+        "document": "dth-phc",
+        "export kind": "release",
+        "source commit": "bc560f3",
+        "date": "2026-11-13",
+        "line numbers": "on",
+        "track changes": "on"
+      },
+      "sha256": "27777d8cf0c012729d89f1c7e44b884c8976be2b3cd24eaa27ef4b2b32e4f1e8",
+      "bytes": 5248446,
+      "bookmarks": 194
+    }
+  ]
+}

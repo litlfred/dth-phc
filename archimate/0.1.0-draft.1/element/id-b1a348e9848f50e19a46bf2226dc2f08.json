@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-b1a348e9848f50e19a46bf2226dc2f08",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-b1a348e9848f50e19a46bf2226dc2f08",
+  "schema:name": "Business analyst",
+  "schema:description": "Gathers and optimizes the content and functional requirements for adapting or developing a digital health solution; leads requirements gathering alongside health informaticians and user researchers, and provides continuous feedback to the engineering team during design and adaptation to ensure proper translation of requirements into implementation. (Section 2.2, Ch. 3-4 panels, PDF 24, 30, 52)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-48accc51eb0c33c8c7cad78503f53b28",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-48accc51eb0c33c8c7cad78503f53b28",
+  "schema:name": "Capacity building",
+  "schema:description": "Video-based support and supervision to expand knowledge and skills of providers",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

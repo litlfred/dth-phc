@@ -92,10 +92,10 @@
 <meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;]"><meta name="fa-baseurl" content="../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content=""><meta name="fa-search-exclude" content="true">
 
 <meta name="fa-beans-src" content="../../assets/beans/index.json"><meta name="fa-processes-src" content="../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../build.json"><link rel="stylesheet" href="../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../assets/css/docs-ui.css?v=bc069af02094"><link rel="stylesheet" href="../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["archimate","beans","business-processes","folio","fsh-guts","glossary","references","todos","uploads"]</script><script src="../../assets/js/harness-data.js" defer></script>
+<link rel="stylesheet" href="../../assets/css/docs-ui.css?v=1eebbbe844d9"><link rel="stylesheet" href="../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../assets/css/work-plan.css?v=63b259829c69"><link rel="stylesheet" href="../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../assets/css/avatars.css?v=dc8694990be6"><script type="application/json" id="fa-declared-kinds">["archimate","beans","business-processes","folio","fsh-guts","glossary","references","todos","uploads"]</script><script src="../../assets/js/harness-data.js" defer></script>
 <script src="../../assets/js/vendor/qrcode.js" defer></script>
 <script src="../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../assets/js/kg-render.js" defer></script><script src="../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script><script src="../../assets/js/edit-links.js?v=fa88b59b0bd5" defer></script><script src="../../assets/js/work-plan.js" defer></script><script src="../../assets/js/process-index.js" defer></script><style>
+<script src="../../assets/js/docs-ui.js?v=829c614a8b9d" defer></script><script src="../../assets/js/edit-links.js?v=ee68944d6d0b" defer></script><script src="../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><script src="../../assets/js/work-plan.js" defer></script><script src="../../assets/js/process-index.js" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -233,6 +233,7 @@
 .fa-doc .cite { opacity: .72; }
 .fa-doc .fa-blk:empty { min-height: 3rem; }
 .fa-doc .fa-one-page { font-size: .85rem; opacity: .72; }
+.fa-doc .fa-downloads { font-size: .9rem; }
 .fa-doc .pc-bar { position: static; background: none; }
 
   .fa-doc table { display: block; box-sizing: border-box; width: max-content; min-width: 0; max-width: 100%; overflow-x: auto; margin: 1.5rem 0; border-collapse: collapse;
@@ -288,6 +289,8 @@ html.fa-bp .fa-block-panel .block-actions > .ba-existing { display:block; }
   
 </h1>
     
+<p class="fa-downloads">Download the current version: <a href="export/dth-phc-public-comment-latest.docx" download type="application/vnd.openxmlformats-officedocument.wordprocessingml.document">Word (.docx)</a> · <a href="export/dth-phc-public-comment-latest.pdf" download type="application/pdf">PDF</a> · <a href="export/">all formats</a></p>
+
 <p><a id="chap:front-matter"></a></p>
 <h2 id="h-chap:front-matter">
   
@@ -7872,7 +7875,7 @@ Email: <a href="mailto:srhhrp@who.int">srhhrp@who.int</a></p>
     ".fa-suggest-status{color:#5b6770;font-size:.9rem;margin:.25rem .75rem}",
     ".fa-suggest-status:empty{display:none}",
     ".fa-suggest-editor{flex:1;min-height:8rem;overflow:auto;margin:0}",
-    ".fa-suggest-editor textarea{width:100%;height:100%;min-height:12rem;box-sizing:border-box;font-family:ui-monospace,monospace;font-size:.9rem;border:0;padding:.75rem;resize:none}",
+    ".fa-suggest-editor textarea{width:100%;height:100%;min-height:12rem;box-sizing:border-box;font-family:var(--fa-font-mono,Menlo,Consolas,monospace);font-size:.9rem;border:0;padding:.75rem;resize:none}",
     "dialog.fa-suggest .milkdown .ProseMirror{padding:.75rem 1rem}",
     "dialog.fa-suggest .ProseMirror a{text-decoration-style:dotted}",
     "ins.fa-sg-ins,.fa-sg-ins-block{color:#0b6b2a;background:#e6f4ea;text-decoration:underline 3px;text-underline-offset:3px}",
@@ -8448,6 +8451,21 @@ Email: <a href="mailto:srhhrp@who.int">srhhrp@who.int</a></p>
     "html.fa-bp .block-actions>.ba-bookmark[aria-pressed=true]{opacity:1;filter:none;background:color-mix(in srgb,var(--link,#0b5cad) 24%,transparent);box-shadow:inset 0 0 0 1.5px var(--link,#0b5cad)}" +
     "html.fa-bp .block-actions>.ba-bookmark[aria-pressed=true]:hover{background:color-mix(in srgb,var(--link,#0b5cad) 34%,transparent)}" +
     "html.fa-bp .main-content .anchor-heading svg{visibility:visible;opacity:.35;filter:grayscale(1)}" +
+    // Owner, 2026-11-10: "make RHS grill icons 50% bigger on laptop". From
+    // laptop width up, the 🔗, 📣 and 🔖 are half again as big (20px -> 30px
+    // tiles, 1rem -> 1.5rem link icon) and the right gutter widens to fit,
+    // keeping the same spacing to the text. Tablets and phones are unchanged.
+    "@media (min-width:64rem){html.fa-bp .main-content-wrap{padding-right:3.25rem}" +
+    "html.fa-bp .main-content .anchor-heading{right:-3rem;width:2.25rem;padding:0 .375rem}" +
+    "html.fa-bp .main-content .anchor-heading svg{width:1.5rem;height:1.5rem}" +
+    "html.fa-bp .main-content .block-actions{width:2.25rem;margin-right:-4rem}" +
+    // A section box is placed by its right offset, not by the margin above, so it
+    // must not pick up that -4rem margin too: with both, it sat 7rem past the
+    // text and off the right edge of the window (smart-trust-demo, 11-11).
+    "html.fa-bp .main-content .fa-sec-actions{right:-3rem;margin:0}" +
+    "html.fa-bp .fa-page-main.main-content:has(>.fa-sec-actions){margin-right:3.25rem}" +
+    "html.fa-bp .block-actions>.ba-trigger,html.fa-bp .block-actions>.ba-bookmark{width:30px;height:30px;font-size:20px}" +
+    "html.fa-bp .block-actions>.ba-trigger .ba-n{top:-5px;right:-8px;font-size:12px;padding:0 4px}}" +
     "html.fa-bp .main-content .fa-hot>.anchor-heading svg,html.fa-bp .main-content :hover>.anchor-heading svg,html.fa-bp .main-content .anchor-heading:focus svg" + ON +
     ".fa-block-panel .bp-copy{font:inherit;font-size:.82rem;margin:.1rem .35rem .3rem 0;padding:.3rem .6rem;border:1px solid #8886;border-radius:6px;background:none;color:inherit;cursor:pointer}" +
     ".fa-block-panel .bp-copy.ba-copied,.fa-block-panel .bp-bookmark[aria-pressed=true]{border-color:#2e7d32;background:#2e7d32;color:#fff}" +

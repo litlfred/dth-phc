@@ -12,7 +12,7 @@
 <!-- id&#45;f180ad44b2e94e2a9ee8523ffc900264 -->
 <g id="node1" class="node">
 <title>id&#45;f180ad44b2e94e2a9ee8523ffc900264</title>
-<g id="a_node1"><a xlink:href="../../en/dth-phc/archimate/0.1.0-draft.1/elements/shared-health-record/" xlink:title="Shared Health Record (Business Object)" target="_top">
+<g id="a_node1"><a xlink:href="../../en/dth-phc/archimate/0.1.0-draft.1/element/shared-health-record/" xlink:title="Shared Health Record (Business Object)" target="_top">
 <polygon fill="#ffffb5" stroke="black" points="202.48,-95.52 0,-95.52 0,0 202.48,0 202.48,-95.52"/>
 <text text-anchor="middle" x="101.24" y="-80.76" font-family="Helvetica,sans-Serif" font-size="10.00">«Business Object»</text>
 <text text-anchor="middle" x="101.24" y="-68.76" font-family="Helvetica,sans-Serif" font-size="10.00">Shared Health Record</text>

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-7cafc859c8a08c43588ba06b239dcbee",
+  "@type": "archimate:Stakeholder",
+  "schema:identifier": "id-7cafc859c8a08c43588ba06b239dcbee",
+  "schema:name": "Policy Makers",
+  "schema:description": "Served by the layer 'Defining a target population and understanding their needs' in WHO 9789240093362, Fig. 3 (p. 17).",
+  "schema:category": "Motivation",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

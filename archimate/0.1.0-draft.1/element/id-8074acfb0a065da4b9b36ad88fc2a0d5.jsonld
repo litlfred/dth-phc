@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-8074acfb0a065da4b9b36ad88fc2a0d5",
+  "@type": "archimate:BusinessRole",
+  "schema:identifier": "id-8074acfb0a065da4b9b36ad88fc2a0d5",
+  "schema:name": "Health informatician",
+  "schema:description": "Leads requirements gathering alongside business analysts and user researchers, and provides expert guidance during design and adaptation to ensure the digital health system adheres to semantic classifications, terminology standards and syntactic interoperability standards such as HL7 FHIR. (Section 2.2, Ch. 3-4 panels, PDF 24, 30, 52)",
+  "schema:category": "Business",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

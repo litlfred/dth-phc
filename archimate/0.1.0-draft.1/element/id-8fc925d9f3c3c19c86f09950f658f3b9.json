@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-8fc925d9f3c3c19c86f09950f658f3b9",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-8fc925d9f3c3c19c86f09950f658f3b9",
+  "schema:name": "Patient portal",
+  "schema:description": "To help support patient self care and self management",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}

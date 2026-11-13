@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "archimate": "http://www.opengroup.org/xsd/archimate/3.0/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-a9de9d3bebca5852b7b9c55519e7ab2d",
+  "@type": "archimate:ApplicationComponent",
+  "schema:identifier": "id-a9de9d3bebca5852b7b9c55519e7ab2d",
+  "schema:name": "Electronic health record system",
+  "schema:description": "A secure, online system that holds health service user health records, which include information about people's health and clinical care. This system is managed by health workers. Also referred to as an 'electronic medical record system'. (PDF 8, 18)",
+  "schema:category": "Application",
+  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+}
