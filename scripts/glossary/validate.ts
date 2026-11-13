@@ -290,7 +290,9 @@ if (existsSync(FOLIO_DIR)) {
 
   // The overlay's reference copies must name an item smart-ra holds, and an item
   // the overlay owns must not also be in smart-ra (that would be a model addition).
-  const baseIriRe = /^https:\/\/litlfred\.github\.io\/smart-ra\/archimate\/([^/]+)\/(elements|views)\/([^/]+)\.jsonld$/;
+  // Both IRI forms the platform reads (folio-assistant-core glossary-validate.ts
+  // `archimateIriOf`): `…/elements/<id>.jsonld` and the singular `…/element/<id>`.
+  const baseIriRe = /^https:\/\/litlfred\.github\.io\/smart-ra\/archimate\/([^/]+)\/(?:(?:elements|views)\/([^/]+)\.jsonld|(?:element|view)\/([^/.]+))$/;
   let overlayBase = 0;
   let overlayOwned = 0;
   if (raArchimateByModel.size > 0) {
@@ -300,9 +302,10 @@ if (existsSync(FOLIO_DIR)) {
         const owner = e.properties.find((p) => p.key === "overlay:owner")?.value;
         if (base) {
           const m = base.match(baseIriRe);
+          const baseId = m ? (m[2] ?? m[3])! : "";
           if (!m) fail(`archimate ${ver}: '${e.name}' has an overlay:base that is not a smart-ra ArchiMate IRI: ${base}`);
           else if (!raArchimateByModel.has(m[1])) fail(`archimate ${ver}: '${e.name}' names smart-ra model ${m[1]}, which the pinned dpi-h-ra does not hold`);
-          else if (!raArchimateByModel.get(m[1])!.ids.has(m[3]) || m[3] !== e.id) fail(`archimate ${ver}: '${e.name}' copies ${m[3]}, which smart-ra ${m[1]} does not hold under this id`);
+          else if (!raArchimateByModel.get(m[1])!.ids.has(baseId) || baseId !== e.id) fail(`archimate ${ver}: '${e.name}' copies ${baseId}, which smart-ra ${m[1]} does not hold under this id`);
           else overlayBase++;
         } else if (owner === "dth-phc") {
           for (const [rv, { ids }] of raArchimateByModel) {
