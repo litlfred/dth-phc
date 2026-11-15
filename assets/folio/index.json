@@ -1996,8 +1996,8 @@
         },
         {
           "path": "dth-phc/figure-exclusions.json",
-          "bytes": 1019,
-          "size": "1019 B"
+          "bytes": 1211,
+          "size": "1.2 KB"
         },
         {
           "path": "dth-phc/front-matter/front-matter.ts",
