@@ -1,13 +1,9 @@
 {
-  "@context": [
-    "https://openprovenance.org/prov-jsonld/context.jsonld",
-    {
-      "skos": "http://www.w3.org/2004/02/skos/core#",
-      "dcterms": "http://purl.org/dc/terms/",
-      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-      "prov": "http://www.w3.org/ns/prov#"
-    }
-  ],
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
   "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
   "@graph": [
     {
@@ -6338,39 +6334,6 @@
       "skos:scopeNote": "Named in Table 4 (section 4.4); expansion supplied for review. A candidate: no definition has been written.",
       "dcterms:source": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
       "skos:note": "candidate"
-    },
-    {
-      "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/_automated-matches",
-      "@type": "Entity",
-      "label": "Automated label matches from check:term-mapping. Not confirmed by a person.",
-      "@graph": [
-        {
-          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-story",
-          "skos:exactMatch": [
-            {
-              "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/user-story"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "@type": "Generation",
-      "entity": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/_automated-matches",
-      "activity": "_:term-mapping-run"
-    },
-    {
-      "@id": "_:term-mapping-run",
-      "@type": "Activity",
-      "label": "check:term-mapping: a normalised-label match against authorised vocabularies, run by a program"
-    },
-    {
-      "@type": "Association",
-      "activity": "_:term-mapping-run",
-      "agent": {
-        "@id": "https://litlfred.github.io/cat-harness/v0/scenarios/actors/ci-pipeline",
-        "@type": "prov:SoftwareAgent"
-      }
     }
   ]
 }
