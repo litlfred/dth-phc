@@ -1,0 +1,87 @@
+{
+ "$schema": "site-parity-report/v1",
+ "outcome": "carries-everything",
+ "shortfall": [],
+ "droppedByRuling": [],
+ "current": {
+  "pages": 1181,
+  "counts": {
+   "siteNav": 0,
+   "search": 180,
+   "navbarRow": 180,
+   "rail": 880,
+   "translationMeta": 48
+  },
+  "dirs": [
+   "archimate",
+   "assets",
+   "cat-harness",
+   "dth-phc",
+   "en",
+   "folio-assistant-core",
+   "id-lookup",
+   "smart-base"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ]
+ },
+ "candidate": {
+  "pages": 8599,
+  "counts": {
+   "siteNav": 0,
+   "search": 181,
+   "navbarRow": 181,
+   "rail": 8296,
+   "translationMeta": 49
+  },
+  "dirs": [
+   "archimate",
+   "assets",
+   "cat-harness",
+   "dth-phc",
+   "en",
+   "folio-assistant-core",
+   "id-lookup",
+   "smart-base"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ]
+ },
+ "baseline": {
+  "features": {
+   "pages": 8599,
+   "counts": {
+    "siteNav": 0,
+    "search": 181,
+    "navbarRow": 181,
+    "rail": 8296,
+    "translationMeta": 49
+   },
+   "dirs": [
+    "archimate",
+    "assets",
+    "cat-harness",
+    "dth-phc",
+    "en",
+    "folio-assistant-core",
+    "id-lookup",
+    "smart-base"
+   ],
+   "index": [
+    "search",
+    "navbarRow",
+    "rail",
+    "translationMeta"
+   ]
+  },
+  "from": "bc5cc30aad3a"
+ }
+}

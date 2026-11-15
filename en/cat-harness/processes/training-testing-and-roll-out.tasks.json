@@ -169,7 +169,8 @@
    "laneHref": "training-testing-and-roll-out.html#lane-Lane-Ch5-Users",
    "skills": [
     {
-     "name": "test-plan-execution"
+     "name": "test-plan-execution",
+     "href": "../../../en/cat-harness/processes/skills/test-plan-execution.html"
     }
    ],
    "binding": "dangling"
