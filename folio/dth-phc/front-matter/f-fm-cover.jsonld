@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/fig-cover",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "label": "fig:cover",
+  "kind": "figure",
+  "title": "Cover",
+  "text": "f-fm-cover.md",
+  "meta": {
+    "title": "Cover",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-front-matter",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-front-matter.md",
+      "pdfPages": [
+        1
+      ],
+      "method": "cited",
+      "figureFile": "who-iris/library/9789240093362-eng/cover.png",
+      "pdf": "who-iris/uploads/9789240093362-eng/9789240093362-eng.pdf",
+      "generator": "scripts/figures/cover.py",
+      "citation": "WHO. Digital transformation handbook for primary health care: optimizing person-centred point of service systems. Geneva: World Health Organization; 2024. ISBN 978-92-4-009336-2. Licence: CC BY-NC-SA 3.0 IGO.",
+      "decision": "owner card 2026-11-16 (Q3 = A): the original cover, unchanged and cited as the source's cover",
+      "issue": "litlfred/dth-phc#60"
+    }
+  },
+  "provenance": "authored"
+}
