@@ -1,0 +1,459 @@
+{
+ "$schema": "dth-phc-as-drawn-figure/v1",
+ "$comment": "Fig. 3 as drawn: where the original places each element of the overlay's view 'PHC digital ecosystem (Fig. 3)', in PDF points on page 17 of the handbook. The words come from the model (asserted equal to the printed lines in who-iris vector-labels.json); the shapes and pictograms are the PDF's own vector paths (archimate/fig-3-pictograms.json). Drawn by scripts/figures/fig3_as_drawn.py.",
+ "figure": "Fig. 3",
+ "title": "Fig. 3. Primary health care digital ecosystem",
+ "source": {
+  "library": "9789240093362-eng",
+  "section": "sec-003-introduction",
+  "pdf": "who-iris/uploads/9789240093362-eng/9789240093362-eng.pdf",
+  "page": 17,
+  "region": [
+   59.69,
+   76.2,
+   536.23,
+   593.69
+  ],
+  "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p017.png",
+  "labels": "who-iris/library/9789240093362-eng/vector-labels.json"
+ },
+ "model": {
+  "file": "archimate/0.1.0-draft.1/dth-phc-overlay.archimate",
+  "modelId": "0.1.0-draft.1",
+  "view": "id-ad0f062a4ea2429f7ee98665aea95a6d"
+ },
+ "pictograms": "archimate/fig-3-pictograms.json",
+ "shapes": {
+  "frame": {
+   "box": [
+    59.6,
+    76.6,
+    535.6,
+    593.4
+   ]
+  },
+  "layer-0": {
+   "box": [
+    73.9,
+    89.8,
+    521.3,
+    567.1
+   ],
+   "element": "id-ee40de4391598b534eac5e8d56bea92f"
+  },
+  "layer-1": {
+   "box": [
+    90.2,
+    119.5,
+    438.8,
+    561.7
+   ],
+   "element": "id-4ac61bfc165a1d88910e2e2300a140d4"
+  },
+  "layer-2": {
+   "box": [
+    107.6,
+    150.5,
+    352.3,
+    557.7
+   ],
+   "element": "id-6a50f512b2fa73c786c163bf707e7575"
+  },
+  "layer-3": {
+   "box": [
+    122.1,
+    185.9,
+    263.2,
+    553.2
+   ],
+   "element": "id-97d03a0f5b7feb157f35af23a295b44c"
+  },
+  "notch-1": {
+   "box": [
+    80.2,
+    266.2,
+    107.6,
+    386.9
+   ],
+   "element": "id-4ac61bfc165a1d88910e2e2300a140d4"
+  },
+  "notch-2": {
+   "box": [
+    90.2,
+    273.3,
+    122.1,
+    379.8
+   ],
+   "element": "id-6a50f512b2fa73c786c163bf707e7575"
+  },
+  "notch-3": {
+   "box": [
+    101.2,
+    282.7,
+    149.5,
+    370.4
+   ],
+   "element": "id-97d03a0f5b7feb157f35af23a295b44c"
+  }
+ },
+ "note": {
+  "text": [
+   75,
+   568,
+   510,
+   590
+  ],
+  "colour": "#000000",
+  "match": "view-documentation-suffix"
+ },
+ "items": [
+  {
+   "element": "id-ee40de4391598b534eac5e8d56bea92f",
+   "kind": "layer",
+   "text": [
+    88,
+    92,
+    400,
+    108
+   ],
+   "match": "equal",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-7cafc859c8a08c43588ba06b239dcbee",
+   "kind": "stakeholder",
+   "text": [
+    88,
+    105,
+    200,
+    117.5
+   ],
+   "match": "equal",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-4ac61bfc165a1d88910e2e2300a140d4",
+   "kind": "layer",
+   "text": [
+    106,
+    121,
+    330,
+    137
+   ],
+   "match": "equal",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-0e312c6afc23ccad03e4d4273c4dc771",
+   "kind": "stakeholder",
+   "text": [
+    106,
+    134,
+    220,
+    146.5
+   ],
+   "match": "equal",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-6a50f512b2fa73c786c163bf707e7575",
+   "kind": "layer",
+   "text": [
+    120,
+    155,
+    280,
+    170
+   ],
+   "match": "equal",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-231e8a69ecc37e3a10e7f7368a3a34be",
+   "kind": "stakeholder",
+   "text": [
+    120,
+    167,
+    210,
+    179.5
+   ],
+   "match": "equal",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-97d03a0f5b7feb157f35af23a295b44c",
+   "kind": "layer",
+   "text": [
+    129,
+    188,
+    260,
+    215
+   ],
+   "match": "equal",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-809d7ef4829bf876f33095cf30a48461",
+   "kind": "stakeholder",
+   "text": [
+    129,
+    212,
+    240,
+    235
+   ],
+   "match": "equal",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-d1e988d35cc563b8fca0d97c3ba4ca48",
+   "kind": "centre",
+   "icon": [
+    111.7,
+    283.2,
+    140.2,
+    326.7
+   ],
+   "text": [
+    100,
+    322,
+    150,
+    368
+   ],
+   "match": "documentation-prefix",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-8810f35620fd4bd1bde7baf5ada085d0",
+   "kind": "component",
+   "icon": [
+    274.2,
+    189.2,
+    312.7,
+    226.7
+   ],
+   "text": [
+    273,
+    223,
+    345,
+    259
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-8fc925d9f3c3c19c86f09950f658f3b9",
+   "kind": "component",
+   "icon": [
+    148.2,
+    240.7,
+    178.7,
+    288.2
+   ],
+   "text": [
+    183,
+    243,
+    252,
+    279
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-c1828d1712d41499f0700ea0212bca12",
+   "kind": "component",
+   "icon": [
+    359.2,
+    223.2,
+    402.7,
+    261.7
+   ],
+   "text": [
+    362,
+    260,
+    440,
+    341
+   ],
+   "match": "name-and-documentation",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-b30d869f9ebbc635942476869aa5a608",
+   "kind": "component",
+   "icon": [
+    449.2,
+    225.7,
+    482.7,
+    259.2
+   ],
+   "text": [
+    452,
+    260,
+    512,
+    328
+   ],
+   "match": "name-and-documentation",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-2d44df3f11f4d5390586d6486c08feb8",
+   "kind": "component",
+   "icon": [
+    144.7,
+    298.2,
+    182.7,
+    336.7
+   ],
+   "text": [
+    183,
+    304,
+    250,
+    356
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-3b00c008fe9ffff1d0be095c93b16fb5",
+   "kind": "component",
+   "icon": [
+    271.7,
+    275.7,
+    312.7,
+    316.7
+   ],
+   "text": [
+    273,
+    314,
+    345,
+    358
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-7f6d7d62804c7f74f8d38f6eae4d49a2",
+   "kind": "component",
+   "icon": [
+    146.7,
+    365.7,
+    180.2,
+    409.2
+   ],
+   "text": [
+    183,
+    372,
+    250,
+    408
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-27b71213bc25d5adf0dbf3b0191af355",
+   "kind": "component",
+   "icon": [
+    269.2,
+    370.7,
+    310.2,
+    414.2
+   ],
+   "text": [
+    273,
+    410,
+    347,
+    461
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-7e2d5f0c273f74192dcaa4ea29a0e72d",
+   "kind": "component",
+   "icon": [
+    360.7,
+    373.2,
+    396.7,
+    411.7
+   ],
+   "text": [
+    362,
+    415,
+    440,
+    467
+   ],
+   "match": "name-and-documentation",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-78b68512c281117dff979f9a5649cd92",
+   "kind": "component",
+   "icon": [
+    450.7,
+    373.2,
+    485.2,
+    410.2
+   ],
+   "text": [
+    452,
+    415,
+    505,
+    467
+   ],
+   "match": "name-and-documentation",
+   "colour": "#FFFFFF"
+  },
+  {
+   "element": "id-1fa83a115853e4b28f4f84754fee4a3d",
+   "kind": "component",
+   "icon": [
+    148.2,
+    428.2,
+    180.2,
+    474.2
+   ],
+   "text": [
+    183,
+    429,
+    250,
+    473
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-48accc51eb0c33c8c7cad78503f53b28",
+   "kind": "component",
+   "icon": [
+    144.2,
+    495.7,
+    185.2,
+    534.2
+   ],
+   "text": [
+    183,
+    497,
+    260,
+    541
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  },
+  {
+   "element": "id-141ad21fddfbbbc863f8c7b6bdf69ac6",
+   "kind": "component",
+   "icon": [
+    270.7,
+    465.7,
+    308.7,
+    499.2
+   ],
+   "text": [
+    272,
+    501,
+    330,
+    545
+   ],
+   "match": "name-and-documentation",
+   "colour": "#0099D6"
+  }
+ ]
+}

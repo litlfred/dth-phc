@@ -1,4 +1,4 @@
-![Fig. 3. Delivering an integrated ecosystem of information systems and digital health solutions supports the PHC approach](media/fig-3-phc-digital-ecosystem.svg)
+![Fig. 3. Delivering an integrated ecosystem of information systems and digital health solutions supports the PHC approach](media/fig-3-phc-digital-ecosystem-as-drawn.svg)
 
 Fig. 3	
 Delivering an integrated ecosystem of information systems and digital health solutions 
