@@ -29,7 +29,7 @@
     {
       "harness": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "ref": "f888b0c95de8f7b38e4ebc8a5b76c858aa9ef887"
+      "ref": "8dbf8023d8563ea023be0d8c153f7a0d39e888c0"
     },
     {
       "harness": "bootstrap",
@@ -44,7 +44,7 @@
     {
       "harness": "dpi-h-ra",
       "repository": "litlfred/smart-ra",
-      "ref": "5c8105126a0d440cad4856f3ff292bec1c61bee3"
+      "ref": "4ff3621433dae8e6a44f303c043845f52d3f7fe8"
     }
   ],
   "instances": [
@@ -147,7 +147,7 @@
     {
       "instance": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "sha": "f888b0c95de8f7b38e4ebc8a5b76c858aa9ef887",
+      "sha": "8dbf8023d8563ea023be0d8c153f7a0d39e888c0",
       "upstreamRoot": "",
       "path": "cat-harness-tools",
       "via": "cat-harness-tools",
@@ -161,7 +161,7 @@
           "id": "*",
           "path": "cat-harness-tools",
           "upstreamPath": ".",
-          "treeDigest": "e5c8fea618f295a1ac6cbc0040151a4bc7e9f39b6c2d3e38fef34b15ee04f43f",
+          "treeDigest": "01fe5f439b0e03ba1ce9c0cb169c835143a1edb443a6d61ceb8d44f25cd3f515",
           "files": 4974
         }
       ],
@@ -169,14 +169,14 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-16",
-        "ref": "f888b0c95de8f7b38e4ebc8a5b76c858aa9ef887",
+        "ref": "8dbf8023d8563ea023be0d8c153f7a0d39e888c0",
         "approver": "declared"
       }
     },
     {
       "instance": "dpi-h-ra",
       "repository": "litlfred/smart-ra",
-      "sha": "5c8105126a0d440cad4856f3ff292bec1c61bee3",
+      "sha": "4ff3621433dae8e6a44f303c043845f52d3f7fe8",
       "upstreamRoot": "",
       "path": "dpi-h-ra",
       "via": "dpi-h-ra",
@@ -214,8 +214,8 @@
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-11-15",
-        "ref": "5c8105126a0d440cad4856f3ff292bec1c61bee3",
+        "on": "2026-11-16",
+        "ref": "4ff3621433dae8e6a44f303c043845f52d3f7fe8",
         "approver": "declared"
       }
     },

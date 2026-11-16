@@ -210,7 +210,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "f888b0c95de8f7b38e4ebc8a5b76c858aa9ef887",
+          "ref": "8dbf8023d8563ea023be0d8c153f7a0d39e888c0",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -223,7 +223,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-16",
-              "ref": "f888b0c95de8f7b38e4ebc8a5b76c858aa9ef887",
+              "ref": "8dbf8023d8563ea023be0d8c153f7a0d39e888c0",
               "evidence": "litlfred 2026-11-16: merge-and-repin window to 23:17Z (owner 17:17Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge window 6 hrs'); re-pin cascade wave 3 catch-up"
             },
             "standing": {
@@ -303,7 +303,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-ra",
-          "ref": "5c8105126a0d440cad4856f3ff292bec1c61bee3",
+          "ref": "4ff3621433dae8e6a44f303c043845f52d3f7fe8",
           "overrides": {
             "dpi-h-ra": {
               "directories": [
@@ -339,9 +339,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "5c8105126a0d440cad4856f3ff292bec1c61bee3",
-              "evidence": "owner litlfred, 2026-11-15 17:50:40Z, card 'Pin dth-phc and dth-sc re-pins to the current layer mains?' option A (project thread 'Triage and fix CI failure emails')"
+              "on": "2026-11-16",
+              "ref": "4ff3621433dae8e6a44f303c043845f52d3f7fe8",
+              "evidence": "litlfred 2026-11-16: merge-and-repin window to 23:17Z (owner 17:17Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge window 6 hrs'); re-pin cascade wave 3 catch-up"
             },
             "standing": {
               "follows": "main",
