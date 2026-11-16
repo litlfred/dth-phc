@@ -1,0 +1,175 @@
+{
+ "$schema": "dth-phc-figure-as-drawn/v1",
+ "$comment": "Fig. 8 as data: the four levels of the broad-to-narrow funnel and the prompts beside each, in the figure's own words (PDF page 32). Adapted by WHO from Tran, 2018 under CC BY-NC-SA 4.0; the source and licence line is kept as printed. Owner card Q1 = A (2026-11-16). Drawn by scripts/figures/as_drawn.py: the artwork is the PDF's own (extract_pdf_artwork.py); the parts' words are checked equal to the printed lines.",
+ "figure": "Fig. 8",
+ "title": "Fig. 8. Example prompts and questions for starting broad and narrowing down",
+ "source": {
+  "library": "9789240093362-eng",
+  "section": "sec-012-31-follow-key-requirement-gathering-methods",
+  "pdf": "who-iris/uploads/9789240093362-eng/9789240093362-eng.pdf",
+  "page": 32,
+  "region": [
+   56.94,
+   55.67,
+   537.51,
+   354.51
+  ],
+  "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p032.png",
+  "labels": "who-iris/library/9789240093362-eng/vector-labels.json"
+ },
+ "artwork": "figure-data/fig-8-broad-to-narrow-prompts.artwork.json",
+ "out": "folio/dth-phc/media/fig-8-broad-to-narrow-prompts.svg",
+ "parts": [
+  {
+   "id": "broad",
+   "role": "axis",
+   "words": "BROAD (Start here)",
+   "box": [
+    78,
+    78,
+    132,
+    106
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "narrow",
+   "role": "axis",
+   "words": "NARROW (End here)",
+   "box": [
+    78,
+    248,
+    132,
+    275
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "trust-bump",
+   "role": "level",
+   "words": "TRUST BUMP",
+   "box": [
+    195,
+    86,
+    280,
+    106
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "birds-eye-view",
+   "role": "level",
+   "words": "BIRD’S EYE VIEW",
+   "box": [
+    190,
+    128,
+    285,
+    147
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "magnifying-glass",
+   "role": "level",
+   "words": "MAGNIFYING GLASS",
+   "box": [
+    200,
+    177,
+    270,
+    206
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "microscope",
+   "role": "level",
+   "words": "MICRO-SCOPE",
+   "box": [
+    210,
+    217,
+    262,
+    245
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "trust-bump-prompt",
+   "role": "prompt",
+   "words": "Intent & Introductions “Tell me about your background… …as a health worker.”",
+   "box": [
+    335,
+    76,
+    520,
+    120
+   ]
+  },
+  {
+   "id": "birds-eye-view-prompt",
+   "role": "prompt",
+   "words": "“Tell me about the last time you… …registered a new client.” …provided antenatal care.” …provided a routine immunization to a child.”",
+   "box": [
+    310,
+    124,
+    515,
+    175
+   ]
+  },
+  {
+   "id": "magnifying-glass-prompt-1",
+   "role": "prompt",
+   "words": "“Can you tell me more… …about how you check for malaria?”",
+   "box": [
+    285,
+    176,
+    495,
+    206
+   ]
+  },
+  {
+   "id": "magnifying-glass-prompt-2",
+   "role": "prompt",
+   "words": "“Can you show me how you… …would fill out a paper register now?”",
+   "box": [
+    285,
+    206,
+    495,
+    230
+   ]
+  },
+  {
+   "id": "microscope-prompt",
+   "role": "prompt",
+   "words": "5 Why’s “Why do you… …wait until the end of the day to fill out your records?” Based on answer, continue to ask why until a root cause is revealed.",
+   "box": [
+    262,
+    224,
+    520,
+    272
+   ]
+  },
+  {
+   "id": "closing",
+   "role": "prompt",
+   "words": "Express gratitude for health worker’s time",
+   "box": [
+    240,
+    284,
+    465,
+    303
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "source",
+   "role": "source",
+   "words": "Source: Tran, 2018 (35). The work was adapted with the addition of questions under each section of the pyramid for contextualization to health care and is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0 DEED. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/).",
+   "box": [
+    70,
+    311,
+    530,
+    345
+   ],
+   "href": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  }
+ ]
+}

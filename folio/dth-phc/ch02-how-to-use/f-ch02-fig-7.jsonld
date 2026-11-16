@@ -35,6 +35,15 @@
         "renderer": "bootstrap-tools/scripts/render-bpmn.ts",
         "decision": "owner card Q-PHC-R4 A, 2026-11-01 10:54Z",
         "issue": "litlfred/dth-phc#1 R4"
+      },
+      "asDrawn": {
+        "svg": "folio/dth-phc/media/fig-7-mvp-iterations.svg",
+        "data": "figure-data/fig-7-mvp-iterations.json",
+        "artwork": "figure-data/fig-7-mvp-iterations.artwork.json",
+        "generator": "scripts/figures/as_drawn.py",
+        "method": "the PDF's own artwork with the figure's words as SVG text, checked equal to the lines printed on PDF page 26",
+        "bpmnSvg": "folio/dth-phc/media/bp-pcposs-implementation-lifecycle.svg",
+        "decision": "owner request 2026-11-16: an SVG for every figure, keeping the original's layout and style (dth-phc#60)"
       }
     },
     "glossaryTerms": [

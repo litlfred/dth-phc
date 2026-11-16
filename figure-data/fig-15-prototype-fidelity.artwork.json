@@ -1,0 +1,920 @@
+{
+ "$schema": "pdf-artwork/v1",
+ "$comment": "The PDF's own drawing paths inside the figure's region and the colour of each printed line, copied by scripts/figures/extract_pdf_artwork.py figure-data/fig-15-prototype-fidelity.json. Not hand-edited.",
+ "source": {
+  "pdf": "who-iris/uploads/9789240093362-eng/9789240093362-eng.pdf",
+  "page": 54,
+  "region": [
+   61.15,
+   58.34,
+   537.04,
+   450.54
+  ],
+  "units": "PDF points on the page"
+ },
+ "paths": [
+  {
+   "fill": "#E6E7E8",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "stroke": "#0099D6",
+   "stroke-width": "6",
+   "stroke-linecap": "butt",
+   "stroke-linejoin": "miter",
+   "stroke-miterlimit": "4",
+   "stroke-opacity": "1",
+   "d": "M 61.144589 391.345986 L 537.035184 391.345986 L 537.035184 783.548983 L 61.144589 783.548983 Z M 61.144589 391.345986",
+   "transform": "matrix(0.998785,0,0,-0.998785,0,841.324)"
+  },
+  {
+   "fill": "#F5A81D",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 104.269531 81.65625 L 226.011719 81.65625 L 226.011719 241.902344 L 104.269531 241.902344 Z M 104.269531 241.902344 L 226.011719 241.902344 L 226.011719 265.257812 L 104.269531 265.257812 Z M 104.269531 241.902344"
+  },
+  {
+   "fill": "#F26829",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 226.011719 81.65625 L 347.753906 81.65625 L 347.753906 241.902344 L 226.011719 241.902344 Z M 226.011719 241.902344 L 347.753906 241.902344 L 347.753906 265.257812 L 226.011719 265.257812 Z M 226.011719 241.902344"
+  },
+  {
+   "fill": "#A7228B",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 347.753906 81.65625 L 469.496094 81.65625 L 469.496094 241.902344 L 347.753906 241.902344 Z M 347.753906 241.902344 L 469.496094 241.902344 L 469.496094 265.257812 L 347.753906 265.257812 Z M 347.753906 241.902344"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "0.5",
+   "stroke-linecap": "butt",
+   "stroke-linejoin": "miter",
+   "stroke-miterlimit": "10",
+   "stroke-opacity": "1",
+   "d": "M -0.000796181 0.00154088 L -0.000796181 23.385416",
+   "transform": "matrix(0.998785,0,0,-0.998785,226.013,265.259)"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "0.5",
+   "stroke-linecap": "butt",
+   "stroke-linejoin": "miter",
+   "stroke-miterlimit": "10",
+   "stroke-opacity": "1",
+   "d": "M -0.000340652 0.00154088 L -0.000340652 23.385416",
+   "transform": "matrix(0.998785,0,0,-0.998785,347.754,265.259)"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "0.5",
+   "stroke-linecap": "butt",
+   "stroke-linejoin": "miter",
+   "stroke-miterlimit": "10",
+   "stroke-opacity": "1",
+   "d": "M -0.000796181 -0.000358911 L -0.000796181 151.875541",
+   "transform": "matrix(0.998785,0,0,-0.998785,226.013,416.949)"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "0.5",
+   "stroke-linecap": "butt",
+   "stroke-linejoin": "miter",
+   "stroke-miterlimit": "10",
+   "stroke-opacity": "1",
+   "d": "M -0.000340652 -0.000358911 L -0.000340652 151.875541",
+   "transform": "matrix(0.998785,0,0,-0.998785,347.754,416.949)"
+  },
+  {
+   "fill": "#FFFFFF",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 129.066406 157.535156 C 122.449219 157.535156 117.082031 162.898438 117.082031 169.519531 L 117.082031 222.886719 C 117.082031 229.503906 122.449219 234.871094 129.066406 234.871094 L 185.078125 234.871094 C 191.695312 234.871094 197.0625 229.503906 197.0625 222.886719 L 197.0625 169.519531 C 197.0625 162.898438 191.695312 157.535156 185.078125 157.535156 Z M 129.066406 157.535156"
+  },
+  {
+   "fill": "#FFFFFF",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 384.996094 88.691406 C 378.378906 88.691406 373.011719 94.058594 373.011719 100.675781 L 373.011719 154.042969 C 373.011719 160.660156 378.378906 166.027344 384.996094 166.027344 L 441.007812 166.027344 C 447.625 166.027344 452.992188 160.660156 452.992188 154.042969 L 452.992188 100.675781 C 452.992188 94.058594 447.625 88.691406 441.007812 88.691406 Z M 384.996094 88.691406"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "2",
+   "stroke-linecap": "round",
+   "stroke-linejoin": "round",
+   "stroke-miterlimit": "4",
+   "stroke-opacity": "1",
+   "stroke-dasharray": "0 4.017",
+   "d": "M -0.000699175 0.00184547 L -0.000699175 -158.65573",
+   "transform": "matrix(0.998785,0,0,-0.998785,85.8601,81.4315)"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "2",
+   "stroke-linecap": "round",
+   "stroke-linejoin": "round",
+   "stroke-miterlimit": "4",
+   "stroke-opacity": "1",
+   "d": "M -0.000699175 -0.00106756 L -0.000699175 -0.00106756 M -0.000699175 -164.681584 L -0.000699175 -164.681584",
+   "transform": "matrix(0.998785,0,0,-0.998785,85.8601,77.4208)"
+  },
+  {
+   "fill": "#000000",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 85.859375 70.503906 L 81.960938 81.214844 C 81.960938 81.214844 85.859375 77.421875 89.757812 81.214844 Z M 85.859375 70.503906"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "2",
+   "stroke-linecap": "round",
+   "stroke-linejoin": "round",
+   "stroke-miterlimit": "4",
+   "stroke-opacity": "1",
+   "stroke-dasharray": "0 4.006",
+   "d": "M -0.0016342 0.0000155467 L 430.615214 0.0000155467",
+   "transform": "matrix(0.998785,0,0,-0.998785,89.861,241.902)"
+  },
+  {
+   "fill": "none",
+   "stroke": "#000000",
+   "stroke-width": "2",
+   "stroke-linecap": "round",
+   "stroke-linejoin": "round",
+   "stroke-miterlimit": "4",
+   "stroke-opacity": "1",
+   "d": "M -0.000699175 0.0000155467 L -0.000699175 0.0000155467 M 436.623447 0.0000155467 L 436.623447 0.0000155467",
+   "transform": "matrix(0.998785,0,0,-0.998785,85.8601,241.902)"
+  },
+  {
+   "fill": "#000000",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 528.867188 241.902344 L 518.160156 238.003906 C 518.160156 238.003906 521.953125 241.902344 518.160156 245.796875 Z M 528.867188 241.902344"
+  },
+  {
+   "fill": "none",
+   "stroke": "#FFFFFF",
+   "stroke-width": "2",
+   "stroke-linecap": "butt",
+   "stroke-linejoin": "miter",
+   "stroke-miterlimit": "4",
+   "stroke-opacity": "1",
+   "d": "M -0.000924203 -0.000124742 L 169.924245 71.899717",
+   "transform": "matrix(0.998785,0,0,-0.998785,197.063,201.863)"
+  },
+  {
+   "fill": "#FFFFFF",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 373.152344 127.359375 L 361.769531 127.941406 C 361.769531 127.941406 366.78125 130.050781 364.808594 135.121094 Z M 373.152344 127.359375"
+  },
+  {
+   "fill": "#FFFFFF",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 257.03125 124.527344 C 250.414062 124.527344 245.046875 129.890625 245.046875 136.511719 L 245.046875 189.878906 C 245.046875 196.496094 250.414062 201.863281 257.03125 201.863281 L 313.042969 201.863281 C 319.660156 201.863281 325.027344 196.496094 325.027344 189.878906 L 325.027344 136.511719 C 325.027344 129.890625 319.660156 124.527344 313.042969 124.527344 Z M 257.03125 124.527344"
+  },
+  {
+   "fill": "#E6E7E8",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 478.308594 275.292969 L 510.277344 275.292969 L 510.277344 205.859375 L 478.308594 205.859375 Z M 478.308594 275.292969"
+  },
+  {
+   "fill": "#E6E7E8",
+   "fill-rule": "nonzero",
+   "fill-opacity": "1",
+   "d": "M 67.457031 184.1875 L 104.261719 184.1875 L 104.261719 152.226562 L 67.457031 152.226562 Z M 67.457031 184.1875"
+  }
+ ],
+ "lineColours": [
+  {
+   "text": "Higher fidelity",
+   "bbox": [
+    379.13,
+    102.85,
+    438.04,
+    114.78
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 9.0,
+   "baseline": 112.25,
+   "colour": "#A7228B"
+  },
+  {
+   "text": "prototypes",
+   "bbox": [
+    379.13,
+    113.85,
+    424.33,
+    125.78
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 9.0,
+   "baseline": 123.24,
+   "colour": "#A7228B"
+  },
+  {
+   "text": "e.g. clickable",
+   "bbox": [
+    379.13,
+    127.22,
+    429.57,
+    138.57
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 136.22,
+   "colour": "#000000"
+  },
+  {
+   "text": "prototypes",
+   "bbox": [
+    379.13,
+    140.22,
+    420.0,
+    151.57
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 149.21,
+   "colour": "#000000"
+  },
+  {
+   "text": "Moderate fidelity",
+   "bbox": [
+    251.01,
+    145.23,
+    320.71,
+    157.15
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 9.0,
+   "baseline": 154.58,
+   "colour": "#F26829"
+  },
+  {
+   "text": "Level of",
+   "bbox": [
+    67.54,
+    149.88,
+    96.55,
+    160.48
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 158.22,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "prototypes",
+   "bbox": [
+    251.01,
+    156.23,
+    296.21,
+    168.15
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 9.0,
+   "baseline": 165.57,
+   "colour": "#F26829"
+  },
+  {
+   "text": "prototype",
+   "bbox": [
+    67.54,
+    160.88,
+    104.17,
+    171.48
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 169.2,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "e.g. mockups",
+   "bbox": [
+    251.01,
+    169.6,
+    302.53,
+    180.95
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 178.55,
+   "colour": "#000000"
+  },
+  {
+   "text": "Low fidelity",
+   "bbox": [
+    122.89,
+    171.78,
+    171.5,
+    183.7
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 9.0,
+   "baseline": 181.09,
+   "colour": "#F5A81D"
+  },
+  {
+   "text": "fidelity",
+   "bbox": [
+    67.54,
+    171.88,
+    92.93,
+    182.48
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 180.19,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "prototypes",
+   "bbox": [
+    122.89,
+    182.78,
+    168.09,
+    194.7
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 9.0,
+   "baseline": 192.08,
+   "colour": "#F5A81D"
+  },
+  {
+   "text": "e.g. sketches,",
+   "bbox": [
+    122.89,
+    196.15,
+    174.81,
+    207.49
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 205.07,
+   "colour": "#000000"
+  },
+  {
+   "text": "wireframes",
+   "bbox": [
+    122.89,
+    209.15,
+    164.83,
+    220.49
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 218.05,
+   "colour": "#000000"
+  },
+  {
+   "text": "Time",
+   "bbox": [
+    493.24,
+    215.34,
+    512.5,
+    225.94
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 223.6,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "required",
+   "bbox": [
+    480.48,
+    223.34,
+    512.5,
+    233.94
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 231.59,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "to",
+   "bbox": [
+    503.54,
+    231.34,
+    512.5,
+    241.94
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 239.58,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "develop",
+   "bbox": [
+    482.64,
+    239.34,
+    512.5,
+    249.94
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 247.57,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "the",
+   "bbox": [
+    499.12,
+    247.34,
+    512.5,
+    257.94
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 255.56,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "Validation",
+   "bbox": [
+    108.4,
+    248.36,
+    157.66,
+    262.93
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 11.0,
+   "baseline": 259.6,
+   "colour": "#FFFFFF"
+  },
+  {
+   "text": "Refinement",
+   "bbox": [
+    230.29,
+    248.36,
+    286.97,
+    262.93
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 11.0,
+   "baseline": 259.6,
+   "colour": "#FFFFFF"
+  },
+  {
+   "text": "Deployment",
+   "bbox": [
+    352.18,
+    248.36,
+    411.69,
+    262.93
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 11.0,
+   "baseline": 259.6,
+   "colour": "#FFFFFF"
+  },
+  {
+   "text": "protocol",
+   "bbox": [
+    481.38,
+    255.34,
+    510.9,
+    265.94
+   ],
+   "fonts": [
+    "SourceSansPro-Bold"
+   ],
+   "size": 8.0,
+   "baseline": 263.55,
+   "colour": "#0099D6"
+  },
+  {
+   "text": "•\t Do users need this?",
+   "bbox": [
+    108.4,
+    267.16,
+    192.03,
+    278.51
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 276.0,
+   "colour": "#000000"
+  },
+  {
+   "text": "•\t Could this solution help",
+   "bbox": [
+    230.29,
+    267.16,
+    332.5,
+    278.51
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 276.0,
+   "colour": "#000000"
+  },
+  {
+   "text": "•\t Does this have all the key",
+   "bbox": [
+    352.18,
+    267.16,
+    459.48,
+    278.51
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 276.0,
+   "colour": "#000000"
+  },
+  {
+   "text": "improve service delivery?",
+   "bbox": [
+    241.63,
+    278.16,
+    336.75,
+    289.51
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 286.98,
+   "colour": "#000000"
+  },
+  {
+   "text": "features a user would",
+   "bbox": [
+    363.52,
+    278.16,
+    445.49,
+    289.51
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 286.98,
+   "colour": "#000000"
+  },
+  {
+   "text": "•\t Would this digital record",
+   "bbox": [
+    108.4,
+    283.83,
+    212.96,
+    295.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 292.65,
+   "colour": "#000000"
+  },
+  {
+   "text": "want?",
+   "bbox": [
+    363.52,
+    289.16,
+    385.98,
+    300.51
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 297.97,
+   "colour": "#000000"
+  },
+  {
+   "text": "solve most of their",
+   "bbox": [
+    119.74,
+    294.83,
+    190.73,
+    306.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 303.63,
+   "colour": "#000000"
+  },
+  {
+   "text": "•\t Could this solution help",
+   "bbox": [
+    230.29,
+    294.83,
+    332.5,
+    306.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 303.63,
+   "colour": "#000000"
+  },
+  {
+   "text": "administrative reporting",
+   "bbox": [
+    119.74,
+    305.83,
+    212.72,
+    317.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 314.62,
+   "colour": "#000000"
+  },
+  {
+   "text": "improve accountability?",
+   "bbox": [
+    241.63,
+    305.83,
+    331.82,
+    317.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 314.62,
+   "colour": "#000000"
+  },
+  {
+   "text": "•\t Will users be likely to adopt",
+   "bbox": [
+    352.18,
+    305.83,
+    467.47,
+    317.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 314.62,
+   "colour": "#000000"
+  },
+  {
+   "text": "problems?",
+   "bbox": [
+    119.74,
+    316.83,
+    159.34,
+    328.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 325.61,
+   "colour": "#000000"
+  },
+  {
+   "text": "this solution?",
+   "bbox": [
+    363.52,
+    316.83,
+    413.9,
+    328.18
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 325.61,
+   "colour": "#000000"
+  },
+  {
+   "text": "•\t Will users use this solution",
+   "bbox": [
+    230.29,
+    322.5,
+    342.44,
+    333.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 331.27,
+   "colour": "#000000"
+  },
+  {
+   "text": "as such? Or will they use it",
+   "bbox": [
+    241.63,
+    333.5,
+    341.36,
+    344.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 342.25,
+   "colour": "#000000"
+  },
+  {
+   "text": "•\t What behaviour change",
+   "bbox": [
+    352.18,
+    333.5,
+    453.86,
+    344.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 342.25,
+   "colour": "#000000"
+  },
+  {
+   "text": "for some other purpose?",
+   "bbox": [
+    241.63,
+    344.5,
+    333.27,
+    355.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 353.24,
+   "colour": "#000000"
+  },
+  {
+   "text": "will need to take place",
+   "bbox": [
+    363.52,
+    344.5,
+    448.77,
+    355.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 353.24,
+   "colour": "#000000"
+  },
+  {
+   "text": "to adopt this solution?",
+   "bbox": [
+    363.52,
+    355.5,
+    449.38,
+    366.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 364.23,
+   "colour": "#000000"
+  },
+  {
+   "text": "Are there roadbloacks",
+   "bbox": [
+    363.52,
+    366.5,
+    447.41,
+    377.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 375.21,
+   "colour": "#000000"
+  },
+  {
+   "text": "to adoption that can be",
+   "bbox": [
+    363.52,
+    377.5,
+    452.92,
+    388.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 386.2,
+   "colour": "#000000"
+  },
+  {
+   "text": "addressed technologically",
+   "bbox": [
+    363.52,
+    388.5,
+    463.58,
+    399.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 397.19,
+   "colour": "#000000"
+  },
+  {
+   "text": "or by changing the design?",
+   "bbox": [
+    363.52,
+    399.5,
+    463.59,
+    410.85
+   ],
+   "fonts": [
+    "SourceSansPro-Regular"
+   ],
+   "size": 9.0,
+   "baseline": 408.17,
+   "colour": "#000000"
+  },
+  {
+   "text": "Source: Norman Tran/Stanford school (35), adapted with additional questions, language for clarification and contextualization to health care under license.",
+   "bbox": [
+    77.66,
+    427.4,
+    527.03,
+    437.2
+   ],
+   "fonts": [
+    "SourceSansPro-It",
+    "SourceSansPro-Regular"
+   ],
+   "size": 7.0,
+   "baseline": 434.33,
+   "colour": "#000000"
+  }
+ ]
+}

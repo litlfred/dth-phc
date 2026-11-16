@@ -1,0 +1,215 @@
+{
+ "$schema": "dth-phc-figure-as-drawn/v1",
+ "$comment": "Fig. 15 as data: three prototype fidelities over the validation, refinement and deployment phases, with the questions for each phase, in the figure's own words (PDF page 54; 'roadbloacks' as printed). Adapted by WHO from Norman Tran/Stanford school; the source line is kept as printed. Owner card Q1 = A (2026-11-16). Drawn by scripts/figures/as_drawn.py: the artwork is the PDF's own (extract_pdf_artwork.py); the parts' words are checked equal to the printed lines.",
+ "figure": "Fig. 15",
+ "title": "Fig. 15. Levels of insight gained from different prototypes",
+ "source": {
+  "library": "9789240093362-eng",
+  "section": "sec-022-43-develop-and-test-prototype-design",
+  "pdf": "who-iris/uploads/9789240093362-eng/9789240093362-eng.pdf",
+  "page": 54,
+  "region": [
+   61.15,
+   58.34,
+   537.04,
+   450.54
+  ],
+  "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p054.png",
+  "labels": "who-iris/library/9789240093362-eng/vector-labels.json"
+ },
+ "artwork": "figure-data/fig-15-prototype-fidelity.artwork.json",
+ "out": "folio/dth-phc/media/fig-15-prototype-fidelity.svg",
+ "parts": [
+  {
+   "id": "y-axis",
+   "role": "axis",
+   "words": "Level of prototype fidelity",
+   "box": [
+    62,
+    148,
+    110,
+    184
+   ]
+  },
+  {
+   "id": "x-axis",
+   "role": "axis",
+   "words": "Time required to develop the protocol",
+   "box": [
+    475,
+    213,
+    515,
+    267
+   ],
+   "anchor": "end"
+  },
+  {
+   "id": "low",
+   "role": "fidelity",
+   "words": "Low fidelity prototypes e.g. sketches, wireframes",
+   "box": [
+    118,
+    169,
+    180,
+    222
+   ],
+   "href": "glossary:wireframes"
+  },
+  {
+   "id": "moderate",
+   "role": "fidelity",
+   "words": "Moderate fidelity prototypes e.g. mockups",
+   "box": [
+    246,
+    143,
+    325,
+    182
+   ],
+   "href": "glossary:mock-up"
+  },
+  {
+   "id": "higher",
+   "role": "fidelity",
+   "words": "Higher fidelity prototypes e.g. clickable prototypes",
+   "box": [
+    375,
+    100,
+    440,
+    153
+   ],
+   "href": "glossary:prototype"
+  },
+  {
+   "id": "validation",
+   "role": "phase",
+   "words": "Validation",
+   "box": [
+    105,
+    246,
+    165,
+    264
+   ]
+  },
+  {
+   "id": "refinement",
+   "role": "phase",
+   "words": "Refinement",
+   "box": [
+    228,
+    246,
+    292,
+    264
+   ]
+  },
+  {
+   "id": "deployment",
+   "role": "phase",
+   "words": "Deployment",
+   "box": [
+    350,
+    246,
+    415,
+    264
+   ]
+  },
+  {
+   "id": "validation-q1",
+   "role": "question",
+   "words": "Do users need this?",
+   "box": [
+    105,
+    265,
+    222,
+    280
+   ]
+  },
+  {
+   "id": "validation-q2",
+   "role": "question",
+   "words": "Would this digital record solve most of their administrative reporting problems?",
+   "box": [
+    105,
+    282,
+    222,
+    330
+   ]
+  },
+  {
+   "id": "refinement-q1",
+   "role": "question",
+   "words": "Could this solution help improve service delivery?",
+   "box": [
+    228,
+    265,
+    345,
+    291
+   ]
+  },
+  {
+   "id": "refinement-q2",
+   "role": "question",
+   "words": "Could this solution help improve accountability?",
+   "box": [
+    228,
+    293,
+    345,
+    319
+   ]
+  },
+  {
+   "id": "refinement-q3",
+   "role": "question",
+   "words": "Will users use this solution as such? Or will they use it for some other purpose?",
+   "box": [
+    228,
+    321,
+    345,
+    357
+   ]
+  },
+  {
+   "id": "deployment-q1",
+   "role": "question",
+   "words": "Does this have all the key features a user would want?",
+   "box": [
+    350,
+    265,
+    470,
+    302
+   ]
+  },
+  {
+   "id": "deployment-q2",
+   "role": "question",
+   "words": "Will users be likely to adopt this solution?",
+   "box": [
+    350,
+    304,
+    470,
+    330
+   ]
+  },
+  {
+   "id": "deployment-q3",
+   "role": "question",
+   "words": "What behaviour change will need to take place to adopt this solution? Are there roadbloacks to adoption that can be addressed technologically or by changing the design?",
+   "box": [
+    350,
+    332,
+    470,
+    412
+   ]
+  },
+  {
+   "id": "source",
+   "role": "source",
+   "words": "Source: Norman Tran/Stanford school (35), adapted with additional questions, language for clarification and contextualization to health care under license.",
+   "box": [
+    70,
+    425,
+    530,
+    440
+   ]
+  }
+ ]
+}
