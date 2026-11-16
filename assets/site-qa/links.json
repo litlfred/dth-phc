@@ -1,10 +1,10 @@
 {
  "$schema": "site-link-report/v1",
- "pages": 2046,
+ "pages": 2057,
  "unresolved": [],
  "selfAddress": [],
  "content": [],
- "diagrams": 38,
+ "diagrams": 39,
  "inDiagrams": [
   {
    "page": "en/dth-phc/media/fig-3-phc-digital-ecosystem.svg",

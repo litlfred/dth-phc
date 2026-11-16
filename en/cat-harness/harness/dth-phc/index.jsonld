@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://litlfred.github.io/dth-phc/en/cat-harness/harness/dth-phc/",
+  "url": "https://litlfred.github.io/dth-phc/en/cat-harness/harness/dth-phc/",
+  "@type": "WebPage",
+  "name": "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems on Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems",
+  "about": {
+    "@id": "https://litlfred.github.io/dth-phc/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "dth-phc",
+    "name": "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems",
+    "description": "WHO Digital transformation handbook for primary health care: optimizing person-centred point of service systems (ISBN 978-92-4-009336-2), as an L2 DTH on smart-ra and smart-base: the working document folio seeded from its L1 entry in who-iris (9789240093362-eng), and its SKOS glossary linked to the smart-ra glossary (dpi-h-ra / full-stac) and smart-base DAK vocabulary.",
+    "version": "0.1.0",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/smart-base/"
+      },
+      {
+        "@id": "https://litlfred.github.io/smart-ra/"
+      }
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://litlfred.github.io/dth-phc/",
+    "name": "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems"
+  },
+  "significantLink": []
+}

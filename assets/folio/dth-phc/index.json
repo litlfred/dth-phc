@@ -314,18 +314,18 @@
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-3.jsonld",
-          "bytes": 5740,
-          "size": "5.6 KB"
+          "bytes": 6452,
+          "size": "6.3 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-3.md",
-          "bytes": 2011,
+          "bytes": 2020,
           "size": "2.0 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-3.ts",
-          "bytes": 4695,
-          "size": "4.6 KB"
+          "bytes": 5346,
+          "size": "5.2 KB"
         },
         {
           "path": "dth-phc/ch01-introduction/f-ch01-fig-4.jsonld",
@@ -2146,6 +2146,11 @@
           "path": "dth-phc/media/fig-2-who-2019-recommendation-8.svg",
           "bytes": 6431,
           "size": "6.3 KB"
+        },
+        {
+          "path": "dth-phc/media/fig-3-phc-digital-ecosystem-as-drawn.svg",
+          "bytes": 156969,
+          "size": "153.3 KB"
         },
         {
           "path": "dth-phc/media/fig-3-phc-digital-ecosystem.svg",

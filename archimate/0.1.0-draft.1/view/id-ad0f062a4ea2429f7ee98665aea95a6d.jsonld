@@ -78,5 +78,11 @@
       "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-d1e988d35cc563b8fca0d97c3ba4ca48"
     }
   ],
+  "schema:subjectOf": [
+    {
+      "schema:name": "Fig. 3",
+      "schema:url": "https://litlfred.github.io/dth-phc/folio/dth-phc/ch01-introduction/f-ch01-fig-3.md"
+    }
+  ],
   "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
 }

@@ -35,7 +35,16 @@
         "generator": "scripts/archimate/add_fig3_view.py",
         "renderer": "cat-harness-tools/archimate/scripts/gen-archimate-pages.ts",
         "decision": "owner card Q-PHC-R4 A, 2026-11-01 10:54Z",
-        "issue": "litlfred/dth-phc#1 R4"
+        "issue": "litlfred/dth-phc#1 R4",
+        "svg": "folio/dth-phc/media/fig-3-phc-digital-ecosystem.svg"
+      },
+      "asDrawn": {
+        "svg": "folio/dth-phc/media/fig-3-phc-digital-ecosystem-as-drawn.svg",
+        "generator": "scripts/figures/fig3_as_drawn.py",
+        "data": "figure-data/fig-3-as-drawn.json",
+        "pictograms": "archimate/fig-3-pictograms.json",
+        "method": "the view's elements drawn as the handbook draws them: words from the model (checked equal to the lines printed on PDF page 17), layers and pictograms copied from the PDF's own vector paths, each element linking to its overlay model page",
+        "decision": "owner request 2026-11-16: SVG for every figure; Fig. 3 as drawn beside the ArchiMate view"
       }
     },
     "glossaryTerms": [
