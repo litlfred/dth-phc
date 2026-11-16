@@ -36,7 +36,7 @@
       "colour": "#7AC143",
       "tint": "#DDEBC9",
       "icon": "scan",
-      "glossary": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization",
+      "glossary": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization",
       "step": ["From paper", "to digital"]
     },
     {
@@ -46,7 +46,7 @@
       "colour": "#0B9BD7",
       "tint": "#C9E2F2",
       "icon": "network",
-      "glossary": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization",
+      "glossary": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization",
       "step": ["Improve", "existing", "processes"]
     },
     {
@@ -56,7 +56,7 @@
       "colour": "#5B2C83",
       "tint": "#DCD7EA",
       "icon": "hub",
-      "glossary": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation",
+      "glossary": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation",
       "step": ["Fundamentally", "change", "healthcare", "delivery"]
     }
   ]

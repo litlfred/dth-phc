@@ -42,17 +42,17 @@
 <path d="M113.0 279.0H145.0L155.0 289.0V321.0H113.0Z" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M120.0 293.0H148.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M120.0 301.0H148.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M120.0 309.0H148.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="134.0" y="248" text-anchor="middle" font-weight="700" font-size="17" fill="#F5A623">PAPER</text>
 </g>
-<g id="stage-digitization"><a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization">
+<g id="stage-digitization"><a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization">
 <rect x="330" y="202" width="84" height="84" rx="8" fill="#7AC143"/>
 <path d="M345.0 226.0V217.0H354.0 M390.0 217.0H399.0V226.0 M399.0 262.0V271.0H390.0 M354.0 271.0H345.0V262.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="356.0" y="225.0" width="32.0" height="38.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M361.0 257.0V251.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M367.0 257.0V247.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M373.0 257.0V243.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="372.0" y="192" text-anchor="middle" font-weight="700" font-size="17" fill="#7AC143">DIGITIZATION</text>
 </a></g>
-<g id="stage-digitalization"><a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization">
+<g id="stage-digitalization"><a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization">
 <rect x="562" y="130" width="84" height="84" rx="8" fill="#0B9BD7"/>
 <rect x="592.0" y="151.0" width="24" height="14" rx="4" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M604.0 165.0V173.0 M589.0 181.0V173.0H619.0V181.0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="581.0" y="181.0" width="16" height="11" rx="2" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="611.0" y="181.0" width="16" height="11" rx="2" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="604.0" y="120" text-anchor="middle" font-weight="700" font-size="17" fill="#0B9BD7">DIGITALIZATION</text>
 </a></g>
-<g id="stage-digital-transformation"><a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation">
+<g id="stage-digital-transformation"><a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation">
 <rect x="810" y="58" width="84" height="84" rx="8" fill="#5B2C83"/>
 <circle cx="843.0" cy="100.0" r="12" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="843.0" cy="100.0" r="4" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M855.0 88.0H867.0"  fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="871.0" cy="88.0" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M855.0 100.0H867.0"  fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="871.0" cy="100.0" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M855.0 112.0H867.0"  fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="871.0" cy="112.0" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="852.0" y="30" text-anchor="middle" font-weight="700" font-size="17" fill="#5B2C83">DIGITAL</text>
@@ -60,9 +60,9 @@
 </a></g>
 <g id="comparison">
 <rect x="44" y="428" width="193" height="32" fill="#F5A623"/><text x="140.5" y="450" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">Paper</text>
-<a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization"><rect x="237" y="428" width="217" height="32" fill="#7AC143"/><text x="345.5" y="450" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">Digitization</text></a>
-<a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization"><rect x="454" y="428" width="224" height="32" fill="#0B9BD7"/><text x="566.0" y="450" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">Digitalization</text></a>
-<a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation"><rect x="678" y="428" width="256" height="32" fill="#5B2C83"/><text x="806.0" y="450" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">Digital transformation</text></a>
+<a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization"><rect x="237" y="428" width="217" height="32" fill="#7AC143"/><text x="345.5" y="450" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">Digitization</text></a>
+<a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization"><rect x="454" y="428" width="224" height="32" fill="#0B9BD7"/><text x="566.0" y="450" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">Digitalization</text></a>
+<a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation"><rect x="678" y="428" width="256" height="32" fill="#5B2C83"/><text x="806.0" y="450" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">Digital transformation</text></a>
 <g id="row-definition">
 <rect x="10" y="460" width="34" height="154.0" fill="#EEF3F8"/>
 <text transform="translate(33 537.0) rotate(-90)" text-anchor="middle" font-weight="700" font-size="17" fill="#1A8FD6">Definition</text>

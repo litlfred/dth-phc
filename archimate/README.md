@@ -9,7 +9,7 @@ A DTH builds an **overlay** on the smart-ra (DPI-H RA) ArchiMate model and does 
 Each element carries one of two tags:
 
 - `overlay:base`: a reference copy of a smart-ra element, under the same id, with its smart-ra IRI as the value. It is there only so the overlay's views can draw it.
-- `overlay:owner` = `dth-phc`: an element this DTH adds. The folio links it with a `https://litlfred.github.io/dth-phc/archimate/<version>/…` IRI.
+- `overlay:owner` = `dth-phc`: an element this DTH adds. The folio links it with a `https://worldhealthorganization.github.io/dth-phc/archimate/<version>/…` IRI.
 
 `overlay:shared-candidate` marks the shared DTH roles, whose home is open ([dth-phc#9](https://github.com/litlfred/dth-phc/issues/9)).
 

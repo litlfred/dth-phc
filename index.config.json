@@ -7,6 +7,11 @@
         "local": {
           "at": "."
         }
+      },
+      "publish": {
+        "id": "dth-phc",
+        "stage": "staging",
+        "profile": "smart-base/schemas/publishing.json"
       }
     },
     {

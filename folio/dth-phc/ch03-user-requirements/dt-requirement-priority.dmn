@@ -13,7 +13,7 @@
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
              id="Definitions_RequirementPriority"
              name="Requirement priority (3.8, Annex 13)"
-             namespace="https://litlfred.github.io/dth-phc/decisions">
+             namespace="https://worldhealthorganization.github.io/dth-phc/decisions">
   <decision id="Decision_RequirementPriority" name="Requirement priority (3.8, Annex 13)">
     <description>Assign High, Medium or Low priority to a functional or non-functional requirement using the criteria in Section 3.8 (prose-sec-019) and Annex 13 (prose-sec-045).</description>
     <decisionTable id="Table_RequirementPriority" hitPolicy="FIRST">

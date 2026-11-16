@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    "https://worldhealthorganization.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
       "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
@@ -60,7 +60,7 @@
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-18bf324b7b4753e0aeff853e6bcb6adc.jsonld",
           "name": "Public health authority",
           "type": "BusinessActor"
         },
@@ -72,7 +72,7 @@
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         }
       ]
@@ -115,8 +115,8 @@
     ],
     "roleId": "PHC-R-10",
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/public-health-authority",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/public-health-authority",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
     ]
   },
   "provenance": "authored"

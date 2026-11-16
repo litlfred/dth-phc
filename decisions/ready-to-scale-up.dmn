@@ -15,7 +15,7 @@
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
              id="Definitions_ReadyToScaleUp"
              name="Scale-up readiness and legacy system phase-out (6.1, 6.2)"
-             namespace="https://litlfred.github.io/dth-phc/decisions">
+             namespace="https://worldhealthorganization.github.io/dth-phc/decisions">
   <decision id="Decision_ReadyToScaleUp" name="Scale-up readiness and legacy system phase-out (6.1, 6.2)">
     <description>Determine whether to proceed with scaling up the PCPOSS and staged phase-out of paper/legacy systems based on PCPOSS readiness (6.1), health-system readiness (6.1), and achievement of country-defined SMART objectives (6.2, Table 5). No thresholds are invented.</description>
     <decisionTable id="Table_ReadyToScaleUp" hitPolicy="FIRST">
