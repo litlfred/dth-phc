@@ -11,7 +11,7 @@
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
              id="Definitions_StartingScenario"
              name="Starting scenario of digital readiness (2.1)"
-             namespace="https://litlfred.github.io/dth-phc/decisions">
+             namespace="https://worldhealthorganization.github.io/dth-phc/decisions">
   <decision id="Decision_StartingScenario" name="Starting scenario (2.1)">
     <description>Classify the country or facility digital-readiness starting scenario from Section 2.1 (prose-sec-007, pages 22-23) and identify the entry step in Chapter 3.</description>
     <decisionTable id="Table_StartingScenario" hitPolicy="FIRST">

@@ -4,7 +4,7 @@
              xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/"
              id="Definitions_Annex11DecisionSupportTableTemplate"
              name="Annex 11 Decision-Support Table Template Hit Policy Mapping"
-             namespace="https://litlfred.github.io/dth-phc/decisions/annex-11-template">
+             namespace="https://worldhealthorganization.github.io/dth-phc/decisions/annex-11-template">
   <decision id="Decision_Annex11DecisionSupportTableTemplate" name="Annex 11 decision-support table hit policy code">
     <description>Annex 11 (sec-043): Maps the structural properties of a clinical/operational decision table to the handbook's Hit Policy code (U = Unique, R = Rule order, F = First) and rule structure (AND across input columns within a row; OR across rows; rule ID pattern 'process ID, activity number, DT, rule number').</description>
     <decisionTable id="DecisionTable_Annex11DecisionSupportTableTemplate" hitPolicy="FIRST">

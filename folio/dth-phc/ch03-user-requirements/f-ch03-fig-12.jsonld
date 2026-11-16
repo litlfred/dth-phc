@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    "https://worldhealthorganization.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
       "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
@@ -36,8 +36,8 @@
       "verbatimCheck": "the words are read from the table block tbl:fig-12 (PDF pages 41–42)"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary"
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary"
     ],
     "archimateElements": [
       {
@@ -48,7 +48,7 @@
     ],
     "archimateViews": [
       {
-        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
@@ -64,7 +64,7 @@
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]
