@@ -15,7 +15,8 @@
       "label": "Fig. 3",
       "model": "0.1.0-draft.1",
       "view": "id-ad0f062a4ea2429f7ee98665aea95a6d",
-      "basis": "same-elements"
+      "basis": "same-elements",
+      "asDrawn": "folio/dth-phc/media/fig-3-phc-digital-ecosystem-as-drawn.svg"
     }
   ]
 }
