@@ -27,7 +27,13 @@
       "pdfPages": [
         32
       ],
-      "method": "l1-vector-figure"
+      "method": "generated",
+      "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p032.png",
+      "data": "figure-data/fig-8-broad-to-narrow-prompts.json",
+      "artwork": "figure-data/fig-8-broad-to-narrow-prompts.artwork.json",
+      "generator": "scripts/figures/as_drawn.py",
+      "verbatimCheck": "every part's words equal the lines printed in its box (who-iris vector-labels.json), and every printed line belongs to a part",
+      "decision": "owner card Q1 = A (2026-11-16): redraw the third-party figure as an SVG from data, source and licence line kept as printed (dth-phc#60)"
     },
     "glossaryTerms": [
       "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/end-user",

@@ -2,7 +2,7 @@
   "$schema": "document-export/v1",
   "document": "dth-phc",
   "title": "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems",
-  "commit": "63c1c99c9d5818b6b8ffb4d0a462a3d7cc387f97",
+  "commit": "4d825ab818795b92896251696749b8da262188e7",
   "dirty": false,
   "commitDate": "2026-11-16",
   "date": "2026-11-16",
@@ -14,14 +14,14 @@
   "files": [
     {
       "kind": "review-docx",
-      "file": "dth-phc-public-comment-63c1c99-2026-11-16.docx",
+      "file": "dth-phc-public-comment-4d825ab-2026-11-16.docx",
       "latest": "dth-phc-public-comment-latest.docx",
       "format": "Word (.docx)",
       "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "purpose": "The public-comment draft as Word, with the same pages and line numbers as the PDF.",
       "filters": [
         "assembled from folio/dth-phc (one Markdown, as document_render_md writes it)",
-        "18 SVG figure(s) rasterised to PNG at 2×",
+        "20 SVG figure(s) rasterised to PNG at 2×",
         "pandoc with document-export.lua: one Word bookmark per chapter, section and block",
         "styled from document-export-reference.docx (sha256 cdd45966a6ec…: Cambria body, Calibri headings)",
         "Word line numbering"
@@ -29,25 +29,25 @@
       "parameters": {
         "document": "dth-phc",
         "export kind": "release",
-        "source commit": "63c1c99",
+        "source commit": "4d825ab",
         "date": "2026-11-16",
         "line numbers": "on",
         "track changes": "off"
       },
-      "sha256": "c3a37b01632eb907fd56187f0b3685626bb4bbbdd2a5910b2ee1a0e0a8514579",
-      "bytes": 5455898,
+      "sha256": "8e2309cd3dd7c9cb7574605009c65cdffe48b47543ed47aef14e96eb55d3f35b",
+      "bytes": 6059555,
       "bookmarks": 194
     },
     {
       "kind": "pdf",
-      "file": "dth-phc-public-comment-63c1c99-2026-11-16.pdf",
+      "file": "dth-phc-public-comment-4d825ab-2026-11-16.pdf",
       "latest": "dth-phc-public-comment-latest.pdf",
       "format": "PDF",
       "mediaType": "application/pdf",
       "purpose": "The frozen, line-numbered draft for public comment. Cite page and line.",
       "filters": [
         "assembled from folio/dth-phc (one Markdown, as document_render_md writes it)",
-        "18 SVG figure(s) rasterised to PNG at 2×",
+        "20 SVG figure(s) rasterised to PNG at 2×",
         "pandoc with document-export.lua: one Word bookmark per chapter, section and block",
         "styled from document-export-reference.docx (sha256 cdd45966a6ec…: Cambria body, Calibri headings)",
         "Word line numbering",
@@ -56,26 +56,26 @@
       "parameters": {
         "document": "dth-phc",
         "export kind": "release",
-        "source commit": "63c1c99",
+        "source commit": "4d825ab",
         "date": "2026-11-16",
         "line numbers": "on",
-        "laid out from": "dth-phc-public-comment-63c1c99-2026-11-16.docx"
+        "laid out from": "dth-phc-public-comment-4d825ab-2026-11-16.docx"
       },
-      "sha256": "be4fcad68537023b0c2ca9510f7c262c19dfb3a2b5e27dbf8e73ea73cf2292a6",
-      "bytes": 6672831,
+      "sha256": "4f9ee01a0282b2fea9681df7606c966a96c8a896190e37a56e4bb54daf7e2584",
+      "bytes": 7241544,
       "pages": 174,
       "lines": 3271
     },
     {
       "kind": "offline-docx",
-      "file": "dth-phc-offline-63c1c99.docx",
+      "file": "dth-phc-offline-4d825ab.docx",
       "latest": "dth-phc-offline-latest.docx",
       "format": "Word (.docx)",
       "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "purpose": "The offline editing copy. Edit with Track Changes on and send it back; the changes merge into the source.",
       "filters": [
         "assembled from folio/dth-phc (one Markdown, as document_render_md writes it)",
-        "18 SVG figure(s) rasterised to PNG at 2×",
+        "20 SVG figure(s) rasterised to PNG at 2×",
         "pandoc with document-export.lua: one Word bookmark per chapter, section and block",
         "styled from document-export-reference.docx (sha256 cdd45966a6ec…: Cambria body, Calibri headings)",
         "Word line numbering",
@@ -84,13 +84,13 @@
       "parameters": {
         "document": "dth-phc",
         "export kind": "release",
-        "source commit": "63c1c99",
+        "source commit": "4d825ab",
         "date": "2026-11-16",
         "line numbers": "on",
         "track changes": "on"
       },
-      "sha256": "469dc28d75b471ebff7d5384a5bffdfde5af063fad53caedbf2c06924a52dde1",
-      "bytes": 5455958,
+      "sha256": "1d43a4f25f2c15cb8c7f710b66269faaa1e1bffb7977e154a7e6135ac2c568d0",
+      "bytes": 6059618,
       "bookmarks": 194
     }
   ]
