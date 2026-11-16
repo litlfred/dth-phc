@@ -5,9 +5,14 @@ export default chapter({
   label: "chap:front-matter",
   sections: [
     section({
+      title: "Cover",
+      label: "sec:fm-cover",
+      lead: true,
+      blocks: ["f-fm-cover"],
+    }),
+    section({
       title: "Publication metadata and contents",
       label: "sec:fm-metadata",
-      lead: true,
       blocks: ["p-fm-publication-metadata"],
     }),
     section({

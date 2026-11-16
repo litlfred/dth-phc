@@ -75,6 +75,11 @@
  ],
  "sections": [
   {
+   "label": "sec:fm-cover",
+   "title": "Cover",
+   "chapter": "front-matter"
+  },
+  {
    "label": "sec:fm-metadata",
    "title": "Publication metadata and contents",
    "chapter": "front-matter"
@@ -376,6 +381,19 @@
   }
  ],
  "blocks": [
+  {
+   "label": "fig:cover",
+   "kind": "figure",
+   "chapter": "front-matter",
+   "root": "f-fm-cover",
+   "sections": [
+    "sec:fm-cover"
+   ],
+   "caption": "Cover of the WHO publication this folio transcribes: Digital transformation handbook for primary health care: optimizing person-centred point of service systems. Geneva: World Health Organization; 2024. ISBN 978-92-4-009336-2. https://iris.who.int/handle/10665/379452",
+   "hash": "e3ddccb6b985",
+   "excerpt": "Cover of the original publication: Digital transformation handbook for primary health care: optimizing person-centred point of service systems . Geneva: World H",
+   "method": "folio-snapshot"
+  },
   {
    "label": "prose:fm-publication-metadata",
    "kind": "prose",
