@@ -30,8 +30,8 @@
       "fill": "#B9D891",
       "chevron": "#A9CF7E",
       "links": {
-        "Clinical decision support": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system",
-        "Scheduling": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic"
+        "Clinical decision support": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system",
+        "Scheduling": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic"
       }
     },
     {
@@ -48,7 +48,7 @@
       "fill": "#47A4DD",
       "chevron": "#1D8ED2",
       "links": {
-        "Calculation of national indicators": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics"
+        "Calculation of national indicators": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics"
       }
     },
     {
@@ -59,7 +59,7 @@
       "chevron": "#1B2A55",
       "light": true,
       "links": {
-        "Accountability towards SDGs": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals"
+        "Accountability towards SDGs": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals"
       }
     }
   ],

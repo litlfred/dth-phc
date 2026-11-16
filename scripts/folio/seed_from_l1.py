@@ -42,7 +42,7 @@ L1_ID = "9789240093362-eng"
 L1_DIR = ROOT / "who-iris" / "library" / L1_ID
 TITLE = "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems"
 
-PHC_TERM_NS = "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/"
+PHC_TERM_NS = "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/"
 RA_TERM_NS = "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/"
 RA_ARCHI_NS = "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/"
 

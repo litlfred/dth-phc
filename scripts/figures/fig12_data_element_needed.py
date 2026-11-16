@@ -19,7 +19,7 @@ TABLE = ROOT / "folio/dth-phc/ch03-user-requirements/t-ch03-fig-12.md"
 OUT = ROOT / "folio/dth-phc/media/fig-12-data-element-needed.svg"
 FONT = "'Source Sans Pro','Source Sans 3','Open Sans','Segoe UI',Helvetica,Arial,sans-serif"
 BLUE, NAVY, PURPLE, LAVENDER, INK, PAGE = "#0B8FD2", "#1B2A55", "#5B2C83", "#E6E0EE", "#1A1A1A", "#E6E7E8"
-DATA_ELEMENT = "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element"
+DATA_ELEMENT = "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element"
 W = 954
 COLS = [(34, 230), (291, 546), (603, 916)]   # x0, x1 of question, explanation, action
 

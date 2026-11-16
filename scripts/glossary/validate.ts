@@ -61,10 +61,16 @@ const DECLARATION_PATH = join(ROOT, "dth-phc.json");
 const DPI_GLOSSARY_PATH = join(ROOT, "dpi-h-ra/glossary/dpi-h-ra.glossary.json");
 const FULL_STAC_GLOSSARY_PATH = join(ROOT, "dpi-h-ra/glossary/full-stac.glossary.json");
 
-const ARCHIMATE_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns/archimate/";
+/** dth-phc's own IRI base, from its declaration (derived there by `iri-base:sync` from the publishing profile), never hard-coded. */
+const IRI_BASE: string = (() => {
+  const base = existsSync(DECLARATION_PATH) ? (JSON.parse(readFileSync(DECLARATION_PATH, "utf8")) as { iriBase?: unknown }).iriBase : undefined;
+  if (typeof base !== "string" || !base.endsWith("/")) throw new Error(`${DECLARATION_PATH}: no iriBase ending in "/"`);
+  return base;
+})();
+const ARCHIMATE_PREFIX = `${IRI_BASE}v0/ns/archimate/`;
 const DPI_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/";
 const FULL_STAC_PREFIX = "https://litlfred.github.io/smart-ra/v0/ns/glossary/full-stac/";
-const LOCAL_GLOSSARY_PREFIX = "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/";
+const LOCAL_GLOSSARY_PREFIX = `${IRI_BASE}v0/ns/glossary/dth-phc/`;
 const SMART_BASE_STRUCT_PREFIX = "http://smart.who.int/base/StructureDefinition/";
 const SMART_BASE_NS_PREFIX = "https://litlfred.github.io/smart-base/v0/ns/";
 
@@ -178,7 +184,7 @@ for (const file of glossaryFiles) {
   }
 
   const g = parsed.data;
-  const schemePrefix = `https://litlfred.github.io/dth-phc/v0/ns/glossary/${g.id}/`;
+  const schemePrefix = `${IRI_BASE}v0/ns/glossary/${g.id}/`;
   const localIds = new Set(g.terms.map((t) => t.id));
   const localIris = new Set(g.terms.map((t) => `${schemePrefix}${t.id}`));
 
@@ -322,7 +328,13 @@ if (existsSync(FOLIO_DIR)) {
   const allTsFiles = walkFiles(FOLIO_DIR, ".ts").filter((f) => !f.endsWith("/manifest.ts"));
   const l1SectionsDir = join(ROOT, "who-iris/library/9789240093362-eng/sections");
   const checkL1Files = existsSync(l1SectionsDir);
-  const archimateIriRe = /^https:\/\/litlfred\.github\.io\/(smart-ra|dth-phc)\/archimate\/([^/]+)\/(elements|views)\/([^/]+)\.jsonld$/;
+  // smart-ra's elements keep smart-ra's own address; dth-phc's overlay is under dth-phc's iriBase.
+  const reEscape = (s: string): string => s.replace(/[.*+?^${}()|[\]\\/]/g, "\\$&");
+  if (!IRI_BASE.endsWith("/dth-phc/")) throw new Error(`dth-phc.json iriBase ${IRI_BASE} does not end in /dth-phc/`);
+  const ownRoot = reEscape(IRI_BASE.slice(0, -"dth-phc/".length));
+  const archimateIriRe = new RegExp(
+    `^(?:https:\\/\\/litlfred\\.github\\.io\\/(?=smart-ra\\/)|${ownRoot}(?=dth-phc\\/))(smart-ra|dth-phc)\\/archimate\\/([^/]+)\\/(elements|views)\\/([^/]+)\\.jsonld$`,
+  );
 
   let blockCount = 0;
   let sourceLinkCount = 0;

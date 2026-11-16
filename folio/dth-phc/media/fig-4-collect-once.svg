@@ -20,8 +20,8 @@
 <g id="layer-person-centred-service-delivery"><rect x="168" y="466" width="252" height="148" fill="#B9D891"/>
 <text x="294.0" y="505.0" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1A1A">Person-centred health</text>
 <text x="294.0" y="525.0" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1A1A">service delivery</text>
-<a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system"><text x="294.0" y="545.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Clinical decision support</text></a>
-<a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic"><text x="294.0" y="565.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Scheduling</text></a>
+<a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system"><text x="294.0" y="545.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Clinical decision support</text></a>
+<a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic"><text x="294.0" y="565.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Scheduling</text></a>
 <text x="294.0" y="585.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Case  management</text>
 </g>
 <path d="M168 614H420" stroke="#FFFFFF" stroke-width="1"/>
@@ -37,13 +37,13 @@
 <text x="294.0" y="209.0" text-anchor="middle" font-size="15" font-weight="700" fill="#1A1A1A">Health system monitoring</text>
 <text x="294.0" y="229.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Inform national strategic plans</text>
 <text x="294.0" y="249.0" text-anchor="middle" font-size="15" fill="#1A1A1A">and health policies</text>
-<a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics"><text x="294.0" y="269.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Calculation of national indicators</text></a>
+<a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics"><text x="294.0" y="269.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Calculation of national indicators</text></a>
 <text x="294.0" y="289.0" text-anchor="middle" font-size="15" fill="#1A1A1A">Accountability mechanism</text>
 </g>
 <path d="M168 318H420" stroke="#FFFFFF" stroke-width="1"/>
 <g id="layer-global-monitoring"><rect x="168" y="22" width="252" height="148" fill="#363E6B"/>
 <text x="294.0" y="91.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Global monitoring</text>
-<a href="https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals"><text x="294.0" y="111.0" text-anchor="middle" font-size="15" fill="#FFFFFF">Accountability towards SDGs</text></a>
+<a href="https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals"><text x="294.0" y="111.0" text-anchor="middle" font-size="15" fill="#FFFFFF">Accountability towards SDGs</text></a>
 </g>
 <path d="M168 170H420" stroke="#FFFFFF" stroke-width="1"/>
 <text x="420" y="796" text-anchor="end" font-size="14" fill="#1A1A1A">SDGs: Sustainable Development Goals.</text>

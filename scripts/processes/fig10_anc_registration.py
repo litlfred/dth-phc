@@ -84,7 +84,7 @@ hw_nodes = [i for i in nodes if i not in client_nodes] + ["Sub8"]
 
 x = []
 x.append('<?xml version="1.0" encoding="UTF-8"?>\n')
-x.append('<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_Process_AncRegistrationWorkflowA" targetNamespace="https://litlfred.github.io/dth-phc/workflows" exporter="folio-assistant" exporterVersion="1">\n')
+x.append('<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_Process_AncRegistrationWorkflowA" targetNamespace="https://worldhealthorganization.github.io/dth-phc/workflows" exporter="folio-assistant" exporterVersion="1">\n')
 x.append('  <bpmn:resource id="pers:health-service-user" name="Client"/>\n')
 x.append('  <bpmn:resource id="pers:health-worker" name="Health worker or Clerk"/>\n')
 x.append('  <bpmn:collaboration id="Collaboration_AncRegistrationWorkflowA">\n    <bpmn:participant id="Participant_HealthFacility" name="Health facility" processRef="Process_AncRegistrationWorkflowA"/>\n  </bpmn:collaboration>\n')

@@ -3,7 +3,7 @@
   "name": "dth-phc",
   "title": "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems",
   "version": "0.1.0",
-  "iriBase": "https://litlfred.github.io/dth-phc/",
+  "iriBase": "https://worldhealthorganization.github.io/dth-phc/",
   "mountApprovers": [
     "litlfred"
   ],
