@@ -4,26 +4,26 @@
     "schema": "https://schema.org/",
     "dcterms": "http://purl.org/dc/terms/"
   },
-  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1",
+  "@id": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1",
   "@type": "archimate:Model",
   "schema:identifier": "0.1.0-draft.1",
   "schema:name": "DTH-PHC overlay 0.1.0-draft.1",
   "schema:description": "The dth-phc overlay on the smart-ra (DPI-H RA) ArchiMate model 0.3.0-draft.1: the person-centred point of service (PCPOSS) view and the shared DTH roles it uses. Elements tagged overlay:base copy a smart-ra element and name it by IRI; elements tagged overlay:owner=dth-phc are this DTH's own (dth-phc#8).",
   "dcterms:identifier": "id-dthphc-overlay-0-1-0-draft-1",
-  "schema:contentUrl": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/dth-phc-overlay.archimate",
+  "schema:contentUrl": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/dth-phc-overlay.archimate",
   "schema:hasPart": [
     {
-      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+      "@id": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-bcf04de52bb05c3a932bbfdd36d7ae4f",
       "@type": "archimate:Diagram",
       "schema:name": "Person-centred point of service (PCPOSS)"
     },
     {
-      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-eac6523c694c551b968166656af2b2e6",
+      "@id": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-eac6523c694c551b968166656af2b2e6",
       "@type": "archimate:Diagram",
       "schema:name": "Shared DTH Roles and Actors"
     },
     {
-      "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-ad0f062a4ea2429f7ee98665aea95a6d",
+      "@id": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/view/id-ad0f062a4ea2429f7ee98665aea95a6d",
       "@type": "archimate:Diagram",
       "schema:name": "PHC digital ecosystem (Fig. 3)"
     }

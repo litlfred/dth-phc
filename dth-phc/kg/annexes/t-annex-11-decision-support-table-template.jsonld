@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    "https://worldhealthorganization.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
       "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
@@ -28,17 +28,17 @@
       "method": "l1-template-formalized"
     },
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-table",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/rule",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/input",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/output",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/annotation",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/trigger-event"
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-table",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/rule",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/input",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/output",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/annotation",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/trigger-event"
     ],
     "archimateElements": [
       {
-        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+        "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
         "id": "id-bc2b3fab70bf5e48a3b043a7245c8f5f",
         "name": "Decision support system"
       },
@@ -60,7 +60,7 @@
         "name": "CDS"
       },
       {
-        "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
         "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
         "name": "Person-centred point of service (PCPOSS)"
       }
@@ -70,7 +70,7 @@
       "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-bc2b3fab70bf5e48a3b043a7245c8f5f.jsonld",
           "name": "Decision support system"
         },
         {
@@ -88,7 +88,7 @@
           "name": "CDS"
         },
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         }
       ]

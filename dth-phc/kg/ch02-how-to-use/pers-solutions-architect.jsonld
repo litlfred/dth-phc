@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://litlfred.github.io/dth-phc/ns/context/v1.jsonld",
+    "https://worldhealthorganization.github.io/dth-phc/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
       "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
@@ -44,7 +44,7 @@
       "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
       "elements": [
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
           "name": "Solutions architect",
           "type": "BusinessRole"
         },
@@ -56,11 +56,11 @@
       ],
       "views": [
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
           "name": "Shared DTH Roles and Actors"
         },
         {
-          "iri": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
           "name": "Person-centred point of service (PCPOSS)"
         },
         {
@@ -96,8 +96,8 @@
     ],
     "roleId": "PHC-R-04",
     "glossaryTerms": [
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/solutions-architect",
-      "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/solutions-architect",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
     ]
   },
   "provenance": "authored"

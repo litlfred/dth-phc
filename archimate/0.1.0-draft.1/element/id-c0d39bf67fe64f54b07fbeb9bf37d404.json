@@ -4,7 +4,7 @@
     "schema": "https://schema.org/",
     "dcterms": "http://purl.org/dc/terms/"
   },
-  "@id": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-c0d39bf67fe64f54b07fbeb9bf37d404",
+  "@id": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/element/id-c0d39bf67fe64f54b07fbeb9bf37d404",
   "@type": "archimate:ApplicationComponent",
   "schema:identifier": "id-c0d39bf67fe64f54b07fbeb9bf37d404",
   "schema:name": "Logical Information Model Registry",
@@ -12,5 +12,5 @@
   "dcterms:source": {
     "@id": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/element/id-c0d39bf67fe64f54b07fbeb9bf37d404"
   },
-  "dcterms:isPartOf": "https://litlfred.github.io/dth-phc/archimate/0.1.0-draft.1"
+  "dcterms:isPartOf": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1"
 }
