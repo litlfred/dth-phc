@@ -59,5 +59,17 @@
       "glossary": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation",
       "step": ["Fundamentally", "change", "healthcare", "delivery"]
     }
-  ]
+  ],
+  "pictograms": {
+    "$comment": "The original's pictograms, copied from the PDF's own vector paths on each stage tile (PDF points on page 15) by scripts/figures/extract_pdf_artwork.py --pictograms; drawn in place of the stand-in icons.",
+    "file": "figure-data/fig-1-pictograms.json",
+    "pdf": "who-iris/uploads/9789240093362-eng/9789240093362-eng.pdf",
+    "page": 15,
+    "tiles": {
+      "paper": [105.0, 183.9, 146.5, 226.4],
+      "digitization": [223.6, 155.4, 265.1, 197.9],
+      "digitalization": [339.2, 119.9, 380.7, 162.3],
+      "digital-transformation": [463.9, 84.3, 505.3, 126.8]
+    }
+  }
 }

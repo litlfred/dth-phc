@@ -95,8 +95,20 @@ def icon(kind: str, x: float, y: float, s: float) -> str:
     return f'<circle cx="{cx}" cy="{cy}" r="{r}" {c}/><circle cx="{cx}" cy="{cy}" r="4" {c}/>{spokes}'
 
 
+def pictogram(pic: dict, x: float, y: float, s: float) -> str:
+    """The original's pictogram (the PDF's own paths on its tile), scaled into the s-by-s stage box."""
+    px0, py0, px1, py1 = pic["box"]
+    k = s / max(px1 - px0, py1 - py0)
+    body = "".join(
+        "<path " + " ".join(f'{a}="{esc(v)}"' for a, v in q.items() if a != "d") + f' d="{q["d"]}"/>' for q in pic["paths"])
+    return f'<g transform="translate({x} {y}) scale({k:.6g}) translate({-px0} {-py0})">{body}</g>'
+
+
 def draw(data: dict, rows: list) -> str:
     stages = data["stages"]
+    pics = {}
+    if data.get("pictograms"):
+        pics = json.load(open(ROOT / data["pictograms"]["file"]))["pictograms"]
     out = []
     a = out.append
 
@@ -136,8 +148,9 @@ def draw(data: dict, rows: list) -> str:
         open_a = f'<a href="{esc(s["glossary"])}">' if s.get("glossary") else ""
         close_a = "</a>" if open_a else ""
         a(f'<g id="stage-{s["id"]}">{open_a}\n')
-        a(f'<rect x="{bx}" y="{by}" width="{box}" height="{box}" rx="8" fill="{s["colour"]}"/>\n')
-        a(icon(s["icon"], bx, by, box) + "\n")
+        tile = pics[s["id"]]["tile"] if s["id"] in pics else s["colour"]  # the PDF's tile fill, when copied
+        a(f'<rect x="{bx}" y="{by}" width="{box}" height="{box}" rx="8" fill="{tile}"/>\n')
+        a((pictogram(pics[s["id"]], bx, by, box) if s["id"] in pics else icon(s["icon"], bx, by, box)) + "\n")
         n = len(s["heading"])
         for j, t in enumerate(s["heading"]):
             a(f'<text x="{bx + box / 2}" y="{by - 10 - (n - 1 - j) * 18}" text-anchor="middle" font-weight="700" '

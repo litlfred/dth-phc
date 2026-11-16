@@ -1,4 +1,4 @@
-![Fig. 8. Example prompts and questions for starting broad and narrowing down](media/vfig-p032.png)
+![Fig. 8. Example prompts and questions for starting broad and narrowing down](media/fig-8-broad-to-narrow-prompts.svg)
 
 Fig. 8	
 Example prompts and questions for starting broad and narrowing down

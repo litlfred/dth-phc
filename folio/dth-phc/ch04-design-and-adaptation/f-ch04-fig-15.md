@@ -1,4 +1,4 @@
-![Fig. 15. Levels of insight gained from different prototypes](media/vfig-p054.png)
+![Fig. 15. Levels of insight gained from different prototypes](media/fig-15-prototype-fidelity.svg)
 
 Fig. 15	 Levels of insight gained from different prototypes
 Validation

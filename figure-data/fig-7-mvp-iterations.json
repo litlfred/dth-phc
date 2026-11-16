@@ -1,0 +1,285 @@
+{
+ "$schema": "dth-phc-figure-as-drawn/v1",
+ "$comment": "Fig. 7 as data: the MVP loop and two version loops on the timeline, each loop's steps, and the milestones below the timeline, in the figure's own words (PDF page 26). The process itself is modelled in processes/pcposs-implementation-lifecycle.bpmn; this file is the figure as drawn. Drawn by scripts/figures/as_drawn.py: the artwork is the PDF's own (extract_pdf_artwork.py); the parts' words are checked equal to the printed lines.",
+ "figure": "Fig. 7",
+ "title": "Fig. 7. Steps in this handbook to optimize a PCPOSS",
+ "source": {
+  "library": "9789240093362-eng",
+  "section": "sec-010-24-the-stepwise-approaches-to-digitizing",
+  "pdf": "who-iris/uploads/9789240093362-eng/9789240093362-eng.pdf",
+  "page": 26,
+  "region": [
+   59.69,
+   415.84,
+   535.58,
+   727.24
+  ],
+  "figureFile": "who-iris/library/9789240093362-eng/figures/vfig-p026.png",
+  "labels": "who-iris/library/9789240093362-eng/vector-labels.json"
+ },
+ "artwork": "figure-data/fig-7-mvp-iterations.artwork.json",
+ "out": "folio/dth-phc/media/fig-7-mvp-iterations.svg",
+ "parts": [
+  {
+   "id": "mvp",
+   "role": "loop",
+   "words": "Minimum viable product (MVP)",
+   "box": [
+    115,
+    570,
+    170,
+    612
+   ],
+   "anchor": "middle",
+   "href": "glossary:minimum-viable-product"
+  },
+  {
+   "id": "version-1",
+   "role": "loop",
+   "words": "VERSION 1",
+   "box": [
+    262,
+    582,
+    314,
+    598
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "version-2",
+   "role": "loop",
+   "words": "VERSION 2",
+   "box": [
+    392,
+    582,
+    443,
+    598
+   ],
+   "anchor": "middle"
+  },
+  {
+   "id": "mvp-train",
+   "role": "loop-step",
+   "words": "Train users",
+   "box": [
+    78,
+    542,
+    103,
+    565
+   ]
+  },
+  {
+   "id": "mvp-build",
+   "role": "loop-step",
+   "words": "Build and test",
+   "box": [
+    103,
+    500,
+    127,
+    531
+   ]
+  },
+  {
+   "id": "mvp-design",
+   "role": "loop-step",
+   "words": "Design",
+   "box": [
+    160,
+    500,
+    190,
+    514
+   ]
+  },
+  {
+   "id": "mvp-understand",
+   "role": "loop-step",
+   "words": "Understand and prioritize user requirements",
+   "box": [
+    184,
+    523,
+    236,
+    563
+   ],
+   "href": "glossary:requirements"
+  },
+  {
+   "id": "v1-train",
+   "role": "loop-step",
+   "words": "Train users",
+   "box": [
+    225,
+    497,
+    249,
+    519
+   ]
+  },
+  {
+   "id": "v1-build",
+   "role": "loop-step",
+   "words": "Build and test",
+   "box": [
+    249,
+    472,
+    272,
+    503
+   ]
+  },
+  {
+   "id": "v1-adapt",
+   "role": "loop-step",
+   "words": "Adapt design",
+   "box": [
+    278,
+    472,
+    306,
+    494
+   ]
+  },
+  {
+   "id": "v1-understand",
+   "role": "loop-step",
+   "words": "Understand and prioritize user requirements",
+   "box": [
+    324,
+    502,
+    374,
+    542
+   ],
+   "href": "glossary:requirements"
+  },
+  {
+   "id": "v2-train",
+   "role": "loop-step",
+   "words": "Train users",
+   "box": [
+    354,
+    456,
+    378,
+    478
+   ]
+  },
+  {
+   "id": "v2-build",
+   "role": "loop-step",
+   "words": "Build and test",
+   "box": [
+    377,
+    431,
+    400,
+    462
+   ]
+  },
+  {
+   "id": "v2-adapt",
+   "role": "loop-step",
+   "words": "Adapt design",
+   "box": [
+    406,
+    431,
+    435,
+    453
+   ]
+  },
+  {
+   "id": "v2-understand",
+   "role": "loop-step",
+   "words": "Understand and prioritize user requirements",
+   "box": [
+    459,
+    490,
+    510,
+    531
+   ],
+   "href": "glossary:requirements"
+  },
+  {
+   "id": "determine",
+   "role": "milestone",
+   "words": "Determine that a PCPOSS is an appropriate health intervention",
+   "box": [
+    93,
+    665,
+    152,
+    719
+   ],
+   "href": "glossary:person-centred-point-of-service-system"
+  },
+  {
+   "id": "repeat",
+   "role": "milestone",
+   "words": "Repeat previous loop until meeting MVP specs to deploy",
+   "box": [
+    174,
+    655,
+    226,
+    719
+   ]
+  },
+  {
+   "id": "deploy-1",
+   "role": "milestone",
+   "words": "Deploy and roll out",
+   "box": [
+    232,
+    675,
+    264,
+    719
+   ]
+  },
+  {
+   "id": "feedback-1",
+   "role": "milestone",
+   "words": "Gather and manage user feedback",
+   "box": [
+    273,
+    675,
+    318,
+    719
+   ]
+  },
+  {
+   "id": "deploy-2",
+   "role": "milestone",
+   "words": "Deploy and roll out",
+   "box": [
+    338,
+    675,
+    370,
+    719
+   ]
+  },
+  {
+   "id": "feedback-2",
+   "role": "milestone",
+   "words": "Gather and manage user feedback",
+   "box": [
+    389,
+    675,
+    434,
+    719
+   ]
+  },
+  {
+   "id": "deploy-scale",
+   "role": "milestone",
+   "words": "Deploy, roll out, and scale",
+   "box": [
+    449,
+    675,
+    482,
+    719
+   ]
+  },
+  {
+   "id": "iterations",
+   "role": "milestone",
+   "words": "Iterations for continuous improvement",
+   "box": [
+    484,
+    685,
+    533,
+    719
+   ]
+  }
+ ]
+}
