@@ -58,7 +58,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "ebf19f235bd14081e8a7c73c09afb4fec5813728",
+          "ref": "d0704862626d230b1e3ae3e0c7086078482133d5",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -92,7 +92,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-16",
-              "ref": "ebf19f235bd14081e8a7c73c09afb4fec5813728",
+              "ref": "d0704862626d230b1e3ae3e0c7086078482133d5",
               "evidence": "litlfred 2026-11-16T06:36:48Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9GbDZs1PWPLeRr9h1WjnESP): \"Yes, +12 hours\" — extend the repin and merge window past 07:01Z to 2026-11-16T19:01Z, to merge smart-base#430 and re-pin every leaf and folio-assistant onto it"
             },
             "standing": {
@@ -140,7 +140,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5",
+          "ref": "61721a4203f8d9a7ff85a54701012cf87ba14b53",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -156,8 +156,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-16",
-              "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "ref": "61721a4203f8d9a7ff85a54701012cf87ba14b53",
+              "evidence": "litlfred 2026-11-16T06:36:48Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9GbDZs1PWPLeRr9h1WjnESP): \"Yes, +12 hours\" — extend the repin and merge window past 07:01Z to 2026-11-16T19:01Z, to merge smart-base#430 and re-pin every leaf and folio-assistant onto it"
             },
             "standing": {
               "follows": "main",

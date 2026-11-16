@@ -9,7 +9,7 @@
     {
       "harness": "smart-base",
       "repository": "litlfred/smart-base",
-      "ref": "ebf19f235bd14081e8a7c73c09afb4fec5813728"
+      "ref": "d0704862626d230b1e3ae3e0c7086078482133d5"
     },
     {
       "harness": "fhir-harness",
@@ -19,7 +19,7 @@
     {
       "harness": "folio-assistant-core",
       "repository": "litlfred/folio-assistant-core",
-      "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5"
+      "ref": "61721a4203f8d9a7ff85a54701012cf87ba14b53"
     },
     {
       "harness": "cat-harness",
@@ -251,7 +251,7 @@
     {
       "instance": "folio-assistant-core",
       "repository": "litlfred/folio-assistant-core",
-      "sha": "c17d92bba438d8b501a9fd51d6252802602d70c5",
+      "sha": "61721a4203f8d9a7ff85a54701012cf87ba14b53",
       "upstreamRoot": "",
       "path": "folio-assistant-core",
       "via": "folio-assistant-core",
@@ -265,7 +265,7 @@
           "id": "*",
           "path": "folio-assistant-core",
           "upstreamPath": ".",
-          "treeDigest": "987440e0ebf30b5640c7f0d10bcce1186f18965280281fde0b1e80e8ffc59798",
+          "treeDigest": "1a2f96376a0560c946e9a2ac61c9343c5c6c71bd530a79342dfe0b2051c13c56",
           "files": 1608,
           "except": [
             "board",
@@ -279,14 +279,14 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-16",
-        "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5",
+        "ref": "61721a4203f8d9a7ff85a54701012cf87ba14b53",
         "approver": "declared"
       }
     },
     {
       "instance": "smart-base",
       "repository": "litlfred/smart-base",
-      "sha": "ebf19f235bd14081e8a7c73c09afb4fec5813728",
+      "sha": "d0704862626d230b1e3ae3e0c7086078482133d5",
       "upstreamRoot": "smart-base",
       "path": "smart-base",
       "via": "smart-base",
@@ -490,7 +490,7 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-16",
-        "ref": "ebf19f235bd14081e8a7c73c09afb4fec5813728",
+        "ref": "d0704862626d230b1e3ae3e0c7086078482133d5",
         "approver": "declared"
       }
     },
