@@ -14,7 +14,7 @@
     {
       "harness": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "ref": "b36c50cdb9baeb5f2d33bfed4ee320c6845f29e7"
+      "ref": "4ad2c77d2192c0f95f1efd959ce934d1917c35f8"
     },
     {
       "harness": "folio-assistant-core",
@@ -29,7 +29,7 @@
     {
       "harness": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "ref": "17a9da7fc47c6b6f43853891c828ac8f69d62929"
+      "ref": "8ef53a35c3b735dda6082dd69280aa1a711ef994"
     },
     {
       "harness": "bootstrap",
@@ -147,7 +147,7 @@
     {
       "instance": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "sha": "17a9da7fc47c6b6f43853891c828ac8f69d62929",
+      "sha": "8ef53a35c3b735dda6082dd69280aa1a711ef994",
       "upstreamRoot": "",
       "path": "cat-harness-tools",
       "via": "cat-harness-tools",
@@ -161,7 +161,7 @@
           "id": "*",
           "path": "cat-harness-tools",
           "upstreamPath": ".",
-          "treeDigest": "95454fe95db186b6241ac864a6d4c723c454f8bb11715583a683f07d7532fe42",
+          "treeDigest": "6cf5f91fbb666b97888f9ebf098a19a082509d307823710ddbe03bf02a653c87",
           "files": 4999
         }
       ],
@@ -169,7 +169,7 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-17",
-        "ref": "17a9da7fc47c6b6f43853891c828ac8f69d62929",
+        "ref": "8ef53a35c3b735dda6082dd69280aa1a711ef994",
         "approver": "declared"
       }
     },
@@ -222,7 +222,7 @@
     {
       "instance": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "sha": "b36c50cdb9baeb5f2d33bfed4ee320c6845f29e7",
+      "sha": "4ad2c77d2192c0f95f1efd959ce934d1917c35f8",
       "upstreamRoot": "",
       "path": "fhir-harness",
       "via": "fhir-harness",
@@ -236,15 +236,15 @@
           "id": "*",
           "path": "fhir-harness",
           "upstreamPath": ".",
-          "treeDigest": "fa1f107c25d791646f8cb3a9f6609ef27f2340d4f21b6f18928c8426a79b3d69",
-          "files": 994
+          "treeDigest": "cabde02e3d44a0b06b3c9806310f7563bde2224ef643eb097f8d7022af1c5f7b",
+          "files": 995
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-17",
-        "ref": "b36c50cdb9baeb5f2d33bfed4ee320c6845f29e7",
+        "ref": "4ad2c77d2192c0f95f1efd959ce934d1917c35f8",
         "approver": "declared"
       }
     },
