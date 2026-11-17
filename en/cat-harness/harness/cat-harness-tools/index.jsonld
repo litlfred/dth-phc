@@ -24,7 +24,7 @@
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "pinnedCommit",
-      "value": "e194197e96df4db29fc71650e189c973a4d930cb"
+      "value": "17a9da7fc47c6b6f43853891c828ac8f69d62929"
     }
   },
   "isPartOf": {
@@ -32,9 +32,9 @@
     "name": "Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems"
   },
   "significantLink": [
-    "https://litlfred.github.io/folio-assistant/#harness-cat-harness-tools",
-    "https://github.com/litlfred/cat-harness-tools/tree/e194197e96df4db29fc71650e189c973a4d930cb",
-    "https://github.com/litlfred/cat-harness-tools/blob/e194197e96df4db29fc71650e189c973a4d930cb/README.md",
-    "https://github.com/litlfred/cat-harness-tools/blob/e194197e96df4db29fc71650e189c973a4d930cb/AGENTS.md"
+    "https://litlfred.github.io/folio-assistant/cat-harness-tools/",
+    "https://github.com/litlfred/cat-harness-tools/tree/17a9da7fc47c6b6f43853891c828ac8f69d62929",
+    "https://github.com/litlfred/cat-harness-tools/blob/17a9da7fc47c6b6f43853891c828ac8f69d62929/README.md",
+    "https://github.com/litlfred/cat-harness-tools/blob/17a9da7fc47c6b6f43853891c828ac8f69d62929/AGENTS.md"
   ]
 }
