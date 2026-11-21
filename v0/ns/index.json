@@ -1,0 +1,1588 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "label": "rdfs:label",
+    "comment": "rdfs:comment",
+    "isDefinedBy": {
+      "@id": "rdfs:isDefinedBy",
+      "@type": "@id"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@type": "@id"
+    },
+    "prefLabel": "skos:prefLabel",
+    "definition": "skos:definition",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    }
+  },
+  "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+  "@type": "owl:Ontology",
+  "label": "dth-phc namespace",
+  "@graph": [
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "@type": "skos:ConceptScheme",
+      "prefLabel": "Glossary of the Digital Transformation Handbook for Primary Health Care",
+      "definition": "SKOS concept scheme of terms and abbreviations defined in the WHO Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems (2024, ISBN 978-92-4-009336-2), cross-linked to the WHO/ITU DPI-H Reference Architecture (smart-ra: dpi-h-ra and full-stac schemes) and the WHO SMART Guidelines DAK vocabulary (smart-base). Acronyms (owner, 2026-10-31): every acronym the handbook uses in its abbreviations table and chapters is a term here with the acronym as notation and a source pointing to its L1 section (litlfred/folio-assistant-core#412).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../assets/glossary/dth-phc--dth-phc.skos.jsonld"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/acquired-immunodeficiency-syndrome",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Acquired immunodeficiency syndrome",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/acquired-immunodeficiency-syndrome/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/algorithm",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Algorithm",
+      "definition": "A specification of how a computer shall solve a problem, perform a calculation and execute a task.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/algorithm/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/annotation",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Annotation",
+      "definition": "In a decision table, an annotation simply provides further details and explanation to the rule, for those working on and working from the decision table.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/annotation/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/antenatal-care",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Antenatal Care (ANC)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/antenatal-care/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/application-programming-interface",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Application programming interface",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/application-programming-interface/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/architecture",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Architecture",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/architecture/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/architecture-building-blocks",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Architecture Building Blocks (ABB)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/architecture-building-blocks/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/artificial-intelligence",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Artificial intelligence",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/artificial-intelligence/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/as-is",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "As-Is",
+      "definition": "The current state of things (also see to-be).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/as-is/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/asia-ehealth-information-network",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Asia eHealth Information Network",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/asia-ehealth-information-network/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/beta-version",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Beta Version",
+      "definition": "The initial version of the software, after prototyping, that is available for testing among a limited group of people.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/beta-version/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/body-mass-index",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Body mass index",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/body-mass-index/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/build",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Build",
+      "definition": "In the context of developing a person-centred point of service system (PCPOSS), build is when a software engineer is writing the necessary code or programming the software.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/build/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/business-analyst",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Business Analyst",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/business-analyst/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/business-objective",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Business Objective",
+      "definition": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, “completed health service user registration”, or “health service user referral sent” (1).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/business-objective/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/business-process",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Business Process",
+      "definition": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/business-process/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/business-process-management",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Business process management",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/business-process-management/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/business-process-model-and-notation",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Business Process Model and Notation",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/business-process-model-and-notation/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/c-reactive-protein",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "C-reactive protein",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/c-reactive-protein/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/capability",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Capability",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/capability/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/care-pathway",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Care Pathway",
+      "definition": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n• an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users’ expectations and their characteristics;\n• the facilitation of the communication among the team members and with health service users and families;\n• the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n• the documentation, monitoring and evaluation of variances and outcomes;\n• the identification of the appropriate resources.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/care-pathway/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/chest-x-ray",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Chest X-ray",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/chest-x-ray/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/classifications",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Classifications",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/classifications/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/clerk",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Clerk",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/clerk/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/clinical-protocol",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Clinical Protocol",
+      "definition": "An official set of procedures or processes outlined by clinical guidelines set at national and/or higher levels.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/clinical-protocol/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/coding-schemes",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Coding Schemes",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/coding-schemes/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/collaborative-requirements-development-methodology",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Collaborative Requirements Development Methodology (CRDM)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/collaborative-requirements-development-methodology/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/community-based-information-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Community-Based Information System",
+      "definition": "Applications that facilitate data collection and use at the community level. These applications are utilized by community-based workers who provide health promotion and disease prevention activities (6).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/community-based-information-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/community-health-worker",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Community health worker",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/community-health-worker/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/coronavirus-disease-2019",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Coronavirus disease 2019",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/coronavirus-disease-2019/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Data Dictionary",
+      "definition": "A singular storage location for information about the data elements, detailing their type and definition, relationships, origin and use.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/data-dictionary/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/data-element",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Data Element",
+      "definition": "A unit of data that has a specific and precise meaning.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/data-element/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/data-exchange",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Data Exchange",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/data-exchange/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-model-and-notation",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Decision Model and Notation",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/decision-model-and-notation/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Decision Support Logic",
+      "definition": "A set of decision rules for standard and exceptional cases that is utilized for a decision task within a business process. This helps to reduce the complexity of the business process without losing the detail necessary for coding the rules needed for system functionality (7).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/decision-support-logic/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Decision Support System",
+      "definition": "A digital job aid that combines an individual’s health information with the health worker’s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/decision-support-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-table",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Decision-Support Table",
+      "definition": "A structured way to depict a discrete decision that will need to be embedded into the PCPOSS. There can be multiple decision-support tables (9).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/decision-support-table/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/deploy",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Deploy",
+      "definition": "Make the software available for use beyond testing purposes.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/deploy/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/designer",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Designer",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/designer/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/devsecops",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "DevSecOps",
+      "definition": "Short for “development, security and operations”. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/devsecops/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/diastolic-blood-pressure",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Diastolic Blood Pressure (DBP)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/diastolic-blood-pressure/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Adaptation Kits (DAKs)",
+      "definition": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO’s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the “SMART Guidelines” framework (10).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-adaptation-kits/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-health",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Health",
+      "definition": "Digital health is the systematic application of information and communications technologies, computer science, and data to support informed decision-making by individuals, the health workforce, and health systems, to strengthen resilience to disease and improve health and wellness (11).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-health/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-health-atlas",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Health Atlas",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-health-atlas/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-health-ecosystem",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Health Ecosystem",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-health-ecosystem/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-health-intervention",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Health Intervention (DHI)",
+      "definition": "A discrete capability of digital technology to achieve health sector objectives. Examples of digital health interventions include providing checklist according to protocol, transmitting targeted health information to person(s) based on health status or demographics, and notifying stock levels of health commodities; see Classification of digital interventions, services and applications in health for a full list of digital health interventions (6).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-health-intervention/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-imaging-and-communications-in-medicine",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Imaging and Communications in Medicine",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-imaging-and-communications-in-medicine/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-implementation-investment-guide",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Implementation Investment Guide",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-implementation-investment-guide/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-transformation",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digital Transformation",
+      "definition": "The process of digitally optimizing and driving systems-level changes by leveraging innovation, analytics and feedback mechanisms to improve person-centred health systems. Digital technologies are used to fundamentally change and improve how health services are delivered and accessed across all health programme areas (12,14,15).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digital-transformation/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitalization",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digitalization",
+      "definition": "The process of digitally automating and simplifying processes to streamline individual health programmes and reduce manual efforts for greater efficiency (12,13).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digitalization/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/digitization",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Digitization",
+      "definition": "The process of converting and organizing data from paper records into a digital format for easier entry, storage and retrieval (12,16).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/digitization/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/district-health-information-software-2",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "District Health Information Software 2",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/district-health-information-software-2/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/donors-and-development-partners",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Donors and Development Partners",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/donors-and-development-partners/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/ecosystem",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Ecosystem",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/ecosystem/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/electronic-health-record-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Electronic Health Record System (EHR)",
+      "definition": "A secure, online system that holds health service user health records, which include information about people’s health and clinical care. This system is managed by health workers. Also referred to as an “electronic medical record system” (6).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/electronic-health-record-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/electronic-medical-record",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Electronic Medical Record (EMR)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/electronic-medical-record/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/end-user",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "End-User",
+      "definition": "People who will be using the digital system(s).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/end-user/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Enterprise Architecture",
+      "definition": "A blueprint of business processes, data, systems and technologies used to help planners, software developers and managers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system (11).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/enterprise-architecture/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/family-planning",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Family planning",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/family-planning/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Fast Healthcare Interoperability Resources (FHIR)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/fast-healthcare-interoperability-resources/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/features",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Features",
+      "definition": "The characteristics of a system that include look and feel as well as what the system can do (e.g. “reporting” can be a feature of a PCPOSS).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/features/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/flag",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Flag",
+      "definition": "In a PCPOSS, a “flag” consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/flag/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/foreign-commonwealth-and-development-office",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Foreign, Commonwealth and Development Office",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/foreign-commonwealth-and-development-office/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/full-standards-and-architecture-catalogue",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Full Standards and Architecture Catalogue",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/full-standards-and-architecture-catalogue/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/functional-requirements",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Functional Requirements",
+      "definition": "Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/functional-requirements/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/functions",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Functions",
+      "definition": "Functions in a system are how features are implemented (e.g. “calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/functions/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/generic-business-processes-and-workflows",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Generic Business Processes and Workflows",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/generic-business-processes-and-workflows/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/gs1",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "GS1",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/gs1/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-informatician",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Informatician",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-informatician/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-information-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Information System (HIS)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-information-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-insurance-portability-and-accountability-act",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Insurance Portability and Accountability Act",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-insurance-portability-and-accountability-act/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-interventions-and-recommendations",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Interventions and Recommendations",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-interventions-and-recommendations/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-level-seven",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Level Seven",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-level-seven/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-management-information-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Management Information System (HMIS)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-management-information-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-service-users",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Service Users",
+      "definition": "Also known as patients, clients or beneficiaries, these are individuals who receive formal and/or informal health services.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-service-users/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-service-users-health-records",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Service User’s Health Records",
+      "definition": "The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker. The record may be retained by the health-care facility or by the health service user.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-service-users-health-records/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-worker",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Health Worker",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/health-worker/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/hepatitis-b-virus",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Hepatitis B virus",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/hepatitis-b-virus/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/human-immunodeficiency-virus",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Human immunodeficiency virus",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/human-immunodeficiency-virus/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/identification-for-development",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Identification for Development",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/identification-for-development/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/identity-identification",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Identity/identification",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/identity-identification/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/implementing-team",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Implementing Team",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/implementing-team/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/indicators-and-performance-metrics",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Indicators and Performance Metrics",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/indicators-and-performance-metrics/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/information-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Information System",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/information-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/information-technology",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Information technology",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/information-technology/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/input",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Input",
+      "definition": "The input entry in a decision-support table is a “condition” for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met – leading to the subsequent output or action.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/input/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/institute-of-electrical-and-electronics-engineers",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Institute of Electrical and Electronics Engineers",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/institute-of-electrical-and-electronics-engineers/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/integrating-the-healthcare-enterprise",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Integrating the Healthcare Enterprise",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/integrating-the-healthcare-enterprise/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/interactive-research-and-development",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Interactive Research and Development",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/interactive-research-and-development/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "International Classification of Diseases (ICD)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/international-classification-of-diseases/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases-11",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "International Classification of Diseases, 11th Revision",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/international-classification-of-diseases-11/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-functioning-disability-and-health",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "International Classification of Functioning, Disability and Health",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/international-classification-of-functioning-disability-and-health/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-health-interventions",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "International Classification of Health Interventions",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/international-classification-of-health-interventions/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/international-electrotechnical-commission",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "International Electrotechnical Commission",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/international-electrotechnical-commission/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/international-organization-for-standardization",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "International Organization for Standardization",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/international-organization-for-standardization/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/international-telecommunications-union",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "International Telecommunications Union",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/international-telecommunications-union/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Interoperability",
+      "definition": "Ability of different applications to access, exchange, integrate and use data in a coordinated and consistent manner through the use of shared application interfaces, value sets, concepts and standards, within and across organizational, regional and national boundaries, to provide timely and seamless portability of information and optimize health outcomes.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/interoperability/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability-standards",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Interoperability Standards",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/interoperability-standards/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/javascript-object-notation",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "JavaScript Object Notation",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/javascript-object-notation/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/joint-united-nations-programme-on-hiv-aids",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Joint United Nations Programme on HIV/AIDS",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/joint-united-nations-programme-on-hiv-aids/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/lateral-flow-urine-lipoarabinomannan-assay",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Lateral flow urine lipoarabinomannan assay",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/lateral-flow-urine-lipoarabinomannan-assay/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/legacy-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Legacy System",
+      "definition": "An outdated system or technology that is still in use. The system still meets the needs it was originally designed for but does not meet the current needs or allow room for growth. It may be a paper-based system or a digital system.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/legacy-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/logical-observation-identifiers-names-and-codes",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Logical Observation Identifiers Names and Codes (LOINC)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/logical-observation-identifiers-names-and-codes/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/longitudinal-tracking",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Longitudinal Tracking",
+      "definition": "Ongoing and systematic collection and analysis of data related to a health service user’s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user’s health status, treatment and outcomes over multiple encounters or visits with health workers.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/longitudinal-tracking/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/metadata",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Metadata",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/metadata/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/mhealth-assessment-and-planning-for-scale",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "MHealth Assessment and Planning for Scale (MAPS)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/mhealth-assessment-and-planning-for-scale/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/minimum-viable-product",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Minimum Viable Product (MVP)",
+      "definition": "A product that satisfies the minimum requirements of the end-users and can function accordingly. With iterative design techniques, the MVP is often used to gather initial reactions and feedback from the end- users, knowing that another version will be created and released with additional or updated features and functionality (17).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/minimum-viable-product/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/ministry-of-health",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Ministry of Health",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/ministry-of-health/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/mock-up",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Mock-Up",
+      "definition": "Graphic design and descriptive documentation that closely depicts the look and feel (including colour scheme and design themes) of the finished product (see section 4.3).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/mock-up/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/molecular-who-recommended-rapid-diagnostic-test",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Molecular WHO-recommended rapid diagnostic test",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/molecular-who-recommended-rapid-diagnostic-test/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/monitoring-and-evaluation",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Monitoring and evaluation",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/monitoring-and-evaluation/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/monitoring-and-evaluation-specialist",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Monitoring and Evaluation Specialist",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/monitoring-and-evaluation-specialist/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/non-functional-requirements",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Non-Functional Requirements",
+      "definition": "General attributes and features of the digital system to ensure usability and overcome technical and physical constraints. Examples of non-functional requirements include ability to work offline, multiple language settings, and password protection (see section 3.8).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/non-functional-requirements/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/object-management-group",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Object Management Group",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/object-management-group/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/open-health-information-exchange",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Open Health Information Exchange",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/open-health-information-exchange/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/open-smart-register-platform",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Open Smart Register Platform",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/open-smart-register-platform/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/open-source",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Open Source",
+      "definition": "Open-source software is software with source code that is published and made freely available to the public, enabling anyone to inspect, modify and enhance the code (18). While the source code is open to everyone, this does not mean that implementation of software is necessarily without costs. An open- source software must have a license approved by the Open Source Initiative (19).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/open-source/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/open-source-initiative",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Open Source Initiative",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/open-source-initiative/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/open-standards",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Open Standards",
+      "definition": "Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (20).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/open-standards/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/output",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Output",
+      "definition": "In the context of requirements gathering or decision support logic, for each combination of input entries, the output is what will result in the conditions of the rule being met. This could be a single output value that would become an input in a subsequent decision table, or it could be a resulting action, activity or task in a business process.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/output/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/pain-point",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Pain Point",
+      "definition": "A real or perceived problem that end-users experience.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/pain-point/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/pan-american-health-organization",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Pan American Health Organization",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/pan-american-health-organization/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Person-Centred",
+      "definition": "In the context of person-centred health services, person-centred refers to prioritizing the comprehensive needs of individuals (i.e. persons, clients, patients, health service users) at the centre of health systems. It involves actively engaging and empowering individuals to have a more active role in their own health and health-care decisions. It shifts the focus of health services away from specific diseases or interventions, towards holistic needs of individuals across the continuum of care and life course (21).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/person-centred/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/person-centred-point-of-service-system",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Person-Centred Point of Service System (PCPOSS)",
+      "definition": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals’ health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/person-centred-point-of-service-system/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/personal-health-record",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Personal Health Record (PHR)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/personal-health-record/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/point-of-service",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Point of Service (POS)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/point-of-service/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/pop-up-message",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Pop-Up Message",
+      "definition": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a “toast message” or “toast notification”.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/pop-up-message/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/post-exposure-prophylaxis",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Post-exposure prophylaxis",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/post-exposure-prophylaxis/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/pre-exposure-prophylaxis",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Pre-exposure prophylaxis",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/pre-exposure-prophylaxis/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/prevention-of-mother-to-child-transmission",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Prevention of mother-to-child transmission",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/prevention-of-mother-to-child-transmission/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/primary-health-care",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Primary Health Care (PHC)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/primary-health-care/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/prototype",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Prototype",
+      "definition": "Prototypes have high fidelity to the end product with options and functionalities that can be tested (see section 4.3).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/prototype/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/public-health-authority",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Public Health Authority",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/public-health-authority/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/public-health-informatics-institute",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Public Health Informatics Institute",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/public-health-informatics-institute/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/quality-assurance",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Quality assurance",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/quality-assurance/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/quick-response-code",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Quick response code",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/quick-response-code/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/rapid-assessment-and-management",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Rapid assessment and management",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/rapid-assessment-and-management/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/reference-model-of-open-distributed-processing",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Reference Model of Open Distributed Processing",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/reference-model-of-open-distributed-processing/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/reference-software",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Reference Software",
+      "definition": "Reference software, or applications, provide executable examples of best practices and serve as a starting point containing the software, its documentation, operating manuals, source code, and platform and architecture specifications.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/reference-software/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/register",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Register",
+      "definition": "In the context of health care, a list of health service users compiled for the purposes of tracking care, aggregating activities or health outcomes, or identifying health service users who need specific interventions.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/register/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/registry",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Registry",
+      "definition": "A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health-care facilities, health service users, products and/or health workforce using a predefined canonical minimum data set.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/registry/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/request-for-comments",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Request for comments",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/request-for-comments/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/requirements",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Requirements",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/requirements/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/rule",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Rule",
+      "definition": "In the context of a decision-support table, each rule contains input and output entries. The input entries are the condition, and the output entries are the conclusion of the rule. If each input entry (condition) is satisfied, then the rule is satisfied, and the decision result contains the output entries (conclusion) of this rule (22).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/rule/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/scheduling-logic",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Scheduling Logic",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/scheduling-logic/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/sexually-transmitted-infection",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Sexually transmitted infection",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/sexually-transmitted-infection/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/short-message-service",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Short message service",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/short-message-service/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "SMART Guidelines",
+      "definition": "Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations. They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity. SMART Guidelines serve as a starting point and as foundational specifications to advance the development of robust person-centred digital systems. These specifications are software-agnostic, context-agnostic, and are applicable to all levels of digital maturity (10,23).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/smart-guidelines/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-ct",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/snomed-ct/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-gps",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Systematized Nomenclature of Medicine-Global Patient Set",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/snomed-gps/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/software-engineer",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Software Engineer",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/software-engineer/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/software-platform",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Software Platform",
+      "definition": "A software platform is a type of software in which multiple software “products” can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/software-platform/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/solutions-architect",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Solutions Architect",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/solutions-architect/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/special-programme-of-research-in-human-reproduction",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Special Programme of Research, Development and Research Training in Human Reproduction (HRP)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/special-programme-of-research-in-human-reproduction/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/standard-operating-procedure",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Standard operating procedure",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/standard-operating-procedure/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/supervisor",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Supervisor",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/supervisor/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/sustainable-development-goals",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Sustainable Development Goals",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/sustainable-development-goals/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/systems-architecture",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Systems Architecture",
+      "definition": "The technical framework of the system depicted in a conceptual model that defines how the system is structured and how its elements are connected.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/systems-architecture/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/systolic-blood-pressure",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Systolic Blood Pressure (SBP)",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/systolic-blood-pressure/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/technical-debt",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Technical Debt",
+      "definition": "Technical debt in software development and systems architecture describes the risk of taking shortcuts and making short-term fixes, which later require costly revisions and add-ons; rather than investing in carefully designed, robust solutions, which may cost more upfront, but have lower maintenance and feature development costs over time (11).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/technical-debt/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/technology-partner",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Technology Partner",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/technology-partner/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/terminologies",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Terminologies",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/terminologies/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/the-open-group-architecture-framework",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "The Open Group Architecture Framework",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/the-open-group-architecture-framework/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/to-be",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "To-Be",
+      "definition": "The determined future state (also see as-is).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/to-be/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/trigger-event",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Trigger Event",
+      "definition": "An event recorded in the system that will start the execution of relevant subsequent operations.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/trigger-event/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/tuberculosis",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Tuberculosis",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/tuberculosis/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/unicef",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "United Nations Children's Fund",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/unicef/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/unified-code-for-units-of-measure",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Unified Code for Units of Measure",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/unified-code-for-units-of-measure/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/unified-modeling-language",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Unified Modeling Language",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/unified-modeling-language/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/united-nations-population-fund",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "United Nations Population Fund",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/united-nations-population-fund/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/universal-health-coverage",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Universal health coverage",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/universal-health-coverage/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/use-case",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Use Case",
+      "definition": "A use case is an example scenario of how the end-user will use the system.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/use-case/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-acceptance-testing",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "User Acceptance Testing (UAT)",
+      "definition": "User acceptance testing (UAT) is conducted to see whether the end-users are satisfied with the end product (24).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-acceptance-testing/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-experience",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "User experience",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-experience/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-interface",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "User interface",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-interface/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "User Persona",
+      "definition": "A generic or archetypical profile of an end-user that is representative of a single type of end-user.",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-persona/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-researcher",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "User Researcher",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-researcher/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-scenario",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "User Scenario",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-scenario/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-story",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "User Story",
+      "definition": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/user-story/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/web-accessibility-initiative",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Web Accessibility Initiative",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/web-accessibility-initiative/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/who-family-of-international-classifications",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "WHO Family of International Classifications and Terminologies",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/who-family-of-international-classifications/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/who-four-symptom-screen",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "WHO four-symptom screen",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/who-four-symptom-screen/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/wireframes",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Wireframes",
+      "definition": "Low fidelity outlines that depict the overall design ideas and flow of the final product (see section 4.3).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/wireframes/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/workflow",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "Workflow",
+      "definition": "The sequence of activities from one task to another (see section 3.3).",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/workflow/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/world-health-organization",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "World Health Organization",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/world-health-organization/"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/world-wide-web-consortium",
+      "@type": "skos:Concept",
+      "inScheme": "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc",
+      "prefLabel": "World Wide Web Consortium",
+      "isDefinedBy": "https://worldhealthorganization.github.io/dth-phc/v0/ns/",
+      "seeAlso": "../../en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/world-wide-web-consortium/"
+    }
+  ]
+}

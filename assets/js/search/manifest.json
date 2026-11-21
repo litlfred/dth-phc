@@ -2,66 +2,21 @@
   "$schema": "folio-search-manifest/v1",
   "source": {
     "path": "assets/js/search-data.json",
-    "sha256": "542c9d9e27d17a64a7f3a1131bec29918e1170b550e219150bb4c0f30c1e3c47",
-    "entries": 1332,
-    "bytes": 1362300
+    "sha256": "bcf50168783f12ef56ae83e815e9524b7621742bbee7f672d81058f90fc00266",
+    "entries": 1333,
+    "bytes": 1363147
   },
   "scopes": [
     {
       "id": "_platform",
       "kind": "platform",
       "path": "assets/js/search/_platform.json",
-      "entries": 3,
-      "bytes": 648
-    },
-    {
-      "id": "cat-harness",
-      "kind": "instance",
-      "path": "assets/js/search/cat-harness.json",
-      "entries": 228,
-      "bytes": 230613
-    },
-    {
-      "id": "folio-assistant-core",
-      "kind": "instance",
-      "path": "assets/js/search/folio-assistant-core.json",
-      "entries": 1071,
-      "bytes": 1076792
-    },
-    {
-      "id": "locale-ar",
-      "kind": "locale",
-      "path": "assets/js/search/locale-ar.json",
-      "entries": 6,
-      "bytes": 3315
-    },
-    {
-      "id": "locale-es",
-      "kind": "locale",
-      "path": "assets/js/search/locale-es.json",
-      "entries": 6,
-      "bytes": 2848
-    },
-    {
-      "id": "locale-fr",
-      "kind": "locale",
-      "path": "assets/js/search/locale-fr.json",
-      "entries": 6,
-      "bytes": 2838
-    },
-    {
-      "id": "locale-ru",
-      "kind": "locale",
-      "path": "assets/js/search/locale-ru.json",
-      "entries": 6,
-      "bytes": 3621
-    },
-    {
-      "id": "locale-zh",
-      "kind": "locale",
-      "path": "assets/js/search/locale-zh.json",
-      "entries": 6,
-      "bytes": 2762
+      "entries": 1333,
+      "bytes": 1324246,
+      "index": {
+        "path": "assets/js/search/_platform.idx.json",
+        "bytes": 3983660
+      }
     }
   ],
   "remote": [
@@ -71,5 +26,17 @@
       "href": "id-lookup/?index=who-iris/",
       "entries": 53
     }
-  ]
+  ],
+  "layers": [
+    "bootstrap",
+    "bootstrap-tools",
+    "cat-harness",
+    "cat-harness-tools",
+    "dpi-h-ra",
+    "fhir-harness",
+    "folio-assistant-core",
+    "smart-base",
+    "who-iris"
+  ],
+  "kgSearch": "slices/search.html?slice=kg"
 }

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pers-health-service-user</title>
+<link rel="alternate" type="application/ld+json" href="pers-health-service-user.jsonld">
+<link rel="canonical" href="../../../../en/dth-phc/#pers:health-service-user">
+<script type="application/ld+json">
+{
+  "@context": [
+    "https://worldhealthorganization.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://worldhealthorganization.github.io/dth-phc/v0/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-health-service-user",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:health-service-user",
+  "kind": "persona",
+  "title": "Health service user (patient / client)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-health-service-user.md",
+  "meta": {
+    "title": "Health service user (patient / client)",
+    "personaType": "person",
+    "bpmnRoleId": "pers:health-service-user",
+    "bpmnLanes": [
+      {
+        "process": "bp:understand-user-requirements",
+        "processId": "Process_UnderstandUserRequirements",
+        "laneId": "Lane-Ch3-Users",
+        "bpmnFile": "processes/understand-user-requirements.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch03-user-requirements/bp-understand-user-requirements.bpmn",
+        "ref": "processes/understand-user-requirements.bpmn#Lane-Ch3-Users"
+      },
+      {
+        "process": "bp:design-and-adaptation",
+        "processId": "Process_DesignAndAdaptation",
+        "laneId": "Lane-Ch4-Users",
+        "bpmnFile": "processes/design-and-adaptation.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn",
+        "ref": "processes/design-and-adaptation.bpmn#Lane-Ch4-Users"
+      },
+      {
+        "process": "bp:training-testing-and-roll-out",
+        "processId": "Process_TrainingTestingAndRollOut",
+        "laneId": "Lane-Ch5-Users",
+        "bpmnFile": "processes/training-testing-and-roll-out.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.bpmn",
+        "ref": "processes/training-testing-and-roll-out.bpmn#Lane-Ch5-Users"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-0b80b004c74f5b00b4a5bc56e9c06ac0.jsonld",
+          "name": "Health service user",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-a2320dbc07e6450b94f3f0f3e03bb877.jsonld",
+          "name": "Patients",
+          "type": "Stakeholder"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:health-service-users",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-003",
+        "sec-004",
+        "sec-011",
+        "sec-012",
+        "sec-014",
+        "sec-020",
+        "sec-022",
+        "sec-025"
+      ],
+      "pdfPages": [
+        10,
+        12,
+        25,
+        27,
+        33,
+        50,
+        53,
+        61
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-003-introduction.md",
+      "section": "sec-003-introduction",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "ClientOrPatient; Caregiver",
+    "relatedBlocks": [
+      "bp:understand-user-requirements",
+      "bp:design-and-adaptation",
+      "bp:training-testing-and-roll-out",
+      "prose:fig-10-11-anc-registration-reproduces"
+    ],
+    "roleId": "PHC-R-14",
+    "glossaryTerms": [
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/health-service-users",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+    ]
+  },
+  "provenance": "authored"
+}
+</script>
+<link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-12kbfy851h3.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><script src="../../../../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../../../../assets/css/navbar-row.css"><script src="../../../../assets/js/navbar-row.js" defer></script><meta name="fa-search-exclude" content="true"><script src="../../../../assets/js/just-the-docs.js" defer></script><link rel="stylesheet" href="../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><link rel="stylesheet" href="../../../../assets/draft-banner-noscript.css"></noscript><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../../../../assets/css/docs-ui.css" data-fa-platform-ui><script src="../../../../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="../../../.."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="../../../.." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-12kbfy851h3","here":"/v0/papers/dth-phc/blocks/pers-health-service-user.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a></nav><div id="main-header" class="main-header fa-site-bar fa-page-bar"><a class="fa-page-bar-home" href="../../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a><div class="search" role="search"><div class="search-input-wrap"><input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search this site" autocomplete="off"><label for="search-input" class="search-label"><span class="sr-only">Search this site</span></label></div><div id="search-results" class="search-results"></div></div><span class="fa-page-bar-locale" data-fa-slot="locale"></span></div>
+<h1><code>https://worldhealthorganization.github.io/dth-phc/v0/papers/dth-phc/blocks/pers-health-service-user</code></h1>
+<p>Read it in context: <a href="../../../../en/dth-phc/#pers:health-service-user">en/dth-phc/#pers:health-service-user</a>.</p>
+<p>Machine-readable: <a href="pers-health-service-user.jsonld">pers-health-service-user.jsonld</a>.</p>
+</body>
+</html>

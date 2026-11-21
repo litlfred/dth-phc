@@ -23,11 +23,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Acquired immunodeficiency syndrome"
+          "@value": "Acquired immunodeficiency syndrome",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "AIDS"
+        {
+          "@value": "AIDS",
+          "@language": "en"
+        }
       ],
       "skos:notation": "AIDS",
       "skos:scopeNote": "Used in the handbook text; expansion supplied for review. A candidate: no definition has been written.",
@@ -47,12 +51,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Algorithm"
+          "@value": "Algorithm",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "A specification of how a computer shall solve a problem, perform a calculation and execute a task."
+          "@value": "A specification of how a computer shall solve a problem, perform a calculation and execute a task.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -89,12 +95,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Annotation"
+          "@value": "Annotation",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "In a decision table, an annotation simply provides further details and explanation to the rule, for those working on and working from the decision table."
+          "@value": "In a decision table, an annotation simply provides further details and explanation to the rule, for those working on and working from the decision table.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -126,12 +134,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Antenatal Care (ANC)"
+          "@value": "Antenatal Care (ANC)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ANC",
-        "Antenatal Care"
+        {
+          "@value": "ANC",
+          "@language": "en"
+        },
+        {
+          "@value": "Antenatal Care",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ANC",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to WHO recommendations on antenatal care for a positive pregnancy experience. Geneva: World Health Organization; 2016. (Chapter 1, Introduction): \"Antenatal care (ANC) can be defined as the care provided by skilled health-care professionals to pregnant women and adolescent girls in order to ensure the best health conditions for both mother and baby during pregnancy.\" Agent draft for review (dth-phc#1): Antenatal care (ANC): preventive and clinical health care services provided to pregnant women and adolescent girls by skilled health personnel throughout pregnancy, used in this handbook as a core primary health care clinical workflow and Digital Adaptation Kit (DAK) domain.",
@@ -165,11 +180,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Application programming interface"
+          "@value": "Application programming interface",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "API"
+        {
+          "@value": "API",
+          "@language": "en"
+        }
       ],
       "skos:notation": "API",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -184,7 +203,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Architecture"
+          "@value": "Architecture",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A partial (dth-phc#6): only a broader or narrower concept is defined elsewhere, linked by SKOS match; an editor picks B or C. narrowMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"A blueprint of business processes, data, systems and technologies used to help implementers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system.\" Agent draft for review (dth-phc#1): The fundamental structure of a digital system or ecosystem, encompassing its components, their relationships, and the principles and guidelines governing their design and evolution.",
@@ -223,12 +243,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Architecture Building Blocks (ABB)"
+          "@value": "Architecture Building Blocks (ABB)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ABB",
-        "Architecture Building Block"
+        {
+          "@value": "ABB",
+          "@language": "en"
+        },
+        {
+          "@value": "Architecture Building Block",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ABB",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Reusable architectural components defining functional and technical capabilities within a reference or enterprise architecture for digital health systems.",
@@ -267,11 +294,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Artificial intelligence"
+          "@value": "Artificial intelligence",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "AI"
+        {
+          "@value": "AI",
+          "@language": "en"
+        }
       ],
       "skos:notation": "AI",
       "skos:scopeNote": "Used in Figure 3 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -286,17 +317,28 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "As-Is"
+          "@value": "As-Is",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "As-is",
-        "As-Is Process",
-        "Current State"
+        {
+          "@value": "As-is",
+          "@language": "en"
+        },
+        {
+          "@value": "As-Is Process",
+          "@language": "en"
+        },
+        {
+          "@value": "Current State",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "The current state of things (also see to-be)."
+          "@value": "The current state of things (also see to-be).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -325,11 +367,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Asia eHealth Information Network"
+          "@value": "Asia eHealth Information Network",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "AeHIN"
+        {
+          "@value": "AeHIN",
+          "@language": "en"
+        }
       ],
       "skos:notation": "AeHIN",
       "skos:scopeNote": "Expanded in the text (section 4.4), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -344,15 +390,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Beta Version"
+          "@value": "Beta Version",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Beta version"
+        {
+          "@value": "Beta version",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "The initial version of the software, after prototyping, that is available for testing among a limited group of people."
+          "@value": "The initial version of the software, after prototyping, that is available for testing among a limited group of people.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -386,11 +437,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Body mass index"
+          "@value": "Body mass index",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "BMI"
+        {
+          "@value": "BMI",
+          "@language": "en"
+        }
       ],
       "skos:notation": "BMI",
       "skos:scopeNote": "Expanded in Annex 8 (Form data mapping guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -405,12 +460,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Build"
+          "@value": "Build",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "In the context of developing a person-centred point of service system (PCPOSS), build is when a software engineer is writing the necessary code or programming the software."
+          "@value": "In the context of developing a person-centred point of service system (PCPOSS), build is when a software engineer is writing the necessary code or programming the software.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -442,11 +499,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Business Analyst"
+          "@value": "Business Analyst",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Business analyst"
+        {
+          "@value": "Business analyst",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Someone who helps bridge the gap between what users need and how the technology should work. They help translate health requirements into technical plans (section 2.2).",
       "skos:broader": [
@@ -490,15 +551,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Business Objective"
+          "@value": "Business Objective",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Business objective"
+        {
+          "@value": "Business objective",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, “completed health service user registration”, or “health service user referral sent” (1)."
+          "@value": "A time-targeted and measurable output or outcome of a routine health system function. Examples include, “completed health service user registration”, or “health service user referral sent” (1).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -529,15 +595,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Business Process"
+          "@value": "Business Process",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Business process"
+        {
+          "@value": "Business process",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3)."
+          "@value": "A set of activities and tasks performed in coordination to achieve a specified business objective, or to deliver value in a specific way to a health service user. In the context of digitizing care pathways, this could include “health service user registration” and “referrals”, for example (see section 3.3).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -574,11 +645,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Business process management"
+          "@value": "Business process management",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "BPM"
+        {
+          "@value": "BPM",
+          "@language": "en"
+        }
       ],
       "skos:notation": "BPM",
       "skos:scopeNote": "Used in the handbook glossary and references; expansion supplied for review. A candidate: no definition has been written.",
@@ -598,11 +673,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Business Process Model and Notation"
+          "@value": "Business Process Model and Notation",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "BPMN"
+        {
+          "@value": "BPMN",
+          "@language": "en"
+        }
       ],
       "skos:notation": "BPMN",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -622,11 +701,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "C-reactive protein"
+          "@value": "C-reactive protein",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "CRP"
+        {
+          "@value": "CRP",
+          "@language": "en"
+        }
       ],
       "skos:notation": "CRP",
       "skos:scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -641,7 +724,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Capability"
+          "@value": "Capability",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to smart-ra DPI-H RA glossary (dpi-h-ra), a candidate there too: \"A high-level ability the health system possesses or needs in order to achieve its goals. It expresses what the health system is able to do, independently of how that ability is implemented.\" Agent draft for review (dth-phc#1): An ability that an organization, person, or system possesses to achieve a specific health or operational outcome.",
@@ -675,15 +759,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Care Pathway"
+          "@value": "Care Pathway",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Care pathway"
+        {
+          "@value": "Care pathway",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n• an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users’ expectations and their characteristics;\n• the facilitation of the communication among the team members and with health service users and families;\n• the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n• the documentation, monitoring and evaluation of variances and outcomes;\n• the identification of the appropriate resources."
+          "@value": "A care pathway is a complex intervention for the mutual decision-making and organization of care processes for a well defined group of health service users during a well defined period (2,3).\nDefining characteristics of care pathways include the following used by the European Pathway Association (4,5):\n• an explicit statement of the objectives and key elements of care based on evidence, best practice, and health service users’ expectations and their characteristics;\n• the facilitation of the communication among the team members and with health service users and families;\n• the coordination of the care process by coordinating the roles and sequencing the activities of the multidisciplinary care team, the health service users and their relatives;\n• the documentation, monitoring and evaluation of variances and outcomes;\n• the identification of the appropriate resources.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -720,11 +809,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Chest X-ray"
+          "@value": "Chest X-ray",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "CXR"
+        {
+          "@value": "CXR",
+          "@language": "en"
+        }
       ],
       "skos:notation": "CXR",
       "skos:scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -739,7 +832,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Classifications"
+          "@value": "Classifications",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A partial (dth-phc#6): only a broader or narrower concept is defined elsewhere, linked by SKOS match; an editor picks B or C. closeMatch to Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, 2nd ed. Geneva: World Health Organization; 2023. (Services and application types, C11): \"A central authority to uniquely identify the clinical activities that occur within the care delivery process by maintaining a terminology set mapped to international standards such as ICD10, ICD11, LOINC, SNOMED and others.(1,4)\" Agent draft for review (dth-phc#1): Standardized systems of categories used to group health conditions, interventions, and related health concepts for statistical reporting, clinical documentation, and semantic interoperability.",
@@ -779,13 +873,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Clerk"
+          "@value": "Clerk",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Facility clerk",
-        "Registration clerk",
-        "Records clerk"
+        {
+          "@value": "Facility clerk",
+          "@language": "en"
+        },
+        {
+          "@value": "Registration clerk",
+          "@language": "en"
+        },
+        {
+          "@value": "Records clerk",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Health facility registration, reception and medical records staff who register clients, verify client identity and maintain facility registers (sections 3.1, 3.3.2 Figs. 10–11, 5.1, 6.4).",
       "skos:broader": [
@@ -826,15 +930,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Clinical Protocol"
+          "@value": "Clinical Protocol",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Clinical protocol"
+        {
+          "@value": "Clinical protocol",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "An official set of procedures or processes outlined by clinical guidelines set at national and/or higher levels."
+          "@value": "An official set of procedures or processes outlined by clinical guidelines set at national and/or higher levels.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -871,7 +980,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Coding Schemes"
+          "@value": "Coding Schemes",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Formal sets of codes and rules assigning unique identifiers to clinical concepts, data elements, and classifications to support unambiguous data capture and exchange.",
@@ -906,12 +1016,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Collaborative Requirements Development Methodology (CRDM)"
+          "@value": "Collaborative Requirements Development Methodology (CRDM)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "CRDM",
-        "Collaborative Requirements Development Methodology"
+        {
+          "@value": "CRDM",
+          "@language": "en"
+        },
+        {
+          "@value": "Collaborative Requirements Development Methodology",
+          "@language": "en"
+        }
       ],
       "skos:notation": "CRDM",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Collaborative Requirements Development Methodology (CRDM): structured methodology for analysing business processes, redesigning workflows, and defining functional and non-functional system requirements for health information systems.",
@@ -940,16 +1057,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Community-Based Information System"
+          "@value": "Community-Based Information System",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Community-based information system",
-        "CBIS"
+        {
+          "@value": "Community-based information system",
+          "@language": "en"
+        },
+        {
+          "@value": "CBIS",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Applications that facilitate data collection and use at the community level. These applications are utilized by community-based workers who provide health promotion and disease prevention activities (6)."
+          "@value": "Applications that facilitate data collection and use at the community level. These applications are utilized by community-based workers who provide health promotion and disease prevention activities (6).",
+          "@language": "en"
         }
       ],
       "skos:notation": "CBIS",
@@ -981,12 +1106,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Community health worker"
+          "@value": "Community health worker",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "CHW",
-        "CHWs"
+        {
+          "@value": "CHW",
+          "@language": "en"
+        },
+        {
+          "@value": "CHWs",
+          "@language": "en"
+        }
       ],
       "skos:notation": "CHW",
       "skos:scopeNote": "Used in section 3.7 and Annex 12; expansion supplied for review. A candidate: no definition has been written.",
@@ -1006,11 +1138,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Coronavirus disease 2019"
+          "@value": "Coronavirus disease 2019",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "COVID-19"
+        {
+          "@value": "COVID-19",
+          "@language": "en"
+        }
       ],
       "skos:notation": "COVID-19",
       "skos:scopeNote": "Used in section 3.8 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -1025,15 +1161,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Data Dictionary"
+          "@value": "Data Dictionary",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Data dictionary"
+        {
+          "@value": "Data dictionary",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A singular storage location for information about the data elements, detailing their type and definition, relationships, origin and use."
+          "@value": "A singular storage location for information about the data elements, detailing their type and definition, relationships, origin and use.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1067,16 +1208,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Data Element"
+          "@value": "Data Element",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Data element",
-        "Core Data Element"
+        {
+          "@value": "Data element",
+          "@language": "en"
+        },
+        {
+          "@value": "Core Data Element",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A unit of data that has a specific and precise meaning."
+          "@value": "A unit of data that has a specific and precise meaning.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1115,7 +1264,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Data Exchange"
+          "@value": "Data Exchange",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. closeMatch to Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, 2nd ed. Geneva: World Health Organization; 2023. (Services and application types, D2): \"Provides software capabilities to support managed data exchange and interoperability between applications and services across the digital health enterprise.(1)\" Agent draft for review (dth-phc#1): The structured transmission and sharing of health and administrative data between digital systems using agreed syntactic and semantic interoperability standards.",
@@ -1152,11 +1302,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Decision Model and Notation"
+          "@value": "Decision Model and Notation",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DMN"
+        {
+          "@value": "DMN",
+          "@language": "en"
+        }
       ],
       "skos:notation": "DMN",
       "skos:scopeNote": "Expanded in the text, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -1179,16 +1333,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Decision Support Logic"
+          "@value": "Decision Support Logic",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Decision support logic",
-        "Decision-support logic"
+        {
+          "@value": "Decision support logic",
+          "@language": "en"
+        },
+        {
+          "@value": "Decision-support logic",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A set of decision rules for standard and exceptional cases that is utilized for a decision task within a business process. This helps to reduce the complexity of the business process without losing the detail necessary for coding the rules needed for system functionality (7)."
+          "@value": "A set of decision rules for standard and exceptional cases that is utilized for a decision task within a business process. This helps to reduce the complexity of the business process without losing the detail necessary for coding the rules needed for system functionality (7).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1225,19 +1387,36 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Decision Support System"
+          "@value": "Decision Support System",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Decision support system",
-        "Clinical Decision Support System",
-        "CDSS",
-        "DSS",
-        "CDS"
+        {
+          "@value": "Decision support system",
+          "@language": "en"
+        },
+        {
+          "@value": "Clinical Decision Support System",
+          "@language": "en"
+        },
+        {
+          "@value": "CDSS",
+          "@language": "en"
+        },
+        {
+          "@value": "DSS",
+          "@language": "en"
+        },
+        {
+          "@value": "CDS",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A digital job aid that combines an individual’s health information with the health worker’s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8)."
+          "@value": "A digital job aid that combines an individual’s health information with the health worker’s knowledge and clinical protocols, to assist health workers in making diagnosis and treatment decisions (8).",
+          "@language": "en"
         }
       ],
       "skos:notation": "DSS",
@@ -1280,17 +1459,28 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Decision-Support Table"
+          "@value": "Decision-Support Table",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Decision-support table",
-        "Decision Table",
-        "DT"
+        {
+          "@value": "Decision-support table",
+          "@language": "en"
+        },
+        {
+          "@value": "Decision Table",
+          "@language": "en"
+        },
+        {
+          "@value": "DT",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A structured way to depict a discrete decision that will need to be embedded into the PCPOSS. There can be multiple decision-support tables (9)."
+          "@value": "A structured way to depict a discrete decision that will need to be embedded into the PCPOSS. There can be multiple decision-support tables (9).",
+          "@language": "en"
         }
       ],
       "skos:notation": "DT",
@@ -1335,12 +1525,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Deploy"
+          "@value": "Deploy",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Make the software available for use beyond testing purposes."
+          "@value": "Make the software available for use beyond testing purposes.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1369,12 +1561,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Designer"
+          "@value": "Designer",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "User-experience designer",
-        "UX Designer"
+        {
+          "@value": "User-experience designer",
+          "@language": "en"
+        },
+        {
+          "@value": "UX Designer",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Someone who focuses on how the software looks and feels to the user, making sure it is easy to understand and navigate (section 2.2).",
       "skos:broader": [
@@ -1418,15 +1617,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "DevSecOps"
+          "@value": "DevSecOps",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Development, Security and Operations"
+        {
+          "@value": "Development, Security and Operations",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Short for “development, security and operations”. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues."
+          "@value": "Short for “development, security and operations”. Engineers working in DevSecOps are responsible for ensuring that the system is up and running according to plan, for ensuring it is deployed in a secure environment, and for monitoring bugs and server-side issues.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1449,12 +1653,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Diastolic Blood Pressure (DBP)"
+          "@value": "Diastolic Blood Pressure (DBP)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DBP",
-        "Diastolic Blood Pressure"
+        {
+          "@value": "DBP",
+          "@language": "en"
+        },
+        {
+          "@value": "Diastolic Blood Pressure",
+          "@language": "en"
+        }
       ],
       "skos:notation": "DBP",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Diastolic blood pressure (DBP): arterial blood pressure measured between heartbeats, captured as a core clinical data element and used in clinical decision support rules (such as antenatal care hypertension screening).",
@@ -1491,18 +1702,32 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Adaptation Kits (DAKs)"
+          "@value": "Digital Adaptation Kits (DAKs)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DAK",
-        "DAKs",
-        "Digital Adaptation Kit",
-        "Digital adaptation kits (DAKs)"
+        {
+          "@value": "DAK",
+          "@language": "en"
+        },
+        {
+          "@value": "DAKs",
+          "@language": "en"
+        },
+        {
+          "@value": "Digital Adaptation Kit",
+          "@language": "en"
+        },
+        {
+          "@value": "Digital adaptation kits (DAKs)",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO’s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the “SMART Guidelines” framework (10)."
+          "@value": "Operational, software-neutral, standardized documentation that distil clinical, public health and data use guidance into a format that can be transparently incorporated into digital systems. DAKs are designed to facilitate the accurate reflection of WHO’s clinical, public health and data use guidelines within the digital systems countries are adopting (8). This is knowledge layer 2, or L2, of the “SMART Guidelines” framework (10).",
+          "@language": "en"
         }
       ],
       "skos:notation": "DAK",
@@ -1559,15 +1784,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Health"
+          "@value": "Digital Health",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Digital health"
+        {
+          "@value": "Digital health",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Digital health is the systematic application of information and communications technologies, computer science, and data to support informed decision-making by individuals, the health workforce, and health systems, to strengthen resilience to disease and improve health and wellness (11)."
+          "@value": "Digital health is the systematic application of information and communications technologies, computer science, and data to support informed decision-making by individuals, the health workforce, and health systems, to strengthen resilience to disease and improve health and wellness (11).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1601,11 +1831,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Health Atlas"
+          "@value": "Digital Health Atlas",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DHA"
+        {
+          "@value": "DHA",
+          "@language": "en"
+        }
       ],
       "skos:notation": "DHA",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -1620,7 +1854,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Health Ecosystem"
+          "@value": "Digital Health Ecosystem",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"The combined set of digital health components representing the enabling environment, foundational architecture and ICT capabilities available in a given context or country.\" Agent draft for review (dth-phc#1): The interconnected network of digital health applications, shared infrastructure services, standards, governance policies, and stakeholders operating within a health system.",
@@ -1661,18 +1896,32 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Health Intervention (DHI)"
+          "@value": "Digital Health Intervention (DHI)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DHI",
-        "DHIs",
-        "Digital Health Interventions",
-        "Digital health intervention"
+        {
+          "@value": "DHI",
+          "@language": "en"
+        },
+        {
+          "@value": "DHIs",
+          "@language": "en"
+        },
+        {
+          "@value": "Digital Health Interventions",
+          "@language": "en"
+        },
+        {
+          "@value": "Digital health intervention",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A discrete capability of digital technology to achieve health sector objectives. Examples of digital health interventions include providing checklist according to protocol, transmitting targeted health information to person(s) based on health status or demographics, and notifying stock levels of health commodities; see Classification of digital interventions, services and applications in health for a full list of digital health interventions (6)."
+          "@value": "A discrete capability of digital technology to achieve health sector objectives. Examples of digital health interventions include providing checklist according to protocol, transmitting targeted health information to person(s) based on health status or demographics, and notifying stock levels of health commodities; see Classification of digital interventions, services and applications in health for a full list of digital health interventions (6).",
+          "@language": "en"
         }
       ],
       "skos:notation": "DHI",
@@ -1707,11 +1956,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Imaging and Communications in Medicine"
+          "@value": "Digital Imaging and Communications in Medicine",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DICOM"
+        {
+          "@value": "DICOM",
+          "@language": "en"
+        }
       ],
       "skos:notation": "DICOM",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -1726,11 +1979,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Implementation Investment Guide"
+          "@value": "Digital Implementation Investment Guide",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DIIG"
+        {
+          "@value": "DIIG",
+          "@language": "en"
+        }
       ],
       "skos:notation": "DIIG",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -1745,15 +2002,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digital Transformation"
+          "@value": "Digital Transformation",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Digital transformation"
+        {
+          "@value": "Digital transformation",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "The process of digitally optimizing and driving systems-level changes by leveraging innovation, analytics and feedback mechanisms to improve person-centred health systems. Digital technologies are used to fundamentally change and improve how health services are delivered and accessed across all health programme areas (12,14,15)."
+          "@value": "The process of digitally optimizing and driving systems-level changes by leveraging innovation, analytics and feedback mechanisms to improve person-centred health systems. Digital technologies are used to fundamentally change and improve how health services are delivered and accessed across all health programme areas (12,14,15).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1787,12 +2049,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digitalization"
+          "@value": "Digitalization",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "The process of digitally automating and simplifying processes to streamline individual health programmes and reduce manual efforts for greater efficiency (12,13)."
+          "@value": "The process of digitally automating and simplifying processes to streamline individual health programmes and reduce manual efforts for greater efficiency (12,13).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1823,12 +2087,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Digitization"
+          "@value": "Digitization",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "The process of converting and organizing data from paper records into a digital format for easier entry, storage and retrieval (12,16)."
+          "@value": "The process of converting and organizing data from paper records into a digital format for easier entry, storage and retrieval (12,16).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -1857,11 +2123,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "District Health Information Software 2"
+          "@value": "District Health Information Software 2",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "DHIS2"
+        {
+          "@value": "DHIS2",
+          "@language": "en"
+        }
       ],
       "skos:notation": "DHIS2",
       "skos:scopeNote": "Used in the handbook text; expansion supplied for review. A candidate: no definition has been written.",
@@ -1881,12 +2151,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Donors and Development Partners"
+          "@value": "Donors and Development Partners",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Donors, development partners and implementing partners",
-        "Implementing partner"
+        {
+          "@value": "Donors, development partners and implementing partners",
+          "@language": "en"
+        },
+        {
+          "@value": "Implementing partner",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. closeMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"Private foundation, NGO, bilateral or multilateral agency, or private-sector organization that provides resources to design, develop and implement digital health investments or projects.\" Agent draft for review (dth-phc#1): Funding agencies, multilateral organizations, technical assistance partners and non-governmental implementing partners that co-finance and support digital health implementation in alignment with national strategies (sections 1.3, 2.3, 3.1, 6.1).",
       "skos:broader": [
@@ -1930,7 +2207,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Ecosystem"
+          "@value": "Ecosystem",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A partial (dth-phc#6): only a broader or narrower concept is defined elsewhere, linked by SKOS match; an editor picks B or C. narrowMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"The combined set of digital health components representing the enabling environment, foundational architecture and ICT capabilities available in a given context or country.\" Agent draft for review (dth-phc#1): A complex network of interacting systems, services, organizations, and users that exchange data and coordinate activities within a shared environment.",
@@ -1963,18 +2241,32 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Electronic Health Record System (EHR)"
+          "@value": "Electronic Health Record System (EHR)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "EHR",
-        "EMR",
-        "Electronic health record system",
-        "Electronic Medical Record System"
+        {
+          "@value": "EHR",
+          "@language": "en"
+        },
+        {
+          "@value": "EMR",
+          "@language": "en"
+        },
+        {
+          "@value": "Electronic health record system",
+          "@language": "en"
+        },
+        {
+          "@value": "Electronic Medical Record System",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A secure, online system that holds health service user health records, which include information about people’s health and clinical care. This system is managed by health workers. Also referred to as an “electronic medical record system” (6)."
+          "@value": "A secure, online system that holds health service user health records, which include information about people’s health and clinical care. This system is managed by health workers. Also referred to as an “electronic medical record system” (6).",
+          "@language": "en"
         }
       ],
       "skos:notation": "EHR",
@@ -2014,12 +2306,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Electronic Medical Record (EMR)"
+          "@value": "Electronic Medical Record (EMR)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "EMR",
-        "Electronic Medical Records"
+        {
+          "@value": "EMR",
+          "@language": "en"
+        },
+        {
+          "@value": "Electronic Medical Records",
+          "@language": "en"
+        }
       ],
       "skos:notation": "EMR",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, 2nd ed. Geneva: World Health Organization; 2023. (Services and application types, A5): \"A secure, online system that holds information about people’s health and clinical care and is managed by healthcare providers.\" Agent draft for review (dth-phc#1): Electronic medical record (EMR): digital version of a health service user's clinical chart maintained within a health care facility or point-of-service system to support diagnosis, treatment, and longitudinal clinical care.",
@@ -2060,16 +2359,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "End-User"
+          "@value": "End-User",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "End-user",
-        "End User"
+        {
+          "@value": "End-user",
+          "@language": "en"
+        },
+        {
+          "@value": "End User",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "People who will be using the digital system(s)."
+          "@value": "People who will be using the digital system(s).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2109,16 +2416,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Enterprise Architecture"
+          "@value": "Enterprise Architecture",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Enterprise architecture",
-        "EA"
+        {
+          "@value": "Enterprise architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "EA",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A blueprint of business processes, data, systems and technologies used to help planners, software developers and managers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system (11)."
+          "@value": "A blueprint of business processes, data, systems and technologies used to help planners, software developers and managers design increasingly complex systems to support the workflow and roles of people in a large enterprise, such as a health system (11).",
+          "@language": "en"
         }
       ],
       "skos:notation": "EA",
@@ -2147,11 +2462,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Family planning"
+          "@value": "Family planning",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "FP"
+        {
+          "@value": "FP",
+          "@language": "en"
+        }
       ],
       "skos:notation": "FP",
       "skos:scopeNote": "Expanded in Annex 6 (Business process matrix guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -2166,12 +2485,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Fast Healthcare Interoperability Resources (FHIR)"
+          "@value": "Fast Healthcare Interoperability Resources (FHIR)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "FHIR",
-        "HL7 FHIR"
+        {
+          "@value": "FHIR",
+          "@language": "en"
+        },
+        {
+          "@value": "HL7 FHIR",
+          "@language": "en"
+        }
       ],
       "skos:notation": "FHIR",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to smart-ra DPI-H RA glossary (dpi-h-ra), a candidate there too: \"FHIR is a standard for healthcare data exchange, published by HL7®\" Agent draft for review (dth-phc#1): Fast Healthcare Interoperability Resources (FHIR): HL7 open interoperability standard specifying data formats, resources, and application programming interfaces (APIs) for exchanging electronic health information.",
@@ -2210,15 +2536,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Features"
+          "@value": "Features",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Feature"
+        {
+          "@value": "Feature",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "The characteristics of a system that include look and feel as well as what the system can do (e.g. “reporting” can be a feature of a PCPOSS)."
+          "@value": "The characteristics of a system that include look and feel as well as what the system can do (e.g. “reporting” can be a feature of a PCPOSS).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2252,12 +2583,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Flag"
+          "@value": "Flag",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "In a PCPOSS, a “flag” consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default)."
+          "@value": "In a PCPOSS, a “flag” consists of symbols, colours, shapes and/or text formatting changes used to draw attention to a particular health service user(s) for specific reasons based on documented criteria (e.g. high-risk pregnancy, vaccination default).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2286,11 +2619,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Foreign, Commonwealth and Development Office"
+          "@value": "Foreign, Commonwealth and Development Office",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "FCDO"
+        {
+          "@value": "FCDO",
+          "@language": "en"
+        }
       ],
       "skos:notation": "FCDO",
       "skos:scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -2305,11 +2642,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Full Standards and Architecture Catalogue"
+          "@value": "Full Standards and Architecture Catalogue",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "full-STAC"
+        {
+          "@value": "full-STAC",
+          "@language": "en"
+        }
       ],
       "skos:notation": "full-STAC",
       "skos:scopeNote": "Named in section 4.4 and references (ITU/WHO Full STAC). A candidate: no definition has been written.",
@@ -2324,16 +2665,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Functional Requirements"
+          "@value": "Functional Requirements",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Functional requirements",
-        "Functional Requirement"
+        {
+          "@value": "Functional requirements",
+          "@language": "en"
+        },
+        {
+          "@value": "Functional Requirement",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with)."
+          "@value": "Description of what the digital system needs to do to support the tasks that make up the health system process and address the identified health system challenges (e.g. a PCPOSS must be able to remind health workers which health service users to follow-up with).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2370,15 +2719,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Functions"
+          "@value": "Functions",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Function"
+        {
+          "@value": "Function",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Functions in a system are how features are implemented (e.g. “calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS)."
+          "@value": "Functions in a system are how features are implemented (e.g. “calculating aggregate data” and “displaying feedback in the form of diagrams” are functions of the “reporting” feature of a PCPOSS).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2409,7 +2763,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Generic Business Processes and Workflows"
+          "@value": "Generic Business Processes and Workflows",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Table 1, component 4): \"A business process is a set of related activities or tasks performed together to achieve the objectives of the health programme area, such as registration, counselling and referrals (1,23). Workflows are a visual representation of the progression of activities (tasks, decision points, interactions) that are performed within the business process (1,23).\" Agent draft for review (dth-phc#1): Standardized L2 Digital Adaptation Kit (DAK) component representing clinical and operational activities, roles, and task sequences (typically modelled in BPMN) that a digital system supports across care encounters.",
@@ -2454,11 +2809,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "GS1"
+          "@value": "GS1",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "GS1"
+        {
+          "@value": "GS1",
+          "@language": "en"
+        }
       ],
       "skos:notation": "GS1",
       "skos:scopeNote": "Named in Table 4 (section 4.4 interoperability standards). A candidate: no definition has been written.",
@@ -2473,11 +2832,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Informatician"
+          "@value": "Health Informatician",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Health informatician"
+        {
+          "@value": "Health informatician",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Someone who understands both health care and information systems. They help make sure the system captures and uses health data in a meaningful and standardized way (section 2.2).",
       "skos:broader": [
@@ -2524,12 +2887,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Information System (HIS)"
+          "@value": "Health Information System (HIS)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "HIS",
-        "Health Information Systems"
+        {
+          "@value": "HIS",
+          "@language": "en"
+        },
+        {
+          "@value": "Health Information Systems",
+          "@language": "en"
+        }
       ],
       "skos:notation": "HIS",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"A system that integrates data collection, processing, reporting, and use of the information necessary for improving health service effectiveness and efficiency through better management at all levels of health services.\" | exactMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Glossary): \"A system that integrates data collection, processing, reporting and use of the information necessary for improving health service effectiveness and efficiency through better management at all levels of health services (6).\" Agent draft for review (dth-phc#1): Health information system (HIS): socio-technical system that integrates data collection, processing, reporting, and use of health information to improve health service delivery and management across levels of the health system.",
@@ -2570,11 +2940,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Insurance Portability and Accountability Act"
+          "@value": "Health Insurance Portability and Accountability Act",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "HIPAA"
+        {
+          "@value": "HIPAA",
+          "@language": "en"
+        }
       ],
       "skos:notation": "HIPAA",
       "skos:scopeNote": "Expanded in the references, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -2589,7 +2963,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Interventions and Recommendations"
+          "@value": "Health Interventions and Recommendations",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Table 1, component 1): \"Overview of the health interventions and WHO recommendations included within this digital adaptation kit (DAK). DAKs are meant to be a repackaging and integration of WHO guidelines and guidance documents in a particular health domain. The list of health interventions is drawn from the universal health coverage menu of interventions compiled by WHO (22).\" Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component summarizing the normative WHO clinical and public health interventions and recommendations that the digital system is designed to operationalize.",
@@ -2626,11 +3001,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Level Seven"
+          "@value": "Health Level Seven",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "HL7"
+        {
+          "@value": "HL7",
+          "@language": "en"
+        }
       ],
       "skos:notation": "HL7",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -2650,11 +3029,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Management Information System (HMIS)"
+          "@value": "Health Management Information System (HMIS)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "HMIS"
+        {
+          "@value": "HMIS",
+          "@language": "en"
+        }
       ],
       "skos:notation": "HMIS",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"An information system specially designed to assist in the management and planning of health programmes, as opposed to delivery of care.\" | exactMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Glossary): \"An information system specifically designed to assist in the management and planning of health programmes, as opposed to delivery of care (6).\" | exactMatch to Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, 2nd ed. Geneva: World Health Organization; 2023. (Services and application types, D6): \"Stores routinely collected aggregate healthcare data and facilitates their analysis, with the goal of improving the quality of health services.(1,4)\" Agent draft for review (dth-phc#1): Health management information system (HMIS): information system specially designed to assist in the management and planning of health programmes and aggregate routine health facility reporting, distinct from individual point-of-service care systems.",
@@ -2698,18 +3081,32 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Service Users"
+          "@value": "Health Service Users",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Health service users",
-        "Health Service User",
-        "Patient",
-        "Client"
+        {
+          "@value": "Health service users",
+          "@language": "en"
+        },
+        {
+          "@value": "Health Service User",
+          "@language": "en"
+        },
+        {
+          "@value": "Patient",
+          "@language": "en"
+        },
+        {
+          "@value": "Client",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Also known as patients, clients or beneficiaries, these are individuals who receive formal and/or informal health services."
+          "@value": "Also known as patients, clients or beneficiaries, these are individuals who receive formal and/or informal health services.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2749,16 +3146,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Service User’s Health Records"
+          "@value": "Health Service User’s Health Records",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Health service user’s health records",
-        "Health Service User's Health Records"
+        {
+          "@value": "Health service user’s health records",
+          "@language": "en"
+        },
+        {
+          "@value": "Health Service User's Health Records",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker. The record may be retained by the health-care facility or by the health service user."
+          "@value": "The record of health information, including health services, clinical observations, diagnosis and any other interactions between a health service user and the health worker or community health worker. The record may be retained by the health-care facility or by the health service user.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -2792,14 +3197,27 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Health Worker"
+          "@value": "Health Worker",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Health worker",
-        "Clinician",
-        "Community Health Worker",
-        "CHW"
+        {
+          "@value": "Health worker",
+          "@language": "en"
+        },
+        {
+          "@value": "Clinician",
+          "@language": "en"
+        },
+        {
+          "@value": "Community Health Worker",
+          "@language": "en"
+        },
+        {
+          "@value": "CHW",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to dth-hrh TWG candidate; Regional framework to shape a health workforce for the future of the Western Pacific. Manila: World Health Organization Regional Office for the Western Pacific; 2024.: \"All persons engaged in actions whose primary intent is to enhance health (3,5).\" Agent draft for review (dth-phc#1): Primary point-of-service clinical and community health care providers (doctors, clinical officers, nurses, midwives, community health workers) who use the PCPOSS to deliver primary health care services (sections 1.1, 3.1, 3.2).",
       "skos:broader": [
@@ -2826,10 +3244,10 @@
       ],
       "skos:exactMatch": [
         {
-          "@id": "https://litlfred.github.io/dth-hrh/v0/ns/glossary/dth-hrh/health-workers"
+          "@id": "https://worldhealthorganization.github.io/dth-hrh/v0/ns/glossary/dth-hrh/health-workers"
         },
         {
-          "@id": "https://litlfred.github.io/dth-hrh/v0/ns/glossary/twg-candidates/health-workers--who-wpro-hwf-framework-2024"
+          "@id": "https://worldhealthorganization.github.io/dth-hrh/v0/ns/glossary/twg-candidates/health-workers--who-wpro-hwf-framework-2024"
         }
       ],
       "skos:closeMatch": [
@@ -2854,11 +3272,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Hepatitis B virus"
+          "@value": "Hepatitis B virus",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "HBV"
+        {
+          "@value": "HBV",
+          "@language": "en"
+        }
       ],
       "skos:notation": "HBV",
       "skos:scopeNote": "Expanded in Annex 12 (Scheduling logic table guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -2873,12 +3295,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Human immunodeficiency virus"
+          "@value": "Human immunodeficiency virus",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "HIV",
-        "HIV-1"
+        {
+          "@value": "HIV",
+          "@language": "en"
+        },
+        {
+          "@value": "HIV-1",
+          "@language": "en"
+        }
       ],
       "skos:notation": "HIV",
       "skos:scopeNote": "Used throughout the handbook's clinical examples and annexes without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -2893,11 +3322,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Identification for Development"
+          "@value": "Identification for Development",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ID4D"
+        {
+          "@value": "ID4D",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ID4D",
       "skos:scopeNote": "Named in section 2.3 (World Bank ID4D); expansion supplied for review. A candidate: no definition has been written.",
@@ -2912,11 +3345,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Identity/identification"
+          "@value": "Identity/identification",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ID"
+        {
+          "@value": "ID",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ID",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -2931,12 +3368,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Implementing Team"
+          "@value": "Implementing Team",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Implementing team",
-        "PCPOSS Implementing Team"
+        {
+          "@value": "Implementing team",
+          "@language": "en"
+        },
+        {
+          "@value": "PCPOSS Implementing Team",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): The multidisciplinary team formed in section 2.2 (comprising business analysts, health informaticians, software engineers, solutions architects, designers, user researchers and clinical/M&E experts) that plans, designs, tests, rolls out and scales up the PCPOSS.",
       "skos:broader": [
@@ -2983,7 +3427,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Indicators and Performance Metrics"
+          "@value": "Indicators and Performance Metrics",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Table 1, component 7): \"Core set of indicators that need to be aggregated for decision-making, performance metrics and subnational and national reporting. These indicators and metrics are based on data that can feasibly be captured from a routine digital system, rather than survey-based tools.\" Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component specifying numerator, denominator, and calculation logic for programme indicators and performance metrics derived from routine point-of-service data elements.",
@@ -3020,7 +3465,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Information System"
+          "@value": "Information System",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A partial (dth-phc#6): only a broader or narrower concept is defined elsewhere, linked by SKOS match; an editor picks B or C. narrowMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"A system that integrates data collection, processing, reporting, and use of the information necessary for improving health service effectiveness and efficiency through better management at all levels of health services.\" Agent draft for review (dth-phc#1): An integrated set of components for collecting, storing, processing, and communicating data and information to support operations and decision-making.",
@@ -3053,11 +3499,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Information technology"
+          "@value": "Information technology",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "IT"
+        {
+          "@value": "IT",
+          "@language": "en"
+        }
       ],
       "skos:notation": "IT",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3072,12 +3522,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Input"
+          "@value": "Input",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "The input entry in a decision-support table is a “condition” for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met – leading to the subsequent output or action."
+          "@value": "The input entry in a decision-support table is a “condition” for the rule to be met. There can be more than one input for the rule. Thus, if the input data are the same as the inputs listed in the decision- support table, then that rule is considered met – leading to the subsequent output or action.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -3112,11 +3564,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Institute of Electrical and Electronics Engineers"
+          "@value": "Institute of Electrical and Electronics Engineers",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "IEEE"
+        {
+          "@value": "IEEE",
+          "@language": "en"
+        }
       ],
       "skos:notation": "IEEE",
       "skos:scopeNote": "Used in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
@@ -3131,11 +3587,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Integrating the Healthcare Enterprise"
+          "@value": "Integrating the Healthcare Enterprise",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "IHE"
+        {
+          "@value": "IHE",
+          "@language": "en"
+        }
       ],
       "skos:notation": "IHE",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3150,11 +3610,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Interactive Research and Development"
+          "@value": "Interactive Research and Development",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "IRD"
+        {
+          "@value": "IRD",
+          "@language": "en"
+        }
       ],
       "skos:notation": "IRD",
       "skos:scopeNote": "Named in the acknowledgements; expansion supplied for review. A candidate: no definition has been written.",
@@ -3169,13 +3633,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "International Classification of Diseases (ICD)"
+          "@value": "International Classification of Diseases (ICD)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ICD",
-        "ICD-10",
-        "ICD-11"
+        {
+          "@value": "ICD",
+          "@language": "en"
+        },
+        {
+          "@value": "ICD-10",
+          "@language": "en"
+        },
+        {
+          "@value": "ICD-11",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ICD",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): International Classification of Diseases (ICD): WHO international standard diagnostic classification for epidemiology, clinical care, and health management.",
@@ -3223,11 +3697,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "International Classification of Diseases, 11th Revision"
+          "@value": "International Classification of Diseases, 11th Revision",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ICD-11"
+        {
+          "@value": "ICD-11",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ICD-11",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3247,11 +3725,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "International Classification of Functioning, Disability and Health"
+          "@value": "International Classification of Functioning, Disability and Health",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ICF"
+        {
+          "@value": "ICF",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ICF",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3271,11 +3753,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "International Classification of Health Interventions"
+          "@value": "International Classification of Health Interventions",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ICHI"
+        {
+          "@value": "ICHI",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ICHI",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3295,11 +3781,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "International Electrotechnical Commission"
+          "@value": "International Electrotechnical Commission",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "IEC"
+        {
+          "@value": "IEC",
+          "@language": "en"
+        }
       ],
       "skos:notation": "IEC",
       "skos:scopeNote": "Used in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
@@ -3314,11 +3804,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "International Organization for Standardization"
+          "@value": "International Organization for Standardization",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ISO"
+        {
+          "@value": "ISO",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ISO",
       "skos:scopeNote": "Used in the handbook references and standards tables; expansion supplied for review. A candidate: no definition has been written.",
@@ -3333,13 +3827,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "International Telecommunications Union"
+          "@value": "International Telecommunications Union",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "ITU",
-        "ITU-T",
-        "ITU-D"
+        {
+          "@value": "ITU",
+          "@language": "en"
+        },
+        {
+          "@value": "ITU-T",
+          "@language": "en"
+        },
+        {
+          "@value": "ITU-D",
+          "@language": "en"
+        }
       ],
       "skos:notation": "ITU",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3354,12 +3858,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Interoperability"
+          "@value": "Interoperability",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Ability of different applications to access, exchange, integrate and use data in a coordinated and consistent manner through the use of shared application interfaces, value sets, concepts and standards, within and across organizational, regional and national boundaries, to provide timely and seamless portability of information and optimize health outcomes."
+          "@value": "Ability of different applications to access, exchange, integrate and use data in a coordinated and consistent manner through the use of shared application interfaces, value sets, concepts and standards, within and across organizational, regional and national boundaries, to provide timely and seamless portability of information and optimize health outcomes.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Glossary entry (p. xi) is the primary definition; Section 4.4 body (HIMSS) and Section 4.4.2 (IEEE 1990) provide two additional definitions in the handbook. Section 4.4 body definition (p. 41), citing Healthcare Information and Management Systems Society (HIMSS). Alternative definition (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md): \"Interoperability ensures that all digital systems within the healthcare ecosystem work together harmoniously. It refers to the ability of different systems, devices, applications or products to connect and communicate in a coordinated way, without effort from the end user (14).\" Section 4.4.2 definition (p. 42), citing IEEE Standard Computer Dictionary (1990). Alternative definition (who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md): \"The ability of two or more systems or components to exchange information and to use the information that has been exchanged\"",
@@ -3393,7 +3899,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Interoperability Standards"
+          "@value": "Interoperability Standards",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. closeMatch to Digital transformation handbook for health product catalogue. Geneva: World Health Organization; 2024. (Glossary): \"Standards that are documented and made freely available to the public, which are developed, approved, and maintained via a collaborative and consensus driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption.\" | broadMatch to Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 2020. (Annex 1.1 Glossary): \"In software, a standard is a speciﬁcation used in digital application development that has been established, approved and published by an authoritative organization. These rules allow information to be shared and processed in a uniform, consistent manner independent of a particular application.\" Agent draft for review (dth-phc#1): Agreed technical and semantic specifications (including transport protocols, data exchange formats such as HL7 FHIR, and terminologies/classifications such as ICD, LOINC, and SNOMED-CT) that enable health information systems to exchange and interpret shared data consistently.",
@@ -3452,11 +3959,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "JavaScript Object Notation"
+          "@value": "JavaScript Object Notation",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "JSON"
+        {
+          "@value": "JSON",
+          "@language": "en"
+        }
       ],
       "skos:notation": "JSON",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3471,11 +3982,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Joint United Nations Programme on HIV/AIDS"
+          "@value": "Joint United Nations Programme on HIV/AIDS",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UNAIDS"
+        {
+          "@value": "UNAIDS",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UNAIDS",
       "skos:scopeNote": "Expanded in the text (section 2.3), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3490,11 +4005,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Lateral flow urine lipoarabinomannan assay"
+          "@value": "Lateral flow urine lipoarabinomannan assay",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "LF-LAM"
+        {
+          "@value": "LF-LAM",
+          "@language": "en"
+        }
       ],
       "skos:notation": "LF-LAM",
       "skos:scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -3509,15 +4028,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Legacy System"
+          "@value": "Legacy System",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Legacy system"
+        {
+          "@value": "Legacy system",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "An outdated system or technology that is still in use. The system still meets the needs it was originally designed for but does not meet the current needs or allow room for growth. It may be a paper-based system or a digital system."
+          "@value": "An outdated system or technology that is still in use. The system still meets the needs it was originally designed for but does not meet the current needs or allow room for growth. It may be a paper-based system or a digital system.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -3548,11 +4072,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Logical Observation Identifiers Names and Codes (LOINC)"
+          "@value": "Logical Observation Identifiers Names and Codes (LOINC)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "LOINC"
+        {
+          "@value": "LOINC",
+          "@language": "en"
+        }
       ],
       "skos:notation": "LOINC",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to smart-ra DPI-H RA glossary (dpi-h-ra), a candidate there too: \"LOINC is a common language (a set of identifiers, names, and codes) for identifying health measurements, observations, and documents.\" Agent draft for review (dth-phc#1): Logical Observation Identifiers Names and Codes (LOINC): international standard terminology and coding system for identifying laboratory tests and clinical observations.",
@@ -3591,16 +4119,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Longitudinal Tracking"
+          "@value": "Longitudinal Tracking",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Longitudinal tracking [of a health service user]",
-        "Longitudinal tracking"
+        {
+          "@value": "Longitudinal tracking [of a health service user]",
+          "@language": "en"
+        },
+        {
+          "@value": "Longitudinal tracking",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Ongoing and systematic collection and analysis of data related to a health service user’s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user’s health status, treatment and outcomes over multiple encounters or visits with health workers."
+          "@value": "Ongoing and systematic collection and analysis of data related to a health service user’s health or medical condition over an extended period of time. It involves monitoring and recording various aspects of a health service user’s health status, treatment and outcomes over multiple encounters or visits with health workers.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -3634,7 +4170,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Metadata"
+          "@value": "Metadata",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage a data element or information resource (such as data type, coding scheme, validation rules, and provenance in a data dictionary).",
@@ -3665,12 +4202,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "MHealth Assessment and Planning for Scale (MAPS)"
+          "@value": "MHealth Assessment and Planning for Scale (MAPS)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "MAPS",
-        "mHealth Assessment and Planning for Scale"
+        {
+          "@value": "MAPS",
+          "@language": "en"
+        },
+        {
+          "@value": "mHealth Assessment and Planning for Scale",
+          "@language": "en"
+        }
       ],
       "skos:notation": "MAPS",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): mHealth Assessment and Planning for Scale (MAPS): WHO toolkit and assessment methodology for planning, scaling up, and sustaining digital health implementations.",
@@ -3696,16 +4240,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Minimum Viable Product (MVP)"
+          "@value": "Minimum Viable Product (MVP)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "MVP",
-        "Minimum viable product (MVP)"
+        {
+          "@value": "MVP",
+          "@language": "en"
+        },
+        {
+          "@value": "Minimum viable product (MVP)",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A product that satisfies the minimum requirements of the end-users and can function accordingly. With iterative design techniques, the MVP is often used to gather initial reactions and feedback from the end- users, knowing that another version will be created and released with additional or updated features and functionality (17)."
+          "@value": "A product that satisfies the minimum requirements of the end-users and can function accordingly. With iterative design techniques, the MVP is often used to gather initial reactions and feedback from the end- users, knowing that another version will be created and released with additional or updated features and functionality (17).",
+          "@language": "en"
         }
       ],
       "skos:notation": "MVP",
@@ -3738,12 +4290,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Ministry of Health"
+          "@value": "Ministry of Health",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "MoH",
-        "MOH"
+        {
+          "@value": "MoH",
+          "@language": "en"
+        },
+        {
+          "@value": "MOH",
+          "@language": "en"
+        }
       ],
       "skos:notation": "MoH",
       "skos:scopeNote": "Expanded in section 2.2, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3763,16 +4322,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Mock-Up"
+          "@value": "Mock-Up",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Mock-up",
-        "Mockup"
+        {
+          "@value": "Mock-up",
+          "@language": "en"
+        },
+        {
+          "@value": "Mockup",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Graphic design and descriptive documentation that closely depicts the look and feel (including colour scheme and design themes) of the finished product (see section 4.3)."
+          "@value": "Graphic design and descriptive documentation that closely depicts the look and feel (including colour scheme and design themes) of the finished product (see section 4.3).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -3798,11 +4365,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Molecular WHO-recommended rapid diagnostic test"
+          "@value": "Molecular WHO-recommended rapid diagnostic test",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "mWRD"
+        {
+          "@value": "mWRD",
+          "@language": "en"
+        }
       ],
       "skos:notation": "mWRD",
       "skos:scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -3817,11 +4388,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Monitoring and evaluation"
+          "@value": "Monitoring and evaluation",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "M&E"
+        {
+          "@value": "M&E",
+          "@language": "en"
+        }
       ],
       "skos:notation": "M&E",
       "skos:scopeNote": "Expanded in section 6.3 and persona descriptions, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3841,13 +4416,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Monitoring and Evaluation Specialist"
+          "@value": "Monitoring and Evaluation Specialist",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Monitoring and evaluation specialist",
-        "M&E Specialist",
-        "M&E"
+        {
+          "@value": "Monitoring and evaluation specialist",
+          "@language": "en"
+        },
+        {
+          "@value": "M&E Specialist",
+          "@language": "en"
+        },
+        {
+          "@value": "M&E",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Specialist responsible for mapping aggregate health indicators to point-of-service data elements (section 3.4.3) and assessing scale-up readiness and SMART objective benchmarks (sections 6.1–6.3).",
       "skos:broader": [
@@ -3885,17 +4470,28 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Non-Functional Requirements"
+          "@value": "Non-Functional Requirements",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Non-functional requirements",
-        "Non-Functional Requirement",
-        "NFR"
+        {
+          "@value": "Non-functional requirements",
+          "@language": "en"
+        },
+        {
+          "@value": "Non-Functional Requirement",
+          "@language": "en"
+        },
+        {
+          "@value": "NFR",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "General attributes and features of the digital system to ensure usability and overcome technical and physical constraints. Examples of non-functional requirements include ability to work offline, multiple language settings, and password protection (see section 3.8)."
+          "@value": "General attributes and features of the digital system to ensure usability and overcome technical and physical constraints. Examples of non-functional requirements include ability to work offline, multiple language settings, and password protection (see section 3.8).",
+          "@language": "en"
         }
       ],
       "skos:notation": "NFR",
@@ -3927,11 +4523,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Object Management Group"
+          "@value": "Object Management Group",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "OMG"
+        {
+          "@value": "OMG",
+          "@language": "en"
+        }
       ],
       "skos:notation": "OMG",
       "skos:scopeNote": "Used in the handbook text and annexes (BPMN/DMN standards body); expansion supplied for review. A candidate: no definition has been written.",
@@ -3946,11 +4546,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Health Information Exchange"
+          "@value": "Open Health Information Exchange",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "OpenHIE"
+        {
+          "@value": "OpenHIE",
+          "@language": "en"
+        }
       ],
       "skos:notation": "OpenHIE",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -3965,11 +4569,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Smart Register Platform"
+          "@value": "Open Smart Register Platform",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "OpenSRP"
+        {
+          "@value": "OpenSRP",
+          "@language": "en"
+        }
       ],
       "skos:notation": "OpenSRP",
       "skos:scopeNote": "Named in the handbook references; expansion supplied for review. A candidate: no definition has been written.",
@@ -3984,15 +4592,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Source"
+          "@value": "Open Source",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Open source"
+        {
+          "@value": "Open source",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Open-source software is software with source code that is published and made freely available to the public, enabling anyone to inspect, modify and enhance the code (18). While the source code is open to everyone, this does not mean that implementation of software is necessarily without costs. An open- source software must have a license approved by the Open Source Initiative (19)."
+          "@value": "Open-source software is software with source code that is published and made freely available to the public, enabling anyone to inspect, modify and enhance the code (18). While the source code is open to everyone, this does not mean that implementation of software is necessarily without costs. An open- source software must have a license approved by the Open Source Initiative (19).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4026,11 +4639,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Source Initiative"
+          "@value": "Open Source Initiative",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "OSI"
+        {
+          "@value": "OSI",
+          "@language": "en"
+        }
       ],
       "skos:notation": "OSI",
       "skos:scopeNote": "Expanded in the glossary footnotes, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -4050,15 +4667,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Open Standards"
+          "@value": "Open Standards",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Open standards"
+        {
+          "@value": "Open standards",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (20)."
+          "@value": "Standards that are documented and made freely available to the public, which are developed, approved and maintained via a collaborative and consensus-driven process. Open standards facilitate interoperability and data exchange and are intended for widespread adoption (20).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4089,12 +4711,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Output"
+          "@value": "Output",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "In the context of requirements gathering or decision support logic, for each combination of input entries, the output is what will result in the conditions of the rule being met. This could be a single output value that would become an input in a subsequent decision table, or it could be a resulting action, activity or task in a business process."
+          "@value": "In the context of requirements gathering or decision support logic, for each combination of input entries, the output is what will result in the conditions of the rule being met. This could be a single output value that would become an input in a subsequent decision table, or it could be a resulting action, activity or task in a business process.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4132,15 +4756,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Pain Point"
+          "@value": "Pain Point",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Pain point"
+        {
+          "@value": "Pain point",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A real or perceived problem that end-users experience."
+          "@value": "A real or perceived problem that end-users experience.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4169,11 +4798,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Pan American Health Organization"
+          "@value": "Pan American Health Organization",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PAHO"
+        {
+          "@value": "PAHO",
+          "@language": "en"
+        }
       ],
       "skos:notation": "PAHO",
       "skos:scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -4188,16 +4821,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Person-Centred"
+          "@value": "Person-Centred",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Person-centred",
-        "Person-Centered"
+        {
+          "@value": "Person-centred",
+          "@language": "en"
+        },
+        {
+          "@value": "Person-Centered",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "In the context of person-centred health services, person-centred refers to prioritizing the comprehensive needs of individuals (i.e. persons, clients, patients, health service users) at the centre of health systems. It involves actively engaging and empowering individuals to have a more active role in their own health and health-care decisions. It shifts the focus of health services away from specific diseases or interventions, towards holistic needs of individuals across the continuum of care and life course (21)."
+          "@value": "In the context of person-centred health services, person-centred refers to prioritizing the comprehensive needs of individuals (i.e. persons, clients, patients, health service users) at the centre of health systems. It involves actively engaging and empowering individuals to have a more active role in their own health and health-care decisions. It shifts the focus of health services away from specific diseases or interventions, towards holistic needs of individuals across the continuum of care and life course (21).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4228,17 +4869,28 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Person-Centred Point of Service System (PCPOSS)"
+          "@value": "Person-Centred Point of Service System (PCPOSS)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PCPOSS",
-        "Person-Centred Point of Service Systems (PCPOSS)",
-        "Person-centred point of service system (PCPOSS)"
+        {
+          "@value": "PCPOSS",
+          "@language": "en"
+        },
+        {
+          "@value": "Person-Centred Point of Service Systems (PCPOSS)",
+          "@language": "en"
+        },
+        {
+          "@value": "Person-centred point of service system (PCPOSS)",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals’ health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3)."
+          "@value": "Person-centred point of service system (PCPOSS) are digital systems that facilitate the provision and delivery of health services to individuals (i.e. persons, clients, patients, health service users) at the point of service or point of care. This includes software capabilities and embedded health interoperability standards that enable health workers to access, record and update individuals’ health information. PCPOSS also includes software capabilities and embedded health interoperability standards that enable screening, managing, treating, and/or communicating with, individuals. PCPOSS encompass various services and application types, including community-based information systems, decision support systems, electronic medical (or health) record systems and personal health records (3).",
+          "@language": "en"
         }
       ],
       "skos:notation": "PCPOSS",
@@ -4282,13 +4934,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Personal Health Record (PHR)"
+          "@value": "Personal Health Record (PHR)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PHR",
-        "Personal health record",
-        "Personal Health Record System"
+        {
+          "@value": "PHR",
+          "@language": "en"
+        },
+        {
+          "@value": "Personal health record",
+          "@language": "en"
+        },
+        {
+          "@value": "Personal Health Record System",
+          "@language": "en"
+        }
       ],
       "skos:notation": "PHR",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, 2nd ed. Geneva: World Health Organization; 2023. (Services and application types, A7): \"Digital personal health record is a record of an individual’s health information in a structured digital format for a set of defined use cases over which the person has agency.\" Agent draft for review (dth-phc#1): An application used by a health service user to access, manage and share their own health information, receive targeted client communications and appointment reminders, and interact with the health system (section 1.1).",
@@ -4330,12 +4992,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Point of Service (POS)"
+          "@value": "Point of Service (POS)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "POS",
-        "Point of Service"
+        {
+          "@value": "POS",
+          "@language": "en"
+        },
+        {
+          "@value": "Point of Service",
+          "@language": "en"
+        }
       ],
       "skos:notation": "POS",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. closeMatch to Classification of digital interventions, services and applications in health: a shared language to describe the uses of digital technology for health, 2nd ed. Geneva: World Health Organization; 2023. (Services and application types, category A): \"Systems that facilitate the provision and delivery of healthcare services to persons at the point of care. They include software capabilities that enable healthcare providers to access, record and update individuals’ health information as well as interactively communicate with them.\" Agent draft for review (dth-phc#1): Point of service (POS): the setting and care encounter where health workers and health service users interact and where clinical and administrative data are captured and used in real time.",
@@ -4369,17 +5038,28 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Pop-Up Message"
+          "@value": "Pop-Up Message",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Pop-up message",
-        "Toast Message",
-        "Toast Notification"
+        {
+          "@value": "Pop-up message",
+          "@language": "en"
+        },
+        {
+          "@value": "Toast Message",
+          "@language": "en"
+        },
+        {
+          "@value": "Toast Notification",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a “toast message” or “toast notification”."
+          "@value": "A small message that appears on the screen after a triggering event. It can automatically go away after a pre-set time limit or it can be closed by clicking a button. Also sometimes referred to as a “toast message” or “toast notification”.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4408,11 +5088,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Post-exposure prophylaxis"
+          "@value": "Post-exposure prophylaxis",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PEP"
+        {
+          "@value": "PEP",
+          "@language": "en"
+        }
       ],
       "skos:notation": "PEP",
       "skos:scopeNote": "Used in Figure 13 (HIV decision-support example) without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -4432,11 +5116,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Pre-exposure prophylaxis"
+          "@value": "Pre-exposure prophylaxis",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PrEP"
+        {
+          "@value": "PrEP",
+          "@language": "en"
+        }
       ],
       "skos:notation": "PrEP",
       "skos:scopeNote": "Used in Figure 13 (HIV decision-support example) without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -4456,11 +5144,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Prevention of mother-to-child transmission"
+          "@value": "Prevention of mother-to-child transmission",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PMTCT"
+        {
+          "@value": "PMTCT",
+          "@language": "en"
+        }
       ],
       "skos:notation": "PMTCT",
       "skos:scopeNote": "Used in Figure 14 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -4483,12 +5175,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Primary Health Care (PHC)"
+          "@value": "Primary Health Care (PHC)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PHC",
-        "Primary Health Care"
+        {
+          "@value": "PHC",
+          "@language": "en"
+        },
+        {
+          "@value": "Primary Health Care",
+          "@language": "en"
+        }
       ],
       "skos:notation": "PHC",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Primary health care (PHC): whole-of-society approach to health that aims to ensure the highest possible level of health and well-being and their equitable distribution by focusing on people's needs and as early as possible along the continuum from health promotion and disease prevention to treatment, rehabilitation and palliative care, and as close as feasible to people's everyday environment.",
@@ -4525,12 +5224,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Prototype"
+          "@value": "Prototype",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Prototypes have high fidelity to the end product with options and functionalities that can be tested (see section 4.3)."
+          "@value": "Prototypes have high fidelity to the end product with options and functionalities that can be tested (see section 4.3).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4559,13 +5260,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Public Health Authority"
+          "@value": "Public Health Authority",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Public health authority",
-        "Ministry of Health",
-        "MoH"
+        {
+          "@value": "Public health authority",
+          "@language": "en"
+        },
+        {
+          "@value": "Ministry of Health",
+          "@language": "en"
+        },
+        {
+          "@value": "MoH",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): National or subnational government health authority (such as the Ministry of Health) that governs digital health strategy alignment, policy, resource allocation and scale-up of the PCPOSS (sections 1.3, 2.3, 5.0, 6.1).",
       "skos:broader": [
@@ -4606,11 +5317,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Public Health Informatics Institute"
+          "@value": "Public Health Informatics Institute",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "PHII"
+        {
+          "@value": "PHII",
+          "@language": "en"
+        }
       ],
       "skos:notation": "PHII",
       "skos:scopeNote": "Expanded in the text (section 1.3 and section 3.1, CRDM originator), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -4630,11 +5345,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Quality assurance"
+          "@value": "Quality assurance",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "QA"
+        {
+          "@value": "QA",
+          "@language": "en"
+        }
       ],
       "skos:notation": "QA",
       "skos:scopeNote": "Expanded in the section 4.5 title and text ('Build and quality assurance'), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -4649,11 +5368,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Quick response code"
+          "@value": "Quick response code",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "QR"
+        {
+          "@value": "QR",
+          "@language": "en"
+        }
       ],
       "skos:notation": "QR",
       "skos:scopeNote": "Used in section 2.3 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -4668,11 +5391,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Rapid assessment and management"
+          "@value": "Rapid assessment and management",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "RAM"
+        {
+          "@value": "RAM",
+          "@language": "en"
+        }
       ],
       "skos:notation": "RAM",
       "skos:scopeNote": "Expanded in Figure 11 (ANC workflow diagram), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -4687,12 +5414,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Reference Model of Open Distributed Processing"
+          "@value": "Reference Model of Open Distributed Processing",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "RM-ODP",
-        "ODP"
+        {
+          "@value": "RM-ODP",
+          "@language": "en"
+        },
+        {
+          "@value": "ODP",
+          "@language": "en"
+        }
       ],
       "skos:notation": "RM-ODP",
       "skos:scopeNote": "Used in the section 4.4 references; expansion supplied for review. A candidate: no definition has been written.",
@@ -4707,16 +5441,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Reference Software"
+          "@value": "Reference Software",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Reference software",
-        "Reference Application"
+        {
+          "@value": "Reference software",
+          "@language": "en"
+        },
+        {
+          "@value": "Reference Application",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Reference software, or applications, provide executable examples of best practices and serve as a starting point containing the software, its documentation, operating manuals, source code, and platform and architecture specifications."
+          "@value": "Reference software, or applications, provide executable examples of best practices and serve as a starting point containing the software, its documentation, operating manuals, source code, and platform and architecture specifications.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4752,12 +5494,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Register"
+          "@value": "Register",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "In the context of health care, a list of health service users compiled for the purposes of tracking care, aggregating activities or health outcomes, or identifying health service users who need specific interventions."
+          "@value": "In the context of health care, a list of health service users compiled for the purposes of tracking care, aggregating activities or health outcomes, or identifying health service users who need specific interventions.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Rule register-is-not-registry: In PHC, a Register is a list of health service users compiled for tracking care, aggregating activities or health outcomes, or identifying health service users who need specific interventions (cohort tracking log). It must NOT be conflated with Registry (dpi-h-ra/registry), which is an HIE master index.",
@@ -4786,12 +5530,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Registry"
+          "@value": "Registry",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health-care facilities, health service users, products and/or health workforce using a predefined canonical minimum data set."
+          "@value": "A governed, authoritative and centralized information system that captures, stores and maintains the unique attributes and identifiers of health-care facilities, health service users, products and/or health workforce using a predefined canonical minimum data set.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives. Rule register-is-not-registry: Registry refers to a governed, authoritative centralized information system (HIE master index of facilities, health service users, products, or health workforce) and matches dpi-h-ra/registry, distinct from a clinical cohort Register.",
@@ -4819,11 +5565,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Request for comments"
+          "@value": "Request for comments",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "RFC"
+        {
+          "@value": "RFC",
+          "@language": "en"
+        }
       ],
       "skos:notation": "RFC",
       "skos:scopeNote": "Used in the handbook text without an inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -4838,7 +5588,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Requirements"
+          "@value": "Requirements",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. closeMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Table 1, component 8): \"A high-level list of core functions and capabilities that the system must have to meet the end users’ needs and achieve tasks within the business process.\" Agent draft for review (dth-phc#1): Documented statements of system capabilities, behaviours, and quality attributes needed by stakeholders and end-users, comprising both functional requirements and non-functional requirements.",
@@ -4883,12 +5634,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Rule"
+          "@value": "Rule",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "In the context of a decision-support table, each rule contains input and output entries. The input entries are the condition, and the output entries are the conclusion of the rule. If each input entry (condition) is satisfied, then the rule is satisfied, and the decision result contains the output entries (conclusion) of this rule (22)."
+          "@value": "In the context of a decision-support table, each rule contains input and output entries. The input entries are the condition, and the output entries are the conclusion of the rule. If each input entry (condition) is satisfied, then the rule is satisfied, and the decision result contains the output entries (conclusion) of this rule (22).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -4928,7 +5681,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Scheduling Logic"
+          "@value": "Scheduling Logic",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. closeMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Section 6.3): \"scheduling logic to facilitate the digital tracking of clients and ensure that appropriate services are provided in a timely manner according to clinical protocols.\" Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) component specifying rules and timing intervals for follow-up visits, immunizations, laboratory tests, and care reminders across a longitudinal care pathway.",
@@ -4969,12 +5723,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Sexually transmitted infection"
+          "@value": "Sexually transmitted infection",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "STI",
-        "STIs"
+        {
+          "@value": "STI",
+          "@language": "en"
+        },
+        {
+          "@value": "STIs",
+          "@language": "en"
+        }
       ],
       "skos:notation": "STI",
       "skos:scopeNote": "Used in Figure 14 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -4989,11 +5750,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Short message service"
+          "@value": "Short message service",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "SMS"
+        {
+          "@value": "SMS",
+          "@language": "en"
+        }
       ],
       "skos:notation": "SMS",
       "skos:scopeNote": "Used in the handbook text without an inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -5008,16 +5773,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "SMART Guidelines"
+          "@value": "SMART Guidelines",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "SMART",
-        "Standards-based, machine-readable, adaptive, requirements-based and testable"
+        {
+          "@value": "SMART",
+          "@language": "en"
+        },
+        {
+          "@value": "Standards-based, machine-readable, adaptive, requirements-based and testable",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations. They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity. SMART Guidelines serve as a starting point and as foundational specifications to advance the development of robust person-centred digital systems. These specifications are software-agnostic, context-agnostic, and are applicable to all levels of digital maturity (10,23)."
+          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, and Testable Guidelines are recommended digital capabilities, health and data content aligned with normative recommendations. They represent packages of comprehensive documentation and reusable digital health components (e.g. health content, interoperability standards, code libraries, algorithms, technical and operational specifications) that facilitate country adaptation and adoption of clinical and public health protocols, health systems strengthening recommendations, and data and interoperability standards into digital health information systems with fidelity. SMART Guidelines serve as a starting point and as foundational specifications to advance the development of robust person-centred digital systems. These specifications are software-agnostic, context-agnostic, and are applicable to all levels of digital maturity (10,23).",
+          "@language": "en"
         }
       ],
       "skos:notation": "SMART",
@@ -5049,14 +5822,27 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)"
+          "@value": "Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "SNOMED-CT",
-        "SNOMED CT",
-        "SNOMED",
-        "CT"
+        {
+          "@value": "SNOMED-CT",
+          "@language": "en"
+        },
+        {
+          "@value": "SNOMED CT",
+          "@language": "en"
+        },
+        {
+          "@value": "SNOMED",
+          "@language": "en"
+        },
+        {
+          "@value": "CT",
+          "@language": "en"
+        }
       ],
       "skos:notation": "SNOMED-CT",
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to smart-ra DPI-H RA glossary (dpi-h-ra), a candidate there too: \"Systematized Nomenclature of Medicine Clinical Terms is a structured clinical terminology standard for use in electronic health records.\" Agent draft for review (dth-phc#1): Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT): comprehensive, multilingual clinical healthcare terminology used for consistent representation of clinical content in electronic health records.",
@@ -5095,13 +5881,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Systematized Nomenclature of Medicine-Global Patient Set"
+          "@value": "Systematized Nomenclature of Medicine-Global Patient Set",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "SNOMED-GPS",
-        "SNOMED GPS",
-        "GPS"
+        {
+          "@value": "SNOMED-GPS",
+          "@language": "en"
+        },
+        {
+          "@value": "SNOMED GPS",
+          "@language": "en"
+        },
+        {
+          "@value": "GPS",
+          "@language": "en"
+        }
       ],
       "skos:notation": "SNOMED-GPS",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5126,13 +5922,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Software Engineer"
+          "@value": "Software Engineer",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Software engineer",
-        "Software Developer",
-        "Developer"
+        {
+          "@value": "Software engineer",
+          "@language": "en"
+        },
+        {
+          "@value": "Software Developer",
+          "@language": "en"
+        },
+        {
+          "@value": "Developer",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): A technical expert who creates and adapts software solutions. Sometimes referred to as a developer (section 2.2).",
       "skos:broader": [
@@ -5176,15 +5982,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Software Platform"
+          "@value": "Software Platform",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Software platform"
+        {
+          "@value": "Software platform",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A software platform is a type of software in which multiple software “products” can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner."
+          "@value": "A software platform is a type of software in which multiple software “products” can be built, and it is advantageous to a software product because it allows for growth in functionality and usability in a more affordable and integrated manner.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -5215,12 +6026,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Solutions Architect"
+          "@value": "Solutions Architect",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Solutions architect",
-        "Enterprise Architect"
+        {
+          "@value": "Solutions architect",
+          "@language": "en"
+        },
+        {
+          "@value": "Enterprise Architect",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Someone who designs the overall technical structure of the system, making sure all the parts fit together and can connect with other digital health systems (section 2.2).",
       "skos:broader": [
@@ -5264,12 +6082,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Special Programme of Research, Development and Research Training in Human Reproduction (HRP)"
+          "@value": "Special Programme of Research, Development and Research Training in Human Reproduction (HRP)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "HRP",
-        "UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction"
+        {
+          "@value": "HRP",
+          "@language": "en"
+        },
+        {
+          "@value": "UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction",
+          "@language": "en"
+        }
       ],
       "skos:notation": "HRP",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction (HRP): co-sponsoring programme within WHO contributing to SMART Guidelines and Digital Adaptation Kits for sexual, reproductive, maternal and newborn health.",
@@ -5295,12 +6120,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Standard operating procedure"
+          "@value": "Standard operating procedure",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "SOP",
-        "SOPs"
+        {
+          "@value": "SOP",
+          "@language": "en"
+        },
+        {
+          "@value": "SOPs",
+          "@language": "en"
+        }
       ],
       "skos:notation": "SOP",
       "skos:scopeNote": "Used in the handbook text without an inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -5315,12 +6147,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Supervisor"
+          "@value": "Supervisor",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Health facility manager",
-        "Facility supervisor"
+        {
+          "@value": "Health facility manager",
+          "@language": "en"
+        },
+        {
+          "@value": "Facility supervisor",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Health facility in-charge, clinical supervisor or district primary health care manager who oversees service delivery, data quality, staff training, legacy system phase-out and electronic data-use culture (sections 1.1, 3.1, 5.1, 6.4, 6.5).",
       "skos:broader": [
@@ -5364,12 +6203,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Sustainable Development Goals"
+          "@value": "Sustainable Development Goals",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "SDG",
-        "SDGs"
+        {
+          "@value": "SDG",
+          "@language": "en"
+        },
+        {
+          "@value": "SDGs",
+          "@language": "en"
+        }
       ],
       "skos:notation": "SDG",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5384,16 +6230,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Systems Architecture"
+          "@value": "Systems Architecture",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Systems architecture",
-        "System Architecture"
+        {
+          "@value": "Systems architecture",
+          "@language": "en"
+        },
+        {
+          "@value": "System Architecture",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "The technical framework of the system depicted in a conceptual model that defines how the system is structured and how its elements are connected."
+          "@value": "The technical framework of the system depicted in a conceptual model that defines how the system is structured and how its elements are connected.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -5427,12 +6281,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Systolic Blood Pressure (SBP)"
+          "@value": "Systolic Blood Pressure (SBP)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "SBP",
-        "Systolic Blood Pressure"
+        {
+          "@value": "SBP",
+          "@language": "en"
+        },
+        {
+          "@value": "Systolic Blood Pressure",
+          "@language": "en"
+        }
       ],
       "skos:notation": "SBP",
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Systolic blood pressure (SBP): peak arterial blood pressure during cardiac contraction, captured as a core clinical data element and evaluated alongside diastolic blood pressure (DBP) in clinical decision support rules.",
@@ -5469,15 +6330,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Technical Debt"
+          "@value": "Technical Debt",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Technical debt"
+        {
+          "@value": "Technical debt",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Technical debt in software development and systems architecture describes the risk of taking shortcuts and making short-term fixes, which later require costly revisions and add-ons; rather than investing in carefully designed, robust solutions, which may cost more upfront, but have lower maintenance and feature development costs over time (11)."
+          "@value": "Technical debt in software development and systems architecture describes the risk of taking shortcuts and making short-term fixes, which later require costly revisions and add-ons; rather than investing in carefully designed, robust solutions, which may cost more upfront, but have lower maintenance and feature development costs over time (11).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -5506,13 +6372,23 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Technology Partner"
+          "@value": "Technology Partner",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Technology partner",
-        "Vendor",
-        "Software Vendor"
+        {
+          "@value": "Technology partner",
+          "@language": "en"
+        },
+        {
+          "@value": "Vendor",
+          "@language": "en"
+        },
+        {
+          "@value": "Software Vendor",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): An internal or external software development team or vendor organization responsible for configuring, building, testing, deploying and maintaining the PCPOSS software (sections 2.2, 4.1, 5.1.2).",
       "skos:broader": [
@@ -5556,7 +6432,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Terminologies"
+          "@value": "Terminologies",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Glossary): \"For clinical care, terminologies are structured vocabularies covering health-related concepts – such as diseases, diagnoses, laboratory tests and treatments – to enable the storage, analysis and exchange of data in a consistent and standard way (8).\" Agent draft for review (dth-phc#1): Structured vocabularies of clinical and health terms (such as SNOMED-CT and LOINC) that provide standardized meaning to concepts recorded and exchanged across digital health systems.",
@@ -5602,11 +6479,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "The Open Group Architecture Framework"
+          "@value": "The Open Group Architecture Framework",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "TOGAF"
+        {
+          "@value": "TOGAF",
+          "@language": "en"
+        }
       ],
       "skos:notation": "TOGAF",
       "skos:scopeNote": "Expanded in the text (section 4.4), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5626,17 +6507,28 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "To-Be"
+          "@value": "To-Be",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "To-be",
-        "To-Be Process",
-        "Future State"
+        {
+          "@value": "To-be",
+          "@language": "en"
+        },
+        {
+          "@value": "To-Be Process",
+          "@language": "en"
+        },
+        {
+          "@value": "Future State",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "The determined future state (also see as-is)."
+          "@value": "The determined future state (also see as-is).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -5665,15 +6557,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Trigger Event"
+          "@value": "Trigger Event",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Trigger event"
+        {
+          "@value": "Trigger event",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "An event recorded in the system that will start the execution of relevant subsequent operations."
+          "@value": "An event recorded in the system that will start the execution of relevant subsequent operations.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -5708,11 +6605,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Tuberculosis"
+          "@value": "Tuberculosis",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "TB"
+        {
+          "@value": "TB",
+          "@language": "en"
+        }
       ],
       "skos:notation": "TB",
       "skos:scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -5727,11 +6628,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "United Nations Children's Fund"
+          "@value": "United Nations Children's Fund",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UNICEF"
+        {
+          "@value": "UNICEF",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UNICEF",
       "skos:scopeNote": "Named in the acknowledgements and text; expansion supplied for review. A candidate: no definition has been written.",
@@ -5746,11 +6651,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Unified Code for Units of Measure"
+          "@value": "Unified Code for Units of Measure",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UCUM"
+        {
+          "@value": "UCUM",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UCUM",
       "skos:scopeNote": "Expanded in Annex 8 (Form data mapping guide), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5765,11 +6674,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Unified Modeling Language"
+          "@value": "Unified Modeling Language",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UML"
+        {
+          "@value": "UML",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UML",
       "skos:scopeNote": "Expanded in the references, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5784,11 +6697,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "United Nations Population Fund"
+          "@value": "United Nations Population Fund",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UNFPA"
+        {
+          "@value": "UNFPA",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UNFPA",
       "skos:scopeNote": "Expanded in the acknowledgements, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5803,11 +6720,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Universal health coverage"
+          "@value": "Universal health coverage",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UHC"
+        {
+          "@value": "UHC",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UHC",
       "skos:scopeNote": "Expanded in Figure 2 (Chapter 1), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5827,16 +6748,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Use Case"
+          "@value": "Use Case",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Use case",
-        "User Scenario"
+        {
+          "@value": "Use case",
+          "@language": "en"
+        },
+        {
+          "@value": "User Scenario",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A use case is an example scenario of how the end-user will use the system."
+          "@value": "A use case is an example scenario of how the end-user will use the system.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -5873,16 +6802,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "User Acceptance Testing (UAT)"
+          "@value": "User Acceptance Testing (UAT)",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UAT",
-        "User acceptance testing"
+        {
+          "@value": "UAT",
+          "@language": "en"
+        },
+        {
+          "@value": "User acceptance testing",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "User acceptance testing (UAT) is conducted to see whether the end-users are satisfied with the end product (24)."
+          "@value": "User acceptance testing (UAT) is conducted to see whether the end-users are satisfied with the end product (24).",
+          "@language": "en"
         }
       ],
       "skos:notation": "UAT",
@@ -5920,11 +6857,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "User experience"
+          "@value": "User experience",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UX"
+        {
+          "@value": "UX",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UX",
       "skos:scopeNote": "Expanded in section 4.3, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5944,11 +6885,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "User interface"
+          "@value": "User interface",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "UI"
+        {
+          "@value": "UI",
+          "@language": "en"
+        }
       ],
       "skos:notation": "UI",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -5963,16 +6908,24 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "User Persona"
+          "@value": "User Persona",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "User persona",
-        "Generic Persona"
+        {
+          "@value": "User persona",
+          "@language": "en"
+        },
+        {
+          "@value": "Generic Persona",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "A generic or archetypical profile of an end-user that is representative of a single type of end-user."
+          "@value": "A generic or archetypical profile of an end-user that is representative of a single type of end-user.",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -6012,11 +6965,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "User Researcher"
+          "@value": "User Researcher",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "User researcher"
+        {
+          "@value": "User researcher",
+          "@language": "en"
+        }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A not found (dth-phc#6): no definition in smart-ra, dth-hrh, dth-pc, dth-sc or the WHO publications in who-iris; an editor picks B or C. Agent draft for review (dth-phc#1): Someone who studies how health workers and other users actually work, through interviews and observations, to make sure the system fits their real-world context (section 2.2).",
       "skos:broader": [
@@ -6060,7 +7017,8 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "User Scenario"
+          "@value": "User Scenario",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Not in the handbook text. Option A found (dth-phc#6): defined in another cited source, linked by SKOS match and quoted here; not adopted. exactMatch to Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems. Geneva: World Health Organization; 2024. (Table 1, component 3): \"Narratives that describe how the different personas may interact with each other. The user scenarios are only illustrative and are intended to give an idea of a typical workflow.\" Agent draft for review (dth-phc#1): L2 Digital Adaptation Kit (DAK) narrative component describing how generic personas interact with the digital system during a specific care encounter or workflow.",
@@ -6100,15 +7058,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "User Story"
+          "@value": "User Story",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "User story"
+        {
+          "@value": "User story",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3)."
+          "@value": "Captures a long list of features from an end-user’s perspective. It describes who the end-user is, with their feature wants or needs, and the reason for that want or need (see section 3.2.3).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -6154,11 +7117,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Web Accessibility Initiative"
+          "@value": "Web Accessibility Initiative",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "WAI"
+        {
+          "@value": "WAI",
+          "@language": "en"
+        }
       ],
       "skos:notation": "WAI",
       "skos:scopeNote": "Expanded in the references, which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -6173,12 +7140,19 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "WHO Family of International Classifications and Terminologies"
+          "@value": "WHO Family of International Classifications and Terminologies",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "WHO-FIC",
-        "FIC"
+        {
+          "@value": "WHO-FIC",
+          "@language": "en"
+        },
+        {
+          "@value": "FIC",
+          "@language": "en"
+        }
       ],
       "skos:notation": "WHO-FIC",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -6207,11 +7181,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "WHO four-symptom screen"
+          "@value": "WHO four-symptom screen",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "W4SS"
+        {
+          "@value": "W4SS",
+          "@language": "en"
+        }
       ],
       "skos:notation": "W4SS",
       "skos:scopeNote": "Used in Figure 13 without inline expansion; expansion supplied for review. A candidate: no definition has been written.",
@@ -6226,15 +7204,20 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Wireframes"
+          "@value": "Wireframes",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "Wireframe"
+        {
+          "@value": "Wireframe",
+          "@language": "en"
+        }
       ],
       "skos:definition": [
         {
-          "@value": "Low fidelity outlines that depict the overall design ideas and flow of the final product (see section 4.3)."
+          "@value": "Low fidelity outlines that depict the overall design ideas and flow of the final product (see section 4.3).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -6260,12 +7243,14 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Workflow"
+          "@value": "Workflow",
+          "@language": "en"
         }
       ],
       "skos:definition": [
         {
-          "@value": "The sequence of activities from one task to another (see section 3.3)."
+          "@value": "The sequence of activities from one task to another (see section 3.3).",
+          "@language": "en"
         }
       ],
       "skos:scopeNote": "Handbook definition, quoted. Open: not adopted, nothing chosen between alternatives.",
@@ -6305,11 +7290,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "World Health Organization"
+          "@value": "World Health Organization",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "WHO"
+        {
+          "@value": "WHO",
+          "@language": "en"
+        }
       ],
       "skos:notation": "WHO",
       "skos:scopeNote": "Named in the handbook's abbreviations table (sec-001-abbreviations.md), which gives the expansion used as prefLabel. A candidate: no definition has been written.",
@@ -6324,11 +7313,15 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "World Wide Web Consortium"
+          "@value": "World Wide Web Consortium",
+          "@language": "en"
         }
       ],
       "skos:altLabel": [
-        "W3C"
+        {
+          "@value": "W3C",
+          "@language": "en"
+        }
       ],
       "skos:notation": "W3C",
       "skos:scopeNote": "Named in Table 4 (section 4.4); expansion supplied for review. A candidate: no definition has been written.",

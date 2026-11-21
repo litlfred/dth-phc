@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pers-technology-partner</title>
+<link rel="alternate" type="application/ld+json" href="pers-technology-partner.jsonld">
+<link rel="canonical" href="../../../../en/dth-phc/#pers:technology-partner">
+<script type="application/ld+json">
+{
+  "@context": [
+    "https://worldhealthorganization.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://worldhealthorganization.github.io/dth-phc/v0/",
+      "smart-base": "https://litlfred.github.io/smart-base/v0/ns/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/pers-technology-partner",
+  "@type": [
+    "smart-base:Persona"
+  ],
+  "label": "pers:technology-partner",
+  "kind": "persona",
+  "title": "Technology partner (vendor)",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch02-sec-008-targeted-users"
+  ],
+  "text": "pers-technology-partner.md",
+  "meta": {
+    "title": "Technology partner (vendor)",
+    "personaType": "organisation",
+    "bpmnRoleId": "pers:technology-partner",
+    "bpmnLanes": [
+      {
+        "process": "bp:pcposs-implementation-lifecycle",
+        "processId": "Process_PcpossImplementationLifecycle",
+        "laneId": "Lane-Lifecycle-Tech",
+        "bpmnFile": "processes/pcposs-implementation-lifecycle.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch02-how-to-use/bp-pcposs-implementation-lifecycle.bpmn",
+        "ref": "processes/pcposs-implementation-lifecycle.bpmn#Lane-Lifecycle-Tech"
+      },
+      {
+        "process": "bp:design-and-adaptation",
+        "processId": "Process_DesignAndAdaptation",
+        "laneId": "Lane-Ch4-Engineer",
+        "bpmnFile": "processes/design-and-adaptation.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch04-design-and-adaptation/bp-design-and-adaptation.bpmn",
+        "ref": "processes/design-and-adaptation.bpmn#Lane-Ch4-Engineer"
+      },
+      {
+        "process": "bp:training-testing-and-roll-out",
+        "processId": "Process_TrainingTestingAndRollOut",
+        "laneId": "Lane-Ch5-Engineer",
+        "bpmnFile": "processes/training-testing-and-roll-out.bpmn",
+        "companionBpmnFile": "folio/dth-phc/ch05-training-testing-rollout/bp-training-testing-and-roll-out.bpmn",
+        "ref": "processes/training-testing-and-roll-out.bpmn#Lane-Ch5-Engineer"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "agent-proposed by name, for working-group review (dth-phc#1)",
+      "elements": [
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-dec0373effd25980b70e45e852f0ff1f.jsonld",
+          "name": "Technology partner",
+          "type": "BusinessRole"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3bd1011d76c843fa860255f00a6aa68f.jsonld",
+          "name": "Vendor EHR Product",
+          "type": "ApplicationComponent"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-eac6523c694c551b968166656af2b2e6.jsonld",
+          "name": "Shared DTH Roles and Actors"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-0e97a3f6a8f545f5bd90e123c11a2545.jsonld",
+          "name": "Testing"
+        }
+      ]
+    },
+    "glossaryTerm": "dth-phc:technology-partner",
+    "source": {
+      "library": "9789240093362-eng",
+      "sections": [
+        "sec-008",
+        "sec-020",
+        "sec-024",
+        "sec-025",
+        "sec-026",
+        "sec-027",
+        "sec-028"
+      ],
+      "pdfPages": [
+        19,
+        50,
+        58,
+        61,
+        63,
+        65,
+        67
+      ],
+      "method": "p4b-persona-formalization",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-008-22-targeted-users.md",
+      "section": "sec-008-22-targeted-users",
+      "issue": "litlfred/dth-phc#1"
+    },
+    "smartBaseGenericPersona": "RelatedSectorServiceProvider",
+    "relatedBlocks": [
+      "bp:pcposs-implementation-lifecycle",
+      "bp:design-and-adaptation",
+      "bp:training-testing-and-roll-out"
+    ],
+    "roleId": "PHC-R-07",
+    "glossaryTerms": [
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/technology-partner",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/user-persona"
+    ]
+  },
+  "provenance": "authored"
+}
+</script>
+<link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-12kbfy851h3.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><script src="../../../../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../../../../assets/css/navbar-row.css"><script src="../../../../assets/js/navbar-row.js" defer></script><meta name="fa-search-exclude" content="true"><script src="../../../../assets/js/just-the-docs.js" defer></script><link rel="stylesheet" href="../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><link rel="stylesheet" href="../../../../assets/draft-banner-noscript.css"></noscript><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../../../../assets/css/docs-ui.css" data-fa-platform-ui><script src="../../../../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="../../../.."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="../../../.." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-12kbfy851h3","here":"/v0/papers/dth-phc/blocks/pers-technology-partner.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a></nav><div id="main-header" class="main-header fa-site-bar fa-page-bar"><a class="fa-page-bar-home" href="../../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a><div class="search" role="search"><div class="search-input-wrap"><input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search this site" autocomplete="off"><label for="search-input" class="search-label"><span class="sr-only">Search this site</span></label></div><div id="search-results" class="search-results"></div></div><span class="fa-page-bar-locale" data-fa-slot="locale"></span></div>
+<h1><code>https://worldhealthorganization.github.io/dth-phc/v0/papers/dth-phc/blocks/pers-technology-partner</code></h1>
+<p>Read it in context: <a href="../../../../en/dth-phc/#pers:technology-partner">en/dth-phc/#pers:technology-partner</a>.</p>
+<p>Machine-readable: <a href="pers-technology-partner.jsonld">pers-technology-partner.jsonld</a>.</p>
+</body>
+</html>

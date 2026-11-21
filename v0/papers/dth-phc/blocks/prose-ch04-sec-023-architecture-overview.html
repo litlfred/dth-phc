@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>prose-ch04-sec-023-architecture-overview</title>
+<link rel="alternate" type="application/ld+json" href="prose-ch04-sec-023-architecture-overview.jsonld">
+<link rel="canonical" href="../../../../en/dth-phc/#prose:ch04-sec-023-architecture-overview">
+<script type="application/ld+json">
+{
+  "@context": [
+    "https://worldhealthorganization.github.io/dth-phc/ns/context/v1.jsonld",
+    {
+      "@base": "https://worldhealthorganization.github.io/dth-phc/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "papers/dth-phc/blocks/prose-ch04-sec-023-architecture-overview",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "label": "prose:ch04-sec-023-architecture-overview",
+  "kind": "prose",
+  "title": "4.4 Design system architecture: enterprise architecture, interoperability and SMART Guidelines L3",
+  "uses": [
+    "papers/dth-phc/blocks/prose-ch04-sec-022-prototyping"
+  ],
+  "defines": [
+    "systems-architecture",
+    "enterprise-architecture"
+  ],
+  "text": "p-ch04-sec-023-architecture-overview.md",
+  "meta": {
+    "title": "4.4 Design system architecture: enterprise architecture, interoperability and SMART Guidelines L3",
+    "source": {
+      "library": "9789240093362-eng",
+      "section": "sec-023-44-design-system-architecture",
+      "file": "who-iris/library/9789240093362-eng/sections/sec-023-44-design-system-architecture.md",
+      "pdfPages": [
+        56
+      ],
+      "method": "l1-section-formalized"
+    },
+    "glossaryTerms": [
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/systems-architecture",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/architecture",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/architecture-building-blocks",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability-standards",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines",
+      "https://worldhealthorganization.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/solution-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+      "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
+    ],
+    "archimateElements": [
+      {
+        "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
+        "id": "id-ffa13a71f7575bd1ab3bf9496433cdcf",
+        "name": "Solutions architect"
+      },
+      {
+        "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+        "id": "id-8074acfb0a065da4b9b36ad88fc2a0d5",
+        "name": "Health informatician"
+      },
+      {
+        "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+        "id": "id-808925f4d2075d7b95e0651ebae00fcf",
+        "name": "Point-of-service application"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-80856538cbd44167a37b276e38c994c3.jsonld",
+        "id": "id-80856538cbd44167a37b276e38c994c3",
+        "name": "Interoperability Component"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-4fa548b8175c4937b46f9d11f9e974ae.jsonld",
+        "id": "id-4fa548b8175c4937b46f9d11f9e974ae",
+        "name": "Interoperability"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+        "id": "id-3f41de2b51c24041b08243bf72b140d1",
+        "name": "Terminology Service"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
+        "id": "id-c0d39bf67fe64f54b07fbeb9bf37d404",
+        "name": "Logical Information Model Registry"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+        "id": "id-f180ad44b2e94e2a9ee8523ffc900264",
+        "name": "Shared Health Record"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+        "id": "id-539b04ae45f147258d8253ae5cb87402",
+        "name": "Decision Support Engine"
+      }
+    ],
+    "archimateViews": [
+      {
+        "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+        "id": "id-bcf04de52bb05c3a932bbfdd36d7ae4f",
+        "name": "Person-centred point of service (PCPOSS)"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
+        "id": "id-8c5dd12b8d4e425184f6003d0513d569",
+        "name": "Interoperability Layer"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-3ad41900b17d47f78129e16d32ed2f38.jsonld",
+        "id": "id-3ad41900b17d47f78129e16d32ed2f38",
+        "name": "Components"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
+        "id": "id-cefde7ed0dcd47d3bb214657ac3e5725",
+        "name": "SHR"
+      },
+      {
+        "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+        "id": "id-4c98f10e0a244315acddaf5257c7822e",
+        "name": "CDS"
+      }
+    ],
+    "archimate": {
+      "model": "smart-ra 0.3.0-draft.1",
+      "basis": "formalized from WHO 9789240093362 (dth-phc#1 §3b/§3c)",
+      "elements": [
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-ffa13a71f7575bd1ab3bf9496433cdcf.jsonld",
+          "name": "Solutions architect"
+        },
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-8074acfb0a065da4b9b36ad88fc2a0d5.jsonld",
+          "name": "Health informatician"
+        },
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/elements/id-808925f4d2075d7b95e0651ebae00fcf.jsonld",
+          "name": "Point-of-service application"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-80856538cbd44167a37b276e38c994c3.jsonld",
+          "name": "Interoperability Component"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-4fa548b8175c4937b46f9d11f9e974ae.jsonld",
+          "name": "Interoperability"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-3f41de2b51c24041b08243bf72b140d1.jsonld",
+          "name": "Terminology Service"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-c0d39bf67fe64f54b07fbeb9bf37d404.jsonld",
+          "name": "Logical Information Model Registry"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-f180ad44b2e94e2a9ee8523ffc900264.jsonld",
+          "name": "Shared Health Record"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/elements/id-539b04ae45f147258d8253ae5cb87402.jsonld",
+          "name": "Decision Support Engine"
+        }
+      ],
+      "views": [
+        {
+          "iri": "https://worldhealthorganization.github.io/dth-phc/archimate/0.1.0-draft.1/views/id-bcf04de52bb05c3a932bbfdd36d7ae4f.jsonld",
+          "name": "Person-centred point of service (PCPOSS)"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-8c5dd12b8d4e425184f6003d0513d569.jsonld",
+          "name": "Interoperability Layer"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-3ad41900b17d47f78129e16d32ed2f38.jsonld",
+          "name": "Components"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-cefde7ed0dcd47d3bb214657ac3e5725.jsonld",
+          "name": "SHR"
+        },
+        {
+          "iri": "https://litlfred.github.io/smart-ra/archimate/0.3.0-draft.1/views/id-4c98f10e0a244315acddaf5257c7822e.jsonld",
+          "name": "CDS"
+        }
+      ]
+    },
+    "sourceOnly": "visual diagramming tool names (diagrams.net, Lucidchart, PowerPoint, Visio) are illustrative and not endorsed by WHO (dth-phc#1 §3b)"
+  },
+  "provenance": "authored"
+}
+</script>
+<link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-12kbfy851h3.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><script src="../../../../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../../../../assets/css/navbar-row.css"><script src="../../../../assets/js/navbar-row.js" defer></script><meta name="fa-search-exclude" content="true"><script src="../../../../assets/js/just-the-docs.js" defer></script><link rel="stylesheet" href="../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><link rel="stylesheet" href="../../../../assets/draft-banner-noscript.css"></noscript><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../../../../assets/css/docs-ui.css" data-fa-platform-ui><script src="../../../../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="../../../.."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="../../../.." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-12kbfy851h3","here":"/v0/papers/dth-phc/blocks/prose-ch04-sec-023-architecture-overview.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a></nav><div id="main-header" class="main-header fa-site-bar fa-page-bar"><a class="fa-page-bar-home" href="../../../../">Digital Transformation Handbook for Primary Health Care: optimizing person-centred point of service systems</a><div class="search" role="search"><div class="search-input-wrap"><input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search this site" autocomplete="off"><label for="search-input" class="search-label"><span class="sr-only">Search this site</span></label></div><div id="search-results" class="search-results"></div></div><span class="fa-page-bar-locale" data-fa-slot="locale"></span></div>
+<h1><code>https://worldhealthorganization.github.io/dth-phc/v0/papers/dth-phc/blocks/prose-ch04-sec-023-architecture-overview</code></h1>
+<p>Read it in context: <a href="../../../../en/dth-phc/#prose:ch04-sec-023-architecture-overview">en/dth-phc/#prose:ch04-sec-023-architecture-overview</a>.</p>
+<p>Machine-readable: <a href="prose-ch04-sec-023-architecture-overview.jsonld">prose-ch04-sec-023-architecture-overview.jsonld</a>.</p>
+</body>
+</html>
